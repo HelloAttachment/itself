@@ -1,0 +1,78 @@
+% The main file for my thesis
+% each \textbf{chapter} is included from this main file
+\documentclass[11pt,a4paper]{uolthesis}
+%\documentclass[11pt,a4paper]{article}
+%\usepackage{alltt,float}
+%\usepackage{lgrind}
+\usepackage{url}                    % for better handling of URL
+\usepackage{lscape}                 % allow to use \begin{landscape}, which makes a page in landscape.
+%\usepackage{subfigure}
+\usepackage{mathrsfs}
+\usepackage{graphicx}
+%\usepackage{caption2}
+\usepackage{epstopdf}
+\usepackage{apacite}
+\usepackage{natbib}
+\usepackage{amsmath}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{pgfgantt}
+
+\usetikzlibrary{shapes.arrows}
+
+\newcommand{\citepos}[1]{\citeauthor{#1}'s \citeyearpar{#1}}
+\newcommand{\citeposs}[1]{\citeauthor{#1}' \citeyearpar{#1}}
+
+%Modify the Figure Captionequ1-1:shannon
+%\renewcommand{\figurename}{Fig.}
+%set the figures captions
+%\captionstyle{hang} \setcaptionwidth{13cm}
+%**********************************************
+
+% correct bad hyphenation here
+\hyphenation{op-tical}
+% use less hyphenation
+\lesshyphenation
+% or totally stop it
+%\nohyphenation
+
+% include them only, as I am currently working on them
+%\includeonly{ch1/ch1}
+
+% begin the main document
+\begin{document}
+
+% include the title pages, acknowledgements, and author's publications
+\include{cover}
+
+%\include{format}
+% Generate table of contents and the list of figures, tables and abbreviations
+\tableofcontents
+%\include{toc}
+
+\setcounter{chapter}{-1}
+%\setcounter{page}{1}
+%\pagenumbering{arabic}
+
+% Start the main context
+\include{ch0/ch0}
+\include{ch1/ch1}
+\include{ch2/ch2}
+\include{ch3/ch3}
+\include{ch4/ch4}
+\include{ch5/ch5}
+\include{ch6/ch6}
+\include{ch7/ch7}
+
+\bibliographystyle{apacite}
+\bibliography{/home/masteradamo/academy/Cite.bib}
+
+% Start the appendix (inc. author's publications)
+\begin{appendix}
+%\include{app/app}
+\end{appendix}
+
+\end{document}
+% That's all of it!

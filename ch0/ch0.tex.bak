@@ -1,0 +1,62 @@
+\setcounter{page}{1}
+\pagenumbering{arabic}
+
+\chapter{Preamble: Stage 2 Report}
+This document presents the state of my PhD research as I enter the third year of my studies at Queen Mary.  My research project will be introduced properly in Chapter 1.  This preliminary chapter serves simply to introduce this document, which I hope will serve as the kernel of a full dissertation.  The text that follows has been designed to imi
+
+\section{Completed, Ongoing, and Future Publications}
+I've published five conference papers to date, with a potential forthcoming journal publication currently undergoing a first round of revision.  \cite{McGregor2014} explores the relationship between computational creativity and intellectual property law, and, in so doing, drew out some of the inherent difficulties in evaluating the output of a symbol manipulating system in terms creativity.  Related theoretical work was presented in \cite{McGregorEA2014}, where we address the philosophically problematic relationship between cognition and mental representation from the perspective of the analysis of creativity.  An idea central to my PhD work emerges from these two early papers: in order for the behaviour of an agent to be perceived as creative, the agent must offer an observer at least the facsimile of some sort of system of internal representations that dynamically interact with each other and with the environment to produce artefacts.
+
+\cite{McGregorEA2015} continues in a philosophical vein, raising questions about the emergence of the type of goal-directed behaviour that is often taken to be implicit in acts of creation.  Again with a thoroughly theoretical grounding, \cite{McGregorEA2015b} introduces an overview of some of the computational approaches that will be used to map between geometric representations of conceptual spaces by way of generating interesting new metaphors.  The idea of using the geometric properties of distributional semantic models to perform metaphoric mappings was also presented by me at a talk at ICLC this past summer, though the talk was accompanied by an abstract rather than a full paper, as seems to be the norm with theoretical linguistic conferences.  In a much more empirically oriented paper, \cite{AgresEA2015} outlines for the first time the methodology for building a high-dimensional statistical language model which can be used to project conceptual subspaces in a momentary, contextually informed way.  This practical work is pushed further in \cite{McGregorEA2015c}, with an in-depth description of the model and further experiments designed to reveal its ability to map from language to contextually nuanced conceptual spaces.
+
+My plan for the months ahead, in terms of research and corresponding publication, is to expand the headway made in the work published thus far towards the completion of two general tasks with a well established history in the computational linguistic literature: taxonomy recapitulation and analogy completion.  The general approach to analogy completion has already been outlined in \cite{McGregorEA2015b}, and I think we're getting close to the point where the model will be ready to handle some of the existing test sets for this type of task.  In terms of the construction of lexical ontologies, this kind of process is even more immediately inherent in the work already presented in \cite{AgresEA2015,McGregorEA2015c}.  With regard to these two anticipated results, I envision targeting some of the major summertime computational linguistic conferences such as ACL and EMNLP with highly empirical articles, and imagine there would also be ample material for one or two subsequent journal articles pending strong results.
+
+\section{Schedule for the Next 18 Months}
+
+\begin{figure}[h]
+	\scriptsize
+	\begin{center}
+		\begin{ganttchart}[vgrid={*{30}{white},*{1}{black,dotted},*{29}{white},*{1}{black,dotted},*{30}{white},*{1}{black,dotted},*{30}{white},*{1}{black,dotted},*{28}{white},*{1}{black,dotted},*{30}{white},*{1}{black,dotted},*{29}{white},*{1}{black,dotted},*{30}{white},*{1}{black,dotted},*{29}{white},*{1}{black,dotted},*{30}{white},*{1}{black,dotted},*{30}{white},*{1}{black,dotted},*{29}{white},*{1}{black,dotted}},hgrid,x unit=0.2mm,y unit chart=5mm,time slot format=isodate,link bulge=10,link tolerance=300,group peaks width=10,group peaks tip position=0,bar/.append style={fill=gray},bar label font=\scriptsize]{2015-10-01}{2017-03-30}
+			\gantttitlecalendar{year,month} \\
+			\ganttgroup{Parameters}{2015-10-01}{2016-01-01} \\
+			\ganttbar[name=Jagi]{JAGI}{2015-10-01}{2015-10-19} \\
+			\ganttbar[name=ParT]{Tweeking}{2015-10-01}{2015-12-01} \\
+			\ganttbar[name=ParF]{Formalising}{2015-11-01}{2016-01-01} \\
+
+			\ganttgroup{Taxonomy}{2015-10-01}{2016-03-01} \\
+			\ganttbar[name=TaxT]{Testing}{2015-10-01}{2016-02-15} \\
+			\ganttbar[name=TaxW]{Writing}{2016-02-01}{2016-03-01} \\
+
+			\ganttgroup{Analogy}{2015-10-19}{2016-06-01} \\
+			\ganttbar[name=AnaF]{Festival}{2015-10-19}{2015-11-14} \\
+			\ganttbar[name=AnaT]{Testing}{2016-02-01}{2016-05-15} \\
+			\ganttbar[name=AnaW]{Writing}{2016-05-01}{2016-06-01} \\
+
+			\ganttgroup{Metaphor}{2016-02-01}{2016-08-01} \\
+			\ganttbar[name=Deve]{Development}{2016-02-01}{2016-08-01} \\
+
+			\ganttgroup{Evaluation}{2016-04-01}{2016-11-01} \\
+			\ganttbar[name=EvaS]{Social Media}{2016-04-01}{2016-11-01} \\
+			\ganttbar[name=EvaH]{Subjects}{2016-06-01}{2016-10-01} \\
+
+			\ganttgroup{Writing}{2016-07-01}{2017-01-01} \\
+			\ganttbar[name=WriL]{Theory}{2016-07-01}{2016-10-01} \\
+			\ganttbar[name=WriI]{Meth \& Imp}{2016-09-01}{2016-11-01} \\
+			\ganttbar[name=WriR]{Results}{2016-10-01}{2016-12-01} \\
+			\ganttbar[name=WriE]{Eval \& Conc}{2016-11-01}{2017-01-01} \\
+			
+			\ganttlink{ParT}{ParF}
+			\ganttlink[link bulge=200,link mid=0.35]{ParF}{WriI}
+			\ganttlink{TaxT}{TaxW}
+			\ganttlink[link bulge=180]{TaxT}{WriR}
+			\ganttlink{AnaT}{AnaW}
+			\ganttlink[link bulge=30]{AnaT}{Deve}
+			\ganttlink[link bulge=90]{AnaT}{WriR}
+			\ganttlink[link bulge=105]{Deve}{EvaS}
+			\ganttlink[link bulge=105]{Deve}{EvaH}
+			\ganttlink{Deve}{WriI}
+			\ganttlink[link bulge=135]{EvaS}{WriE}
+			\ganttlink{EvaH}{WriE}
+		\end{ganttchart}	
+	\end{center}
+\end{figure}

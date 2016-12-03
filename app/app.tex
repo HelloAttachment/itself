@@ -1,0 +1,82 @@
+\chapter{Author's publications}
+
+% publications goes here
+
+\subsection*{Journal papers}
+\begin{enumerate}
+  \item \textbf{Y. Gao}, X. Chen, Z. Ying and C. G. Parini, ``Design and Performance
+Investigation of a Dual-element PIFA Array at 2.5 GHz for MIMO Terminals," \emph{IEEE Trans. on
+Antennas and Propagation}. (Revising)
+
+\end{enumerate}
+
+
+\subsection*{Conference papers}
+
+
+\begin{enumerate}
+  \item \textbf{Y. Gao}, X. Chen, Z. Ying and C. G. Parini , ``Further Investigation of a
+Dual-Element Diversity PIFA for MIMO Applications at 2.5 GHz Band," \emph{IEEE International
+Symposium on Antennas and Propagation (AP-S)} , Honolulu, Hawaii, USA  June, 2007. (Accepted)
+    
+\end{enumerate}
+
+\subsection*{Project report}
+\begin{enumerate}
+  \item X. Chen and \textbf{Y. Gao}, ``Final Report on Modelling of Difficult Environments,"
+  Galileo Advance Concept project final report (GAC/EUT/DT/219), 9th June - 31 October 2007.
+  
+\end{enumerate}
+
+
+
+\renewcommand{\thefigure}{B.\arabic{figure}}
+\chapter{Solutions for the Examples in Chapter 2}
+\label{examples_solutions}
+\section{Example 1: Antenna Spacing Effect}
+
+\textbf{Step 1:} Get the $H_{norm}H_{norm}^\dagger$, set $2{\pi}R/\lambda={\omega}_1$ and
+$2{\pi}(\overline{R})/\lambda={\omega}_2$ ($\lambda$ is the wavelength), so
+\begin{equation}
+H_{norm} = \frac{1}{\sqrt 2 }\left( {{\begin{array}{*{20}c}
+ {e^{ - j\omega _1 }} \hfill & {e^{ - j\omega _2 }} \hfill \\
+ {e^{ - j\omega _2 }} \hfill & {e^{ - j\omega _1 }} \hfill \\
+\end{array} }} \right)
+\end{equation}
+Note: $H_{norm}^\dagger=(\overline{H_{norm}})^T$ and $e^{j\theta}=cos\theta +jsin\theta$
+\begin{equation}
+\begin{array}{l}
+ H_{norm}H_{norm}^\dagger = \frac{1}{2}\left( {{\begin{array}{*{20}c}
+ {e^{ - j\omega _1 }} \hfill & {e^{ - j\omega _2 }} \hfill \\
+ {e^{ - j\omega _2 }} \hfill & {e^{ - j\omega _1 }} \hfill \\
+\end{array} }} \right)\left( {{\begin{array}{*{20}c}
+ {e^{j\omega _1 }} \hfill & {e^{j\omega _2 }} \hfill \\
+ {e^{j\omega _2 }} \hfill & {e^{j\omega _1 }} \hfill \\
+\end{array} }} \right) \\
+ = \frac{1}{2}\left( {{\begin{array}{*{20}c}
+ {1 + 1} \hfill & {e^{ - j(\omega _1 - \omega _2 )} + e^{ - j(\omega _1 -
+\omega _2 )}} \hfill \\
+ {e^{ - j(\omega _1 - \omega _2 )} + e^{ - j(\omega _1 - \omega _2 )}}
+\hfill & {1 + 1} \hfill \\
+\end{array} }} \right) \\
+ = \left( {{\begin{array}{*{20}c}
+ 1 \hfill & {\cos (\omega _1 - \omega _2 )} \hfill \\
+ {\cos (\omega _1 - \omega _2 )} \hfill & 1 \hfill \\
+\end{array} }} \right) \\
+ \end{array}
+\end{equation}
+\textbf{Step 2:} Get the eigenvalue of $H_{norm}H_{norm}^\dagger$, here set $\lambda$ as
+eigenvalue, then,
+\begin{equation}
+\left( {{\begin{array}{*{20}c}
+ {1 - \lambda } \hfill & {\cos (\omega _1 - \omega _2 )} \hfill \\
+ {\cos (\omega _1 - \omega _2 )} \hfill & {1 - \lambda } \hfill \\
+\end{array} }} \right) = 0
+\end{equation}
+and $\omega_1-\omega_2=2{\pi}R/\lambda-2{\pi}(\overline{R})/\lambda=-54^o$, so
+$\lambda=1{\pm}cos(\omega_1-\omega_2){\approx}1{\pm}0.59$. Hence, $\lambda_1=1.59$ and
+$\lambda_2=0.41$.
+
+
+
+

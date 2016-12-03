@@ -1,0 +1,29 @@
+\contentsline {chapter}{Abstract}{i}{section*.1}
+\contentsline {chapter}{Table of Contents}{ii}{chapter*.2}
+\contentsline {chapter}{\numberline {0}Introduction}{iv}{chapter.0}
+\contentsline {section}{\numberline {0.1}A Hypothesis}{vii}{section.0.1}
+\contentsline {section}{\numberline {0.2}Contributions to the Field}{viii}{section.0.2}
+\contentsline {section}{\numberline {0.3}Structure of The Dissertation}{x}{section.0.3}
+\contentsline {chapter}{\numberline {1}Background}{xii}{chapter.1}
+\contentsline {section}{\numberline {1.1}Computers and Creativity}{xii}{section.1.1}
+\contentsline {section}{\numberline {1.2}Minds and Spaces}{xiv}{section.1.2}
+\contentsline {section}{\numberline {1.3}Words and Concepts}{xv}{section.1.3}
+\contentsline {section}{\numberline {1.4}Computers and Language}{xvi}{section.1.4}
+\contentsline {chapter}{\numberline {2}Theoretical Foundation}{xix}{chapter.2}
+\contentsline {section}{\numberline {2.1}Concepts in Context}{xix}{section.2.1}
+\contentsline {section}{\numberline {2.2}A Literal, Dynamic Language Model}{xx}{section.2.2}
+\contentsline {section}{\numberline {2.3}The Geometry of Metaphor}{xxi}{section.2.3}
+\contentsline {chapter}{\numberline {3}Methodology}{xxiii}{chapter.3}
+\contentsline {section}{\numberline {3.1}A Lexical Base Model}{xxiii}{section.3.1}
+\contentsline {section}{\numberline {3.2}Taxonomy Recapitulation}{xxiv}{section.3.2}
+\contentsline {section}{\numberline {3.3}Analogy Completion}{xxv}{section.3.3}
+\contentsline {section}{\numberline {3.4}Metaphor Generation}{xxv}{section.3.4}
+\contentsline {chapter}{\numberline {4}Implementation and Results}{xxvi}{chapter.4}
+\contentsline {section}{\numberline {4.1}The Base Model and Projections}{xxvi}{section.4.1}
+\contentsline {section}{\numberline {4.2}Taxonomies}{xxvii}{section.4.2}
+\contentsline {section}{\numberline {4.3}Analogies}{xxviii}{section.4.3}
+\contentsline {chapter}{\numberline {5}Evaluation}{xxix}{chapter.5}
+\contentsline {section}{\numberline {5.1}Taxonomy and Analogy}{xxix}{section.5.1}
+\contentsline {section}{\numberline {5.2}Metaphor}{xxx}{section.5.2}
+\contentsline {chapter}{\numberline {6}Conclusion}{xxxi}{chapter.6}
+\contentsline {chapter}{References}{xxxii}{chapter*.8}
