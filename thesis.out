@@ -1,29 +1,30 @@
-\BOOKMARK [0][-]{section*.1}{Abstract}{}% 1
-\BOOKMARK [0][-]{chapter*.2}{Table of Contents}{}% 2
-\BOOKMARK [0][-]{chapter.0}{Introduction}{}% 3
-\BOOKMARK [1][-]{section.0.1}{A Hypothesis}{chapter.0}% 4
-\BOOKMARK [1][-]{section.0.2}{Contributions to the Field}{chapter.0}% 5
-\BOOKMARK [1][-]{section.0.3}{Structure of The Dissertation}{chapter.0}% 6
-\BOOKMARK [0][-]{chapter.1}{Background}{}% 7
-\BOOKMARK [1][-]{section.1.1}{Computers and Creativity}{chapter.1}% 8
-\BOOKMARK [1][-]{section.1.2}{Minds and Spaces}{chapter.1}% 9
-\BOOKMARK [1][-]{section.1.3}{Words and Concepts}{chapter.1}% 10
-\BOOKMARK [1][-]{section.1.4}{Computers and Language}{chapter.1}% 11
-\BOOKMARK [0][-]{chapter.2}{Theoretical Foundation}{}% 12
-\BOOKMARK [1][-]{section.2.1}{Concepts in Context}{chapter.2}% 13
-\BOOKMARK [1][-]{section.2.2}{A Literal, Dynamic Language Model}{chapter.2}% 14
-\BOOKMARK [1][-]{section.2.3}{The Geometry of Metaphor}{chapter.2}% 15
-\BOOKMARK [0][-]{chapter.3}{Methodology}{}% 16
-\BOOKMARK [1][-]{section.3.1}{A Lexical Base Model}{chapter.3}% 17
-\BOOKMARK [1][-]{section.3.2}{Taxonomy Recapitulation}{chapter.3}% 18
-\BOOKMARK [1][-]{section.3.3}{Analogy Completion}{chapter.3}% 19
-\BOOKMARK [1][-]{section.3.4}{Metaphor Generation}{chapter.3}% 20
-\BOOKMARK [0][-]{chapter.4}{Implementation and Results}{}% 21
-\BOOKMARK [1][-]{section.4.1}{The Base Model and Projections}{chapter.4}% 22
-\BOOKMARK [1][-]{section.4.2}{Taxonomies}{chapter.4}% 23
-\BOOKMARK [1][-]{section.4.3}{Analogies}{chapter.4}% 24
-\BOOKMARK [0][-]{chapter.5}{Evaluation}{}% 25
-\BOOKMARK [1][-]{section.5.1}{Taxonomy and Analogy}{chapter.5}% 26
-\BOOKMARK [1][-]{section.5.2}{Metaphor}{chapter.5}% 27
-\BOOKMARK [0][-]{chapter.6}{Conclusion}{}% 28
-\BOOKMARK [0][-]{chapter*.8}{References}{}% 29
+\BOOKMARK [0][-]{section*.1}{Abstract}{}
+\BOOKMARK [0][-]{section*.3}{Table of Contents}{}
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}
+\BOOKMARK [1][-]{section.1.1}{A Hypothesis}{chapter.1}
+\BOOKMARK [1][-]{section.1.2}{Contributions to the Field}{chapter.1}
+\BOOKMARK [1][-]{section.1.3}{Structure of The Dissertation}{chapter.1}
+\BOOKMARK [0][-]{chapter.2}{Background}{}
+\BOOKMARK [1][-]{section.2.1}{Computers, Creativity, and Making Meaning}{chapter.2}
+\BOOKMARK [1][-]{section.2.2}{Minds in a Material World}{chapter.2}
+\BOOKMARK [1][-]{section.2.3}{Minds and Spaces}{chapter.2}
+\BOOKMARK [1][-]{section.2.4}{Words and Concepts}{chapter.2}
+\BOOKMARK [1][-]{section.2.5}{Computers and Language}{chapter.2}
+\BOOKMARK [0][-]{chapter.3}{Theoretical Foundation}{}
+\BOOKMARK [1][-]{section.3.1}{Concepts in Context}{chapter.3}
+\BOOKMARK [1][-]{section.3.2}{A Literal, Dynamic Language Model}{chapter.3}
+\BOOKMARK [1][-]{section.3.3}{The Geometry of Metaphor}{chapter.3}
+\BOOKMARK [0][-]{chapter.4}{Methodology}{}
+\BOOKMARK [1][-]{section.4.1}{A Lexical Base Model}{chapter.4}
+\BOOKMARK [1][-]{section.4.2}{Taxonomy Recapitulation}{chapter.4}
+\BOOKMARK [1][-]{section.4.3}{Analogy Completion}{chapter.4}
+\BOOKMARK [1][-]{section.4.4}{Metaphor Generation}{chapter.4}
+\BOOKMARK [0][-]{chapter.5}{Implementation and Results}{}
+\BOOKMARK [1][-]{section.5.1}{The Base Model and Projections}{chapter.5}
+\BOOKMARK [1][-]{section.5.2}{Taxonomies}{chapter.5}
+\BOOKMARK [1][-]{section.5.3}{Analogies}{chapter.5}
+\BOOKMARK [0][-]{chapter.6}{Evaluation}{}
+\BOOKMARK [1][-]{section.6.1}{Taxonomy and Analogy}{chapter.6}
+\BOOKMARK [1][-]{section.6.2}{Metaphor}{chapter.6}
+\BOOKMARK [0][-]{chapter.7}{Conclusion}{}
+\BOOKMARK [0][-]{section*.10}{References}{}
