@@ -2,13 +2,33 @@
 The ambitious scope of this project requires a thorough grounding in the literature from a range of disciplines.  The risk in such an inclusive undertaking is that there are many opportunities for going astray.  The reward, a piece of empirical work that exemplifies the possibility of using computers to do theoretically significant research, seems to justify the risk, but only if the final product is well placed in the context of existing work in the area.  The following chapter will delineate the territory that this thesis seeks to explore, by way of a survey of the considerable canon of theoretical work relating to the problems of minds, concepts, and language as well as the increasingly substantial body of practical work on computational linguistics and its application to the modelling of creative language generation.
 
 \section{Computers, Creativity, and Making Meaning}
-At its heart, this is a project about how meaning comes about in a reality which, as scientists, we accept as being fundamentally materialist.  The question of the place of the mind -- the instrument of meaning making -- in relation to the realm of matter has been arguably the unifying theme of modern Western Philosophy, dating back to the \emph{cogito} of \cite{Descartes} and serving as the broad target of subsequent forays into empiricism \citep{Locke}, 
+At its heart, this is a project about how meaning comes about in a reality which, as scientists, we accept as being fundamentally materialist.  The question of the place of the mind -- the instrument of meaning making -- in relation to the realm of matter has been arguably the unifying theme of modern Western Philosophy, dating back to the \emph{cogito} of \cite{Descartes} and serving as the broad target of subsequent forays into empiricism \citep{Locke,Hume}, idealism \citep{Hegel,Kant}, phenomenology \citep{Husserl,Heidegger}, and the verity of metaphysics itself \citep{Wittgenstein}.  In the case of the last philosopher in particular, the project described here is concerned with what Wittgenstein has described as ``the act of meaning'', that process by which being in the world as a communicative agent somehow results in the emergence of intention from the 
 
-The recent trend in philosophy, not to mention in empirically fastidious fields such as cognitive science and psychology, has been towards a resolute reductionism, to such an extent that \cite{Rowlands} reports that in the current cognitive scientific milieu, ``even the word `Cartesian' is often used as a term of abuse,'' (p. 12).  Those thinkers who do indulge in dualist theories of mind -- and here \cite{Chalmers1996} and \cite{Fodor2008} are two of the most notable examples -- 
+an evident \emph{creatio ex nihilo}.
 
-\footnote{Chalmers's ``philosophical zombies'' argument has proven particularly retrenchent here, though parallels between this and the earlier ``swampman'' scenario from \cite{Davidson} and the self-manifesting lion of \cite{Milikan} have been arguably underexplored in the literature.  The fact that thought experiments have proved so prodigious a source of ideas about the mind is in itself noteworthy, and is addressed in a certain respect in \citepos{Dennett} case against ``intuition pumps''.}
+The recent trend in philosophy, not to mention in empirically fastidious fields such as cognitive science and psychology, has been towards a resolute materialist reductionism, to such an extent that \cite{Rowlands} reports that in the current cognitive scientific milieu, ``even the word `Cartesian' is often used as a term of abuse,'' (p. 12).  Those thinkers who do indulge in dualist theories of mind -- and here \cite{Chalmers1996} and \cite{Fodor2008} are two of the most notable examples -- do so by means of subtle argumentation and elaborate analogy.\footnote{Chalmers's ``philosophical zombies'' argument has been particularly persistent here, though parallels between this and the earlier ``swampman'' scenario from \cite{Davidson} and the self-manifesting lion of \cite{Millikan} have been arguably underexplored in the literature.  The fact that thought experiments have proved so prodigious a source of ideas about the mind is in itself noteworthy, and is addressed in a certain respect in \citepos{Dennett} case against ``intuition pumps''.}  By and large, though, there is a broad acceptance that any compelling theory of mind should somehow 
 
-The debate that has emerged amongst those researchers interested in the nature of the mind in the place of the old question of mental substance is focused on the extent to which the mind can be considered as a kind of computer versus the degree to which the mind can only be understood as an emergent property of an agent deeply entangled with a dynamic and unpredictable environment.  In either 
+The debate that has emerged amongst those researchers interested in the nature of the mind in the place of the old question of mental substance is focused on the extent to which the mind can be considered as a kind of computer versus the degree to which the mind can only be understood as an emergent property of an agent deeply entangled with a dynamic and unpredictable environment.  On the one hand, \cite{Fodor} has argued for a combinatorial computer-like model of cognition characterised by a \emph{mentalese} through which atomic concepts can be composed into a presumably infinite and infinitely efficacious 
+
+On the other hand, \cite{Searle} has argued forcefully from an \emph{intentional stance} by which a mind is what it is because mental states are about things in the world, an intentionality which is necessarily intractable to a preprogrammed symbol manipulating system
+
+while \cite{Penrose} has elegantly imported the logical certitude of \citepos{Goedel} Uncertainty Principle to demonstrate the inconceivability of purely formal model of mind.
+
+has resulted in a productive if also occasionally acrimonious discourse \citep[see][for a particularly colourful 
+
+So the theoretical question which underlies the empirical research presented in this thesis regards the way in which meaning emerges in a universe of particles and signals.  This question is related to \citepos{Floridi} pursuit of a \emph{theory of strongly semantic information}---doubly so, in that, like Floridi, we will seek a quantitative approach to modelling the relationship between semantics and data, in the information theoretical tradition of \cite{Shannon}.  An early attempt to import technical insight from signal processing into the study of meaning can be found in \citepos{BarHillel}
+
+followed by \cite{Dretske}, who 
+
+With regard to this question concerning the emergence of meaning, creativity serves as a kind of watchword, a beacon to keep us faithful to the issue of how artefacts can be about ideas in the 
+
+we are concerned, fundamentally, with the aboutness of mental states, and likewise conscious of the pitfalls of trying to cash these states out as computations.
+
+The study of computational creativity in particular neatly aligns the 
+
+with the philosophical dilemma of the relationship between minds and computation as a broad
+
+Searle
 
 At stake here is, in at least small part, a definition of \emph{creativity} itself, and \cite{Colton} has pointed out that this term must be considered ``essentially contested,''
 
@@ -16,18 +36,38 @@ Nonetheless, the approach towards creativity
 
 and if we can discover a reasonably convincing computational approach to modelling creativity, then we will likewise have discovered the ways in which 
 
-\section{Minds in a Material World}
+\section{Words and Concepts in the Kingdom of Context}
+what is a concept?  \cite{Fodor} has endorsed a kind of \emph{atomism} in 
+
+\citep[cf][for a case against conceptual schema in general]{Davidson}
+
+The work presented in this thesis embraces the insights of Relevance Theory, which broadly postulates that 
+
+\cite{Carston} has described this 
+
+- Lakoff
+- Davidson
 
 
-what is a concept?  On the one hand, \cite{Fodor} has endorsed a kind of \emph{atomism} in 
 
-\section{Words in Context}
-As an empirical project, the work described in this thesis takes as its ground the 
+\section{Word Counting}
+Finally, the technical methodology of this project is grounded in recent and ongoing success in statistical approaches to language modelling.  The tradition of word-counting as a means towards extracting the semantic 
 
+which maps words to concepts traces its roots back at least to the work of \cite{Markov}, whose
 
-\section{Words as Statistics}
-Finally, the technical methodology of this project is firmly grounded in the 
+to such an extent that he resorted to tabulating the co-occurrences of characters in Pushkin's \emph{Eugene Onegin} by hand.
 
+Two post-millennial developments 
+
+the accretion of large-scale, widely available digitalised textual data, and the advent of computers with the processing power to handle data of this scale in a short enough time to facilitate rapidly developing empirical research.
+
+Notwithstanding \citepos{Chomsky} formidable case that the bulk of a language cannot be captured in numbers quantifying the relative situation of words, the fact remains that, when it comes to computational approaches to language, a matrix capturing the nature of some concordance or another remains more or less the only game in town.
+
+On the one hand, \cite{Chomsky} has made a formidable case against the idea that the
+
+which characterise a natural language could possibly be found in a matrix of statistics about the way that words co-occur with one another across some corpus, regardless of how comprehensive the data may be.
+
+On the other hand, in as much as computational approaches to language modelling are concerned, co-occurrence statistics are the main game in town.
 
 
 At its heart, this is a project about the potential for symbol manipulating machines to model creativity, and in particular the creative use of language.  Computational Creativity is a field that, as \cite{Wiggins2006b} puts it, uses ``computational means and methods'' to study ``behaviour exhibited by natural and artificial systems, which would be deemed creative if exhibited by humans,'' (p. 210).  At stake here is the problem of what creativity actually is, and, as \cite{Colton} have said, the concept of creativity must be \emph{essentially contested}.  Nonetheless, a basic position will be taken here that at the root of creativity is, in the spirit of \cite{Wittgenstein1953}, an act of meaning-making, by which a new way of conceptually representing something in the world comes about.
