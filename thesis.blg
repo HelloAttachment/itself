@@ -1,99 +1,53 @@
-This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: cover.aux
-A level-1 auxiliary file: ch0/ch0.aux
 A level-1 auxiliary file: ch1/ch1.aux
-A level-1 auxiliary file: ch2/ch2.aux
+A level-1 auxiliary file: ch2/Two.aux
 A level-1 auxiliary file: ch3/ch3.aux
 A level-1 auxiliary file: ch4/ch4.aux
 A level-1 auxiliary file: ch5/ch5.aux
 A level-1 auxiliary file: ch6/ch6.aux
 A level-1 auxiliary file: ch7/ch7.aux
-The style file: apacite.bst
-Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
-Reallocated global_strs (elt_size=20001) to 20 items from 10.
-Reallocated glb_str_end (elt_size=4) to 20 items from 10.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Database file #1: /home/masteradamo/academy/Cite.bib.bib
-Warning--I didn't find a database entry for "Calvino1983"
-Warning--I didn't find a database entry for "Kant"
-Warning--I didn't find a database entry for "Wittgenstein"
-Warning--I didn't find a database entry for "Colton"
-Warning--I didn't find a database entry for "Turner"
-Warning--I didn't find a database entry for "O'Donoghue"
-Warning--I didn't find a database entry for "Gervas"
-Warning--I didn't find a database entry for "Toivonen"
-Warning--I didn't find a database entry for "Rashel"
-Warning--I didn't find a database entry for "Cardosa"
-Warning--I didn't find a database entry for "Davidson"
-Warning--I didn't find a database entry for "Clark"
-Warning--I didn't find a database entry for "Gardenfors"
-Warning--I didn't find a database entry for "Widdows"
-Warning--I didn't find a database entry for "Fodor"
-Warning--I didn't find a database entry for "Putnam"
-Warning--I didn't find a database entry for "Varela"
-Warning--I didn't find a database entry for "Thompson"
-Warning--I didn't find a database entry for "Pattee"
-Warning--I didn't find a database entry for "Wheeler"
-Warning--I didn't find a database entry for "Gibson"
-Warning--I didn't find a database entry for "Peirce"
-Warning--I didn't find a database entry for "Black"
-Warning--I didn't find a database entry for "Lakoff"
-Warning--I didn't find a database entry for "Searle"
-Warning--I didn't find a database entry for "Carston"
-Warning--I didn't find a database entry for "Reimer"
-Warning--I didn't find a database entry for "Barsalou"
-Warning--I didn't find a database entry for "Allott"
-Warning--I didn't find a database entry for "GreffenstetteEA2011"
-Warning--I didn't find a database entry for "Mikolov"
-Warning--I didn't find a database entry for "Pennington"
-Warning--I didn't find a database entry for "Levy"
-apacite.bst [2013/07/21 v6.03 APA bibliography style]
-You've used 31 entries,
-            6951 wiz_defined-function locations,
-            1539 strings with 17306 characters,
-and the built_in function-call counts, 63443 in all, are:
-= -- 8261
-> -- 548
-< -- 2829
-+ -- 2811
-- -- 62
-* -- 3775
-:= -- 10683
-add.period$ -- 159
-call.type$ -- 31
-change.case$ -- 531
+I found no \bibstyle command---while reading file thesis.aux
+You've used 86 entries,
+            0 wiz_defined-function locations,
+            264 strings with 2098 characters,
+and the built_in function-call counts, 0 in all, are:
+= -- 0
+> -- 0
+< -- 0
++ -- 0
+- -- 0
+* -- 0
+:= -- 0
+add.period$ -- 0
+call.type$ -- 0
+change.case$ -- 0
 chr.to.int$ -- 0
-cite$ -- 62
-duplicate$ -- 1643
-empty$ -- 2474
-format.name$ -- 901
-if$ -- 12483
+cite$ -- 0
+duplicate$ -- 0
+empty$ -- 0
+format.name$ -- 0
+if$ -- 0
 int.to.chr$ -- 0
-int.to.str$ -- 93
+int.to.str$ -- 0
 missing$ -- 0
-newline$ -- 809
-num.names$ -- 252
-pop$ -- 1410
-preamble$ -- 1
-purify$ -- 123
+newline$ -- 0
+num.names$ -- 0
+pop$ -- 0
+preamble$ -- 0
+purify$ -- 0
 quote$ -- 0
-skip$ -- 4418
+skip$ -- 0
 stack$ -- 0
-substring$ -- 3079
-swap$ -- 932
-text.length$ -- 82
+substring$ -- 0
+swap$ -- 0
+text.length$ -- 0
 text.prefix$ -- 0
-top$ -- 1
-type$ -- 3632
+top$ -- 0
+type$ -- 0
 warning$ -- 0
-while$ -- 319
+while$ -- 0
 width$ -- 0
-write$ -- 1039
-(There were 33 warnings)
+write$ -- 0
+(There was 1 error message)
