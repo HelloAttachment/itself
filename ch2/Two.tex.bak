@@ -54,6 +54,7 @@ The work presented in this thesis embraces the insights of Relevance Theory, whi
 - Davidson
 
 \section{Words}
+Language is the point at which the abstractions surveyed in the last section make contact with palpable data.  Indeed, there are some thinkers who would go so far as to argue, as \cite{Dennett1996} seems to, that having language is a necessary condition for having what is thought of as a mind---\citepos{Fodor1975} notion of a language of thought, as described above, could likewise be construed as tantamount to such a stance.  The notion of language as either an impediment or an excipient to pure thought was essential to \cite{Russell1905,Russell1931}, and was also a primary theme for \citepos{Wittgenstein1922} earlier work.
 
 \section{Word Counting}
 Finally, the technical methodology of this project is grounded in recent and ongoing success in statistical approaches to language modelling.  The tradition of word-counting in order to predict sequences in language races its roots back to the fastidious work of \cite{Markov}, who tabulated co-occurrences of characters in Pushkin's \emph{Eugene Onegin} by hand.  The research described in this thesis is situated within the paradigm of \emph{distributional semantics} which has its roots in \citepos{Harris1954} work examining ``meaning as a function of distribution,'' (p. 155).  The guiding principle of this area of research is the idea that ``words that occur in the same contexts tend to have similar meaning,'' \citep[][p. 126]{Pantel2005}.  Other early work in the field
