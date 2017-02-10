@@ -1,4 +1,5 @@
-This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: cover.aux
 A level-1 auxiliary file: ch1/ch1.aux
@@ -8,46 +9,113 @@ A level-1 auxiliary file: ch4/ch4.aux
 A level-1 auxiliary file: ch5/ch5.aux
 A level-1 auxiliary file: ch6/ch6.aux
 A level-1 auxiliary file: ch7/ch7.aux
-I found no \bibstyle command---while reading file thesis.aux
-You've used 86 entries,
-            0 wiz_defined-function locations,
-            264 strings with 2098 characters,
-and the built_in function-call counts, 0 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 0
-:= -- 0
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
+The style file: apacite.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: Mega.bib.bib
+Warning--I didn't find a database entry for "Kant"
+Warning--I didn't find a database entry for "Wittgenstein"
+Warning--I didn't find a database entry for "Descartes"
+Warning--I didn't find a database entry for "Locke"
+Warning--I didn't find a database entry for "Hume"
+Warning--I didn't find a database entry for "Hegel"
+Warning--I didn't find a database entry for "Husserl"
+Warning--I didn't find a database entry for "Heidegger"
+Warning--I didn't find a database entry for "Rowlands"
+Warning--I didn't find a database entry for "Davidson"
+Warning--I didn't find a database entry for "Millikan"
+Warning--I didn't find a database entry for "Dennett"
+Warning--I didn't find a database entry for "Churchland"
+Warning--I didn't find a database entry for "Thompson"
+Warning--I didn't find a database entry for "Hutto"
+Warning--I didn't find a database entry for "Deacon"
+Warning--I didn't find a database entry for "Floridi"
+Warning--I didn't find a database entry for "Shannon"
+Warning--I didn't find a database entry for "BarHillel"
+Warning--I didn't find a database entry for "Dretske"
+Warning--I didn't find a database entry for "BarwiseEA"
+Warning--I didn't find a database entry for "Levine"
+Warning--I didn't find a database entry for "Pattee"
+Warning--I didn't find a database entry for "Tonnoni"
+Warning--I didn't find a database entry for "Koch"
+Warning--I didn't find a database entry for "Colton"
+Warning--I didn't find a database entry for "Fodor"
+Warning--I didn't find a database entry for "Carston"
+Warning--I didn't find a database entry for "Peirce"
+Warning--I didn't find a database entry for "Grice"
+Warning--I didn't find a database entry for "Markov"
+Warning--I didn't find a database entry for "Firth"
+Warning--I didn't find a database entry for "Chomsky"
+Warning--I didn't find a database entry for "Turner"
+Warning--I didn't find a database entry for "O'Donoghue"
+Warning--I didn't find a database entry for "Gervas"
+Warning--I didn't find a database entry for "Toivonen"
+Warning--I didn't find a database entry for "Rashel"
+Warning--I didn't find a database entry for "Cardosa"
+Warning--I didn't find a database entry for "Clark"
+Warning--I didn't find a database entry for "Gardenfors"
+Warning--I didn't find a database entry for "Widdows"
+Warning--I didn't find a database entry for "Putnam"
+Warning--I didn't find a database entry for "Varela"
+Warning--I didn't find a database entry for "Wheeler"
+Warning--I didn't find a database entry for "Gibson"
+Warning--I didn't find a database entry for "Black"
+Warning--I didn't find a database entry for "Lakoff"
+Warning--I didn't find a database entry for "Searle"
+Warning--I didn't find a database entry for "Reimer"
+Warning--I didn't find a database entry for "Barsalou"
+Warning--I didn't find a database entry for "Allott"
+Warning--I didn't find a database entry for "GreffenstetteEA2011"
+Warning--I didn't find a database entry for "Mikolov"
+Warning--I didn't find a database entry for "Pennington"
+Warning--I didn't find a database entry for "Levy"
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
+You've used 39 entries,
+            6951 wiz_defined-function locations,
+            1644 strings with 17816 characters,
+and the built_in function-call counts, 69481 in all, are:
+= -- 8964
+> -- 581
+< -- 2888
++ -- 2828
+- -- 76
+* -- 4024
+:= -- 11541
+add.period$ -- 185
+call.type$ -- 39
+change.case$ -- 656
 chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 0
-format.name$ -- 0
-if$ -- 0
+cite$ -- 78
+duplicate$ -- 1860
+empty$ -- 2967
+format.name$ -- 909
+if$ -- 13929
 int.to.chr$ -- 0
-int.to.str$ -- 0
+int.to.str$ -- 117
 missing$ -- 0
-newline$ -- 0
-num.names$ -- 0
-pop$ -- 0
-preamble$ -- 0
-purify$ -- 0
+newline$ -- 958
+num.names$ -- 310
+pop$ -- 1624
+preamble$ -- 1
+purify$ -- 159
 quote$ -- 0
-skip$ -- 0
+skip$ -- 4945
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
-text.length$ -- 0
+substring$ -- 3155
+swap$ -- 1070
+text.length$ -- 108
 text.prefix$ -- 0
-top$ -- 0
-type$ -- 0
+top$ -- 1
+type$ -- 4010
 warning$ -- 0
-while$ -- 0
+while$ -- 329
 width$ -- 0
-write$ -- 0
-(There was 1 error message)
+write$ -- 1169
+(There were 56 warnings)

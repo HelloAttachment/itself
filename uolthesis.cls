@@ -10,10 +10,10 @@
 %%%%%%%%%%%%%%% begin of packages %%%%%%%%%%%%%%%%%%%%%
 \RequirePackage{setspace}           % set double or single space
 
-\RequirePackage[%sort&compress,      % sort the ref
+%\RequirePackage[%sort&compress,      % sort the ref
 %                numbers,            % use number for cite
-                sectionbib          % to generate bibiography as section instead of chapter
-                ]{natbib}           % to get citation like [1,2] and [3-5]
+%                sectionbib          % to generate bibiography as section instead of chapter
+%                ]{natbib}           % to get citation like [1,2] and [3-5]
 %\RequirePackage{chapterbib}         % create bibiography for each chapter
 %\RequirePackage{hypernat}           % To solve the conflict between hyperref and natbib
 
