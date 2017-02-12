@@ -10,9 +10,10 @@
 \usepackage{mathrsfs}
 \usepackage{graphicx}
 %\usepackage{caption2}
-\usepackage{epstopdf}
+%\usepackage{epstopdf}
 %\usepackage{biblatex}[natbib]
-%\usepackage{apacite}
+%\usepackage{natbib}
+\usepackage[natbibapa]{apacite}
 %\usepackage{natbib}
 %\usepackage{biblatex}[natbib]
 \usepackage{amsmath}

@@ -1,1036 +1,1527 @@
 \begin{thebibliography}{}
 
-\bibitem [\protect \citeauthoryear {%
-Baroni%
-\ \BBA {} Lenci%
-}{%
-Baroni%
-\ \BBA {} Lenci%
-}{%
-{\protect \APACyear {2010}}%
+\bibitem[\protect\citeauthoryear{%
+\APACcitebtitle{Feldman2006}}{%
+\APACcitebtitle{Feldman2006}}{%
+{\protect\APACyear{{\protect\bibnodate{}}}}%
 }]{%
-BaroniEA2010b}
-\APACinsertmetastar {%
+Feldman2006}%
+\APACinsertmetastar{%
+Feldman2006}%
+
+\newblock
+\APACrefYear{\bibnodate{}}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Baroni%
+\ \BBA{} Lenci%
+}{%
+Baroni%
+\ \BBA{} Lenci%
+}{%
+{\protect\APACyear{2010}}%
+}]{%
 BaroniEA2010b}%
-\begin{APACrefauthors}%
+\APACinsertmetastar{%
+BaroniEA2010b}%
 Baroni, M.%
-\BCBT {}\ \BBA {} Lenci, A.%
-\end{APACrefauthors}%
+\BCBT{}\ \BBA{} Lenci, A.%
+%
 \unskip\
 \newblock
 \APACrefYearMonthDay{2010}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Distributional Memory: A General Framework for
-  Distributional Semantics} {Distributional memory: A general framework for
-  distributional semantics}.{\BBCQ}
+\BBOQ{}\APACrefatitle{Distributional Memory: A General Framework for
+  Distributional Semantics}{Distributional memory: A general framework for
+  distributional semantics}.\BBCQ{}
 \newblock
 \APACjournalVolNumPages{Computational Linguistics}{36}{4}{}.
 \PrintBackRefs{\CurrentBib}
 
-\bibitem [\protect \citeauthoryear {%
+\bibitem[\protect\citeauthoryear{%
 Baroni%
-\ \BBA {} Zamparelli%
+\ \BBA{} Zamparelli%
 }{%
 Baroni%
-\ \BBA {} Zamparelli%
+\ \BBA{} Zamparelli%
 }{%
-{\protect \APACyear {2010}}%
+{\protect\APACyear{2010}}%
 }]{%
-BaroniEA2010}
-\APACinsertmetastar {%
 BaroniEA2010}%
-\begin{APACrefauthors}%
+\APACinsertmetastar{%
+BaroniEA2010}%
 Baroni, M.%
-\BCBT {}\ \BBA {} Zamparelli, R.%
-\end{APACrefauthors}%
+\BCBT{}\ \BBA{} Zamparelli, R.%
+%
 \unskip\
 \newblock
 \APACrefYearMonthDay{2010}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Nouns are vectors, adjectives are matrices: Representing
-  adjective-noun constructions in semantic space} {Nouns are vectors,
-  adjectives are matrices: Representing adjective-noun constructions in
-  semantic space}.{\BBCQ}
+\BBOQ{}\APACrefatitle{Nouns are vectors, adjectives are matrices: Representing
+  adjective-noun constructions in semantic space}{Nouns are vectors, adjectives
+  are matrices: Representing adjective-noun constructions in semantic
+  space}.\BBCQ{}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the 2010 Conference on Empirical Methods
-  in Natural Language Processing} {Proceedings of the 2010 conference on
+\BIn{} \APACrefbtitle{Proceedings of the 2010 Conference on Empirical Methods
+  in Natural Language Processing}{Proceedings of the 2010 conference on
   empirical methods in natural language processing}\ (\BPG~1183-1193).
 \PrintBackRefs{\CurrentBib}
 
-\bibitem [\protect \citeauthoryear {%
+\bibitem[\protect\citeauthoryear{%
 Bengio%
 , Ducharme%
 , Vincent%
-\BCBL {}\ \BBA {} Jauvin%
+\BCBL{}\ \BBA{} Jauvin%
 }{%
 Bengio%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2003}}%
+\ \protect\BOthers{.}}{%
+{\protect\APACyear{2003}}%
 }]{%
-BengioEA2003}
-\APACinsertmetastar {%
 BengioEA2003}%
-\begin{APACrefauthors}%
+\APACinsertmetastar{%
+BengioEA2003}%
 Bengio, Y.%
 , Ducharme, R.%
 , Vincent, P.%
-\BCBL {}\ \BBA {} Jauvin, C.%
-\end{APACrefauthors}%
+\BCBL{}\ \BBA{} Jauvin, C.%
+%
 \unskip\
 \newblock
 \APACrefYearMonthDay{2003}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {A Neural Probabilistic Language Model} {A neural
-  probabilistic language model}.{\BBCQ}
+\BBOQ{}\APACrefatitle{A Neural Probabilistic Language Model}{A neural
+  probabilistic language model}.\BBCQ{}
 \newblock
 \APACjournalVolNumPages{Journal of Machine Learning Research}{3}{}{1137-1155}.
 \PrintBackRefs{\CurrentBib}
 
-\bibitem [\protect \citeauthoryear {%
+\bibitem[\protect\citeauthoryear{%
+Black%
+}{%
+Black%
+}{%
+{\protect\APACyear{1955}}%
+}]{%
+Black1955}%
+\APACinsertmetastar{%
+Black1955}%
+Black, M.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1955}{}{}.
+\newblock
+\BBOQ{}\APACrefatitle{Metaphor}{Metaphor}.\BBCQ{}
+\newblock
+\BIn{} \APACrefbtitle{Proceedings of the Aristotelian Society}{Proceedings of
+  the aristotelian society}\ (\BVOL~55, \BPG~273-294).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Black%
+}{%
+Black%
+}{%
+{\protect\APACyear{1977}}%
+}]{%
+Black1977}%
+\APACinsertmetastar{%
+Black1977}%
+Black, M.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1977}{}{}.
+\newblock
+\BBOQ{}\APACrefatitle{More about Metaphor}{More about metaphor}.\BBCQ{}
+\newblock
+\BIn{} A.~Ortony\ (\BED), \APACrefbtitle{Metaphor and Thought}{Metaphor and
+  thought}\ (\PrintOrdinal{2nd}\ \BEd, \BPG~19-41).
+\newblock
+\APACaddressPublisher{}{Cambridge University Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
 Blei%
 , Ng%
-\BCBL {}\ \BBA {} Jordan%
+\BCBL{}\ \BBA{} Jordan%
 }{%
 Blei%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2003}}%
+\ \protect\BOthers{.}}{%
+{\protect\APACyear{2003}}%
 }]{%
-BleiEA2003}
-\APACinsertmetastar {%
 BleiEA2003}%
-\begin{APACrefauthors}%
+\APACinsertmetastar{%
+BleiEA2003}%
 Blei, D\BPBI M.%
 , Ng, A\BPBI Y.%
-\BCBL {}\ \BBA {} Jordan, M\BPBI I.%
-\end{APACrefauthors}%
+\BCBL{}\ \BBA{} Jordan, M\BPBI I.%
+%
 \unskip\
 \newblock
 \APACrefYearMonthDay{2003}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Latent {D}irichlet Allocation} {Latent {D}irichlet
-  allocation}.{\BBCQ}
+\BBOQ{}\APACrefatitle{Latent {D}irichlet Allocation}{Latent {D}irichlet
+  allocation}.\BBCQ{}
 \newblock
 \APACjournalVolNumPages{Journal of Machine Learning Research}{3}{}{993-1022}.
 \PrintBackRefs{\CurrentBib}
 
-\bibitem [\protect \citeauthoryear {%
+\bibitem[\protect\citeauthoryear{%
 Boden%
 }{%
 Boden%
 }{%
-{\protect \APACyear {1990}}%
+{\protect\APACyear{1990}}%
 }]{%
-Boden1990}
-\APACinsertmetastar {%
 Boden1990}%
-\begin{APACrefauthors}%
+\APACinsertmetastar{%
+Boden1990}%
 Boden, M\BPBI A.%
-\end{APACrefauthors}%
+%
 \unskip\
 \newblock
 \APACrefYear{1990}.
 \newblock
-\APACrefbtitle {The Creative Mind: Myths and Mechanisms} {The creative mind:
+\APACrefbtitle{The Creative Mind: Myths and Mechanisms}{The creative mind:
   Myths and mechanisms}.
 \newblock
 \APACaddressPublisher{London}{Weidenfeld and Nicolson}.
 \PrintBackRefs{\CurrentBib}
 
-\bibitem [\protect \citeauthoryear {%
+\bibitem[\protect\citeauthoryear{%
 Calvino%
 }{%
 Calvino%
 }{%
-{\protect \APACyear {1983/1985}}%
+{\protect\APACyear{1983/1985}}%
 }]{%
-Calvino1983}
-\APACinsertmetastar {%
 Calvino1983}%
-\begin{APACrefauthors}%
+\APACinsertmetastar{%
+Calvino1983}%
 Calvino, I.%
-\end{APACrefauthors}%
+%
 \unskip\
 \newblock
 \APACrefYear{1983/1985}.
 \newblock
-\APACrefbtitle {Mr. Palomar} {Mr. palomar}.
+\APACrefbtitle{Mr. Palomar}{Mr. palomar}.
 \newblock
 \APACaddressPublisher{New York}{Harcourt Brace Jovanovich}.
 \newblock
 \APACrefnote{Translated by William Weaver}
 \PrintBackRefs{\CurrentBib}
 
-\bibitem [\protect \citeauthoryear {%
+\bibitem[\protect\citeauthoryear{%
 Chalmers%
 }{%
 Chalmers%
 }{%
-{\protect \APACyear {1996}}%
+{\protect\APACyear{1996}}%
 }]{%
-Chalmers1996}
-\APACinsertmetastar {%
 Chalmers1996}%
-\begin{APACrefauthors}%
+\APACinsertmetastar{%
+Chalmers1996}%
 Chalmers, D\BPBI J.%
-\end{APACrefauthors}%
+%
 \unskip\
 \newblock
 \APACrefYear{1996}.
 \newblock
-\APACrefbtitle {The Conscious Mind} {The conscious mind}.
+\APACrefbtitle{The Conscious Mind}{The conscious mind}.
 \newblock
 \APACaddressPublisher{}{Oxford University Press}.
 \PrintBackRefs{\CurrentBib}
 
-\bibitem [\protect \citeauthoryear {%
+\bibitem[\protect\citeauthoryear{%
 Chomsky%
 }{%
 Chomsky%
 }{%
-{\protect \APACyear {1959}}%
+{\protect\APACyear{1959}}%
 }]{%
-Chomsky1959}
-\APACinsertmetastar {%
 Chomsky1959}%
-\begin{APACrefauthors}%
+\APACinsertmetastar{%
+Chomsky1959}%
 Chomsky, N.%
-\end{APACrefauthors}%
+%
 \unskip\
 \newblock
 \APACrefYearMonthDay{1959}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {A Review of B. F. Skinner's Verbal Behavior} {A review
-  of b. f. skinner's verbal behavior}.{\BBCQ}
+\BBOQ{}\APACrefatitle{A Review of B. F. Skinner's Verbal Behavior}{A review of
+  b. f. skinner's verbal behavior}.\BBCQ{}
 \newblock
 \APACjournalVolNumPages{Language}{35}{1}{26-58}.
 \PrintBackRefs{\CurrentBib}
 
-\bibitem [\protect \citeauthoryear {%
+\bibitem[\protect\citeauthoryear{%
 Cimiano%
 , Staab%
-\BCBL {}\ \BBA {} Tane%
+\BCBL{}\ \BBA{} Tane%
 }{%
 Cimiano%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2003}}%
+\ \protect\BOthers{.}}{%
+{\protect\APACyear{2003}}%
 }]{%
-CimianoEA2003}
-\APACinsertmetastar {%
 CimianoEA2003}%
-\begin{APACrefauthors}%
+\APACinsertmetastar{%
+CimianoEA2003}%
 Cimiano, P.%
 , Staab, S.%
-\BCBL {}\ \BBA {} Tane, J.%
-\end{APACrefauthors}%
+\BCBL{}\ \BBA{} Tane, J.%
+%
 \unskip\
 \newblock
 \APACrefYearMonthDay{2003}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Automatic Acquisition of Taxonomies from Text: FCA meets
-  NLP} {Automatic acquisition of taxonomies from text: Fca meets nlp}.{\BBCQ}
+\BBOQ{}\APACrefatitle{Automatic Acquisition of Taxonomies from Text: FCA meets
+  NLP}{Automatic acquisition of taxonomies from text: Fca meets nlp}.\BBCQ{}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the ECML/PKDD Workshop on Adaptive Text
-  Extraction and Mining} {Proceedings of the ecml/pkdd workshop on adaptive
-  text extraction and mining}\ (\BPG~10-17).
+\BIn{} \APACrefbtitle{Proceedings of the ECML/PKDD Workshop on Adaptive Text
+  Extraction and Mining}{Proceedings of the ecml/pkdd workshop on adaptive text
+  extraction and mining}\ (\BPG~10-17).
 \PrintBackRefs{\CurrentBib}
 
-\bibitem [\protect \citeauthoryear {%
+\bibitem[\protect\citeauthoryear{%
 Clark%
 }{%
 Clark%
 }{%
-{\protect \APACyear {2015}}%
+{\protect\APACyear{2015}}%
 }]{%
-Clark2015}
-\APACinsertmetastar {%
 Clark2015}%
-\begin{APACrefauthors}%
+\APACinsertmetastar{%
+Clark2015}%
 Clark, S.%
-\end{APACrefauthors}%
+%
 \unskip\
 \newblock
 \APACrefYearMonthDay{2015}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Vector Space Models of Lexical Meaning} {Vector space
-  models of lexical meaning}.{\BBCQ}
+\BBOQ{}\APACrefatitle{Vector Space Models of Lexical Meaning}{Vector space
+  models of lexical meaning}.\BBCQ{}
 \newblock
-\BIn{} S.~Lappin\ \BBA {} C.~Fox\ (\BEDS), \APACrefbtitle {The Handbook of
-  Contemporary Semantic Theory.} {The handbook of contemporary semantic
-  theory.}
+\BIn{} S.~Lappin\ \BBA{} C.~Fox\ (\BEDS), \APACrefbtitle{The Handbook of
+  Contemporary Semantic Theory.}{The handbook of contemporary semantic theory.}
 \newblock
 \APACaddressPublisher{}{Wiley-Blackwell}.
 \PrintBackRefs{\CurrentBib}
 
-\bibitem [\protect \citeauthoryear {%
+\bibitem[\protect\citeauthoryear{%
 Coecke%
 , Sadrzadeh%
-\BCBL {}\ \BBA {} Clark%
+\BCBL{}\ \BBA{} Clark%
 }{%
 Coecke%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2011}}%
+\ \protect\BOthers{.}}{%
+{\protect\APACyear{2011}}%
 }]{%
-CoeckeEA2011}
-\APACinsertmetastar {%
 CoeckeEA2011}%
-\begin{APACrefauthors}%
+\APACinsertmetastar{%
+CoeckeEA2011}%
 Coecke, B.%
 , Sadrzadeh, M.%
-\BCBL {}\ \BBA {} Clark, S.%
-\end{APACrefauthors}%
+\BCBL{}\ \BBA{} Clark, S.%
+%
 \unskip\
 \newblock
 \APACrefYearMonthDay{2011}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Mathematical Foundations for a Compositional Distributed
-  Model of Meaning} {Mathematical foundations for a compositional distributed
-  model of meaning}.{\BBCQ}
+\BBOQ{}\APACrefatitle{Mathematical Foundations for a Compositional Distributed
+  Model of Meaning}{Mathematical foundations for a compositional distributed
+  model of meaning}.\BBCQ{}
 \newblock
 \APACjournalVolNumPages{Linguistic Analysis}{36}{1-4}{345--384}.
 \PrintBackRefs{\CurrentBib}
 
-\bibitem [\protect \citeauthoryear {%
+\bibitem[\protect\citeauthoryear{%
 Collobert%
-\ \BBA {} Weston%
+\ \BBA{} Weston%
 }{%
 Collobert%
-\ \BBA {} Weston%
+\ \BBA{} Weston%
 }{%
-{\protect \APACyear {2008}}%
+{\protect\APACyear{2008}}%
 }]{%
-CollobertEA2008}
-\APACinsertmetastar {%
 CollobertEA2008}%
-\begin{APACrefauthors}%
+\APACinsertmetastar{%
+CollobertEA2008}%
 Collobert, R.%
-\BCBT {}\ \BBA {} Weston, J.%
-\end{APACrefauthors}%
+\BCBT{}\ \BBA{} Weston, J.%
+%
 \unskip\
 \newblock
 \APACrefYearMonthDay{2008}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {A Unified Architecture for Natural Language Processing:
-  Deep Neural Networks with Multitask Learning} {A unified architecture for
+\BBOQ{}\APACrefatitle{A Unified Architecture for Natural Language Processing:
+  Deep Neural Networks with Multitask Learning}{A unified architecture for
   natural language processing: Deep neural networks with multitask
-  learning}.{\BBCQ}
+  learning}.\BBCQ{}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the 25 th International Conference on
-  Machine Learning.} {Proceedings of the 25 th international conference on
+\BIn{} \APACrefbtitle{Proceedings of the 25 th International Conference on
+  Machine Learning.}{Proceedings of the 25 th international conference on
   machine learning.}
 \PrintBackRefs{\CurrentBib}
 
-\bibitem [\protect \citeauthoryear {%
+\bibitem[\protect\citeauthoryear{%
 Colton%
-\ \BBA {} Wiggins%
+\ \BBA{} Wiggins%
 }{%
 Colton%
-\ \BBA {} Wiggins%
+\ \BBA{} Wiggins%
 }{%
-{\protect \APACyear {2012}}%
+{\protect\APACyear{2012}}%
 }]{%
-ColtonEA2012B}
-\APACinsertmetastar {%
 ColtonEA2012B}%
-\begin{APACrefauthors}%
+\APACinsertmetastar{%
+ColtonEA2012B}%
 Colton, S.%
-\BCBT {}\ \BBA {} Wiggins, G.%
-\end{APACrefauthors}%
+\BCBT{}\ \BBA{} Wiggins, G.%
+%
 \unskip\
 \newblock
 \APACrefYearMonthDay{2012}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Computational Creativity: The Final Frontier?}
-  {Computational creativity: The final frontier?}{\BBCQ}
+\BBOQ{}\APACrefatitle{Computational Creativity: The Final
+  Frontier?}{Computational creativity: The final frontier?}\BBCQ{}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the 21st European Conference on
-  Artificial Intelligence.} {Proceedings of the 21st european conference on
-  artificial intelligence.}
+\BIn{} \APACrefbtitle{Proceedings of the 21st European Conference on Artificial
+  Intelligence.}{Proceedings of the 21st european conference on artificial
+  intelligence.}
 \PrintBackRefs{\CurrentBib}
 
-\bibitem [\protect \citeauthoryear {%
+\bibitem[\protect\citeauthoryear{%
+Davidson%
+}{%
+Davidson%
+}{%
+{\protect\APACyear{1974}}%
+}]{%
+Davidson1974}%
+\APACinsertmetastar{%
+Davidson1974}%
+Davidson, D.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1974}{}{}.
+\newblock
+\BBOQ{}\APACrefatitle{On the Very Idea of a Conceptual Scheme}{On the very idea
+  of a conceptual scheme}.\BBCQ{}
+\newblock
+\BIn{} \APACrefbtitle{Proceedings and Addresses of the American Philosophical
+  Association}{Proceedings and addresses of the american philosophical
+  association}\ (\BVOL~47, \BPG~5-20).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
 Deerwester%
 , Dumais%
 , Furnas%
 , Landauer%
-\BCBL {}\ \BBA {} Harshman%
+\BCBL{}\ \BBA{} Harshman%
 }{%
 Deerwester%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {1990}}%
+\ \protect\BOthers{.}}{%
+{\protect\APACyear{1990}}%
 }]{%
-DeerwesterEA1990}
-\APACinsertmetastar {%
 DeerwesterEA1990}%
-\begin{APACrefauthors}%
+\APACinsertmetastar{%
+DeerwesterEA1990}%
 Deerwester, S.%
 , Dumais, S\BPBI T.%
 , Furnas, G\BPBI W.%
 , Landauer, T\BPBI K.%
-\BCBL {}\ \BBA {} Harshman, R.%
-\end{APACrefauthors}%
+\BCBL{}\ \BBA{} Harshman, R.%
+%
 \unskip\
 \newblock
 \APACrefYearMonthDay{1990}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Indexing by Latent Semantic Analysis} {Indexing by
-  latent semantic analysis}.{\BBCQ}
+\BBOQ{}\APACrefatitle{Indexing by Latent Semantic Analysis}{Indexing by latent
+  semantic analysis}.\BBCQ{}
 \newblock
 \APACjournalVolNumPages{Journal for the American Society for Information
   Science}{41}{6}{391-407}.
 \PrintBackRefs{\CurrentBib}
 
-\bibitem [\protect \citeauthoryear {%
+\bibitem[\protect\citeauthoryear{%
 Dennett%
 }{%
 Dennett%
 }{%
-{\protect \APACyear {1996}}%
+{\protect\APACyear{1996}}%
 }]{%
-Dennett1996}
-\APACinsertmetastar {%
 Dennett1996}%
-\begin{APACrefauthors}%
+\APACinsertmetastar{%
+Dennett1996}%
 Dennett, D.%
-\end{APACrefauthors}%
+%
 \unskip\
 \newblock
 \APACrefYear{1996}.
 \newblock
-\APACrefbtitle {Kind of Minds} {Kind of minds}.
+\APACrefbtitle{Kind of Minds}{Kind of minds}.
 \newblock
 \APACaddressPublisher{London}{Weidenfeld \& Nicolson}.
 \PrintBackRefs{\CurrentBib}
 
-\bibitem [\protect \citeauthoryear {%
-Fodor%
+\bibitem[\protect\citeauthoryear{%
+Eco%
 }{%
-Fodor%
+Eco%
 }{%
-{\protect \APACyear {{\protect \bibnodate {}}}}%
+{\protect\APACyear{1976}}%
 }]{%
-Fodor1975}
-\APACinsertmetastar {%
-Fodor1975}%
-\begin{APACrefauthors}%
-Fodor, J\BPBI A.%
-\end{APACrefauthors}%
+Eco1976}%
+\APACinsertmetastar{%
+Eco1976}%
+Eco, U.%
+%
 \unskip\
 \newblock
-\APACrefYear{{\protect \bibnodate {}}}.
+\APACrefYear{1976}.
 \newblock
-\APACrefbtitle {The Language of Thought} {The language of thought}.
+\APACrefbtitle{A Theory of Semiotics}{A theory of semiotics}.
+\newblock
+\APACaddressPublisher{Bloomington}{Indiana University Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Evans%
+}{%
+Evans%
+}{%
+{\protect\APACyear{2009}}%
+}]{%
+Evans2009}%
+\APACinsertmetastar{%
+Evans2009}%
+Evans, V.%
+%
+\unskip\
+\newblock
+\APACrefYear{2009}.
+\newblock
+\APACrefbtitle{How Words Mean: Lexical Concepts, Cognitive Models, and Meaning
+  Construction}{How words mean: Lexical concepts, cognitive models, and meaning
+  construction}.
+\newblock
+\APACaddressPublisher{}{Oxford University Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Fass%
+}{%
+Fass%
+}{%
+{\protect\APACyear{1991}}%
+}]{%
+Fass1991}%
+\APACinsertmetastar{%
+Fass1991}%
+Fass, D.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1991}{}{}.
+\newblock
+\BBOQ{}\APACrefatitle{Met*: A Method for Discriminating Metonymy and Metaphor
+  by Computer}{Met*: A method for discriminating metonymy and metaphor by
+  computer}.\BBCQ{}
+\newblock
+\APACjournalVolNumPages{Computational Linguistics}{17}{1}{49--90}.
+\newblock
+ \begin{APACrefURL} \url{http://dl.acm.org/citation.cfm?id=971738.971741}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Fillmore%
+}{%
+Fillmore%
+}{%
+{\protect\APACyear{1976}}%
+}]{%
+Fillmore1976}%
+\APACinsertmetastar{%
+Fillmore1976}%
+Fillmore, C\BPBI J.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1976}{}{}.
+\newblock
+\BBOQ{}\APACrefatitle{Frame Semantics and the Nature of Language}{Frame
+  semantics and the nature of language}.\BBCQ{}
+\newblock
+\APACjournalVolNumPages{Annals of the New York Academy of
+  Sciences}{280}{1}{20--32}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Firth%
+}{%
+Firth%
+}{%
+{\protect\APACyear{1959}}%
+}]{%
+Firth1957}%
+\APACinsertmetastar{%
+Firth1957}%
+Firth, J\BPBI R.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1959}{}{}.
+\newblock
+\BBOQ{}\APACrefatitle{A Synopsis of Linguistic Theory, 1930-55}{A synopsis of
+  linguistic theory, 1930-55}.\BBCQ{}
+\newblock
+\BIn{} F\BPBI R.~Palmer\ (\BED), \APACrefbtitle{Selected Papers of J. R. Firth
+  1952-59.}{Selected papers of j. r. firth 1952-59.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Fodor%
+}{%
+Fodor%
+}{%
+{\protect\APACyear{1975}}%
+}]{%
+Fodor1975}%
+\APACinsertmetastar{%
+Fodor1975}%
+Fodor, J\BPBI A.%
+%
+\unskip\
+\newblock
+\APACrefYear{1975}.
+\newblock
+\APACrefbtitle{The Language of Thought}{The language of thought}.
 \newblock
 \APACaddressPublisher{Cambridge, MA}{Harvard University Press}.
 \PrintBackRefs{\CurrentBib}
 
-\bibitem [\protect \citeauthoryear {%
+\bibitem[\protect\citeauthoryear{%
 Fodor%
 }{%
 Fodor%
 }{%
-{\protect \APACyear {2008}}%
+{\protect\APACyear{2008}}%
 }]{%
-Fodor2008}
-\APACinsertmetastar {%
 Fodor2008}%
-\begin{APACrefauthors}%
+\APACinsertmetastar{%
+Fodor2008}%
 Fodor, J\BPBI A.%
-\end{APACrefauthors}%
+%
 \unskip\
 \newblock
 \APACrefYear{2008}.
 \newblock
-\APACrefbtitle {LOT 2: The Language of Thought Revised} {Lot 2: The language of
+\APACrefbtitle{LOT 2: The Language of Thought Revised}{Lot 2: The language of
   thought revised}.
 \newblock
 \APACaddressPublisher{}{Oxford University Press}.
 \PrintBackRefs{\CurrentBib}
 
-\bibitem [\protect \citeauthoryear {%
-Harris}{%
-Harris}{%
-{\protect \APACyear {1954}}%
+\bibitem[\protect\citeauthoryear{%
+Genabith%
+}{%
+Genabith%
+}{%
+{\protect\APACyear{2001}}%
 }]{%
-Harris1954}
-\APACinsertmetastar {%
+vanGenabith2001}%
+\APACinsertmetastar{%
+vanGenabith2001}%
+Genabith, J. van.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2001}{}{}.
+\newblock
+\BBOQ{}\APACrefatitle{Metaphors, Logic and Type Theory}{Metaphors, logic and
+  type theory}.\BBCQ{}
+\newblock
+\APACjournalVolNumPages{Metaphor and Symbol}{16}{1-2}{23-57}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Gibbs%
+}{%
+Gibbs%
+}{%
+{\protect\APACyear{1994}}%
+}]{%
+Gibbs1994}%
+\APACinsertmetastar{%
+Gibbs1994}%
+Gibbs, R\BPBI W., Jr.%
+%
+\unskip\
+\newblock
+\APACrefYear{1994}.
+\newblock
+\APACrefbtitle{The Poetics of Mind}{The poetics of mind}.
+\newblock
+\APACaddressPublisher{}{Cambridge University Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Grice%
+}{%
+Grice%
+}{%
+{\protect\APACyear{1975}}%
+}]{%
+Grice1975}%
+\APACinsertmetastar{%
+Grice1975}%
+Grice, H\BPBI P.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1975}{}{}.
+\newblock
+\BBOQ{}\APACrefatitle{Logic and Conversation}{Logic and conversation}.\BBCQ{}
+\newblock
+\BIn{} P.~Cole\ \BBA{} J\BPBI L.~Morgan\ (\BEDS), \APACrefbtitle{Syntax and
+  Semantics Volume 3: Speech Acts}{Syntax and semantics volume 3: Speech acts}\
+  (\BPGS\ 41--58).
+\newblock
+\APACaddressPublisher{New York}{Academic Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Guti{\'{e}}rrez%
+, Shutova%
+, Marghetis%
+\BCBL{}\ \BBA{} Bergen%
+}{%
+Guti{\'{e}}rrez%
+\ \protect\BOthers{.}}{%
+{\protect\APACyear{2016}}%
+}]{%
+GutierrezEA2016}%
+\APACinsertmetastar{%
+GutierrezEA2016}%
+Guti{\'{e}}rrez, E\BPBI D.%
+, Shutova, E.%
+, Marghetis, T.%
+\BCBL{}\ \BBA{} Bergen, B\BPBI K.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+\BBOQ{}\APACrefatitle{Literal and Metaphorical Senses in Compositional
+  Distributional Semantic Models}{Literal and metaphorical senses in
+  compositional distributional semantic models}.\BBCQ{}
+\newblock
+\BIn{} \APACrefbtitle{Proceedings of the 54th Annual Meeting of the Association
+  for Computational Linguistics.}{Proceedings of the 54th annual meeting of the
+  association for computational linguistics.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Harris}{%
+Harris}{%
+{\protect\APACyear{1954}}%
+}]{%
 Harris1954}%
-\begin{APACrefauthors}%
+\APACinsertmetastar{%
+Harris1954}%
 Harris, Z.%
-\end{APACrefauthors}%
+%
 \unskip\
 \newblock
 \APACrefYearMonthDay{1954}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Distributional structure} {Distributional
-  structure}.{\BBCQ}
+\BBOQ{}\APACrefatitle{Distributional structure}{Distributional
+  structure}.\BBCQ{}
 \newblock
 \APACjournalVolNumPages{Word}{10}{23}{146--162}.
 \PrintBackRefs{\CurrentBib}
 
-\bibitem [\protect \citeauthoryear {%
+\bibitem[\protect\citeauthoryear{%
 Jordanous%
 }{%
 Jordanous%
 }{%
-{\protect \APACyear {2012}}%
+{\protect\APACyear{2012}}%
 }]{%
-Jordanous2012}
-\APACinsertmetastar {%
 Jordanous2012}%
-\begin{APACrefauthors}%
+\APACinsertmetastar{%
+Jordanous2012}%
 Jordanous, A\BPBI K.%
-\end{APACrefauthors}%
+%
 \unskip\
 \newblock
 \APACrefYear{2012}.
-\unskip\
 \newblock
-\APACrefbtitle {Evaluating Computational Creativity: A Standardised Procedure
-  for Evaluating Creative Systems and its Application} {Evaluating
-  computational creativity: A standardised procedure for evaluating creative
-  systems and its application}\ \APACtypeAddressSchool {\BUPhD}{}{}.
-\unskip\
+\APACrefbtitle{Evaluating Computational Creativity: A Standardised Procedure
+  for Evaluating Creative Systems and its Application}{Evaluating computational
+  creativity: A standardised procedure for evaluating creative systems and its
+  application}.
 \newblock
-\APACaddressSchool {}{University of Sussex}.
+\BUPhD, University of Sussex.
 \PrintBackRefs{\CurrentBib}
 
-\bibitem [\protect \citeauthoryear {%
+\bibitem[\protect\citeauthoryear{%
+Koestler%
+}{%
+Koestler%
+}{%
+{\protect\APACyear{1964}}%
+}]{%
+Koestler1964}%
+\APACinsertmetastar{%
+Koestler1964}%
+Koestler, A.%
+%
+\unskip\
+\newblock
+\APACrefYear{1964}.
+\newblock
+\APACrefbtitle{The Act of Creation}{The act of creation}.
+\newblock
+\APACaddressPublisher{London}{Hutchinson}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Lakoff%
+\ \BBA{} Johnson%
+}{%
+Lakoff%
+\ \BBA{} Johnson%
+}{%
+{\protect\APACyear{1980}}%
+}]{%
+LakoffEA1980}%
+\APACinsertmetastar{%
+LakoffEA1980}%
+Lakoff, G.%
+\BCBT{}\ \BBA{} Johnson, M.%
+%
+\unskip\
+\newblock
+\APACrefYear{1980}.
+\newblock
+\APACrefbtitle{Metaphors We Live By}{Metaphors we live by}.
+\newblock
+\APACaddressPublisher{}{University of Chicago Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Langacker%
+}{%
+Langacker%
+}{%
+{\protect\APACyear{1987}}%
+}]{%
+Langacker1987}%
+\APACinsertmetastar{%
+Langacker1987}%
+Langacker, R\BPBI W.%
+%
+\unskip\
+\newblock
+\APACrefYear{1987}.
+\newblock
+\APACrefbtitle{Foundations of cognitive grammar: Theoretical
+  Prerequisites}{Foundations of cognitive grammar: Theoretical prerequisites}.
+\newblock
+\APACaddressPublisher{Stanford, CA}{Stanford University Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
 Levy%
 , Remus%
 , Biemann%
-\BCBL {}\ \BBA {} Dagan%
+\BCBL{}\ \BBA{} Dagan%
 }{%
 Levy%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2015}}%
+\ \protect\BOthers{.}}{%
+{\protect\APACyear{2015}}%
 }]{%
-LevyEA2015}
-\APACinsertmetastar {%
 LevyEA2015}%
-\begin{APACrefauthors}%
+\APACinsertmetastar{%
+LevyEA2015}%
 Levy, O.%
 , Remus, S.%
 , Biemann, C.%
-\BCBL {}\ \BBA {} Dagan, I.%
-\end{APACrefauthors}%
+\BCBL{}\ \BBA{} Dagan, I.%
+%
 \unskip\
 \newblock
 \APACrefYearMonthDay{2015}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Do Supervised Distributional Methods Really Learn
-  Lexical Inference Relations?} {Do supervised distributional methods really
-  learn lexical inference relations?}{\BBCQ}
+\BBOQ{}\APACrefatitle{Do Supervised Distributional Methods Really Learn Lexical
+  Inference Relations?}{Do supervised distributional methods really learn
+  lexical inference relations?}\BBCQ{}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the 2015 Conference of the North American
-  Chapter of the Association for Computational Linguistics.} {Proceedings of
-  the 2015 conference of the north american chapter of the association for
+\BIn{} \APACrefbtitle{Proceedings of the 2015 Conference of the North American
+  Chapter of the Association for Computational Linguistics.}{Proceedings of the
+  2015 conference of the north american chapter of the association for
   computational linguistics.}
 \PrintBackRefs{\CurrentBib}
 
-\bibitem [\protect \citeauthoryear {%
+\bibitem[\protect\citeauthoryear{%
 McGregor%
 , Wiggins%
-\BCBL {}\ \BBA {} Purver%
+\BCBL{}\ \BBA{} Purver%
 }{%
 McGregor%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2014}}%
+\ \protect\BOthers{.}}{%
+{\protect\APACyear{2014}}%
 }]{%
-McGregorEA2014}
-\APACinsertmetastar {%
 McGregorEA2014}%
-\begin{APACrefauthors}%
+\APACinsertmetastar{%
+McGregorEA2014}%
 McGregor, S.%
 , Wiggins, G.%
-\BCBL {}\ \BBA {} Purver, M.%
-\end{APACrefauthors}%
+\BCBL{}\ \BBA{} Purver, M.%
+%
 \unskip\
 \newblock
 \APACrefYearMonthDay{2014}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Computational Creativity: A Philosophical Approach, and
-  an Approach to Philosophy} {Computational creativity: A philosophical
-  approach, and an approach to philosophy}.{\BBCQ}
+\BBOQ{}\APACrefatitle{Computational Creativity: A Philosophical Approach, and
+  an Approach to Philosophy}{Computational creativity: A philosophical
+  approach, and an approach to philosophy}.\BBCQ{}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the Fifth International Conference on
-  Computational Creativity.} {Proceedings of the fifth international conference
+\BIn{} \APACrefbtitle{Proceedings of the Fifth International Conference on
+  Computational Creativity.}{Proceedings of the fifth international conference
   on computational creativity.}
 \PrintBackRefs{\CurrentBib}
 
-\bibitem [\protect \citeauthoryear {%
+\bibitem[\protect\citeauthoryear{%
 Mikolov%
 , Chen%
 , Corrado%
-\BCBL {}\ \BBA {} Dean%
+\BCBL{}\ \BBA{} Dean%
 }{%
 Mikolov%
 , Chen%
-\BCBL {}\ \protect \BOthers {.}}{%
-{\protect \APACyear {2013}}%
+\BCBL{}\ \protect\BOthers{.}}{%
+{\protect\APACyear{2013}}%
 }]{%
-MikolovEA2013b}
-\APACinsertmetastar {%
 MikolovEA2013b}%
-\begin{APACrefauthors}%
+\APACinsertmetastar{%
+MikolovEA2013b}%
 Mikolov, T.%
 , Chen, K.%
 , Corrado, G.%
-\BCBL {}\ \BBA {} Dean, J.%
-\end{APACrefauthors}%
+\BCBL{}\ \BBA{} Dean, J.%
+%
 \unskip\
 \newblock
 \APACrefYearMonthDay{2013}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Efficient Estimation of Word Representations in Vector
-  Space} {Efficient estimation of word representations in vector space}.{\BBCQ}
+\BBOQ{}\APACrefatitle{Efficient Estimation of Word Representations in Vector
+  Space}{Efficient estimation of word representations in vector space}.\BBCQ{}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of ICLR Workshop.} {Proceedings of iclr
+\BIn{} \APACrefbtitle{Proceedings of ICLR Workshop.}{Proceedings of iclr
   workshop.}
 \PrintBackRefs{\CurrentBib}
 
-\bibitem [\protect \citeauthoryear {%
+\bibitem[\protect\citeauthoryear{%
 Mikolov%
-, tau Yih%
-\BCBL {}\ \BBA {} Zweig%
+, Yih%
+\BCBL{}\ \BBA{} Zweig%
 }{%
 Mikolov%
-, tau Yih%
-\BCBL {}\ \BBA {} Zweig%
+, Yih%
+\BCBL{}\ \BBA{} Zweig%
 }{%
-{\protect \APACyear {2013}}%
+{\protect\APACyear{2013}}%
 }]{%
-MikolovEA2013}
-\APACinsertmetastar {%
 MikolovEA2013}%
-\begin{APACrefauthors}%
+\APACinsertmetastar{%
+MikolovEA2013}%
 Mikolov, T.%
-, tau Yih, W.%
-\BCBL {}\ \BBA {} Zweig, G.%
-\end{APACrefauthors}%
+, Yih, W. tau%
+\BCBL{}\ \BBA{} Zweig, G.%
+%
 \unskip\
 \newblock
 \APACrefYearMonthDay{2013}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Linguistic Regularities in Continuous Space Word
-  Representations} {Linguistic regularities in continuous space word
-  representations}.{\BBCQ}
+\BBOQ{}\APACrefatitle{Linguistic Regularities in Continuous Space Word
+  Representations}{Linguistic regularities in continuous space word
+  representations}.\BBCQ{}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the 2013 Conference of the North American
+\BIn{} \APACrefbtitle{Proceedings of the 2013 Conference of the North American
   Chapter of the Association for Computational Linguistics: Human Language
-  Technologies} {Proceedings of the 2013 conference of the north american
+  Technologies}{Proceedings of the 2013 conference of the north american
   chapter of the association for computational linguistics: Human language
   technologies}\ (\BPG~246-251).
 \PrintBackRefs{\CurrentBib}
 
-\bibitem [\protect \citeauthoryear {%
-Mitchell%
-\ \BBA {} Lapata%
+\bibitem[\protect\citeauthoryear{%
+Ortony%
 }{%
-Mitchell%
-\ \BBA {} Lapata%
+Ortony%
 }{%
-{\protect \APACyear {2010}}%
+{\protect\APACyear{1975}}%
 }]{%
-MitchellEA2010}
-\APACinsertmetastar {%
-MitchellEA2010}%
-\begin{APACrefauthors}%
-Mitchell, J.%
-\BCBT {}\ \BBA {} Lapata, M.%
-\end{APACrefauthors}%
+Ortony1975}%
+\APACinsertmetastar{%
+Ortony1975}%
+Ortony, A.%
+%
 \unskip\
 \newblock
-\APACrefYearMonthDay{2010}{}{}.
+\APACrefYearMonthDay{1975}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Compostion in Distributional Models of Semantics}
-  {Compostion in distributional models of semantics}.{\BBCQ}
+\BBOQ{}\APACrefatitle{Why Metaphors Are Necessary and Not Just Nice}{Why
+  metaphors are necessary and not just nice}.\BBCQ{}
 \newblock
-\APACjournalVolNumPages{Cognitive Science}{34}{8}{1388-1439}.
+\APACjournalVolNumPages{Educational Theory}{25}{1}{45-53}.
 \PrintBackRefs{\CurrentBib}
 
-\bibitem [\protect \citeauthoryear {%
-Pantel%
+\bibitem[\protect\citeauthoryear{%
+Peirce%
 }{%
-Pantel%
+Peirce%
 }{%
-{\protect \APACyear {2005}}%
+{\protect\APACyear{1931}}%
 }]{%
-Pantel2005}
-\APACinsertmetastar {%
-Pantel2005}%
-\begin{APACrefauthors}%
-Pantel, P.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2005}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Inducing Ontological Co-occurrence Vectors} {Inducing
-  ontological co-occurrence vectors}.{\BBCQ}
-\newblock
-\BIn{} \APACrefbtitle {Proceedings of the 43rd Annual Meeting on Association
-  for Computational Linguistics} {Proceedings of the 43rd annual meeting on
-  association for computational linguistics}\ (\BPGS\ 125--132).
-\newblock
-\APACaddressPublisher{Stroudsburg, PA, USA}{Association for Computational
-  Linguistics}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Pennington%
-, Socher%
-\BCBL {}\ \BBA {} Manning%
-}{%
-Pennington%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2014}}%
-}]{%
-PenningtonEA2014}
-\APACinsertmetastar {%
-PenningtonEA2014}%
-\begin{APACrefauthors}%
-Pennington, J.%
-, Socher, R.%
-\BCBL {}\ \BBA {} Manning, C\BPBI D.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2014}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {GloVe: Global Vectors for Word Representation} {Glove:
-  Global vectors for word representation}.{\BBCQ}
-\newblock
-\BIn{} \APACrefbtitle {Conference on Empirical Methods in Natural Language
-  Processing.} {Conference on empirical methods in natural language
-  processing.}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Pietarinen%
-}{%
-Pietarinen%
-}{%
-{\protect \APACyear {2004}}%
-}]{%
-Pietarinen2004}
-\APACinsertmetastar {%
-Pietarinen2004}%
-\begin{APACrefauthors}%
-Pietarinen, A\BHBI V.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2004}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Grice in the Wake of Peirce} {Grice in the wake of
-  peirce}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Pragmatics \& Cognition}{12}{2}{295--315}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Ritchie%
-}{%
-Ritchie%
-}{%
-{\protect \APACyear {2007}}%
-}]{%
-Ritchie2007}
-\APACinsertmetastar {%
-Ritchie2007}%
-\begin{APACrefauthors}%
-Ritchie, G.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2007}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Some empirical criteria for attributing creativity to a
-  computer program} {Some empirical criteria for attributing creativity to a
-  computer program}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Minds and Machines}{17}{1}{67-99}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Russell%
-}{%
-Russell%
-}{%
-{\protect \APACyear {1905}}%
-}]{%
-Russell1905}
-\APACinsertmetastar {%
-Russell1905}%
-\begin{APACrefauthors}%
-Russell, B.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1905}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {On Denoting} {On denoting}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Mind}{14}{56}{479-493}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Russell%
-}{%
-Russell%
-}{%
-{\protect \APACyear {1931}}%
-}]{%
-Russell1931}
-\APACinsertmetastar {%
-Russell1931}%
-\begin{APACrefauthors}%
-Russell, B.%
-\end{APACrefauthors}%
+Peirce1931}%
+\APACinsertmetastar{%
+Peirce1931}%
+Peirce, C\BPBI S.%
+%
 \unskip\
 \newblock
 \APACrefYear{1931}.
 \newblock
-\APACrefbtitle {The Scientific Outlook} {The scientific outlook}.
+\APACrefbtitle{Collected Papers of Charles Sanders Peirce}{Collected papers of
+  charles sanders peirce}.
+\newblock
+\APACaddressPublisher{}{Harvard University Press}.
+\newblock
+\APACrefnote{edited by Charles Hartshorne and Paul Weiss}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Pennington%
+, Socher%
+\BCBL{}\ \BBA{} Manning%
+}{%
+Pennington%
+\ \protect\BOthers{.}}{%
+{\protect\APACyear{2014}}%
+}]{%
+PenningtonEA2014}%
+\APACinsertmetastar{%
+PenningtonEA2014}%
+Pennington, J.%
+, Socher, R.%
+\BCBL{}\ \BBA{} Manning, C\BPBI D.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+\BBOQ{}\APACrefatitle{GloVe: Global Vectors for Word Representation}{Glove:
+  Global vectors for word representation}.\BBCQ{}
+\newblock
+\BIn{} \APACrefbtitle{Conference on Empirical Methods in Natural Language
+  Processing.}{Conference on empirical methods in natural language processing.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Pietarinen%
+}{%
+Pietarinen%
+}{%
+{\protect\APACyear{2004}}%
+}]{%
+Pietarinen2004}%
+\APACinsertmetastar{%
+Pietarinen2004}%
+Pietarinen, A\BHBI V.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2004}{}{}.
+\newblock
+\BBOQ{}\APACrefatitle{Grice in the Wake of Peirce}{Grice in the wake of
+  peirce}.\BBCQ{}
+\newblock
+\APACjournalVolNumPages{Pragmatics \& Cognition}{12}{2}{295--315}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Pustejovsky%
+\ \protect\BOthers{.}}{%
+Pustejovsky%
+\ \protect\BOthers{.}}{%
+{\protect\APACyear{2010}}%
+}]{%
+PustejovskyEA2010}%
+\APACinsertmetastar{%
+PustejovskyEA2010}%
+Pustejovsky, J.%
+, Rumshisky, A.%
+, Plotnick, A.%
+, Jezek, E.%
+, Batiukova, O.%
+\BCBL{}\ \BBA{} Quochi, V.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+\BBOQ{}\APACrefatitle{SemEval-2010 Task 7: Argument Selection and
+  Coercion}{Semeval-2010 task 7: Argument selection and coercion}.\BBCQ{}
+\newblock
+\BIn{} \APACrefbtitle{Proceedings of the 5th International Workshop on Semantic
+  Evaluation}{Proceedings of the 5th international workshop on semantic
+  evaluation}\ (\BPGS\ 27--32).
+\newblock
+ \begin{APACrefURL} \url{http://dl.acm.org/citation.cfm?id=1859664.1859669}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Ritchie%
+}{%
+Ritchie%
+}{%
+{\protect\APACyear{2007}}%
+}]{%
+Ritchie2007}%
+\APACinsertmetastar{%
+Ritchie2007}%
+Ritchie, G.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{}{}.
+\newblock
+\BBOQ{}\APACrefatitle{Some empirical criteria for attributing creativity to a
+  computer program}{Some empirical criteria for attributing creativity to a
+  computer program}.\BBCQ{}
+\newblock
+\APACjournalVolNumPages{Minds and Machines}{17}{1}{67-99}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Russell%
+}{%
+Russell%
+}{%
+{\protect\APACyear{1905}}%
+}]{%
+Russell1905}%
+\APACinsertmetastar{%
+Russell1905}%
+Russell, B.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1905}{}{}.
+\newblock
+\BBOQ{}\APACrefatitle{On Denoting}{On denoting}.\BBCQ{}
+\newblock
+\APACjournalVolNumPages{Mind}{14}{56}{479-493}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Russell%
+}{%
+Russell%
+}{%
+{\protect\APACyear{1931}}%
+}]{%
+Russell1931}%
+\APACinsertmetastar{%
+Russell1931}%
+Russell, B.%
+%
+\unskip\
+\newblock
+\APACrefYear{1931}.
+\newblock
+\APACrefbtitle{The Scientific Outlook}{The scientific outlook}.
 \newblock
 \APACaddressPublisher{London}{George Allen and Unwin}.
 \PrintBackRefs{\CurrentBib}
 
-\bibitem [\protect \citeauthoryear {%
+\bibitem[\protect\citeauthoryear{%
 Santus%
 , Lenci%
 , Lu%
-\BCBL {}\ \BBA {} im Walde%
+\BCBL{}\ \BBA{} Walde%
 }{%
 Santus%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {{\protect \bibnodate {}}}}%
+\ \protect\BOthers{.}}{%
+{\protect\APACyear{{\protect\bibnodate{}}}}%
 }]{%
-SantusEA2014}
-\APACinsertmetastar {%
 SantusEA2014}%
-\begin{APACrefauthors}%
+\APACinsertmetastar{%
+SantusEA2014}%
 Santus, E.%
 , Lenci, A.%
 , Lu, Q.%
-\BCBL {}\ \BBA {} im Walde, S\BPBI S.%
-\end{APACrefauthors}%
+\BCBL{}\ \BBA{} Walde, S\BPBI S. im.%
+%
 \unskip\
 \newblock
-\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\APACrefYearMonthDay{\bibnodate{}}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Chasing Hypernyms in Vector Spaces with Entropy}
-  {Chasing hypernyms in vector spaces with entropy}.{\BBCQ}
+\BBOQ{}\APACrefatitle{Chasing Hypernyms in Vector Spaces with Entropy}{Chasing
+  hypernyms in vector spaces with entropy}.\BBCQ{}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the 14th Conference of the European
-  Chapter of the Association for Computational Linguistics.} {Proceedings of
-  the 14th conference of the european chapter of the association for
-  computational linguistics.}
+\BIn{} \APACrefbtitle{Proceedings of the 14th Conference of the European
+  Chapter of the Association for Computational Linguistics.}{Proceedings of the
+  14th conference of the european chapter of the association for computational
+  linguistics.}
 \PrintBackRefs{\CurrentBib}
 
-\bibitem [\protect \citeauthoryear {%
-Skinner%
+\bibitem[\protect\citeauthoryear{%
+Searle%
 }{%
-Skinner%
+Searle%
 }{%
-{\protect \APACyear {1957}}%
+{\protect\APACyear{1979}}%
 }]{%
-Skinner1957}
-\APACinsertmetastar {%
+Searle1979}%
+\APACinsertmetastar{%
+Searle1979}%
+Searle, J\BPBI R.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1979}{}{}.
+\newblock
+\BBOQ{}\APACrefatitle{Metaphor}{Metaphor}.\BBCQ{}
+\newblock
+\BIn{} A.~Ortony\ (\BED), \APACrefbtitle{Metaphor and Thought.}{Metaphor and
+  thought.}
+\newblock
+\APACaddressPublisher{}{Cambridge University Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Shutova%
+}{%
+Shutova%
+}{%
+{\protect\APACyear{2010}}%
+}]{%
+Shutova2010}%
+\APACinsertmetastar{%
+Shutova2010}%
+Shutova, E.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+\BBOQ{}\APACrefatitle{Models of Metaphor in NLP}{Models of metaphor in
+  nlp}.\BBCQ{}
+\newblock
+\BIn{} \APACrefbtitle{Proceedings of the 48th Annual Meeting of the Association
+  for Computational Linguistics}{Proceedings of the 48th annual meeting of the
+  association for computational linguistics}\ (\BPGS\ 688--697).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Shutova%
+}{%
+Shutova%
+}{%
+{\protect\APACyear{2015}}%
+}]{%
+Shutova2015}%
+\APACinsertmetastar{%
+Shutova2015}%
+Shutova, E.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+\BBOQ{}\APACrefatitle{Design and Evaluation of Metaphor Processing
+  Systems}{Design and evaluation of metaphor processing systems}.\BBCQ{}
+\newblock
+\APACjournalVolNumPages{Computational Linguistics}{41}{4}{579--623}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Skinner%
+}{%
+Skinner%
+}{%
+{\protect\APACyear{1957}}%
+}]{%
 Skinner1957}%
-\begin{APACrefauthors}%
+\APACinsertmetastar{%
+Skinner1957}%
 Skinner, B\BPBI F.%
-\end{APACrefauthors}%
+%
 \unskip\
 \newblock
 \APACrefYear{1957}.
 \newblock
-\APACrefbtitle {Verbal Behavior} {Verbal behavior}.
+\APACrefbtitle{Verbal Behavior}{Verbal behavior}.
 \newblock
 \APACaddressPublisher{Acton, MA}{Copley Publishing Group}.
 \PrintBackRefs{\CurrentBib}
 
-\bibitem [\protect \citeauthoryear {%
+\bibitem[\protect\citeauthoryear{%
 Snow%
 , Jurafsky%
-\BCBL {}\ \BBA {} Ng%
+\BCBL{}\ \BBA{} Ng%
 }{%
 Snow%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2006}}%
+\ \protect\BOthers{.}}{%
+{\protect\APACyear{2006}}%
 }]{%
-SnowEA2006}
-\APACinsertmetastar {%
 SnowEA2006}%
-\begin{APACrefauthors}%
+\APACinsertmetastar{%
+SnowEA2006}%
 Snow, R.%
 , Jurafsky, D.%
-\BCBL {}\ \BBA {} Ng, A\BPBI Y.%
-\end{APACrefauthors}%
+\BCBL{}\ \BBA{} Ng, A\BPBI Y.%
+%
 \unskip\
 \newblock
 \APACrefYearMonthDay{2006}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Semantic Taxonomy Induction from Heterogenous Evidence}
-  {Semantic taxonomy induction from heterogenous evidence}.{\BBCQ}
+\BBOQ{}\APACrefatitle{Semantic Taxonomy Induction from Heterogenous
+  Evidence}{Semantic taxonomy induction from heterogenous evidence}.\BBCQ{}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the 21st International Conference on
+\BIn{} \APACrefbtitle{Proceedings of the 21st International Conference on
   Computational Linguistics and the 44th annual meeting of the Association for
-  Computational Linguistics.} {Proceedings of the 21st international conference
+  Computational Linguistics.}{Proceedings of the 21st international conference
   on computational linguistics and the 44th annual meeting of the association
   for computational linguistics.}
 \PrintBackRefs{\CurrentBib}
 
-\bibitem [\protect \citeauthoryear {%
+\bibitem[\protect\citeauthoryear{%
 Socher%
 , Chen%
 , Manning%
-\BCBL {}\ \BBA {} Ng%
+\BCBL{}\ \BBA{} Ng%
 }{%
 Socher%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2013}}%
+\ \protect\BOthers{.}}{%
+{\protect\APACyear{2013}}%
 }]{%
-SocherEA2013}
-\APACinsertmetastar {%
 SocherEA2013}%
-\begin{APACrefauthors}%
+\APACinsertmetastar{%
+SocherEA2013}%
 Socher, R.%
 , Chen, D.%
 , Manning, C\BPBI D.%
-\BCBL {}\ \BBA {} Ng, A\BPBI Y.%
-\end{APACrefauthors}%
+\BCBL{}\ \BBA{} Ng, A\BPBI Y.%
+%
 \unskip\
 \newblock
 \APACrefYearMonthDay{2013}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Reasoning with Neural Tensor Networks for Knowledge Base
-  Completion} {Reasoning with neural tensor networks for knowledge base
-  completion}.{\BBCQ}
+\BBOQ{}\APACrefatitle{Reasoning with Neural Tensor Networks for Knowledge Base
+  Completion}{Reasoning with neural tensor networks for knowledge base
+  completion}.\BBCQ{}
 \newblock
 \APACjournalVolNumPages{Advances in Neural Information Processing
   Systems}{26}{}{}.
 \PrintBackRefs{\CurrentBib}
 
-\bibitem [\protect \citeauthoryear {%
-Veale%
-\ \BBA {} Hao%
+\bibitem[\protect\citeauthoryear{%
+Sweetser%
 }{%
-Veale%
-\ \BBA {} Hao%
+Sweetser%
 }{%
-{\protect \APACyear {2007}}%
+{\protect\APACyear{1990}}%
 }]{%
-VealeEA2007}
-\APACinsertmetastar {%
+Sweetser1990}%
+\APACinsertmetastar{%
+Sweetser1990}%
+Sweetser, E.%
+%
+\unskip\
+\newblock
+\APACrefYear{1990}.
+\newblock
+\APACrefbtitle{From Etymology to Pragmatics: Metaphor and Cultural Aspects of
+  Semantic Structure}{From etymology to pragmatics: Metaphor and cultural
+  aspects of semantic structure}.
+\newblock
+\APACaddressPublisher{}{Cambridge University Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Thomas%
+\ \BBA{} Mareschal%
+}{%
+Thomas%
+\ \BBA{} Mareschal%
+}{%
+{\protect\APACyear{1999}}%
+}]{%
+ThomasEA1999}%
+\APACinsertmetastar{%
+ThomasEA1999}%
+Thomas, M\BPBI S\BPBI C.%
+\BCBT{}\ \BBA{} Mareschal, D.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1999}{}{}.
+\newblock
+\BBOQ{}\APACrefatitle{Metaphor as Categorisation: A Connectionist
+  Implementation}{Metaphor as categorisation: A connectionist
+  implementation}.\BBCQ{}
+\newblock
+\BIn{} \APACrefbtitle{Proceedings of the AISB '99 Symposium on Metaphor,
+  Artificial Intelligence, and Cognition.}{Proceedings of the aisb '99
+  symposium on metaphor, artificial intelligence, and cognition.}
+\newblock
+\APACaddressPublisher{University of Edinburgh}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Veale%
+\ \BBA{} Hao%
+}{%
+Veale%
+\ \BBA{} Hao%
+}{%
+{\protect\APACyear{2007}}%
+}]{%
 VealeEA2007}%
-\begin{APACrefauthors}%
+\APACinsertmetastar{%
+VealeEA2007}%
 Veale, T.%
-\BCBT {}\ \BBA {} Hao, Y.%
-\end{APACrefauthors}%
+\BCBT{}\ \BBA{} Hao, Y.%
+%
 \unskip\
 \newblock
 \APACrefYearMonthDay{2007}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Comprehending and Generating Apt Metaphors: A
-  Web-driven, Case-based Approach to Figurative Language} {Comprehending and
-  generating apt metaphors: A web-driven, case-based approach to figurative
-  language}.{\BBCQ}
+\BBOQ{}\APACrefatitle{Comprehending and Generating Apt Metaphors: A Web-driven,
+  Case-based Approach to Figurative Language}{Comprehending and generating apt
+  metaphors: A web-driven, case-based approach to figurative language}.\BBCQ{}
 \newblock
 \APACjournalVolNumPages{AAAI}{}{}{1471-1476}.
 \PrintBackRefs{\CurrentBib}
 
-\bibitem [\protect \citeauthoryear {%
+\bibitem[\protect\citeauthoryear{%
 White%
 }{%
 White%
 }{%
-{\protect \APACyear {2009}}%
+{\protect\APACyear{2009}}%
 }]{%
-White2009}
-\APACinsertmetastar {%
 White2009}%
-\begin{APACrefauthors}%
+\APACinsertmetastar{%
+White2009}%
 White, G.%
-\end{APACrefauthors}%
+%
 \unskip\
 \newblock
 \APACrefYearMonthDay{2009}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {On Scholarship} {On scholarship}.{\BBCQ}
+\BBOQ{}\APACrefatitle{On Scholarship}{On scholarship}.\BBCQ{}
 \newblock
-\BIn{} T.~Bartscherer\ \BBA {} R.~Coover\ (\BEDS), \APACrefbtitle {Switching
-  Codes: Thinking Through Digital Technology in the Humanities and the Arts.}
-  {Switching codes: Thinking through digital technology in the humanities and
-  the arts.}
+\BIn{} T.~Bartscherer\ \BBA{} R.~Coover\ (\BEDS), \APACrefbtitle{Switching
+  Codes: Thinking Through Digital Technology in the Humanities and the
+  Arts.}{Switching codes: Thinking through digital technology in the humanities
+  and the arts.}
 \newblock
 \APACaddressPublisher{}{University of Chicago Press}.
 \PrintBackRefs{\CurrentBib}
 
-\bibitem [\protect \citeauthoryear {%
+\bibitem[\protect\citeauthoryear{%
 Wiggins%
 }{%
 Wiggins%
 }{%
-{\protect \APACyear {2006}}%
+{\protect\APACyear{2006}}%
 }]{%
-Wiggins2006b}
-\APACinsertmetastar {%
 Wiggins2006b}%
-\begin{APACrefauthors}%
+\APACinsertmetastar{%
+Wiggins2006b}%
 Wiggins, G\BPBI A.%
-\end{APACrefauthors}%
+%
 \unskip\
 \newblock
 \APACrefYearMonthDay{2006}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Searching for Computational Creativity} {Searching for
-  computational creativity}.{\BBCQ}
+\BBOQ{}\APACrefatitle{Searching for Computational Creativity}{Searching for
+  computational creativity}.\BBCQ{}
 \newblock
 \APACjournalVolNumPages{New Generation Computing}{24}{}{209-222}.
 \PrintBackRefs{\CurrentBib}
 
-\bibitem [\protect \citeauthoryear {%
-Wittgenstein%
+\bibitem[\protect\citeauthoryear{%
+Wilks%
 }{%
-Wittgenstein%
+Wilks%
 }{%
-{\protect \APACyear {1922}}%
+{\protect\APACyear{1978}}%
 }]{%
-Wittgenstein1922}
-\APACinsertmetastar {%
+Wilks1978}%
+\APACinsertmetastar{%
+Wilks1978}%
+Wilks, Y.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1978}{}{}.
+\newblock
+\BBOQ{}\APACrefatitle{Making Preferences More Active}{Making preferences more
+  active}.\BBCQ{}
+\newblock
+\APACjournalVolNumPages{Artificial Intelligence}{11}{3}{197--223}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Wittgenstein%
+}{%
+Wittgenstein%
+}{%
+{\protect\APACyear{1922}}%
+}]{%
 Wittgenstein1922}%
-\begin{APACrefauthors}%
+\APACinsertmetastar{%
+Wittgenstein1922}%
 Wittgenstein, L.%
-\end{APACrefauthors}%
+%
 \unskip\
 \newblock
 \APACrefYear{1922}.
 \newblock
-\APACrefbtitle {Tractatus Logico-Philosophicus} {Tractatus
-  logico-philosophicus}.
+\APACrefbtitle{Tractatus Logico-Philosophicus}{Tractatus logico-philosophicus}.
 \newblock
 \APACaddressPublisher{London}{Kegan Paul, Trench, Trubner \& Co, Ltd}.
 \PrintBackRefs{\CurrentBib}
 
-\bibitem [\protect \citeauthoryear {%
+\bibitem[\protect\citeauthoryear{%
 Wittgenstein%
 }{%
 Wittgenstein%
 }{%
-{\protect \APACyear {1953/1967}}%
+{\protect\APACyear{1953/1967}}%
 }]{%
-Wittgenstein1953}
-\APACinsertmetastar {%
 Wittgenstein1953}%
-\begin{APACrefauthors}%
+\APACinsertmetastar{%
+Wittgenstein1953}%
 Wittgenstein, L.%
-\end{APACrefauthors}%
+%
 \unskip\
 \newblock
 \APACrefYear{1953/1967}.
 \newblock
-\APACrefbtitle {Philosophical Investigations} {Philosophical investigations}\
+\APACrefbtitle{Philosophical Investigations}{Philosophical investigations}\
   (\PrintOrdinal{3rd}\ \BEd).
 \newblock
 \APACaddressPublisher{Oxford}{Basil Blackwell}.
