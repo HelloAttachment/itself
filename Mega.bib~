@@ -1,3 +1,43 @@
+@Inbook{Veale2015,
+author="Veale, Tony and Valitutti, Alessandro and Li, Guofu",
+editor="Streitz, Norbert and Markopoulos, Panos",
+title="Twitter: The Best of Bot Worlds for Automated Wit",
+bookTitle="Distributed, Ambient, and Pervasive Interactions: Third International Conference, DAPI",
+year="2015",
+publisher="Springer International Publishing",
+pages="689--699",
+doi="10.1007/978-3-319-20804-6_63",
+url="http://dx.doi.org/10.1007/978-3-319-20804-6_63"
+}
+@Inbook{Dunn2013,
+author="Dunn, Jonathan",
+editor="Gelbukh, Alexander",
+title="Evaluating the Premises and Results of Four Metaphor Identification Systems",
+bookTitle="Computational Linguistics and Intelligent Text Processing: 14th International Conference, CICLing 2013, Samos, Greece, March 24-30, 2013, Proceedings, Part I",
+year="2013",
+publisher="Springer Berlin Heidelberg",
+pages="471--486",
+doi="10.1007/978-3-642-37247-6_38",
+url="http://dx.doi.org/10.1007/978-3-642-37247-6_38"
+}
+@Article{Kintsch2000,
+author="Kintsch, Walter",
+title="Metaphor comprehension: A computational theory",
+journal="Psychonomic Bulletin {\&} Review",
+year="2000",
+volume="7",
+number="2",
+pages="257--266",
+doi="10.3758/BF03212981",
+url="http://dx.doi.org/10.3758/BF03212981"
+}
+@inproceedings{BirkeEA2006,
+author = {Julia Birke and Anoop Sarkar},
+title = {A clustering approach for nearly unsupervised recognition of nonliteral language},
+booktitle = {Proceedings of EACL-06},
+year = {2006},
+pages = {329--336}
+}
 @article{Fass1991,
 author = {Fass, Dan},
 title = {Met*: A Method for Discriminating Metonymy and Metaphor by Computer},
