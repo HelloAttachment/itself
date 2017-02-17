@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.2.4)  12 FEB 2017 22:25
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.2.4)  15 FEB 2017 23:53
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -564,8 +564,8 @@ File: tikzlibraryshapes.arrows.code.tex 2008/01/09 v2.10 (rcs-revision 1.1)
 .tex
 File: pgflibraryshapes.arrows.code.tex 2008/06/26 v2.10 (rcs-revision 1.1)
 )) (./thesis.aux (./cover.aux) (./ch1/ch1.aux) (./ch2/Two.aux)
-(./ch3/ch3.aux) (./ch4/ch4.aux) (./ch5/ch5.aux) (./ch6/ch6.aux) (./ch7/ch7.aux)
-)
+(./ch3/Three.aux) (./ch4/Four.aux) (./ch5/ch5.aux) (./ch6/ch6.aux)
+(./ch7/ch7.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
@@ -830,10 +830,10 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Carston' undefined on input line 53.
+LaTeX Warning: Citation `Carston' undefined on input line 55.
 
 ! Misplaced alignment tab character &.
-l.57 - Turner, Turner &
+l.59 - Turner, Turner &
                         Fauconnier
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -842,10 +842,11 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
+[13]
 ! Undefined control sequence.
 \citepos #1->\citeauthor {#1}'s \citeyearpar 
                                              {#1}
-l.64 ...ution, kicked off by \citepos{Chomsky1959}
+l.71 ...ution, kicked off by \citepos{Chomsky1959}
                                                    pointed denouncement of \...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -856,7 +857,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \citepos #1->\citeauthor {#1}'s \citeyearpar 
                                              {#1}
-l.64 ...nted denouncement of \citepos{Skinner1957}
+l.71 ...nted denouncement of \citepos{Skinner1957}
                                                    attempt to apply overt ps...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -867,7 +868,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \citepos #1->\citeauthor {#1}'s \citeyearpar 
                                              {#1}
-l.64 ...thought of as a mind---\citepos{Fodor1975}
+l.71 ...thought of as a mind---\citepos{Fodor1975}
                                                    notion of a language of t...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -878,7 +879,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \citepos #1->\citeauthor {#1}'s \citeyearpar 
                                              {#1}
-l.64 ...imary theme for \citepos{Wittgenstein1922}
+l.71 ...imary theme for \citepos{Wittgenstein1922}
                                                    earlier work.  Certainly,...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -887,12 +888,12 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Chomsky' undefined on input line 64.
+LaTeX Warning: Citation `Chomsky' undefined on input line 71.
 
 ! Undefined control sequence.
 \citepos #1->\citeauthor {#1}'s \citeyearpar 
                                              {#1}
-l.64 ... theme in development of \citepos{Chomsky}
+l.71 ... theme in development of \citepos{Chomsky}
                                                    nativist programme of res...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -901,7 +902,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.64 ...al projects of some of his acolytes \citep
+l.71 ...al projects of some of his acolytes \citep
                                                   {Pinker1994}.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -909,11 +910,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[13]
 ! Undefined control sequence.
 \citepos #1->\citeauthor {#1}'s \citeyearpar 
                                              {#1}
-l.69 ...f representations.  \citepos{Fillmore1976}
+l.76 ...f representations.  \citepos{Fillmore1976}
                                                    subsequently contributed ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -925,7 +925,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \citepos #1->\citeauthor {#1}'s \citeyearpar 
                                              {#1}
-l.71 ..., characterised by \citepos{Langacker1987}
+l.78 ..., characterised by \citepos{Langacker1987}
                                                    description of natural la...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -934,7 +934,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.71 ...ompositionality of Montague grammar \citep
+l.78 ...ompositionality of Montague grammar \citep
                                                   {Cooper} and the inferenti...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -943,7 +943,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.71 ...l capacity of intensional semantics \citep
+l.78 ...l capacity of intensional semantics \citep
                                                   {FoxEA2005}, has focused o...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -952,7 +952,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.71 ... pertinent domains, such as culture \citep
+l.78 ... pertinent domains, such as culture \citep
                                                   {Lakoff1987} and neuroscie...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -961,7 +961,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.71 ...ean aspect of Montegovian semantics \citep
+l.78 ...ean aspect of Montegovian semantics \citep
                                                   {Dummett1981} altogether.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -972,7 +972,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \citepos #1->\citeauthor {#1}'s \citeyearpar 
                                              {#1}
-l.73 ... saw the emergence of \citepos{Ortony1975}
+l.80 ... saw the emergence of \citepos{Ortony1975}
                                                    reconstructivist account ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -983,7 +983,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \citepos #1->\citeauthor {#1}'s \citeyearpar 
                                              {#1}
-l.73 ...esurgence of \citepos{Black1955,Black1977}
+l.80 ...esurgence of \citepos{Black1955,Black1977}
                                                    \emph{interaction view}, ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -994,7 +994,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \citepos #1->\citeauthor {#1}'s \citeyearpar 
                                              {#1}
-l.73 ...the introduction of \citepos{LakoffEA1980}
+l.80 ...the introduction of \citepos{LakoffEA1980}
                                                    \emph{conceptual} model o...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1003,7 +1003,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.73 ...\emph{conceptual} model of metaphor \citep
+l.80 ...\emph{conceptual} model of metaphor \citep
                                                   [see][for a valuable compe...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1013,16 +1013,16 @@ and I'll forget about whatever was undefined.
 
 [15]
 
-LaTeX Warning: Reference `chap:figurative' on page 16 undefined on input line 7
-9.
+LaTeX Warning: Reference `chap:figurative' on page 16 undefined on input line 8
+4.
 
 
-LaTeX Warning: Citation `Grice' undefined on input line 81.
+LaTeX Warning: Citation `Grice' undefined on input line 86.
 
 ! Undefined control sequence.
 <argument> ...r sentence actually means,'' \citep 
                                                   [][p. 84]{Searle1979}.\@fi...
-l.81 ...lly means,'' \citep[][p. 84]{Searle1979}.}
+l.86 ...lly means,'' \citep[][p. 84]{Searle1979}.}
                                                     A notable early effort f...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1030,8 +1030,9 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+[16]
 ! Undefined control sequence.
-l.83 ... mapping between conceptual schemes \citep
+l.88 ... mapping between conceptual schemes \citep
                                                   {Indurkhya1997}, often dom...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1040,7 +1041,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.83 ... with the conceptual metaphor model \citep
+l.88 ... with the conceptual metaphor model \citep
                                                   {Narayanan1999}.  Typical ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1049,7 +1050,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.83 ...ween elements.  The ATT-Meta system \citep
+l.88 ...ween elements.  The ATT-Meta system \citep
                                                   {LeeEA2001}, with its facu...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1058,7 +1059,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.83 ... and incremental grammar techniques \citep
+l.88 ... and incremental grammar techniques \citep
                                                   {GargettEA2013}.  Other sy...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1066,21 +1067,101 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[16]
+! Undefined control sequence.
+l.90 Twitter \citep
+                   {VealeEA2015}, or the web at large in conjunction with ot...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-LaTeX Warning: Reference `chap:figurative' on page 17 undefined on input line 8
-9.
+! Undefined control sequence.
+l.90 ...in conjunction with other resources \citep
+                                                  {VealeEA2007}.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Davidson' undefined on input line 93.
+Overfull \hbox (25.95258pt too wide) in paragraph at lines 90--91
+[]\OT1/cmr/m/n/10.95 Twitter VealeEA2015, or the web at large in con-junc-tion 
+with other resources VealeEA2007. 
+ []
 
 
-LaTeX Warning: Citation `Markov' undefined on input line 96.
+LaTeX Warning: Citation `Shutova2013' undefined on input line 92.
+
+
+LaTeX Warning: Citation `BirkeEA2006' undefined on input line 92.
+
+
+LaTeX Warning: Citation `Utsumi2011' undefined on input line 92.
+
+! Undefined control sequence.
+l.92 ...these statistical approaches (see \citealt
+                                                  {TurneyEA2011}, \citealt{D...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.92 ...ches (see \citealt{TurneyEA2011}, \citealt
+                                                  {Dunn2013} for a compariso...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.92 ...nal semantic and symbolic models, \citealt
+                                                  {ShutovaEA2013} for an ove...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Kintsch2000' undefined on input line 92.
 
 ! Undefined control sequence.
 \citepos #1->\citeauthor {#1}'s \citeyearpar 
                                              {#1}
-l.96 ...hich has its roots in \citepos{Harris1954}
+l.92 ...e next section: here \citepos{Kintsch2000}
+                                                   model of metaphoric inter...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `chap:figurative' on page 17 undefined on input line 9
+2.
+
+[17]
+
+LaTeX Warning: Citation `TsvetkovEA2014' undefined on input line 94.
+
+
+LaTeX Warning: Citation `Veale2016' undefined on input line 96.
+
+
+LaTeX Warning: Citation `Davidson' undefined on input line 98.
+
+
+LaTeX Warning: Citation `Markov' undefined on input line 101.
+
+! Undefined control sequence.
+\citepos #1->\citeauthor {#1}'s \citeyearpar 
+                                             {#1}
+l.101 ...ich has its roots in \citepos{Harris1954}
                                                    work examining ``meaning ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1089,7 +1170,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.96 ...xts tend to have similar meaning,'' \citep
+l.101 ...ts tend to have similar meaning,'' \citep
                                                   [][p. 126]{Pantel2005}.  O...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1097,11 +1178,11 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[17]
+[18]
 ! Undefined control sequence.
 \citepos #1->\citeauthor {#1}'s \citeyearpar 
                                              {#1}
-l.100 ...rely statistical approaches to language.}
+l.105 ...rely statistical approaches to language.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1112,7 +1193,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \citepos #1->\citeauthor {#1}'s \citeyearpar 
                                              {#1}
-l.102 Notwithstanding \citepos{Chomsky}
+l.107 Notwithstanding \citepos{Chomsky}
                                         formidable case that the bulk of a l...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1120,42 +1201,42 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[18] [19]
+[19]
 
-LaTeX Warning: Citation `Turner' undefined on input line 113.
-
-
-LaTeX Warning: Citation `O'Donoghue' undefined on input line 113.
+LaTeX Warning: Citation `Turner' undefined on input line 118.
 
 
-LaTeX Warning: Citation `Gervas' undefined on input line 113.
+LaTeX Warning: Citation `O'Donoghue' undefined on input line 118.
 
 
-LaTeX Warning: Citation `Toivonen' undefined on input line 113.
+LaTeX Warning: Citation `Gervas' undefined on input line 118.
 
 
-LaTeX Warning: Citation `Rashel' undefined on input line 113.
+LaTeX Warning: Citation `Toivonen' undefined on input line 118.
 
 
-LaTeX Warning: Citation `Cardosa' undefined on input line 113.
+LaTeX Warning: Citation `Rashel' undefined on input line 118.
 
 
-LaTeX Warning: Citation `Clark' undefined on input line 116.
-
-
-LaTeX Warning: Citation `Gardenfors' undefined on input line 118.
-
-
-LaTeX Warning: Citation `Widdows' undefined on input line 118.
+LaTeX Warning: Citation `Cardosa' undefined on input line 118.
 
 [20]
 
-LaTeX Warning: Citation `Putnam' undefined on input line 120.
+LaTeX Warning: Citation `Clark' undefined on input line 121.
+
+
+LaTeX Warning: Citation `Gardenfors' undefined on input line 123.
+
+
+LaTeX Warning: Citation `Widdows' undefined on input line 123.
+
+
+LaTeX Warning: Citation `Putnam' undefined on input line 125.
 
 ! Undefined control sequence.
 \citepos #1->\citeauthor {#1}'s \citeyearpar 
                                              {#1}
-l.120 ...are diffused somewhat by \citepos{Putnam}
+l.125 ...are diffused somewhat by \citepos{Putnam}
                                                    insight that conceptual e...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1164,10 +1245,10 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Varela' undefined on input line 120.
+LaTeX Warning: Citation `Varela' undefined on input line 125.
 
 ! Undefined control sequence.
-l.120 ...c representation of that situation \citep
+l.125 ...c representation of that situation \citep
                                                   [][is another notable prop...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1176,15 +1257,15 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Wheeler' undefined on input line 120.
+LaTeX Warning: Citation `Wheeler' undefined on input line 125.
 
 
-LaTeX Warning: Citation `Gibson' undefined on input line 120.
+LaTeX Warning: Citation `Gibson' undefined on input line 125.
 
 ! Undefined control sequence.
 \citepos #1->\citeauthor {#1}'s \citeyearpar 
                                              {#1}
-l.120 ...will be characterised by \citepos{Gibson}
+l.125 ...will be characterised by \citepos{Gibson}
                                                    notion of \emph{affordanc...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1192,34 +1273,35 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-
-LaTeX Warning: Citation `Peirce' undefined on input line 123.
-
-
-LaTeX Warning: Citation `Black' undefined on input line 123.
-
-
-LaTeX Warning: Citation `Lakoff' undefined on input line 123.
-
 [21]
 
-LaTeX Warning: Citation `Searle' undefined on input line 125.
+LaTeX Warning: Citation `Peirce' undefined on input line 128.
 
 
-LaTeX Warning: Citation `Reimer' undefined on input line 125.
+LaTeX Warning: Citation `Black' undefined on input line 128.
 
 
-LaTeX Warning: Citation `Barsalou' undefined on input line 127.
-
-
-LaTeX Warning: Citation `Allott' undefined on input line 127.
+LaTeX Warning: Citation `Lakoff' undefined on input line 128.
 
 [22]
 
-LaTeX Warning: Citation `GreffenstetteEA2011' undefined on input line 132.
+LaTeX Warning: Citation `Searle' undefined on input line 130.
+
+
+LaTeX Warning: Citation `Reimer' undefined on input line 130.
+
+
+LaTeX Warning: Citation `Barsalou' undefined on input line 132.
+
+
+LaTeX Warning: Citation `Allott' undefined on input line 132.
+
+[23]
+
+LaTeX Warning: Citation `GreffenstetteEA2011' undefined on input line 137.
 
 ! Undefined control sequence.
-l.132 ...11} and \cite{GreffenstetteEA2011} \citep
+l.137 ...11} and \cite{GreffenstetteEA2011} \citep
                                                   [see][for an overview]{Mit...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1227,11 +1309,11 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[23]
+[24]
 ! Undefined control sequence.
 \citepos #1->\citeauthor {#1}'s \citeyearpar 
                                              {#1}
-l.138 ...tasks.  Elsewhere, \citepos{BaroniEA2010}
+l.143 ...tasks.  Elsewhere, \citepos{BaroniEA2010}
                                                    work on composing adjecti...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1239,94 +1321,216 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-) [24] [25]
-\openout2 = `ch3/ch3.aux'.
+) [25]
+\openout2 = `ch3/Three.aux'.
 
- (./ch3/ch3.tex
-Chapter 3.
-
-Overfull \hbox (8.39722pt too wide) in paragraph at lines 41--42
- [][] 
- []
-
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 102.
-
-(/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
-File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <24.88> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 102.
-
-Overfull \hbox (27.86494pt too wide) in paragraph at lines 110--111
- [][] 
- []
-
-[26
-
-
-
-] [27]
+ (./ch3/Three.tex
 ! Undefined control sequence.
-\citepos #1->\citeauthor {#1}'s \citeyearpar 
-                                             {#1}
-l.127 ...l schemes at the root of \citepos{Lakoff}
-                                                   conceptual metaphors.  It...
+l.12 ...oundations of both formal semantics \citep
+                                                  {Montague} and pragmatics ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[28]) [29]
-\openout2 = `ch4/ch4.aux'.
+! Undefined control sequence.
+l.12 ...ics \citep{Montague} and pragmatics \citep
+                                                  {Grice}, and is likewise t...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
- (./ch4/ch4.tex
-Chapter 4.
-[30
-
-
-
-] [31]
-
-LaTeX Warning: Citation `Mikolov' undefined on input line 18.
+[26
 
 
-LaTeX Warning: Citation `Pennington' undefined on input line 18.
+]
+
+LaTeX Warning: Citation `BaroniEA2014b' undefined on input line 16.
 
 
-LaTeX Warning: Citation `Levy' undefined on input line 18.
+LaTeX Warning: Citation `ErkEA2008' undefined on input line 16.
 
-) [32]
+! Undefined control sequence.
+l.16 ...ting \emph{selectional preferences} \citep
+                                                  [\emph{a la}][]{Wilks1978}...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.16 ...ouns and verbs.  In subsequent work \citep
+                                                  {ErkEA2010}, the same auth...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\citepos #1->\citeauthor {#1}'s \citeyearpar 
+                                             {#1}
+l.20 Following on \citepos{Barsalou}
+                                     insight into the \emph{haphazard} way i...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\citepos #1->\citeauthor {#1}'s \citeyearpar 
+                                             {#1}
+l.20 ...uationally, and likewise \citepos{Carston}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[27]
+
+LaTeX Warning: Citation `Baroni' undefined on input line 25.
+
+) [28]
+\openout2 = `ch4/Four.aux'.
+
+ (./ch4/Four.tex
+Overfull \hbox (31.32686pt too wide) in paragraph at lines 23--33
+[][] 
+ []
+
+
+Overfull \hbox (27.67686pt too wide) in paragraph at lines 37--47
+[][] 
+ []
+
+
+Overfull \hbox (31.32686pt too wide) in paragraph at lines 51--61
+[][] 
+ []
+
+
+Overfull \hbox (27.67686pt too wide) in paragraph at lines 65--75
+[][] 
+ []
+
+
+Overfull \hbox (34.97685pt too wide) in paragraph at lines 79--89
+[][] 
+ []
+
+
+Overfull \hbox (66.50375pt too wide) in paragraph at lines 93--103
+[][] 
+ []
+
+
+! Package caption Error: \caption outside float.
+
+See the caption package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.117 \caption
+              {Simlex999, 200 dimensions, 5x5 co-occurrence window.}
+If you do not understand this error, please take a closer look
+at the documentation of the `caption' package, especially the
+section about errors.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (114.86633pt too wide) in paragraph at lines 106--118
+\OT1/cmr/m/n/10.95 begintable []
+ []
+
+! Too many }'s.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.118 \end{table}
+                 
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+[29
+
+
+]
+! Extra \endgroup.
+\color@endgroup ->\endgraf \endgroup 
+                                     
+l.118 \end{table}
+                 
+Things are pretty mixed up, but I think the worst is over.
+
+! Too many }'s.
+\color@endbox ->\color@endgroup \egroup 
+                                        
+l.118 \end{table}
+                 
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+
+! LaTeX Error: \begin{document} ended by \end{table}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.118 \end{table}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.118 \end{table}
+                 
+Things are pretty mixed up, but I think the worst is over.
+
+) [30]
 \openout2 = `ch5/ch5.aux'.
 
  (./ch5/ch5.tex
-Chapter 5.
+Chapter 3.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[33
+
+LaTeX Warning: Citation `Mikolov' undefined on input line 34.
+
+[31
 
 
 
-] [34]) [35]
+] [32]) [33]
 \openout2 = `ch6/ch6.aux'.
 
  (./ch6/ch6.tex
-Chapter 6.
-[36
+Chapter 4.
+[34
 
 
 
-]) [37]
+]) [35]
 \openout2 = `ch7/ch7.aux'.
 
  (./ch7/ch7.tex
-Chapter 7.
-) [38
+Chapter 5.
+) [36
 
 
 
-] (./thesis.bbl [39
+] (./thesis.bbl [37
 
 
 ]
@@ -1336,39 +1540,36 @@ Underfull \hbox (badness 1509) in paragraph at lines 525--540
   Avail-able from
  []
 
-[40] [41] [42]) [43] (./thesis.aux (./cover.aux) (./ch1/ch1.aux) (./ch2/Two.aux
-) (./ch3/ch3.aux) (./ch4/ch4.aux) (./ch5/ch5.aux) (./ch6/ch6.aux)
+[38] [39] [40]) [41] (./thesis.aux (./cover.aux) (./ch1/ch1.aux) (./ch2/Two.aux
+) (./ch3/Three.aux) (./ch4/Four.aux) (./ch5/ch5.aux) (./ch6/ch6.aux)
 (./ch7/ch7.aux))
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 16440 strings out of 495061
- 344172 string characters out of 1182622
- 412080 words of memory out of 3000000
- 19199 multiletter control sequences out of 15000+50000
- 17472 words of font info for 69 fonts, out of 3000000 for 9000
+ 16328 strings out of 495061
+ 341845 string characters out of 1182622
+ 425029 words of memory out of 3000000
+ 19090 multiletter control sequences out of 15000+50000
+ 17215 words of font info for 68 fonts, out of 3000000 for 9000
  29 hyphenation exceptions out of 8191
- 56i,14n,61p,2032b,815s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 56i,10n,61p,2032b,351s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
 re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-te
 xlive/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-texlive/font
-s/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-texlive/fonts/type1/pub
-lic/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfont
-s/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.p
-fb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/sha
-re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-tex
-live/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-texlive/fonts/ty
-pe1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public/am
-sfonts/cm/cmr9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cms
-y10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy9.pfb></us
-r/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/tex
-mf-texlive/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texmf-texlive/f
-onts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on thesis.pdf (46 pages, 328180 bytes).
+s/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/pub
+lic/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts
+/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pf
+b></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share
+/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texliv
+e/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-texlive/fonts/type1
+/public/amsfonts/cm/cmsy9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsf
+onts/cm/cmti10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmt
+i9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on thesis.pdf (44 pages, 295616 bytes).
 PDF statistics:
- 222 PDF objects out of 1000 (max. 8388607)
+ 204 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

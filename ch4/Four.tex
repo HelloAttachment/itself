@@ -1,0 +1,132 @@
+In this chapter, I present the first stage of empirical results using the methodology described in the previous chapter.
+
+\section{A Proof of Concept}
+
+\section{Word Similarity in Context}
+
+\begin{table}
+\begin{tabular}{lrrrr|rrrr}
+\hline
+& \multicolumn{4}{c|}{wordsim353} & \multicolumn{4}{c}{simlex999} \\
+& \multicolumn{2}{c}{2x2} & \multicolumn{2}{c|}{5x5} & \multicolumn{2}{c}{2x2} & \multicolumn{2}{c}{5x5} \\
+& \multicolumn{1}{c}{20} & \multicolumn{1}{c}{200} & \multicolumn{1}{c}{20} & \multicolumn{1}{c|}{200} & \multicolumn{1}{c}{20} & \multicolumn{1}{c}{200} & \multicolumn{1}{c}{20} & \multicolumn{1}{c}{200} \\
+\hline
+\textsc{Joint} & 0.372 & 0.387 & 0.403 & 0.393 & 0.138 & 0.179 & 0.128 & 0.155 \\
+\textsc{Indy} & 0.371 & 0.400 & 0.410 & 0.440 & 0.134 & 0.173 & 0.111 & 0.149 \\
+\textsc{Zipped} & 0.326 & 0.386 & 0.347 & 0.384 & 0.140 & 0.165 & 0.147 & 0.147 \\
+\textsc{Merged} & 0.386 & 0.456 & 0.437 & 0.485 & 0.160 & 0.191 & 0.138 & 0.163 \\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{table}
+\begin{tabular}{lrrrrrrrrrr}
+\hline
+\textsc{space} & dis & v-cos & c-cos & n-cos & $n_1,n_2$ & $m_1,m_2$ & $c_1,c_2$ & c-dis & m-rat & n-rat \\
+\hline
+\textsc{Joint} & -0.353 & 0.484 & 0.594 & 0.283 & 0.597 & 0.485 & -0.486 & 0.227 & 0.205 & 0.274 \\
+\textsc{Indy} & -0.249 & 0.597 & 0.607 & 0.252 & 0.341 & 0.170 & -0.583 & 0.131 & 0.084 & 0.115 \\
+\textsc{Zipped} & -0.247 & 0.511 & 0.561 & 0.262 & 0.563 & 0.444 & -0.493 & 0.306 & 0.089 & 0.129 \\
+\textsc{Merged} & -0.250 & 0.413 & 0.550 & -0.065 & 0.565 & 0.150 & -0.415 & 0.114 & -0.169 & 0.613 \\
+\hline
+\end{tabular}
+\caption{Wordsim353, 20 dimensions, 2x2 co-occurrence window.}
+\end{table}
+
+\begin{table}
+\begin{tabular}{lrrrrrrrrrr}
+\hline
+\textsc{space} & dis & v-cos & c-cos & n-cos & $n_1,n_2$ & $m_1,m_2$ & $c_1,c_2$ & c-dis & m-rat & n-rat \\
+\hline
+\textsc{Joint} & -0.203 & 0.480 & 0.603 & 0.399 & 0.626 & 0.453 & -0.449 & 0.231 & -0.041 & 0.121 \\
+\textsc{Indy} & -0.213 & 0.598 & 0.667 & 0.495 & 0.373 & 0.135 & -0.571 & 0.103 & 0.032 & 0.089 \\
+\textsc{Zipped} & -0.181 & 0.464 & 0.592 & 0.442 & 0.628 & 0.436 & -0.423 & 0.297 & -0.041 & 0.056 \\
+\textsc{Merged} & -0.180 & 0.435 & 0.603 & 0.140 & 0.599 & 0.086 & -0.417 & 0.067 & -0.318 & 0.643 \\
+\hline
+\end{tabular}
+\caption{Wordsim353, 200 dimensions, 2x2 co-occurrence window.}
+\end{table}
+
+\begin{table}
+\begin{tabular}{lrrrrrrrrrr}
+\hline
+\textsc{space} & dis & v-cos & c-cos & n-cos & $n_1,n_2$ & $m_1,m_2$ & $c_1,c_2$ & c-dis & m-rat & n-rat \\
+\hline
+\textsc{Joint} & -0.467 & 0.558 & 0.644 & 0.383 & 0.577 & 0.461 & -0.560 & 0.185 & 0.200 & 0.284 \\
+\textsc{Indy} & -0.300 & 0.644 & 0.639 & 0.287 & 0.329 & 0.159 & -0.627 & 0.086 & 0.045 & 0.066 \\
+\textsc{Zipped} & -0.393 & 0.589 & 0.593 & 0.346 & 0.498 & 0.371 & -0.570 & 0.307 & 0.027 & 0.059 \\
+\textsc{Merged} & -0.290 & 0.431 & 0.608 & -0.050 & 0.547 & 0.123 & -0.458 & 0.056 & -0.184 & 0.664 \\
+\hline
+\end{tabular}
+\caption{Wordsim353, 20 dimensions, 5x5 co-occurrence window.}
+\end{table}
+
+\begin{table}
+\begin{tabular}{lrrrrrrrrrr}
+\hline
+\textsc{space} & dis & v-cos & c-cos & n-cos & $n_1,n_2$ & $m_1,m_2$ & $c_1,c_2$ & c-dis & m-rat & n-rat \\
+\hline
+\textsc{Joint} & -0.343 & 0.574 & 0.651 & 0.525 & 0.599 & 0.447 & -0.552 & 0.239 & -0.029 & 0.183 \\
+\textsc{Indy} & -0.241 & 0.650 & 0.696 & 0.555 & 0.366 & 0.121 & -0.626 & 0.069 & -0.003 & 0.074 \\
+\textsc{Zipped} & -0.290 & 0.557 & 0.628 & 0.587 & 0.588 & 0.430 & -0.520 & 0.334 & -0.067 & 0.050 \\
+\textsc{Merged} &-0.208 & 0.445 & 0.675 & 0.071 & 0.583 & 0.083 & -0.464 & 0.037 & -0.325 & 0.692 \\
+\hline
+\end{tabular}
+\caption{Wordsim353, 200 dimensions, 5x5 co-occurrence window.}
+\end{table}
+
+\begin{table}
+\begin{tabular}{lrrrrrrrrrr}
+\hline
+\textsc{space} & dis & v-cos & c-cos & n-cos & $n_1,n_2$ & $m_1,m_2$ & $c_1,c_2$ & c-dis & m-rat & n-rat \\
+\hline
+\textsc{Joint} & -0.216 & 0.284 & 0.334 & 0.159 & 0.299 & 0.255 & -0.296 & 0.078 & 0.115 & 0.128 \\
+\textsc{Indy} & -0.204 & 0.351 & 0.359 & 0.176 & 0.107 & 0.006 & -0.343 & -0.027 & 0.070 & 0.088 \\
+\textsc{Zipped} & -0.263 & 0.333 & 0.348 & 0.201 & 0.259 & 0.159 & -0.331 & 0.087 & 0.078 & 0.111 \\
+\textsc{Merged} & -0.206 & 0.267 & 0.350 & -0.020 & 0.274 & -0.002 & -0.261 & -0.025 & -0.035 & 0.376 \\
+\hline
+\end{tabular}
+\caption{Simlex999, 20 dimensions, 2x2 co-occurrence window.}
+\end{table}
+
+begin{table}
+\begin{tabular}{lrrrrrrrrrr}
+\hline
+\textsc{space} & dis & v-cos & c-cos & n-cos & $n_1,n_2$ & $m_1,m_2$ & $c_1,c_2$ & c-dis & m-rat & n-rat \\
+\hline
+\textsc{Joint} & -0.213 & 0.331 & 0.368 & 0.291 & 0.308 & 0.215 & -0.317 & 0.019 & -0.015 & 0.064 \\
+\textsc{Indy} & -0.179 & 0.357 & 0.388 & 0.318 & 0.117 & -0.009 & -0.335 & -0.044 & 0.051 & 0.117 \\
+\textsc{Zipped} & -0.214 & 0.312 & 0.357 & 0.304 & 0.292 & 0.138 & -0.296 & 0.048 & -0.025 & 0.102 \\
+\textsc{Merged} & -0.144 & 0.247 & 0.363 & 0.079 & 0.278 & -0.013 & -0.234 & -0.082 & -0.061 & 0.364 \\
+\hline
+\end{tabular}
+\caption{Simlex999, 200 dimensions, 2x2 co-occurrence window.}
+\end{table}
+
+\begin{table}
+\begin{tabular}{lrrrrrrrrrr}
+\hline
+\textsc{space} & dis & v-cos & c-cos & n-cos & $n_1,n_2$ & $m_1,m_2$ & $c_1,c_2$ & c-dis & m-rat & n-rat \\
+\hline
+\textsc{Joint} & -0.243 & 0.295 & 0.325 & 0.185 & 0.229 & 0.176 & -0.314 & 0.058 & 0.093 & 0.122 \\
+\textsc{Indy} & -0.168 & 0.311 & 0.307 & 0.158 & 0.083 & 0.004 & -0.301 & -0.033 & 0.053 & 0.082 \\
+\textsc{Zipped} & -0.296 & 0.338 & 0.326 & 0.201 & 0.180 & 0.080 & -0.338 & 0.108 & 0.054 & 0.108 \\
+\textsc{Merged} & -0.182 & 0.208 & 0.343 & -0.063 & 0.218 & -0.014 & -0.228 & -0.030 & -0.064 & 0.350 \\
+\hline
+\end{tabular}
+\caption{Simlex999, 20 dimensions, 5x5 co-occurrence window.}
+\end{table}
+
+\begin{table}
+\begin{tabular}{lrrrrrrrrrr}
+\hline
+\textsc{space} & dis & v-cos & c-cos & n-cos & $n_1,n_2$ & $m_1,m_2$ & $c_1,c_2$ & c-dis & m-rat & n-rat \\
+\hline
+\textsc{Joint} & -0.252 & 0.324 & 0.339 & 0.314 & 0.228 & 0.139 & -0.307 & 0.025 & 0.030 & 0.085 \\
+\textsc{Indy} & -0.145 & 0.307 & 0.342 & 0.307 & 0.087 & -0.005 & -0.282 & -0.053 & 0.068 & 0.104 \\
+\textsc{Zipped} & -0.259 & 0.317 & 0.330 & 0.337 & 0.204 & 0.065 & -0.298 & 0.061 & 0.030 & 0.112 \\
+\textsc{Merged} -0.117 & 0.170 & 0.332 & 0.050 & 0.212 & -0.008 & -0.167 & -0.078 & -0.015 & 0.329 \\
+\hline
+\end{tabular}
+\caption{Simlex999, 200 dimensions, 5x5 co-occurrence window.}
+\end{table}

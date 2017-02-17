@@ -1,4 +1,22 @@
-@Inbook{Veale2015,
+@article{BaroniEA2014b,
+author = {Baroni, Marco and Bernardi, Raffaella and Zamparelli, Roberto},
+editor = {Condoravdi, Cleo and de Paiva, Valeria and Zaenen, Annie},
+journal = {Linguistic Issues in Language Technology},
+pages = {241--346},
+title = {Frege in space: A program for compositional distributional semantics},
+volume = {9},
+year = {2014}
+}
+@inproceedings{ErkEA2008,
+author = {Erk, Katrin and Pad\'{o}, Sebastian},
+title = {A Structured Vector Space Model for Word Meaning in Context},
+booktitle = {Proceedings of the Conference on Empirical Methods in Natural Language Processing},
+series = {EMNLP '08},
+year = {2008},
+pages = {897--906},
+url = {http://dl.acm.org/citation.cfm?id=1613715.1613831},
+} 
+@Inbook{VealeEA2015,
 author="Veale, Tony and Valitutti, Alessandro and Li, Guofu",
 editor="Streitz, Norbert and Markopoulos, Panos",
 title="Twitter: The Best of Bot Worlds for Automated Wit",

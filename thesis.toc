@@ -9,25 +9,22 @@
 \contentsline {section}{\numberline {2.2}Concepts}{13}
 \contentsline {section}{\numberline {2.3}Words}{14}
 \contentsline {section}{\numberline {2.4}Word Counting}{18}
-\contentsline {section}{\numberline {2.5}OLD}{19}
-\contentsline {section}{\numberline {2.6}Minds and Spaces}{20}
-\contentsline {section}{\numberline {2.7}Words and Concepts}{21}
-\contentsline {section}{\numberline {2.8}Computers and Language}{23}
-\contentsline {chapter}{\numberline {3}Theoretical Foundation}{26}
-\contentsline {section}{\numberline {3.1}Concepts in Context}{26}
-\contentsline {section}{\numberline {3.2}A Literal, Dynamic Language Model}{27}
-\contentsline {section}{\numberline {3.3}The Geometry of Metaphor}{28}
-\contentsline {chapter}{\numberline {4}Methodology}{30}
-\contentsline {section}{\numberline {4.1}A Lexical Base Model}{30}
-\contentsline {section}{\numberline {4.2}Taxonomy Recapitulation}{31}
-\contentsline {section}{\numberline {4.3}Analogy Completion}{32}
-\contentsline {section}{\numberline {4.4}Metaphor Generation}{32}
-\contentsline {chapter}{\numberline {5}Implementation and Results}{33}
-\contentsline {section}{\numberline {5.1}The Base Model and Projections}{33}
-\contentsline {section}{\numberline {5.2}Taxonomies}{34}
-\contentsline {section}{\numberline {5.3}Analogies}{35}
-\contentsline {chapter}{\numberline {6}Evaluation}{36}
-\contentsline {section}{\numberline {6.1}Taxonomy and Analogy}{36}
-\contentsline {section}{\numberline {6.2}Metaphor}{37}
-\contentsline {chapter}{\numberline {7}Conclusion}{38}
-\contentsline {chapter}{References}{39}
+\contentsline {section}{\numberline {2.5}OLD}{20}
+\contentsline {section}{\numberline {2.6}Minds and Spaces}{21}
+\contentsline {section}{\numberline {2.7}Words and Concepts}{22}
+\contentsline {section}{\numberline {2.8}Computers and Language}{24}
+\contentsline {section}{\numberline {2.9}Dynamic Context Sensitivity}{26}
+\contentsline {section}{\numberline {2.10}Literal Dimensions of Co-Occurrence}{28}
+\contentsline {section}{\numberline {2.11}Interpretable Geometry}{28}
+\contentsline {section}{\numberline {2.12}A Computational Model}{28}
+\contentsline {section}{\numberline {2.13}A Proof of Concept}{30}
+\contentsline {section}{\numberline {2.14}Word Similarity in Context}{30}
+\contentsline {chapter}{\numberline {3}Implementation and Results}{31}
+\contentsline {section}{\numberline {3.1}The Base Model and Projections}{31}
+\contentsline {section}{\numberline {3.2}Taxonomies}{32}
+\contentsline {section}{\numberline {3.3}Analogies}{33}
+\contentsline {chapter}{\numberline {4}Evaluation}{34}
+\contentsline {section}{\numberline {4.1}Taxonomy and Analogy}{34}
+\contentsline {section}{\numberline {4.2}Metaphor}{35}
+\contentsline {chapter}{\numberline {5}Conclusion}{36}
+\contentsline {chapter}{References}{37}
