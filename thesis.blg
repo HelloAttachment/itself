@@ -1,21 +1,35 @@
-This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: cover.aux
 A level-1 auxiliary file: ch1/ch1.aux
 A level-1 auxiliary file: ch2/Two.aux
-A level-1 auxiliary file: ch3/ch3.aux
-A level-1 auxiliary file: ch4/ch4.aux
+A level-1 auxiliary file: ch3/Three.aux
+A level-1 auxiliary file: ch4/Four.aux
 A level-1 auxiliary file: ch5/ch5.aux
 A level-1 auxiliary file: ch6/ch6.aux
 A level-1 auxiliary file: ch7/ch7.aux
 The style file: apacite.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated field_info (elt_size=4) to 11816 items from 5000.
 Database file #1: Mega.bib.bib
 Warning--I didn't find a database entry for "Kant"
 Warning--I didn't find a database entry for "Wittgenstein"
 Warning--I didn't find a database entry for "Descartes"
+Warning--I didn't find a database entry for "Locke"
+Warning--I didn't find a database entry for "Hume"
+Warning--I didn't find a database entry for "Hegel"
 Warning--I didn't find a database entry for "Bretano"
+Warning--I didn't find a database entry for "Husserl"
+Warning--I didn't find a database entry for "Heidegger"
 Warning--I didn't find a database entry for "Rowlands"
 Warning--I didn't find a database entry for "Davidson"
 Warning--I didn't find a database entry for "Millikan"
@@ -28,12 +42,17 @@ Warning--I didn't find a database entry for "Floridi"
 Warning--I didn't find a database entry for "Shannon"
 Warning--I didn't find a database entry for "BarHillel"
 Warning--I didn't find a database entry for "Dretske"
+Warning--I didn't find a database entry for "BarwiseEA"
+Warning--I didn't find a database entry for "Levine"
+Warning--I didn't find a database entry for "Pattee"
 Warning--I didn't find a database entry for "Tonnoni"
 Warning--I didn't find a database entry for "Koch"
 Warning--I didn't find a database entry for "Colton"
 Warning--I didn't find a database entry for "Fodor"
 Warning--I didn't find a database entry for "Carston"
 Warning--I didn't find a database entry for "Chomsky"
+Warning--I didn't find a database entry for "Cooper"
+Warning--I didn't find a database entry for "Lakoff1987"
 Warning--I didn't find a database entry for "Grice"
 Warning--I didn't find a database entry for "Markov"
 Warning--I didn't find a database entry for "Turner"
@@ -57,97 +76,49 @@ Warning--I didn't find a database entry for "Reimer"
 Warning--I didn't find a database entry for "Barsalou"
 Warning--I didn't find a database entry for "Allott"
 Warning--I didn't find a database entry for "GreffenstetteEA2011"
+Warning--I didn't find a database entry for "Montague"
+Warning--I didn't find a database entry for "Baroni"
 Warning--I didn't find a database entry for "Mikolov"
-Warning--I didn't find a database entry for "Pennington"
-Warning--I didn't find a database entry for "Levy"
-apacite.bst [2009/03/01 v4.05 APA bibliography style]
-Warning--No publisher in Feldman2006
-Warning--No address in Feldman2006
-Warning--No publisher in BaroniEA2010
-Warning--No address in BaroniEA2010
-Warning--No publisher in Black1955
-Warning--No address in Black1955
-Warning--No address in Black1977
-Warning--No address in Chalmers1996
-Warning--No publisher in CimianoEA2003
-Warning--No address in CimianoEA2003
-Warning--No address in Clark2015
-Warning--No publisher in CollobertEA2008
-Warning--No address in CollobertEA2008
-Warning--No publisher in ColtonEA2012B
-Warning--No address in ColtonEA2012B
-Warning--No publisher in Davidson1974
-Warning--No address in Davidson1974
-Warning--No address in Evans2009
-Warning--No publisher in Firth1957
-Warning--No address in Firth1957
-Warning--No address in Fodor2008
-Warning--No address in Gibbs1994
-Warning--No publisher in GutierrezEA2016
-Warning--No address in GutierrezEA2016
-Warning--No address in LakoffEA1980
-Warning--No publisher in LevyEA2015
-Warning--No address in LevyEA2015
-Warning--No publisher in McGregorEA2014
-Warning--No address in McGregorEA2014
-Warning--No publisher in MikolovEA2013b
-Warning--No address in MikolovEA2013b
-Warning--No publisher in MikolovEA2013
-Warning--No address in MikolovEA2013
-Warning--No address in Peirce1931
-Warning--No publisher in PenningtonEA2014
-Warning--No address in PenningtonEA2014
-Warning--No publisher in PustejovskyEA2010
-Warning--No address in PustejovskyEA2010
-Warning--No publisher in SantusEA2014
-Warning--No address in SantusEA2014
-Warning--No address in Searle1979
-Warning--No publisher in Shutova2010
-Warning--No address in Shutova2010
-Warning--No publisher in SnowEA2006
-Warning--No address in SnowEA2006
-Warning--No address in Sweetser1990
-Warning--No publisher in ThomasEA1999
-Warning--No address in White2009
-You've used 62 entries,
-            6361 wiz_defined-function locations,
-            1677 strings with 19520 characters,
-and the built_in function-call counts, 103132 in all, are:
-= -- 13238
-> -- 871
-< -- 4152
-+ -- 4093
-- -- 120
-* -- 6104
-:= -- 17064
-add.period$ -- 293
-call.type$ -- 62
-change.case$ -- 333
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
+You've used 84 entries,
+            6951 wiz_defined-function locations,
+            1939 strings with 24911 characters,
+and the built_in function-call counts, 149319 in all, are:
+= -- 19388
+> -- 1216
+< -- 6106
++ -- 5896
+- -- 164
+* -- 8572
+:= -- 24545
+add.period$ -- 404
+call.type$ -- 84
+change.case$ -- 1427
 chr.to.int$ -- 0
-cite$ -- 174
-duplicate$ -- 2774
-empty$ -- 4565
-format.name$ -- 1309
-if$ -- 20686
+cite$ -- 170
+duplicate$ -- 3959
+empty$ -- 6487
+format.name$ -- 1783
+if$ -- 30168
 int.to.chr$ -- 0
-int.to.str$ -- 124
+int.to.str$ -- 252
 missing$ -- 0
-newline$ -- 1418
-num.names$ -- 494
-pop$ -- 2549
+newline$ -- 2038
+num.names$ -- 675
+pop$ -- 3522
 preamble$ -- 1
-purify$ -- 249
+purify$ -- 338
 quote$ -- 0
-skip$ -- 7259
+skip$ -- 10837
 stack$ -- 0
-substring$ -- 4695
-swap$ -- 1641
-text.length$ -- 186
+substring$ -- 6672
+swap$ -- 2340
+text.length$ -- 289
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 6450
-warning$ -- 48
-while$ -- 481
+type$ -- 8914
+warning$ -- 0
+while$ -- 652
 width$ -- 0
-write$ -- 1698
-(There were 96 warnings)
+write$ -- 2419
+(There were 58 warnings)

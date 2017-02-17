@@ -1,17 +1,17 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.2.4)  15 FEB 2017 23:53
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.9.4)  17 FEB 2017 15:27
 entering extended mode
+ restricted \write18 enabled.
  %&-line parsing enabled.
 **thesis.tex
 (./thesis.tex
-LaTeX2e <2009/09/24>
-Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
-yphenation, loaded.
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 78 languages loaded.
 (./uolthesis.cls
 Document Class: uolthesis 28/09/2012, modified from mitthesis.cls by Yue Gao at
  QMUL.
-(/usr/share/texmf-texlive/tex/latex/base/report.cls
+(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/share/texmf-texlive/tex/latex/base/size11.clo
+(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
 File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -27,26 +27,23 @@ File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/share/texmf-texlive/tex/latex/setspace/setspace.sty
-Package: setspace 2000/12/01 6.7 Contributed and Supported LaTeX2e package
-
-Package: `setspace' 6.7 <2000/12/01>
-) (/usr/share/texmf-texlive/tex/latex/appendix/appendix.sty
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/share/texlive/texmf-dist/tex/latex/appendix/appendix.sty
 Package: appendix 2009/09/02 v1.2b extra appendix facilities
 \c@@pps=\count88
 \c@@ppsavesec=\count89
 \c@@ppsaveapp=\count90
 )
-(/usr/share/texmf-texlive/tex/latex/tocbibind/tocbibind.sty
-Package: tocbibind 2009/09/04 v1.5i extra ToC listings
-
-
-Package tocbibind Note: The document has chapter divisions.
+(/usr/share/texlive/texmf-dist/tex/latex/tocbibind/tocbibind.sty
+Package: tocbibind 2010/10/13 v1.5k extra ToC listings
+Package tocbibind Info: The document has chapter divisions on input line 50.
 
 
 Package tocbibind Note: Using chapter style headings, unless overridden.
 
-) (/usr/share/texmf-texlive/tex/latex/fancyhdr/fancyhdr.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 \fancy@headwidth=\skip43
 \f@ncyO@elh=\skip44
 \f@ncyO@erh=\skip45
@@ -57,69 +54,76 @@ Package tocbibind Note: Using chapter style headings, unless overridden.
 \f@ncyO@olf=\skip50
 \f@ncyO@orf=\skip51
 )
-(/usr/share/texmf-texlive/tex/latex/ltxmisc/parskip.sty
+(/usr/share/texlive/texmf-dist/tex/latex/parskip/parskip.sty
 Package: parskip 2001/04/09 non-zero parskip adjustments
 )
-(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/etc/texmf/tex/latex/config/graphics.cfg
-File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
 \Gread@gobject=\count91
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
-(/usr/share/texmf-texlive/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2000/07/18 v2.13 AMS math features
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip52
 
 For additional information on amsmath, use the `?' option.
-(/usr/share/texmf-texlive/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-(/usr/share/texmf-texlive/tex/latex/amsmath/amsgen.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks15
 \ex@=\dimen105
 ))
-(/usr/share/texmf-texlive/tex/latex/amsmath/amsbsy.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen106
 )
-(/usr/share/texmf-texlive/tex/latex/amsmath/amsopn.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count92
-LaTeX Info: Redefining \frac on input line 211.
+LaTeX Info: Redefining \frac on input line 210.
 \uproot@=\count93
 \leftroot@=\count94
-LaTeX Info: Redefining \overline on input line 307.
+LaTeX Info: Redefining \overline on input line 306.
 \classnum@=\count95
 \DOTSCASE@=\count96
-LaTeX Info: Redefining \ldots on input line 379.
-LaTeX Info: Redefining \dots on input line 382.
-LaTeX Info: Redefining \cdots on input line 467.
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
 \Mathstrutbox@=\box26
 \strutbox@=\box27
 \big@size=\dimen107
-LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \macc@depth=\count97
 \c@MaxMatrixCols=\count98
 \dotsspace@=\muskip10
@@ -140,20 +144,20 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 \multlinegap=\skip53
 \multlinetaggap=\skip54
 \mathdisplay@stack=\toks19
-LaTeX Info: Redefining \[ on input line 2666.
-LaTeX Info: Redefining \] on input line 2667.
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
 )
-(/usr/share/texmf-texlive/tex/latex/amsfonts/amsfonts.sty
-Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-(/usr/share/texmf-texlive/tex/latex/amsfonts/amssymb.sty
-Package: amssymb 2009/06/22 v3.00
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
-(/usr/share/texmf-texlive/tex/latex/amscls/amsthm.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2004/08/06 v2.20
 \thm@style=\toks20
 \thm@bodyfont=\toks21
@@ -165,10 +169,10 @@ Package: amsthm 2004/08/06 v2.20
 \thm@headsep=\skip57
 \dth@everypar=\toks25
 )
-(/usr/share/texmf-texlive/tex/latex/rotating/rotating.sty
+(/usr/share/texlive/texmf-dist/tex/latex/rotating/rotating.sty
 Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
 
-(/usr/share/texmf-texlive/tex/latex/base/ifthen.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \c@r@tfl@t=\count104
@@ -179,34 +183,32 @@ Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
 Thesis document copyright University of London unless otherwise (manually) spec
 ified
-) (/usr/share/texmf-texlive/tex/latex/graphics/lscape.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
-(/usr/share/texmf-texlive/tex/latex/jknapltx/mathrsfs.sty
+(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup6
 )
-(/usr/share/texmf-texlive/tex/latex/apacite/apacite.sty
-Package: apacite 2009/03/01 v4.05 APA citation
-
-
-! LaTeX Error: Unknown option `natbibapa' for package `apacite'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.134 \newif
-            \if@F@cite\@F@citetrue
-The option `natbibapa' was not declared in package `apacite', perhaps you
-misspelled its name. Try typing  <return>  to proceed.
-
+(/usr/share/texlive/texmf-dist/tex/latex/apacite/apacite.sty
+Package: apacite 2013/07/21 v6.03 APA citation
 \c@BibCnt=\count105
 \bibleftmargin=\skip60
 \bibindent=\skip61
 \bibparsep=\skip62
 \bibitemsep=\skip63
-) (/usr/share/texmf/tex/latex/pgf/frontendlayer/tikz.sty
+\biblabelsep=\skip64
+)
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip65
+\bibsep=\skip66
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count106
+)
+LaTeX Info: Redefining \BBA on input line 19.
+
+(/usr/share/texmf/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/share/texmf/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/share/texmf/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-common.tex
@@ -215,7 +217,7 @@ misspelled its name. Try typing  <return>  to proceed.
 (/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-latex.def
 \pgfutil@abb=\box29
 
-(/usr/share/texmf-texlive/tex/latex/ms/everyshi.sty
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
 (/usr/share/texmf/tex/generic/pgf/utilities/pgfrcs.code.tex
@@ -245,10 +247,10 @@ Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
 \pgf@yc=\dimen121
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
-\c@pgf@counta=\count106
-\c@pgf@countb=\count107
-\c@pgf@countc=\count108
-\c@pgf@countd=\count109
+\c@pgf@counta=\count107
+\c@pgf@countb=\count108
+\c@pgf@countc=\count109
+\c@pgf@countd=\count110
 
 (/usr/share/texmf/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
@@ -263,8 +265,8 @@ File: pgfsys-common-pdf.def 2008/05/19  (rcs-revision 1.10)
 )))
 (/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2008/07/18  (rcs-revision 1.7)
-\pgfsyssoftpath@smallbuffer@items=\count110
-\pgfsyssoftpath@bigbuffer@items=\count111
+\pgfsyssoftpath@smallbuffer@items=\count111
+\pgfsyssoftpath@bigbuffer@items=\count112
 )
 (/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
@@ -272,7 +274,7 @@ File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
 (/usr/share/texmf/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
-(/etc/texmf/tex/latex/config/color.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -294,7 +296,7 @@ Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen122
-\pgfmath@count=\count112
+\pgfmath@count=\count113
 \pgfmath@box=\box30
 \pgfmath@toks=\toks31
 \pgfmath@stack@operand=\toks32
@@ -309,7 +311,7 @@ Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.round.code.tex)
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)))
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count113
+\c@pgfmathroundto@lastzeros=\count114
 ))
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
@@ -343,7 +345,7 @@ File: pgfcorescopes.code.tex 2010/09/08  (rcs-revision 1.34)
 \pgfpic=\box31
 \pgf@hbox=\box32
 \pgf@layerbox@main=\box33
-\pgf@picture@serial@count=\count114
+\pgf@picture@serial@count=\count115
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2008/04/22  (rcs-revision 1.9)
@@ -370,7 +372,7 @@ File: pgfcorearrows.code.tex 2008/04/23  (rcs-revision 1.11)
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2008/11/23  (rcs-revision 1.13)
 \pgf@max=\dimen145
-\pgf@sys@shading@range@num=\count115
+\pgf@sys@shading@range@num=\count116
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2010/03/25  (rcs-revision 1.16)
@@ -418,7 +420,7 @@ Package: tikz 2010/10/13 v2.10 (rcs-revision 1.76)
 
 (/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
-\pgf@plot@mark@count=\count116
+\pgf@plot@mark@count=\count117
 \pgfplotmarksize=\dimen150
 )
 \tikz@lastx=\dimen151
@@ -429,73 +431,125 @@ File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
 \tikzsiblingdistance=\dimen156
 \tikz@figbox=\box36
 \tikz@tempbox=\box37
-\tikztreelevel=\count117
-\tikznumberofchildren=\count118
-\tikznumberofcurrentchild=\count119
-\tikz@fig@count=\count120
+\tikztreelevel=\count118
+\tikznumberofchildren=\count119
+\tikznumberofcurrentchild=\count120
+\tikz@fig@count=\count121
 
 (/usr/share/texmf/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
-\pgfmatrixcurrentrow=\count121
-\pgfmatrixcurrentcolumn=\count122
-\pgf@matrix@numberofcolumns=\count123
+\pgfmatrixcurrentrow=\count122
+\pgfmatrixcurrentcolumn=\count123
+\pgf@matrix@numberofcolumns=\count124
 )
-\tikz@expandcount=\count124
+\tikz@expandcount=\count125
 
 (/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopat
 hs.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v2.10 (rcs-revision 1.2)
-))) (/usr/share/texmf-texlive/tex/latex/pgfplots/pgfplots.sty
-Package: pgfplots 2009/02/14 Version 1.2.2
+))) (/usr/share/texlive/texmf-dist/tex/latex/pgfplots/pgfplots.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+Package: pgfplots 2013/10/03 v1.9 Data Visualization (1.9)
 
-(/usr/share/texmf-texlive/tex/generic/pgfplots/pgfplots.code.tex
-(/usr/share/texmf-texlive/tex/generic/pgfplots/pgfplotscore.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
 \t@pgfplots@toka=\toks36
 \t@pgfplots@tokb=\toks37
 \t@pgfplots@tokc=\toks38
 \pgfplots@tmpa=\dimen157
-)
-(/usr/share/texmf-texlive/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsup
-p_loader.code.tex
+\c@pgfplots@coordindex=\count126
+\c@pgfplots@scanlineindex=\count127
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code
+.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.t
+ex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_loader.code.tex
 Package pgfplots: loading complementary code for your PGF version...
 
-(/usr/share/texmf-texlive/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsup
-p_misc.code.tex)
-(/usr/share/texmf-texlive/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsup
-p_pgfkeysfiltered.code.tex
-\pgfkeys@tmptoks=\toks39
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_misc.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks39
+\pgfkeys@temptoks=\toks40
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks41
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count128
 )
-(/usr/share/texmf-texlive/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsup
-p_pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count125
-)
-(/usr/share/texmf-texlive/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsup
-p_pgflibraryplothandlers.code.tex
-File: pgfplotsoldpgfsupp_pgflibraryplothandlers.code.tex 2009/02/13 v2.10 (rcs-
-revision 1.7)
-\pgf@plot@mark@count=\count126
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2012/09/11 v2.10 (rcs-revision 1.17)
+\pgf@plot@mark@count=\count129
 \pgfplotmarksize=\dimen158
 )
-(/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryfpu.code.tex))
-(/usr/share/texmf-texlive/tex/generic/pgfplots/util/pgfplotsutil.code.tex
-(/usr/share/texmf-texlive/tex/generic/pgfplots/liststructure/pgfplotsliststruct
-ure.code.tex)
-(/usr/share/texmf-texlive/tex/generic/pgfplots/liststructure/pgfplotsliststruct
-ureext.code.tex)
-(/usr/share/texmf-texlive/tex/generic/pgfplots/liststructure/pgfplotsarray.code
-.tex
-\c@pgfplotsarray@tmp=\count127
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_pgflibraryfpu.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2012/11/30  (rcs-revision 1.38)
+\pgfpic=\box38
+\pgf@hbox=\box39
+\pgf@layerbox@main=\box40
+\pgf@picture@serial@count=\count130
 )
-(/usr/share/texmf-texlive/tex/generic/pgfplots/numtable/pgfplotstable.code.tex
-\c@pgfplotstable@counta=\count128
-\pgfplotstable@outfile=\write4
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2012/11/07  (rcs-revision 1.5)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotslists
+tructure.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotslists
+tructureext.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray
+.code.tex
+\c@pgfplotsarray@tmp=\count131
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatri
+x.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshare
+d.code.tex
+\c@pgfplotstable@counta=\count132
+\t@pgfplotstable@a=\toks42
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.te
+x
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.co
+de.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.sur
+fshading.code.tex
+\c@pgfplotslibrarysurf@no=\count133
 
-(/usr/share/texmf-texlive/tex/generic/pgfplots/numtable/pgfplotstable.coltype.c
-ode.tex)))
-(/usr/share/texmf-texlive/tex/generic/pgfplots/util/pgfplotscolormap.code.tex)
-(/usr/share/texmf-texlive/tex/generic/pgfplots/pgfplots.stackedplots.code.tex)
-(/usr/share/texmf-texlive/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex
-) (/usr/share/texmf-texlive/tex/generic/pgfplots/pgfplotsticks.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surf
+shading.pgfsys-pdftex.def)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.
+tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.t
+ex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.t
+ex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.cod
+e.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex)
 (/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecor
 ations.code.tex
 (/usr/share/texmf/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
@@ -504,11 +558,11 @@ ations.code.tex
 \pgfdecoratedinputsegmentcompleteddistance=\dimen161
 \pgfdecoratedinputsegmentremainingdistance=\dimen162
 \pgf@decorate@distancetomove=\dimen163
-\pgf@decorate@repeatstate=\count129
+\pgf@decorate@repeatstate=\count134
 \pgfdecorationsegmentamplitude=\dimen164
 \pgfdecorationsegmentlength=\dimen165
 )
-\tikz@lib@dec@box=\box38
+\tikz@lib@dec@box=\box41
 )
 (/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecor
 ations.pathmorphing.code.tex
@@ -518,7 +572,7 @@ athmorphing.code.tex))
 ations.pathreplacing.code.tex
 (/usr/share/texmf/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.p
 athreplacing.code.tex))
-\pgfplots@numplots=\count130
+\pgfplots@numplots=\count135
 \pgfplots@xmin@reg=\dimen166
 \pgfplots@xmax@reg=\dimen167
 \pgfplots@ymin@reg=\dimen168
@@ -533,28 +587,30 @@ File: tikzlibraryplotmarks.code.tex 2008/01/09 v2.10 (rcs-revision 1.1)
 (/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
 File: pgflibraryplotmarks.code.tex 2010/10/15 v2.10 (rcs-revision 1.12)
 )))
-(/usr/share/texmf-texlive/tex/latex/caption/caption.sty
-Package: caption 2009/10/09 v3.1k Customizing captions (AR)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 
-(/usr/share/texmf-texlive/tex/latex/caption/caption3.sty
-Package: caption3 2009/10/09 v3.1k caption3 kernel (AR)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
 \captionmargin=\dimen172
 \captionmargin@=\dimen173
 \captionwidth=\dimen174
-\caption@indent=\dimen175
-\caption@parindent=\dimen176
-\caption@hangindent=\dimen177
+\caption@tempdima=\dimen175
+\caption@indent=\dimen176
+\caption@parindent=\dimen177
+\caption@hangindent=\dimen178
 )
-\c@ContinuedFloat=\count131
+\c@ContinuedFloat=\count136
 Package caption Info: rotating package is loaded.
 )
-(/usr/share/texmf-texlive/tex/latex/caption/subcaption.sty
-Package: subcaption 2008/08/31 v1.0b Adding subcaptions (AR)
-\c@subfigure=\count132
-\c@subtable=\count133
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
+\c@subfigure=\count137
+\c@subtable=\count138
 )
-(/usr/share/texmf-texlive/tex/latex/multirow/multirow.sty
-\bigstrutjot=\dimen178
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen179
 )
 (/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshape
 s.arrows.code.tex
@@ -580,77 +636,130 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
 LaTeX Font Info:    ... okay on input line 49.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
 LaTeX Font Info:    ... okay on input line 49.
- (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
+ (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count134
-\scratchdimen=\dimen179
-\scratchbox=\box39
-\nofMPsegments=\count135
-\nofMParguments=\count136
-\everyMPshowfont=\toks40
-\MPscratchCnt=\count137
-\MPscratchDim=\dimen180
-\MPnumerator=\count138
-\everyMPtoPDFconversion=\toks41
-) ABD: EveryShipout initializing macros
+\scratchcounter=\count139
+\scratchdimen=\dimen180
+\scratchbox=\box42
+\nofMPsegments=\count140
+\nofMParguments=\count141
+\everyMPshowfont=\toks43
+\MPscratchCnt=\count142
+\MPscratchDim=\dimen181
+\MPnumerator=\count143
+\makeMPintoPDFobject=\count144
+\everyMPtoPDFconversion=\toks44
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\c@maskedRefs=\count145
+
+(/usr/share/texlive/texmf-dist/tex/latex/apacite/english.apc
+File: english.apc 2013/07/21 v6.03 apacite language file
+LaTeX Info: Redefining \BPBI on input line 129.
+LaTeX Info: Redefining \BHBI on input line 130.
+)
+ABD: EveryShipout initializing macros
+
+Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
+ick labels; missing features). Consider writing \pgfplotsset{compat=1.9} into y
+our preamble.
+ on input line 49.
+
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 \openout2 = `cover.aux'.
 
- (./cover.tex [1
+(./cover.tex [1
 
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [1
 
-]) (./thesis.toc
+])
+(./thesis.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 4.
-
-(/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 4.
 
-(/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for U+rsfs on input line 4.
 
-(/usr/share/texmf-texlive/tex/latex/jknapltx/ursfs.fd
+(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ) [2
 
 
 ])
-\tf@toc=\write5
-\openout5 = `thesis.toc'.
+\tf@toc=\write4
+\openout4 = `thesis.toc'.
 
  [1]
 \openout2 = `ch1/ch1.aux'.
 
- (./ch1/ch1.tex
-Chapter 1.
-! Undefined control sequence.
-\citepos #1->\citeauthor {#1}'s \citeyearpar 
-                                             {#1}
-l.2 In Italo \citepos{Calvino1983}
-                                   whimsical novel of ideas \emph{Mr. Paloma...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
+(./ch1/ch1.tex
+Chapter 1.
 [2
 
 
 ]
 
-LaTeX Warning: Citation `Kant' undefined on input line 8.
+Package natbib Warning: Citation `Kant' on page 3 undefined on input line 8.
 
 [3]
 
-LaTeX Warning: Citation `Wittgenstein' undefined on input line 16.
+Package natbib Warning: Citation `Wittgenstein' on page 4 undefined on input li
+ne 16.
 
 [4] [5] [6] [7]) [8] [9]
 \openout2 = `ch2/Two.aux'.
@@ -658,55 +767,36 @@ LaTeX Warning: Citation `Wittgenstein' undefined on input line 16.
  (./ch2/Two.tex
 Chapter 2.
 
-LaTeX Warning: Citation `Descartes' undefined on input line 5.
-
-! Undefined control sequence.
-l.5 ...of subsequent forays into empiricism \citep
-                                                  {Locke,Hume}, conceptual i...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.5 ...tep{Locke,Hume}, conceptual innatism \citep
-                                                  {Kant}, idealism \citep{He...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.5 ...tual innatism \citep{Kant}, idealism \citep
-                                                  {Hegel}, intentionality \c...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Package natbib Warning: Citation `Descartes' on page 10 undefined on input line
+ 5.
 
 
-LaTeX Warning: Citation `Bretano' undefined on input line 5.
+Package natbib Warning: Citation `Locke' on page 10 undefined on input line 5.
 
-! Undefined control sequence.
-l.5 ...nality \cite{Bretano}, phenomenology \citep
-                                                  {Husserl,Heidegger}, and t...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-l.5 ...and the verity of metaphysics itself \citep
-                                                  {Wittgenstein}.  In the ca...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Package natbib Warning: Citation `Hume' on page 10 undefined on input line 5.
+
+
+Package natbib Warning: Citation `Kant' on page 10 undefined on input line 5.
+
+
+Package natbib Warning: Citation `Hegel' on page 10 undefined on input line 5.
+
+
+Package natbib Warning: Citation `Bretano' on page 10 undefined on input line 5
+.
+
+
+Package natbib Warning: Citation `Husserl' on page 10 undefined on input line 5
+.
+
+
+Package natbib Warning: Citation `Heidegger' on page 10 undefined on input line
+ 5.
+
+
+Package natbib Warning: Citation `Wittgenstein' on page 10 undefined on input l
+ine 5.
 
 [10
 
@@ -714,302 +804,125 @@ and I'll forget about whatever was undefined.
 
 ]
 
-LaTeX Warning: Citation `Rowlands' undefined on input line 7.
+Package natbib Warning: Citation `Rowlands' on page 11 undefined on input line 
+7.
 
 
-LaTeX Warning: Citation `Davidson' undefined on input line 7.
+Package natbib Warning: Citation `Davidson' on page 11 undefined on input line 
+7.
 
 
-LaTeX Warning: Citation `Millikan' undefined on input line 7.
+Package natbib Warning: Citation `Millikan' on page 11 undefined on input line 
+7.
 
 
-LaTeX Warning: Citation `Dennett' undefined on input line 7.
-
-! Undefined control sequence.
-\citepos #1->\citeauthor {#1}'s \citeyearpar 
-                                             {#1}
-l.7 ...Dennett} case against ``intuition pumps''.}
-                                                    By and large, though, th...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Package natbib Warning: Citation `Dennett' on page 11 undefined on input line 7
+.
 
 
-LaTeX Warning: Citation `Churchland' undefined on input line 7.
+Package natbib Warning: Citation `Dennett' on page 11 undefined on input line 7
+.
 
 
-LaTeX Warning: Citation `Thompson' undefined on input line 7.
+Package natbib Warning: Citation `Churchland' on page 11 undefined on input lin
+e 7.
 
 
-LaTeX Warning: Citation `Hutto' undefined on input line 7.
+Package natbib Warning: Citation `Thompson' on page 11 undefined on input line 
+7.
 
 
-LaTeX Warning: Citation `Deacon' undefined on input line 7.
+Package natbib Warning: Citation `Hutto' on page 11 undefined on input line 7.
 
 
-LaTeX Warning: Citation `Floridi' undefined on input line 17.
-
-! Undefined control sequence.
-\citepos #1->\citeauthor {#1}'s \citeyearpar 
-                                             {#1}
-l.17 ...s question is related to \citepos{Floridi}
-                                                   pursuit of a \emph{theory...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Package natbib Warning: Citation `Deacon' on page 11 undefined on input line 7.
 
 
-LaTeX Warning: Citation `Shannon' undefined on input line 17.
+
+Package natbib Warning: Citation `Floridi' on page 11 undefined on input line 1
+7.
 
 
-LaTeX Warning: Citation `BarHillel' undefined on input line 17.
-
-! Undefined control sequence.
-\citepos #1->\citeauthor {#1}'s \citeyearpar 
-                                             {#1}
-l.17 ...eaning can be found in \citepos{BarHillel}
-                                                  , who use Shannon-type met...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Package natbib Warning: Citation `Floridi' on page 11 undefined on input line 1
+7.
 
 
-LaTeX Warning: Citation `Dretske' undefined on input line 17.
+Package natbib Warning: Citation `Shannon' on page 11 undefined on input line 1
+7.
 
-! Undefined control sequence.
-l.17 ...sly measurable and context specific \citep
-                                                  {BarwiseEA} have led to a
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+
+Package natbib Warning: Citation `BarHillel' on page 11 undefined on input line
+ 17.
+
+
+Package natbib Warning: Citation `BarHillel' on page 11 undefined on input line
+ 17.
+
+
+Package natbib Warning: Citation `Dretske' on page 11 undefined on input line 1
+7.
+
+
+Package natbib Warning: Citation `BarwiseEA' on page 11 undefined on input line
+ 17.
 
 [11]
-! Undefined control sequence.
-l.19 ...stemic gap} between mind and matter \citep
-                                                  {Levine,Pattee}, \cite{Ton...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+
+Package natbib Warning: Citation `Levine' on page 12 undefined on input line 19
+.
 
 
-LaTeX Warning: Citation `Tonnoni' undefined on input line 19.
+Package natbib Warning: Citation `Pattee' on page 12 undefined on input line 19
+.
 
 
-LaTeX Warning: Citation `Koch' undefined on input line 19.
+Package natbib Warning: Citation `Tonnoni' on page 12 undefined on input line 1
+9.
 
 
-Overfull \hbox (6.24588pt too wide) in paragraph at lines 19--20
-[]\OT1/cmr/m/n/10.95 Returning to the ques-tion of the \OT1/cmr/m/it/10.95 epis
--temic gap \OT1/cmr/m/n/10.95 between mind and mat-ter Levine,Pattee,
- []
+Package natbib Warning: Citation `Koch' on page 12 undefined on input line 19.
 
 [12]
 
-LaTeX Warning: Citation `Colton' undefined on input line 35.
+Package natbib Warning: Citation `Colton' on page 13 undefined on input line 35
+.
 
 
-LaTeX Warning: Citation `Fodor' undefined on input line 45.
-
-! Undefined control sequence.
-l.49 \citep
-           [cf][for a case against conceptual schema in general]{Davidson}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Package natbib Warning: Citation `Fodor' on page 13 undefined on input line 45.
 
 
-LaTeX Warning: Citation `Carston' undefined on input line 55.
 
-! Misplaced alignment tab character &.
-l.59 - Turner, Turner &
-                        Fauconnier
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
+Package natbib Warning: Citation `Fodor' on page 13 undefined on input line 47.
+
+
+
+Package natbib Warning: Citation `Davidson' on page 13 undefined on input line 
+49.
+
+
+Package natbib Warning: Citation `Carston' on page 13 undefined on input line 5
+5.
+
+
+Package natbib Warning: Citation `Kant' on page 13 undefined on input line 66.
 
 [13]
-! Undefined control sequence.
-\citepos #1->\citeauthor {#1}'s \citeyearpar 
-                                             {#1}
-l.71 ...ution, kicked off by \citepos{Chomsky1959}
-                                                   pointed denouncement of \...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-\citepos #1->\citeauthor {#1}'s \citeyearpar 
-                                             {#1}
-l.71 ...nted denouncement of \citepos{Skinner1957}
-                                                   attempt to apply overt ps...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\citepos #1->\citeauthor {#1}'s \citeyearpar 
-                                             {#1}
-l.71 ...thought of as a mind---\citepos{Fodor1975}
-                                                   notion of a language of t...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\citepos #1->\citeauthor {#1}'s \citeyearpar 
-                                             {#1}
-l.71 ...imary theme for \citepos{Wittgenstein1922}
-                                                   earlier work.  Certainly,...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Package natbib Warning: Citation `Chomsky' on page 14 undefined on input line 7
+1.
 
 
-LaTeX Warning: Citation `Chomsky' undefined on input line 71.
-
-! Undefined control sequence.
-\citepos #1->\citeauthor {#1}'s \citeyearpar 
-                                             {#1}
-l.71 ... theme in development of \citepos{Chomsky}
-                                                   nativist programme of res...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.71 ...al projects of some of his acolytes \citep
-                                                  {Pinker1994}.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\citepos #1->\citeauthor {#1}'s \citeyearpar 
-                                             {#1}
-l.76 ...f representations.  \citepos{Fillmore1976}
-                                                   subsequently contributed ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Package natbib Warning: Citation `Chomsky' on page 14 undefined on input line 7
+1.
 
 [14]
-! Undefined control sequence.
-\citepos #1->\citeauthor {#1}'s \citeyearpar 
-                                             {#1}
-l.78 ..., characterised by \citepos{Langacker1987}
-                                                   description of natural la...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-l.78 ...ompositionality of Montague grammar \citep
-                                                  {Cooper} and the inferenti...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Package natbib Warning: Citation `Cooper' on page 15 undefined on input line 78
+.
 
-! Undefined control sequence.
-l.78 ...l capacity of intensional semantics \citep
-                                                  {FoxEA2005}, has focused o...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-l.78 ... pertinent domains, such as culture \citep
-                                                  {Lakoff1987} and neuroscie...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.78 ...ean aspect of Montegovian semantics \citep
-                                                  {Dummett1981} altogether.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\citepos #1->\citeauthor {#1}'s \citeyearpar 
-                                             {#1}
-l.80 ... saw the emergence of \citepos{Ortony1975}
-                                                   reconstructivist account ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\citepos #1->\citeauthor {#1}'s \citeyearpar 
-                                             {#1}
-l.80 ...esurgence of \citepos{Black1955,Black1977}
-                                                   \emph{interaction view}, ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\citepos #1->\citeauthor {#1}'s \citeyearpar 
-                                             {#1}
-l.80 ...the introduction of \citepos{LakoffEA1980}
-                                                   \emph{conceptual} model o...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.80 ...\emph{conceptual} model of metaphor \citep
-                                                  [see][for a valuable compe...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Package natbib Warning: Citation `Lakoff1987' on page 15 undefined on input lin
+e 78.
 
 [15]
 
@@ -1017,559 +930,521 @@ LaTeX Warning: Reference `chap:figurative' on page 16 undefined on input line 8
 4.
 
 
-LaTeX Warning: Citation `Grice' undefined on input line 86.
-
-! Undefined control sequence.
-<argument> ...r sentence actually means,'' \citep 
-                                                  [][p. 84]{Searle1979}.\@fi...
-l.86 ...lly means,'' \citep[][p. 84]{Searle1979}.}
-                                                    A notable early effort f...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[16]
-! Undefined control sequence.
-l.88 ... mapping between conceptual schemes \citep
-                                                  {Indurkhya1997}, often dom...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.88 ... with the conceptual metaphor model \citep
-                                                  {Narayanan1999}.  Typical ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.88 ...ween elements.  The ATT-Meta system \citep
-                                                  {LeeEA2001}, with its facu...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.88 ... and incremental grammar techniques \citep
-                                                  {GargettEA2013}.  Other sy...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.90 Twitter \citep
-                   {VealeEA2015}, or the web at large in conjunction with ot...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.90 ...in conjunction with other resources \citep
-                                                  {VealeEA2007}.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Package natbib Warning: Citation `Grice' on page 16 undefined on input line 86.
 
 
-Overfull \hbox (25.95258pt too wide) in paragraph at lines 90--91
-[]\OT1/cmr/m/n/10.95 Twitter VealeEA2015, or the web at large in con-junc-tion 
-with other resources VealeEA2007. 
+
+Overfull \hbox (1.31433pt too wide) in paragraph at lines 86--87
+\OT1/cmr/m/n/10.95 driven, under-stand-ably util-is-ing the pro-cess-ing power 
+of sym-bol manip-u-lat-ing machines---
  []
 
-
-LaTeX Warning: Citation `Shutova2013' undefined on input line 92.
-
-
-LaTeX Warning: Citation `BirkeEA2006' undefined on input line 92.
-
-
-LaTeX Warning: Citation `Utsumi2011' undefined on input line 92.
-
-! Undefined control sequence.
-l.92 ...these statistical approaches (see \citealt
-                                                  {TurneyEA2011}, \citealt{D...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.92 ...ches (see \citealt{TurneyEA2011}, \citealt
-                                                  {Dunn2013} for a compariso...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.92 ...nal semantic and symbolic models, \citealt
-                                                  {ShutovaEA2013} for an ove...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Citation `Kintsch2000' undefined on input line 92.
-
-! Undefined control sequence.
-\citepos #1->\citeauthor {#1}'s \citeyearpar 
-                                             {#1}
-l.92 ...e next section: here \citepos{Kintsch2000}
-                                                   model of metaphoric inter...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+[16]
 
 LaTeX Warning: Reference `chap:figurative' on page 17 undefined on input line 9
 2.
 
 [17]
 
-LaTeX Warning: Citation `TsvetkovEA2014' undefined on input line 94.
+Package natbib Warning: Citation `Davidson' on page 18 undefined on input line 
+98.
 
 
-LaTeX Warning: Citation `Veale2016' undefined on input line 96.
-
-
-LaTeX Warning: Citation `Davidson' undefined on input line 98.
-
-
-LaTeX Warning: Citation `Markov' undefined on input line 101.
-
-! Undefined control sequence.
-\citepos #1->\citeauthor {#1}'s \citeyearpar 
-                                             {#1}
-l.101 ...ich has its roots in \citepos{Harris1954}
-                                                   work examining ``meaning ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.101 ...ts tend to have similar meaning,'' \citep
-                                                  [][p. 126]{Pantel2005}.  O...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Package natbib Warning: Citation `Markov' on page 18 undefined on input line 10
+1.
 
 [18]
-! Undefined control sequence.
-\citepos #1->\citeauthor {#1}'s \citeyearpar 
-                                             {#1}
-l.105 ...rely statistical approaches to language.}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-\citepos #1->\citeauthor {#1}'s \citeyearpar 
-                                             {#1}
-l.107 Notwithstanding \citepos{Chomsky}
-                                        formidable case that the bulk of a l...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Package natbib Warning: Citation `Chomsky' on page 19 undefined on input line 1
+07.
+
+
+Package natbib Warning: Citation `Chomsky' on page 19 undefined on input line 1
+07.
+
+
+Package natbib Warning: Citation `Colton' on page 19 undefined on input line 11
+4.
 
 [19]
 
-LaTeX Warning: Citation `Turner' undefined on input line 118.
+Package natbib Warning: Citation `Turner' on page 20 undefined on input line 11
+8.
 
 
-LaTeX Warning: Citation `O'Donoghue' undefined on input line 118.
+Package natbib Warning: Citation `O'Donoghue' on page 20 undefined on input lin
+e 118.
 
 
-LaTeX Warning: Citation `Gervas' undefined on input line 118.
+Package natbib Warning: Citation `Gervas' on page 20 undefined on input line 11
+8.
 
 
-LaTeX Warning: Citation `Toivonen' undefined on input line 118.
+Package natbib Warning: Citation `Toivonen' on page 20 undefined on input line 
+118.
 
 
-LaTeX Warning: Citation `Rashel' undefined on input line 118.
+Package natbib Warning: Citation `Rashel' on page 20 undefined on input line 11
+8.
 
 
-LaTeX Warning: Citation `Cardosa' undefined on input line 118.
+Package natbib Warning: Citation `Cardosa' on page 20 undefined on input line 1
+18.
 
 [20]
 
-LaTeX Warning: Citation `Clark' undefined on input line 121.
+Package natbib Warning: Citation `Davidson' on page 21 undefined on input line 
+121.
 
 
-LaTeX Warning: Citation `Gardenfors' undefined on input line 123.
+Package natbib Warning: Citation `Clark' on page 21 undefined on input line 121
+.
 
 
-LaTeX Warning: Citation `Widdows' undefined on input line 123.
+Package natbib Warning: Citation `Gardenfors' on page 21 undefined on input lin
+e 123.
 
 
-LaTeX Warning: Citation `Putnam' undefined on input line 125.
-
-! Undefined control sequence.
-\citepos #1->\citeauthor {#1}'s \citeyearpar 
-                                             {#1}
-l.125 ...are diffused somewhat by \citepos{Putnam}
-                                                   insight that conceptual e...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Package natbib Warning: Citation `Widdows' on page 21 undefined on input line 1
+23.
 
 
-LaTeX Warning: Citation `Varela' undefined on input line 125.
-
-! Undefined control sequence.
-l.125 ...c representation of that situation \citep
-                                                  [][is another notable prop...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Package natbib Warning: Citation `Fodor' on page 21 undefined on input line 125
+.
 
 
-LaTeX Warning: Citation `Wheeler' undefined on input line 125.
+Package natbib Warning: Citation `Putnam' on page 21 undefined on input line 12
+5.
 
 
-LaTeX Warning: Citation `Gibson' undefined on input line 125.
+Package natbib Warning: Citation `Putnam' on page 21 undefined on input line 12
+5.
 
-! Undefined control sequence.
-\citepos #1->\citeauthor {#1}'s \citeyearpar 
-                                             {#1}
-l.125 ...will be characterised by \citepos{Gibson}
-                                                   notion of \emph{affordanc...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+
+Package natbib Warning: Citation `Varela' on page 21 undefined on input line 12
+5.
+
+
+Package natbib Warning: Citation `Thompson' on page 21 undefined on input line 
+125.
+
+
+Package natbib Warning: Citation `Pattee' on page 21 undefined on input line 12
+5.
+
+
+Package natbib Warning: Citation `Wheeler' on page 21 undefined on input line 1
+25.
+
+
+Package natbib Warning: Citation `Clark' on page 21 undefined on input line 125
+.
+
+
+Package natbib Warning: Citation `Gibson' on page 21 undefined on input line 12
+5.
+
+
+Package natbib Warning: Citation `Gibson' on page 21 undefined on input line 12
+5.
 
 [21]
 
-LaTeX Warning: Citation `Peirce' undefined on input line 128.
+Package natbib Warning: Citation `Peirce' on page 22 undefined on input line 12
+8.
 
 
-LaTeX Warning: Citation `Black' undefined on input line 128.
+Package natbib Warning: Citation `Black' on page 22 undefined on input line 128
+.
 
 
-LaTeX Warning: Citation `Lakoff' undefined on input line 128.
+Package natbib Warning: Citation `Lakoff' on page 22 undefined on input line 12
+8.
 
 [22]
 
-LaTeX Warning: Citation `Searle' undefined on input line 130.
+Package natbib Warning: Citation `Searle' on page 23 undefined on input line 13
+0.
 
 
-LaTeX Warning: Citation `Reimer' undefined on input line 130.
+Package natbib Warning: Citation `Davidson' on page 23 undefined on input line 
+130.
 
 
-LaTeX Warning: Citation `Barsalou' undefined on input line 132.
+Package natbib Warning: Citation `Carston' on page 23 undefined on input line 1
+30.
 
 
-LaTeX Warning: Citation `Allott' undefined on input line 132.
+Package natbib Warning: Citation `Reimer' on page 23 undefined on input line 13
+0.
+
+
+Package natbib Warning: Citation `Barsalou' on page 23 undefined on input line 
+132.
+
+
+Package natbib Warning: Citation `Carston' on page 23 undefined on input line 1
+32.
+
+
+Package natbib Warning: Citation `Allott' on page 23 undefined on input line 13
+2.
 
 [23]
 
-LaTeX Warning: Citation `GreffenstetteEA2011' undefined on input line 137.
+Package natbib Warning: Citation `GreffenstetteEA2011' on page 24 undefined on 
+input line 137.
 
-! Undefined control sequence.
-l.137 ...11} and \cite{GreffenstetteEA2011} \citep
-                                                  [see][for an overview]{Mit...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[24]
-! Undefined control sequence.
-\citepos #1->\citeauthor {#1}'s \citeyearpar 
-                                             {#1}
-l.143 ...tasks.  Elsewhere, \citepos{BaroniEA2010}
-                                                   work on composing adjecti...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-) [25]
+[24]) [25]
 \openout2 = `ch3/Three.aux'.
 
  (./ch3/Three.tex
-! Undefined control sequence.
-l.12 ...oundations of both formal semantics \citep
-                                                  {Montague} and pragmatics ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.12 ...ics \citep{Montague} and pragmatics \citep
-                                                  {Grice}, and is likewise t...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+Chapter 3.
 [26
 
 
+
 ]
 
-LaTeX Warning: Citation `BaroniEA2014b' undefined on input line 16.
+Package natbib Warning: Citation `Montague' on page 27 undefined on input line 
+13.
 
 
-LaTeX Warning: Citation `ErkEA2008' undefined on input line 16.
+Package natbib Warning: Citation `Grice' on page 27 undefined on input line 13.
 
-! Undefined control sequence.
-l.16 ...ting \emph{selectional preferences} \citep
-                                                  [\emph{a la}][]{Wilks1978}...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.16 ...ouns and verbs.  In subsequent work \citep
-                                                  {ErkEA2010}, the same auth...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\citepos #1->\citeauthor {#1}'s \citeyearpar 
-                                             {#1}
-l.20 Following on \citepos{Barsalou}
-                                     insight into the \emph{haphazard} way i...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\citepos #1->\citeauthor {#1}'s \citeyearpar 
-                                             {#1}
-l.20 ...uationally, and likewise \citepos{Carston}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
 [27]
 
-LaTeX Warning: Citation `Baroni' undefined on input line 25.
+Package natbib Warning: Citation `Barsalou' on page 28 undefined on input line 
+21.
 
-) [28]
+
+Package natbib Warning: Citation `Barsalou' on page 28 undefined on input line 
+21.
+
+
+Package natbib Warning: Citation `Carston' on page 28 undefined on input line 2
+1.
+
+
+Package natbib Warning: Citation `Carston' on page 28 undefined on input line 2
+1.
+
+
+Package natbib Warning: Citation `Baroni' on page 28 undefined on input line 26
+.
+
+[28]) [29]
 \openout2 = `ch4/Four.aux'.
 
  (./ch4/Four.tex
-Overfull \hbox (31.32686pt too wide) in paragraph at lines 23--33
+Chapter 4.
+
+Overfull \hbox (31.32686pt too wide) in paragraph at lines 24--34
 [][] 
  []
 
 
-Overfull \hbox (27.67686pt too wide) in paragraph at lines 37--47
+Overfull \hbox (27.67686pt too wide) in paragraph at lines 38--48
 [][] 
  []
 
 
-Overfull \hbox (31.32686pt too wide) in paragraph at lines 51--61
+Overfull \hbox (31.32686pt too wide) in paragraph at lines 52--62
 [][] 
  []
 
 
-Overfull \hbox (27.67686pt too wide) in paragraph at lines 65--75
+Overfull \hbox (27.67686pt too wide) in paragraph at lines 66--76
 [][] 
  []
 
 
-Overfull \hbox (34.97685pt too wide) in paragraph at lines 79--89
+Overfull \hbox (34.97685pt too wide) in paragraph at lines 80--90
 [][] 
  []
 
 
-Overfull \hbox (66.50375pt too wide) in paragraph at lines 93--103
+Overfull \hbox (31.32686pt too wide) in paragraph at lines 94--104
 [][] 
  []
 
 
-! Package caption Error: \caption outside float.
-
-See the caption package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.117 \caption
-              {Simlex999, 200 dimensions, 5x5 co-occurrence window.}
-If you do not understand this error, please take a closer look
-at the documentation of the `caption' package, especially the
-section about errors.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (114.86633pt too wide) in paragraph at lines 106--118
-\OT1/cmr/m/n/10.95 begintable []
+Overfull \hbox (34.97685pt too wide) in paragraph at lines 108--118
+[][] 
  []
 
-! Too many }'s.
-\@endfloatbox ...pagefalse \outer@nobreak \egroup 
-                                                  \color@endbox 
-l.118 \end{table}
-                 
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
 
-[29
+Overfull \hbox (31.32686pt too wide) in paragraph at lines 122--132
+[][] 
+ []
+
+[30
+
 
 
 ]
-! Extra \endgroup.
-\color@endgroup ->\endgraf \endgroup 
-                                     
-l.118 \end{table}
-                 
-Things are pretty mixed up, but I think the worst is over.
-
-! Too many }'s.
-\color@endbox ->\color@endgroup \egroup 
-                                        
-l.118 \end{table}
-                 
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
+Overfull \vbox (9.84389pt too high) has occurred while \output is active []
 
 
-! LaTeX Error: \begin{document} ended by \end{table}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.118 \end{table}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.118 \end{table}
-                 
-Things are pretty mixed up, but I think the worst is over.
-
-) [30]
+[31]) [32]
 \openout2 = `ch5/ch5.aux'.
 
  (./ch5/ch5.tex
-Chapter 3.
+Chapter 5.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Citation `Mikolov' undefined on input line 34.
+Package natbib Warning: Citation `Mikolov' on page 33 undefined on input line 3
+4.
 
-[31
+[33
 
 
 
-] [32]) [33]
+] [34]) [35]
 \openout2 = `ch6/ch6.aux'.
 
  (./ch6/ch6.tex
-Chapter 4.
-[34
+Chapter 6.
+[36
 
 
 
-]) [35]
+]) [37]
 \openout2 = `ch7/ch7.aux'.
 
  (./ch7/ch7.tex
-Chapter 5.
-) [36
+Chapter 7.
+) [38
 
 
 
-] (./thesis.bbl [37
+] (./thesis.bbl [39
 
 
 ]
-Underfull \hbox (badness 1509) in paragraph at lines 525--540
-\OT1/cmr/m/n/10.95 by com-puter.  \OT1/cmr/m/it/10.95 Com-pu-ta-tional Lin-guis
--tics\OT1/cmr/m/n/10.95 , \OT1/cmr/m/it/10.95 17\OT1/cmr/m/n/10.95 (1), 49--90.
-  Avail-able from
+! Missing $ inserted.
+<inserted text> 
+                $
+l.600 .../dx.doi.org/10.1007/978-3-642-37247-6_38}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.600 .../dx.doi.org/10.1007/978-3-642-37247-6_38}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.601   \end{APACrefURL}
+                        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.601   \end{APACrefURL}
+                        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.603 ...efDOI} \doi{10.1007/978-3-642-37247-6_38}
+                                                   \end{APACrefDOI}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.603 ...07/978-3-642-37247-6_38} \end{APACrefDOI}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[40]
+Underfull \hbox (badness 5696) in paragraph at lines 641--659
+[]\OT1/cmr/m/n/10.95 Erk, K., & Pad^^So, S.  (2008).  A struc-tured vec-tor spa
+ce model for
  []
 
-[38] [39] [40]) [41] (./thesis.aux (./cover.aux) (./ch1/ch1.aux) (./ch2/Two.aux
-) (./ch3/Three.aux) (./ch4/Four.aux) (./ch5/ch5.aux) (./ch6/ch6.aux)
+
+Underfull \hbox (badness 2050) in paragraph at lines 641--659
+\OT1/cmr/m/n/10.95 word mean-ing in con-text.  In \OT1/cmr/m/it/10.95 Pro-ceed-
+ings of the con-fer-ence on empir-i-
+ []
+
+
+Underfull \hbox (badness 1389) in paragraph at lines 725--740
+\OT1/cmr/m/n/10.95 by com-puter.  \OT1/cmr/m/it/10.95 Com-pu-ta-tional Lin-guis
+-tics\OT1/cmr/m/n/10.95 , \OT1/cmr/m/it/10.95 17\OT1/cmr/m/n/10.95 (1), 49--90.
+  Retrieved from
+ []
+
+[41]
+Underfull \hbox (badness 5847) in paragraph at lines 1057--1072
+[]\OT1/cmr/m/n/10.95 Kintsch, W.  (2000).  Metaphor com-pre-hen-sion: A com-pu-
+ta-tional the-
+ []
+
+
+Underfull \hbox (badness 2134) in paragraph at lines 1057--1072
+\OT1/cmr/m/n/10.95 ory.  \OT1/cmr/m/it/10.95 Psy-cho-nomic Bul-letin & Review\O
+T1/cmr/m/n/10.95 , \OT1/cmr/m/it/10.95 7\OT1/cmr/m/n/10.95 (2), 257--266.  Retr
+ieved from
+ []
+
+[42]
+Underfull \hbox (badness 6332) in paragraph at lines 1302--1321
+[]\OT1/cmr/m/n/10.95 Narayanan, S.  (1999).  Mov-ing right along: A com-pu-ta-t
+ional model
+ []
+
+
+Underfull \hbox (badness 2837) in paragraph at lines 1302--1321
+\OT1/cmr/m/n/10.95 of metaphoric rea-son-ing about events.  In \OT1/cmr/m/it/10
+.95 Pro-ceed-ings of the six-teenth
+ []
+
+
+Underfull \hbox (badness 1152) in paragraph at lines 1302--1321
+\OT1/cmr/m/it/10.95 va-tive appli-ca-tions of arti-fi-cial intel-li-gence \OT1/
+cmr/m/n/10.95 (pp.[] 121--127).  Retrieved from
+ []
+
+[43] [44]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2094 ...dx.doi.org/10.1007/978-3-319-20804-6_63}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.2094 ...dx.doi.org/10.1007/978-3-319-20804-6_63}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2095   \end{APACrefURL}
+                         
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.2095   \end{APACrefURL}
+                         
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2097 ...fDOI} \doi{10.1007/978-3-319-20804-6_63}
+                                                   \end{APACrefDOI}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2097 ...7/978-3-319-20804-6_63} \end{APACrefDOI}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Underfull \hbox (badness 2951) in paragraph at lines 2076--2099
+[]\OT1/cmr/m/n/10.95 Veale, T., Val-i-tutti, A., & Li, G.  (2015).  Twit-ter: T
+he best of bot
+ []
+
+
+Underfull \hbox (badness 1895) in paragraph at lines 2076--2099
+\OT1/cmr/m/it/10.95 dapi \OT1/cmr/m/n/10.95 (pp.[] 689--699).  Springer Inter-n
+a-tional Pub-lish-ing.  Retrieved from
+ []
+
+[45])
+
+Package natbib Warning: There were undefined citations.
+
+[46] (./thesis.aux (./cover.aux) (./ch1/ch1.aux) (./ch2/Two.aux)
+(./ch3/Three.aux) (./ch4/Four.aux) (./ch5/ch5.aux) (./ch6/ch6.aux)
 (./ch7/ch7.aux))
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 16328 strings out of 495061
- 341845 string characters out of 1182622
- 425029 words of memory out of 3000000
- 19090 multiletter control sequences out of 15000+50000
- 17215 words of font info for 68 fonts, out of 3000000 for 9000
- 29 hyphenation exceptions out of 8191
- 56i,10n,61p,2032b,351s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
-re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-te
-xlive/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-texlive/font
-s/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/pub
-lic/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts
-/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pf
-b></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share
-/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texliv
-e/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-texlive/fonts/type1
-/public/amsfonts/cm/cmsy9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsf
-onts/cm/cmti10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmt
-i9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on thesis.pdf (44 pages, 295616 bytes).
+ 21224 strings out of 493304
+ 483407 string characters out of 6139872
+ 630032 words of memory out of 5000000
+ 24161 multiletter control sequences out of 15000+600000
+ 17523 words of font info for 69 fonts, out of 8000000 for 9000
+ 958 hyphenation exceptions out of 8191
+ 56i,10n,74p,2030b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on thesis.pdf (49 pages, 292212 bytes).
 PDF statistics:
- 204 PDF objects out of 1000 (max. 8388607)
+ 227 PDF objects out of 1000 (max. 8388607)
+ 159 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

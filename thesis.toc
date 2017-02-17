@@ -13,18 +13,20 @@
 \contentsline {section}{\numberline {2.6}Minds and Spaces}{21}
 \contentsline {section}{\numberline {2.7}Words and Concepts}{22}
 \contentsline {section}{\numberline {2.8}Computers and Language}{24}
-\contentsline {section}{\numberline {2.9}Dynamic Context Sensitivity}{26}
-\contentsline {section}{\numberline {2.10}Literal Dimensions of Co-Occurrence}{28}
-\contentsline {section}{\numberline {2.11}Interpretable Geometry}{28}
-\contentsline {section}{\numberline {2.12}A Computational Model}{28}
-\contentsline {section}{\numberline {2.13}A Proof of Concept}{30}
-\contentsline {section}{\numberline {2.14}Word Similarity in Context}{30}
-\contentsline {chapter}{\numberline {3}Implementation and Results}{31}
-\contentsline {section}{\numberline {3.1}The Base Model and Projections}{31}
-\contentsline {section}{\numberline {3.2}Taxonomies}{32}
-\contentsline {section}{\numberline {3.3}Analogies}{33}
-\contentsline {chapter}{\numberline {4}Evaluation}{34}
-\contentsline {section}{\numberline {4.1}Taxonomy and Analogy}{34}
-\contentsline {section}{\numberline {4.2}Metaphor}{35}
-\contentsline {chapter}{\numberline {5}Conclusion}{36}
-\contentsline {chapter}{References}{37}
+\contentsline {chapter}{\numberline {3}A Model for Constructing Concepts on the Fly}{26}
+\contentsline {section}{\numberline {3.1}Dynamic Context Sensitivity}{27}
+\contentsline {section}{\numberline {3.2}Literal Dimensions of Co-Occurrence}{28}
+\contentsline {section}{\numberline {3.3}Interpretable Geometry}{29}
+\contentsline {section}{\numberline {3.4}A Computational Model}{29}
+\contentsline {chapter}{\numberline {4}Similarity and Relatedness}{30}
+\contentsline {section}{\numberline {4.1}A Proof of Concept}{31}
+\contentsline {section}{\numberline {4.2}Word Similarity in Context}{31}
+\contentsline {chapter}{\numberline {5}Implementation and Results}{33}
+\contentsline {section}{\numberline {5.1}The Base Model and Projections}{33}
+\contentsline {section}{\numberline {5.2}Taxonomies}{34}
+\contentsline {section}{\numberline {5.3}Analogies}{35}
+\contentsline {chapter}{\numberline {6}Evaluation}{36}
+\contentsline {section}{\numberline {6.1}Taxonomy and Analogy}{36}
+\contentsline {section}{\numberline {6.2}Metaphor}{37}
+\contentsline {chapter}{\numberline {7}Conclusion}{38}
+\contentsline {chapter}{References}{39}
