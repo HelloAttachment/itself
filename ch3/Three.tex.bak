@@ -1,4 +1,15 @@
-This chapter is concerned with a theoretical overview and a technical description of a novel distributional semantic model designed to map words into conceptually productive geometric relationships.  The model is grounded in the corpus based technique described at the end of the previous chapter, and so builds up representations in the form of word-vectors the features of which are derived from observations of word co-occurrences in textual data.  This model is predicated upon three interrelated desiderata:
+\chapter{A Model for Constructing Concepts on the Fly} \label{chap:theory}
+This chapter is concerned with a theoretical overview and a technical description of a novel distributional semantic model designed to map words into conceptually productive geometric relationships.  Theoretically speaking, the model which will be described is based on some well travelled, if not entirely mainstream, ideas about the nature of language and mind:
+
+\begin{enumerate}
+\item{Concepts are not stable; they are generated in response to unfolding situations in an unpredictable environment;}
+\item{Lexical semantics are accordingly always underspecified, and always resolved in some environmental context;}
+\item{There is no relationship of strict supervenience between language and concepts one way or the other, but instead a dynamic by which concepts invite communication, and language affords conceptualisation.}
+\end{enumerate}
+
+These ideas, which have been outlined throughout the previous chapter, are not the standard dogma of computational linguistics, which generally, and understandably, has modelled concepts as modular, portable entities, language as a likewise stable system of representations and rules, and the relationship between the two as one of source and contingent data.  This structure-oriented approach to language and mind epitomises a project that \cite{Dreyfus2012} has described as ``finding the features, rules, and representations needed for turning rationalist philosophy into a research program,'' (p. 89).  As computer science and philosophy of mind increasingly interact at the vertex of cognitive modelling, culturally relative ideas about the connection between mental representations and linguistic symbols become incorporated into the very architecture of data structures, engendering a positive feedback loop by which the outputs of symbol manipulating information processing systems reinforce the premise that representations are stable entities which can be trafficked in the form of words according to the rules of a grammar.
+
+I have no pretensions of instigating a paradigm shift in computer science: I do not claim that the methodology I will now describe represents a radical departure from the prevailing and highly productive approach to the computational modelling of language or knowledge.  It is, rather, an attempt to build some consideration of the idea that minds are not populated by representations and that words are not static containers of meaning into using the existing computational paradigm.  With this in mind, my model is predicated upon three interrelated desiderata, derived generally rather than in a one-for-one way from the points enumerated above:
 
 \begin{enumerate}
 \item The model should be dynamically sensitive to context;
@@ -6,26 +17,174 @@ This chapter is concerned with a theoretical overview and a technical descriptio
 \item The model should be situate words in spaces which are likewise geometrically interpretable.
 \end{enumerate}
 
-In the following three sections, each of these requirements will be analysed in the context of the underlying theoretical context.  This analysis is performed with the immediate project of designing a statistical model for mapping words to concepts in mind, and each element of the profile of desirable properties will be explored with this in mind.  Then finally, in a fourth section, the fundamental implementation of the model will be described in technical detail.
+In the following three sections, each of these requirements will in turn be analysed in the context of the underlying theoretical context.  This analysis is performed with an eye towards the immediate project of designing a statistical model for mapping word-vectors to concepts, and each element of the profile of desirable properties will be explored with this in mind.  Then finally, in a fourth section, the fundamental implementation of the model will be described in technical detail.
 
 \section{Dynamic Context Sensitivity}
-At the heart of the technical work described in this thesis is an insight which is broadly accepted by theoretical linguists and philosophers of language: word meaning is always contextually specified.  This wisdom is built into the foundations of both formal semantics \citep{Montague} and pragmatics \citep{Grice}, and is likewise taken into account in contemporary context-free approaches to syntax.  As evident from the implementations of conceptual models surveyed in the previous chapter, however, the computational approach has generally relied on the idea that concepts can, at some level of composition, be cast as essentially static representations.
-
-One of the primary goals of the work presented in this thesis is to explore empirical methods for moving beyond this constraint.
+At the heart of the technical work described in this thesis is an insight which is broadly accepted by theoretical linguists and philosophers of language: word meaning is always contextually specified.  This wisdom is built into the foundations of both formal semantics \citep{Montague1974} and pragmatics \citep{Grice1975}, and is likewise taken into account in contemporary context-free approaches to syntax \cite{Chomsky1986}.  As evident from the implementations of conceptual models surveyed in the previous chapter, however, the computational approach has generally relied on the idea that concepts can, at some level of composition, be cast as essentially static representations.  The tendency to treat concepts as self-contained ontological entities consisting of properties that are wholly or partly transferable is built into the fabric of the formal languages used to program computers, and indeed into the mechanisms of modular data processing systems with specific compartments for the storage and processing of data.\footnote{It is perhaps not a coincidence that \cite{VonNeumann} was a seminal figure in the description of both the logic of lattice theory that has motivated more recent developments in concept modelling such as formal concept analysis \citep{Wille} and the modular architecture of memory and processing components that defined computers in the period before the advent of highly parallel processing.}
 
 With that said, the importance of context has certainly not been ignored by statistically oriented computer scientists.  Indeed, \cite{BaroniEA2014b} make a case for vector space approaches to ``disambiguation based on direct syntactic composition'' (p. 254), arguing that the linear algebraic procedures used to compose words into mathematically interpretable phrases and sentences in these types of models result in a systemic contextualisation of words in their pragmatic communicative context.  \cite{ErkEA2008} outlines an approach that models words as sets of vectors including prototypical lexical representations capturing information about co-occurrence statistics and ancillary vectors representing \emph{selectional preferences} \citep[\emph{a la}][]{Wilks1978} gleaned from an analysis of the syntactic roles each word plays in its composition with other words.  These composite vector sets are then combined in order to consider the proper interpretation of multi-word constructs of lexically loose or ambiguous nouns and verbs.  In subsequent work \citep{ErkEA2010}, the same authors describe a model which selects \emph{exemplar} word-vectors from, again, composites of vectors, in this case extracted from observations of specific compositional instances of the words being modelled.  In the first instance, composition is the mechanism by which word meaning is selectively derived, while in the second instance observations of composition are the basis for constructing sets of representational candidates to be selected situationally.
 
-The model presented in this thesis is motivated by a premise similar to the one explored by \citeauthor{ErkEA2008}: there should be some sort of selectional mechanism for choosing the way that a word relates to other words in context.  I would like to push this agenda a even further, though.  In light of relevance theoretic investigations into the 
+The model presented in this thesis is motivated by a premise similar to the one explored by \citeauthor{ErkEA2008}: there should be some sort of selectional mechanism for choosing the way that a word relates to other words in context.  I would like to push this agenda a even further, though.  Following on \citepos{Barsalou} insight into the \emph{haphazard} way in which concepts emerge situationally, and likewise \citepos{Carston} proposition regarding \emph{ad hoc} conceptualisation, I propose that the mechanism for contextually mapping out conceptual relationships between representations of words should be as open ended as possible, ideally lending itself to the construction of novel conceptual relationships in the same way that the state space of possible word combinations offers an effectively infinite array of linguistic possibilities.  In particular, I suggest that the ephemeral nature of concept formation can be modelled in terms of \emph{perspectives} on the conceptual affordances of lexical relationships.  Figure~\ref{fig:perspective} Illustrates this point.  From one point of view, \emph{dog} and \emph{cat} refer to exemplars of the conceptual category \textsc{pets}, while \emph{wolf} and \emph{lion} are typical of the category \textsc{predators}.  From a more taxonomically aligned point of view, though, \emph{dog} and \emph{wolf} group naturally in the \textsc{canine} category, while \emph{cat} and \emph{lion} clearly both belong to the category of \textsc{felines}.
 
-Following on \citepos{Barsalou} insight into the \emph{haphazard} way in which concepts emerge situationally, and likewise \citepos{Carston}
+\begin{figure}[t]
+	\begin{subfigure}[t]{0.5\textwidth}
+    \centering
+	\begin{tikzpicture}[scale=0.07,baseline]
+		\draw (0,0)--(-100,0)--(-100,-100)--(0,-100)--(0,0);
+    	\draw (-15,-20) [left] node {wolf};
+        \fill (-15,-20) circle[radius=1];
+        \draw (-20,-75) [below] node {dog};
+        \fill (-20,-75) circle[radius=1];
+        \draw (-80,-80) [above] node {cat};
+        \fill (-80,-80) circle[radius=1];
+        \draw (-85,-25) [above] node {lion};
+        \fill (-85,-25) circle[radius=1];
+        \draw[fill=lightgray, fill opacity=0.25] (-17.5,-50) ellipse (10 and 48);
+        \node at (-17.5,-50) {\LARGE canine};
+        \draw[fill=lightgray, fill opacity=0.25] (-50,-77.5) ellipse (48 and 10);
+        \node at (-50,-77.5) {\LARGE pet};
+        \draw[fill=lightgray, fill opacity=0.25] (-82.5,-50) ellipse (10 and 48);
+        \node at (-82.5,-50) {\LARGE feline};
+        \draw[fill=lightgray, fill opacity=0.25] (-50,-22.5) ellipse (48 and 10);
+        \node at (-50,-22.5) {\LARGE predator};
+        \node at (-50,-102.5) [single arrow,draw,rotate=90,minimum height=40,minimum width=40,inner sep=15,opacity=0] {};
+    \end{tikzpicture}
+    \caption{a lexical space}
+    \label{fig:bland}
+    \end{subfigure}
+    \begin{subfigure}[t]{0.5\textwidth}
+    \centering
+	\begin{tikzpicture}[scale=0.07,baseline]
+    	\draw (0,0)--(-100,0)--(-100,-100)--(-57.5,-100);
+        \draw (-42.5,-100)--(0,-100)--(0,-57.5);
+        \draw (0,-42.5)--(0,0);
+    	\draw (-15,-20) [above] node {wolf};
+        \fill (-15,-20) circle[radius=1];
+        \draw[dashed,->] (-15,-20)--(-15,-100);
+        \draw (-15,-100) node {x};
+        \draw[dashed,->] (-15,-20)--(0,-20);
+        \draw (0,-20) node [rotate=90] {x};
+        
+        \draw (-20,-75) [above] node {dog};
+        \fill (-20,-75) circle[radius=1];
+        \draw [dashed,->] (-20,-75)--(-20,-100);
+        \draw (-20,-100) node {x};
+        \draw [dashed,->] (-20,-75)--(0,-75);
+        \draw (0,-75) node [rotate=90] {x};
+        
+        \draw (-80,-80) [above] node {cat};
+        \fill (-80,-80) circle[radius=1];
+        \draw [dashed,->] (-80,-80)--(-80,-100);
+        \draw (-80,-100) node {x};
+        \draw [dashed,->] (-80,-80)--(0,-80);
+        \draw (0,-80) node [rotate=90] {x};
+        
+        \draw (-85,-25) [above] node {lion};
+        \fill (-85,-25) circle[radius=1];
+        \draw [dashed,->] (-85,-25)--(-85,-100);
+        \draw (-85,-100) node {x};
+        \draw [dashed,->] (-85,-25)--(0,-25);
+        \draw (0,-25) node [rotate=90] {x};
+        
+        \node at (3,-22.5) [below,rotate=90] {predator};
+        \node at (3,-22.5) {\Large\}};
+		
+        \node at (3,-77.5) [below,rotate=90] {pet};
+        \node at (3,-77.5) {\Large\}};
+		
+        \node at (-17.5,-103) [below] {canine};
+        \node at (-17.5,-103) [rotate=-90] {\Large\}};
 
-I propose that the mechanism for contextually mapping out conceptual relationships between representations of words should be as open ended as possible, ideally lending itself to the construction of novel conceptual relationships in the same way that the state space of possible word combinations offers an effectively infinite array of linguistic possibilities.
+        \node at (-82.5,-103) [below] {feline};
+        \node at (-82.5,-103) [rotate=-90] {\Large\}};
+        
+        \node at (-50,-102.5) [single arrow,draw,rotate=90,minimum height=40,minimum width=40,inner sep=15] {};
+        \node at (-50,-102.5) {species};
+        \node at (2.5,-50) [single arrow,draw,rotate=180,,minimum height=40,minimum width=40,inner sep=15] {};
+        \node at (2.5,-50) {niche};
+    \end{tikzpicture}
+    \caption{a contextual projection}
+    \label{fig:perspective}
+    \end{subfigure}
+  \caption{In the two-dimensional space depicted in (a), the conceptual vagary of four words maps to overlapping, elongated and indeterminate spaces.  In (b), two different perspectives on the lexical space, represented by the arrows labelled \emph{niche} and \emph{species}, offer contextualised projections in one-dimensional clusters which remit conceptual clarity.}
+\end{figure}
+
+Furthermore, the high dimensionality of vector space models of distributional semantics in particular should afford precisely these types of contextual vistas on potential relationships between words.  Rather than depending on \emph{a priori} disambiguation based on clustering or observations of context in the form of existing combinations of words, I propose that a technique for defining subspaces \emph{in situ} will capture the momentary and situated way in which concepts come about in the course of a cognitive agent's entanglement with the world.  The way that relationships between words coalesce and then dissolve as we change our perspective on the space of this model is designed to reflect the way that concepts 
+
+This description of a process of perspective taking has thus far been quite high-level: that high dimensional spaces afford different vantage points on data is evident, but this begs the question of the actual mechanism for defining perspectives in such spaces.  The next section will focus on answering this question by outlining a method for 
 
 \section{Literal Dimensions of Co-Occurrence}
-\cite{Baroni} has described the former as \emph{counting} and the latter as \emph{predicting}, but it must be noted that both methods are very much grounded in observations about the co-occurrence characteristics of vocabulary words across large bodies of text.
+The model presented here is grounded within the paradigm of distributional semantics, which means that the conceptual geometries that it constructs are the product of observations of word co-occurrences in a large-scale corpus of textual data represented statistically.  Two procedurally distinct methodological regimens have emerged from the recent study of distributional semantics.  The first, and more established, approach involves tabulating word co-occurrence frequencies and then using some function over these to build up word-vector representations.  With roots in the frequentist analysis described by \cite{SaltonEA1975}, recent research has typically involved matrix factorisation techniques presented as either (or both) an optimisation technique or a noise reducing mechanism.  A more recent approach, which has received a great deal of attention with the increasing availability of large-scale data and the corresponding advent of complex neural network architectures, involves using non-linear regression techniques to iteratively learn word-vector representations in an online, stepwise traversal of a corpus \citep{BengioEA2003,CollobertEA2008,KalchbrennerEA2014}.  \cite{BaroniEA2014} has described the former as \emph{counting} and the latter as \emph{predicting}, but it must be noted that both methods are very much grounded in observations about the co-occurrence characteristics of vocabulary words across large bodies of text.
+
+Another important similarity between these two approaches is that they each in their own way move towards a representation of relationships between word-vectors which is to some extent optimally informative, and, by the same token, abstract.  In the instance of neural network approaches, this is clearly the case due to the fundamental nature of the system: the dimensions of this variety of model exist as basically arbitrary handles for gradually adjusting the relative positions of vectors, slightly altering every dimension of each vector each time the corresponding word is observed in the corpus.  And, as far as models based on explicit co-occurrence counts are concerned, the favoured technique tends to involve starting with a large, sparse space of raw co-occurrence statistics (frequencies, or, more typically, a mutual information type metric) and then factorising this matrix using a linear algebraic technique such as singular value decomposition.  The result, in either case, is a space of vectors which exists just for the sake of placing words in a relationship where distance corresponds to a semantic property, consisting of dimensions which can only be interpreted in terms of the way that they allow the model to relate words, not in terms of their relationship to the underlying data.  In fact, \cite{Levy} has argued that recently developed neural networks approaches just exactly do recapitulate the process of matrix factorisation, and that a careful tuning of hyperparameters will generate commensurable results from either type of model.
+
+A key feature of the model proposed in this thesis is that it maintains a space of highly sparse co-occurrence statistics, which, despite their anchoring in the relatively abstract realm of word positions in a digitised corpus, I will describe as \emph{literal} in the sense that they can be interpreted as corresponding to actual situations in the world.  I don't wish to claim that there is scope for completely or even mainly recapitulating a nuanced conceptual model from the data available in a purely textual environment
+
+To do so would be to tread dangerously close to 
+
+But I would like to suggest that by building a model which maintains the accessibility of unreduced co-occurrence information, we likewise maintain the ability to 
+
+The proper framework for 
+
+is not so much a single space of word-vectors as a Grassmannian lattice consisting of the power set of all possible combinations of the dimensions characterising the base space.  At the top of this lattice -- the \emph{join} -- sits a single $k$-dimensional space consisting of every available one of the $k$ co-occurrence terms observed throughout the underlying corpus.  At the bottom of the lattice -- the \emph{meet} -- sit $k$ different one-dimensional spaces, each space corresponding to a single co-occurrence term.  If the meet is considered $layer-1$ of the lattice, and the join is considered layer $k$, then any given $layer-j$ consists of every possible combination of $j$ dimensions of co-occurrence statistics.  A diagram of a very simple example of one such model is presented in Figure~\ref{fig:lattice}, illustrating the possible subspaces projected from a vastly simplified model consisting of just three co-occurrence dimensions (these particular spaces will be explored in the next section, as illustrated in Figure~\ref{fig:instruments}.
+
+\begin{figure}
+\centering
+\begin{tikzpicture}[node distance=3cm,every node/.style={draw=black,thick,circle,inner sep=0pt}]
+  \node[minimum size=2cm](join) {\begin{tabular}{c}
+    \emph{dim1} \\
+    \emph{dim2} \\
+    \emph{dim3}
+  \end{tabular}};
+  \node[minimum size=2cm](two2) [below of=all] {\begin{tabular}{c}
+    \emph{dim1} \\
+    \emph{dim3}
+  \end{tabular}};
+  \node[minimum size=2cm](two1) [left of=two2] {\begin{tabular}{c}
+    \emph{dim1} \\
+    \emph{dim2}
+  \end{tabular}};
+    \node[minimum size=2cm](two3) [right of=two2] {\begin{tabular}{c}
+    \emph{dim2} \\
+    \emph{dim3}
+  \end{tabular}};
+  \node[minimum size=2cm](one2) [below of=two2] {\begin{tabular}{c}
+    \emph{dim2}
+  \end{tabular}};
+  \node[minimum size=2cm](one1) [left of=one2] {\begin{tabular}{c}
+    \emph{dim1}
+  \end{tabular}};
+  \node[minimum size=2cm](one3) [right of=one2] {\begin{tabular}{c}
+    \emph{dim3}
+  \end{tabular}};
+  \draw (two1)--(join);
+  \draw (two2)--(join);
+  \draw (two3)--(join);
+  \draw (one1)--(two1);
+  \draw (one1)--(two2);
+  \draw (one2)--(two1);
+  \draw (one2)--(two3);
+  \draw (one3)--(two2);
+  \draw (one3)--(two3);
+\end{tikzpicture}
+\caption{A Lattice of Three Dimensions}
+\label{fig:lattice}
+\end{figure}
+
+- lattice theory
 
 \section{Interpretable Geometry}
-It is important at this point to distinguish between two different aspects of the model being outlined here, both of which are intended to fulfil a criterion of interpretability.  On the one hand, we have the selectional mechanism, the principles of which have been outlined in the preceding section.
+It is important at this point to distinguish between two different modes of interpretability evident within the operation of the model I'm proposing.  On the one hand, we have the mechanism for selecting subspaces described above: this mechanism requires a model composed of tractable dimensions of statistics that can be interpreted based on expectations generated from an analysis of some sort of contextually relevant 
+
+In the case of dimensions constituting a subspace projected by our model, we have a label which points us to a literal co-occurrence data as observed in a corpus.
+
+The other variety of interpretability within this model happens on the level of the overall geometry of a conceptually oriented subspace.
+
+and it is crucial to highlight the discrepancy between this geometric interpretability and the lower-level tractability that enable dimensional selection.
+
+So, while a dimensional label $c$ denoting a scalar for a vector $\overrightarrow{w}$ can be interpreted as meaning that the word $w$ co-occurs with the word $c$ in a particular way relative to the overall frequency profiles of $w$ and $c$, it does not necessarily mean anything more general about the relationship between any prospective concepts \textsc{w} and \textsc{c}.  After all, concepts are in the end all constructed in an \emph{ad hoc}, contextually specific way; 
+
+One important consequence of this distinction between dimensional and geometric interpretability is that, while the model can be properly understood as a lattice, it is not the case that this lattice can in turn be used to perform logical operations of entailment in the spirit of \citepos{Wille} formal concept analysis.  The space at the top of the lattice -- the ultimate join -- does indeed contain all the information available to the model, but it can be thought of more as a muddle than as a comprehensive 
 
 \section{A Computational Model}
 

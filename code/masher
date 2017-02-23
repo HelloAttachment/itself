@@ -4,17 +4,21 @@ tit = []
 fw = open('Mega.bib','w')
 new = []
 
-for num in ["0","1","2","3"]:
-    fr = open('Cite' + num,'r').readlines()
-    for line in fr:
-        if line[0] == "@":
-            if len(new) > 0:
-                full.append(new)
-            new = []
-            if line not in tit:
-                tit.append(line)
-        new.append(line)
-full = sorted(full,key=lambda block: block[0].split("{")[1])
+#for num in ["0","1","2","3"]:
+#    fr = open('Cite' + num,'r').readlines()
+
+fr = open('Olda.bib','r').readlines()
+for line in fr:
+    if line[0] == "@":
+        if len(new) > 0:
+            full.append(new)
+        new = []
+        if line not in tit:
+            tit.append(line)
+        else:
+            print "DUPE",line
+    new.append(line)
+full = sorted(full,key=lambda block: block[0].split("{")[1].lower())
 for block in full:
     if block[0] in tit:
         tit.remove(block[0])
