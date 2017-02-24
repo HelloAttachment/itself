@@ -18,9 +18,14 @@ for line in fr:
         else:
             print "DUPE",line
     new.append(line)
+full.append(new)
 full = sorted(full,key=lambda block: block[0].split("{")[1].lower())
+print len(full),len(tit)
 for block in full:
     if block[0] in tit:
         tit.remove(block[0])
         for line in block:
             fw.write(line)
+    else:
+        print "MISS",block
+print tit

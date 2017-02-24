@@ -3,6 +3,6 @@
 \contentsline {chapter}{\numberline {1}A Model for Constructing Concepts on the Fly}{2}
 \contentsline {section}{\numberline {1.1}Dynamic Context Sensitivity}{4}
 \contentsline {section}{\numberline {1.2}Literal Dimensions of Co-Occurrence}{7}
-\contentsline {section}{\numberline {1.3}Interpretable Geometry}{9}
-\contentsline {section}{\numberline {1.4}A Computational Model}{10}
-\contentsline {chapter}{References}{11}
+\contentsline {section}{\numberline {1.3}Interpretable Geometry}{11}
+\contentsline {section}{\numberline {1.4}A Computational Model}{12}
+\contentsline {chapter}{References}{13}
