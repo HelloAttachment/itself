@@ -4,5 +4,5 @@
 \contentsline {section}{\numberline {1.1}Dynamic Context Sensitivity}{4}
 \contentsline {section}{\numberline {1.2}Literal Dimensions of Co-Occurrence}{7}
 \contentsline {section}{\numberline {1.3}Interpretable Geometry}{11}
-\contentsline {section}{\numberline {1.4}A Computational Model}{12}
-\contentsline {chapter}{References}{13}
+\contentsline {section}{\numberline {1.4}A Computational Process}{15}
+\contentsline {chapter}{References}{17}

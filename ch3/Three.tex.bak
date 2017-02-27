@@ -125,31 +125,32 @@ So the proper framework for describing the model to be examined in this thesis i
 \begin{figure}
 \centering
 \begin{tikzpicture}[node distance=3cm,every node/.style={draw=black,thick,circle,inner sep=0pt}]
+  \footnotesize
   \node[minimum size=2cm](join) {\begin{tabular}{c}
-    \emph{dim1} \\
-    \emph{dim2} \\
-    \emph{dim3}
+    \emph{cantata} \\
+    \emph{sopranos} \\
+    \emph{funk}
   \end{tabular}};
   \node[minimum size=2cm](two2) [below of=all] {\begin{tabular}{c}
-    \emph{dim1} \\
-    \emph{dim3}
+    \emph{cantata} \\
+    \emph{funk}
   \end{tabular}};
   \node[minimum size=2cm](two1) [left of=two2] {\begin{tabular}{c}
-    \emph{dim1} \\
-    \emph{dim2}
+    \emph{cantata} \\
+    \emph{sopranos}
   \end{tabular}};
     \node[minimum size=2cm](two3) [right of=two2] {\begin{tabular}{c}
-    \emph{dim2} \\
-    \emph{dim3}
+    \emph{sopranos} \\
+    \emph{funk}
   \end{tabular}};
   \node[minimum size=2cm](one2) [below of=two2] {\begin{tabular}{c}
-    \emph{dim2}
+    \emph{sopranos}
   \end{tabular}};
   \node[minimum size=2cm](one1) [left of=one2] {\begin{tabular}{c}
-    \emph{dim1}
+    \emph{cantata}
   \end{tabular}};
   \node[minimum size=2cm](one3) [right of=one2] {\begin{tabular}{c}
-    \emph{dim3}
+    \emph{funk}
   \end{tabular}};
   \draw (two1)--(join);
   \draw (two2)--(join);
@@ -161,7 +162,7 @@ So the proper framework for describing the model to be examined in this thesis i
   \draw (one3)--(two2);
   \draw (one3)--(two3);
 \end{tikzpicture}
-\caption{A Lattice of Three Dimensions}
+\caption{A lattice of three dimensions, including the two-dimensional subspaces which are used for analysing the conceptual geometry of a small set of word-vectors in Figure~\ref{fig:instruments}}
 \label{fig:lattice}
 \end{figure}
 
@@ -169,26 +170,88 @@ An important distinction must be drawn, however, between the representation of m
 
 As \cite{Rimell2014} has pointed out, however, it is problematic to assume that a spectrum of co-occurrence alone can indicate relationships of hyponymy and hypernymy.  It stands to reason, for instance, that a word with a taxonomically specific referent such as \emph{bulldog} should probably have a co-occurrence profile including words omitted from the corresponding profile of a word like \emph{lifeform}, which has an ostensibly more general extent.  Rimell has proposed a measure of change in \emph{topic coherence} as word-vectors are combined algebraically in order to detect entailment relationships.  This measuring is achieved specifically through a process of dimension-by-dimensions comparison between potentially related word-vectors, in particular the \emph{vector negation} method described by \cite{Widdows2003}, combined with topic modelling techniques to analyse the coherence of features distilled by the selectional process.
 
-The model proposed in this thesis adheres to the same principle of fine-grained cross-dimensional analysis described by Rimell.  In addition to the practical issues raised by Rimell, my model is also designed to remain pointedly uncommitted to any idea that concepts are atomic or elementary to thought, or that language and concepts are involved in any kind of strictly hierarchical relationships.  If a consequence of this stance is that the model can't be understood in terms of nested ordered relationships, though, then the question of how conceptual relationships do emerge situationally from the model remains.  The next section of this methodological overview will examine how the actual geometry of a projected subspace itself is expected to do this conceptual work.
+The model proposed in this thesis adheres to the same principle of fine-grained cross-dimensional analysis described by Rimell.  In addition to the practical issues raised by Rimell, my model is also designed to remain pointedly uncommitted to any idea that concepts are atomic or elementary to thought, or that language and concepts are involved in any kind of strictly hierarchical relationships.  Instead, the model operates through an analytical traversal of a lattice of subspaces in search for a combination of dimensions that captures a conceptually \emph{salient} profile of co-occurrence features.  If a consequence of this stance is that the model can't be understood in terms of nested ordered relationships, though, then the question of how conceptual relationships do emerge situationally from the model remains.  The next section of this methodological overview will examine how the actual geometry of a projected subspace itself is expected to do this conceptual work.
 
 \section{Interpretable Geometry}
 It is important at this point to distinguish between two different modes of interpretability at play within the operation of the model I'm proposing.  On the one hand, we have the mechanism for selecting subspaces described above: this mechanism requires a model composed of tractable dimensions of statistics that can be interpreted based on expectations generated from an analysis of some sort of contextually relevant information.  Some specific mechanisms for this process will be discussed in the next section.  Then on the other hand, once this selectional process has taken place, we find ourselves with a subset of dimensions defining a specific subspace.  My claim is that, given the correct selectional criteria for performing this projection -- this traversal of our lattice of vector spaces -- we should be able to generate a subspace in which the projected word-vectors will be interpretable in terms of the actual geometric features of this subspace.
 
 The idea of exploiting the geometry of a transformed space of word statistics is not new.  Indeed, seminal work on latent semantic analysis (LSA) was motivated by precisely the insight that a singular value decomposition of a high-dimensional, sparse matrix of statistical data about word co-occurrences would result in a dense lower dimensional matrix in which dimensions characterise \emph{latent semantics} rather than literal word co-occurrences \citep{DeerwesterEA1990}.  Thus the linear algebraic methodology of generating a lower dimensional matrix of optimally informative dimensions arguably transforms a space of specific co-occurrence events into a space of more general conceptual relationships.  In fact, \cite{LandauerEA1997} have subsequently argued that the dimensional reduction by way of factorisation itself might directly mirror cognitive conditioning, modelling the way that the mind can ``correctly infer indirect similarity relations only implicit in the temporal correlations of experience,'' (p. 212).
 
-Of course the dimensions of a factorised matrix are still not 
+Of course the dimensions of a factorised matrix are still not interpretable in themselves.  They are, rather, an optimal abstraction of the underlying data, in which each dimension is maximally informative -- and, accordingly, orthogonal -- in comparison to the other dimensions.  What we desire in a model, however, is a mechanism for actually interpreting directions and regions within a subspace projected by the model.  This objective is motivated by \cite{Gardenfors2000} insight into the inferential power of \emph{conceptual spaces}: by building spaces in which the dimensions themselves correspond to \emph{properties}, G\"{a}rdenfors has illustrated how features of points and regions within these spaces such as convexity and betweeness can be interpreted as corresponding to conceptual membership and can accordingly be used to reason about relationships between concepts.  In more recent work, motivated by psycholinguist insight into the significance of the \emph{intersubjectivity} by which language facilitates the mutual ascription of cognitive content between interlocutors, \cite{Gardenfors2014} has proposed that semantics are derived from a communicative alignment of conceptual spaces.
 
-In the case of dimensions constituting a subspace projected by our model, we have a label which points us to a literal co-occurrence data as observed in a corpus.
+A classic example of a G\"{a}rdenforsian conceptual space is the space of colors, which can be defined in terms of, for instance, hue, brightness, lightness, and colourfulness: any colour can be specified as a point corresponding to coordinates along each of these dimensions.  Moreover, regions within the space of colours can be defined geometrically: the concept \textsc{red} will correspond to a convex region within the space, and any point lying between two points known to be labelled \emph{red} will likewise be considered \emph{red}.  \cite{Jager} has devised an experiment mapping linguistic descriptions to conceptual regions precisely within the domain of colours.  Taking a large set of multi-lingual data regarding colour naming conventions, treating each of 330 different colours as an initially independent dimension, J\"{a}ger demonstrated how an extrapolation of optimally informational dimensions via a principle component analysis revealed clusterings of color names into convex regions.\footnote{The cross-cultural universality of colour naming conventions presented by \cite{KayEA1999}, which J\"{a}ger takes as a basis for his research, is controversial to say the least -- see \cite{Levinson2001} for an alternative point of view -- but J\"{a}ger's work remains a good example of a computational technique for extrapolating conceptual spaces from quantitative linguistic data.}
 
-The other variety of interpretability within this model happens on the level of the overall geometry of a conceptually oriented subspace.
+Similarly motivated by G\"{a}rdenfors's model of conceptual spaces, \cite{DerracEA2015} have built vectors of domain specific documents, associating word frequencies within documents with document labels.  A multi-dimensional scaling procedure is then used to project these document-vectors into a Euclidean space in which the authors predict that properties such as \emph{parallelness} and \emph{betweeness} will correspond to conceptual relationships between documents.  The authors demonstrate that geometry in their projected spaces does indeed afford conceptual interpretation: the word \emph{bog} is found to be more or less between \emph{heath} and \emph{wetland}, for instance, and the vector for the film \emph{Jurassic Park} lies in a direction associated with \textsc{dinosaurs} and \textsc{special effects}.  This work is particularly notable in that \citeauthor{DerracEA2015} appreciate the significance of projecting spaces which are interpretable in terms of Euclidean distances rather than simply the cosine similarity of vectors extending from the origin of a space: Euclidean metrics provide a platform for more nuanced considerations of the relationships between points.
 
-and it is crucial to highlight the discrepancy between this geometric interpretability and the lower-level tractability that enable dimensional selection.
+The type of space exemplified by the research of J\"{a}ger and \citeauthor{Derrac} is moving towards being a conceptual space in the way that its geometry offers itself up to semantic interpretation, but importantly these remain static spaces comprised of abstract dimensions, albeit dimensions generated in order to optimise the interpretability of the spaces they delineate.  The objective of my model is to emulate the geometric interpretability of these other spaces in an extemporaneous, contextually dynamic way.  To illustrate this point, consider the two spaces illustrated in Figure~\ref{fig:instruments} (taken from real co-occurrence data, as described in the next section, and based on the lattice of subspaces illustrated in Figure~\ref{fig:lattice}).  Here co-occurrence statistics are used to define three different dimensions, from which two different two-dimensional subspaces are selected with word-vectors plotted into each subspace.  In each subspace, a particular conceptual geometry emerges, oblique to the axes of each subspace but nonetheless indicating distinct conceptual regions in which words cluster in an interpretable way.
 
-So, while a dimensional label $c$ denoting a scalar for a vector $\overrightarrow{w}$ can be interpreted as meaning that the word $w$ co-occurs with the word $c$ in a particular way relative to the overall frequency profiles of $w$ and $c$, it does not necessarily mean anything more general about the relationship between any prospective concepts \textsc{w} and \textsc{c}.  After all, concepts are in the end all constructed in an \emph{ad hoc}, contextually specific way; 
+\begin{figure}[t]
+	\begin{subfigure}[t]{0.5\textwidth}
+    \centering
+	\begin{tikzpicture}[scale=1,baseline]
+		\draw [->] (-0.2,-0.2)--(5,-0.2);
+		\draw [->] (-0.2,-0.2)--(-0.2,5);
+		\node at (2.4,-0.2) [below] {\emph{sopranos}};
+		\node at (-0.2,2.4) [above,rotate=90] {\emph{cantata}};
+		\draw [<->,ultra thick] (1.5,3.5)--(4.5,2);
+		\node at (2.2,3.15) [above,rotate=-26.57] {\footnotesize \textsc{strings}};
+		\node at (3.65,2.425) [below,rotate=-26.57] {\footnotesize \textsc{woodwind}};
+		\node at (0.0,1.09) [right,rotate=45] {guitar};
+		\fill (0.0,1.09) circle[radius=0.05];
+		\node at (0.0,3.07) [right,rotate=45] {banjo};
+		\fill (0.0,3.07) circle[radius=0.05];
+		\node at (1.58,4.92) [right,rotate=45] {violin};
+		\fill (1.58,4.92) circle[radius=0.05];
+		\node at (2.63,0.0) [right,rotate=45] {saxophone};
+		\fill (2.63,0.0) circle[radius=0.05];
+		\node at (4.40,0.0) [right,rotate=45] {clarinet};
+		\fill (4.40,0.0) circle[radius=0.05];
+		\node at (4.20,3.53) [right,rotate=45] {oboe};
+		\fill (4.20,3.53) circle[radius=0.05];
+    \end{tikzpicture}
+    \caption{\textsc{strings} vs \textsc{woodwind}}
+    \label{fig:svsw}
+    \end{subfigure}
+    \begin{subfigure}[t]{0.5\textwidth}
+    \centering
+	\begin{tikzpicture}[scale=1,baseline]
+		\draw [->] (-0.2,-0.2)--(5,-0.2);
+		\draw [->] (-0.2,-0.2)--(-0.2,5);
+		\node at (2.4,-0.2) [below] {\emph{sopranos}};
+		\node at (-0.2,2.4) [above,rotate=90] {\emph{funk}};
+		\draw [<->,ultra thick] (1.5,3.5)--(3.5,1);
+		\node at (1.85,3.0625) [above,rotate=-51.35] {\footnotesize \textsc{band}};
+		\node at (2.9,1.75) [below,rotate=-51.35] {\footnotesize \textsc{orchestra}};
+		\node at (0.0,3.60) [right,rotate=45] {guitar};
+		\fill (0.0,3.60) circle[radius=0.05];
+		\node at (0.0,1.78) [right,rotate=45] {banjo};
+		\fill (0.0,1.78) circle[radius=0.05];
+		\node at (1.58,0.0) [right,rotate=45] {violin};
+		\fill (1.58,0.0) circle[radius=0.05];
+		\node at (2.63,3.77) [right,rotate=45] {saxophone};
+		\fill (2.63,3.77) circle[radius=0.05];
+		\node at (4.40,1.49) [right,rotate=45] {clarinet};
+		\fill (4.40,1.49) circle[radius=0.05];
+		\node at (4.20,0.0) [right,rotate=45] {oboe};
+		\fill (4.20,0.0) circle[radius=0.05];
+    \end{tikzpicture}
+    \caption{\textsc{band} vs \textsc{orchestra}}
+    \label{fig:bvso}
+    \end{subfigure}
+  \caption{Based on real co-occurrence data, swapping one dimension in a two-dimensional subspace reveals two different conceptual geometries.}
+  \label{fig:instruments}
+\end{figure}
 
-One important consequence of this distinction between dimensional and geometric interpretability is that, while the model can be properly understood as a lattice, it is not the case that this lattice can in turn be used to perform logical operations of entailment in the spirit of \citepos{Wille} formal concept analysis.  The space at the top of the lattice -- the ultimate join -- does indeed contain all the information available to the model, but it can be thought of more as a muddle than as a comprehensive 
+The first thing to note about these spaces is the way that swapping a single dimension in a two dimensional subspace can have a significant impact on the conceptual affordances of the subspace's geometry.  Realigning the relationships between terms along a single axis leads to a complete shift in the clusterings of terms, and, correspondingly, to the interpretation of regions and directions.  If these are conceptually sound subspaces, then we might expect word-vectors found within the area of the triangle described by the points labelled \emph{guitar}, \emph{banjo}, and \emph{violin} in Figure~\ref{fig:svsw} to be the names of other string instruments, or other conceptually relevant terms.  This is possibly asking too much of a subspace consisting of data regarding co-occurrences with just two terms across a large scale corpus, but as we scale up the dimensionality of the space -- as we ascend the lattice of subspaces of a fully realised model -- we can expect proper conceptual spaces to begin to coalesce.
+
+The next thing to note is that the dimensions themselves are not especially interpretable.  While these dimensional profiles are explicable -- and indeed the ability to trace these statistics back to the corpus might turn out to be a desirable property for some applications -- the dimensions themselves do not conform to \citepos{Gardenfors2000} notion of dimensions as representing the properties that compose a concept.  It might be surprising, for instance, that the word \emph{cantata} has a higher propensity for co-occurrence with the word \emph{banjo} than with the word \emph{clarinet}, given that cantatas have traditionally included parts for the latter but not the former.  An examination of the underlying data, extracted, as described in the next section, from English language Wikipedia, reveals that the term \emph{cantata} has been adopted, perhaps somewhat figuratively, by some bluegrass musicians, and so co-occurrences with \emph{banjo} are indeed observed.
+
+Rather than consider such usage as anomalous or attempt some sort of \emph{a priori} word sense disambiguation, I propose that we embrace the haphazardness of language and use it as a tool for projecting conceptually productive geometries.  In fact it would be surprising if it turned out that in anything other than the most specialised cases we could simply pick dimensions based on their labels and then expect co-occurrence statistics to play out in a conceptually coherent way, as this would contradict the Relevance Theoretic thesis that language in use is always significantly underspecified.  With this in mind, I suggest that we consider some set of dimensions, delineating a subspace and the corresponding geometry of word-vectors, to map precisely to a given context, and to effectively serve as the connective structure between language and conceptualisation.  Under this regimen, the dimensions themselves become the constitutive substance of a context, but they do not compositionally define any context in which they participate; rather, the contextualisation is an emergent property of the combination of dimensions underwriting it, corresponding to \emph{a way of speaking} about things.
+
+The spaces illustrated in Figure~\ref{fig:instruments} are the product of a lattice consisting of combinations of just three dimensions, and as such the conceptual affordances of this toy model are highly limited.  As we add dimensionality to the model, however -- as we observe more terms co-occurring with our vocabulary of word-vectors -- we can expect an exponential growth in the combinatory possibilities of subspace construction.  With enough dimensions from which to choose, and with an appreciable degree of variance between the profiles of each dimensions, there should be scope for projecting more or less any constellation of word-vectors we desire.  The next question, then, is how to go about actually extracting a high dimensional base model of co-occurrence statistics from a large scale textual corpus.  The next section will answer this question.
 
 \section{A Computational Process}
+In this final section of this chapter, a technical implementation of the model described throughout the preceding three sections will be explained in detail.
 
 As is generally the case with data cleaning, these measures are prone to error
 
