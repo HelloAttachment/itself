@@ -1,7 +1,27 @@
 \chapter{Similarity and Relatedness}
 In this chapter, I present the first stage of empirical results using the methodology described in the previous chapter.
 
+\section{A Neural Network for Learning Word Vectors}
+For the experiments described here and throughout the rest of this thesis, the neural network based models outline by \cite{Mikolov} under the rubric \texttt{word2vec} will be used as a point of comparison.  These models have received a remarkable degree of attention in the NLP literature since their introduction a few years ago, so much so that the system was mentioned by name in 116 out of the 230 long papers published in the 2016 Proceedings of the Meeting for the Association for Computational Linguistics
+
+The system is comprised of two different neural network architectures for generating word-vector representations based on traversals of large scale corpora.  The \emph{contextual bag of words} (CBOW) technique treats the terms in a co-occurrence window surrounding a target word $w$ as input and attempts to learn a representative word-vector $\overrightarrow{w}$ that is predicted by processing the input word-vectors through a recursive neural network.  The \emph{skip-gram} technique, on the other hand, treats the representation $\overrightarrow{w}$ itself as input to a network which learns to predict a sequence of word-vectors representing words on either side of the target word.
+
+In both cases, the model 
+
+Here, the skip-gram and CBOW techniques of \texttt{word2vec} will be taken as exemplars of general-purpose distributional semantic modelling.
+
 \section{A Proof of Concept}
+
+\begin{table}
+\begin{tabular}[lrrrrrrrrr]
+\hline
+& \multicolumn{2}{c}{\textsc{joint}} & \multicolumn{2}{c}{\textsc{indy}} & \multicolumn{2}{c}{\textsc{zipped}} & \multicolumn{2}{c}{\textsc{w2v}} \\
+& \multicolumn{1}{c}{high} & \multicolumn{1}{c}{full} & \multicolumn{1}{c}{high} & \multicolumn{1}{c}{full} & \multicolumn{1}{c}{high} & \multicolumn{1}{c}{full} & \multicolumn{1}{c}{sg} & \multicolumn{1}{c}{cbow} \\
+\hline
+psychological feature 
+\end{tabular}
+\end{tabular}
+\end{table}
 
 \section{Word Similarity in Context}
 

@@ -1,6 +1,27 @@
+\chapter{Similarity and Relatedness}
 In this chapter, I present the first stage of empirical results using the methodology described in the previous chapter.
 
+\section{A Neural Network for Learning Word Vectors}
+For the experiments described here and throughout the rest of this thesis, the neural network based models outline by \cite{Mikolov} under the rubric \texttt{word2vec} will be used as a point of comparison.  These models have received a remarkable degree of attention in the NLP literature since their introduction a few years ago, so much so that the system was mentioned by name in 116 out of the 230 long papers published in the 2016 Proceedings of the Meeting for the Association for Computational Linguistics
+
+The system is comprised of two different neural network architectures for generating word-vector representations based on traversals of large scale corpora.  The \emph{contextual bag of words} (CBOW) technique treats the terms in a co-occurrence window surrounding a target word $w$ as input and attempts to learn a representative word-vector $\overrightarrow{w}$ that is predicted by processing the input word-vectors through a recursive neural network.  The \emph{skip-gram} technique, on the other hand, treats the representation $\overrightarrow{w}$ itself as input to a network which learns to predict a sequence of word-vectors representing words on either side of the target word.
+
+In both cases, the model 
+
+Here, the skip-gram and CBOW techniques of \texttt{word2vec} will be taken as exemplars of general-purpose distributional semantic modelling.
+
 \section{A Proof of Concept}
+
+\begin{table}
+\begin{tabular}[lrrrrrrrrr]
+\hline
+& \multicolumn{2}{c}{\textsc{joint}} & \multicolumn{2}{c}{\textsc{indy}} & \multicolumn{2}{c}{\textsc{zipped}} & \multicolumn{2}{c}{\textsc{w2v}} \\
+& \multicolumn{1}{c}{high} & \multicolumn{1}{c}{full} & \multicolumn{1}{c}{high} & \multicolumn{1}{c}{full} & \multicolumn{1}{c}{high} & \multicolumn{1}{c}{full} & \multicolumn{1}{c}{sg} & \multicolumn{1}{c}{cbow} \\
+\hline
+psychological feature 
+\end{tabular}
+\end{tabular}
+\end{table}
 
 \section{Word Similarity in Context}
 
@@ -89,7 +110,7 @@ In this chapter, I present the first stage of empirical results using the method
 \caption{Simlex999, 20 dimensions, 2x2 co-occurrence window.}
 \end{table}
 
-begin{table}
+\begin{table}
 \begin{tabular}{lrrrrrrrrrr}
 \hline
 \textsc{space} & dis & v-cos & c-cos & n-cos & $n_1,n_2$ & $m_1,m_2$ & $c_1,c_2$ & c-dis & m-rat & n-rat \\
@@ -125,8 +146,14 @@ begin{table}
 \textsc{Joint} & -0.252 & 0.324 & 0.339 & 0.314 & 0.228 & 0.139 & -0.307 & 0.025 & 0.030 & 0.085 \\
 \textsc{Indy} & -0.145 & 0.307 & 0.342 & 0.307 & 0.087 & -0.005 & -0.282 & -0.053 & 0.068 & 0.104 \\
 \textsc{Zipped} & -0.259 & 0.317 & 0.330 & 0.337 & 0.204 & 0.065 & -0.298 & 0.061 & 0.030 & 0.112 \\
-\textsc{Merged} -0.117 & 0.170 & 0.332 & 0.050 & 0.212 & -0.008 & -0.167 & -0.078 & -0.015 & 0.329 \\
+\textsc{Merged} & -0.117 & 0.170 & 0.332 & 0.050 & 0.212 & -0.008 & -0.167 & -0.078 & -0.015 & 0.329 \\
 \hline
 \end{tabular}
 \caption{Simlex999, 200 dimensions, 5x5 co-occurrence window.}
 \end{table}
+
+So, for instance, the ostensibly conceptually compatible pair (\emph{reality,fantasy}) scores quite low at 1.03, while (\emph{door,gate}) are considered somewhat similar at 5.25, and (\emph{business,company}) are rated, notwithstanding the considerable ambiguity of either lexical form outside of the context of one another, at 9.02.
+
+reality, fantasy = 1.03
+door, gate = 5.25
+business, company = 9.02
