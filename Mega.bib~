@@ -1,3 +1,13 @@
+@Inbook{Jager2010,
+author="J{\"a}ger, Gerhard",
+editor="Aloni, Maria and Bastiaanse, Harald and de Jager, Tikitu and Schulz, Katrin",
+title="Natural Color Categories Are Convex Sets",
+bookTitle="Logic, Language and Meaning: 17th Amsterdam Colloquium, Amsterdam, The Netherlands, December 16-18, 2009, Revised Selected Papers",
+year="2010",
+pages="11--20",
+doi="10.1007/978-3-642-14287-1_2",
+url="http://dx.doi.org/10.1007/978-3-642-14287-1_2"
+}
 @article{DerracEA2015,
 author = {Joaqu{\'{\i}}n Derrac and Steven Schockaert},
 title = {Inducing semantic relations from conceptual spaces: {A} data-driven approach to plausible reasoning},
