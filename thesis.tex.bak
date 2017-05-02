@@ -13,7 +13,7 @@
 %\usepackage{epstopdf}
 %\usepackage{biblatex}[natbib]
 %\usepackage{natbib}
-\usepackage[natbibapa]{apacite}
+%\usepackage[natbibapa]{apacite}
 %\usepackage{natbib}
 %\usepackage{biblatex}[natbib]
 \usepackage{amsmath}

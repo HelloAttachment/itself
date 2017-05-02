@@ -1,124 +1,64 @@
-This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: cover.aux
-A level-1 auxiliary file: ch1/ch1.aux
-A level-1 auxiliary file: ch2/Two.aux
 A level-1 auxiliary file: ch3/Three.aux
-A level-1 auxiliary file: ch4/Four.aux
-A level-1 auxiliary file: ch5/ch5.aux
-A level-1 auxiliary file: ch6/ch6.aux
-A level-1 auxiliary file: ch7/ch7.aux
 The style file: apacite.bst
-Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
-Reallocated global_strs (elt_size=20001) to 20 items from 10.
-Reallocated glb_str_end (elt_size=4) to 20 items from 10.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 11816 items from 5000.
 Database file #1: Mega.bib.bib
-Warning--I didn't find a database entry for "Kant"
-Warning--I didn't find a database entry for "Wittgenstein"
-Warning--I didn't find a database entry for "Descartes"
-Warning--I didn't find a database entry for "Locke"
-Warning--I didn't find a database entry for "Hume"
-Warning--I didn't find a database entry for "Hegel"
-Warning--I didn't find a database entry for "Bretano"
-Warning--I didn't find a database entry for "Husserl"
-Warning--I didn't find a database entry for "Heidegger"
-Warning--I didn't find a database entry for "Rowlands"
-Warning--I didn't find a database entry for "Davidson"
-Warning--I didn't find a database entry for "Millikan"
-Warning--I didn't find a database entry for "Dennett"
-Warning--I didn't find a database entry for "Churchland"
-Warning--I didn't find a database entry for "Thompson"
-Warning--I didn't find a database entry for "Hutto"
-Warning--I didn't find a database entry for "Deacon"
-Warning--I didn't find a database entry for "Floridi"
-Warning--I didn't find a database entry for "Shannon"
-Warning--I didn't find a database entry for "BarHillel"
-Warning--I didn't find a database entry for "Dretske"
-Warning--I didn't find a database entry for "BarwiseEA"
-Warning--I didn't find a database entry for "Levine"
-Warning--I didn't find a database entry for "Pattee"
-Warning--I didn't find a database entry for "Tonnoni"
-Warning--I didn't find a database entry for "Koch"
-Warning--I didn't find a database entry for "Colton"
-Warning--I didn't find a database entry for "Fodor"
-Warning--I didn't find a database entry for "Carston"
-Warning--I didn't find a database entry for "Chomsky"
-Warning--I didn't find a database entry for "Cooper"
-Warning--I didn't find a database entry for "Lakoff1987"
-Warning--I didn't find a database entry for "Grice"
-Warning--I didn't find a database entry for "Markov"
-Warning--I didn't find a database entry for "Turner"
-Warning--I didn't find a database entry for "O'Donoghue"
-Warning--I didn't find a database entry for "Gervas"
-Warning--I didn't find a database entry for "Toivonen"
-Warning--I didn't find a database entry for "Rashel"
-Warning--I didn't find a database entry for "Cardosa"
-Warning--I didn't find a database entry for "Clark"
-Warning--I didn't find a database entry for "Gardenfors"
-Warning--I didn't find a database entry for "Widdows"
-Warning--I didn't find a database entry for "Putnam"
-Warning--I didn't find a database entry for "Varela"
-Warning--I didn't find a database entry for "Wheeler"
-Warning--I didn't find a database entry for "Gibson"
-Warning--I didn't find a database entry for "Peirce"
-Warning--I didn't find a database entry for "Black"
-Warning--I didn't find a database entry for "Lakoff"
-Warning--I didn't find a database entry for "Searle"
-Warning--I didn't find a database entry for "Reimer"
+Repeated entry---line 655 of file Mega.bib.bib
+ : @article{BullinariaEA2012
+ :                          ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Dreyfus2012"
+Warning--I didn't find a database entry for "VonNeumann"
+Warning--I didn't find a database entry for "Wille"
 Warning--I didn't find a database entry for "Barsalou"
-Warning--I didn't find a database entry for "Allott"
-Warning--I didn't find a database entry for "GreffenstetteEA2011"
-Warning--I didn't find a database entry for "Montague"
-Warning--I didn't find a database entry for "Baroni"
-Warning--I didn't find a database entry for "Mikolov"
+Warning--I didn't find a database entry for "Carston"
+Warning--I didn't find a database entry for "Jager"
+Warning--I didn't find a database entry for "Derrac"
+Warning--I didn't find a database entry for "Shannon"
+Warning--I didn't find a database entry for "Brown"
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
-You've used 84 entries,
+You've used 32 entries,
             6951 wiz_defined-function locations,
-            1939 strings with 24911 characters,
-and the built_in function-call counts, 149319 in all, are:
-= -- 19388
-> -- 1216
-< -- 6106
-+ -- 5896
-- -- 164
-* -- 8572
-:= -- 24545
-add.period$ -- 404
-call.type$ -- 84
-change.case$ -- 1427
+            1529 strings with 17301 characters,
+and the built_in function-call counts, 63805 in all, are:
+= -- 8383
+> -- 528
+< -- 2685
++ -- 2665
+- -- 64
+* -- 3725
+:= -- 10626
+add.period$ -- 166
+call.type$ -- 32
+change.case$ -- 564
 chr.to.int$ -- 0
-cite$ -- 170
-duplicate$ -- 3959
-empty$ -- 6487
-format.name$ -- 1783
-if$ -- 30168
+cite$ -- 64
+duplicate$ -- 1635
+empty$ -- 2596
+format.name$ -- 764
+if$ -- 12739
 int.to.chr$ -- 0
-int.to.str$ -- 252
+int.to.str$ -- 96
 missing$ -- 0
-newline$ -- 2038
-num.names$ -- 675
-pop$ -- 3522
+newline$ -- 827
+num.names$ -- 266
+pop$ -- 1430
 preamble$ -- 1
-purify$ -- 338
+purify$ -- 130
 quote$ -- 0
-skip$ -- 10837
+skip$ -- 4567
 stack$ -- 0
-substring$ -- 6672
-swap$ -- 2340
-text.length$ -- 289
+substring$ -- 3058
+swap$ -- 991
+text.length$ -- 147
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 8914
+type$ -- 3776
 warning$ -- 0
-while$ -- 652
+while$ -- 280
 width$ -- 0
-write$ -- 2419
-(There were 58 warnings)
+write$ -- 999
+(There was 1 error message)

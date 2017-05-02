@@ -1,5 +1,9 @@
-\chapter{A Model for Constructing Concepts on the Fly} \label{chap:theory}
-This chapter is concerned with a theoretical overview and a technical description of a novel distributional semantic model designed to map words into conceptually productive geometric relationships.  Theoretically speaking, the model which will be described is based on some well travelled, if not entirely mainstream, ideas about the nature of language and mind:
+\chapter{Semantics on the Fly} \label{chap:theory}
+This chapter is concerned with a theoretical overview of a novel distributional semantic method designed to map words into conceptually productive geometric relationships.  At the heart of this approach is the idea that concepts, and, correspondingly, cognition are fundamentally contextual phenomena: 
+
+Language is then likewise situated 
+
+So, theoretically speaking, the method which will be described is based on some well travelled, if not entirely mainstream, ideas about the nature of language and mind:
 
 \begin{enumerate}
 \item{Concepts are not stable; they are generated in response to unfolding situations in an unpredictable environment;}
@@ -9,15 +13,21 @@ This chapter is concerned with a theoretical overview and a technical descriptio
 
 These ideas, which have been outlined throughout the previous chapter, are not the standard dogma of computational linguistics, which generally, and understandably, has modelled concepts as modular, portable entities, language as a likewise stable system of representations and rules, and the relationship between the two as one of source and contingent data.  This structure-oriented approach to language and mind epitomises a project that \cite{Dreyfus2012} has described as ``finding the features, rules, and representations needed for turning rationalist philosophy into a research program,'' (p. 89).  As computer science and philosophy of mind increasingly interact at the vertex of cognitive modelling, culturally relative ideas about the connection between mental representations and linguistic symbols become incorporated into the very architecture of data structures, engendering a positive feedback loop by which the outputs of symbol manipulating information processing systems reinforce the premise that representations are stable entities which can be trafficked in the form of words according to the rules of a grammar.
 
+I present the method outlined and tested in this thesis as an alternative to the foundationalist trend in computer science in general, and in computational linguistics in particular \citep[see][for a robust criticism of the idea that concepts are stable]{Rorty1979}.  This project involves trading the computationally and mathematically alluring appeal of dimension reduction techniques, which have been prevalent in distributional semantic approaches, for a theoretically robust notion of situational context selection.
+
 I have no pretensions of instigating a paradigm shift in computer science: I do not claim that the methodology I will now describe represents a radical departure from the prevailing and highly productive approach to the computational modelling of language or knowledge.  It is, rather, an attempt to build some consideration of the idea that minds are not populated by representations and that words are not static containers of meaning into using the existing computational paradigm.  With this in mind, my model is predicated upon three interrelated desiderata, derived generally rather than in a one-for-one way from the points enumerated above:
 
 \begin{enumerate}
-\item The model should be dynamically sensitive to context;
-\item The model should function in a way that is transparent and operationally interpretable;
-\item The model should be situate words in spaces which are likewise geometrically interpretable.
+\item The method should be dynamically sensitive to context;
+\item The method should function in a way that is transparent and operationally interpretable;
+\item The method should be situate words in spaces which are likewise geometrically interpretable.
 \end{enumerate}
 
-In the following three sections, each of these requirements will in turn be analysed in the context of the underlying theoretical context.  This analysis is performed with an eye towards the immediate project of designing a statistical model for mapping word-vectors to concepts, and each element of the profile of desirable properties will be explored with this in mind.  Then finally, in a fourth section, the fundamental implementation of the model will be described in technical detail.
+The first stipulation 
+
+This last criterion in particular will lend the method one of its most powerful characteristics: by contextually selecting subspaces in which a variety of geometric relationships between word-vectors and more general features of the space can be analysed, we can hope to discover a single general way of representing a variety of semantic phenomena in a particular geometric situation.
+
+In the following three sections, each of these requirements will in turn be analysed in the context of the underlying theoretical context.  This analysis is performed with an eye towards the immediate project of designing a statistical model for mapping word-vectors to concepts by way of semantic geometry, and each element of the profile of desirable properties will be explored with this in mind.
 
 \section{Dynamic Context Sensitivity}
 At the heart of the technical work described in this thesis is an insight which is broadly accepted by theoretical linguists and philosophers of language: word meaning is always contextually specified.  This wisdom is built into the foundations of both formal semantics \citep{Montague1974} and pragmatics \citep{Grice1975}, and is likewise taken into account in contemporary context-free approaches to syntax \cite{Chomsky1986}.  As evident from the implementations of conceptual models surveyed in the previous chapter, however, the computational approach has generally relied on the idea that concepts can, at some level of composition, be cast as essentially static representations.  The tendency to treat concepts as self-contained ontological entities consisting of properties that are wholly or partly transferable is built into the fabric of the formal languages used to program computers, and indeed into the mechanisms of modular data processing systems with specific compartments for the storage and processing of data.\footnote{It is perhaps not a coincidence that \cite{VonNeumann} was a seminal figure in the description of both the logic of lattice theory that has motivated more recent developments in concept modelling such as formal concept analysis \citep{Wille} and the modular architecture of memory and processing components that defined computers in the period before the advent of highly parallel processing.}
@@ -131,7 +141,7 @@ So the proper framework for describing the model to be examined in this thesis i
     \emph{sopranos} \\
     \emph{funk}
   \end{tabular}};
-  \node[minimum size=2cm](two2) [below of=all] {\begin{tabular}{c}
+  \node[minimum size=2cm](two2) [below of=join] {\begin{tabular}{c}
     \emph{cantata} \\
     \emph{funk}
   \end{tabular}};
@@ -271,7 +281,7 @@ The critical event in the
 
 Here, following the example of almost all distributional semantic work, co-occurrence between a word $w$ and another word $c$ will be considered in terms of the number of other words between $w$ and $c$.  In the case of my model, again in accord with the a great deal of work within the field, a statistic for word $w$ in terms of its co-occurrence with $c$ will be derived from the consideration of all the times that $c$ is observed within $k$ words of $w$, where $k$ is one of the primary model parameters that will be considered in the experiments reported in later chapters of this thesis.  Based on these co-occurrence events, a matrix $M$ is defined, where rows consist of word-vectors, one for each of the 200,000 words in the vocabulary, and columns correspond to terms with which these vocabulary words co-occur.  These column-wise co-occurrence dimensions include the words in the vocabulary, including the possible co-occurrence of a word with itself (``a \emph{rose} is a \emph{rose} is a \emph{rose}'', for instance) as well as many, many words that are not in the vocabulary, to the extent that every word type in the corpus is considered as a dimension of co-occurrence.
 
-In this last respect, my model diverges from the typical approach, which usually seeks to limit not only the vocabulary but also the dimensionality of the underlying co-occurrence matrix.  This has typically involved a curtailing of the number of co-occurrence terms at both ends of the frequency spectrum, based on the assumption that both high frequency so-called function words (the prepositions, conjunctions, and so forth) and low frequency terms such as obscure proper names will muddy a model with either general flattening or highly topical skewing.  In the case of my model, however, these problems are irrelevant, as dimensions will be selected on a case-by-case, context specific basis, and there is no good reason to discard information which may in some possibly unforeseen circumstance prove relevant.  The result is a 200,00 by \approx 7.5 million matrix $M$ where a scalar corresponding to co-occurrences between $w$ and $c$ is defined in terms of this equation:
+In this last respect, my model diverges from the typical approach, which usually seeks to limit not only the vocabulary but also the dimensionality of the underlying co-occurrence matrix.  This has typically involved a curtailing of the number of co-occurrence terms at both ends of the frequency spectrum, based on the assumption that both high frequency so-called function words (the prepositions, conjunctions, and so forth) and low frequency terms such as obscure proper names will muddy a model with either general flattening or highly topical skewing.  In the case of my model, however, these problems are irrelevant, as dimensions will be selected on a case-by-case, context specific basis, and there is no good reason to discard information which may in some possibly unforeseen circumstance prove relevant.  The result is a 200,00 by $\approx$ 7.5 million matrix $M$ where a scalar corresponding to co-occurrences between $w$ and $c$ is defined in terms of this equation:
 
 \begin{equation}\label{eq:MI}
 M_{w,c} = \log_2 \left(\frac{n_{w,c} \times W}{n_w \times \left(n_c + a\right)} + 1\right)
