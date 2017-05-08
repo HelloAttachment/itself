@@ -739,6 +739,29 @@ Rimell, L.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Rorty%
+}{%
+Rorty%
+}{%
+{\protect \APACyear {1979}}%
+}]{%
+Rorty1979}
+\APACinsertmetastar {%
+Rorty1979}%
+\begin{APACrefauthors}%
+Rorty, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1979}.
+\newblock
+\APACrefbtitle {Philosophy and the Mirror of Nature} {Philosophy and the mirror
+  of nature}.
+\newblock
+\APACaddressPublisher{}{Princeton University Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Salton%
 , Wong%
 \BCBL {}\ \BBA {} Yang%

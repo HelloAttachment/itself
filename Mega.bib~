@@ -1,3 +1,18 @@
+@incollection{Casasanto2015,
+author = {Daniel Casasanto and Gary Lupyan},
+title = {All Concepts Are Ad Hoc Concepts},
+booktitle = {The Conceptual Mind: New Directions in the Study of Concepts},
+year = {2015},
+editor = {Eric Margolis and Stephen Laurence},
+publisher = {MIT Press},
+address = {Cambridge, MA},
+}
+@book{Rorty1979,
+author = {Richard Rorty},
+title = {Philosophy and the Mirror of Nature},
+publisher = {Princeton University Press},
+year = {1979},
+}
 @inproceedings{RobertsEA2010,
 author = {Kirk Roberts and Sanda M. Harabagiu},
 title = {UTDMet: Combining WordNet and Corpus Data for Argument Coercion Detection},

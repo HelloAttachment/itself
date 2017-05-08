@@ -6,7 +6,7 @@ The style file: apacite.bst
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: Mega.bib.bib
-Repeated entry---line 655 of file Mega.bib.bib
+Repeated entry---line 660 of file Mega.bib.bib
  : @article{BullinariaEA2012
  :                          ,
 I'm skipping whatever remains of this entry
@@ -17,48 +17,46 @@ Warning--I didn't find a database entry for "Barsalou"
 Warning--I didn't find a database entry for "Carston"
 Warning--I didn't find a database entry for "Jager"
 Warning--I didn't find a database entry for "Derrac"
-Warning--I didn't find a database entry for "Shannon"
-Warning--I didn't find a database entry for "Brown"
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
-You've used 32 entries,
+You've used 33 entries,
             6951 wiz_defined-function locations,
-            1529 strings with 17301 characters,
-and the built_in function-call counts, 63805 in all, are:
-= -- 8383
-> -- 528
-< -- 2685
-+ -- 2665
-- -- 64
-* -- 3725
-:= -- 10626
-add.period$ -- 166
-call.type$ -- 32
-change.case$ -- 564
+            1531 strings with 17373 characters,
+and the built_in function-call counts, 65191 in all, are:
+= -- 8558
+> -- 538
+< -- 2740
++ -- 2712
+- -- 66
+* -- 3796
+:= -- 10860
+add.period$ -- 170
+call.type$ -- 33
+change.case$ -- 581
 chr.to.int$ -- 0
-cite$ -- 64
-duplicate$ -- 1635
-empty$ -- 2596
-format.name$ -- 764
-if$ -- 12739
+cite$ -- 66
+duplicate$ -- 1672
+empty$ -- 2666
+format.name$ -- 778
+if$ -- 13027
 int.to.chr$ -- 0
-int.to.str$ -- 96
+int.to.str$ -- 99
 missing$ -- 0
-newline$ -- 827
-num.names$ -- 266
-pop$ -- 1430
+newline$ -- 849
+num.names$ -- 274
+pop$ -- 1475
 preamble$ -- 1
-purify$ -- 130
+purify$ -- 134
 quote$ -- 0
-skip$ -- 4567
+skip$ -- 4664
 stack$ -- 0
-substring$ -- 3058
-swap$ -- 991
-text.length$ -- 147
+substring$ -- 3110
+swap$ -- 1008
+text.length$ -- 149
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 3776
+type$ -- 3856
 warning$ -- 0
-while$ -- 280
+while$ -- 285
 width$ -- 0
-write$ -- 999
+write$ -- 1023
 (There was 1 error message)

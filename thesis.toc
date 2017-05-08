@@ -1,12 +1,7 @@
 \contentsline {chapter}{Abstract}{i}
 \contentsline {chapter}{Table of Contents}{1}
-\contentsline {chapter}{\numberline {1}A Model for Constructing Concepts on the Fly}{2}
-\contentsline {section}{\numberline {1.1}Dynamic Context Sensitivity}{4}
-\contentsline {section}{\numberline {1.2}Literal Dimensions of Co-Occurrence}{7}
-\contentsline {section}{\numberline {1.3}Interpretable Geometry}{11}
-\contentsline {section}{\numberline {1.4}A Computational Process}{16}
-\contentsline {subsection}{\numberline {1.4.1}A Large Scale Textual Corpus}{16}
-\contentsline {subsection}{\numberline {1.4.2}Mutual Information of Word Co-Occurrences}{17}
-\contentsline {subsection}{\numberline {1.4.3}Dimensional Selection Techniques}{20}
-\contentsline {subsection}{\numberline {1.4.4}Extracting Semantics from Geometric Features}{20}
-\contentsline {section}{References}{21}
+\contentsline {chapter}{\numberline {1}Semantics on the Fly}{2}
+\contentsline {section}{\numberline {1.1}Dynamic Context Sensitivity}{6}
+\contentsline {section}{\numberline {1.2}Literal Dimensions of Co-Occurrence}{8}
+\contentsline {section}{\numberline {1.3}Interpretable Geometry}{13}
+\contentsline {section}{References}{19}

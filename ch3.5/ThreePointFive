@@ -1,4 +1,4 @@
-\chapter{A Computational Implementation of Context Sensitive Distributional Semantics}
+\chapter{A Computational Implementation of Context Sensitive Distributional Semantics} \label{chap:method}
 In the previous chapter, I laid the theoretical groundwork for a distributional semantic methodology for dynamically establishing perspectives on statistical data about language use.  In this chapter, I'll describe the technical details for building a computational implementation of such a methodology.
 
 \section{Establishing and Analysing a Large Scale Textual Corpus}
