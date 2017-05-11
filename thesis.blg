@@ -2,61 +2,60 @@ This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: cover.aux
 A level-1 auxiliary file: ch3/Three.aux
-The style file: apacite.bst
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+The style file: apa.bst
 Database file #1: Mega.bib.bib
-Repeated entry---line 660 of file Mega.bib.bib
+Repeated entry---line 359 of file Mega.bib.bib
+ : @incollection{Barsalou1993
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 685 of file Mega.bib.bib
  : @article{BullinariaEA2012
  :                          ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Dreyfus2012"
-Warning--I didn't find a database entry for "VonNeumann"
-Warning--I didn't find a database entry for "Wille"
-Warning--I didn't find a database entry for "Barsalou"
-Warning--I didn't find a database entry for "Carston"
 Warning--I didn't find a database entry for "Jager"
-Warning--I didn't find a database entry for "Derrac"
-apacite.bst [2013/07/21 v6.03 APA bibliography style]
-You've used 33 entries,
-            6951 wiz_defined-function locations,
-            1531 strings with 17373 characters,
-and the built_in function-call counts, 65191 in all, are:
-= -- 8558
-> -- 538
-< -- 2740
-+ -- 2712
-- -- 66
-* -- 3796
-:= -- 10860
-add.period$ -- 170
-call.type$ -- 33
-change.case$ -- 581
-chr.to.int$ -- 0
-cite$ -- 66
-duplicate$ -- 1672
-empty$ -- 2666
-format.name$ -- 778
-if$ -- 13027
-int.to.chr$ -- 0
-int.to.str$ -- 99
-missing$ -- 0
-newline$ -- 849
-num.names$ -- 274
-pop$ -- 1475
+Warning--can't use both volume and number fields in Carston2010
+Warning--empty institution in VonNeumann1945
+Warning--empty publisher in Wille2005
+You've used 37 entries,
+            1940 wiz_defined-function locations,
+            741 strings with 10398 characters,
+and the built_in function-call counts, 15309 in all, are:
+= -- 1512
+> -- 469
+< -- 46
++ -- 162
+- -- 145
+* -- 1187
+:= -- 2495
+add.period$ -- 116
+call.type$ -- 37
+change.case$ -- 245
+chr.to.int$ -- 36
+cite$ -- 40
+duplicate$ -- 712
+empty$ -- 1206
+format.name$ -- 206
+if$ -- 3177
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 44
+newline$ -- 187
+num.names$ -- 121
+pop$ -- 294
 preamble$ -- 1
-purify$ -- 134
+purify$ -- 252
 quote$ -- 0
-skip$ -- 4664
+skip$ -- 523
 stack$ -- 0
-substring$ -- 3110
-swap$ -- 1008
-text.length$ -- 149
+substring$ -- 1057
+swap$ -- 194
+text.length$ -- 16
 text.prefix$ -- 0
-top$ -- 1
-type$ -- 3856
-warning$ -- 0
-while$ -- 285
+top$ -- 0
+type$ -- 206
+warning$ -- 3
+while$ -- 131
 width$ -- 0
-write$ -- 1023
-(There was 1 error message)
+write$ -- 487
+(There were 2 error messages)

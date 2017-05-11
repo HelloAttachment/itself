@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2017.4.26)  6 MAY 2017 18:52
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2017.4.26)  11 MAY 2017 23:53
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -54,6 +54,9 @@ LaTeX Info: Redefining \cite on input line 694.
 )
 LaTeX Info: Redefining \BBA on input line 20.
 
+(/usr/share/texmf-texlive/tex/latex/ltxmisc/hypernat.sty
+Package: hypernat 2001/07/09 v1.0b hyperref and natbib compatibility (jb)
+)
 (/usr/share/texmf-texlive/tex/latex/appendix/appendix.sty
 Package: appendix 2009/09/02 v1.2b extra appendix facilities
 \c@@pps=\count90
@@ -641,14 +644,6 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 
  (./ch3/Three.tex
 Chapter 1.
-
-Package natbib Warning: Citation `Casasanto2015' on page 2 undefined on input l
-ine 2.
-
-
-Package natbib Warning: Citation `Evans2009' on page 2 undefined on input line 
-2.
-
 [2
 
 
@@ -673,32 +668,9 @@ LaTeX Warning: Reference `chap:figurative' on page 4 undefined on input line 22
 
 LaTeX Warning: Reference `chap:method' on page 5 undefined on input line 24.
 
-
-Package natbib Warning: Citation `VonNeumann' on page 5 undefined on input line
- 29.
-
-
-Package natbib Warning: Citation `Wille' on page 5 undefined on input line 29.
-
 [5] [6]
-
-Package natbib Warning: Citation `Barsalou' on page 7 undefined on input line 3
-3.
-
-
-Package natbib Warning: Citation `Barsalou' on page 7 undefined on input line 3
-3.
-
-
-Package natbib Warning: Citation `Carston' on page 7 undefined on input line 33
-.
-
-
-Package natbib Warning: Citation `Carston' on page 7 undefined on input line 33
-.
-
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 96.
-(/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
+ (/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
@@ -715,84 +687,17 @@ Overfull \hbox (2.43332pt too wide) in paragraph at lines 36--115
 
 [7] [8] [9] [10] [11] [12] [13]
 
-Package natbib Warning: Citation `Jager' on page 14 undefined on input line 188
+Package natbib Warning: Citation `Jager' on page 14 undefined on input line 190
 .
 
 [14]
-
-Package natbib Warning: Citation `Derrac' on page 15 undefined on input line 19
-2.
-
-
-Overfull \hbox (2.43332pt too wide) in paragraph at lines 195--247
+Overfull \hbox (2.43332pt too wide) in paragraph at lines 197--249
 [][] [] 
  []
 
-[15] [16]) [17] [18] (./thesis.bbl
-Overfull \hbox (31.28079pt too wide) in paragraph at lines 255--273
-\OT1/cmr/m/it/10.95 ing \OT1/cmr/m/n/10.95 (pp.[] 897--906).  Retrieved from \O
-T1/cmtt/m/n/10.95 http://dl.acm.org/citation.cfm?id=1613715.1613831
- []
+[15] [16] [17]) [18] (./thesis.bbl [19
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 255--273
-
- []
-
-[19
-
-]
-Overfull \hbox (6.74405pt too wide) in paragraph at lines 363--383
-\OT1/cmr/m/it/10.95 lin-guis-tics \OT1/cmr/m/n/10.95 (pp.[] 107--114).  Retriev
-ed from \OT1/cmtt/m/n/10.95 https://doi.org/10.3115/1219840.1219854
- []
-
-
-Overfull \hbox (68.73358pt too wide) in paragraph at lines 452--472
-\OT1/cmr/m/it/10.95 osaka, japan \OT1/cmr/m/n/10.95 (pp.[] 2849--2860).  Retrie
-ved from \OT1/cmtt/m/n/10.95 http://aclweb.org/anthology/C/C16/C16-1268.pdf
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 452--472
-
- []
-
-
-Overfull \hbox (95.54446pt too wide) in paragraph at lines 578--600
-\OT1/cmr/m/n/10.95 Asso-ci-a-tion for Com-pu-ta-tional Lin-guis-tics.  Retrieve
-d from \OT1/cmtt/m/n/10.95 http://www.aclweb.org/anthology/W13-2608
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 578--600
-
- []
-
-[20]
-Overfull \hbox (260.36899pt too wide) in paragraph at lines 637--658
-\OT1/cmr/m/n/10.95 Asso-ciates, Inc.  Retrieved from \OT1/cmtt/m/n/10.95 http:/
-/papers.nips.cc/paper/5477-neural-word-embedding-as-implicit-matrix-factorizati
-on.pdf
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 637--658
-
- []
-
-[21]
-Overfull \hbox (14.39732pt too wide) in paragraph at lines 933--947
-\OT1/cmr/m/n/10.95 cept hier-ar-chies.  In (pp.[] 1--33).  Retrieved from \OT1/
-cmtt/m/n/10.95 http://dx.doi.org/10.1007/11528784[]1
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 933--947
-
- []
-
-)
+] [20] [21])
 
 Package natbib Warning: There were undefined citations.
 
@@ -800,34 +705,30 @@ Package natbib Warning: There were undefined citations.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 16709 strings out of 493848
- 348983 string characters out of 1152823
- 418221 words of memory out of 3000000
- 19604 multiletter control sequences out of 15000+50000
- 16350 words of font info for 63 fonts, out of 3000000 for 9000
+ 16687 strings out of 493848
+ 348640 string characters out of 1152823
+ 418394 words of memory out of 3000000
+ 19581 multiletter control sequences out of 15000+50000
+ 15874 words of font info for 61 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  56i,10n,70p,1880b,805s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
 re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-te
-xlive/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texmf-texlive/fonts/
-type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-texlive/fonts/type1/publ
-ic/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts
-/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pf
-b></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/shar
-e/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-texli
-ve/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type
-1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsf
-onts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmt
-i10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti9.pfb></us
-r/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on thesis.pdf (24 pages, 257816 bytes).
+xlive/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-texlive/font
+s/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/pub
+lic/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts
+/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pf
+b></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share
+/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texliv
+e/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-texlive/fonts/type1
+/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/ams
+fonts/cm/cmti10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cm
+ti9.pfb>
+Output written on thesis.pdf (24 pages, 236748 bytes).
 PDF statistics:
- 142 PDF objects out of 1000 (max. 8388607)
+ 134 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,948 +1,223 @@
 \begin{thebibliography}{}
 
-\bibitem [\protect \citeauthoryear {%
-Baroni%
-, Bernardi%
-\BCBL {}\ \BBA {} Zamparelli%
-}{%
-Baroni%
-, Bernardi%
-\BCBL {}\ \BBA {} Zamparelli%
-}{%
-{\protect \APACyear {2014}}%
-}]{%
-BaroniEA2014b}
-\APACinsertmetastar {%
-BaroniEA2014b}%
-\begin{APACrefauthors}%
-Baroni, M.%
-, Bernardi, R.%
-\BCBL {}\ \BBA {} Zamparelli, R.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2014}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Frege in space: A program for compositional
-  distributional semantics} {Frege in space: A program for compositional
-  distributional semantics}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Linguistic Issues in Language
-  Technology}{9}{}{241--346}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[\protect\astroncite{Baroni et~al.}{2014a}]{BaroniEA2014b}
+Baroni, M., Bernardi, R., and Zamparelli, R. (2014a).
+\newblock Frege in space: A program for compositional distributional semantics.
+\newblock {\em Linguistic Issues in Language Technology}, 9:241--346.
 
-\bibitem [\protect \citeauthoryear {%
-Baroni%
-, Dinu%
-\BCBL {}\ \BBA {} Kruszewski%
-}{%
-Baroni%
-, Dinu%
-\BCBL {}\ \BBA {} Kruszewski%
-}{%
-{\protect \APACyear {2014}}%
-}]{%
-BaroniEA2014}
-\APACinsertmetastar {%
-BaroniEA2014}%
-\begin{APACrefauthors}%
-Baroni, M.%
-, Dinu, G.%
-\BCBL {}\ \BBA {} Kruszewski, G.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2014}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Don't Count, Predict!} {Don't count, predict!}{\BBCQ}
-\newblock
-\BIn{} \APACrefbtitle {ACL 2014.} {Acl 2014.}
-\PrintBackRefs{\CurrentBib}
+\bibitem[\protect\astroncite{Baroni et~al.}{2014b}]{BaroniEA2014}
+Baroni, M., Dinu, G., and Kruszewski, G. (2014b).
+\newblock Don't count, predict!
+\newblock In {\em ACL 2014}.
 
-\bibitem [\protect \citeauthoryear {%
-Bengio%
-, Ducharme%
-, Vincent%
-\BCBL {}\ \BBA {} Jauvin%
-}{%
-Bengio%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2003}}%
-}]{%
-BengioEA2003}
-\APACinsertmetastar {%
-BengioEA2003}%
-\begin{APACrefauthors}%
-Bengio, Y.%
-, Ducharme, R.%
-, Vincent, P.%
-\BCBL {}\ \BBA {} Jauvin, C.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2003}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {A Neural Probabilistic Language Model} {A neural
-  probabilistic language model}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Journal of Machine Learning Research}{3}{}{1137-1155}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[\protect\astroncite{Barsalou}{1993}]{Barsalou1993}
+Barsalou, L.~W. (1993).
+\newblock {\em Theories of Memory}, chapter Flexibility, Structure, and
+  Linguistic Vagary in Concepts: Manifestations of a Compositional System of
+  Perceptual Symbols.
+\newblock Lawrence Erlbaum Associates, Hove.
 
-\bibitem [\protect \citeauthoryear {%
-Bullinaria%
-\ \BBA {} Levy%
-}{%
-Bullinaria%
-\ \BBA {} Levy%
-}{%
-{\protect \APACyear {2012}}%
-}]{%
-BullinariaEA2012}
-\APACinsertmetastar {%
-BullinariaEA2012}%
-\begin{APACrefauthors}%
-Bullinaria, J\BPBI A.%
-\BCBT {}\ \BBA {} Levy, J\BPBI P.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2012}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Extracting semantic representations from word
-  co-occurrence statistics: stop-lists, stemming, and SVD} {Extracting semantic
-  representations from word co-occurrence statistics: stop-lists, stemming, and
-  svd}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Behavior Research Methods}{44}{3}{890--907}.
-\newblock
-\begin{APACrefURL} \url{http://dx.doi.org/10.3758/s13428-011-0183-8}
-  \end{APACrefURL}
-\newblock
-\begin{APACrefDOI} \doi{10.3758/s13428-011-0183-8} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
+\bibitem[\protect\astroncite{Bengio et~al.}{2003}]{BengioEA2003}
+Bengio, Y., Ducharme, R., Vincent, P., and Jauvin, C. (2003).
+\newblock A neural probabilistic language model.
+\newblock {\em Journal of Machine Learning Research}, 3:1137--1155.
 
-\bibitem [\protect \citeauthoryear {%
-Chomsky%
-}{%
-Chomsky%
-}{%
-{\protect \APACyear {1986}}%
-}]{%
-Chomsky1986}
-\APACinsertmetastar {%
-Chomsky1986}%
-\begin{APACrefauthors}%
-Chomsky, N.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{1986}.
-\newblock
-\APACrefbtitle {Knowledge of Language: Its Nature, Origins, and Use} {Knowledge
-  of language: Its nature, origins, and use}.
-\newblock
-\APACaddressPublisher{New York, NY}{Praeger}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[\protect\astroncite{Birkhoff}{1958}]{Birkhoff1958}
+Birkhoff, G. (1958).
+\newblock Von neumann and lattice theory.
+\newblock {\em Bulletin of the American Mathematical Society}, 64:50--56.
 
-\bibitem [\protect \citeauthoryear {%
-Collobert%
-\ \BBA {} Weston%
-}{%
-Collobert%
-\ \BBA {} Weston%
-}{%
-{\protect \APACyear {2008}}%
-}]{%
-CollobertEA2008}
-\APACinsertmetastar {%
-CollobertEA2008}%
-\begin{APACrefauthors}%
-Collobert, R.%
-\BCBT {}\ \BBA {} Weston, J.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2008}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {A Unified Architecture for Natural Language Processing:
-  Deep Neural Networks with Multitask Learning} {A unified architecture for
-  natural language processing: Deep neural networks with multitask
-  learning}.{\BBCQ}
-\newblock
-\BIn{} \APACrefbtitle {Proceedings of the 25th International Conference on
-  Machine Learning.} {Proceedings of the 25th international conference on
-  machine learning.}
-\PrintBackRefs{\CurrentBib}
+\bibitem[\protect\astroncite{Bullinaria and Levy}{2012}]{BullinariaEA2012}
+Bullinaria, J.~A. and Levy, J.~P. (2012).
+\newblock Extracting semantic representations from word co-occurrence
+  statistics: stop-lists, stemming, and svd.
+\newblock {\em Behavior Research Methods}, 44(3):890--907.
 
-\bibitem [\protect \citeauthoryear {%
-Deerwester%
-, Dumais%
-, Furnas%
-, Landauer%
-\BCBL {}\ \BBA {} Harshman%
-}{%
-Deerwester%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {1990}}%
-}]{%
-DeerwesterEA1990}
-\APACinsertmetastar {%
-DeerwesterEA1990}%
-\begin{APACrefauthors}%
-Deerwester, S.%
-, Dumais, S\BPBI T.%
-, Furnas, G\BPBI W.%
-, Landauer, T\BPBI K.%
-\BCBL {}\ \BBA {} Harshman, R.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1990}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Indexing by Latent Semantic Analysis} {Indexing by
-  latent semantic analysis}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Journal for the American Society for Information
-  Science}{41}{6}{391-407}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[\protect\astroncite{Carston}{2010}]{Carston2010}
+Carston, R. (2010).
+\newblock Metaphor: Ad hoc concepts, literal meaning and mental images.
+\newblock In {\em Proceedings of the Aristotelian Society}, volume~CX, pages
+  297--323.
 
-\bibitem [\protect \citeauthoryear {%
-Derrac%
-\ \BBA {} Schockaert%
-}{%
-Derrac%
-\ \BBA {} Schockaert%
-}{%
-{\protect \APACyear {2015}}%
-}]{%
-DerracEA2015}
-\APACinsertmetastar {%
-DerracEA2015}%
-\begin{APACrefauthors}%
-Derrac, J.%
-\BCBT {}\ \BBA {} Schockaert, S.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2015}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Inducing semantic relations from conceptual spaces: {A}
-  data-driven approach to plausible reasoning} {Inducing semantic relations
-  from conceptual spaces: {A} data-driven approach to plausible
-  reasoning}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Artificial Intelligence}{228}{}{66--94}.
-\newblock
-\begin{APACrefURL} \url{http://dx.doi.org/10.1016/j.artint.2015.07.002}
-  \end{APACrefURL}
-\newblock
-\begin{APACrefDOI} \doi{10.1016/j.artint.2015.07.002} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
+\bibitem[\protect\astroncite{Casasanto and Lupyan}{2015}]{Casasanto2015}
+Casasanto, D. and Lupyan, G. (2015).
+\newblock All concepts are ad hoc concepts.
+\newblock In Margolis, E. and Laurence, S., editors, {\em The Conceptual Mind:
+  New Directions in the Study of Concepts}. MIT Press, Cambridge, MA.
 
-\bibitem [\protect \citeauthoryear {%
-Erk%
-\ \BBA {} Pad\'{o}%
-}{%
-Erk%
-\ \BBA {} Pad\'{o}%
-}{%
-{\protect \APACyear {2008}}%
-}]{%
-ErkEA2008}
-\APACinsertmetastar {%
-ErkEA2008}%
-\begin{APACrefauthors}%
-Erk, K.%
-\BCBT {}\ \BBA {} Pad\'{o}, S.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2008}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {A Structured Vector Space Model for Word Meaning in
-  Context} {A structured vector space model for word meaning in
-  context}.{\BBCQ}
-\newblock
-\BIn{} \APACrefbtitle {Proceedings of the Conference on Empirical Methods in
-  Natural Language Processing} {Proceedings of the conference on empirical
-  methods in natural language processing}\ (\BPGS\ 897--906).
-\newblock
-\begin{APACrefURL} \url{http://dl.acm.org/citation.cfm?id=1613715.1613831}
-  \end{APACrefURL}
-\PrintBackRefs{\CurrentBib}
+\bibitem[\protect\astroncite{Chomsky}{1986}]{Chomsky1986}
+Chomsky, N. (1986).
+\newblock {\em Knowledge of Language: Its Nature, Origins, and Use}.
+\newblock Praeger, New York, NY.
 
-\bibitem [\protect \citeauthoryear {%
-Erk%
-\ \BBA {} Pad\'{o}%
-}{%
-Erk%
-\ \BBA {} Pad\'{o}%
-}{%
-{\protect \APACyear {2010}}%
-}]{%
-ErkEA2010}
-\APACinsertmetastar {%
-ErkEA2010}%
-\begin{APACrefauthors}%
-Erk, K.%
-\BCBT {}\ \BBA {} Pad\'{o}, S.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2010}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Exemplar-based Models for Word Meaning in Context}
-  {Exemplar-based models for word meaning in context}.{\BBCQ}
-\newblock
-\BIn{} \APACrefbtitle {Proceedings of the ACL 2010 Conference Short Papers}
-  {Proceedings of the acl 2010 conference short papers}\ (\BPGS\ 92--97).
-\newblock
-\begin{APACrefURL} \url{http://dl.acm.org/citation.cfm?id=1858842.1858859}
-  \end{APACrefURL}
-\PrintBackRefs{\CurrentBib}
+\bibitem[\protect\astroncite{Collobert and Weston}{2008}]{CollobertEA2008}
+Collobert, R. and Weston, J. (2008).
+\newblock A unified architecture for natural language processing: Deep neural
+  networks with multitask learning.
+\newblock In {\em Proceedings of the 25th International Conference on Machine
+  Learning}.
 
-\bibitem [\protect \citeauthoryear {%
-G{\"a}rdenfors%
-}{%
-G{\"a}rdenfors%
-}{%
-{\protect \APACyear {2000}}%
-}]{%
-Gardenfors2000}
-\APACinsertmetastar {%
-Gardenfors2000}%
-\begin{APACrefauthors}%
-G{\"a}rdenfors, P.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{2000}.
-\newblock
-\APACrefbtitle {Conceptual Space: The Geometry of Thought} {Conceptual space:
-  The geometry of thought}.
-\newblock
-\APACaddressPublisher{Cambridge, MA}{The MIT Press}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[\protect\astroncite{Deerwester et~al.}{1990}]{DeerwesterEA1990}
+Deerwester, S., Dumais, S.~T., Furnas, G.~W., Landauer, T.~K., and Harshman, R.
+  (1990).
+\newblock Indexing by latent semantic analysis.
+\newblock {\em Journal for the American Society for Information Science},
+  41(6):391--407.
 
-\bibitem [\protect \citeauthoryear {%
-G{\"a}rdenfors%
-}{%
-G{\"a}rdenfors%
-}{%
-{\protect \APACyear {2014}}%
-}]{%
-Gardenfors2014}
-\APACinsertmetastar {%
-Gardenfors2014}%
-\begin{APACrefauthors}%
-G{\"a}rdenfors, P.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{2014}.
-\newblock
-\APACrefbtitle {The Geometry of Meaning: Semantics Based on Conceptual Spaces}
-  {The geometry of meaning: Semantics based on conceptual spaces}.
-\newblock
-\APACaddressPublisher{}{The MIT Press}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[\protect\astroncite{Derrac and Schockaert}{2015}]{DerracEA2015}
+Derrac, J. and Schockaert, S. (2015).
+\newblock Inducing semantic relations from conceptual spaces: {A} data-driven
+  approach to plausible reasoning.
+\newblock {\em Artificial Intelligence}, 228:66--94.
 
-\bibitem [\protect \citeauthoryear {%
-Geffet%
-\ \BBA {} Dagan%
-}{%
-Geffet%
-\ \BBA {} Dagan%
-}{%
-{\protect \APACyear {2005}}%
-}]{%
-GeffetEA2005}
-\APACinsertmetastar {%
-GeffetEA2005}%
-\begin{APACrefauthors}%
-Geffet, M.%
-\BCBT {}\ \BBA {} Dagan, I.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2005}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {The Distributional Inclusion Hypotheses and Lexical
-  Entailment} {The distributional inclusion hypotheses and lexical
-  entailment}.{\BBCQ}
-\newblock
-\BIn{} \APACrefbtitle {Proceedings of the 43rd Annual Meeting on Association
-  for Computational Linguistics} {Proceedings of the 43rd annual meeting on
-  association for computational linguistics}\ (\BPGS\ 107--114).
-\newblock
-\begin{APACrefURL} \url{https://doi.org/10.3115/1219840.1219854}
-  \end{APACrefURL}
-\newblock
-\begin{APACrefDOI} \doi{10.3115/1219840.1219854} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
+\bibitem[\protect\astroncite{Erk and Pad\'{o}}{2008}]{ErkEA2008}
+Erk, K. and Pad\'{o}, S. (2008).
+\newblock A structured vector space model for word meaning in context.
+\newblock In {\em Proceedings of the Conference on Empirical Methods in Natural
+  Language Processing}, EMNLP '08, pages 897--906.
 
-\bibitem [\protect \citeauthoryear {%
-Grice%
-}{%
-Grice%
-}{%
-{\protect \APACyear {1975}}%
-}]{%
-Grice1975}
-\APACinsertmetastar {%
-Grice1975}%
-\begin{APACrefauthors}%
-Grice, H\BPBI P.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1975}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Logic and Conversation} {Logic and conversation}.{\BBCQ}
-\newblock
-\BIn{} P.~Cole\ \BBA {} J\BPBI L.~Morgan\ (\BEDS), \APACrefbtitle {Syntax and
-  Semantics Volume 3: Speech Acts} {Syntax and semantics volume 3: Speech
-  acts}\ (\BPGS\ 41--58).
-\newblock
-\APACaddressPublisher{New York}{Academic Press}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[\protect\astroncite{Erk and Pad\'{o}}{2010}]{ErkEA2010}
+Erk, K. and Pad\'{o}, S. (2010).
+\newblock Exemplar-based models for word meaning in context.
+\newblock In {\em Proceedings of the ACL 2010 Conference Short Papers}, pages
+  92--97.
 
-\bibitem [\protect \citeauthoryear {%
-Kalchbrenner%
-, Grefenstette%
-\BCBL {}\ \BBA {} Blunsom%
-}{%
-Kalchbrenner%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2014}}%
-}]{%
-KalchbrennerEA2014}
-\APACinsertmetastar {%
-KalchbrennerEA2014}%
-\begin{APACrefauthors}%
-Kalchbrenner, N.%
-, Grefenstette, E.%
-\BCBL {}\ \BBA {} Blunsom, P.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2014}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {A Convolutional Neural Network for Modelling Sentences}
-  {A convolutional neural network for modelling sentences}.{\BBCQ}
-\newblock
-\BIn{} \APACrefbtitle {Proceedings of the 52nd Annual Meeting of the
-  Association for Computational Linguistics.} {Proceedings of the 52nd annual
-  meeting of the association for computational linguistics.}
-\PrintBackRefs{\CurrentBib}
+\bibitem[\protect\astroncite{Evans}{2009}]{Evans2009}
+Evans, V. (2009).
+\newblock {\em How Words Mean: Lexical Concepts, Cognitive Models, and Meaning
+  Construction}.
+\newblock Oxford University Press.
 
-\bibitem [\protect \citeauthoryear {%
-Kartsaklis%
-\ \BBA {} Sadrzadeh%
-}{%
-Kartsaklis%
-\ \BBA {} Sadrzadeh%
-}{%
-{\protect \APACyear {2016}}%
-}]{%
-KartsaklisEA2016}
-\APACinsertmetastar {%
-KartsaklisEA2016}%
-\begin{APACrefauthors}%
-Kartsaklis, D.%
-\BCBT {}\ \BBA {} Sadrzadeh, M.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2016}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Distributional Inclusion Hypothesis for Tensor-based
-  Composition} {Distributional inclusion hypothesis for tensor-based
-  composition}.{\BBCQ}
-\newblock
-\BIn{} \APACrefbtitle {{COLING} 2016, 26th International Conference on
-  Computational Linguistics, Proceedings of the Conference: Technical Papers,
-  December 11-16, 2016, Osaka, Japan} {{COLING} 2016, 26th international
-  conference on computational linguistics, proceedings of the conference:
-  Technical papers, december 11-16, 2016, osaka, japan}\ (\BPGS\ 2849--2860).
-\newblock
-\begin{APACrefURL} \url{http://aclweb.org/anthology/C/C16/C16-1268.pdf}
-  \end{APACrefURL}
-\PrintBackRefs{\CurrentBib}
+\bibitem[\protect\astroncite{G{\"a}rdenfors}{2000}]{Gardenfors2000}
+G{\"a}rdenfors, P. (2000).
+\newblock {\em Conceptual Space: The Geometry of Thought}.
+\newblock The MIT Press, Cambridge, MA.
 
-\bibitem [\protect \citeauthoryear {%
-Kay%
-\ \BBA {} Maffi%
-}{%
-Kay%
-\ \BBA {} Maffi%
-}{%
-{\protect \APACyear {1999}}%
-}]{%
-KayEA1999}
-\APACinsertmetastar {%
-KayEA1999}%
-\begin{APACrefauthors}%
-Kay, P.%
-\BCBT {}\ \BBA {} Maffi, L.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1999}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Color Appearances and the Emergence and Evolution of
-  Basic Color Lexicons} {Color appearances and the emergence and evolution of
-  basic color lexicons}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{American Anthropologist}{101}{4}{743-760}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[\protect\astroncite{G{\"a}rdenfors}{2014}]{Gardenfors2014}
+G{\"a}rdenfors, P. (2014).
+\newblock {\em The Geometry of Meaning: Semantics Based on Conceptual Spaces}.
+\newblock The MIT Press.
 
-\bibitem [\protect \citeauthoryear {%
-Kiela%
-\ \BBA {} Clark%
-}{%
-Kiela%
-\ \BBA {} Clark%
-}{%
-{\protect \APACyear {2014}}%
-}]{%
-KielaEA2014}
-\APACinsertmetastar {%
-KielaEA2014}%
-\begin{APACrefauthors}%
-Kiela, D.%
-\BCBT {}\ \BBA {} Clark, S.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2014}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {A Systematic Study of Semantic Vector Space Model
-  Parameters} {A systematic study of semantic vector space model
-  parameters}.{\BBCQ}
-\newblock
-\BIn{} \APACrefbtitle {Proceedings of the 2nd Workshop on Continuous Vector
-  Space Models and their Compositionality (CVSC) @ EACL 2014} {Proceedings of
-  the 2nd workshop on continuous vector space models and their compositionality
-  (cvsc) @ eacl 2014}\ (\BPG~21-30).
-\newblock
-\APACaddressPublisher{Gothenburg}{}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[\protect\astroncite{Geffet and Dagan}{2005}]{GeffetEA2005}
+Geffet, M. and Dagan, I. (2005).
+\newblock The distributional inclusion hypotheses and lexical entailment.
+\newblock In {\em Proceedings of the 43rd Annual Meeting on Association for
+  Computational Linguistics}, pages 107--114.
 
-\bibitem [\protect \citeauthoryear {%
-Landauer%
-, Laham%
-, Rehder%
-\BCBL {}\ \BBA {} Schreiner%
-}{%
-Landauer%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {1997}}%
-}]{%
-LandauerEA1997}
-\APACinsertmetastar {%
-LandauerEA1997}%
-\begin{APACrefauthors}%
-Landauer, T.%
-, Laham, D.%
-, Rehder, B.%
-\BCBL {}\ \BBA {} Schreiner, M\BPBI E.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1997}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {How Well Can Passage Meaning be Derived without Using
-  Word Order? A Comparison of Latent Semantic Analysis and Humans.} {How well
-  can passage meaning be derived without using word order? a comparison of
-  latent semantic analysis and humans.}{\BBCQ}
-\newblock
-\BIn{} \APACrefbtitle {Proceedings of the 19th Annual Conference of the
-  Cognitive Science Society} {Proceedings of the 19th annual conference of the
-  cognitive science society}\ (\BPG~412-417).
-\PrintBackRefs{\CurrentBib}
+\bibitem[\protect\astroncite{Grice}{1975}]{Grice1975}
+Grice, H.~P. (1975).
+\newblock Logic and conversation.
+\newblock In Cole, P. and Morgan, J.~L., editors, {\em Syntax and Semantics
+  Volume 3: Speech Acts}, pages 41--58. Academic Press, New York.
 
-\bibitem [\protect \citeauthoryear {%
-Lapesa%
-\ \BBA {} Evert%
-}{%
-Lapesa%
-\ \BBA {} Evert%
-}{%
-{\protect \APACyear {2013}}%
-}]{%
-LapesaEA2013}
-\APACinsertmetastar {%
-LapesaEA2013}%
-\begin{APACrefauthors}%
-Lapesa, G.%
-\BCBT {}\ \BBA {} Evert, S.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2013}{August}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Evaluating Neighbor Rank and Distance Measures as
-  Predictors of Semantic Priming} {Evaluating neighbor rank and distance
-  measures as predictors of semantic priming}.{\BBCQ}
-\newblock
-\BIn{} \APACrefbtitle {Proceedings of the Fourth Annual Workshop on Cognitive
-  Modeling and Computational Linguistics (CMCL)} {Proceedings of the fourth
-  annual workshop on cognitive modeling and computational linguistics (cmcl)}\
-  (\BPGS\ 66--74).
-\newblock
-\APACaddressPublisher{Sofia, Bulgaria}{Association for Computational
-  Linguistics}.
-\newblock
-\begin{APACrefURL} \url{http://www.aclweb.org/anthology/W13-2608}
-  \end{APACrefURL}
-\PrintBackRefs{\CurrentBib}
+\bibitem[\protect\astroncite{Kalchbrenner et~al.}{2014}]{KalchbrennerEA2014}
+Kalchbrenner, N., Grefenstette, E., and Blunsom, P. (2014).
+\newblock A convolutional neural network for modelling sentences.
+\newblock In {\em Proceedings of the 52nd Annual Meeting of the Association for
+  Computational Linguistics}.
 
-\bibitem [\protect \citeauthoryear {%
-Levinson%
-}{%
-Levinson%
-}{%
-{\protect \APACyear {2001}}%
-}]{%
-Levinson2001}
-\APACinsertmetastar {%
-Levinson2001}%
-\begin{APACrefauthors}%
-Levinson, S\BPBI C.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2001}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Y\'{e}l\^{i} Dnye and the Theory of Basic Color Terms}
-  {Y\'{e}l\^{i} dnye and the theory of basic color terms}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Journal of Linguistic Anthropology}{10}{1}{3-55}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[\protect\astroncite{Kartsaklis and Sadrzadeh}{2016}]{KartsaklisEA2016}
+Kartsaklis, D. and Sadrzadeh, M. (2016).
+\newblock Distributional inclusion hypothesis for tensor-based composition.
+\newblock In {\em {COLING} 2016, 26th International Conference on Computational
+  Linguistics, Proceedings of the Conference: Technical Papers, December 11-16,
+  2016, Osaka, Japan}, pages 2849--2860.
 
-\bibitem [\protect \citeauthoryear {%
-Levy%
-\ \BBA {} Goldberg%
-}{%
-Levy%
-\ \BBA {} Goldberg%
-}{%
-{\protect \APACyear {2014}}%
-}]{%
-LevyEA2014b}
-\APACinsertmetastar {%
-LevyEA2014b}%
-\begin{APACrefauthors}%
-Levy, O.%
-\BCBT {}\ \BBA {} Goldberg, Y.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2014}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Neural Word Embedding as Implicit Matrix Factorization}
-  {Neural word embedding as implicit matrix factorization}.{\BBCQ}
-\newblock
-\BIn{} Z.~Ghahramani, M.~Welling, C.~Cortes, N\BPBI D.~Lawrence\BCBL {}\ \BBA
-  {} K\BPBI Q.~Weinberger\ (\BEDS), \APACrefbtitle {Advances in Neural
-  Information Processing Systems 27} {Advances in neural information processing
-  systems 27}\ (\BPGS\ 2177--2185).
-\newblock
-\APACaddressPublisher{}{Curran Associates, Inc.}
-\newblock
-\begin{APACrefURL}
-  \url{http://papers.nips.cc/paper/5477-neural-word-embedding-as-implicit-matr%
-ix-factorization.pdf} \end{APACrefURL}
-\PrintBackRefs{\CurrentBib}
+\bibitem[\protect\astroncite{Kay and Maffi}{1999}]{KayEA1999}
+Kay, P. and Maffi, L. (1999).
+\newblock Color appearances and the emergence and evolution of basic color
+  lexicons.
+\newblock {\em American Anthropologist}, 101(4):743--760.
 
-\bibitem [\protect \citeauthoryear {%
-Montague%
-}{%
-Montague%
-}{%
-{\protect \APACyear {1974}}%
-}]{%
-Montague1974}
-\APACinsertmetastar {%
-Montague1974}%
-\begin{APACrefauthors}%
-Montague, R.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1974}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {English as a Formal Language} {English as a formal
-  language}.{\BBCQ}
-\newblock
-\BIn{} R\BPBI H.~Thompson\ (\BED), \APACrefbtitle {Formal Philosophy: selected
-  papers of Richard Montague.} {Formal philosophy: selected papers of richard
-  montague.}
-\newblock
-\APACaddressPublisher{New Haven, CT}{Yale University Press}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[\protect\astroncite{Kiela and Clark}{2014}]{KielaEA2014}
+Kiela, D. and Clark, S. (2014).
+\newblock A systematic study of semantic vector space model parameters.
+\newblock In {\em Proceedings of the 2nd Workshop on Continuous Vector Space
+  Models and their Compositionality (CVSC) @ EACL 2014}, pages 21--30,
+  Gothenburg.
 
-\bibitem [\protect \citeauthoryear {%
-Preston%
-\ \BBA {} Bishop%
-}{%
-Preston%
-\ \BBA {} Bishop%
-}{%
-{\protect \APACyear {2002}}%
-}]{%
-PrestonEA2002}
-\APACinsertmetastar {%
-PrestonEA2002}%
-\begin{APACrefauthors}%
-Preston, J.%
-\BCBT {}\ \BBA {} Bishop, M.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{2002}.
-\newblock
-\APACrefbtitle {Views Into the Chinese Room: New Essays on Searle and
-  Artificial Intelligence} {Views into the chinese room: New essays on searle
-  and artificial intelligence}.
-\newblock
-\APACaddressPublisher{}{Clarendon Press}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[\protect\astroncite{Landauer et~al.}{1997}]{LandauerEA1997}
+Landauer, T., Laham, D., Rehder, B., and Schreiner, M.~E. (1997).
+\newblock How well can passage meaning be derived without using word order? a
+  comparison of latent semantic analysis and humans.
+\newblock In {\em Proceedings of the 19th Annual Conference of the Cognitive
+  Science Society}, pages 412--417.
 
-\bibitem [\protect \citeauthoryear {%
-Rimell%
-}{%
-Rimell%
-}{%
-{\protect \APACyear {2014}}%
-}]{%
-Rimell2014}
-\APACinsertmetastar {%
-Rimell2014}%
-\begin{APACrefauthors}%
-Rimell, L.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2014}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Distributional Lexical Entailment by Topic Coherence}
-  {Distributional lexical entailment by topic coherence}.{\BBCQ}
-\newblock
-\BIn{} \APACrefbtitle {Proceedings of the 14th Conference of the European
-  Chapter of the Association for Computational Linguistics.} {Proceedings of
-  the 14th conference of the european chapter of the association for
-  computational linguistics.}
-\newblock
-\APACaddressPublisher{Gothenburg}{}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[\protect\astroncite{Lapesa and Evert}{2013}]{LapesaEA2013}
+Lapesa, G. and Evert, S. (2013).
+\newblock Evaluating neighbor rank and distance measures as predictors of
+  semantic priming.
+\newblock In {\em Proceedings of the Fourth Annual Workshop on Cognitive
+  Modeling and Computational Linguistics (CMCL)}, pages 66--74, Sofia,
+  Bulgaria. Association for Computational Linguistics.
 
-\bibitem [\protect \citeauthoryear {%
-Rorty%
-}{%
-Rorty%
-}{%
-{\protect \APACyear {1979}}%
-}]{%
-Rorty1979}
-\APACinsertmetastar {%
-Rorty1979}%
-\begin{APACrefauthors}%
-Rorty, R.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{1979}.
-\newblock
-\APACrefbtitle {Philosophy and the Mirror of Nature} {Philosophy and the mirror
-  of nature}.
-\newblock
-\APACaddressPublisher{}{Princeton University Press}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[\protect\astroncite{Levinson}{2001}]{Levinson2001}
+Levinson, S.~C. (2001).
+\newblock Y\'{e}l\^{i} dnye and the theory of basic color terms.
+\newblock {\em Journal of Linguistic Anthropology}, 10(1):3--55.
 
-\bibitem [\protect \citeauthoryear {%
-Salton%
-, Wong%
-\BCBL {}\ \BBA {} Yang%
-}{%
-Salton%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {1975}}%
-}]{%
-SaltonEA1975}
-\APACinsertmetastar {%
-SaltonEA1975}%
-\begin{APACrefauthors}%
-Salton, G.%
-, Wong, A.%
-\BCBL {}\ \BBA {} Yang, C\BPBI S.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1975}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {A Vector Space Model for Automatic Indexing} {A vector
-  space model for automatic indexing}.{\BBCQ}
-\newblock
-\BIn{} \APACrefbtitle {Proceedings of the 12th ACM SIGIR Conference}
-  {Proceedings of the 12th acm sigir conference}\ (\BPG~137-150).
-\PrintBackRefs{\CurrentBib}
+\bibitem[\protect\astroncite{Levy and Goldberg}{2014}]{LevyEA2014b}
+Levy, O. and Goldberg, Y. (2014).
+\newblock Neural word embedding as implicit matrix factorization.
+\newblock In Ghahramani, Z., Welling, M., Cortes, C., Lawrence, N.~D., and
+  Weinberger, K.~Q., editors, {\em Advances in Neural Information Processing
+  Systems 27}, pages 2177--2185. Curran Associates, Inc.
 
-\bibitem [\protect \citeauthoryear {%
-Searle%
-}{%
-Searle%
-}{%
-{\protect \APACyear {1980}}%
-}]{%
-Searle1980}
-\APACinsertmetastar {%
-Searle1980}%
-\begin{APACrefauthors}%
-Searle, J\BPBI R.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1980}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Minds, Brains, and Programs} {Minds, brains, and
-  programs}.{\BBCQ}
-\newblock
-\BIn{} M\BPBI A.~Boden\ (\BED), \APACrefbtitle {The Philosophy of Artificial
-  Intelligence} {The philosophy of artificial intelligence}\ (\BPG~67-88).
-\newblock
-\APACaddressPublisher{}{Oxford University Press}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[\protect\astroncite{Montague}{1974}]{Montague1974}
+Montague, R. (1974).
+\newblock English as a formal language.
+\newblock In Thompson, R.~H., editor, {\em Formal Philosophy: selected papers
+  of Richard Montague}. Yale University Press, New Haven, CT.
 
-\bibitem [\protect \citeauthoryear {%
-Widdows%
-}{%
-Widdows%
-}{%
-{\protect \APACyear {2003}}%
-}]{%
-Widdows2003}
-\APACinsertmetastar {%
-Widdows2003}%
-\begin{APACrefauthors}%
-Widdows, D.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2003}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Orthogonal Negation in Vector Spaces for Modelling
-  Word-meanings and Document Retrieval} {Orthogonal negation in vector spaces
-  for modelling word-meanings and document retrieval}.{\BBCQ}
-\newblock
-\BIn{} \APACrefbtitle {Proceedings of the 41st Annual Meeting on Association
-  for Computational Linguistics - Volume 1} {Proceedings of the 41st annual
-  meeting on association for computational linguistics - volume 1}\ (\BPGS\
-  136--143).
-\newblock
-\begin{APACrefURL} \url{http://dx.doi.org/10.3115/1075096.1075114}
-  \end{APACrefURL}
-\newblock
-\begin{APACrefDOI} \doi{10.3115/1075096.1075114} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
+\bibitem[\protect\astroncite{Neumann}{1945}]{VonNeumann1945}
+Neumann, J.~v. (1945).
+\newblock First draft of a report on the edvac.
+\newblock Technical report.
 
-\bibitem [\protect \citeauthoryear {%
-Widdows%
-}{%
-Widdows%
-}{%
-{\protect \APACyear {2004}}%
-}]{%
-Widdows2004}
-\APACinsertmetastar {%
-Widdows2004}%
-\begin{APACrefauthors}%
-Widdows, D.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{2004}.
-\newblock
-\APACrefbtitle {Geometry and Meaning} {Geometry and meaning}.
-\newblock
-\APACaddressPublisher{Stanford, CA}{CSLI Publications}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[\protect\astroncite{Rimell}{2014}]{Rimell2014}
+Rimell, L. (2014).
+\newblock Distributional lexical entailment by topic coherence.
+\newblock In {\em Proceedings of the 14th Conference of the European Chapter of
+  the Association for Computational Linguistics}, Gothenburg.
 
-\bibitem [\protect \citeauthoryear {%
-Wilks%
-}{%
-Wilks%
-}{%
-{\protect \APACyear {1978}}%
-}]{%
-Wilks1978}
-\APACinsertmetastar {%
-Wilks1978}%
-\begin{APACrefauthors}%
-Wilks, Y.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1978}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Making Preferences More Active} {Making preferences more
-  active}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Artificial Intelligence}{11}{3}{197--223}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[\protect\astroncite{Rorty}{1979}]{Rorty1979}
+Rorty, R. (1979).
+\newblock {\em Philosophy and the Mirror of Nature}.
+\newblock Princeton University Press.
 
-\bibitem [\protect \citeauthoryear {%
-Wille%
-}{%
-Wille%
-}{%
-{\protect \APACyear {1982}}%
-}]{%
-Wille1982}
-\APACinsertmetastar {%
-Wille1982}%
-\begin{APACrefauthors}%
-Wille, R.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1982}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Restructuring lattice theory: an approach based on
-  hierarchies of concepts.} {Restructuring lattice theory: an approach based on
-  hierarchies of concepts.}{\BBCQ}
-\newblock
-\BIn{} I.~Rival\ (\BED), \APACrefbtitle {Ordered Sets} {Ordered sets}\ (\BPGS\
-  445--470).
-\newblock
-\APACaddressPublisher{Dordrecht/Boston}{Reidel}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[\protect\astroncite{Salton et~al.}{1975}]{SaltonEA1975}
+Salton, G., Wong, A., and Yang, C.~S. (1975).
+\newblock A vector space model for automatic indexing.
+\newblock In {\em Proceedings of the 12th ACM SIGIR Conference}, pages
+  137--150.
 
-\bibitem [\protect \citeauthoryear {%
-Wille%
-}{%
-Wille%
-}{%
-{\protect \APACyear {2005}}%
-}]{%
-Wille2005}
-\APACinsertmetastar {%
-Wille2005}%
-\begin{APACrefauthors}%
-Wille, R.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2005}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Formal Concept Analysis as Mathematical Theory of
-  Concepts and Concept Hierarchies} {Formal concept analysis as mathematical
-  theory of concepts and concept hierarchies}.{\BBCQ}
-\newblock
-\BIn{} (\BPGS\ 1--33).
-\newblock
-\begin{APACrefURL} \url{http://dx.doi.org/10.1007/11528784\_1} \end{APACrefURL}
-\PrintBackRefs{\CurrentBib}
+\bibitem[\protect\astroncite{Widdows}{2003}]{Widdows2003}
+Widdows, D. (2003).
+\newblock Orthogonal negation in vector spaces for modelling word-meanings and
+  document retrieval.
+\newblock In {\em Proceedings of the 41st Annual Meeting on Association for
+  Computational Linguistics - Volume 1}, pages 136--143.
+
+\bibitem[\protect\astroncite{Widdows}{2004}]{Widdows2004}
+Widdows, D. (2004).
+\newblock {\em Geometry and Meaning}.
+\newblock CSLI Publications, Stanford, CA.
+
+\bibitem[\protect\astroncite{Wilks}{1978}]{Wilks1978}
+Wilks, Y. (1978).
+\newblock Making preferences more active.
+\newblock {\em Artificial Intelligence}, 11(3):197--223.
+
+\bibitem[\protect\astroncite{Wille}{1982}]{Wille1982}
+Wille, R. (1982).
+\newblock Restructuring lattice theory: an approach based on hierarchies of
+  concepts.
+\newblock In Rival, I., editor, {\em Ordered Sets}, pages 445--470,
+  Dordrecht/Boston. Reidel.
+
+\bibitem[\protect\astroncite{Wille}{2005}]{Wille2005}
+Wille, R. (2005).
+\newblock {\em Formal Concept Analysis as Mathematical Theory of Concepts and
+  Concept Hierarchies}, pages 1--33.
 
 \end{thebibliography}
