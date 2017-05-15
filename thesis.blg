@@ -2,60 +2,68 @@ This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: cover.aux
 A level-1 auxiliary file: ch3/Three.aux
-The style file: apa.bst
+A level-1 auxiliary file: ch3.5/ThreePointFive.aux
+The style file: apalike.bst
 Database file #1: Mega.bib.bib
-Repeated entry---line 359 of file Mega.bib.bib
+I was expecting a `,' or a `}'---line 18 of file Mega.bib.bib
+ : 
+ : address = {New York City, NY}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 409 of file Mega.bib.bib
  : @incollection{Barsalou1993
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 685 of file Mega.bib.bib
+Repeated entry---line 735 of file Mega.bib.bib
  : @article{BullinariaEA2012
  :                          ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Dreyfus2012"
 Warning--I didn't find a database entry for "Jager"
+Warning--I didn't find a database entry for "Baroni2014"
+Warning--I didn't find a database entry for "o"
 Warning--can't use both volume and number fields in Carston2010
 Warning--empty institution in VonNeumann1945
 Warning--empty publisher in Wille2005
-You've used 37 entries,
-            1940 wiz_defined-function locations,
-            741 strings with 10398 characters,
-and the built_in function-call counts, 15309 in all, are:
-= -- 1512
-> -- 469
-< -- 46
-+ -- 162
-- -- 145
-* -- 1187
-:= -- 2495
-add.period$ -- 116
-call.type$ -- 37
-change.case$ -- 245
-chr.to.int$ -- 36
-cite$ -- 40
-duplicate$ -- 712
-empty$ -- 1206
-format.name$ -- 206
-if$ -- 3177
+You've used 45 entries,
+            1935 wiz_defined-function locations,
+            793 strings with 12163 characters,
+and the built_in function-call counts, 19003 in all, are:
+= -- 1904
+> -- 591
+< -- 56
++ -- 205
+- -- 184
+* -- 1395
+:= -- 3090
+add.period$ -- 142
+call.type$ -- 45
+change.case$ -- 304
+chr.to.int$ -- 44
+cite$ -- 48
+duplicate$ -- 889
+empty$ -- 1502
+format.name$ -- 261
+if$ -- 3989
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 44
-newline$ -- 187
-num.names$ -- 121
-pop$ -- 294
+missing$ -- 52
+newline$ -- 227
+num.names$ -- 147
+pop$ -- 366
 preamble$ -- 1
-purify$ -- 252
+purify$ -- 311
 quote$ -- 0
-skip$ -- 523
+skip$ -- 655
 stack$ -- 0
-substring$ -- 1057
-swap$ -- 194
-text.length$ -- 16
+substring$ -- 1350
+swap$ -- 206
+text.length$ -- 21
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 206
+type$ -- 254
 warning$ -- 3
-while$ -- 131
+while$ -- 166
 width$ -- 0
-write$ -- 487
-(There were 2 error messages)
+write$ -- 593
+(There were 3 error messages)

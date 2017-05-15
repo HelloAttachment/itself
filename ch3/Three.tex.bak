@@ -16,7 +16,7 @@ I have no pretensions of instigating a paradigm shift in computer science.  I do
 \begin{enumerate}
 \item The method should be dynamically sensitive to context;
 \item The method should function in a way that is transparent and operationally interpretable;
-\item The method should situate words in spaces which are likewise geometrically interpretable.
+\item The method should situate words in spaces that are likewise geometrically interpretable.
 \end{enumerate}
 
 The first stipulation encapsulates the theoretical premise of this work.  A primary objective of my methodology is to identify a statistically tangible mechanism for choosing word co-occurrence features in a contextually relevant way.  Specific mechanisms will be outlined in Chapter~\ref{chap:method}, and what counts as context will be discussed further in the course of the empirical results presented in Chapters~\ref{chap:similarity} and \ref{chap:figurative}, but the general idea is that a context sensitive model needs to react dynamically to information about what's happening in some linguistic situation.  The second requirement follows directly from the first: in order to pick semantic contexts \emph{in situ}, there needs to be a way to get a handle on the data which underwrites a model.  In practice this means that the scalars that form the basis for all the models which will be explored here represent literal information about co-occurrences in a large scale corpus, and the feature selections that take place in the course of delineating a contextual geometry can be traced to specific events in the underlying data.
