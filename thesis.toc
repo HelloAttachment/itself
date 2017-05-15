@@ -7,6 +7,6 @@
 \contentsline {chapter}{\numberline {2}A Computational Implementation of Context Sensitive Distributional Semantics}{19}
 \contentsline {section}{\numberline {2.1}Establishing and Analysing a Large Scale Textual Corpus}{20}
 \contentsline {section}{\numberline {2.2}Selecting Dimensions from a Sparse Co-Occurrence Matrix}{24}
-\contentsline {section}{\numberline {2.3}Exploring the Geometry of a Context Specific Subspace}{29}
-\contentsline {section}{\numberline {2.4}Comparing to Alternative Approaches}{29}
-\contentsline {section}{References}{30}
+\contentsline {section}{\numberline {2.3}Exploring the Geometry of a Context Specific Subspace}{30}
+\contentsline {section}{\numberline {2.4}Comparing to Alternative Approaches}{30}
+\contentsline {chapter}{References}{31}

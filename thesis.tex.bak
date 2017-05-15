@@ -76,7 +76,7 @@
 %\include{ch6/ch6}
 %\include{ch7/ch7}
 
-\bibliographystyle{apalike}
+\bibliographystyle{chicago}
 \bibliography{Mega.bib}
 
 % Start the appendix (inc. author's publications)

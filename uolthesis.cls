@@ -133,14 +133,20 @@
 % redefine contents caption
 \renewcommand{\contentsname}{Table of Contents}
 
+\newdimen\bibindent
+\bibindent=1.5em
+
 % References setting, change its caption to References and add reference into contents
-\def\thebibliography#1{\section*{References}%
-    \addcontentsline{toc}{section}{References}%
+\def\thebibliography#1{\chapter*{References}%
+    \addcontentsline{toc}{chapter}{References}%
     \setcounter{NAT@ctr}{0} % reset the reference counter
     \list{\@biblabel{#1}}%
     {\settowidth\labelwidth{\@biblabel{#1}}%
     \leftmargin\labelwidth
     \advance\leftmargin\labelsep\relax
+    \advance\leftmargin\bibindent
+    \itemindent -\bibindent
+    \listparindent \itemindent
     \itemsep -12pt plus .5pt\relax}} %
 \def\newblock{\hskip .11em plus .33em minus .07em}%
 

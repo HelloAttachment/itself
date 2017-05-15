@@ -1,14 +1,21 @@
+@article{Dreyfus2012,
+author = {Hubert L. Dreyfus},
+title = {A History of First Step Fallacies},
+journal = {Minds and Machines},
+volume = {22},
+number = {2},
+pages = {87--99},
+year = {2012},
+url = {http://dx.doi.org/10.1007/s11023-012-9276-0},
+doi = {10.1007/s11023-012-9276-0},
+}
 @inproceedings{PolajnarEA2014,
 author = {Tamara Polajnar and Stephen Clark},
 title = {Improving Distributional Semantic Vectors through Context Selection and Normalisation},
 booktitle = {Proceedings of the 14th Conference of the European Chapter of the Association for Computational Linguistics},
 pages = {230--238},
 year = {2014},
-crossref = {DBLP:conf/eacl/2014},
 url = {http://aclweb.org/anthology/E/E14/E14-1025.pdf},
-timestamp = {Sun, 20 Jul 2014 13:45:31 +0200},
-biburl = {http://dblp.uni-trier.de/rec/bib/conf/eacl/PolajnarC14},
-bibsource = {dblp computer science bibliography, http://dblp.org}
 }
 @incollection{VonUexkull1957,
 author = {Jacob von Uexk\"{u}ll},
@@ -53,7 +60,7 @@ url = {http://dl.acm.org/citation.cfm?id=1625275.1625535},
 }
 [download] 
 @techreport{VonNeumann1945,
-author = {Neumann, John von},
+author = {von Neumann, John},
 title = {First Draft of a Report on the EDVAC},
 year = {1945},
 } 
