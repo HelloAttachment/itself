@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2017.4.26)  17 MAY 2017 20:03
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2017.4.26)  18 MAY 2017 00:06
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -761,15 +761,18 @@ Package natbib Warning: There were undefined citations.
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 16757 strings out of 493848
- 349884 string characters out of 1152823
- 417592 words of memory out of 3000000
- 19641 multiletter control sequences out of 15000+50000
- 16707 words of font info for 64 fonts, out of 3000000 for 9000
+ 16767 strings out of 493848
+ 349999 string characters out of 1152823
+ 417590 words of memory out of 3000000
+ 19650 multiletter control sequences out of 15000+50000
+ 18438 words of font info for 72 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 56i,13n,70p,1904b,805s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 56i,13n,70p,2042b,805s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
 re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-te
 xlive/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texmf-texlive/fon
@@ -785,7 +788,7 @@ c/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm
 /usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/
 texmf-texlive/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texmf-texliv
 e/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on thesis.pdf (42 pages, 328510 bytes).
+Output written on thesis.pdf (42 pages, 330724 bytes).
 PDF statistics:
  209 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
