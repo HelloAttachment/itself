@@ -282,6 +282,42 @@ United Kingdom\\
 \newpage
 \setlength{\parindent}{16pt}            % set the indent of paragraphs (except the first one)
 }
+
+%%%%%%%%%%%%%%%%%%% context environment for abstract page %%%%%%%%%%%%%%%%%%%%
+\def\context{
+\clearpage
+\section*{}     % To correct the wrong link in PDF file by hyperref
+\begin{center}{
+\Huge{A Note on Context}}
+  \addcontentsline{toc}{chapter}{A Note on Context} % display Abstract in contents%
+\end{center}
+\vspace{0.5cm}
+\par
+\setlength{\parindent}{0pt}            % reset the indent of paragraphs (except the first one)
+}
+% for \end{abstract}
+\def\endabstract{
+\newpage
+\setlength{\parindent}{16pt}            % set the indent of paragraphs (except the first one)
+}
+
+%%%%%%%%%%%%%%%%%%% glossary environment for abstract page %%%%%%%%%%%%%%%%%%%%
+\def\glossary{
+\clearpage
+\section*{}     % To correct the wrong link in PDF file by hyperref
+\begin{center}{
+\Huge{Glossary}}
+  \addcontentsline{toc}{chapter}{Glossary} % display Abstract in contents%
+\end{center}
+\vspace{0.5cm}
+\par
+\setlength{\parindent}{0pt}            % reset the indent of paragraphs (except the first one)
+}
+% for \end{abstract}
+\def\endabstract{
+\newpage
+\setlength{\parindent}{16pt}            % set the indent of paragraphs (except the first one)
+}
  
 %%%%%%%%%%%%%%%%%%%%%%%%% acknowledgments environment %%%%%%%%%%%%%%%%%%%%%%%%
 \def\acknowledgments{
