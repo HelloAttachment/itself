@@ -1,5 +1,5 @@
 \chapter{A Computational Implementation of Context Sensitive Distributional Semantics} \label{chap:method}
-In the previous chapter, I laid the theoretical groundwork for a distributional semantic methodology for dynamically establishing perspectives on statistical data about language use.  In this chapter, I'll describe the technical details for building a computational implementation of such a methodology.  The objective of this implementation is to establish a rigorous procedure for generating subspaces of word vectors, based on observations of word co-occurrences in an underlying corpus, the geometries of which are semantically productive in particular contexts.  This will involve three steps:
+In the previous chapter, I laid down the theoretical groundwork for a distributional semantic methodology for dynamically establishing perspectives on statistical data about language use.  In this chapter, I'll describe the technical details for building a computational implementation of such a methodology.  The objective of this implementation is to establish a rigorous procedure for generating subspaces of word vectors, based on observations of word co-occurrences in an underlying corpus, the geometries of which are semantically productive in particular contexts.  This will involve three steps:
 
 \begin{enumerate}
 \item The selection, processing, and analysis of a large scale textual corpus in order to create a high dimensional base space of co-occurrence statistics;
@@ -111,12 +111,12 @@ The second effect is that there is a notion of centre and periphery in my subspa
 
 \begin{figure}%[!ht]
   \centering%\vspace*{-2cm}
-  \begin{subfigure}[h]{0.45\textwidth}
+  \begin{subfigure}[]{0.45\textwidth}
   \centering
   \small
   \begin{tikzpicture}
 %    \begin{axis}[disabledatascaling,scale=1.75,axis equal,hide axis]
-    \begin{axis}[disabledatascaling,scale=1.75,axis equal,hide axis]
+    \begin{axis}[disabledatascaling,scale=1,axis equal,hide axis]
       \draw [fill = lightgray,fill opacity = 1.00] (3,3) circle [radius = 1.5];
       \draw [fill = gray,fill opacity = 1.00] (3,3) circle [radius = 0.9];
       \node at (4.7477,2.2786) [left] {shark};
@@ -161,13 +161,13 @@ The second effect is that there is a notion of centre and periphery in my subspa
       } node [midway,below] {PREDATORY};
     \end{axis}
   \end{tikzpicture}
-  \caption{Anchor method. The concept \textsc{predatory animals} is delineated by a circle centered on the unit vector of equal positive elements: the circle with radius $r_1$ captures words associated with paradigmatic instances of the concept, while the circle described by $r_2$ begins to pick up less obvious constituents. Distances such as $a$ and $b$ are the actual metrics for determining conceptual membership.}\label{fig:geo1-dist}
+  \caption{Word-vectors measured by proximity to a central point.}\label{fig:geo1-dist}
   \end{subfigure}
   \hspace*{0.05\textwidth}
-  \begin{subfigure}[h]{0.45\textwidth}
+  \begin{subfigure}[]{0.45\textwidth}
   \centering
   \begin{tikzpicture}
-    \begin{axis}[disabledatascaling,scale=1.75,axis equal,hide axis]
+    \begin{axis}[disabledatascaling,scale=1,axis equal,hide axis]
       \draw [white,fill = gray,fill opacity = 1.00] (0,0) rectangle (5,5);
       \draw [fill = lightgray,fill opacity = 1.00] (0,0) -- (3.5,0) arc (0:90:3.5);
       \draw [fill = white,fill opacity = 1.00] (0,0) -- (2.8,0) arc (0:90:2.8);
@@ -209,44 +209,106 @@ The second effect is that there is a notion of centre and periphery in my subspa
       } node [midway,below] {PREDATORY};
     \end{axis}
   \end{tikzpicture}
-  \caption{Norm method. The concept \textsc{predatory animals} is delineated by an arc centered on the origin: the region with radius $r > r_1$ captures words associated with paradigmatic instances of the concept, while the more central region $r > r_2$ begins to pick up less obvious constituents. Distances such as $a$ and $b$ are the actual metrics for determining conceptual membership.}\label{fig:geo1-norm}
+  \caption{Word-vectors meansured in terms of distance from origin.}\label{fig:geo1-norm}
   \end{subfigure}
   \caption{A sampling of data from the space described in Section~\ref{sec:ES1} projected into a drastically reduced (from approximately 7.5 million dimensions to 2 dimensions) subspace defined in terms of the co-occurrence features \emph{animal} and \emph{predatory}. Terms which are animal but not predatory (\emph{mouse}), or predatory but not animal (\emph{lender}) fall towards the edges.}\label{fig:geo1}
 \end{figure}
 
-In order to take a first pass at examining these robustly Euclidean features of my contextualised subspaces, I propose two geometric measures for exploring the conceptual geometry of a subspace, illustrated in Figure~\ref{fig:geo1}.  The first is a distance metric, which defines a central point in a subspace and then considers the relationship of words to the semantic context of the subspace in terms of the distance of the corresponding word-vectors from this central point.  In practice, the central point will be defined as the mean point between the input word-vectors used to generate the subspace, but for the purposes of Figure~\ref{fig:geo1-dist}, a point along the line extending from the origin through the centre of the two dimensional space has been chosen.  In this space selected using two co-occurrence dimensions selected from a base model built from a 5x5 word co-occurrence window traversal of Wikipedia, word-vectors relatively closely associated with the concept \textsc{predatory animal} turn up in near this central point.\footnote{Here it happens to be the case that choosing dimensions which actually nominate a concept likewise delineate a space where, at least in terms of the restricted vocabulary evoked in Figure~\ref{fig:geo1}, conceptual membership plays out in a geometrically predictable way, but I will not generally presume this to be the case.}  So, for instance, cats (certainly in their taxonomical sense), more specifically lions, dogs, and, again more specifically, wolves all fall close to the central point, while sharks (certainly preditors, and also animals, but perhaps less prototypically so), mice, humans, and lenders are more distant.
+\subsection{Two Measures for Probing a Subspace}
 
-The second measure deployed here will be to analyse the norms of the word-vectors projected into the contextualised subspace, with my hypothesis being that word-vectors that are relatively far from the origin will be correspondingly relevant to the conceptual context from which the subspace has been generated.
+In order to take a first pass at examining these robustly Euclidean features of my contextualised subspaces, I propose two geometric measures for exploring the conceptual geometry of a subspace, illustrated in Figure~\ref{fig:geo1}.  The first is a distance metric, which defines a central point in a subspace and then considers the relationship of words to the semantic context of the subspace in terms of the distance of the corresponding word-vectors from this central point.  In practice, the central point will be defined as the mean point between the input word-vectors used to generate the subspace, but for the purposes of Figure~\ref{fig:geo1-dist}, a point along the line extending from the origin through the centre of the two dimensional space has been chosen.  In this subspace featuring two hand picked co-occurrence dimensions selected from a base model built from a 5x5 word co-occurrence window traversal of Wikipedia, word-vectors relatively closely associated with the concept \textsc{predatory animal} turn up near this central point.\footnote{Here it happens to be the case that choosing dimensions which actually nominate a concept likewise delineate a space where, at least in terms of the restricted vocabulary evoked in Figure~\ref{fig:geo1}, conceptual membership plays out in a geometrically predictable way, but I will not generally presume this to be the case.}  So, for instance, cats (certainly in their taxonomical sense), more specifically lions, dogs, and, again more specifically, wolves all fall close to the central point, while sharks (certainly predators, and also animals, but perhaps less prototypically so), mice, humans, and lenders are more distant.
 
-In both instances, a threshold could, in principle, be established in order to determine a cut-off point for conceptual membership, either in terms of an absolute geometric measure -- a radius from either the central point or the origin -- or in terms of a set of nearest neighbours.  This move would begin to move these subspaces towards \citepos{Gardenfors2000} notion of a region within a conceptual space, particularly in the case of the distance based metric illustrated in Figure~\ref{fig:geo1-dist}: here a clear sense of convexity as a criterion for a conceptual region exists, and likewise of betweeness as an indicator of conceptual inclusion.  Importantly, though, these spaces as they stand lack the dimensional interpretability that characterises G\"{a}rdenfors's spaces, in that it is not possible to say that there is a dimension of size, or strength, or ferocity, or so forth along which a boundary for inclusion in the concept of \textsc{predatory animal} can be identified.
+The second measure deployed here will be to analyse the norms of the word-vectors projected into the contextualised subspace, with my hypothesis being that word-vectors that are relatively far from the origin will be correspondingly relevant to the conceptual context from which the subspace has been generated.  This prediction does not entirely play out in the subspace depicted in Figure~\ref{fig:geo1-norm}, where words like \emph{human} and \emph{lender} are about as far from the origin as \emph{cat} and \emph{shark}, and have higher norms than more prototypical denotations such as \emph{lion} and \emph{wolf}.  As will be seen in subsequent results, beginning here and extending into the experiments described in the next chapter, in higher dimensional subspaces selected using the techniques outlined above, norm does prove to be a predictive measure of semantic relevance.  Here again, the preponderance of co-occurrence statistics associated with a word over the course of a set of dimensions gives a higher dimensional subspace an advantage: if the selected dimensions are appropriately aligned, there will be a tendency for those word-vectors with some consistency of co-occurrence across all dimensions to extend towards the central fringe of the space, while those with inconsistent co-occurrence profiles will move towards the edges while remaining closer to the origin.
 
-Examples of the tendencies of both norms and relative distances are explored in Table~\ref{tab:tops}, where, as with the examples offered earlier in this chapter, input terms denoting things exemplary of the respective concepts \textsc{wild animals} and \textsc{pets} are used to generate subspaces, in this case using both the \textsc{joint} and \textsc{indy} dimension selection techniques, once again using a base space built using a 5x5 word co-occurrence window.  In these cases, the top 200 dimensions derived using each technique have been used to project subspaces, and then within those subspaces, the top ten word-vectors based on their norm and their distance from the mean point between the input word-vectors are reported.  Notably, in the case of the norm measure, word-vectors that are exemplary of the conceptual category suggested by the intersection of the input terms seem to rise to the top of the subspace, so to speak: for both dimension selection techniques for the \textsc{wild animal} type inputs, a list of wild animals, some rather exotic, are returned.  A similar outcome is observed for the norm measure in the case of the \text{pet} inputs, with the interesting side effect of the \textsc{indy} technique in particular returning a list of names of dog breeds.  It would seem that the co-occurrence dimensions of the word-vectors for \emph{hamster} and \emph{goldfish}
+In the cases of both the distance from mean and norm measures, a threshold could, in principle, be established in order to determine a cut-off point for conceptual membership, either in terms of an absolute geometric measure -- a radius from either the central point or the origin -- or in terms of a set of nearest neighbours.  This move would begin to move these subspaces towards \citepos{Gardenfors2000} notion of a region within a conceptual space, particularly in the case of the distance based metric illustrated in Figure~\ref{fig:geo1-dist}: here a clear sense of convexity as a criterion for a conceptual region exists, and likewise of betweeness as an indicator of conceptual inclusion.  Importantly, though, these spaces as they stand lack the dimensional interpretability that characterises G\"{a}rdenfors's spaces, in that it is not possible to say that there is a dimension of size, or strength, or ferocity, or so forth along which a boundary for inclusion in the concept of \textsc{predatory animal} can be identified.
+
+%\begin{table}
+%\centering
+%\small
+%\begin{tabular}{ll|ll|ll|ll}
+%\hline
+%\multicolumn{4}{c}{\emph{lion, tiger, bear}} & \multicolumn{4}{|c}{\emph{dog, hamster, goldfish}} \\
+%\multicolumn{2}{c}{\textsc{joint}} & \multicolumn{2}{c}{\textsc{indy}} & \multicolumn{2}{|c}{\textsc{joint}} & \multicolumn{2}{c}{\textsc{indy}} \\
+%\hline
+%norm & distance & norm & distance & norm & distance & norm & distance \\
+%\hline
+%leopard & cat & leopard & wild & hamsters & cat & dogs & cat \\
+%langur & wild & dhole & cat & gerbils & pet & hamsters & giant \\
+%hyena & wolf & hyena & giant & rabbits & monkey & sheepdog & animal \\
+%dhole & elephant & rhinoceros & elephant & chinchillas & pig & terrier & wild \\
+%boar & animals & leopards & lions & pet & rabbit & canine & animals \\
+%tapir & giant & tapir & wolf & ferrets & rat & kennel & like \\
+%macaque & animal & passant & animals & pigs & animal & akc & rabbit \\
+%chital & bears & langur & tigers & rats & dogs & spaniel & include \\
+%civet & dog & sumatran & cats & pets & giant & poodle & pig \\
+%sloth & panther & gules & golden & chickens & cats & jerboa & cats \\
+%\hline
+%\end{tabular}
+%\caption{The top word-vectors in spaces selected by input terms characteristic of \textsc{wild animals} and \textsc{pets}, for the \textsc{joint} and \textsc{indy} dimension selection techniques, measured in terms of top norms within each subspace and also word-vectors closest to the mean point between the input word-vectors.}
+%\label{tab:tops}
+%\end{table}
 
 \begin{table}
 \centering
-\small
-\begin{tabular}{ll|ll|ll|ll}
+\begin{tabular}{lll|lll}
 \hline
-\multicolumn{4}{c}{\emph{lion, tiger, bear}} & \multicolumn{4}{|c}{\emph{dog,hamster,goldfish}} \\
-\multicolumn{2}{c}{\textsc{joint}} & \multicolumn{2}{c}{\textsc{indy}} & \multicolumn{2}{|c}{\textsc{joint}} & \multicolumn{2}{c}{\textsc{indy}} \\
+\multicolumn{6}{c}{\emph{lion, tiger, bear}} \\
+\multicolumn{3}{c}{\textsc{joint}} & \multicolumn{3}{c}{\textsc{indy}} \\
 \hline
-norm & distance & norm & distance & norm & distance & norm & distance \\
+norm & distance & angle & norm & distance & angel \\
 \hline
-leopard & cat & leopard & lions & hamsters & cat & dogs & animal \\
-hyena & wild & gules & wild & gerbils & pet & terrier & like \\
-langur & wolf & warthog & cat & rabbits & monkey & hound & animals \\
-dhole & elephant & waterbuck & wolf & chinchillas & pig & canine & called \\
-boar & animals & hyena & giant & pet & rabbit & sheepdog & named \\
-tapir & giant & sable & animals & ferrets & rat & kennel & horse \\
-macaque & animal & kudu & elephant & pigs & animal & poodle & include \\
-chital & bears & reedbuck & animal & rats & dogs & spaniel & sometimes \\
-civet & dog & giraffe & dog & pets & giant & retriever & black \\
-sloth & panther & wildebeest & golden & chickens & cats & mastiff & wild \\
+leopard & cat & and & leopard & wild & and \\
+langur & wild & like & dhole & cat & as \\
+hyena & wolf & also & hyena & giant & which \\
+dhole & elephant & as & rhinoceros & elephant & like \\
+boar & animals & such & leopards & lions & also \\
+tapir & giant & well & tapir & wolf & be \\
+macaque & animal & including & passant & animals & more \\
+chital & bears & include & langur & tigers & including \\
+civet & dog & from & sumatran & cats & been \\
+sloth & panther & which & gules & golden & one \\
 \hline
 \end{tabular}
-\caption{The top word-vectors in spaces selected by input terms characteristic of \textsc{wild animals} and \textsc{pets}, for the \textsc{joint} and \textsc{indy} dimension selection techniques, measured in terms of top norms within each subspace and also word-vectors closest to the mean point between the input word-vectors.}
-\label{tab:tops}
+\caption{The top word-vectors in subspaces selected by input terms characteristic of \textsc{wild animals}, for the \textsc{joint} and \textsc{indy} dimension selection techniques, measured in terms of top norms within each subspace, word-vectors closest to the mean point between the input word-vectors, and also the smallest angle with this mean vector regardless of actual position in the subspace.}
+\label{tab:tops-wild}
 \end{table}
+
+Examples of the tendencies of both norms and relative distances are explored in Table~\ref{tab:tops-wild} and Table~\ref{tab:tops-pet}, where, as with the examples offered earlier in this chapter, input terms denoting things exemplary of the respective concepts \textsc{wild animals} and \textsc{pets} are used to generate subspaces, in this case using both the \textsc{joint} and \textsc{indy} dimension selection techniques, once again using a base space built using a 5x5 word co-occurrence window.  In these cases, the top 200 dimensions derived using each technique have been used to project subspaces, and then within those subspaces, the top ten word-vectors based on their norm and their distance from the mean point between the input word-vectors are reported.  In addition to the two geometric measures described above, as a point of comparison, I also present results using an angular measure, where the word-vectors with the highest cosine similarity with the vector of the mean point between the input word-vectors.  This is offered as an approximation of what would be a typical approach in a standard static distributional model, to demonstrate why this measure doesn't work for the context sensitive spaces built using my methodology and also as a mechanism for further exploration of what's happening in these subspaces.
+
+\begin{table}
+\centering
+\begin{tabular}{lll|lll}
+\hline
+\multicolumn{6}{c}{\emph{dog, hamster, goldfish}} \\
+\multicolumn{3}{c}{\textsc{joint}} & \multicolumn{3}{c}{\textsc{indy}} \\
+\hline
+norm & distance & angle & norm & distance & angle \\
+\hline
+hamsters & cat & and & dogs & cat & also \\
+gerbils & pet & also & hamsters & giant & as \\
+rabbits & monkey & as & sheepdog & animal & in \\
+chinchillas & pig & of & terrier & wild & which \\
+pet & rabbit & in & canine & animals & and \\
+ferrets & rat & such & kennel & like & like \\
+pigs & animal & well & akc & rabbit & is \\
+rats & dogs & - & spaniel & include & called \\
+pets & giant & called & poodle & pig & of \\
+chickens & cats & which & jerboa & cats & has \\
+\hline
+\end{tabular}
+\caption{The top word-vectors in subspace, as in Table~\ref{tab:tops-wild} but selected by input terms characteristic of \textsc{pets}.}
+\label{tab:tops-pet}
+\end{table}
+
+Notably, in the case of the norm measure, word-vectors that are exemplary of the conceptual category suggested by the intersection of the input terms seem to rise to the top of the subspace, so to speak: for both dimension selection techniques for the \textsc{wild animal} type inputs, a list of wild animals, some rather exotic, are returned.  A similar outcome is observed for the norm measure in the case of the \text{pet} inputs, with some admittedly disputable admissions such as \emph{rats} coming up in the \textsc{joint} output; jerboas, which are indicated in the \textsc{indy} output, are apparently a somewhat popular pet, and \emph{akc} presumably refers to the American Kennel Club, so, not a pet, but an institution related to pet keeping.  An interesting side effect of the \textsc{indy} technique in particular is that it returns list including names of various dog breeds.  It would seem that the co-occurrence dimensions of the word-vectors for \emph{hamster} and \emph{goldfish} are characteristic enough of these more specialised words relating to particular types of pets that the corresponding word-vectors are pushed towards the outer fringe of the subspace.  It's also interesting that \emph{passant} and \emph{gules}, terms associated with the depiction of animals in heraldry, have high norms in the \textsc{indy} space in particular---of course all three of the input terms here are denotations of animals typical of heraldic devices, so it is not particularly surprising that some of their independently strong co-occurrence features combine to select for these word-vectors.
+
+The distance measure returns roughly similar results, including a number of denotations of appropriate animals.  Here it is interesting to observe that other semantic types -- in particular, adjectives in addition to nouns -- begin to creep into the output: \emph{wild}, \emph{giant}, and \emph{golden} are returned in the \textsc{joint} and \textsc{indy} subspaces for the \emph{wild animals} input, and \emph{giat} again comes up in response to the \textsc{pets} input, along with, perplexingly, the verb \emph{include}.  It makes sense that the region near the mean point between the input vectors, where consistently high but perhaps not absolutely maximal PMI scores across these contextually characteristic dimensions are to be found, feature some of the descriptors and predicates associated with the concept being modelled, while the region at the outer fringe of the space, where the words with the highest overall PMI values across the dimensions of the subspace, would be pointed denotations of instances of the concepts in question.  The word-vectors corresponding to some of the more esoteric animals in particular are likely to have high co-occurrence frequencies with the same dimensions selected by the combination of the input terms relative to low independent frequencies precisely because of their rareness.
+
+Turning to the angular results, where words that are closest to the line extending through the mean point are returned, a sharp contrast to the other two geometric measures is observed.  Here, very generic words which serve as the structural components of language, contributing little in terms of specific meaning but crucial to the functional cohesion of an utterance, are found in abundance.  This is completely logical: these types of words are liable to have a very consistent, albeit relatively low, profile of PMI scores across all dimensions in a subspace, since they are likely to have a high frequency of co-occurrences with any given word mitigated by a correspondingly high independent frequency across the corpus influencing the denominator of the PMI calculation.  The result is a word-vector populated by relatively low but also relatively consistent PMI values, situated not far from the origin and also very close to the centre of the subspace.  This phenomenon highlights the discrepancy between the Euclidean, positively valued subspaces generated by my context sensitive methodology and the normalised, hyperspherical spaces built by conventional static distributional semantic models.  Because my subspaces have a sense of centre and periphery, as well as a sense of distance from the origin, it is possible to make both semantic and functional predictions about the types of words that will be found in different regions of a subspace, and accordingly to predict where to look -- and where not to look -- to discover geometries mapping to desired conceptual properties.
+
+\subsection{Full Geometry }
+
+With this last point in mind, 
 
 \section{Comparing to Alternative Approaches}
 

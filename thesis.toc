@@ -1,11 +1,11 @@
 \contentsline {chapter}{Abstract}{i}
-\contentsline {chapter}{Glossary}{ii}
+\contentsline {chapter}{Glossary}{iii}
 \contentsline {chapter}{Table of Contents}{1}
 \contentsline {chapter}{\numberline {1}A Computational Implementation of Context Sensitive Distributional Semantics}{2}
 \contentsline {section}{\numberline {1.1}Establishing and Analysing a Large Scale Textual Corpus}{3}
 \contentsline {section}{\numberline {1.2}Selecting Dimensions from a Sparse Co-Occurrence Matrix}{7}
 \contentsline {section}{\numberline {1.3}Exploring the Geometry of a Context Specific Subspace}{13}
-\contentsline {section}{\numberline {1.4}Comparing to Alternative Approaches}{17}
-\contentsline {subsection}{\numberline {1.4.1}A Principle Component Analysis of the Base Space}{17}
-\contentsline {subsection}{\numberline {1.4.2}A Model Trained Using a Neural Network}{17}
-\contentsline {chapter}{References}{18}
+\contentsline {section}{\numberline {1.4}Comparing to Alternative Approaches}{19}
+\contentsline {subsection}{\numberline {1.4.1}A Principle Component Analysis of the Base Space}{19}
+\contentsline {subsection}{\numberline {1.4.2}A Model Trained Using a Neural Network}{19}
+\contentsline {chapter}{References}{20}
