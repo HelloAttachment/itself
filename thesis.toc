@@ -10,4 +10,4 @@
 \contentsline {section}{\numberline {1.4}Comparing to Alternative Approaches}{22}
 \contentsline {subsection}{\numberline {1.4.1}Static Interpretations of the Base Space}{22}
 \contentsline {subsection}{\numberline {1.4.2}A Model Trained Using a Neural Network}{22}
-\contentsline {chapter}{References}{23}
+\contentsline {chapter}{References}{24}

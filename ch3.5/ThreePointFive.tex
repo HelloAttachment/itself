@@ -371,9 +371,39 @@ Finally, a generic central point $C$, a vector with all dimensions set to the sa
 C = \{\mu(M),\ \mu(M)... \mu(M)\}
 \end{equation}
 
-In the analysis of the semantic relationship between $A$ and $B$ in a given projection, these three 
+In the analysis of the semantic relationship between $A$ and $B$ in a given projection, these three vectors will be used as anchor points to establish the situation of $A$ and $B$ relative to the subspace overall: where $C$ is an objectively central point in the subspace, $M$ is in a sense central to a subspace relative to its particular dimensional constitution, and $X$ is similarly indicative of the outermost possible extent of a particular subspace.  The underlying point here is that, due to the frequentist components of the information theoretic co-occurrence statistics used to build the base space described here, different dimensions have different distributional profiles.  To demonstrate this point, Table~\ref{tab:profiles} presents the mean values and standard deviations for the distribution of mean and maximum points from the top 20,000\footnote{less frequent dimensions tend to have higher PMI values overall, and also tend to be products of co-occurrences observed in quite obscure passages of the base corpus---it's worth recalling that a little more than half of the co-occurrence dimensions are observed only once.} most frequent co-occurrence dimensions, as well as the top five and bottom five values for each of these statistics for illustrative purposes.
 
-will be used as anchor points to establish the situation of $A$ and $B$ relative to th
+\begin{table}
+\centering
+\begin{tabular}{lr|r}
+\hline
+& \multicolumn{1}{c}{\textsc{mean}} & \multicolumn{1}{c}{\textsc{max}} \\
+\hline
+\parbox[t]{2mm}{\multirow{5}{*}{\rotatebox[origin=c]{90}{\textsc{top}}}} & \emph{sofla:} 6.984 & \emph{nico:} 15.690 \\
+& \emph{olya:} 6.326 & \emph{yeah:} 15.610 \\
+& \emph{non-families:} 6.035 & \emph{superfamily:} 15.598 \\
+& \emph{gmina:} 5.364 & \emph{eel:} 15.483 \\
+& \emph{crambidae:} 5.485 & \emph{kermanshah:} 15.455 \\
+\hline
+\parbox[t]{2mm}{\multirow{5}{*}{\rotatebox[origin=c]{90}{\textsc{bottom}}}} & \emph{it:} 0.748 & \emph{he:} 3.903 \\
+& \emph{they:} 0.812 & \emph{in:} 3.449 \\
+& \emph{you:} 0.804 & \emph{of:} 3.379 \\
+& \emph{this:} 0.789 & \emph{to:} 3.120 \\
+& \emph{he:} 0.719 & \emph{and:} 2.993 \\
+\hline
+mean & 2.312 & 11.066 \\
+std & 0.396 & 1.607 \\
+\hline
+\end{tabular}
+\caption{Dimensional profiles in terms of mean and maximum PMI values along dimensions, including mean values and standard deviation as well as the top five and bottom five dimensions for each statistic.}
+\label{tab:profiles}
+\end{table}
+
+The co-occurrence dimensions that tend to have lower mean and maximum values are clearly quite frequent words, and this is to be expected, given that the high frequency of independent observations of the word will drive PMI scores down for that word across the board.  The emergence of relatively infrequent words at the top end of the spectrum is then also to be expected.  The main point to note here, though, is that there is a broad range of possible mean and maximum values for a given dimension, and so the points $M$ and $X$ might be expected to vary considerably from subspace to subspace.  Moreover, this variance may in turn correspond to semantic features of a given subspace: it may be the case that a given type of relationship between input terms -- terms which are similar or dissimilar, literal or figurative in relationship to one another -- select for a subspace which has a particular orientation in terms of its dimensional profile.  More specific conjectures and results will be presented throughout the next two chapters.
+
+In addition to the situation of the points $A$, $B$, $C$, $M$, and $X$ in a subspace, a normalised version of the subspace is considered, in which each vector is effectively measured at its intersection with a hypersphere of radius 1 emanating from the origin.  These points are represented as $A'$, $B'$, $C'$, $M'$, and $X'$ respectively in Figure~\ref{fig:geofull}.  The purpose of considering these points is to take measure of the way in which the various vectors in a given subspace relate to the subspace as a whole, regardless of the extent of these vectors.  So, for instance, the vectors $A$ and $B$ might have very different norms, but the angle $\angle AOB$ might still be very small---and, even then, the angle $\angle A'C'B'$ might be very large, suggesting that $A$ and $B$ both pass through the central region of the subspace but on different sides of the generic central point of the subspace.  One of the objectives of this analytical method is to test whether this kind of information, which can be captured through a robust geometric description of a subspace, is semantically indicative.
+
+So finally the various geometric features available for the analysis of a subspace are systematically outlined in Table
 
 \section{Comparing to Alternative Approaches}
 
