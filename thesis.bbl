@@ -13,6 +13,12 @@ Baroni, M., R.~Bernardi, and R.~Zamparelli (2014).
 \newblock Frege in space: A program for compositional distributional semantics.
 \newblock {\em Linguistic Issues in Language Technology\/}~{\em 9}, 241--346.
 
+\bibitem[\protect\citeauthoryear{Baroni, Dinu, and Kruszewski}{Baroni
+  et~al.}{2014}]{BaroniEA2014}
+Baroni, M., G.~Dinu, and G.~Kruszewski (2014).
+\newblock Don't count, predict!
+\newblock In {\em ACL 2014}.
+
 \bibitem[\protect\citeauthoryear{Bruni, Tran, and Baroni}{Bruni
   et~al.}{2014}]{BruniEA2014}
 Bruni, E., N.~K. Tran, and M.~Baroni (2014).
@@ -47,7 +53,8 @@ Gabrilovich, E. and S.~Markovitch (2007).
 \newblock In {\em Proceedings of the 20th International Joint Conference on
   Artifical Intelligence}, pp.\  1606--1611.
 
-\bibitem[\protect\citeauthoryear{G{\"a}rdenfors}{G{\"a}rdenfors}{2000}]{Gardenfors2000}
+\bibitem[\protect\citeauthoryear{G{\"a}rdenfors}{G{\"a}rdenfors}{2000}]{Garden%
+fors2000}
 G{\"a}rdenfors, P. (2000).
 \newblock {\em Conceptual Space: The Geometry of Thought}.
 \newblock Cambridge, MA: The MIT Press.
@@ -113,13 +120,22 @@ Polajnar, T. and S.~Clark (2014).
 \newblock In {\em Proceedings of the 14th Conference of the European Chapter of
   the Association for Computational Linguistics}, pp.\  230--238.
 
+\bibitem[\protect\citeauthoryear{Schwartz, Reichart, and Rappoport}{Schwartz
+  et~al.}{2015}]{SchwartzEA2015}
+Schwartz, R., R.~Reichart, and A.~Rappoport (2015).
+\newblock Symmetric pattern based word embeddings for improved word similarity
+  prediction.
+\newblock In {\em Proceedings of the 19th Conference on Computational Natural
+  Language Learning}, pp.\  258--267.
+
 \bibitem[\protect\citeauthoryear{von Uexk\"{u}ll}{von
   Uexk\"{u}ll}{1957}]{VonUexkull1957}
 von Uexk\"{u}ll, J. (1957).
 \newblock A stroll through the worlds of animals and men: A picture book of
   invisible worlds.
 \newblock In C.~H. Schiller (Ed.), {\em Instinctive Behavior: The Development
-  of a Modern Concept}, pp.\  5--80. International Universities Press, Inc.
+  of a Modern Concept}, pp.\  5--80. New York City, NY: International
+  Universities Press, Inc.
 
 \bibitem[\protect\citeauthoryear{Widdows}{Widdows}{2004}]{Widdows2004}
 Widdows, D. (2004).

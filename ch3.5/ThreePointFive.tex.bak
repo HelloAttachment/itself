@@ -119,22 +119,22 @@ The second effect is that there is a notion of centre and periphery in my subspa
     \begin{axis}[disabledatascaling,scale=1,axis equal,hide axis]
       \draw [fill = lightgray,fill opacity = 1.00] (3,3) circle [radius = 1.5];
       \draw [fill = gray,fill opacity = 1.00] (3,3) circle [radius = 0.9];
-      \node at (4.7477,2.2786) [left] {shark};
+      \node at (4.7477,2.2786) [above] {shark};
       \node at (4.7477,2.2786) {$\times$};
-      \node at (2.0626,3.2008) [left] {dog};
+      \node at (2.0626,3.2008) [above] {dog};
       \node at (2.0626,3.2008) {$\times$};
       \node at (3.3145,2.9414) [right] {cat};
       \node at (3.3145,2.9414) {$\times$};
-      \node at (4.0803,0.2) [right] {lender};
+      \node at (4.0803,0.2) [above] {lender};
       \node at (4.0803,0.2) {$\times$};
       \node at (2.258,2.7022) [above] {lion};
       \node at (2.258,2.7022) {$\times$};
-      \draw [dotted] (3,3)--(2.258,2.7022) node [midway,above] {$a$};
-      \node at (1.7883,2.3021) [above] {wolf};
+%      \draw [dotted] (3,3)--(2.258,2.7022) node [midway,above] {$a$};
+      \node at (1.7883,2.3021) [left] {wolf};
       \node at (1.7883,2.3021) {$\times$};
-      \node at (0.9311,3.8643) [below] {human};
+      \node at (0.9311,3.8643) [above] {human};
       \node at (0.9311,3.8643) {$\times$};
-      \draw [dotted] (3,3)--(0.9311,3.8643) node [midway,above] {$b$};
+%      \draw [dotted] (3,3)--(0.9311,3.8643) node [midway,above] {$b$};
       \node at (0.2,2.6516) [right] {mouse};
       \node at (0.2,2.6516) {$\times$};
       
@@ -142,15 +142,20 @@ The second effect is that there is a notion of centre and periphery in my subspa
       	(0,0)
         (3,3)
       };
-      \node at (3,2.1) [below] {\textsc{predatory animals}};
-      \addplot [->,dashed] coordinates{
-        (3,3)
-        (3.7,2.4343)
-      } node [midway,below] {$r_1$};
-      \addplot [->,dashed] coordinates{
-        (3,3)
-        (2.1,4.2)
-      } node [midway,above] {$r_2$};
+      \node at (3.5,1.1) [below] {\textsc{predatory animals}};
+      \addplot [thick] coordinates{
+        (3.5,1.1)
+        (3.2,2.5)
+      };
+      \draw [fill=black] (3.2,2.5) circle [radius = 0.1];
+%      \addplot [->,dashed] coordinates{
+%        (3,3)
+%        (3.7,2.4343)
+%      } node [midway,below] {$r_1$};
+%      \addplot [->,dashed] coordinates{
+%        (3,3)
+%        (2.1,4.2)
+%      } node [midway,above] {$r_2$};
       \addplot [->,very thick] coordinates{
         (0,0)
         (0,5)
@@ -166,39 +171,40 @@ The second effect is that there is a notion of centre and periphery in my subspa
   \hspace*{0.05\textwidth}
   \begin{subfigure}[]{0.45\textwidth}
   \centering
+  \small
   \begin{tikzpicture}
     \begin{axis}[disabledatascaling,scale=1,axis equal,hide axis]
       \draw [white,fill = gray,fill opacity = 1.00] (0,0) rectangle (5,5);
       \draw [fill = lightgray,fill opacity = 1.00] (0,0) -- (3.5,0) arc (0:90:3.5);
       \draw [fill = white,fill opacity = 1.00] (0,0) -- (2.8,0) arc (0:90:2.8);
-      \node at (4.7477,2.2786) [left] {shark};
+      \node at (4.7477,2.2786) [above] {shark};
       \node at (4.7477,2.2786) {$\times$};
-      \node at (2.0626,3.2008) [left] {dog};
+      \node at (2.0626,3.2008) [above] {dog};
       \node at (2.0626,3.2008) {$\times$};
       \node at (3.3145,2.9414) [right] {cat};
       \node at (3.3145,2.9414) {$\times$};
-      \node at (4.0803,0.2) [right] {lender};
+      \node at (4.0803,0.2) [above] {lender};
       \node at (4.0803,0.2) {$\times$};
       \node at (2.258,2.7022) [above] {lion};
       \node at (2.258,2.7022) {$\times$};
-      \draw [dotted] (0,0)--(2.258,2.7022) node [midway,above] {$a$};
-      \node at (1.7883,2.3021) [above] {wolf};
+%      \draw [dotted] (0,0)--(2.258,2.7022) node [midway,above] {$a$};
+      \node at (1.7883,2.3021) [left] {wolf};
       \node at (1.7883,2.3021) {$\times$};
-      \node at (0.9311,3.8643) [below] {human};
+      \node at (0.9311,3.8643) [above] {human};
       \node at (0.9311,3.8643) {$\times$};
-      \draw [dotted] (0,0)--(0.9311,3.8643) node [midway,above] {$b$};
+%      \draw [dotted] (0,0)--(0.9311,3.8643) node [midway,above] {$b$};
       \node at (0.2,2.6516) [right] {mouse};
       \node at (0.2,2.6516) {$\times$};
       
-      \node at (3,4) [below] {\textsc{predatory animals}};
-      \addplot [->,dashed] coordinates{
-        (0,0)
-        (2.8723,2.0)
-      } node [midway,below] {$r_1$};
-      \addplot [->,dashed] coordinates{
-        (0,0)
-        (2.6153,1.0)
-      } node [midway,above] {$r_2$};
+      \node at (3,4.8) [below] {\textsc{predatory animals}};
+%      \addplot [->,dashed] coordinates{
+%        (0,0)
+%        (2.8723,2.0)
+%      } node [midway,below] {$r_1$};
+%      \addplot [->,dashed] coordinates{
+%        (0,0)
+%        (2.6153,1.0)
+%      } node [midway,above] {$r_2$};
       \addplot [->,very thick] coordinates{
         (0,0)
         (0,5)
@@ -211,7 +217,7 @@ The second effect is that there is a notion of centre and periphery in my subspa
   \end{tikzpicture}
   \caption{Word-vectors meansured in terms of distance from origin.}\label{fig:geo1-norm}
   \end{subfigure}
-  \caption{A sampling of data from the space described in Section~\ref{sec:ES1} projected into a drastically reduced (from approximately 7.5 million dimensions to 2 dimensions) subspace defined in terms of the co-occurrence features \emph{animal} and \emph{predatory}. Terms which are animal but not predatory (\emph{mouse}), or predatory but not animal (\emph{lender}) fall towards the edges.}\label{fig:geo1}
+  \caption{Co-occurrence statistics for a small vocabulary construed along two hand-picked dimensions.  Darker regions are expected to be more conceptually prototypical for the context captured by these dimensions.}\label{fig:geo1}
 \end{figure}
 
 \subsection{Two Measures for Probing a Subspace}
@@ -309,6 +315,7 @@ Turning to the angular results, where words that are closest to the line extendi
 \subsection{Replete Geometric Analysis}
 I will now propose a general method for a replete geometric analysis of a contextually projected subspace, based on the position of word-vectors in a space as well as the relationship between those word-vectors and points based on a more general analysis of the dimensions delineating the subspace.  For the purposes of explicating this method, I will presume a subspace projected from an analysis of two input word-vectors $A$ and $B$ using one of the dimension selection techniques described earlier in this chapter.  The presumption is that these word vectors are to be analysed in terms of their semantic relationship; the precise nature of the relationship being analysed could be more or less anything, and in the next two chapters this method will be applied to the assessment of lexical similarity, relatedness, metaphor, and metonymy.  The objective of this analytic method will be first to test the hypothesis that the geometry of contextually projected subspaces should be semantically informative, and second to compare the aspects of the geometry that are most informative for different semantic phenomena.
 
+\iffalse
 \begin{figure}
 \centering
 \begin{tikzpicture}
@@ -331,47 +338,56 @@ I will now propose a general method for a replete geometric analysis of a contex
 };
 \addplot3[patch,patch type=triangle,color=darkgray,fill opacity=0.5] coordinates {(0.5774,0.5774,0.5774) (0.2,0.4,0.8944) (0.2,0.8,0.5657)
 };
-\addplot3 [color=black,ultra thick] coordinates {(0,0,0) (0.5774,0.5774,0.5774)};
-%\addplot3[opacity = 0.1,surf,z buffer = sort,samples = 21,variable = \u,variable y = \v,domain = 0:90,y domain = 0:90,]
-%    ({1*cos(u)*sin(v)}, {1*sin(u)*sin(v)}, {1*cos(v)});
+\addplot3 [color=black,thick] coordinates {(0,0,0) (0.5774,0.5774,0.5774)};
+\addplot3 [color=black,thick] coordinates {(0,0,0) (0.7309,0.4678,0.4970)};
+\addplot3 [color=black,thick] coordinates {(0,0,0) (0.5709,0.6766,0.4651)};
+\addplot3[opacity = 0.1,surf,z buffer = sort,samples = 21,variable = \u,variable y = \v,domain = 0:90,y domain = 0:90,]
+    ({1*cos(u)*sin(v)}, {1*sin(u)*sin(v)}, {1*cos(v)});
 \addplot3 [patch,patch type=rectangle,color=lightgray,fill opacity=0.6] coordinates{(0.2,0.4,0.8944) (0.3,0.6,1.35) (0.4,1.6,1.1) (0.2,0.8,0.5657)
 };
-\addplot3 [color=black,ultra thick] coordinates {(0.5774,0.5774,0.5774) (1.0,1.0,1.0)};
+\addplot3 [color=black,thick] coordinates {(0.5774,0.5774,0.5774) (1.0,1.0,1.0)};
+\addplot3 [color=black,thick] coordinates {(0.7309,0.4678,0.4970) (2.5,1.6,1.7)};
+\addplot3 [color=black,thick] coordinates {(0.5709,0.6766,0.4651) (1.35,1.6,1.1)};
 \addplot3 [patch,patch type=triangle,color=lightgray,fill opacity=0.6] coordinates{(0.3,0.6,1.35) (1.0,1.0,1.0) (0.4,1.6,1.1)};
-\addplot3 [patch,patch type=triangle,color=gray,fill opacity=0.6] coordinates{(0.3,0.6,1.35) (2.5,1.6,1.7) (0.4,1.6,1.1)};
+\addplot3 [patch,patch type=triangle,color=gray,fill opacity=0.8] coordinates{(0.3,0.6,1.35) (2.5,1.6,1.7) (0.4,1.6,1.1)};
+\addplot3 [patch,patch type=triangle,color=gray,fill opacity=0.6] coordinates{(0.3,0.6,1.35) (1.35,1.6,1.1) (0.4,1.6,1.1)};
 \node [anchor=south] at (axis cs: 0.1,0.0,0.0) {O};
-\node [anchor=south] at (axis cs: 0.3,0.6,1.35) {V};
-\node [anchor=south] at (axis cs: 0.4,1.6,1.1) {N};
-\node [anchor=south] at (axis cs: 0.2,0.4,0.8944) {V'};
-\node [anchor=west] at (axis cs: 0.2,0.8,0.5657) {N'};
-\node [anchor=north] at (axis cs: 0.5774,0.61,0.5774) {M'};
-\node [anchor=south] at (axis cs: 1.0,1.05,1.0) {M};
-\node [anchor=south] at (axis cs: 2.5,1.6,1.7) {A};
+\node [anchor=south] at (axis cs: 0.3,0.6,1.35) {A};
+\node [anchor=south] at (axis cs: 0.4,1.6,1.1) {B};
+\node [anchor=south] at (axis cs: 0.2,0.4,0.8944) {A'};
+\node [anchor=west] at (axis cs: 0.2,0.8,0.5657) {B'};
+\node [anchor=north] at (axis cs: 0.5774,0.61,0.5774) {C'};
+\node [anchor=south] at (axis cs: 1.0,1.05,1.0) {C};
+\node [anchor=south] at (axis cs: 0.7309,0.4678,0.4970) {X'};
+\node [anchor=south] at (axis cs: 2.5,1.6,1.7) {X};
+\node [anchor=south] at (axis cs: 0.5709,0.6766,0.4651) {M'};
+\node [anchor=south] at (axis cs: 1.35,1.6,1.1) {M};
 \end{axis}
 \end{tikzpicture}
 \caption{The geometric features of a subspace contextually projected based on an analysis of two input word-vectors.}
 \label{fig:geofull}
 \end{figure}
+\fi
 
-Figure~\ref{fig:geofull} illustrates a generic three dimensional subspace.  Points $A$ and $B$ are the two word-vectors that have been used to select the dimensions which define this subspace, and are likewise the word-vectors which will be analysed through the geometry of the subspace.  In addition to these two points explicitly defined in terms of the values of projected word-vectors, two points are established based on an overall analysis of the dimensionality of the subspace: the \emph{mean point} $M$ and the \emph{maximal point} $X$.  $M$ is defined as the vector of all the mean values for all the dimensions $J$ delineating the subspace, so, if the dimensionality of $J$ is $d$, M can be defined formally as follows:
+Figure~\ref{fig:geofull} illustrates a generic three dimensional subspace, with point $O$ as the origin.  Points $A$ and $B$ are the two word-vectors that have been used to select the dimensions which define this subspace, and are likewise the word-vectors which will be analysed through the geometry of the subspace.  In addition to these two points explicitly defined in terms of the values of projected word-vectors, two points are established based on an overall analysis of the dimensionality of the subspace: the \emph{mean point} $M$ and the \emph{maximal point} $X$.  $M$ is defined as the vector of all the mean values for all the dimensions $J$ delineating the subspace, so, if the dimensionality of $J$ is $d$, M can be defined formally as follows:
 
 \begin{equation}
 M = \{\mu(J_{1}),\ \mu(J_{2})...\ \mu(J_{d})\}
 \end{equation}
 
-And likewise, $X$ can be expressed in terms of an equation:
+\noindent And likewise, $X$ can be expressed in terms of an equation:
 
 \begin{equation}
 X = \{max(J_{1}),\ max(J_{2})...\ max(J_{d})\}
 \end{equation}
 
-Finally, a generic central point $C$, a vector with all dimensions set to the same value, is defined.  The universal value chosen to define the dimensions of this vector is the mean value of the mean point $M$, so, formally, this point is the vector of that mean value repeated $d$ times:
+\noindent Finally, a generic central point $C$, a vector with all dimensions set to the same value, is defined.  The universal value chosen to define the dimensions of this vector is the mean value of the mean point $M$, so, formally, this point is the vector of that mean value repeated $d$ times:
 
 \begin{equation}
 C = \{\mu(M),\ \mu(M)... \mu(M)\}
 \end{equation}
 
-In the analysis of the semantic relationship between $A$ and $B$ in a given projection, these three vectors will be used as anchor points to establish the situation of $A$ and $B$ relative to the subspace overall: where $C$ is an objectively central point in the subspace, $M$ is in a sense central to a subspace relative to its particular dimensional constitution, and $X$ is similarly indicative of the outermost possible extent of a particular subspace.  The underlying point here is that, due to the frequentist components of the information theoretic co-occurrence statistics used to build the base space described here, different dimensions have different distributional profiles.  To demonstrate this point, Table~\ref{tab:profiles} presents the mean values and standard deviations for the distribution of mean and maximum points from the top 20,000\footnote{less frequent dimensions tend to have higher PMI values overall, and also tend to be products of co-occurrences observed in quite obscure passages of the base corpus---it's worth recalling that a little more than half of the co-occurrence dimensions are observed only once.} most frequent co-occurrence dimensions, as well as the top five and bottom five values for each of these statistics for illustrative purposes.
+\noindent In the analysis of the semantic relationship between $A$ and $B$ in a given projection, these three vectors will be used as anchor points to establish the situation of $A$ and $B$ relative to the subspace overall: where $C$ is an objectively central point in the subspace, $M$ is in a sense central to a subspace relative to its particular dimensional constitution, and $X$ is similarly indicative of the outermost possible extent of a particular subspace.  The underlying point here is that, due to the frequentist components of the information theoretic co-occurrence statistics used to build the base space described here, different dimensions have different distributional profiles.  To demonstrate this point, Table~\ref{tab:profiles} presents the mean values and standard deviations for the distribution of mean and maximum points from the top 20,000\footnote{less frequent dimensions tend to have higher PMI values overall, and also tend to be products of co-occurrences observed in quite obscure passages of the base corpus---it's worth recalling that a little more than half of the co-occurrence dimensions are observed only once.} most frequent co-occurrence dimensions, as well as the top five and bottom five values for each of these statistics for illustrative purposes.
 
 \begin{table}
 \centering
@@ -401,7 +417,36 @@ std & 0.396 & 1.607 \\
 
 The co-occurrence dimensions that tend to have lower mean and maximum values are clearly quite frequent words, and this is to be expected, given that the high frequency of independent observations of the word will drive PMI scores down for that word across the board.  The emergence of relatively infrequent words at the top end of the spectrum is then also to be expected.  The main point to note here, though, is that there is a broad range of possible mean and maximum values for a given dimension, and so the points $M$ and $X$ might be expected to vary considerably from subspace to subspace.  Moreover, this variance may in turn correspond to semantic features of a given subspace: it may be the case that a given type of relationship between input terms -- terms which are similar or dissimilar, literal or figurative in relationship to one another -- select for a subspace which has a particular orientation in terms of its dimensional profile.  More specific conjectures and results will be presented throughout the next two chapters.
 
-In addition to the situation of the points $A$, $B$, $C$, $M$, and $X$ in a subspace, a normalised version of the subspace is considered, in which each vector is effectively measured at its intersection with a hypersphere of radius 1 emanating from the origin.  These points are represented as $A'$, $B'$, $C'$, $M'$, and $X'$ respectively in Figure~\ref{fig:geofull}.  The purpose of considering these points is to take measure of the way in which the various vectors in a given subspace relate to the subspace as a whole, regardless of the extent of these vectors.  So, for instance, the vectors $A$ and $B$ might have very different norms, but the angle $\angle AOB$ might still be very small---and, even then, the angle $\angle A'C'B'$ might be very large, suggesting that $A$ and $B$ both pass through the central region of the subspace but on different sides of the generic central point of the subspace.
+In addition to the situation of the points $A$, $B$, $C$, $M$, and $X$ in a subspace, a normalised version of the subspace is considered, in which each vector is effectively measured at its intersection with a hypersphere of radius 1 emanating from the origin.  These points are represented as $A'$, $B'$, $C'$, $M'$, and $X'$ respectively in Figure~\ref{fig:geofull}.  The purpose of considering these points is to take measure of the way in which the various vectors in a given subspace relate to the subspace as a whole, regardless of the extent of these vectors.  So, for instance, the vectors $A$ and $B$ might have very different norms, but the angle $\angle AOB$ might still be very small---and, even then, the angle $\angle A'C'B'$ might be very large, suggesting that $A$ and $B$ both pass through the central region of the subspace but on different sides of the generic central point of the subspace.  One of the objectives of this analytical method is to test whether this kind of information, which can be captured through a robust geometric description of a subspace, is semantically indicative.
+
+So finally the various geometric features available for the analysis of a subspace are systematically outlined in Table
+
+\begin{table}
+\begin{tabular}{ll}
+\hline
+\multicolumn{2}{c}{\textsc{distances}} \\
+word-vectors & $\overline{AB}$, $\overline{A'B'}$ \\
+generic points & $C$, $M$, $X$ \\
+\hline
+\multicolumn{2}{c}{\textsc{angles}} \\
+word-vectors & $\angle ACB$, $\angleAMB$, $\angle AXB$ \\
+normalised & $\angle A'C'B'$, $\angle A'M'B'$, $\angle A'X'B'$ \\
+generic & $\angle COM$, $\angle COX$, $\angle MOX$ \\
+\hline
+\multicolumn{2}{c}{\textsc{means}}
+word-vectors & $\mu (\overline{AC},\overline{BC})$, $\mu (\overline{AM},\overline{BM})$, $\mu (\overline{AX},\overline{BX})$ \\
+normalised & $\mu (\overline{A'C'),\overline{B'C'})$, $\mu (\overline{A'M'),\overline{B'M'})$, $\mu (\overline{A'X'),\overline{B'X'})$ \\
+\hline
+\multicolumn{2}{c}{\textsc{ratios}} \\
+word-vectors & $\overline{AC}:\overline{BC}$, $\overline{AM}:\overline{BM}$, $\overline{AX}:\overline{BX}$ \\
+normalised & $\overline{A'C'}:\overline{B'C'}$, $\overline{A'M'}:\overline{B'M'}$, $\overline{A'X'}:\overline{B'X'}$
+\hline
+\multicolumn{2}{c}{fractions} \\
+word-vectors & $\mu (\overline{AB})/C$, $\mu (\overline{AB})/M$, $\mu (\overline{AB})/X$ \\
+generic & $C/M$, $C/X$, $M/X$ \\
+\hline
+\end{tabular}
+\end{table}
 
 \section{Comparing to Alternative Approaches}
 

@@ -7,7 +7,7 @@
 \contentsline {section}{\numberline {1.3}Exploring the Geometry of a Context Specific Subspace}{13}
 \contentsline {subsection}{\numberline {1.3.1}Two Measures for Probing a Subspace}{15}
 \contentsline {subsection}{\numberline {1.3.2}Replete Geometric Analysis}{20}
-\contentsline {section}{\numberline {1.4}Comparing to Alternative Approaches}{24}
-\contentsline {subsection}{\numberline {1.4.1}Static Interpretations of the Base Space}{24}
-\contentsline {subsection}{\numberline {1.4.2}A Model Trained Using a Neural Network}{24}
-\contentsline {chapter}{References}{25}
+\contentsline {section}{\numberline {1.4}Comparing to Alternative Approaches}{25}
+\contentsline {subsection}{\numberline {1.4.1}Static Interpretations of the Base Space}{27}
+\contentsline {subsection}{\numberline {1.4.2}A Model Trained Using a Neural Network}{27}
+\contentsline {chapter}{References}{28}
