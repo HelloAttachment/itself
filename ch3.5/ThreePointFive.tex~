@@ -475,6 +475,13 @@ With all this in mind, I propose two different points of comparison that, in add
 \subsection{Static Interpretations of the Base Space}
 In cases where the geometry being explored involves just target word-vectors and generic points of a space -- so, for all the features described in Table~\ref{tab:features} -- it is computationally tractable to treat the sparse base matrix from which subspaces are projected as a semantically interpretable space in its own right.  This is because universal generic points (the mean point for all dimensions, the maximum point for all dimensions, and the central point based on the average value of the mean point) can be discovered through a one-off caluculation, and the word-vectors themselves will be relatively sparse.  In the most honerous case of comparing two orthogonal word-vectors using the \textsc{indy} technique, the total number of scalars involved in the computations of geometric features would be the sum of the number of non-zero dimensions for each word-vector, so something on the order of thousands to tens of thousands of values---not that bad, computationally speaking.
 
-Of course, the norms of the generic points in such a general space will be extremely high compared to any given actual word-vector, since these generic points will have non-zero values in several million dimensions.  With this in mind, a second and more typical approach to building a general case 
+Of course, the norms of the generic points in such a general space will be extremely high compared to any given actual word-vector, since these generic points will have non-zero values in several million dimensions.  With this in mind, a second and more typical approach to building a general and computable distributional semantic space out of my base space of co-occurrence statistics is to through matrix factorisation: using singular value decomposition, I project the base space onto the top most informational eigenvectors up to a dimensionality to match the parameters tested using my context specific dimensional selection techniques.\footnote{In practice, the \texttt{sklearn} python module's PCA method is used to do this.}  Because of computability constraints, I take the top 100 to 50,000 most frequent word types as the vocabulary for this model, and consider the top 10,000 most frequent co-occurrence terms as the dimensions of the matrix to be factorised.  This means that 1,979 of the 1,998 word tokens in the SimLex999 dataset \citep[][discussed in detail in Chapter~\ref{chap:concepts}]{HillEA2014} are included in the vocabulary, and 
+
+of the co-occurrence events tabulated in the base space are represented in the decomposed model.
+
+Because SVD produc
+
+barycentre 
 
 \subsection{A Model Trained Using a Neural Network}
+In addition to the interpretations of the statistical base space described above, I also use the \texttt{word2vec} method
