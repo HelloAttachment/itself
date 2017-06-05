@@ -1,49 +1,61 @@
-This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: cover.aux
+A level-1 auxiliary file: ch3/Three.aux
 A level-1 auxiliary file: ch3.5/ThreePointFive.aux
 The style file: chicago.bst
 Database file #1: Mega.bib.bib
+Repeated entry---line 219 of file Mega.bib.bib
+ : @incollection{Barsalou1993
+ :                           ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Salton1992b"
 Warning--I didn't find a database entry for "o"
-You've used 20 entries,
+Warning--page numbers missing in Barsalou1993
+Warning--can't use both volume and number fields in Carston2010
+Warning--empty publisher in Jager2010
+Warning--empty institution in VonNeumann1945
+Warning--empty publisher in Wille2005
+You've used 55 entries,
             2861 wiz_defined-function locations,
-            754 strings with 8963 characters,
-and the built_in function-call counts, 14826 in all, are:
-= -- 1281
-> -- 1019
-< -- 8
-+ -- 304
-- -- 350
-* -- 1209
-:= -- 2612
-add.period$ -- 64
-call.type$ -- 20
-change.case$ -- 140
-chr.to.int$ -- 20
-cite$ -- 20
-duplicate$ -- 484
-empty$ -- 958
-format.name$ -- 410
-if$ -- 2879
+            999 strings with 15055 characters,
+and the built_in function-call counts, 38825 in all, are:
+= -- 3345
+> -- 2496
+< -- 24
++ -- 734
+- -- 884
+* -- 3058
+:= -- 6899
+add.period$ -- 173
+call.type$ -- 55
+change.case$ -- 369
+chr.to.int$ -- 55
+cite$ -- 60
+duplicate$ -- 1307
+empty$ -- 2597
+format.name$ -- 1008
+if$ -- 7485
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 23
-newline$ -- 103
-num.names$ -- 206
-pop$ -- 159
+missing$ -- 64
+newline$ -- 277
+num.names$ -- 566
+pop$ -- 413
 preamble$ -- 1
-purify$ -- 263
+purify$ -- 708
 quote$ -- 0
-skip$ -- 486
+skip$ -- 1301
 stack$ -- 0
-substring$ -- 769
-swap$ -- 172
-text.length$ -- 8
+substring$ -- 2085
+swap$ -- 470
+text.length$ -- 24
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 370
-warning$ -- 0
-while$ -- 208
+type$ -- 1000
+warning$ -- 5
+while$ -- 597
 width$ -- 0
-write$ -- 279
-(There was 1 warning)
+write$ -- 764
+(There was 1 error message)
