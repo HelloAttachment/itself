@@ -243,7 +243,7 @@ reserved.\par\permission}}
 {\LARGE \@author } \\
 \vskip 3cm
 \par
-{\def\baselinestretch{1.2}\Large An outline of a thesis to be submitted to the {\uol}
+{\def\baselinestretch{1.2}\Large A thesis to be submitted to the {\uol}
 {for the}
 {\@degreeword}
 {of}
