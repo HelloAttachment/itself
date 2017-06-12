@@ -3,17 +3,17 @@
 \contentsline {chapter}{Table of Contents}{iv}
 \contentsline {chapter}{\numberline {1}Semantics on the Fly}{2}
 \contentsline {section}{\numberline {1.1}Lexical Semantics}{6}
-\contentsline {section}{\numberline {1.2}Dynamic Context Sensitivity}{6}
+\contentsline {section}{\numberline {1.2}Dynamic Context Sensitivity}{7}
 \contentsline {paragraph}{A Note on \emph {Context}}{9}
-\contentsline {section}{\numberline {1.3}Literal Dimensions of Co-Occurrence}{10}
-\contentsline {section}{\numberline {1.4}Interpretable Geometry}{14}
-\contentsline {chapter}{\numberline {2}A Computational Implementation of Context Sensitive Distributional Semantics}{20}
-\contentsline {section}{\numberline {2.1}Establishing and Analysing a Large Scale Textual Corpus}{21}
-\contentsline {section}{\numberline {2.2}Selecting Dimensions from a Sparse Co-Occurrence Matrix}{25}
-\contentsline {section}{\numberline {2.3}Exploring the Geometry of a Context Specific Subspace}{31}
-\contentsline {subsection}{\numberline {2.3.1}Two Measures for Probing a Subspace}{33}
-\contentsline {subsection}{\numberline {2.3.2}Replete Geometric Analysis}{38}
-\contentsline {section}{\numberline {2.4}Comparing to Alternative Approaches}{44}
-\contentsline {subsection}{\numberline {2.4.1}Static Interpretations of the Base Space}{45}
-\contentsline {subsection}{\numberline {2.4.2}A Model Trained Using a Neural Network}{47}
-\contentsline {chapter}{References}{50}
+\contentsline {section}{\numberline {1.3}Literal Dimensions of Co-Occurrence}{11}
+\contentsline {section}{\numberline {1.4}Interpretable Geometry}{15}
+\contentsline {chapter}{\numberline {2}A Computational Implementation of Context Sensitive Distributional Semantics}{21}
+\contentsline {section}{\numberline {2.1}Establishing and Analysing a Large Scale Textual Corpus}{22}
+\contentsline {section}{\numberline {2.2}Selecting Dimensions from a Sparse Co-Occurrence Matrix}{26}
+\contentsline {section}{\numberline {2.3}Exploring the Geometry of a Context Specific Subspace}{32}
+\contentsline {subsection}{\numberline {2.3.1}Two Measures for Probing a Subspace}{34}
+\contentsline {subsection}{\numberline {2.3.2}Replete Geometric Analysis}{39}
+\contentsline {section}{\numberline {2.4}Comparing to Alternative Approaches}{45}
+\contentsline {subsection}{\numberline {2.4.1}Static Interpretations of the Base Space}{46}
+\contentsline {subsection}{\numberline {2.4.2}A Model Trained Using a Neural Network}{48}
+\contentsline {chapter}{References}{51}
