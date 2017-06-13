@@ -64,6 +64,11 @@ Burgess, C. and K.~Lund (1997).
 \newblock Modelling parsing constraints with high-dimensional context space.
 \newblock {\em Language and Cognitive processes\/}~{\em 12\/}(2/3), 177--210.
 
+\bibitem[\protect\citeauthoryear{Carnap}{Carnap}{1947}]{Carnap1947}
+Carnap, R. (1947).
+\newblock {\em Meaning and Necessity: A Study in Semantics and Modal Logic}.
+\newblock University of Chicago Press.
+
 \bibitem[\protect\citeauthoryear{Carston}{Carston}{2010}]{Carston2010}
 Carston, R. (2010).
 \newblock Metaphor: Ad hoc concepts, literal meaning and mental images.
@@ -86,7 +91,7 @@ Chomsky, N. (1986).
 Clark, S. (2015).
 \newblock Vector space models of lexical meaning.
 \newblock In S.~Lappin and C.~Fox (Eds.), {\em The Handbook of Contemporary
-  Semantic Theory}. Wiley-Blackwell.
+  Semantic Theory}, pp.\  493--522. Wiley-Blackwell.
 
 \bibitem[\protect\citeauthoryear{Collobert and Weston}{Collobert and
   Weston}{2008}]{CollobertEA2008}
@@ -134,6 +139,13 @@ Erk, K. and S.~Pad\'{o} (2010).
 \newblock Exemplar-based models for word meaning in context.
 \newblock In {\em Proceedings of the ACL 2010 Conference Short Papers}, pp.\
   92--97.
+
+\bibitem[\protect\citeauthoryear{Erk and Smith}{Erk and
+  Smith}{2016}]{ErkEA2016}
+Erk, K. and N.~A. Smith (Eds.) (2016, August).
+\newblock {\em Proceedings of the 54th Annual Meeting of the Association for
+  Computational Linguistics (Volume 1: Long Papers)}.
+\newblock Berlin, Germany: Association for Computational Linguistics.
 
 \bibitem[\protect\citeauthoryear{Evans}{Evans}{2009}]{Evans2009}
 Evans, V. (2009).
@@ -202,6 +214,11 @@ Kalchbrenner, N., E.~Grefenstette, and P.~Blunsom (2014).
 \newblock In {\em Proceedings of the 52nd Annual Meeting of the Association for
   Computational Linguistics}.
 
+\bibitem[\protect\citeauthoryear{Kaplan}{Kaplan}{1979}]{Kaplan1979}
+Kaplan, D. (1979).
+\newblock On the logic of demonstratives.
+\newblock {\em Journal of Philosophical Logic\/}~{\em 8\/}(1), 81--98.
+
 \bibitem[\protect\citeauthoryear{Kartsaklis and Sadrzadeh}{Kartsaklis and
   Sadrzadeh}{2016}]{KartsaklisEA2016}
 Kartsaklis, D. and M.~Sadrzadeh (2016).
@@ -224,6 +241,21 @@ Kiela, D. and S.~Clark (2014).
 \newblock In {\em Proceedings of the 2nd Workshop on Continuous Vector Space
   Models and their Compositionality (CVSC) @ EACL 2014}, Gothenburg, pp.\
   21--30.
+
+\bibitem[\protect\citeauthoryear{Kiela, Hill, and Clark}{Kiela
+  et~al.}{2015}]{KielaEA2015}
+Kiela, D., F.~Hill, and S.~Clark (2015).
+\newblock Specializing word embeddings for similarity or relatedness.
+\newblock In {\em Proceedings of the 2015 Conference on Empirical Methods in
+  Natural Language Processing}, pp.\  2044--2048.
+
+\bibitem[\protect\citeauthoryear{Kottur, Vedantam, Moura, and Parikh}{Kottur
+  et~al.}{2016}]{KotturEA2016}
+Kottur, S., R.~Vedantam, J.~M.~F. Moura, and D.~Parikh (2016).
+\newblock Visualword2vec (vis-w2v): Learning visually grounded word embeddings
+  using abstract scenes.
+\newblock In {\em 2016 IEEE Conference on Computer Vision and Pattern
+  Recognition (CVPR)}, pp.\  4985--4994.
 
 \bibitem[\protect\citeauthoryear{Landauer, Laham, Rehder, and
   Schreiner}{Landauer et~al.}{1997}]{LandauerEA1997}
@@ -263,6 +295,28 @@ Levy, O. and Y.~Goldberg (2014).
   Weinberger (Eds.), {\em Advances in Neural Information Processing Systems
   27}, pp.\  2177--2185. Curran Associates, Inc.
 
+\bibitem[\protect\citeauthoryear{Mikolov, Chen, Corrado, and Dean}{Mikolov
+  et~al.}{2013}]{MikolovEA2013b}
+Mikolov, T., K.~Chen, G.~Corrado, and J.~Dean (2013).
+\newblock Efficient estimation of word representations in vector space.
+\newblock In {\em Proceedings of ICLR Workshop}.
+
+\bibitem[\protect\citeauthoryear{Mikolov, Sutskever, Chen, Corrado, and
+  Dean}{Mikolov et~al.}{2013}]{MikolovEA2013c}
+Mikolov, T., I.~Sutskever, K.~Chen, G.~Corrado, and J.~Dean (2013).
+\newblock Distributed representations of words and phrases and their
+  compositionality.
+\newblock In {\em Proceedings of the 26th International Conference on Neural
+  Information Processing Systems}, pp.\  3111--3119.
+
+\bibitem[\protect\citeauthoryear{Mikolov, tau Yih, and Zweig}{Mikolov
+  et~al.}{2013}]{MikolovEA2013}
+Mikolov, T., W.~tau Yih, and G.~Zweig (2013).
+\newblock Linguistic regularities in continuous space word representations.
+\newblock In {\em Proceedings of the 2013 Conference of the North American
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies}, pp.\  246--251.
+
 \bibitem[\protect\citeauthoryear{Milajevs, Sadrzadeh, and Purver}{Milajevs
   et~al.}{2016}]{MilajevsEA2016}
 Milajevs, D., M.~Sadrzadeh, and M.~Purver (2016, August).
@@ -282,6 +336,12 @@ Montague, R. (1974).
 Pad\'{o}, S. and M.~Lapata (2007).
 \newblock Dependency-based construction of semantic space models.
 \newblock {\em Computational Linguistics\/}~{\em 33\/}(2), 161--199.
+
+\bibitem[\protect\citeauthoryear{Peirce}{Peirce}{1932}]{Peirce1932}
+Peirce, C.~S. (1932).
+\newblock {\em Collected Papers of Charles Sanders Peirce}.
+\newblock Harvard University Press.
+\newblock edited by Charles Hartshorne and Paul Weiss.
 
 \bibitem[\protect\citeauthoryear{Pennington, Socher, and Manning}{Pennington
   et~al.}{2014}]{PenningtonEA2014}
@@ -308,6 +368,15 @@ Rimell, L. (2014).
 Rorty, R. (1979).
 \newblock {\em Philosophy and the Mirror of Nature}.
 \newblock Princeton University Press.
+
+\bibitem[\protect\citeauthoryear{Russell}{Russell}{1905}]{Russell1905}
+Russell, B. (1905).
+\newblock On denoting.
+\newblock {\em Mind\/}~{\em 14\/}(56), 479--493.
+
+\bibitem[\protect\citeauthoryear{Sahlgren}{Sahlgren}{}]{Sahlgren2008}
+Sahlgren, M.
+\newblock {\em Italian Journal of Linguistics\/}~{\em 20}.
 
 \bibitem[\protect\citeauthoryear{Salton, Wong, and Yang}{Salton
   et~al.}{1975}]{SaltonEA1975}

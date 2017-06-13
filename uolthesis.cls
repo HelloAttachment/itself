@@ -61,7 +61,7 @@
 \setlength{\parskip}{10pt}              % set the vertical space between paragraphs
 \setlength{\parindent}{16pt}            % set the indent of paragraphs (except the first one)
 
-\doublespacing                          % Double spacing from the beginning
+%\doublespacing                          % Double spacing from the beginning
 
 % By default, LaTeX doesn't like to fill more than 0.7 of a text page with tables and graphics,
 % nor does it like too many figures per page. This behaviour can be changed by placing lines
