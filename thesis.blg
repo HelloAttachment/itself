@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: cover.aux
@@ -6,56 +6,70 @@ A level-1 auxiliary file: ch3/Three.aux
 A level-1 auxiliary file: ch3.5/ThreePointFive.aux
 The style file: chicago.bst
 Database file #1: Mega.bib.bib
-Repeated entry---line 219 of file Mega.bib.bib
+Repeated entry---line 253 of file Mega.bib.bib
  : @incollection{Barsalou1993
  :                           ,
 I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3321 of file Mega.bib.bib
+ : 
+ : number = {1},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+A bad cross reference---entry "KielaEA2015"
+refers to entry "DBLP:conf/emnlp/2015", which doesn't exist
+Warning--I didn't find a database entry for "Putnam"
 Warning--I didn't find a database entry for "Salton1992b"
 Warning--I didn't find a database entry for "o"
+Warning--I didn't find a database entry for "Sausaurre"
+Warning--I didn't find a database entry for "DBLP:conf/emnlp/2015"
+Warning--missing author in ErkEA2016
 Warning--page numbers missing in Barsalou1993
 Warning--can't use both volume and number fields in Carston2010
 Warning--empty publisher in Jager2010
+Warning--empty year in Sahlgren2008
+Warning--empty title in Sahlgren2008
+Warning--page numbers missing in Sahlgren2008
 Warning--empty institution in VonNeumann1945
 Warning--empty publisher in Wille2005
-You've used 55 entries,
+You've used 66 entries,
             2861 wiz_defined-function locations,
-            999 strings with 15055 characters,
-and the built_in function-call counts, 38825 in all, are:
-= -- 3345
-> -- 2496
-< -- 24
-+ -- 734
-- -- 884
-* -- 3058
-:= -- 6899
-add.period$ -- 173
-call.type$ -- 55
-change.case$ -- 369
-chr.to.int$ -- 55
-cite$ -- 60
-duplicate$ -- 1307
-empty$ -- 2597
-format.name$ -- 1008
-if$ -- 7485
+            1073 strings with 17049 characters,
+and the built_in function-call counts, 46893 in all, are:
+= -- 4009
+> -- 3052
+< -- 29
++ -- 894
+- -- 1068
+* -- 3727
+:= -- 8317
+add.period$ -- 206
+call.type$ -- 66
+change.case$ -- 446
+chr.to.int$ -- 66
+cite$ -- 75
+duplicate$ -- 1580
+empty$ -- 3127
+format.name$ -- 1216
+if$ -- 9059
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 64
-newline$ -- 277
-num.names$ -- 566
-pop$ -- 413
+missing$ -- 77
+newline$ -- 332
+num.names$ -- 677
+pop$ -- 511
 preamble$ -- 1
-purify$ -- 708
+purify$ -- 855
 quote$ -- 0
-skip$ -- 1301
+skip$ -- 1560
 stack$ -- 0
-substring$ -- 2085
-swap$ -- 470
-text.length$ -- 24
+substring$ -- 2521
+swap$ -- 578
+text.length$ -- 29
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1000
-warning$ -- 5
-while$ -- 597
+type$ -- 1190
+warning$ -- 9
+while$ -- 703
 width$ -- 0
-write$ -- 764
-(There was 1 error message)
+write$ -- 912
+(There were 3 error messages)
