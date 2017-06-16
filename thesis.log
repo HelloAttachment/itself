@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.9.4)  13 JUN 2017 19:04
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.9.4)  16 JUN 2017 17:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -626,8 +626,7 @@ File: tikzlibraryshapes.arrows.code.tex 2008/01/09 v2.10 (rcs-revision 1.1)
 (/usr/share/texmf/tex/generic/pgf/libraries/shapes/pgflibraryshapes.arrows.code
 .tex
 File: pgflibraryshapes.arrows.code.tex 2008/06/26 v2.10 (rcs-revision 1.1)
-)) (./thesis.aux (./cover.aux) (./ch3/Three.aux)
-(./ch3.5/ThreePointFive.aux))
+)) (./thesis.aux (./cover.aux) (./ch4/Four.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
@@ -752,152 +751,87 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 
 
 ]
-\openout2 = `ch3/Three.aux'.
+\openout2 = `ch4/Four.aux'.
 
 
-(./ch3/Three.tex
+(./ch4/Four.tex
 Chapter 1.
+
+LaTeX Warning: Reference `chap:theory' on page 2 undefined on input line 2.
+
+
+LaTeX Warning: Reference `chap:method' on page 2 undefined on input line 2.
+
 [2
 
 
 ]
 
-LaTeX Warning: Reference `chap:similarity' on page 3 undefined on input line 22
+Package natbib Warning: Citation `AgresEA2015' on page 3 undefined on input lin
+e 11.
+
+
+Package natbib Warning: Citation `VanDerVeldeEA2015' on page 3 undefined on inp
+ut line 11.
+
+
+LaTeX Warning: Reference `chap:method' on page 3 undefined on input line 11.
+
+
+Package natbib Warning: Citation `McGregorEA2015c' on page 3 undefined on input
+ line 13.
+
+
+Package natbib Warning: Citation `Fellbaum1998' on page 3 undefined on input li
+ne 13.
+
+[3]
+
+LaTeX Warning: Reference `chap:method' on page 4 undefined on input line 18.
+
+
+LaTeX Warning: Reference `sec:twomeasures' on page 4 undefined on input line 18
 .
 
-
-LaTeX Warning: Reference `chap:figurative' on page 3 undefined on input line 22
-.
-
-[3] [4]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 31.
- (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 31.
+) [4] (./thesis.bbl [5
 
 
-Package natbib Warning: Citation `Putnam' on page 5 undefined on input line 37.
-
-
-[5]
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 107.
-
-Overfull \hbox (13.01515pt too wide) in paragraph at lines 122--123
- [][] 
- []
-
-
-Overfull \hbox (2.43332pt too wide) in paragraph at lines 47--126
-[][] [] 
- []
-
-[6]
-
-Package natbib Warning: Citation `Salton1992b' on page 7 undefined on input lin
-e 131.
-
-[7] [8] [9] [10] [11] [12]
-Overfull \hbox (2.43332pt too wide) in paragraph at lines 212--264
-[][] [] 
- []
-
-[13]) [14]
-\openout2 = `ch3.5/ThreePointFive.aux'.
-
- (./ch3.5/ThreePointFive.tex
-Chapter 2.
-[15
-
-
-
-] [16] [17]
-
-Package natbib Warning: Citation `o' on page 18 undefined on input line 29.
-
-
-Overfull \hbox (25.41173pt too wide) in paragraph at lines 33--33
-[]\OT1/cmr/bx/n/14.4 Selecting Dimen-sions from a Sparse Co-Occurrence Matrix 
- []
-
-[18] [19]
-Overfull \hbox (1.57782pt too wide) in paragraph at lines 70--71
-\OT1/cmr/m/n/10.95 straight-for-ward, since mean val-ues between word-vectors a
-re not being con-sid-ered. Where
- []
-
-[20] [21] [22]
-Overfull \hbox (6.37645pt too wide) in paragraph at lines 168--169
- [][] 
- []
-
-
-Overfull \hbox (6.37645pt too wide) in paragraph at lines 217--218
- [][] 
- []
-
-[23] [24] [25] [26] [27] [28] [29] [30]
-
-LaTeX Warning: Reference `chap:figurative' on page 31 undefined on input line 4
-67.
-
-[31]
-
-LaTeX Warning: Reference `chap:concepts' on page 32 undefined on input line 476
-.
-
-[32] [33]
-
-Package natbib Warning: Citation `Sausaurre' on page 34 undefined on input line
- 491.
-
-[34]) [35] (./thesis.bbl [36
-
-
-] [37] [38])
+] [6] [7])
 
 Package natbib Warning: There were undefined citations.
 
-[39] (./thesis.aux (./cover.aux) (./ch3/Three.aux) (./ch3.5/ThreePointFive.aux)
-)
+
+Package caption Warning: Unused \captionsetup[sub] on input line 28.
+See the caption package documentation for explanation.
+
+[8] (./thesis.aux (./cover.aux) (./ch4/Four.aux))
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 22595 strings out of 493304
- 523088 string characters out of 6139872
- 1099743 words of memory out of 5000000
- 25561 multiletter control sequences out of 15000+600000
- 18568 words of font info for 73 fonts, out of 8000000 for 9000
+ 20917 strings out of 493304
+ 479196 string characters out of 6139872
+ 610400 words of memory out of 5000000
+ 23900 multiletter control sequences out of 15000+600000
+ 14977 words of font info for 58 fonts, out of 8000000 for 9000
  958 hyphenation exceptions out of 8191
- 56i,14n,88p,3176b,3688s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,9n,74p,1334b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmtt9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/symbols/msam10.pfb>
-Output written on thesis.pdf (43 pages, 394907 bytes).
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti
+10.pfb>
+Output written on thesis.pdf (12 pages, 175240 bytes).
 PDF statistics:
- 232 PDF objects out of 1000 (max. 8388607)
- 164 compressed objects within 2 object streams
+ 90 PDF objects out of 1000 (max. 8388607)
+ 64 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
