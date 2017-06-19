@@ -19,12 +19,24 @@ Baroni, M., G.~Dinu, and G.~Kruszewski (2014).
 \newblock Don't count, predict!
 \newblock In {\em ACL 2014}.
 
+\bibitem[\protect\citeauthoryear{Barsalou}{Barsalou}{1992}]{Barsalou1992}
+Barsalou, L.~W. (1992).
+\newblock Frames, concepts, and conceptual fields.
+\newblock In A.~Lehrer and E.~F. Kittay (Eds.), {\em Frames, Fields, and
+  Contrasts: New Essays in Semantic and Lexical Organization}, pp.\  21--74.
+  Hillsdale, N.J.: Lawrence Erlbaum Associates.
+
 \bibitem[\protect\citeauthoryear{Barsalou}{Barsalou}{1993}]{Barsalou1993}
 Barsalou, L.~W. (1993).
 \newblock {\em Theories of Memory}, Chapter Flexibility, Structure, and
   Linguistic Vagary in Concepts: Manifestations of a Compositional System of
   Perceptual Symbols.
 \newblock Hove: Lawrence Erlbaum Associates.
+
+\bibitem[\protect\citeauthoryear{Barsalou}{Barsalou}{2008}]{Barsalou2008}
+Barsalou, L.~W. (2008).
+\newblock Grounded cognition.
+\newblock {\em Annual Review of Psychology\/}~{\em 59}, 617--645.
 
 \bibitem[\protect\citeauthoryear{Bateson}{Bateson}{1972}]{Bateson1972}
 Bateson, G. (1972).
@@ -72,7 +84,7 @@ Carnap, R. (1947).
 \bibitem[\protect\citeauthoryear{Carston}{Carston}{2010}]{Carston2010}
 Carston, R. (2010).
 \newblock Metaphor: Ad hoc concepts, literal meaning and mental images.
-\newblock In {\em Proceedings of the Aristotelian Society}, Volume~CX, pp.\
+\newblock In {\em Proceedings of the Aristotelian Society}, Volume 110, pp.\
   297--323.
 
 \bibitem[\protect\citeauthoryear{Casasanto and Lupyan}{Casasanto and
@@ -86,6 +98,11 @@ Casasanto, D. and G.~Lupyan (2015).
 Chomsky, N. (1986).
 \newblock {\em Knowledge of Language: Its Nature, Origins, and Use}.
 \newblock New York, NY: Praeger.
+
+\bibitem[\protect\citeauthoryear{Clark}{Clark}{2006}]{Clark2006}
+Clark, A. (2006).
+\newblock Language, embodiment, and the cognitive niche.
+\newblock {\em Trends in Cognitive Sciences\/}~{\em 10\/}(8), 370--374.
 
 \bibitem[\protect\citeauthoryear{Clark}{Clark}{2015}]{Clark2015}
 Clark, S. (2015).
@@ -358,11 +375,28 @@ Polajnar, T. and S.~Clark (2014).
 \newblock In {\em Proceedings of the 14th Conference of the European Chapter of
   the Association for Computational Linguistics}, pp.\  230--238.
 
+\bibitem[\protect\citeauthoryear{Pustejovsky}{Pustejovsky}{1995}]{Pustejovsky1995}
+Pustejovsky, J. (1995).
+\newblock {\em The Generative Lexicon}.
+\newblock Cambridge, MA: MIT Press.
+
+\bibitem[\protect\citeauthoryear{Putnam}{Putnam}{1975}]{Putnam1975}
+Putnam, H. (1975).
+\newblock The meaning of ``meaning''.
+\newblock In K.~Gunderson (Ed.), {\em Language, Mind, and Knowledge}, pp.\
+  131--193. University of Minnesota Press.
+
 \bibitem[\protect\citeauthoryear{Rimell}{Rimell}{2014}]{Rimell2014}
 Rimell, L. (2014).
 \newblock Distributional lexical entailment by topic coherence.
 \newblock In {\em Proceedings of the 14th Conference of the European Chapter of
   the Association for Computational Linguistics}, Gothenburg.
+
+\bibitem[\protect\citeauthoryear{R\k{a}czaszek-Leonardi}{R\k{a}czaszek-Leonardi}{2012}]{RaczaszekLeonardi2012}
+R\k{a}czaszek-Leonardi, J. (2012).
+\newblock Language as a system of replicable constraints.
+\newblock In H.~H. Pattee and J.~R\k{a}czaszek-Leonardi (Eds.), {\em Laws,
+  Lanuage and Life}, pp.\  295--333. Springer.
 
 \bibitem[\protect\citeauthoryear{Rorty}{Rorty}{1979}]{Rorty1979}
 Rorty, R. (1979).
@@ -374,9 +408,10 @@ Russell, B. (1905).
 \newblock On denoting.
 \newblock {\em Mind\/}~{\em 14\/}(56), 479--493.
 
-\bibitem[\protect\citeauthoryear{Sahlgren}{Sahlgren}{}]{Sahlgren2008}
-Sahlgren, M.
-\newblock {\em Italian Journal of Linguistics\/}~{\em 20}.
+\bibitem[\protect\citeauthoryear{Sahlgren}{Sahlgren}{2008}]{Sahlgren2008}
+Sahlgren, M. (2008).
+\newblock The distributional hypothesis.
+\newblock {\em Italian Journal of Linguistics\/}~{\em 20\/}(1), 33--54.
 
 \bibitem[\protect\citeauthoryear{Salton, Wong, and Yang}{Salton
   et~al.}{1975}]{SaltonEA1975}
@@ -384,6 +419,13 @@ Salton, G., A.~Wong, and C.~S. Yang (1975).
 \newblock A vector space model for automatic indexing.
 \newblock In {\em Proceedings of the 12th ACM SIGIR Conference}, pp.\
   137--150.
+
+\bibitem[\protect\citeauthoryear{Sch\"{u}tze}{Sch\"{u}tze}{1992}]{Schutze1992b}
+Sch\"{u}tze, H. (1992).
+\newblock Context space.
+\newblock In R.~Goldman, P.~Norvig, E.~Charniak, and B.~Gale (Eds.), {\em
+  Working Notes of the AAAI Fall Symposium on Probabilistic Approaches to
+  Natural Language}, pp.\  113--120.
 
 \bibitem[\protect\citeauthoryear{Schwartz, Reichart, and Rappoport}{Schwartz
   et~al.}{2015}]{SchwartzEA2015}
@@ -397,7 +439,7 @@ Schwartz, R., R.~Reichart, and A.~Rappoport (2015).
   Neumann}{1945}]{VonNeumann1945}
 von Neumann, J. (1945).
 \newblock First draft of a report on the edvac.
-\newblock Technical report.
+\newblock Technical report, University of Pennsylvania.
 
 \bibitem[\protect\citeauthoryear{von Uexk\"{u}ll}{von
   Uexk\"{u}ll}{1957}]{VonUexkull1957}
