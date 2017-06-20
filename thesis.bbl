@@ -1,482 +1,441 @@
 \begin{thebibliography}{}
 
-\bibitem[\protect\citeauthoryear{Abdi and Williams}{Abdi and
-  Williams}{2010}]{AbdiEA2010}
-Abdi, H. and L.~J. Williams (2010).
+\bibitem[Abdi and Williams, 2010]{AbdiEA2010}
+Abdi, H. and Williams, L.~J. (2010).
 \newblock Principal component analysis.
-\newblock {\em Wiley Interdisciplinary Reviews: Computational
-  Statistics\/}~{\em 2\/}(4), 433--459.
+\newblock {\em Wiley Interdisciplinary Reviews: Computational Statistics},
+  2(4):433--459.
 
-\bibitem[\protect\citeauthoryear{Baroni, Bernardi, and Zamparelli}{Baroni
-  et~al.}{2014}]{BaroniEA2014b}
-Baroni, M., R.~Bernardi, and R.~Zamparelli (2014).
+\bibitem[Baroni et~al., 2014a]{BaroniEA2014b}
+Baroni, M., Bernardi, R., and Zamparelli, R. (2014a).
 \newblock Frege in space: A program for compositional distributional semantics.
-\newblock {\em Linguistic Issues in Language Technology\/}~{\em 9}, 241--346.
+\newblock {\em Linguistic Issues in Language Technology}, 9:241--346.
 
-\bibitem[\protect\citeauthoryear{Baroni, Dinu, and Kruszewski}{Baroni
-  et~al.}{2014}]{BaroniEA2014}
-Baroni, M., G.~Dinu, and G.~Kruszewski (2014).
+\bibitem[Baroni et~al., 2014b]{BaroniEA2014}
+Baroni, M., Dinu, G., and Kruszewski, G. (2014b).
 \newblock Don't count, predict!
 \newblock In {\em ACL 2014}.
 
-\bibitem[\protect\citeauthoryear{Barsalou}{Barsalou}{1992}]{Barsalou1992}
+\bibitem[Barsalou, 1992]{Barsalou1992}
 Barsalou, L.~W. (1992).
 \newblock Frames, concepts, and conceptual fields.
-\newblock In A.~Lehrer and E.~F. Kittay (Eds.), {\em Frames, Fields, and
-  Contrasts: New Essays in Semantic and Lexical Organization}, pp.\  21--74.
-  Hillsdale, N.J.: Lawrence Erlbaum Associates.
+\newblock In Lehrer, A. and Kittay, E.~F., editors, {\em Frames, Fields, and
+  Contrasts: New Essays in Semantic and Lexical Organization}, pages 21--74.
+  Lawrence Erlbaum Associates, Hillsdale, N.J.
 
-\bibitem[\protect\citeauthoryear{Barsalou}{Barsalou}{1993}]{Barsalou1993}
+\bibitem[Barsalou, 1993]{Barsalou1993}
 Barsalou, L.~W. (1993).
-\newblock {\em Theories of Memory}, Chapter Flexibility, Structure, and
+\newblock {\em Theories of Memory}, chapter Flexibility, Structure, and
   Linguistic Vagary in Concepts: Manifestations of a Compositional System of
   Perceptual Symbols.
-\newblock Hove: Lawrence Erlbaum Associates.
+\newblock Lawrence Erlbaum Associates, Hove.
 
-\bibitem[\protect\citeauthoryear{Barsalou}{Barsalou}{2008}]{Barsalou2008}
+\bibitem[Barsalou, 2008]{Barsalou2008}
 Barsalou, L.~W. (2008).
 \newblock Grounded cognition.
-\newblock {\em Annual Review of Psychology\/}~{\em 59}, 617--645.
+\newblock {\em Annual Review of Psychology}, 59:617--645.
 
-\bibitem[\protect\citeauthoryear{Bateson}{Bateson}{1972}]{Bateson1972}
+\bibitem[Bateson, 1972]{Bateson1972}
 Bateson, G. (1972).
 \newblock {\em Steps to an Ecology of Mind: Collected Essays in Anthropology,
   Psychiatry, Evolution, and Epistemology}.
-\newblock London: Jason Aronson Inc.
+\newblock Jason Aronson Inc., London.
 
-\bibitem[\protect\citeauthoryear{Bengio, Ducharme, Vincent, and Jauvin}{Bengio
-  et~al.}{2003}]{BengioEA2003}
-Bengio, Y., R.~Ducharme, P.~Vincent, and C.~Jauvin (2003).
+\bibitem[Bengio et~al., 2003]{BengioEA2003}
+Bengio, Y., Ducharme, R., Vincent, P., and Jauvin, C. (2003).
 \newblock A neural probabilistic language model.
-\newblock {\em Journal of Machine Learning Research\/}~{\em 3}, 1137--1155.
+\newblock {\em Journal of Machine Learning Research}, 3:1137--1155.
 
-\bibitem[\protect\citeauthoryear{Birkhoff}{Birkhoff}{1958}]{Birkhoff1958}
-Birkhoff, G. (1958, 05).
+\bibitem[Birkhoff, 1958]{Birkhoff1958}
+Birkhoff, G. (1958).
 \newblock Von neumann and lattice theory.
-\newblock {\em Bulletin of the American Mathematical Society\/}~{\em 64},
-  50--56.
+\newblock {\em Bulletin of the American Mathematical Society}, 64:50--56.
 
-\bibitem[\protect\citeauthoryear{Bruni, Tran, and Baroni}{Bruni
-  et~al.}{2014}]{BruniEA2014}
-Bruni, E., N.~K. Tran, and M.~Baroni (2014).
+\bibitem[Bruni et~al., 2014]{BruniEA2014}
+Bruni, E., Tran, N.~K., and Baroni, M. (2014).
 \newblock Multimodal distributional semantics.
-\newblock {\em Journal of Artificial Intelligence Research\/}~{\em 49\/}(1),
-  1--47.
+\newblock {\em Journal of Artificial Intelligence Research}, 49(1):1--47.
 
-\bibitem[\protect\citeauthoryear{Bullinaria and Levy}{Bullinaria and
-  Levy}{2012}]{BullinariaEA2012}
-Bullinaria, J.~A. and J.~P. Levy (2012).
+\bibitem[Bullinaria and Levy, 2012]{BullinariaEA2012}
+Bullinaria, J.~A. and Levy, J.~P. (2012).
 \newblock Extracting semantic representations from word co-occurrence
   statistics: stop-lists, stemming, and svd.
-\newblock {\em Behavior Research Methods\/}~{\em 44\/}(3), 890--907.
+\newblock {\em Behavior Research Methods}, 44(3):890--907.
 
-\bibitem[\protect\citeauthoryear{Burgess and Lund}{Burgess and
-  Lund}{1997}]{BurgessEA1997}
-Burgess, C. and K.~Lund (1997).
+\bibitem[Burgess and Lund, 1997]{BurgessEA1997}
+Burgess, C. and Lund, K. (1997).
 \newblock Modelling parsing constraints with high-dimensional context space.
-\newblock {\em Language and Cognitive processes\/}~{\em 12\/}(2/3), 177--210.
+\newblock {\em Language and Cognitive processes}, 12(2/3):177--210.
 
-\bibitem[\protect\citeauthoryear{Carnap}{Carnap}{1947}]{Carnap1947}
+\bibitem[Carnap, 1947]{Carnap1947}
 Carnap, R. (1947).
 \newblock {\em Meaning and Necessity: A Study in Semantics and Modal Logic}.
 \newblock University of Chicago Press.
 
-\bibitem[\protect\citeauthoryear{Carston}{Carston}{2010}]{Carston2010}
+\bibitem[Carston, 2010]{Carston2010}
 Carston, R. (2010).
 \newblock Metaphor: Ad hoc concepts, literal meaning and mental images.
-\newblock In {\em Proceedings of the Aristotelian Society}, Volume 110, pp.\
+\newblock In {\em Proceedings of the Aristotelian Society}, volume 110, pages
   297--323.
 
-\bibitem[\protect\citeauthoryear{Casasanto and Lupyan}{Casasanto and
-  Lupyan}{2015}]{Casasanto2015}
-Casasanto, D. and G.~Lupyan (2015).
+\bibitem[Casasanto and Lupyan, 2015]{Casasanto2015}
+Casasanto, D. and Lupyan, G. (2015).
 \newblock All concepts are ad hoc concepts.
-\newblock In E.~Margolis and S.~Laurence (Eds.), {\em The Conceptual Mind: New
-  Directions in the Study of Concepts}. Cambridge, MA: MIT Press.
+\newblock In Margolis, E. and Laurence, S., editors, {\em The Conceptual Mind:
+  New Directions in the Study of Concepts}. MIT Press, Cambridge, MA.
 
-\bibitem[\protect\citeauthoryear{Chomsky}{Chomsky}{1986}]{Chomsky1986}
+\bibitem[Chomsky, 1986]{Chomsky1986}
 Chomsky, N. (1986).
 \newblock {\em Knowledge of Language: Its Nature, Origins, and Use}.
-\newblock New York, NY: Praeger.
+\newblock Praeger, New York, NY.
 
-\bibitem[\protect\citeauthoryear{Clark}{Clark}{2006}]{Clark2006}
+\bibitem[Clark, 2006]{Clark2006}
 Clark, A. (2006).
 \newblock Language, embodiment, and the cognitive niche.
-\newblock {\em Trends in Cognitive Sciences\/}~{\em 10\/}(8), 370--374.
+\newblock {\em Trends in Cognitive Sciences}, 10(8):370--374.
 
-\bibitem[\protect\citeauthoryear{Clark}{Clark}{2015}]{Clark2015}
+\bibitem[Clark, 2015]{Clark2015}
 Clark, S. (2015).
 \newblock Vector space models of lexical meaning.
-\newblock In S.~Lappin and C.~Fox (Eds.), {\em The Handbook of Contemporary
-  Semantic Theory}, pp.\  493--522. Wiley-Blackwell.
+\newblock In Lappin, S. and Fox, C., editors, {\em The Handbook of Contemporary
+  Semantic Theory}, pages 493--522. Wiley-Blackwell.
 
-\bibitem[\protect\citeauthoryear{Collobert and Weston}{Collobert and
-  Weston}{2008}]{CollobertEA2008}
-Collobert, R. and J.~Weston (2008).
+\bibitem[Collobert and Weston, 2008]{CollobertEA2008}
+Collobert, R. and Weston, J. (2008).
 \newblock A unified architecture for natural language processing: Deep neural
   networks with multitask learning.
 \newblock In {\em Proceedings of the 25th International Conference on Machine
-  Learning}, pp.\  160--167.
+  Learning}, pages 160--167.
 
-\bibitem[\protect\citeauthoryear{Deerwester, Dumais, Furnas, Landauer, and
-  Harshman}{Deerwester et~al.}{1990}]{DeerwesterEA1990}
-Deerwester, S., S.~T. Dumais, G.~W. Furnas, T.~K. Landauer, and R.~Harshman
+\bibitem[Deerwester et~al., 1990]{DeerwesterEA1990}
+Deerwester, S., Dumais, S.~T., Furnas, G.~W., Landauer, T.~K., and Harshman, R.
   (1990).
 \newblock Indexing by latent semantic analysis.
-\newblock {\em Journal for the American Society for Information Science\/}~{\em
-  41\/}(6), 391--407.
+\newblock {\em Journal for the American Society for Information Science},
+  41(6):391--407.
 
-\bibitem[\protect\citeauthoryear{Derrac and Schockaert}{Derrac and
-  Schockaert}{2015}]{DerracEA2015}
-Derrac, J. and S.~Schockaert (2015).
+\bibitem[Derrac and Schockaert, 2015]{DerracEA2015}
+Derrac, J. and Schockaert, S. (2015).
 \newblock Inducing semantic relations from conceptual spaces: {A} data-driven
   approach to plausible reasoning.
-\newblock {\em Artificial Intelligence\/}~{\em 228}, 66--94.
+\newblock {\em Artificial Intelligence}, 228:66--94.
 
-\bibitem[\protect\citeauthoryear{Dreyfus}{Dreyfus}{2012}]{Dreyfus2012}
+\bibitem[Dreyfus, 2012]{Dreyfus2012}
 Dreyfus, H.~L. (2012).
 \newblock A history of first step fallacies.
-\newblock {\em Minds and Machines\/}~{\em 22\/}(2), 87--99.
+\newblock {\em Minds and Machines}, 22(2):87--99.
 
-\bibitem[\protect\citeauthoryear{Dummett}{Dummett}{1981}]{Dummett1981}
+\bibitem[Dummett, 1981]{Dummett1981}
 Dummett, M. (1981).
-\newblock {\em Frege: Philosophy of Language\/} (2nd ed.).
-\newblock London: Duckworth.
+\newblock {\em Frege: Philosophy of Language}.
+\newblock Duckworth, London, 2nd edition.
 
-\bibitem[\protect\citeauthoryear{Erk and Pad\'{o}}{Erk and
-  Pad\'{o}}{2008}]{ErkEA2008}
-Erk, K. and S.~Pad\'{o} (2008).
+\bibitem[Erk and Pad\'{o}, 2008]{ErkEA2008}
+Erk, K. and Pad\'{o}, S. (2008).
 \newblock A structured vector space model for word meaning in context.
 \newblock In {\em Proceedings of the Conference on Empirical Methods in Natural
-  Language Processing}, EMNLP '08, pp.\  897--906.
+  Language Processing}, EMNLP '08, pages 897--906.
 
-\bibitem[\protect\citeauthoryear{Erk and Pad\'{o}}{Erk and
-  Pad\'{o}}{2010}]{ErkEA2010}
-Erk, K. and S.~Pad\'{o} (2010).
+\bibitem[Erk and Pad\'{o}, 2010]{ErkEA2010}
+Erk, K. and Pad\'{o}, S. (2010).
 \newblock Exemplar-based models for word meaning in context.
-\newblock In {\em Proceedings of the ACL 2010 Conference Short Papers}, pp.\
+\newblock In {\em Proceedings of the ACL 2010 Conference Short Papers}, pages
   92--97.
 
-\bibitem[\protect\citeauthoryear{Erk and Smith}{Erk and
-  Smith}{2016}]{ErkEA2016}
-Erk, K. and N.~A. Smith (Eds.) (2016, August).
+\bibitem[Erk and Smith, 2016]{ErkEA2016}
+Erk, K. and Smith, N.~A., editors (2016).
 \newblock {\em Proceedings of the 54th Annual Meeting of the Association for
   Computational Linguistics (Volume 1: Long Papers)}.
-\newblock Berlin, Germany: Association for Computational Linguistics.
+\newblock Association for Computational Linguistics, Berlin, Germany.
 
-\bibitem[\protect\citeauthoryear{Evans}{Evans}{2009}]{Evans2009}
+\bibitem[Evans, 2009]{Evans2009}
 Evans, V. (2009).
 \newblock {\em How Words Mean: Lexical Concepts, Cognitive Models, and Meaning
   Construction}.
 \newblock Oxford University Press.
 
-\bibitem[\protect\citeauthoryear{Gabrilovich and Markovitch}{Gabrilovich and
-  Markovitch}{2007}]{GabrilovichEA2007}
-Gabrilovich, E. and S.~Markovitch (2007).
+\bibitem[Gabrilovich and Markovitch, 2007]{GabrilovichEA2007}
+Gabrilovich, E. and Markovitch, S. (2007).
 \newblock Computing semantic relatedness using wikipedia-based explicit
   semantic analysis.
 \newblock In {\em Proceedings of the 20th International Joint Conference on
-  Artifical Intelligence}, pp.\  1606--1611.
+  Artifical Intelligence}, pages 1606--1611.
 
-\bibitem[\protect\citeauthoryear{G{\"a}rdenfors}{G{\"a}rdenfors}{2000}]{Gardenfors2000}
+\bibitem[G{\"a}rdenfors, 2000]{Gardenfors2000}
 G{\"a}rdenfors, P. (2000).
 \newblock {\em Conceptual Space: The Geometry of Thought}.
-\newblock Cambridge, MA: The MIT Press.
+\newblock The MIT Press, Cambridge, MA.
 
-\bibitem[\protect\citeauthoryear{G{\"a}rdenfors}{G{\"a}rdenfors}{2014}]{Gardenfors2014}
+\bibitem[G{\"a}rdenfors, 2014]{Gardenfors2014}
 G{\"a}rdenfors, P. (2014).
 \newblock {\em The Geometry of Meaning: Semantics Based on Conceptual Spaces}.
 \newblock The MIT Press.
 
-\bibitem[\protect\citeauthoryear{Geffet and Dagan}{Geffet and
-  Dagan}{2005}]{GeffetEA2005}
-Geffet, M. and I.~Dagan (2005).
+\bibitem[Geffet and Dagan, 2005]{GeffetEA2005}
+Geffet, M. and Dagan, I. (2005).
 \newblock The distributional inclusion hypotheses and lexical entailment.
 \newblock In {\em Proceedings of the 43rd Annual Meeting on Association for
-  Computational Linguistics}, pp.\  107--114.
+  Computational Linguistics}, pages 107--114.
 
-\bibitem[\protect\citeauthoryear{Grice}{Grice}{1975}]{Grice1975}
+\bibitem[Grice, 1975]{Grice1975}
 Grice, H.~P. (1975).
 \newblock Logic and conversation.
-\newblock In P.~Cole and J.~L. Morgan (Eds.), {\em Syntax and Semantics Volume
-  3: Speech Acts}, pp.\  41--58. New York: Academic Press.
+\newblock In Cole, P. and Morgan, J.~L., editors, {\em Syntax and Semantics
+  Volume 3: Speech Acts}, pages 41--58. Academic Press, New York.
 
-\bibitem[\protect\citeauthoryear{Guti{\'{e}}rrez, Shutova, Marghetis, and
-  Bergen}{Guti{\'{e}}rrez et~al.}{2016}]{GutierrezEA2016}
-Guti{\'{e}}rrez, E.~D., E.~Shutova, T.~Marghetis, and B.~K. Bergen (2016).
+\bibitem[Guti{\'{e}}rrez et~al., 2016]{GutierrezEA2016}
+Guti{\'{e}}rrez, E.~D., Shutova, E., Marghetis, T., and Bergen, B.~K. (2016).
 \newblock Literal and metaphorical senses in compositional distributional
   semantic models.
 \newblock In {\em Proceedings of the 54th Annual Meeting of the Association for
   Computational Linguistics}.
 
-\bibitem[\protect\citeauthoryear{Hill and Korhonen}{Hill and
-  Korhonen}{2014}]{HillEA2014}
-Hill, F. and A.~Korhonen (2014).
+\bibitem[Hill and Korhonen, 2014]{HillEA2014}
+Hill, F. and Korhonen, A. (2014).
 \newblock Learning abstract concept embeddings from multi-modal data: Since you
   probably can't see what {I} mean.
 \newblock In {\em Proceedings of the 2014 Conference on Empirical Methods in
-  Natural Language Processing}, pp.\  255--265.
+  Natural Language Processing}, pages 255--265.
 
-\bibitem[\protect\citeauthoryear{J{\"a}ger}{J{\"a}ger}{2010}]{Jager2010}
+\bibitem[J{\"a}ger, 2010]{Jager2010}
 J{\"a}ger, G. (2010).
 \newblock Natural color categories are convex sets.
-\newblock In M.~Aloni, H.~Bastiaanse, T.~de~Jager, and K.~Schulz (Eds.), {\em
-  Logic, Language and Meaning: 17th Amsterdam Colloquium, Amsterdam, The
-  Netherlands, December 16-18, 2009, Revised Selected Papers}, pp.\  11--20.
+\newblock In Aloni, M., Bastiaanse, H., de~Jager, T., and Schulz, K., editors,
+  {\em Logic, Language and Meaning: 17th Amsterdam Colloquium, Amsterdam, The
+  Netherlands, December 16-18, 2009, Revised Selected Papers}, pages 11--20.
 
-\bibitem[\protect\citeauthoryear{Kalchbrenner, Grefenstette, and
-  Blunsom}{Kalchbrenner et~al.}{2014}]{KalchbrennerEA2014}
-Kalchbrenner, N., E.~Grefenstette, and P.~Blunsom (2014).
+\bibitem[Kalchbrenner et~al., 2014]{KalchbrennerEA2014}
+Kalchbrenner, N., Grefenstette, E., and Blunsom, P. (2014).
 \newblock A convolutional neural network for modelling sentences.
 \newblock In {\em Proceedings of the 52nd Annual Meeting of the Association for
   Computational Linguistics}.
 
-\bibitem[\protect\citeauthoryear{Kaplan}{Kaplan}{1979}]{Kaplan1979}
+\bibitem[Kaplan, 1979]{Kaplan1979}
 Kaplan, D. (1979).
 \newblock On the logic of demonstratives.
-\newblock {\em Journal of Philosophical Logic\/}~{\em 8\/}(1), 81--98.
+\newblock {\em Journal of Philosophical Logic}, 8(1):81--98.
 
-\bibitem[\protect\citeauthoryear{Kartsaklis and Sadrzadeh}{Kartsaklis and
-  Sadrzadeh}{2016}]{KartsaklisEA2016}
-Kartsaklis, D. and M.~Sadrzadeh (2016).
+\bibitem[Kartsaklis and Sadrzadeh, 2016]{KartsaklisEA2016}
+Kartsaklis, D. and Sadrzadeh, M. (2016).
 \newblock Distributional inclusion hypothesis for tensor-based composition.
 \newblock In {\em {COLING} 2016, 26th International Conference on Computational
   Linguistics, Proceedings of the Conference: Technical Papers, December 11-16,
-  2016, Osaka, Japan}, pp.\  2849--2860.
+  2016, Osaka, Japan}, pages 2849--2860.
 
-\bibitem[\protect\citeauthoryear{Kay and Maffi}{Kay and
-  Maffi}{1999}]{KayEA1999}
-Kay, P. and L.~Maffi (1999).
+\bibitem[Kay and Maffi, 1999]{KayEA1999}
+Kay, P. and Maffi, L. (1999).
 \newblock Color appearances and the emergence and evolution of basic color
   lexicons.
-\newblock {\em American Anthropologist\/}~{\em 101\/}(4), 743--760.
+\newblock {\em American Anthropologist}, 101(4):743--760.
 
-\bibitem[\protect\citeauthoryear{Kiela and Clark}{Kiela and
-  Clark}{2014}]{KielaEA2014}
-Kiela, D. and S.~Clark (2014).
+\bibitem[Kiela and Clark, 2014]{KielaEA2014}
+Kiela, D. and Clark, S. (2014).
 \newblock A systematic study of semantic vector space model parameters.
 \newblock In {\em Proceedings of the 2nd Workshop on Continuous Vector Space
-  Models and their Compositionality (CVSC) @ EACL 2014}, Gothenburg, pp.\
-  21--30.
+  Models and their Compositionality (CVSC) @ EACL 2014}, pages 21--30,
+  Gothenburg.
 
-\bibitem[\protect\citeauthoryear{Kiela, Hill, and Clark}{Kiela
-  et~al.}{2015}]{KielaEA2015}
-Kiela, D., F.~Hill, and S.~Clark (2015).
+\bibitem[Kiela et~al., 2015]{KielaEA2015}
+Kiela, D., Hill, F., and Clark, S. (2015).
 \newblock Specializing word embeddings for similarity or relatedness.
 \newblock In {\em Proceedings of the 2015 Conference on Empirical Methods in
-  Natural Language Processing}, pp.\  2044--2048.
+  Natural Language Processing}, pages 2044--2048.
 
-\bibitem[\protect\citeauthoryear{Kottur, Vedantam, Moura, and Parikh}{Kottur
-  et~al.}{2016}]{KotturEA2016}
-Kottur, S., R.~Vedantam, J.~M.~F. Moura, and D.~Parikh (2016).
+\bibitem[Kottur et~al., 2016]{KotturEA2016}
+Kottur, S., Vedantam, R., Moura, J. M.~F., and Parikh, D. (2016).
 \newblock Visualword2vec (vis-w2v): Learning visually grounded word embeddings
   using abstract scenes.
 \newblock In {\em 2016 IEEE Conference on Computer Vision and Pattern
-  Recognition (CVPR)}, pp.\  4985--4994.
+  Recognition (CVPR)}, pages 4985--4994.
 
-\bibitem[\protect\citeauthoryear{Landauer, Laham, Rehder, and
-  Schreiner}{Landauer et~al.}{1997}]{LandauerEA1997}
-Landauer, T., D.~Laham, B.~Rehder, and M.~E. Schreiner (1997).
+\bibitem[Landauer et~al., 1997]{LandauerEA1997}
+Landauer, T., Laham, D., Rehder, B., and Schreiner, M.~E. (1997).
 \newblock How well can passage meaning be derived without using word order? a
   comparison of latent semantic analysis and humans.
 \newblock In {\em Proceedings of the 19th Annual Conference of the Cognitive
-  Science Society}, pp.\  412--417.
+  Science Society}, pages 412--417.
 
-\bibitem[\protect\citeauthoryear{Lapesa and Evert}{Lapesa and
-  Evert}{2013}]{LapesaEA2013}
-Lapesa, G. and S.~Evert (2013, August).
+\bibitem[Lapesa and Evert, 2013]{LapesaEA2013}
+Lapesa, G. and Evert, S. (2013).
 \newblock Evaluating neighbor rank and distance measures as predictors of
   semantic priming.
 \newblock In {\em Proceedings of the Fourth Annual Workshop on Cognitive
-  Modeling and Computational Linguistics (CMCL)}, Sofia, Bulgaria, pp.\
-  66--74. Association for Computational Linguistics.
+  Modeling and Computational Linguistics (CMCL)}, pages 66--74, Sofia,
+  Bulgaria. Association for Computational Linguistics.
 
-\bibitem[\protect\citeauthoryear{Lapesa and Evert}{Lapesa and
-  Evert}{2014}]{LapesaEA2014}
-Lapesa, G. and S.~Evert (2014).
+\bibitem[Lapesa and Evert, 2014]{LapesaEA2014}
+Lapesa, G. and Evert, S. (2014).
 \newblock A large scale evaluation of distributional semantic models:
   Parameters, interactions and model selection.
-\newblock {\em Transactions of the Association for Computational
-  Linguistics\/}~{\em 2}, 531--545.
+\newblock {\em Transactions of the Association for Computational Linguistics},
+  2:531--545.
 
-\bibitem[\protect\citeauthoryear{Levinson}{Levinson}{2001}]{Levinson2001}
+\bibitem[Levinson, 2001]{Levinson2001}
 Levinson, S.~C. (2001).
 \newblock Y\'{e}l\^{i} dnye and the theory of basic color terms.
-\newblock {\em Journal of Linguistic Anthropology\/}~{\em 10\/}(1), 3--55.
+\newblock {\em Journal of Linguistic Anthropology}, 10(1):3--55.
 
-\bibitem[\protect\citeauthoryear{Levy and Goldberg}{Levy and
-  Goldberg}{2014}]{LevyEA2014b}
-Levy, O. and Y.~Goldberg (2014).
+\bibitem[Levy and Goldberg, 2014]{LevyEA2014b}
+Levy, O. and Goldberg, Y. (2014).
 \newblock Neural word embedding as implicit matrix factorization.
-\newblock In Z.~Ghahramani, M.~Welling, C.~Cortes, N.~D. Lawrence, and K.~Q.
-  Weinberger (Eds.), {\em Advances in Neural Information Processing Systems
-  27}, pp.\  2177--2185. Curran Associates, Inc.
+\newblock In Ghahramani, Z., Welling, M., Cortes, C., Lawrence, N.~D., and
+  Weinberger, K.~Q., editors, {\em Advances in Neural Information Processing
+  Systems 27}, pages 2177--2185. Curran Associates, Inc.
 
-\bibitem[\protect\citeauthoryear{Mikolov, Chen, Corrado, and Dean}{Mikolov
-  et~al.}{2013}]{MikolovEA2013b}
-Mikolov, T., K.~Chen, G.~Corrado, and J.~Dean (2013).
+\bibitem[Mikolov et~al., 2013a]{MikolovEA2013b}
+Mikolov, T., Chen, K., Corrado, G., and Dean, J. (2013a).
 \newblock Efficient estimation of word representations in vector space.
 \newblock In {\em Proceedings of ICLR Workshop}.
 
-\bibitem[\protect\citeauthoryear{Mikolov, Sutskever, Chen, Corrado, and
-  Dean}{Mikolov et~al.}{2013}]{MikolovEA2013c}
-Mikolov, T., I.~Sutskever, K.~Chen, G.~Corrado, and J.~Dean (2013).
+\bibitem[Mikolov et~al., 2013b]{MikolovEA2013c}
+Mikolov, T., Sutskever, I., Chen, K., Corrado, G., and Dean, J. (2013b).
 \newblock Distributed representations of words and phrases and their
   compositionality.
 \newblock In {\em Proceedings of the 26th International Conference on Neural
-  Information Processing Systems}, pp.\  3111--3119.
+  Information Processing Systems}, pages 3111--3119.
 
-\bibitem[\protect\citeauthoryear{Mikolov, tau Yih, and Zweig}{Mikolov
-  et~al.}{2013}]{MikolovEA2013}
-Mikolov, T., W.~tau Yih, and G.~Zweig (2013).
+\bibitem[Mikolov et~al., 2013c]{MikolovEA2013}
+Mikolov, T., tau Yih, W., and Zweig, G. (2013c).
 \newblock Linguistic regularities in continuous space word representations.
 \newblock In {\em Proceedings of the 2013 Conference of the North American
   Chapter of the Association for Computational Linguistics: Human Language
-  Technologies}, pp.\  246--251.
+  Technologies}, pages 246--251.
 
-\bibitem[\protect\citeauthoryear{Milajevs, Sadrzadeh, and Purver}{Milajevs
-  et~al.}{2016}]{MilajevsEA2016}
-Milajevs, D., M.~Sadrzadeh, and M.~Purver (2016, August).
+\bibitem[Milajevs et~al., 2016]{MilajevsEA2016}
+Milajevs, D., Sadrzadeh, M., and Purver, M. (2016).
 \newblock Robust co-occurrence quantification for lexical distributional
   semantics.
-\newblock In {\em Proceedings of the ACL 2016 Student Research Workshop},
-  Berlin, Germany, pp.\  58--64. Association for Computational Linguistics.
+\newblock In {\em Proceedings of the ACL 2016 Student Research Workshop}, pages
+  58--64, Berlin, Germany. Association for Computational Linguistics.
 
-\bibitem[\protect\citeauthoryear{Montague}{Montague}{1974}]{Montague1974}
+\bibitem[Montague, 1974]{Montague1974}
 Montague, R. (1974).
 \newblock English as a formal language.
-\newblock In R.~H. Thompson (Ed.), {\em Formal Philosophy: selected papers of
-  Richard Montague}. New Haven, CT: Yale University Press.
+\newblock In Thompson, R.~H., editor, {\em Formal Philosophy: selected papers
+  of Richard Montague}. Yale University Press, New Haven, CT.
 
-\bibitem[\protect\citeauthoryear{Pad\'{o} and Lapata}{Pad\'{o} and
-  Lapata}{2007}]{PadoEA2007}
-Pad\'{o}, S. and M.~Lapata (2007).
+\bibitem[Pad\'{o} and Lapata, 2007]{PadoEA2007}
+Pad\'{o}, S. and Lapata, M. (2007).
 \newblock Dependency-based construction of semantic space models.
-\newblock {\em Computational Linguistics\/}~{\em 33\/}(2), 161--199.
+\newblock {\em Computational Linguistics}, 33(2):161--199.
 
-\bibitem[\protect\citeauthoryear{Peirce}{Peirce}{1932}]{Peirce1932}
+\bibitem[Peirce, 1932]{Peirce1932}
 Peirce, C.~S. (1932).
 \newblock {\em Collected Papers of Charles Sanders Peirce}.
 \newblock Harvard University Press.
 \newblock edited by Charles Hartshorne and Paul Weiss.
 
-\bibitem[\protect\citeauthoryear{Pennington, Socher, and Manning}{Pennington
-  et~al.}{2014}]{PenningtonEA2014}
-Pennington, J., R.~Socher, and C.~D. Manning (2014).
+\bibitem[Pennington et~al., 2014]{PenningtonEA2014}
+Pennington, J., Socher, R., and Manning, C.~D. (2014).
 \newblock Glove: Global vectors for word representation.
 \newblock In {\em Conference on Empirical Methods in Natural Language
   Processing}.
 
-\bibitem[\protect\citeauthoryear{Polajnar and Clark}{Polajnar and
-  Clark}{2014}]{PolajnarEA2014}
-Polajnar, T. and S.~Clark (2014).
+\bibitem[Polajnar and Clark, 2014]{PolajnarEA2014}
+Polajnar, T. and Clark, S. (2014).
 \newblock Improving distributional semantic vectors through context selection
   and normalisation.
 \newblock In {\em Proceedings of the 14th Conference of the European Chapter of
-  the Association for Computational Linguistics}, pp.\  230--238.
+  the Association for Computational Linguistics}, pages 230--238.
 
-\bibitem[\protect\citeauthoryear{Pustejovsky}{Pustejovsky}{1995}]{Pustejovsky1995}
+\bibitem[Pustejovsky, 1995]{Pustejovsky1995}
 Pustejovsky, J. (1995).
 \newblock {\em The Generative Lexicon}.
-\newblock Cambridge, MA: MIT Press.
+\newblock MIT Press, Cambridge, MA.
 
-\bibitem[\protect\citeauthoryear{Putnam}{Putnam}{1975}]{Putnam1975}
+\bibitem[Putnam, 1975]{Putnam1975}
 Putnam, H. (1975).
 \newblock The meaning of ``meaning''.
-\newblock In K.~Gunderson (Ed.), {\em Language, Mind, and Knowledge}, pp.\
+\newblock In Gunderson, K., editor, {\em Language, Mind, and Knowledge}, pages
   131--193. University of Minnesota Press.
 
-\bibitem[\protect\citeauthoryear{Rimell}{Rimell}{2014}]{Rimell2014}
+\bibitem[Rimell, 2014]{Rimell2014}
 Rimell, L. (2014).
 \newblock Distributional lexical entailment by topic coherence.
 \newblock In {\em Proceedings of the 14th Conference of the European Chapter of
   the Association for Computational Linguistics}, Gothenburg.
 
-\bibitem[\protect\citeauthoryear{R\k{a}czaszek-Leonardi}{R\k{a}czaszek-Leonardi}{2012}]{RaczaszekLeonardi2012}
+\bibitem[R\k{a}czaszek-Leonardi, 2012]{RaczaszekLeonardi2012}
 R\k{a}czaszek-Leonardi, J. (2012).
 \newblock Language as a system of replicable constraints.
-\newblock In H.~H. Pattee and J.~R\k{a}czaszek-Leonardi (Eds.), {\em Laws,
-  Lanuage and Life}, pp.\  295--333. Springer.
+\newblock In Pattee, H.~H. and R\k{a}czaszek-Leonardi, J., editors, {\em Laws,
+  Lanuage and Life}, pages 295--333. Springer.
 
-\bibitem[\protect\citeauthoryear{Rorty}{Rorty}{1979}]{Rorty1979}
+\bibitem[Rorty, 1979]{Rorty1979}
 Rorty, R. (1979).
 \newblock {\em Philosophy and the Mirror of Nature}.
 \newblock Princeton University Press.
 
-\bibitem[\protect\citeauthoryear{Russell}{Russell}{1905}]{Russell1905}
+\bibitem[Russell, 1905]{Russell1905}
 Russell, B. (1905).
 \newblock On denoting.
-\newblock {\em Mind\/}~{\em 14\/}(56), 479--493.
+\newblock {\em Mind}, 14(56):479--493.
 
-\bibitem[\protect\citeauthoryear{Sahlgren}{Sahlgren}{2008}]{Sahlgren2008}
+\bibitem[Sahlgren, 2008]{Sahlgren2008}
 Sahlgren, M. (2008).
 \newblock The distributional hypothesis.
-\newblock {\em Italian Journal of Linguistics\/}~{\em 20\/}(1), 33--54.
+\newblock {\em Italian Journal of Linguistics}, 20(1):33--54.
 
-\bibitem[\protect\citeauthoryear{Salton, Wong, and Yang}{Salton
-  et~al.}{1975}]{SaltonEA1975}
-Salton, G., A.~Wong, and C.~S. Yang (1975).
+\bibitem[Salton et~al., 1975]{SaltonEA1975}
+Salton, G., Wong, A., and Yang, C.~S. (1975).
 \newblock A vector space model for automatic indexing.
-\newblock In {\em Proceedings of the 12th ACM SIGIR Conference}, pp.\
+\newblock In {\em Proceedings of the 12th ACM SIGIR Conference}, pages
   137--150.
 
-\bibitem[\protect\citeauthoryear{Sch\"{u}tze}{Sch\"{u}tze}{1992}]{Schutze1992b}
+\bibitem[Sch\"{u}tze, 1992]{Schutze1992b}
 Sch\"{u}tze, H. (1992).
 \newblock Context space.
-\newblock In R.~Goldman, P.~Norvig, E.~Charniak, and B.~Gale (Eds.), {\em
+\newblock In Goldman, R., Norvig, P., Charniak, E., and Gale, B., editors, {\em
   Working Notes of the AAAI Fall Symposium on Probabilistic Approaches to
-  Natural Language}, pp.\  113--120.
+  Natural Language}, pages 113--120.
 
-\bibitem[\protect\citeauthoryear{Schwartz, Reichart, and Rappoport}{Schwartz
-  et~al.}{2015}]{SchwartzEA2015}
-Schwartz, R., R.~Reichart, and A.~Rappoport (2015).
+\bibitem[Schwartz et~al., 2015]{SchwartzEA2015}
+Schwartz, R., Reichart, R., and Rappoport, A. (2015).
 \newblock Symmetric pattern based word embeddings for improved word similarity
   prediction.
 \newblock In {\em Proceedings of the 19th Conference on Computational Natural
-  Language Learning}, pp.\  258--267.
+  Language Learning}, pages 258--267.
 
-\bibitem[\protect\citeauthoryear{von Neumann}{von
-  Neumann}{1945}]{VonNeumann1945}
+\bibitem[von Neumann, 1945]{VonNeumann1945}
 von Neumann, J. (1945).
 \newblock First draft of a report on the edvac.
 \newblock Technical report, University of Pennsylvania.
 
-\bibitem[\protect\citeauthoryear{von Uexk\"{u}ll}{von
-  Uexk\"{u}ll}{1957}]{VonUexkull1957}
+\bibitem[von Uexk\"{u}ll, 1957]{VonUexkull1957}
 von Uexk\"{u}ll, J. (1957).
 \newblock A stroll through the worlds of animals and men: A picture book of
   invisible worlds.
-\newblock In C.~H. Schiller (Ed.), {\em Instinctive Behavior: The Development
-  of a Modern Concept}, pp.\  5--80. New York City, NY: International
-  Universities Press, Inc.
+\newblock In Schiller, C.~H., editor, {\em Instinctive Behavior: The
+  Development of a Modern Concept}, pages 5--80. International Universities
+  Press, Inc., New York City, NY.
 
-\bibitem[\protect\citeauthoryear{Widdows}{Widdows}{2003}]{Widdows2003}
+\bibitem[Widdows, 2003]{Widdows2003}
 Widdows, D. (2003).
 \newblock Orthogonal negation in vector spaces for modelling word-meanings and
   document retrieval.
 \newblock In {\em Proceedings of the 41st Annual Meeting on Association for
-  Computational Linguistics - Volume 1}, pp.\  136--143.
+  Computational Linguistics - Volume 1}, pages 136--143.
 
-\bibitem[\protect\citeauthoryear{Widdows}{Widdows}{2004}]{Widdows2004}
+\bibitem[Widdows, 2004]{Widdows2004}
 Widdows, D. (2004).
 \newblock {\em Geometry and Meaning}.
-\newblock Stanford, CA: CSLI Publications.
+\newblock CSLI Publications, Stanford, CA.
 
-\bibitem[\protect\citeauthoryear{Wilks}{Wilks}{1978}]{Wilks1978}
+\bibitem[Wilks, 1978]{Wilks1978}
 Wilks, Y. (1978).
 \newblock Making preferences more active.
-\newblock {\em Artificial Intelligence\/}~{\em 11\/}(3), 197--223.
+\newblock {\em Artificial Intelligence}, 11(3):197--223.
 
-\bibitem[\protect\citeauthoryear{Wille}{Wille}{1982}]{Wille1982}
+\bibitem[Wille, 1982]{Wille1982}
 Wille, R. (1982).
 \newblock Restructuring lattice theory: an approach based on hierarchies of
   concepts.
-\newblock In I.~Rival (Ed.), {\em Ordered Sets}, Dordrecht/Boston, pp.\
-  445--470. Reidel.
+\newblock In Rival, I., editor, {\em Ordered Sets}, pages 445--470,
+  Dordrecht/Boston. Reidel.
 
-\bibitem[\protect\citeauthoryear{Wille}{Wille}{2005}]{Wille2005}
+\bibitem[Wille, 2005]{Wille2005}
 Wille, R. (2005).
 \newblock {\em Formal Concept Analysis as Mathematical Theory of Concepts and
-  Concept Hierarchies}, pp.\  1--33.
+  Concept Hierarchies}, pages 1--33.
 
 \end{thebibliography}

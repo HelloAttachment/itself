@@ -1,59 +1,57 @@
-This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: cover.aux
 A level-1 auxiliary file: ch3/Three.aux
 A level-1 auxiliary file: ch3.5/ThreePointFive.aux
-The style file: chicago.bst
+The style file: apalike.bst
 Database file #1: Mega.bib.bib
 Warning--I'm ignoring Sahlgren2008's extra "volume" field
 --line 3364 of file Mega.bib.bib
 Warning--I didn't find a database entry for "o"
 Warning--I didn't find a database entry for "Sausaurre"
-Warning--missing author in ErkEA2016
-Warning--page numbers missing in Barsalou1993
 Warning--can't use both volume and number fields in Carston2010
 Warning--empty publisher in Jager2010
 Warning--empty publisher in Wille2005
 You've used 73 entries,
-            2861 wiz_defined-function locations,
-            1119 strings with 18064 characters,
-and the built_in function-call counts, 51563 in all, are:
-= -- 4425
-> -- 3268
-< -- 33
-+ -- 951
-- -- 1147
-* -- 4045
-:= -- 9145
+            1935 wiz_defined-function locations,
+            978 strings with 16900 characters,
+and the built_in function-call counts, 31061 in all, are:
+= -- 3113
+> -- 965
+< -- 89
++ -- 330
+- -- 299
+* -- 2288
+:= -- 5047
 add.period$ -- 231
 call.type$ -- 73
-change.case$ -- 488
-chr.to.int$ -- 73
-cite$ -- 78
-duplicate$ -- 1758
-empty$ -- 3488
-format.name$ -- 1295
-if$ -- 9976
-int.to.chr$ -- 1
+change.case$ -- 489
+chr.to.int$ -- 70
+cite$ -- 76
+duplicate$ -- 1445
+empty$ -- 2456
+format.name$ -- 412
+if$ -- 6525
+int.to.chr$ -- 4
 int.to.str$ -- 0
 missing$ -- 85
 newline$ -- 368
-num.names$ -- 755
-pop$ -- 540
+num.names$ -- 244
+pop$ -- 575
 preamble$ -- 1
-purify$ -- 939
+purify$ -- 501
 quote$ -- 0
-skip$ -- 1741
+skip$ -- 1085
 stack$ -- 0
-substring$ -- 2844
-swap$ -- 649
+substring$ -- 2260
+swap$ -- 344
 text.length$ -- 33
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1320
-warning$ -- 5
-while$ -- 792
+type$ -- 410
+warning$ -- 3
+while$ -- 276
 width$ -- 0
-write$ -- 1016
-(There were 8 warnings)
+write$ -- 964
+(There were 6 warnings)

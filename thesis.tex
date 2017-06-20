@@ -28,9 +28,12 @@
 \usepackage{subcaption}
 \usepackage{pgfplots}
 \usepackage{tikz}
+%\usepackage[maxnames=4,minnames=3,maxbibnames=99]{biblatex}
 \usetikzlibrary{positioning}
 
 \usetikzlibrary{shapes.arrows}
+
+%\let\cite\shortcite
 
 \newcommand{\citepos}[1]{\citeauthor{#1}'s \citeyearpar{#1}}
 \newcommand{\citeposs}[1]{\citeauthor{#1}' \citeyearpar{#1}}
@@ -68,6 +71,8 @@
 %\setcounter{page}{1}
 \pagenumbering{arabic}
 
+\setcounter{chapter}{2}
+
 % Start the main context
 %\include{ch0/ch0}
 %\include{ch1/ch1}
@@ -79,7 +84,7 @@
 %\include{ch6/ch6}
 %\include{ch7/ch7}
 
-\bibliographystyle{chicago}
+\bibliographystyle{apalike}
 \bibliography{Mega.bib}
 
 % Start the appendix (inc. author's publications)
