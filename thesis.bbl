@@ -6,6 +6,11 @@ Abdi, H. and Williams, L.~J. (2010).
 \newblock {\em Wiley Interdisciplinary Reviews: Computational Statistics},
   2(4):433--459.
 
+\bibitem[Austin, 1962]{Austin1962}
+Austin, J.~L. (1962).
+\newblock {\em How to do things with words}.
+\newblock William James Lectures. Oxford University Press.
+
 \bibitem[Baroni et~al., 2014a]{BaroniEA2014b}
 Baroni, M., Bernardi, R., and Zamparelli, R. (2014a).
 \newblock Frege in space: A program for compositional distributional semantics.
@@ -88,6 +93,11 @@ Casasanto, D. and Lupyan, G. (2015).
 Chomsky, N. (1986).
 \newblock {\em Knowledge of Language: Its Nature, Origins, and Use}.
 \newblock Praeger, New York, NY.
+
+\bibitem[Clark, 1997]{Clark1997}
+Clark, A. (1997).
+\newblock {\em Being There: Putting Brain, Body, and World Together Again}.
+\newblock MIT Press, Cambridge, MA.
 
 \bibitem[Clark, 2006]{Clark2006}
 Clark, A. (2006).
@@ -177,6 +187,11 @@ Geffet, M. and Dagan, I. (2005).
 \newblock In {\em Proceedings of the 43rd Annual Meeting on Association for
   Computational Linguistics}, pages 107--114.
 
+\bibitem[Gibson, 1979]{Gibson1979}
+Gibson, J.~J. (1979).
+\newblock {\em The Ecological Approach to Visual Perception}.
+\newblock Houghton Miffline, Boston.
+
 \bibitem[Grice, 1975]{Grice1975}
 Grice, H.~P. (1975).
 \newblock Logic and conversation.
@@ -203,6 +218,12 @@ J{\"a}ger, G. (2010).
 \newblock In Aloni, M., Bastiaanse, H., de~Jager, T., and Schulz, K., editors,
   {\em Logic, Language and Meaning: 17th Amsterdam Colloquium, Amsterdam, The
   Netherlands, December 16-18, 2009, Revised Selected Papers}, pages 11--20.
+
+\bibitem[Jurafsky and Martin, 2000]{JurafskyEA2000}
+Jurafsky, D. and Martin, J.~H. (2000).
+\newblock {\em Speech and Language Processing: An Introduction to Natural
+  Language Processing, Computational Linguistics, and Speech Recognition}.
+\newblock Prentice Hall PTR, Upper Saddle River, NJ, USA, 1st edition.
 
 \bibitem[Kalchbrenner et~al., 2014]{KalchbrennerEA2014}
 Kalchbrenner, N., Grefenstette, E., and Blunsom, P. (2014).
@@ -371,11 +392,6 @@ Russell, B. (1905).
 \newblock On denoting.
 \newblock {\em Mind}, 14(56):479--493.
 
-\bibitem[Sahlgren, 2008]{Sahlgren2008}
-Sahlgren, M. (2008).
-\newblock The distributional hypothesis.
-\newblock {\em Italian Journal of Linguistics}, 20(1):33--54.
-
 \bibitem[Salton et~al., 1975]{SaltonEA1975}
 Salton, G., Wong, A., and Yang, C.~S. (1975).
 \newblock A vector space model for automatic indexing.
@@ -395,6 +411,14 @@ Schwartz, R., Reichart, R., and Rappoport, A. (2015).
   prediction.
 \newblock In {\em Proceedings of the 19th Conference on Computational Natural
   Language Learning}, pages 258--267.
+
+\bibitem[Socher et~al., 2013]{SocherEA2013b}
+Socher, R., Perelygin, A., Wu, J., Chuang, J., Manning, C.~D., Ng, A., and
+  Potts, C. (2013).
+\newblock Recursive deep models for semantic compositionality over a sentiment
+  treebank.
+\newblock In {\em Proceedings of the 2013 Conference on Empirical Methods in
+  Natural Language Processing}, pages 1631--1642.
 
 \bibitem[von Neumann, 1945]{VonNeumann1945}
 von Neumann, J. (1945).
