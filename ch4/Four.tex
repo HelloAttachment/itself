@@ -12,40 +12,37 @@ An early version of this experiment was reported in \cite{AgresEA2015}.  That fi
 
 Reviewer responses to a subsequent journal article \citep{McGregorEA2015c}, designed as a more thorough introduction of the methodology, inspired a computationally oriented mode of evaluation.  The experiment that has emerged involves attempting to recapitulate taxonomical conceptual relationships from the WordNet database \citep{Fellbaum1998}.  Wordnet is a lexical taxonomy of \emph{synsets}, basically semantic word senses, arranged into a hierarchy of entailment relationships, with each synset associate with a number of \emph{lemmas}, word types indexed by that synset according to human annotators.  This experiment takes as input instances of synsets labelled by compound noun phrases and seeks to output as many of the lemmas listed associated with synsets that are hyponyms of the input synset.  So, for instance, the synset \text{body part} has a hyponym \textsc{external body part}, which has a hyponym \textsc{extremity}, which has a synset \textsc{limb}, which has a synset \textsc{leg} associated with the lemma \emph{leg}, and so \emph{leg} would be considered a positive output for the input \emph{body part}.\footnote{In keeping with the convention used elsewhere in this thesis, synset labels will be presented in small caps and lemmas will be presented in italics.}
 
-\subsection{Experiment Set-Up}
+\subsection{Experimental Set-Up}
 12 of the top synset labels consisting of compound noun phrases are extracted from WordNet.  These labels are extracted through a breadth first traversal of the tree of noun synsets, selecting the highest 12 synsets with multi-word labels with the constraint that none of the 12 can be parent nodes of any of the others: in this way, 12 distinct, non-overlapping conceptual categories are choosen.  The experimental vocabulary is considered to be the intersection of the list of all WordNet noun lemmas associated with the vocabulary of my model (the 200,000 most frequent word types in Wikipedia), resulting in a total vocabulary of 32,155 words.  The lemmas associated with all the hyponyms of each synset are extracted and grouped, and these words become the target words for my models' output.
 
-With the input and target output established, the terms labelling a given synset are passed to my model, with the corresponding word-vectors serving as the basis for dimensional selection using the \textsc{joint}, \textsc{indy}, and \textsc{zipped} techniques as outlined in Chapter~\ref{chap:method}.  The subspaces returned by each of these techniques are explored to return the top terms using both of the procedures outlined in Chapter~\ref{sec:twomeasures}: the terms closes to the mean point between the input word-vectors in a subspace are returned, and the terms furthest from the origin -- the terms with the largest norm -- in a given subspace are returned.  The top 50 terms found in a subspace each according to each measure are returned, as well as the top terms up to a limit $n$ where $n$ is the total number of lemmas associated with the target multi-word label.  Accurracy scores for each of these sets of output are computed, so the total number of positive matches for hyponyms of the input synset out of the top 50 and top $n$ terms returned.
+With the target output established, the terms labelling a given synset are passed to my model as contextual input, with the corresponding word-vectors serving as the basis for dimensional selection using the \textsc{joint}, \textsc{indy}, and \textsc{zipped} techniques as outlined in Chapter~\ref{chap:method}.  Here, the base space generated using a 5x5 word co-occurrence window is used, and 200 dimensional subspaces are returned; variations of these parameters will be tested in subsequent experiments.  The subspaces returned by each of these techniques are explored to return the top terms using both of the procedures outlined in Chapter~\ref{sec:twomeasures}: the terms closes to the mean point between the input word-vectors in a subspace are returned, and the terms furthest from the origin -- the terms with the largest norm -- in a given subspace are returned.  The top 50 terms found in a subspace each according to each measure are returned, as well as the top terms up to a limit $n$ where $n$ is the total number of lemmas associated with the target multi-word label.  Accuracy scores for each of these sets of output are computed, so the total number of positive matches for hyponyms of the input synset out of the top 50 and top $n$ terms returned.
 
-As a point of comparison, results are likewise returned from two different \texttt{word2vec} models, one using the skip-gram methodology and one using the bag-of-words methodology, as described in Chapter~\ref{sec:w2v}.  Here the top terms in terms of proximity by cosine similarity to the mean point between the word-vectors associated with the input terms are returned, again taking the top 50 and top $n$ for each input.
+As a point of comparison, results are likewise returned from two different \texttt{word2vec} models, one using the skip-gram methodology and one using the bag-of-words methodology, as described in Chapter~\ref{sec:w2v}.  In line with the subspaces generated using my methodology, 200 dimensional models are used, and these models are built across 10 iterations of the corpus, using a 5x5 word co-occurrence window, applying a negative sampling rate of 10 and an initial learning rate of 0.025, as discussed in Chapter~\ref{sec:w2v}.  Here the top terms in terms of proximity by cosine similarity to the mean point between the word-vectors associated with the input terms are returned, again taking the top 50 and top $n$ for each input.
 
 \subsection{Results and Analysis}
+Results for the set-up described in the previous section can be found in Table~\ref{tab:wordnet}, with both the average accuracy scores and the average ratio of model accuracy to baseline reported.  Results for both the norm and distance from mean point methods are reported for subspaces derived using the \textsc{joint}, \textsc{indy}, and \textsc{zipped} dimension selection techniques, followed by results for the skip-gram and bag-of-words \texttt{word2vec} techniques.  The first thing to note about these results is that all of the results are substantially above the baseline: the average ratios of model accuracy to the baseline (the likely accuracy achieved by randomly choosing words from the vocabulary for each input) are all above 2.5, and are above 3.2 for all of my methodologies.  So it is clear that all these techniques are generating semantically significant relationships between word-vectors.
 
 \begin{table}
 \centering
-\begin{tabular}{lrrrrrrrrrrrrrr}
+\begin{tabular}{llrrrrrrrrrrrr|rr}
 \hline
-&&& \multicolumn{2}{c}{\textsc{joint}} & \multicolumn{2}{c}{\textsc{indy}} & \multicolumn{2}{c}{\textsc{zipped}} \\
-& \textsc{SG} & \textsc{BoW} & norm & dist & norm & dist & norm & dist \\
+&& \multicolumn{2}{c}{\textsc{joint}} & \multicolumn{2}{c}{\textsc{indy}} & \multicolumn{2}{c}{\textsc{zipped}} & \multicolumn{2}{c}{} \\
+&& norm & dist & norm & dist & norm & \multicolumn{1}{r}{dist} & \textsc{SG} & \textsc{BoW} \\
 \hline
-top-50 & 6.230 & 6.584 & 8.726 & 6.208 & 7.725 & 5.014 & 9.311 & 5.774 \\
-full & 3.413 & 3.634 & 4.144 & 3.203 & 3.686 & 3.005 & 3.945 & 3.093 \\
+\multirow{2}{*}{top-50} & accuracy & 0.292 & 0.208 & 0.240 & 0.189 & 0.273 & \multicolumn{1}{r|}{0.199} & 0.247 & 0.270 \\
+& ratio & 10.304 & 6.129 & 7.731 & 5.270 & 8.625 & \multicolumn{1}{r|}{5.719} & 6.733 & 7.168 \\
+\hline
+\multirow{2}{*}{full} & accuracy & 0.235 & 0.160 & 0.198 & 0.149 & 0.210 & \multicolumn{1}{r|}{0.153} & 0.081 & 0.079 \\
+& ratio & 4.967 & 3.525 & 3.967 & 2.997 & 4.290 & \multicolumn{1}{r|}{3.221} & 2.397 & 2.551 \\
 \hline
 \end{tabular}
-\caption{accurracy scores for the top 
+\caption{Average accuracy scores and average ratio of accuracy to baseline for reconstructing the lemmas entailed by 12 different multi-word WordNet synsets, for both the top 50 terms returned by models and the full set of terms returned up to the number of lemmas associated with each input.}
+\label{tab:wordnet}
 \end{table}
 
-\begin{table}
-\centering
-\begin{tabular}{lrrrrrrrrrrrrrr}
-\hline
-&&& \multicolumn{2}{c}{\textsc{joint}} & \multicolumn{2}{c}{\textsc{indy}} & \multicolumn{2}{c}{\textsc{zipped}} \\
-& \textsc{SG} & \textsc{BoW} & norm & dist & norm & dist & norm & dist \\
-\hline
-top-50 & 6.733 & 7.168 & 10.304 & 6.129 & 7.731 & 5.270 & 8.625 & 5.719 \\
-full & 2.397 & 2.551 & 4.967 & 3.525 & 3.967 & 2.997 & 4.290 & 3.221 \\
-\hline
-\end{tabular}
-\caption{accurracy scores for the top 
-\end{table}
+Results across the board are strongest for the \textsc{joint} dimension selection technique applying the norm measure for returning output: in these subspaces selected by choosing dimensions with high PMI values across all contextual inputs, word-vectors that are far from the orgins -- and that therefore likewise tend to have high values across all these dimensions -- are most characteristic of the conceptual category indicated by the input.  This is not surprising.  Results for the norm measure applied to \textsc{zipped} and \textsc{indy} type subspaces follow in kind, with intermediary performance from the in-between \textsc{zipped} technique, where all dimensions bear at least some tendency for co-occurrence with the input terms, and then another step down for the \textsc{indy} subspaces.  In all cases the norm measure outperforms the two \texttt{word2vec} results.
+
+More surprising is the distinction between the strong performance of the norm measures and the less impressive performance of the mean point measure.  In the case of accuracy among the top 50 terms returned by each model, my methodologies results using this Euclidean measure consistently fall short of the \texttt{word2vec} techniques.  It would seem, then, that in the subspaces returned by my models, proximity to the input word-vectors is not in itself an indicator of categorical inclusion in the conceptual space traced by the intersection of the correspond contextual input terms.  Upon further consideration, there is a plausible explanation for this: revisiting the outputs for subspaces projected using denotations of animals as input, reported last chapter in Tables~\ref{tab:wild} and~\ref{tab:pet}, the norm measure produced specialised terms such as \emph{chital} and \emph{poodle}, while the distance measure generated relevant but not always categorical terms such as \emph{wild}, \emph{giant}, and \emph{golden}.
+
+SOME EXAMPLES
 

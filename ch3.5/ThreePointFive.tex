@@ -283,7 +283,7 @@ In the cases of both the distance from mean and norm measures, a threshold could
 %\label{tab:tops}
 %\end{table}
 
-\begin{table}
+\begin{table} \label{tab:wild}
 \centering
 \begin{tabular}{lll|lll}
 \hline
@@ -310,7 +310,7 @@ sloth & panther & which & gules & golden & one \\
 
 Examples of the tendencies of both norms and relative distances are explored in Table~\ref{tab:tops-wild} and Table~\ref{tab:tops-pet}, where, as with the examples offered earlier in this chapter, input terms denoting things exemplary of the respective concepts \textsc{wild animals} and \textsc{pets} are used to generate subspaces, in this case using both the \textsc{joint} and \textsc{indy} dimension selection techniques, once again using a base space built using a 5x5 word co-occurrence window.  In these cases, the top 200 dimensions derived using each technique have been used to project subspaces, and then within those subspaces, the top ten word-vectors based on their norm and their distance from the mean point between the input word-vectors are reported.  In addition to the two geometric measures described above, as a point of comparison, I also present results using an angular measure, where the word-vectors with the highest cosine similarity with the vector of the mean point between the input word-vectors are returned.  This is offered as an approximation of what would be a typical approach in a standard static distributional model, to demonstrate why this measure doesn't work for the context sensitive spaces built using my methodology and also as a mechanism for further exploration of what's happening in these subspaces.
 
-\begin{table}
+\begin{table} \label{tab:pet}
 \centering
 \begin{tabular}{lll|lll}
 \hline
@@ -492,6 +492,45 @@ generic points & $C/M$, \quad $C/X$, \quad $M/X$ \\
 \noindent These features have been selected as indicative of the overall comportment of the subspaces from which they are extracted, and, both independently and in conjunction, are expected to serve as indicators of the semantic phenomena characteristic of the word-vectors used to generate the subspace into which they are projected.  So, for instance, I will predict (incorrectly, it turns out) that the distance $\overline{AB}$ will be one of the strongest indicators of semantic relatedness.  Furthermore, the extrapolation of the generic features of a subspace is expected to indicate more general patterns of co-occurrence that are associated with semantic phenomena such as similarity and metaphor.  When dimensions with similar mean value are jointly selected by a pair of words, a (more correct) expectation will be that this indicates a high degree of conceptual overlap between the words' referents, and therefore a high degree of similarity.
 
 As a more general hypothesis, I surmise that different sets of geometric features will collectively be predictive of different semantic phenomena.  One of the primary objectives of the empirical work described in the next two chapters will be to establish a methodology for mapping features to phenomena and then using these correspondences as a mechanism for understanding the statistical characteristics that allow for the computational extraction of semantically and contextually useful information from large scale corpora.  It will therefore ultimately be the comparison of the groupings of features corresponding to specific semantic phenomena that will provide the most significant outputs of the research reported here, and so the arrangement of features in terms of types and categories as outlined in Table~\ref{tab:features} is in this regard a schematic for the computational experimentation and corresponding evaluation and analysis at the core of this thesis.
+
+\section{A Mathematical Justification for Geometric Analysis}
+The application of geometry as a productive analytical tool for extrapolating semantic information from contextualised co-occurrence statistics has been, thus far, presented as a somewhat intuitive decision.  There is certainly a certain elegance to using quantifiable distances and angles as the analytical representation of choice, and this approach will, it will be seen, assist in the visualisation of what's happening statistically in the subspaces produced by my model.  Notwithstanding these benefits, this section will offer a more mathematically thorough explanation of why a geometric approach is the right one for the types of statistics that are being used here, and in probabilistic models in general.
+
+In order to understand the usefulness of geometry, it is worthwhile to consider again the information theoretical nature of the statistics being used here, and more generally in a plethora of distributional semantic models.  Specifically, revisiting and restating Equation~\ref{eq:MI}, the scalars of the base model are defined by considering a ratio of frequencies approximately equivalent to a ratio of probabilities:
+
+\begin{equation}
+PMI(w,c) \approx \log\left(\frac{p(w,c)}{p(w) \times p(c)}\right)
+\end{equation}
+
+\noindent In other words, PMI values are logarithms of probabilities, and logarithms have the natural property of translating products and ratios into sums and differences.  So, for instance, if we have an operation such as $PMI(w_1,c)-PMI(w_2,c)$, we can interpret this as being equivalent to a logarithm of the product of the conditional probabilities of the co-occurrences of $w_1$ and $w_2$ given $c$, mitigated by the inverse probability of $c$:
+
+\begin{equation} \label{eq:logdif}
+PMI(w_1,c)-PMI(w_2,c) \approx \log\left(p(c|w_1) \times p(c|w_2)\right)-\log p(c)
+\end{equation}
+
+\noindent Next it must be noted that many of the geometric features described in Table~\ref{tab:features} involve precisely the kind of operation described in Equation~\ref{eq:logdif}.  In particular the distance between two word vectors, in linear algebraic terms, correlates with the sum of the squares of the point-by-point differences between the scalars of the two vectors, or, in other words, the sum of the squares of a sequence of logarithms of products of conditional probabilities:
+
+\begin{equation} \label{eq:vecdif}
+\overrightarrow{w_1}-\overrightarrow{w_2} \approx \sqrt{\sum\left(log\left(p(c|w_1) \times p(c|w_2)\right)-\log p(c)\right)^2}
+\end{equation}
+
+\noindent Because a product of probabilities is itself a conditional probability ($p(a) \times p(b) = p(a,b)$), and because the square of a logarithm is the logarithm of the argument to it's own power ($\log^2a = \log a^a$), distances under the geometric regime I've outlined can be understood as essentially highly compounded probabilities, or, in other words, Bayesian inferences about complex concatenations of linguistic co-occurrence events.
+
+Now, regarding the expression $\log p(c)$ on the right hand side of Equations~\ref{eq:logdif} and~\ref{eq:vecdif}, this value will be stable for all word-vectors across a given dimension, and so effectively becomes a skewing constant, universally shifting the relationship of word-vectors to the origin, but not to one another.  The same holds for the various measures involving the distance between word-vectors and the generic points of a subspace, and, as will be seen in subsequent chapters, linear combinations of features not involving the origin turn out to be most predictive of a variety of semantic phenomena.
+
+Furthermore, a similar skewing effect can be observed in the approximate nature of the equations offered above.  In Equation~\ref{eq:MI}, the addition of the constant $a$ is a necessary feature of the calculation, as, without it, our subspace selection technique drifts into obscurity, picking dimensions containing very little useful information.  The addition of 1 to the ratio of frequencies, which is a convenient move given the geometric desirability of having an entirely non-negative space, turns out to also be a mathematically effective move, as it somewhat offsets the skewing effects of $a$.  In fact, given the constant value $W$ and the mean values for $f_w$ and $f_c$, it turn out that the addition of 1 to the overall ratio pretty nearly offsets the addition of $a$ to $f_c$ in the denominator, so, in the average case, these two constants restore the natural PMI value of $w$ co-occurring with $c$ as though it were simply a logarithm of a joint probability.  As we move away from the average frequencies, there is a bit of a twisting of the space, but on the whole these constants preserve the relationships of word-vectors fairly well well contributing some very desirable qualities to the space overall.
+
+The implication of this insight into the mathematics of information theory is that many of the geometric relationships described in Table~\ref{tab:features} are in fact encodings of complex Bayesian inferences about the way that words are expected to co-occur with one another.
+
+Moreover, linear combinations of these features will likewise be 
+
+With this understanding of the mathematics of distributional semantics in place, we can now effectively use the techniques of machine learning -- linear regression, logistic regression, feature selection methods, and so forth -- to learn geometric relationships which can subsequently be converted into Bayesian 
+
+and just such an approach will be applied to considerable effect in the following chapters.
+
+So, finally, we see how the \emph{geometrisation}, so to speak, of the co-occurrence statistics inherent in a textual corpus are an effective way not just to help humans visualise these relationships between frequencies, but also to provide a computationally tractable mechanism for handling the state-space of belief-quantities.
+
+
 
 This more or less sets the stage for the empirical section of the thesis.  The only outstanding issue is the establishment of the models which will serve as consistent points of comparison for my methodology.
 
