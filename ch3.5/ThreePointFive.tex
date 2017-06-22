@@ -502,19 +502,30 @@ In order to understand the usefulness of geometry, it is worthwhile to consider 
 PMI(w,c) \approx \log\left(\frac{p(w,c)}{p(w) \times p(c)}\right)
 \end{equation}
 
-\noindent In other words, PMI values are logarithms of probabilities, and logarithms have the natural property of translating products and ratios into sums and differences.  So, for instance, if we have an operation such as $PMI(w_1,c)-PMI(w_2,c)$, we can interpret this as being equivalent to a logarithm of the product of the conditional probabilities of the co-occurrences of $w_1$ and $w_2$ given $c$, mitigated by the inverse probability of $c$:
+\noindent In other words, PMI values are logarithms of probabilities, and logarithms have the natural property of translating products and ratios into sums and differences.  So, for instance, if we have an operation such as $PMI(w_1,c)-PMI(w_2,c)$, we can express this as a log of a ratio of products of probabilities, with the term $p(c)$ dropping out of the equation:
+
+\begin{equation}
+PMI(w_1,c)-PMI(w_2,c) \approx \log\left(\frac{p(w_1,c) \times p(w_2)}{p(w_2,c) \times p(w_1)}\right)
+\end{equation}
+
+\noindent This, in turn, actually just reduces to a product of conditional probabilities:
 
 \begin{equation} \label{eq:logdif}
-PMI(w_1,c)-PMI(w_2,c) \approx \log\left(p(c|w_1) \times p(c|w_2)\right)-\log p(c)
+||PMI(w_1,c)-PMI(w_2,c)|| \approx \log\left(p(c|w_1) \times p(c|w_2)\right)
 \end{equation}
 
-\noindent Next it must be noted that many of the geometric features described in Table~\ref{tab:features} involve precisely the kind of operation described in Equation~\ref{eq:logdif}.  In particular the distance between two word vectors, in linear algebraic terms, correlates with the sum of the squares of the point-by-point differences between the scalars of the two vectors, or, in other words, the sum of the squares of a sequence of logarithms of products of conditional probabilities:
+\noindent Next it must be noted that the construction of many of the geometric features described in Table~\ref{tab:features} involves precisely the kind of operation described in Equation~\ref{eq:logdif}.  In particular the distance between two word-vectors, in linear algebraic terms, correlates with the sum of the squares of the point-by-point differences between the scalars of the two vectors, or, in other words, the sum of the squares of a sequence of logarithms of products of conditional probabilities:
 
 \begin{equation} \label{eq:vecdif}
-\overrightarrow{w_1}-\overrightarrow{w_2} \approx \sqrt{\sum\left(log\left(p(c|w_1) \times p(c|w_2)\right)-\log p(c)\right)^2}
+\overrightarrow{w_1}-\overrightarrow{w_2} \approx \sqrt{\sum\left(log\left(p(c|w_1) \times p(c|w_2)\right)\right)^2}
 \end{equation}
 
-\noindent Because a product of probabilities is itself a conditional probability ($p(a) \times p(b) = p(a,b)$), and because the square of a logarithm is the logarithm of the argument to it's own power ($\log^2a = \log a^a$), distances under the geometric regime I've outlined can be understood as essentially highly compounded probabilities, or, in other words, Bayesian inferences about complex concatenations of linguistic co-occurrence events.
+
+
+
+
+
+\noindent Because a product of probabilities is itself a conditional probability ($p(a) \times p(b) = p(a,b)$), and because the square of a logarithm is the logarithm of the argument to it's own power ($(\log a)^2 = \log (a^{\log a})$), distances under the geometric regime I've outlined can be understood as essentially highly compounded probabilities, or, in other words, Bayesian inferences about complex concatenations of linguistic co-occurrence events.
 
 Now, regarding the expression $\log p(c)$ on the right hand side of Equations~\ref{eq:logdif} and~\ref{eq:vecdif}, this value will be stable for all word-vectors across a given dimension, and so effectively becomes a skewing constant, universally shifting the relationship of word-vectors to the origin, but not to one another.  The same holds for the various measures involving the distance between word-vectors and the generic points of a subspace, and, as will be seen in subsequent chapters, linear combinations of features not involving the origin turn out to be most predictive of a variety of semantic phenomena.
 
