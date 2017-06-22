@@ -511,13 +511,13 @@ PMI(w_1,c)-PMI(w_2,c) \approx \log\left(\frac{p(w_1,c) \times p(w_2)}{p(w_2,c) \
 \noindent This, in turn, actually just reduces to a product of conditional probabilities:
 
 \begin{equation} \label{eq:logdif}
-||PMI(w_1,c)-PMI(w_2,c)|| \approx \log\left(p(c|w_1) \times p(c|w_2)\right)
+PMI(w_1,c)-PMI(w_2,c) \approx \log\left(p(c|w_1) \times p(c|w_2)\right)
 \end{equation}
 
 \noindent Next it must be noted that the construction of many of the geometric features described in Table~\ref{tab:features} involves precisely the kind of operation described in Equation~\ref{eq:logdif}.  In particular the distance between two word-vectors, in linear algebraic terms, correlates with the sum of the squares of the point-by-point differences between the scalars of the two vectors, or, in other words, the sum of the squares of a sequence of logarithms of products of conditional probabilities:
 
 \begin{equation} \label{eq:vecdif}
-\overrightarrow{w_1}-\overrightarrow{w_2} \approx \sqrt{\sum\left(log\left(p(c|w_1) \times p(c|w_2)\right)\right)^2}
+||\overrightarrow{w_1}-\overrightarrow{w_2}|| \approx \sqrt{\sum\left(log\left(p(c|w_1) \times p(c|w_2)\right)\right)^2}
 \end{equation}
 
 
