@@ -76,10 +76,36 @@ Table~\ref{tab:wnitems} presents accuracy rsults for each of the 12 conceptual c
 These are, on the whole, promising results for my methodology.  They illustrate its ability to delineate a context specific subspace based on a conceptually targeted input and then discover regions within this space that evidence a degree of conceptual inclusion.  Furthermore, the regions discovered seem to be relatively well defined, with a lesser degree of dithering away from the top or centre of the regions compared to a standard static semantic model.  On the other hand, the outputs from these regions are marked by an different kind of ambiguity than polysemous word senses: there is a confusion between words which denote entities entailed by the input, and words which simply relate to the input.  The next section will expose the methodology to a group of datasets that have already been broadly reported in the computational linguistic literature, with the objective of establishing precisely the ability of context sensitive models to make distinctions between similarity and relatedness.
 
 \section{Relatedness and Similarity}
-Linguists and philosophers have long been aware of the distinction between conceptual relatedness versus conceptual similarity.
+There can be little doubt that a general semantic model should have a mechanism for representing the relatedness inherent in semantic representations.
 
-The compilation of data for the purpose of testing the ability of computational models to identify semantic relationships between words has tended to focus on basic relatedness rather than more nuanced similarity.  The methodology for generating this data goes something like this: human participants are given a set of words and asked to quantify the 
+Furthermore, the distributional hypothesis itself is generally framed in terms of the relatedness between words, particularly if we accept 
 
-Some of the earliest work on the subject was done by \citeauthor{RubensteinEA1965}, who actually asked evaluators to rate the ``similarity of meaning,'' \citep[][p. 628]{RubensteinEA1965}, but without any further clarification regarding the exact nature of \emph{similarity}.
+There is, however, an ambiguity at play in terms of what exactly it means for two words to denote things that are semantically \emph{related}, and when this designation should include the more specific category of \emph{similarity} (or, for that matter, other types of relatedness such as \emph{meronymy}, \emph{analogy}, even \emph{antonymy}, and so forth).  So, for instance, the words \emph{tiger}, \emph{claw}, \emph{stripe}, \emph{ferocious}, and \emph{pounce} are all clearly related in the way that they trace out aspects of a very specific conceptual space of \textsc{tigerness}, but none of them are similar in the way that \emph{tiger}, \emph{lion}, and \emph{bear} are all commensurable constituents of a space of \textsc{wild animals}.
+
+The compilation of data for the purpose of testing the ability of computational models to identify semantic relationships between words has tended to focus on basic relatedness rather than more nuanced similarity, if sometimes simply through a failure to specify between the two.  The methodology for generating this data goes something like this: human participants are given a set of pairs of words and asked to quantify, for instance, the ``similarity of meaning'' \citep[][p. 628]{RubensteinEA1965} in each pair, 
+
+\cite{FinkelsteinEA2002} use both the terms \emph{similarity} and \emph{relatedness} in the instructions for generating their WordSim353 data, analysed below, ultimately asking evaluators to rank words from being ``totally unrelated'' to ``very related'';\footnote{Copies of the instructions, along with the data itself, can be found at \url{www.cs.technion.ac.il/~gabr/resources/data/wordsim353/wordsim353.zip}.} \cite{BruniEA2012} used only the term \emph{relatedness} in their instructions, with no mention of \emph{similarity}.\footnote{Instruction and data are at \url{https://staff.fnwi.uva.nl/e.bruni/MEN}.}
+
+Relatively recently, researchers have made a concerted effort to generate data 
+
+My methodologies will be initially tested on the WordSim353 data \cite{FinkelsteinEA2002} in order to explore my methodology's capacity for capturing semantic relatedness and similarly the SimLex999 data \cite{HillEA2012} in order to explore how it handles similarity.  The models learned based on this data will then be applied to the 
+
+The most valuable component of this set of experiments, however, will be the comparison between the models learned for each of these related but distinct semantic phenomena, and in particular an analysis of the geometric features of subspaces which correlate with different measures of the conceptual interrelations between lexical representations.  This meta-analysis will serve to test my hypothesis that different statistical features of an appropriately contextualised semantic space map to different semantic phenomena, and the corresponding claim that context sensitive representations can capture various semantic features as dynamic properties in a single subspace.
+
+\subsection{An Experiment on Relatedness}
+Standard distributional models have generally been assumed to capture semantic relatedness over similarity in the proximity between word-vectors.  This point, raised by
+
+can be seen clearly by imagining the contexts in which words such as \emph{good} and \emph{evil} or \emph{day} and \emph{night} might be expected to regularly occur: there is no serious case to be made that the meaning of a sentence is would be significantly changed by toggling these word pairs in actual sentences, but it is equally reasonable to guess that these words will generally come up 
+
+an assumption which is often born out in distributional semantic models
+
+\subsection{An Experiment on Similarity}
+Where relatedness has been a fruitful target for statistical semantic modelling, word similarity has typically been the domain of models endowed with a degree of encyclopedic knowledge about the world.
+
+\subsection{Comparing the Two Phenomena}
+
+\subsection{Generalising the Models}
+
+\subsection{Frames of Similarity}
 
 

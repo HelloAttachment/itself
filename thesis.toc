@@ -8,12 +8,17 @@
 \contentsline {subsection}{\numberline {3.3.1}Two Measures for Probing a Subspace}{11}
 \contentsline {subsection}{\numberline {3.3.2}Replete Geometric Analysis}{15}
 \contentsline {section}{\numberline {3.4}A Mathematical Justification for Geometric Analysis}{20}
-\contentsline {section}{\numberline {3.5}Comparing to Alternative Approaches}{22}
-\contentsline {subsection}{\numberline {3.5.1}Static Interpretations of the Base Space}{23}
-\contentsline {subsection}{\numberline {3.5.2}A Model Trained Using a Neural Network}{24}
+\contentsline {section}{\numberline {3.5}Comparing to Alternative Approaches}{21}
+\contentsline {subsection}{\numberline {3.5.1}Static Interpretations of the Base Space}{22}
+\contentsline {subsection}{\numberline {3.5.2}A Model Trained Using a Neural Network}{23}
 \contentsline {chapter}{\numberline {4}Conceptual Clusterings, Similarity, and Relatedness}{26}
 \contentsline {section}{\numberline {4.1}A Proof of Concept}{27}
 \contentsline {subsection}{\numberline {4.1.1}Experimental Set-Up}{28}
 \contentsline {subsection}{\numberline {4.1.2}Results and Analysis}{29}
 \contentsline {section}{\numberline {4.2}Relatedness and Similarity}{31}
-\contentsline {chapter}{References}{32}
+\contentsline {subsection}{\numberline {4.2.1}An Experiment on Relatedness}{33}
+\contentsline {subsection}{\numberline {4.2.2}An Experiment on Similarity}{33}
+\contentsline {subsection}{\numberline {4.2.3}Comparing the Two Phenomena}{33}
+\contentsline {subsection}{\numberline {4.2.4}Generalising the Models}{33}
+\contentsline {subsection}{\numberline {4.2.5}Frames of Similarity}{33}
+\contentsline {chapter}{References}{34}

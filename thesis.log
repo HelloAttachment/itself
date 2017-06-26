@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.6.5)  22 JUN 2017 18:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.6.5)  26 JUN 2017 22:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -814,17 +814,21 @@ Overfull \hbox (6.37645pt too wide) in paragraph at lines 246--247
 LaTeX Warning: Reference `chap:figurative' on page 15 undefined on input line 3
 45.
 
-[15] [16] [17] [18] [19] [20] [21]
+[15] [16] [17] [18] [19] [20]
 
-LaTeX Warning: Reference `chap:figurative' on page 22 undefined on input line 5
-49.
+LaTeX Warning: Reference `chap:figurative' on page 21 undefined on input line 5
+25.
 
-[22]
 
-LaTeX Warning: Reference `chap:concepts' on page 23 undefined on input line 558
+LaTeX Warning: Reference `chap:figurative' on page 21 undefined on input line 5
+30.
+
+[21]
+
+LaTeX Warning: Reference `chap:concepts' on page 22 undefined on input line 539
 .
 
-[23] [24]) [25]
+[22] [23] [24]) [25]
 \openout2 = `ch4/Four.aux'.
 
  (./ch4/Four.tex
@@ -872,23 +876,50 @@ LaTeX Warning: Reference `tab:pet' on page 29 undefined on input line 45.
 
 LaTeX Warning: Reference `geo1-norm' on page 30 undefined on input line 47.
 
-[30]) [31] (./thesis.bbl [32
+[30] [31]
+
+Package natbib Warning: Citation `RubensteinEA1965' on page 32 undefined on inp
+ut line 85.
 
 
-] [33] [34] [35])
+Package natbib Warning: Citation `FinkelsteinEA2002' on page 32 undefined on in
+put line 87.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--87
+[][]\T1/cmr/m/n/9 Copies of the instruc-tions, along with the data itself, can 
+be found at
+ []
+
+
+Package natbib Warning: Citation `BruniEA2012' on page 32 undefined on input li
+ne 87.
+
+
+Package natbib Warning: Citation `FinkelsteinEA2002' on page 32 undefined on in
+put line 97.
+
+
+Package natbib Warning: Citation `HillEA2012' on page 32 undefined on input lin
+e 97.
+
+) [32] [33] (./thesis.bbl [34
+
+
+] [35] [36] [37])
 
 Package natbib Warning: There were undefined citations.
 
-[36] (./thesis.aux (./cover.aux) (./ch3.5/ThreePointFive.aux) (./ch4/Four.aux))
+[38] (./thesis.aux (./cover.aux) (./ch3.5/ThreePointFive.aux) (./ch4/Four.aux))
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 26247 strings out of 493029
- 641604 string characters out of 6136235
- 1140854 words of memory out of 5000000
- 29273 multiletter control sequences out of 15000+600000
+ 26250 strings out of 493029
+ 641655 string characters out of 6136235
+ 1139842 words of memory out of 5000000
+ 29276 multiletter control sequences out of 15000+600000
  27594 words of font info for 74 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  60i,14n,102p,2100b,3846s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -916,10 +947,10 @@ public/cm-super/sfrm1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm
 /texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/type1/p
 ublic/cm-super/sftt0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1
 095.pfb>
-Output written on thesis.pdf (40 pages, 583626 bytes).
+Output written on thesis.pdf (42 pages, 592922 bytes).
 PDF statistics:
- 251 PDF objects out of 1000 (max. 8388607)
- 179 compressed objects within 2 object streams
+ 257 PDF objects out of 1000 (max. 8388607)
+ 183 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
