@@ -99,10 +99,73 @@ can be seen clearly by imagining the contexts in which words such as \emph{good}
 
 an assumption which is often born out in distributional semantic models
 
+\begin{table}
+\centering
+\begin{tabular}{lrrrrrrrr}
+\hline
+\emph{window} & \multicolumn{4}{c}{2x2} & \multicolumn{4}{c}{5x5} \\
+\emph{dimensions} & 20 & 50 & 200 & 400 & 20 & 50 & 200 & 400 \\
+\hline
+\textsc{joint} & 0.666 & 0.681 & 0.698 & 0.728 & 0.704 & 0.698 & 0.700 & 0.709 \\
+\textsc{indy} & 0.671 & 0.676 & 0.702 & 0.707 & 0.703 & 0.712 & 0.715 & 0.729 \\
+\textsc{zipped} & 0.642 & 0.674 & 0.699 & 0.698 & 0.652 & 0.678 & 0.716 & 0.717 \\
+\textsc{SVD} & 0.521 & 0.618 & 0.690 & 0.728 & 0.527 & 0.663 & 0.722 & 0.742 \\
+\end{tabular}
+\end{table}
+
 \subsection{An Experiment on Similarity}
 Where relatedness has been a fruitful target for statistical semantic modelling, word similarity has typically been the domain of models endowed with a degree of encyclopedic knowledge about the world.
 
+\begin{table}
+\centering
+\begin{tabular}{lrrrrrrrr}
+\hline
+\emph{window} & \multicolumn{4}{c}{2x2} & \multicolumn{4}{c}{5x5} \\
+\emph{dimensions} & 20 & 50 & 200 & 400 & 20 & 50 & 200 & 400 \\
+\hline
+\textsc{joint} & 0.414 & 0.444 & 0.471 & 0.459 & 0.404 & 0.412 & 0.425 & 0.429 \\
+\textsc{indy} & 0.411 & 0.445 & 0.481 & 0.503 & 0.391 & 0.429 & 0.462 & 0.490 \\
+\textsc{zipped} & 0.425 & 0.446 & 0.480 & 0.471 & 0.400 & 0.406 & 0.430 & 0.446 \\
+\textsc{SVD} & 0.235 & 0.274 & 0.375 & 0.423 & 0.218 & 0.255 & 0.353 & 0.380 \\
+\end{tabular}
+\end{table}
+
 \subsection{Comparing the Two Phenomena}
+\begin{figure}
+  \centering
+  \begin{tikzpicture}
+    \begin{axis}[xscale=2,yscale=1.5,hide axis]
+      \addplot [<->,very thick] coordinates{(0,5) (10,5)};
+      \addplot [<->,very thick] coordinates{(5,0) (5,10)};
+      \node at (axis cs: 0,5) [below] {\textsc{unrelated}};
+      \node at (axis cs: 10,5) [above] {\textsc{related}};
+      \node at (axis cs: 5,0) [right] {\textsc{dissimilar}};
+      \node at (axis cs: 5,10) [left] {\textsc{similar}};
+      \node at (axis cs: 1.442,0.869) [below] {(\emph{wife, straw})};
+      \node at (axis cs: 1.442,0.869) {$\times$};
+      \node at (axis cs: 7.901,1.760) [below] {(\emph{bread, butter})};
+      \node at (axis cs: 7.901,1.760) {$\times$};
+      \node at (axis cs: 2.646,2.940) [below] {(\emph{dentist, colonel})};
+      \node at (axis cs: 2.646,2.940) {$\times$};
+      \node at (axis cs: 4.247,1.109) [below] {(\emph{alchohol, chemistry})};
+      \node at (axis cs: 4.247,1.109) {$\times$};
+      \node at (axis cs: 7.744,3.406) [below] {(\emph{bread, flour})};
+      \node at (axis cs: 7.744,3.406) {$\times$};
+      \node at (axis cs: 5.129,3.714) [below] {(\emph{alcohol, cocktail})};
+      \node at (axis cs: 5.129,3.714) {$\times$};
+      \node at (axis cs: 6.405,5.218) [below] {(\emph{replace, restore})};
+      \node at (axis cs: 6.405,5.218) {$\times$};
+      \node at (axis cs: 5.530,5.901) [below] {(\emph{year, century})};
+      \node at (axis cs: 5.530,5.901) {$\times$};
+      \node at (axis cs: 10.483,5.368) [below] {(\emph{decade, century})};
+      \node at (axis cs: 10.483,5.368) {$\times$};
+      \node at (axis cs: 8.436,6.970) [below] {(\emph{accept, believe})};
+      \node at (axis cs: 8.436,6.970) {$\times$};
+      \node at (axis cs: 7.068,7.667) [below] {(\emph{street, place})};
+      \node at (axis cs: 7.068,7.667) {$\times$};
+    \end{axis}
+  \end{tikzpicture}
+\end{figure}
 
 \subsection{Generalising the Models}
 

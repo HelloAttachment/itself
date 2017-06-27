@@ -16,7 +16,7 @@
 \contentsline {subsection}{\numberline {4.1.1}Experimental Set-Up}{28}
 \contentsline {subsection}{\numberline {4.1.2}Results and Analysis}{29}
 \contentsline {section}{\numberline {4.2}Relatedness and Similarity}{31}
-\contentsline {subsection}{\numberline {4.2.1}An Experiment on Relatedness}{33}
+\contentsline {subsection}{\numberline {4.2.1}An Experiment on Relatedness}{32}
 \contentsline {subsection}{\numberline {4.2.2}An Experiment on Similarity}{33}
 \contentsline {subsection}{\numberline {4.2.3}Comparing the Two Phenomena}{33}
 \contentsline {subsection}{\numberline {4.2.4}Generalising the Models}{33}
