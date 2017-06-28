@@ -1,24 +1,14 @@
 \contentsline {chapter}{Abstract}{i}
 \contentsline {chapter}{Glossary}{iii}
 \contentsline {chapter}{Table of Contents}{1}
-\contentsline {chapter}{\numberline {3}Context Sensitive Distributional Semantics}{2}
-\contentsline {section}{\numberline {3.1}Establishing and Analysing a Large Scale Textual Corpus}{3}
-\contentsline {section}{\numberline {3.2}Selecting Dimensions from a Sparse Co-Occurrence Matrix}{5}
-\contentsline {section}{\numberline {3.3}Exploring the Geometry of a Context Specific Subspace}{10}
-\contentsline {subsection}{\numberline {3.3.1}Two Measures for Probing a Subspace}{11}
-\contentsline {subsection}{\numberline {3.3.2}Replete Geometric Analysis}{15}
-\contentsline {section}{\numberline {3.4}A Mathematical Justification for Geometric Analysis}{20}
-\contentsline {section}{\numberline {3.5}Comparing to Alternative Approaches}{21}
-\contentsline {subsection}{\numberline {3.5.1}Static Interpretations of the Base Space}{22}
-\contentsline {subsection}{\numberline {3.5.2}A Model Trained Using a Neural Network}{23}
-\contentsline {chapter}{\numberline {4}Conceptual Clusterings, Similarity, and Relatedness}{26}
-\contentsline {section}{\numberline {4.1}A Proof of Concept}{27}
-\contentsline {subsection}{\numberline {4.1.1}Experimental Set-Up}{28}
-\contentsline {subsection}{\numberline {4.1.2}Results and Analysis}{29}
-\contentsline {section}{\numberline {4.2}Relatedness and Similarity}{31}
-\contentsline {subsection}{\numberline {4.2.1}An Experiment on Relatedness}{32}
-\contentsline {subsection}{\numberline {4.2.2}An Experiment on Similarity}{33}
-\contentsline {subsection}{\numberline {4.2.3}Comparing the Two Phenomena}{33}
-\contentsline {subsection}{\numberline {4.2.4}Generalising the Models}{33}
-\contentsline {subsection}{\numberline {4.2.5}Frames of Similarity}{33}
-\contentsline {chapter}{References}{34}
+\contentsline {chapter}{\numberline {3}Conceptual Clusterings, Similarity, and Relatedness}{2}
+\contentsline {section}{\numberline {3.1}A Proof of Concept}{3}
+\contentsline {subsection}{\numberline {3.1.1}Experimental Set-Up}{4}
+\contentsline {subsection}{\numberline {3.1.2}Results and Analysis}{5}
+\contentsline {section}{\numberline {3.2}Relatedness and Similarity}{7}
+\contentsline {subsection}{\numberline {3.2.1}An Experiment on Relatedness}{9}
+\contentsline {subsection}{\numberline {3.2.2}An Experiment on Similarity}{10}
+\contentsline {subsection}{\numberline {3.2.3}Comparing the Two Phenomena}{11}
+\contentsline {subsection}{\numberline {3.2.4}Generalising the Models}{11}
+\contentsline {subsection}{\numberline {3.2.5}Frames of Similarity}{11}
+\contentsline {chapter}{References}{12}
