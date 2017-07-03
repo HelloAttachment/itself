@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.6.5)  28 JUN 2017 17:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.6.5)  29 JUN 2017 15:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -833,11 +833,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 81--81
 be found at
  []
 
+
+Package natbib Warning: Citation `MihalceaEA2006' on page 8 undefined on input 
+line 83.
+
+
+Package natbib Warning: Citation `HassanEA2011' on page 8 undefined on input li
+ne 83.
+
 [8]
 
-LaTeX Warning: Reference `tab:features' on page 9 undefined on input line 98.
+Package natbib Warning: Citation `GarbilovichEA2007' on page 9 undefined on inp
+ut line 88.
 
-[9] [10]) [11] (./thesis.bbl
+
+Package natbib Warning: Citation `HassanEA2011' on page 9 undefined on input li
+ne 88.
+
+
+Package natbib Warning: Citation `HalawiEA2012' on page 9 undefined on input li
+ne 88.
+
+
+Package natbib Warning: Citation `LuongEA2013' on page 9 undefined on input lin
+e 88.
+
+
+LaTeX Warning: Reference `tab:features' on page 9 undefined on input line 92.
+
+[9] [10] [11]) [12] (./thesis.bbl
 Overfull \hbox (7.62492pt too wide) in paragraph at lines 4--11
 \T1/cmr/m/n/10.95 study on sim-i-lar-ity and relat-ed-ness using dis-tri-bu-tio
 nal and wordnet-based approaches.
@@ -845,22 +869,28 @@ nal and wordnet-based approaches.
 
 )
 
+Package natbib Warning: There were undefined citations.
+
+
 Package caption Warning: Unused \captionsetup[sub] on input line 29.
 See the caption package documentation for explanation.
 
-[12
+[13
 
 
 ] (./thesis.aux (./cover.aux) (./ch4/Four.aux))
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 25028 strings out of 493029
- 616041 string characters out of 6136235
- 763335 words of memory out of 5000000
- 28066 multiletter control sequences out of 15000+600000
+ 25033 strings out of 493029
+ 616117 string characters out of 6136235
+ 767335 words of memory out of 5000000
+ 28071 multiletter control sequences out of 15000+600000
  24087 words of font info for 64 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  61i,11n,103p,1750b,2054s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -883,10 +913,10 @@ rm1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2488.pfb></usr/sha
 re/texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/type1
 /public/cm-super/sftt0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sft
 t1095.pfb>
-Output written on thesis.pdf (16 pages, 397939 bytes).
+Output written on thesis.pdf (17 pages, 400588 bytes).
 PDF statistics:
- 149 PDF objects out of 1000 (max. 8388607)
- 107 compressed objects within 2 object streams
+ 152 PDF objects out of 1000 (max. 8388607)
+ 109 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
