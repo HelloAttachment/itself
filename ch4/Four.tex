@@ -50,7 +50,7 @@ Focusing on the accuracy of the results returned by the models up to the full le
 \centering
 \begin{tabular}{lr|rrr|rrr}
 \hline
-&& \multicolumn{3}{c}{top-50} & \multicolumn{3}{c}{full} \\
+\multicolumn{2}{c}{} & \multicolumn{3}{c}{top-50} & \multicolumn{3}{c}{full} \\
 & \multicolumn{1}{r}{baseline} & norm & dist & \multicolumn{1}{r}{\textsc{BoW}} & norm & dist & \textsc{BoW} \\
 \hline
 \emph{psychological feature} & 2.39 & 0.240 & 0.660 & 0.400 & 0.401 & 0.417 & 0.102 \\
@@ -93,22 +93,26 @@ In order to test the ability of my statistical methodologies to likewise model r
 
 \begin{table}
 \centering
-\begin{tabular}{lrrrrrrrr}
+\begin{tabular}{lrrrr|rrrr}
 \hline
 \emph{window} & \multicolumn{4}{c}{2x2} & \multicolumn{4}{c}{5x5} \\
-\emph{dimensions} & 20 & 50 & 200 & 400 & 20 & 50 & 200 & 400 \\
+\emph{dimensions} & 20 & 50 & 200 & \multicolumn{1}{c}{400} & 20 & 50 & 200 & 400 \\
 \hline
 \textsc{joint} & 0.666 & 0.681 & 0.698 & 0.728 & 0.704 & 0.698 & 0.700 & 0.709 \\
 \textsc{indy} & 0.671 & 0.676 & 0.702 & 0.707 & 0.703 & 0.712 & 0.715 & 0.729 \\
 \textsc{zipped} & 0.642 & 0.674 & 0.699 & 0.698 & 0.652 & 0.678 & 0.716 & 0.717 \\
 \textsc{SVD} & 0.521 & 0.618 & 0.690 & 0.728 & 0.527 & 0.663 & 0.722 & 0.742 \\
+\textsc{SG} & 0.549 & 0.639 & 0.696 & 0.701 & 0.544 & 0.635 & 0.705 & 0.710 \\
+\textsc{CBOW} & 0.557 & 0.648 & 0.700 & 0.695 & 0.584 & 0.663 & 0.716 & 0.716 \\
 \hline
 \end{tabular}
 \caption{Spearman's correlations for word ratings output by a linear regression model of the WordSim data for various subspace types and model parameters, compared to the correlations for cosine similarities output by static models using comparable parameters.}
 \label{tab:related}
 \end{table}
 
-Results are reported in Table~\ref{tab:related}.  The first thing to note is the very strong performance of the SVD version of my base space
+Results are reported in Table~\ref{tab:related} (and all correlations are statistically significant with $p < .001$).  The first thing to note is that the best performance overall is achieved by the 5x5 word window, 400 dimensional version of the SVD factorisation of my base space (though the difference between this correlation and the slightly lower correlation achieved with the same parameters for the \textsc{indy} dimension selection technique is not significant, with $p = .356$ based on a Fisher transformation).  More generally, the 5x5 word co-occurrence window versions of all models tend to perform more strongly on this task than the 2x2 versions, suggesting that semantic relatedness is a property of the broader sentential context in which a word occurs rather than just the immediate syntagmatic tendencies of a word.\footnote{\cite{Sahlgren} discusses \citepos{Saussure} semiotic notions of \emph{syntagm} (the way that words are composed into meaningful utterances) and \emph{paradigm} (the way that words are comparable and potentially interchangeable units of meaning) in the context of distributional semantics.}  It is also notable that my context sensitive methods outperform the static models at lower dimensionality (and here the difference is significant, with $p < .005$ in a comparison between the \textsc{joint} 5x5 window, 20 dimensional correlation and the corresponding result for the \textsc{CBOW} model).  It seems that the contextually selected dimensions are initially all more informative about relatedness than the degree of general variance captured in lower numbers of dimensions using either factorisation or neural modelling techniques.
+
+In terms of comparing between my dimensional selection techniques, the \textsc{joint} and \textsc{indy} techniques perform somewhat comparably, with the \textsc{indy} technique doing a bit better in the 5x5 spaces.  The strong performance of the \textsc{joint} technique in the 2x2 models at 400 dimensions seems anomalous.  The joint technique in particular should begin to run out of useful dimensions to select between words as the dimensionality of the spaces scale up, and so would be expected to follow a similar trend as with the \textsc{zipped} subspaces, where results begin to tail off after 200 dimensions---and this effect should be more prominent in the 2x2 models, where there is less overall co-occurrence information available.  It's likewise interesting that the \textsc{zipped} technique offers consistently lower correlations, particularly considering that this technique was conceived as something of a hybrid between the comprehensive \textsc{joint} approach and the independent \textsc{indy} approach.  It would seem, then, that the dimensions most predictive of semantic relatedness are either those which are substantially informative about both words being compared, or those which are highly informative about one word and only incidentally informative about the other, to the exclusion of the middle ground of dimensions that are highly informative about one word and at least marginally informative about another.  The conclusion to draw here is that the \textsc{joint} and \textsc{indy} spaces are identifying relatedness in two different capacities: in the case of the former, the degree of proximity between two points with fairly high values is being captured, while in the case of the latter the extent to which there is some degree of overlap (or, alternatively, the extent of the orthogonality) between the salient co-occurrence features is being exploited.
 
 In order to get a sense of what's actually happening in these models, I next produce Spearman's correlations between the WordSim data and each of the features of different subspaces independently.  The top five features for 400 dimension \textsc{joint}, \textsc{indy}, and \textsc{zipped} spaces generated using 2x2 word co-occurrence windows are reported in Table~\ref{tab:ind-related}.  Here a strong correlation between the most predictive of the \textsc{joint} and \textsc{zipped} subspaces is evident, and this makes sense: as these types of subspaces increase in dimensionality, the possible combinations of co-occurrence dimensions with non-zero values for both input word-vectors decreases, so the subspaces themselves begin to converge.  The features selected here tend to involve the mean norm of the input word-vectors, so the prominence of these vectors in the spaces that are jointly informative about both of them is clearly positively correlated with relatedness between the two terms.\footnote{There is clearly a high degree of multi-colinearity at play between these top independent features, and this will be addressed below.}  In other words, related words tend to share strong PMI values with a number of co-occurrence dimensions---hardly a surprising finding, and in line with the results indicating the powerfulness of norm measures revealed in the proof of concept outlined earlier in this chapter.
 
@@ -131,22 +135,59 @@ $\angle ACB$ & 0.574 & $\angle A'X'B'$ & 0.571 & $\angle AMB$ & 0.566 \\
 
 Much more interestingly, though, an altogether different set of top features emerges for the \textsc{indy} subspaces.  Here, angular measures are more predictive of relatedness across the board, with the measure $\angle ACB$, the angle of the word-vector points $A$ and $B$ at the vertex of the central point $C$, being independently more predictive than many of the combined features in lower dimensional spaces.  It should be noted at this point that angles are measured in terms of cosine, so a strong positive correlation indicates that angles become smaller in terms of degrees as words become more related.  In fact, the measure $\angle AOB$ is just the cosine similarity of the word-vectors, so here the \textsc{indy} subspaces are seen aligning somewhat with the standard approach from static spaces.  The strong correlations between small angles with the generic points of the space ($\angle ACB$ and $\angle AMB$) as well as the normalised version of these points ($\angle A'C'B'$ and $\angle A'X'B'$) emphasises the point that related words tend to select subspaces where their word-vectors are relatively close to each other compared to their proximity to the maximal, central, and mean vectors in their \textsc{indy} subspace.
 
-\subsection{An Experiment on Similarity}
-Where relatedness has been a fruitful target for statistical semantic modelling, word similarity has typically been the domain of models endowed with a degree of encyclopedic knowledge about the world.  Results on the SimLex data comparable with inter-annotator agreement are achieved by \cite{RecksiEA2016} using a model enhanced with a weighted graph of conceptual relationships extracted from the 
+So, where the \textsc{joint} and \textsc{indy} subspaces provide a basis for correlation between norms and relatedness, the \textsc{indy} subspaces evidently create a similar axis of correlation between angles and relatedness.  In order to delve deeper into the models learned from the geometric features of these spaces, I next discover an optimally predictive and uncorrelated combinations of five features for modelling relatedness in each type of subspace.  Treating this process as a breadth-first search of possible linear combinations of features to be fed to a regression model, I begin with each independent feature and then concatenate additional features with the constraint that each added feature must not have a \emph{variance inflation factor} \cite{OBrien2007} of greater than 10 with an existing chain of features.  So, if $R_{i}^{2}$ is the coefficient of determination of adding independent variable $i$ to an $i-1$ linear model, then the addition is only considered if it satisfies the inequality $1/(1-R_{i}^{2}) < 10$. This constraint serves two purposes.  First, it eliminates multicolinearity in the combinations of features learned by the model; this, in turn, results in a combination of features which is optimally informative about the information contained in the geometry of a type of subspace and also in model coefficients which are interpretable in terms of their scale.  Second, it makes a potentially very large state space of feature vectors computationally tractable by eliminating a good proportion of possible combinations of features at each level of the search tree.  So, for instance, in the case of the 2x2 word, 400 dimensional \textsc{joint} subspace, the state space of 33,390,720 five feature long combinations selected from 34 different features becomes a space of just 194,481 combinations.
+
+('aAOB', '1.841'), ('mAOB', '1.001'), ('lACB', '1.590'), ('aAMB', '0.637'), ('nACB', '-0.708')
 
 \begin{table}
 \centering
-\begin{tabular}{lrrrrrrrr}
+\begin{tabular}{lr|lr|lr}
+\hline
+\multicolumn{2}{c}{\textsc{joint} ($\rho = 0.682$)} & \multicolumn{2}{c}{\textsc{indy} ($\rho = 0.706$)} & \multicolumn{2}{c}{\textsc{zipped} ($\rho = 0.664$)} \\
+\hline
+%$\rho = 0.682$ && $\rho = 0.706$ && $\rho = 0.664$ & \\
+$\mu(A,B)$ & 1.088 & $\angle ACB$ & 1.787 & $\angle AOB$ & 1.841 \\
+$\overline{A'M'}:\overline{B'M'}$ & 0.702 & $\angle A'C'B'$ & -0.730 & $\mu(\overline{A'C'},\overline{B'C'})$ & 1.590 \\
+$\overline{A'C'}:\overline{B'C'}$ & -0.548 & $\overline{A'C'}:\overline{B'C'}$ & -0.181 & $\mu(A,B)$ & 1.001 \\
+$\angle A'M'B'$ & 0.405 & $X$ & 0.109 & $\angle A'C'B'$ & -0.708 \\
+$\angle{COX}$ & -0.162 & $\overline{AC}:\overline{BC}$ & -0.086 & $\angle AMB$ & 0.637 \\
+\hline
+\end{tabular}
+\caption{The optimal combination of five non-correlated features for a linear regression modelling WordSim data for 2x2 word co-occurrence window, 400 dimensional subspaces projected using each dimensional selection technique.}
+\label{tab:fivelated}
+\end{table}
+
+The top five features for each dimensional selection technique, applied to the 2x2 word co-occurence window base space and returning 400 dimensional subspaces, are listed in Table~\ref{tab:fivelated}, with the Spearman's correlation achieved by each combination of features listed in parentheses next to the technique labels.  The first thing to note here is the variety of features evident throughout this table: angles, distances, means of distances, and ratios of distances are all to be found, involving measurements in both the extents of space and between the normalised versions of the two word-vectors and the three generic vectors.  Next it is interesting to see that, once again, different features prove most predictive in different types of subspaces.  In particular, the mean norm values, represented as $\mu(A,B)$, continue to correlate positively with relatedness in both \textsc{joint} and \textsc{zipped} subspaces, suggesting that with sets of collectively informative dimensions, consistently strong values for both word-vectors indicate a high degree of relatedness.  In the case of the \textsc{indy} subspaces, on the other hand, the angle $\angle ACB$ continues to be highly predictive of relatedness, with smaller angles at the vertex of the central vector indicating a higher degree of relatedness.
+
+There are, however, also some interesting new consistencies which emerge between subspace types.  For both the \textsc{joint} and \textsc{indy} subspaces, for instance, the ratios of distances between each word-vector and some of the generic points are predictive of relatedness.  For the \textsc{indy} subspaces, the correlation with ratios of distances from the central point $C$ and the normalised version of this point $C'$ is negative; since the ratio measure always divides the smaller value by the larger, this means that more lopsided proximities between word-vectors and the line going through the centre of a subspace tend to actually correlate with relatedness in subspaces where each dimension is selected for its salient co-occurrences with just one of the words being analysed.  In the case of the \textsc{joint} subspaces, the negative correlation with $\overline{A'C'}:\overline{B'C'}$ is offset by a positive correlation with $\overline{A'M'}:\overline{B'M'}$, the ratio of the distances from each normalised word-vector to the normalised mean vector.  So here it turns out that, when words are more closely related, the typical distances between each word-vector and the central line tend to be more lopsided, but at the the typical distance between each word-vector and the vector of mean values across a subspace, which in a certain regard delineates the true statistical centre of a subspace, tend to be more similar.
+
+This last observation serves as a reminder that these subspaces are not necessarily composed of dimensions with uniform statistical properties.  On the contrary, referring back to the analysis of mean and maximum values in Table~\ref{tab:profiles}, we recall that there tends to be a good deal of variance in both of these statistics, and so we can presume that subspaces will exhibit some degree of distortion.  This is reflected in the salience of features in both the \textsc{joint} and \textsc{indy} subspaces which don't involve the word-vectors themselves.  In particular the negative correlation between $\angle COX$ and relatedness in \textsc{joint} subspaces means that wider angles between a vector with uniform values and a vector of maximum dimensional values indicate relatedness between the words that select those dimensions, so related words tend to jointly select dimensions with greater variance in their maximum values.  Maximum values again play a role in predicting relatedness in \textsc{indy} subspaces, where simply the norm of the vector of maximum values $X$ correlates positively with relatedness.  Since higher PMI values will tend to occur along dimensions where the frequency of the corresponding co-occurrence term is lower, we can infer that words with a tendency to be related tend to have high PMI values with less frequent co-occurrence terms.
+
+This last observation might at first seem counter-intuitive: can it really be the case that some sets of dimensions just tend to be more characteristic of related words?  And can simply the frequency with which some word occurs to some extent predict the likelihood of a person thinking that word is related to other words?  I claim that the answer to these questions is ``yes''.  There are relatively simple statistical properties that correlate in logical ways to some of the cognitive 
+
+This claim will be explored further below in Section~\ref{sec:litpare}, and then in more detail in the following chapter exploring my methodology's capacity for classifying figurative language.  First, though, I will present results on a similar experiment involving similarity rather than relatedness.
+
+\subsection{An Experiment on Similarity}
+Where relatedness has been a fruitful target for statistical semantic modelling, word similarity has typically been the domain of models endowed with a degree of encyclopedic knowledge about the world.  A Spearman's correlation of $\rho = 0.76$ with the human evaluations of the SimLex data, a result comparable with inter-annotator agreement, is achieved by \cite{RecksiEA2016} using a statistical model enhanced with a weighted graph of conceptual relationships extracted from the 4lang \emph{conceptual dictionary} \citep{KornaiEA2015}.  \cite{BanjadeEA2015} similarly use a combination of statistical and knowledge based models, treating the outputs of individual models developed by various researchers as the independent variables of a range of regression models, achieving correlation of $\rho = 0.658$ in the case of the best performing model.  Statistical approaches, on the other hand, have included models such as the one described by \cite{SchwartzEA2015}, which combines \texttt{word2vec} word-vectors with vectors of syntagmatic \emph{systematic patterns} of co-occurrence which the authors predict will be particularly indicative of semantic similarity, producing a correlation of $\rho = 0.563$.  And the first shot at the SimLex data, presented in the same paper that presented the dataset itself \citep{HillEA2015}, achieves $\rho = 
+
+
+\begin{table}
+\centering
+\begin{tabular}{lrrrr|rrrr}
 \hline
 \emph{window} & \multicolumn{4}{c}{2x2} & \multicolumn{4}{c}{5x5} \\
-\emph{dimensions} & 20 & 50 & 200 & 400 & 20 & 50 & 200 & 400 \\
+\emph{dimensions} & 20 & 50 & 200 & \multicolumn{1}{c}{400} & 20 & 50 & 200 & 400 \\
 \hline
 \textsc{joint} & 0.414 & 0.444 & 0.471 & 0.459 & 0.404 & 0.412 & 0.425 & 0.429 \\
 \textsc{indy} & 0.411 & 0.445 & 0.481 & 0.503 & 0.391 & 0.429 & 0.462 & 0.490 \\
 \textsc{zipped} & 0.425 & 0.446 & 0.480 & 0.471 & 0.400 & 0.406 & 0.430 & 0.446 \\
 \textsc{SVD} & 0.235 & 0.274 & 0.375 & 0.423 & 0.218 & 0.255 & 0.353 & 0.380 \\
+\textsc{SG} & 0.232 & 0.273 & 0.337 & 0.379 & 0.215 & 0.252 & 0.322 & 0.355 \\
+\textsc{CBOW} & 0.245 & 0.290 & 0.367 & 0.404 & 0.247 & 0.290 & 0.372 & 0.406 \\
 \hline
 \end{tabular}
+\caption{Spearman's correlations for word ratings output by a linear regression model of the SimLex data for various subspace types and model parameters, compared to the correlations for cosine similarities output by static models using comparable parameters.}
+\label{tab:similar}
 \end{table}
 
 \begin{table}
@@ -162,11 +203,11 @@ $\angle AMB$ & 0.349 & $\angle A'C'B'$ & 0.351 & $\angle AMB$ & 0.342 \\
 $\angle ACB$ & 0.349 & $\angle AOB$ & 0.333 & $\angle ACB$ & 0.325 \\
 \hline
 \end{tabular}
-\caption{Independent Spearman's correlations with WordSim data for top five features of each subspace type for 2x2 word co-occurrence window, 400 dimension subspaces.}
-\label{tab:ind-related}
+\caption{Independent Spearman's correlations with SimLex data for top five features of each subspace type for 2x2 word co-occurrence window, 400 dimension subspaces.}
+\label{tab:ind-similar}
 \end{table}
 
-\subsection{Comparing the Two Phenomena}
+\subsection{Comparing the Two Phenomena} \label{sec:litpare}
 \begin{figure}
   \centering
   \begin{tikzpicture}

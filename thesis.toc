@@ -7,8 +7,8 @@
 \contentsline {subsection}{\numberline {3.1.2}Results and Analysis}{5}
 \contentsline {section}{\numberline {3.2}Relatedness and Similarity}{7}
 \contentsline {subsection}{\numberline {3.2.1}An Experiment on Relatedness}{9}
-\contentsline {subsection}{\numberline {3.2.2}An Experiment on Similarity}{11}
-\contentsline {subsection}{\numberline {3.2.3}Comparing the Two Phenomena}{12}
-\contentsline {subsection}{\numberline {3.2.4}Generalising the Models}{12}
-\contentsline {subsection}{\numberline {3.2.5}Frames of Similarity}{12}
-\contentsline {chapter}{References}{13}
+\contentsline {subsection}{\numberline {3.2.2}An Experiment on Similarity}{13}
+\contentsline {subsection}{\numberline {3.2.3}Comparing the Two Phenomena}{14}
+\contentsline {subsection}{\numberline {3.2.4}Generalising the Models}{14}
+\contentsline {subsection}{\numberline {3.2.5}Frames of Similarity}{14}
+\contentsline {chapter}{References}{15}
