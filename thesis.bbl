@@ -1,13 +1,10 @@
 \begin{thebibliography}{}
 
-\bibitem[Agirre et~al., 2009]{AgirreEA2009}
-Agirre, E., Alfonseca, E., Hall, K., Kravalova, J., Pa\c{s}ca, M., and Soroa,
-  A. (2009).
-\newblock A study on similarity and relatedness using distributional and
-  wordnet-based approaches.
-\newblock In {\em Proceedings of Human Language Technologies: The 2009 Annual
-  Conference of the North American Chapter of the Association for Computational
-  Linguistics}, pages 19--27.
+\bibitem[Abdi and Williams, 2010]{AbdiEA2010}
+Abdi, H. and Williams, L.~J. (2010).
+\newblock Principal component analysis.
+\newblock {\em Wiley Interdisciplinary Reviews: Computational Statistics},
+  2(4):433--459.
 
 \bibitem[Agres et~al., 2015]{AgresEA2015}
 Agres, K., McGregor, S., Purver, M., and Wiggins, G. (2015).
@@ -16,35 +13,112 @@ Agres, K., McGregor, S., Purver, M., and Wiggins, G. (2015).
 \newblock In {\em Proceedings of the 6th International Conference on
   Computational Creativity}, Park City, UT.
 
-\bibitem[Bruni et~al., 2012]{BruniEA2012}
-Bruni, E., Boleda, G., Baroni, M., and Tran, N.-K. (2012).
-\newblock Distributional semantics in technicolor.
-\newblock In {\em Proceedings of the 50th Annual Meeting of the Association for
-  Computational Linguistics: Long Papers - Volume 1}, pages 136--145.
+\bibitem[Baroni et~al., 2014a]{BaroniEA2014b}
+Baroni, M., Bernardi, R., and Zamparelli, R. (2014a).
+\newblock Frege in space: A program for compositional distributional semantics.
+\newblock {\em Linguistic Issues in Language Technology}, 9:241--346.
 
-\bibitem[Faruqui et~al., 2016]{FaruquiEA2016}
-Faruqui, M., Tsvetkov, Y., Rastogi, P., and Dyer, C. (2016).
-\newblock Problems with evaluation of word embeddings using word similarity
-  tasks.
-\newblock In {\em Proceedings of the 1st Workshop on Evaluating Vector Space
-  Representations for NLP}.
+\bibitem[Baroni et~al., 2014b]{BaroniEA2014}
+Baroni, M., Dinu, G., and Kruszewski, G. (2014b).
+\newblock Don't count, predict!
+\newblock In {\em ACL 2014}.
+
+\bibitem[Bruni et~al., 2014]{BruniEA2014}
+Bruni, E., Tran, N.~K., and Baroni, M. (2014).
+\newblock Multimodal distributional semantics.
+\newblock {\em Journal of Artificial Intelligence Research}, 49(1):1--47.
+
+\bibitem[Clark, 1997]{Clark1997}
+Clark, A. (1997).
+\newblock {\em Being There: Putting Brain, Body, and World Together Again}.
+\newblock MIT Press, Cambridge, MA.
+
+\bibitem[Clark, 2015]{Clark2015}
+Clark, S. (2015).
+\newblock Vector space models of lexical meaning.
+\newblock In Lappin, S. and Fox, C., editors, {\em The Handbook of Contemporary
+  Semantic Theory}, pages 493--522. Wiley-Blackwell.
+
+\bibitem[Collobert and Weston, 2008]{CollobertEA2008}
+Collobert, R. and Weston, J. (2008).
+\newblock A unified architecture for natural language processing: Deep neural
+  networks with multitask learning.
+\newblock In {\em Proceedings of the 25th International Conference on Machine
+  Learning}, pages 160--167.
+
+\bibitem[Dummett, 1981]{Dummett1981}
+Dummett, M. (1981).
+\newblock {\em Frege: Philosophy of Language}.
+\newblock Duckworth, London, 2nd edition.
+
+\bibitem[Erk and Smith, 2016]{ErkEA2016}
+Erk, K. and Smith, N.~A., editors (2016).
+\newblock {\em Proceedings of the 54th Annual Meeting of the Association for
+  Computational Linguistics (Volume 1: Long Papers)}.
+\newblock Association for Computational Linguistics, Berlin, Germany.
 
 \bibitem[Fellbaum, 1998]{Fellbaum1998}
 Fellbaum, C. (1998).
 \newblock {\em WordNet: An Electronic Lexical Database}.
 \newblock Bradford Books.
 
-\bibitem[Finkelstein et~al., 2002]{FinkelsteinEA2002}
-Finkelstein, L., Gabrilovich, E., Matias, Y., Rivlin, E., Solan, Z., Wolfman,
-  G., and Ruppin, E. (2002).
-\newblock Placing search in context: The concept revisited.
-\newblock {\em ACM Transanction on Information Systems}, 20(1):116--131.
+\bibitem[Gabrilovich and Markovitch, 2007]{GabrilovichEA2007}
+Gabrilovich, E. and Markovitch, S. (2007).
+\newblock Computing semantic relatedness using wikipedia-based explicit
+  semantic analysis.
+\newblock In {\em Proceedings of the 20th International Joint Conference on
+  Artifical Intelligence}, pages 1606--1611.
 
-\bibitem[Hill et~al., 2015]{HillEA2015}
-Hill, F., Reichart, R., and Korhonen, A. (2015).
-\newblock Simlex-999: Evaluating semantic models with genuine similarity
-  estimation.
-\newblock {\em Computational Linguistics}, 41(4):665--695.
+\bibitem[G{\"a}rdenfors, 2000]{Gardenfors2000}
+G{\"a}rdenfors, P. (2000).
+\newblock {\em Conceptual Space: The Geometry of Thought}.
+\newblock The MIT Press, Cambridge, MA.
+
+\bibitem[Gibson, 1979]{Gibson1979}
+Gibson, J.~J. (1979).
+\newblock {\em The Ecological Approach to Visual Perception}.
+\newblock Houghton Miffline, Boston.
+
+\bibitem[Guti{\'{e}}rrez et~al., 2016]{GutierrezEA2016}
+Guti{\'{e}}rrez, E.~D., Shutova, E., Marghetis, T., and Bergen, B.~K. (2016).
+\newblock Literal and metaphorical senses in compositional distributional
+  semantic models.
+\newblock In {\em Proceedings of the 54th Annual Meeting of the Association for
+  Computational Linguistics}.
+
+\bibitem[Hill and Korhonen, 2014]{HillEA2014}
+Hill, F. and Korhonen, A. (2014).
+\newblock Learning abstract concept embeddings from multi-modal data: Since you
+  probably can't see what {I} mean.
+\newblock In {\em Proceedings of the 2014 Conference on Empirical Methods in
+  Natural Language Processing}, pages 255--265.
+
+\bibitem[Kiela et~al., 2015]{KielaEA2015}
+Kiela, D., Hill, F., and Clark, S. (2015).
+\newblock Specializing word embeddings for similarity or relatedness.
+\newblock In {\em Proceedings of the 2015 Conference on Empirical Methods in
+  Natural Language Processing}, pages 2044--2048.
+
+\bibitem[Kottur et~al., 2016]{KotturEA2016}
+Kottur, S., Vedantam, R., Moura, J. M.~F., and Parikh, D. (2016).
+\newblock Visualword2vec (vis-w2v): Learning visually grounded word embeddings
+  using abstract scenes.
+\newblock In {\em 2016 IEEE Conference on Computer Vision and Pattern
+  Recognition (CVPR)}, pages 4985--4994.
+
+\bibitem[Lapesa and Evert, 2014]{LapesaEA2014}
+Lapesa, G. and Evert, S. (2014).
+\newblock A large scale evaluation of distributional semantic models:
+  Parameters, interactions and model selection.
+\newblock {\em Transactions of the Association for Computational Linguistics},
+  2:531--545.
+
+\bibitem[Levy and Goldberg, 2014]{LevyEA2014b}
+Levy, O. and Goldberg, Y. (2014).
+\newblock Neural word embedding as implicit matrix factorization.
+\newblock In Ghahramani, Z., Welling, M., Cortes, C., Lawrence, N.~D., and
+  Weinberger, K.~Q., editors, {\em Advances in Neural Information Processing
+  Systems 27}, pages 2177--2185. Curran Associates, Inc.
 
 \bibitem[McGregor et~al., 2015]{McGregorEA2015c}
 McGregor, S., Agres, K., Purver, M., and Wiggins, G. (2015).
@@ -52,15 +126,64 @@ McGregor, S., Agres, K., Purver, M., and Wiggins, G. (2015).
   computational method for concept creation.
 \newblock {\em Journal of Artificial General Intelligence}.
 
-\bibitem[Rubenstein and Goodenough, 1965]{RubensteinEA1965}
-Rubenstein, H. and Goodenough, J.~B. (1965).
-\newblock Contextual correlates of synonymy.
-\newblock {\em Communincations of the ACM}, 8(10):627--633.
+\bibitem[Mikolov et~al., 2013a]{MikolovEA2013b}
+Mikolov, T., Chen, K., Corrado, G., and Dean, J. (2013a).
+\newblock Efficient estimation of word representations in vector space.
+\newblock In {\em Proceedings of ICLR Workshop}.
 
-\bibitem[Tversky, 1977]{Tversky1977}
-Tversky, A. (1977).
-\newblock Features of similarity.
-\newblock {\em Psychological Review}, 84(4):327--352.
+\bibitem[Mikolov et~al., 2013b]{MikolovEA2013c}
+Mikolov, T., Sutskever, I., Chen, K., Corrado, G., and Dean, J. (2013b).
+\newblock Distributed representations of words and phrases and their
+  compositionality.
+\newblock In {\em Proceedings of the 26th International Conference on Neural
+  Information Processing Systems}, pages 3111--3119.
+
+\bibitem[Mikolov et~al., 2013c]{MikolovEA2013}
+Mikolov, T., tau Yih, W., and Zweig, G. (2013c).
+\newblock Linguistic regularities in continuous space word representations.
+\newblock In {\em Proceedings of the 2013 Conference of the North American
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies}, pages 246--251.
+
+\bibitem[Milajevs et~al., 2016]{MilajevsEA2016}
+Milajevs, D., Sadrzadeh, M., and Purver, M. (2016).
+\newblock Robust co-occurrence quantification for lexical distributional
+  semantics.
+\newblock In {\em Proceedings of the ACL 2016 Student Research Workshop}, pages
+  58--64, Berlin, Germany. Association for Computational Linguistics.
+
+\bibitem[Pad\'{o} and Lapata, 2007]{PadoEA2007}
+Pad\'{o}, S. and Lapata, M. (2007).
+\newblock Dependency-based construction of semantic space models.
+\newblock {\em Computational Linguistics}, 33(2):161--199.
+
+\bibitem[Pennington et~al., 2014]{PenningtonEA2014}
+Pennington, J., Socher, R., and Manning, C.~D. (2014).
+\newblock Glove: Global vectors for word representation.
+\newblock In {\em Conference on Empirical Methods in Natural Language
+  Processing}.
+
+\bibitem[Polajnar and Clark, 2014]{PolajnarEA2014}
+Polajnar, T. and Clark, S. (2014).
+\newblock Improving distributional semantic vectors through context selection
+  and normalisation.
+\newblock In {\em Proceedings of the 14th Conference of the European Chapter of
+  the Association for Computational Linguistics}, pages 230--238.
+
+\bibitem[Schwartz et~al., 2015]{SchwartzEA2015}
+Schwartz, R., Reichart, R., and Rappoport, A. (2015).
+\newblock Symmetric pattern based word embeddings for improved word similarity
+  prediction.
+\newblock In {\em Proceedings of the 19th Conference on Computational Natural
+  Language Learning}, pages 258--267.
+
+\bibitem[Socher et~al., 2013]{SocherEA2013b}
+Socher, R., Perelygin, A., Wu, J., Chuang, J., Manning, C.~D., Ng, A., and
+  Potts, C. (2013).
+\newblock Recursive deep models for semantic compositionality over a sentiment
+  treebank.
+\newblock In {\em Proceedings of the 2013 Conference on Empirical Methods in
+  Natural Language Processing}, pages 1631--1642.
 
 \bibitem[van~der {Velde} et~al., 2015]{VanDerVeldeEA2015}
 van~der {Velde}, F., {Wolf}, R.~A., {Schmettow}, M., and {Nazareth}, D.~S.
@@ -69,9 +192,17 @@ van~der {Velde}, F., {Wolf}, R.~A., {Schmettow}, M., and {Nazareth}, D.~S.
 \newblock In {\em Proceedings of the Sixth International Conference on
   Computational Creativity (ICCC 2015)}, pages 94--101.
 
-\bibitem[Yang and Powers, 2006]{YangEA2006}
-Yang, D. and Powers, D. M.~W. (2006).
-\newblock Verb similarity on the taxonomy of wordnet.
-\newblock In {\em 3rd International WordNet Conference}, pages 121--128.
+\bibitem[von Uexk\"{u}ll, 1957]{VonUexkull1957}
+von Uexk\"{u}ll, J. (1957).
+\newblock A stroll through the worlds of animals and men: A picture book of
+  invisible worlds.
+\newblock In Schiller, C.~H., editor, {\em Instinctive Behavior: The
+  Development of a Modern Concept}, pages 5--80. International Universities
+  Press, Inc., New York City, NY.
+
+\bibitem[Widdows, 2004]{Widdows2004}
+Widdows, D. (2004).
+\newblock {\em Geometry and Meaning}.
+\newblock CSLI Publications, Stanford, CA.
 
 \end{thebibliography}
