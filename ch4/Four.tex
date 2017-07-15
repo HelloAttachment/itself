@@ -218,8 +218,8 @@ $\angle ACB$ & 0.349 & $\angle AOB$ & 0.333 & $\angle ACB$ & 0.325 \\
       \addplot3 [color=black,thick] coordinates {(0,0,0) (\varCN)};
       \addplot3 [color=black,thick] coordinates {(0,0,0) (\varXN)};
       \addplot3 [color=black,thick] coordinates {(0,0,0) (\varMN)};
-      \addplot3[opacity = 0.1,surf,z buffer = sort,samples = 21,variable = \u,variable y = \v,domain = 0:90,y domain = 0:90,]
-    ({1*cos(u)*sin(v)}, {1*sin(u)*sin(v)}, {1*cos(v)});
+%      \addplot3[opacity = 0.1,surf,z buffer = sort,samples = 21,variable = \u,variable y = \v,domain = 0:90,y domain = 0:90,]
+%    ({1*cos(u)*sin(v)}, {1*sin(u)*sin(v)}, {1*cos(v)});
       \addplot3 [patch,patch type=rectangle,color=lightgray,fill opacity=0.6] coordinates{(\varAN) (\varA) (\varB) (\varBN)
 };
       \addplot3 [color=black,thick] coordinates {(\varCN) (\varC)};
@@ -228,20 +228,20 @@ $\angle ACB$ & 0.349 & $\angle AOB$ & 0.333 & $\angle ACB$ & 0.325 \\
       \addplot3 [patch,patch type=triangle,color=lightgray,fill opacity=0.6] coordinates{(\varA) (\varC) (\varB)};
       \addplot3 [patch,patch type=triangle,color=gray,fill opacity=0.8] coordinates{(\varA) (\varX) (\varB)};
       \addplot3 [patch,patch type=triangle,color=gray,fill opacity=0.6] coordinates{(\varA) (\varM) (\varB)};
-      \node [anchor=south] at (axis cs: 0.1,0.0,0.0) {O};
-      \node [anchor=south] at (axis cs: \varA) {A};
-      \node [anchor=south] at (axis cs: \varB) {B};
-      \node [anchor=south] at (axis cs: \varAN) {A'};
-      \node [anchor=west] at (axis cs: \varBN) {B'};
-      \node [anchor=south] at (axis cs: \varCN) {C'};
-      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varCN)};
-      \node [anchor=south] at (axis cs: \varC) {C};
-      \node [anchor=east] at (axis cs: \varXN) {X'};
-      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varXN)};
-      \node [anchor=south] at (axis cs: \varX) {X};
-      \node [anchor=west] at (axis cs: \varMN) {M'};
-      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varMN)};
-      \node [anchor=south] at (axis cs: \varM) {M};
+%      \node [anchor=south] at (axis cs: 0.1,0.0,0.0) {O};
+%      \node [anchor=south] at (axis cs: \varA) {A};
+%      \node [anchor=south] at (axis cs: \varB) {B};
+%      \node [anchor=south] at (axis cs: \varAN) {A'};
+%      \node [anchor=west] at (axis cs: \varBN) {B'};
+%      \node [anchor=south] at (axis cs: \varCN) {C'};
+%      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varCN)};
+%      \node [anchor=south] at (axis cs: \varC) {C};
+%      \node [anchor=east] at (axis cs: \varXN) {X'};
+%      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varXN)};
+%      \node [anchor=south] at (axis cs: \varX) {X};
+%      \node [anchor=west] at (axis cs: \varMN) {M'};
+%      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varMN)};
+%      \node [anchor=south] at (axis cs: \varM) {M};
     \end{axis}
   \end{tikzpicture}
 \end{minipage}
@@ -281,8 +281,8 @@ $\angle ACB$ & 0.349 & $\angle AOB$ & 0.333 & $\angle ACB$ & 0.325 \\
       \addplot3 [color=black,thick] coordinates {(0,0,0) (\varCN)};
       \addplot3 [color=black,thick] coordinates {(0,0,0) (\varXN)};
       \addplot3 [color=black,thick] coordinates {(0,0,0) (\varMN)};
-      \addplot3[opacity = 0.1,surf,z buffer = sort,samples = 21,variable = \u,variable y = \v,domain = 0:90,y domain = 0:90,]
-    ({1*cos(u)*sin(v)}, {1*sin(u)*sin(v)}, {1*cos(v)});
+%      \addplot3[opacity = 0.1,surf,z buffer = sort,samples = 21,variable = \u,variable y = \v,domain = 0:90,y domain = 0:90,]
+%    ({1*cos(u)*sin(v)}, {1*sin(u)*sin(v)}, {1*cos(v)});
       \addplot3 [patch,patch type=rectangle,color=lightgray,fill opacity=0.6] coordinates{(\varAN) (\varA) (\varB) (\varBN)
 };
       \addplot3 [color=black,thick] coordinates {(\varCN) (\varC)};
@@ -291,20 +291,20 @@ $\angle ACB$ & 0.349 & $\angle AOB$ & 0.333 & $\angle ACB$ & 0.325 \\
       \addplot3 [patch,patch type=triangle,color=lightgray,fill opacity=0.6] coordinates{(\varA) (\varC) (\varB)};
       \addplot3 [patch,patch type=triangle,color=gray,fill opacity=0.8] coordinates{(\varA) (\varX) (\varB)};
       \addplot3 [patch,patch type=triangle,color=gray,fill opacity=0.6] coordinates{(\varA) (\varM) (\varB)};
-      \node [anchor=south] at (axis cs: 0.1,0.0,0.0) {O};
-      \node [anchor=south] at (axis cs: \varA) {A};
-      \node [anchor=south] at (axis cs: \varB) {B};
-      \node [anchor=south] at (axis cs: \varAN) {A'};
-      \node [anchor=west] at (axis cs: \varBN) {B'};
-      \node [anchor=south] at (axis cs: \varCN) {C'};
-      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varCN)};
-      \node [anchor=south] at (axis cs: \varC) {C};
-      \node [anchor=east] at (axis cs: \varXN) {X'};
-      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varXN)};
-      \node [anchor=south] at (axis cs: \varX) {X};
-      \node [anchor=west] at (axis cs: \varMN) {M'};
-      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varMN)};
-      \node [anchor=south] at (axis cs: \varM) {M};
+%      \node [anchor=south] at (axis cs: 0.1,0.0,0.0) {O};
+%      \node [anchor=south] at (axis cs: \varA) {A};
+%      \node [anchor=south] at (axis cs: \varB) {B};
+%      \node [anchor=south] at (axis cs: \varAN) {A'};
+%      \node [anchor=west] at (axis cs: \varBN) {B'};
+%      \node [anchor=south] at (axis cs: \varCN) {C'};
+%      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varCN)};
+%      \node [anchor=south] at (axis cs: \varC) {C};
+%      \node [anchor=east] at (axis cs: \varXN) {X'};
+%      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varXN)};
+%      \node [anchor=south] at (axis cs: \varX) {X};
+%      \node [anchor=west] at (axis cs: \varMN) {M'};
+%      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varMN)};
+%      \node [anchor=south] at (axis cs: \varM) {M};
     \end{axis}
   \end{tikzpicture}
 \end{minipage}
@@ -344,8 +344,8 @@ $\angle ACB$ & 0.349 & $\angle AOB$ & 0.333 & $\angle ACB$ & 0.325 \\
       \addplot3 [color=black,thick] coordinates {(0,0,0) (\varCN)};
       \addplot3 [color=black,thick] coordinates {(0,0,0) (\varXN)};
       \addplot3 [color=black,thick] coordinates {(0,0,0) (\varMN)};
-      \addplot3[opacity = 0.1,surf,z buffer = sort,samples = 21,variable = \u,variable y = \v,domain = 0:90,y domain = 0:90,]
-    ({1*cos(u)*sin(v)}, {1*sin(u)*sin(v)}, {1*cos(v)});
+%      \addplot3[opacity = 0.1,surf,z buffer = sort,samples = 21,variable = \u,variable y = \v,domain = 0:90,y domain = 0:90,]
+%    ({1*cos(u)*sin(v)}, {1*sin(u)*sin(v)}, {1*cos(v)});
       \addplot3 [patch,patch type=rectangle,color=lightgray,fill opacity=0.6] coordinates{(\varAN) (\varA) (\varB) (\varBN)
 };
       \addplot3 [color=black,thick] coordinates {(\varCN) (\varC)};
@@ -354,20 +354,20 @@ $\angle ACB$ & 0.349 & $\angle AOB$ & 0.333 & $\angle ACB$ & 0.325 \\
       \addplot3 [patch,patch type=triangle,color=lightgray,fill opacity=0.6] coordinates{(\varA) (\varC) (\varB)};
       \addplot3 [patch,patch type=triangle,color=gray,fill opacity=0.8] coordinates{(\varA) (\varX) (\varB)};
       \addplot3 [patch,patch type=triangle,color=gray,fill opacity=0.6] coordinates{(\varA) (\varM) (\varB)};
-      \node [anchor=south] at (axis cs: 0.1,0.0,0.0) {O};
-      \node [anchor=south] at (axis cs: \varA) {A};
-      \node [anchor=south] at (axis cs: \varB) {B};
-      \node [anchor=south] at (axis cs: \varAN) {A'};
-      \node [anchor=west] at (axis cs: \varBN) {B'};
-      \node [anchor=south] at (axis cs: \varCN) {C'};
-      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varCN)};
-      \node [anchor=south] at (axis cs: \varC) {C};
-      \node [anchor=east] at (axis cs: \varXN) {X'};
-      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varXN)};
-      \node [anchor=south] at (axis cs: \varX) {X};
-      \node [anchor=west] at (axis cs: \varMN) {M'};
-      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varMN)};
-      \node [anchor=south] at (axis cs: \varM) {M};
+%      \node [anchor=south] at (axis cs: 0.1,0.0,0.0) {O};
+%      \node [anchor=south] at (axis cs: \varA) {A};
+%      \node [anchor=south] at (axis cs: \varB) {B};
+%      \node [anchor=south] at (axis cs: \varAN) {A'};
+%      \node [anchor=west] at (axis cs: \varBN) {B'};
+%      \node [anchor=south] at (axis cs: \varCN) {C'};
+%      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varCN)};
+%      \node [anchor=south] at (axis cs: \varC) {C};
+%      \node [anchor=east] at (axis cs: \varXN) {X'};
+%      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varXN)};
+%      \node [anchor=south] at (axis cs: \varX) {X};
+%      \node [anchor=west] at (axis cs: \varMN) {M'};
+%      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varMN)};
+%      \node [anchor=south] at (axis cs: \varM) {M};
     \end{axis}
   \end{tikzpicture}
 \end{minipage}
@@ -406,8 +406,8 @@ $\angle ACB$ & 0.349 & $\angle AOB$ & 0.333 & $\angle ACB$ & 0.325 \\
       \addplot3 [color=black,thick] coordinates {(0,0,0) (\varCN)};
       \addplot3 [color=black,thick] coordinates {(0,0,0) (\varXN)};
       \addplot3 [color=black,thick] coordinates {(0,0,0) (\varMN)};
-      \addplot3[opacity = 0.1,surf,z buffer = sort,samples = 21,variable = \u,variable y = \v,domain = 0:90,y domain = 0:90,]
-    ({1*cos(u)*sin(v)}, {1*sin(u)*sin(v)}, {1*cos(v)});
+%      \addplot3[opacity = 0.1,surf,z buffer = sort,samples = 21,variable = \u,variable y = \v,domain = 0:90,y domain = 0:90,]
+%    ({1*cos(u)*sin(v)}, {1*sin(u)*sin(v)}, {1*cos(v)});
       \addplot3 [patch,patch type=rectangle,color=lightgray,fill opacity=0.6] coordinates{(\varAN) (\varA) (\varB) (\varBN)
 };
       \addplot3 [color=black,thick] coordinates {(\varCN) (\varC)};
@@ -416,83 +416,20 @@ $\angle ACB$ & 0.349 & $\angle AOB$ & 0.333 & $\angle ACB$ & 0.325 \\
       \addplot3 [patch,patch type=triangle,color=lightgray,fill opacity=0.6] coordinates{(\varA) (\varC) (\varB)};
       \addplot3 [patch,patch type=triangle,color=gray,fill opacity=0.8] coordinates{(\varA) (\varX) (\varB)};
       \addplot3 [patch,patch type=triangle,color=gray,fill opacity=0.6] coordinates{(\varA) (\varM) (\varB)};
-      \node [anchor=south] at (axis cs: 0.1,0.0,0.0) {O};
-      \node [anchor=south] at (axis cs: \varA) {A};
-      \node [anchor=south] at (axis cs: \varB) {B};
-      \node [anchor=south] at (axis cs: \varAN) {A'};
-      \node [anchor=west] at (axis cs: \varBN) {B'};
-      \node [anchor=south] at (axis cs: \varCN) {C'};
-      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varCN)};
-      \node [anchor=south] at (axis cs: \varC) {C};
-      \node [anchor=east] at (axis cs: \varXN) {X'};
-      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varXN)};
-      \node [anchor=south] at (axis cs: \varX) {X};
-      \node [anchor=west] at (axis cs: \varMN) {M'};
-      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varMN)};
-      \node [anchor=south] at (axis cs: \varM) {M};
-    \end{axis}
-  \end{tikzpicture}
-\end{minipage}
-\hfill
-\begin{minipage}{0.3\textwidth}
-\centering
-  \begin{tikzpicture}
-    \def\varA{0.3,0.6,1.35};
-    \def\varB{0.4,1.6,1.1};
-    \def\varC{1.0,1.0,1.0};
-    \def\varM{1.35,1.6,1.1};
-    \def\varX{2.5,1.6,1.7};
-    \def\varAN{0.2,0.4,0.8944};
-    \def\varBN{0.2,0.8,0.5657};
-    \def\varCN{0.5774,0.5774,0.5774};
-    \def\varMN{0.5709,0.6766,0.4651};
-    \def\varXN{0.7309,0.4678,0.4970};
-    \begin{axis}[scale = 0.6,axis line style=white,view={120}{10},xmin=0,xmax=1.5,ymin=0,ymax=1.5,zmin=0,zmax=1.5,colormap/blackwhite,ticks=none]
-      \addplot3[color=black,thick] coordinates {(0,0,1.5) (0,1.5,1.5)};
-      \addplot3[color=black,thick] coordinates {(0,0,1.5) (1.5,0,1.5)};
-      \addplot3[color=black,thick] coordinates {(0,1.5,0) (0,1.5,1.5)};
-      \addplot3[color=black,thick] coordinates {(0,1.5,0) (1.5,1.5,0)};
-      \addplot3[color=black,thick] coordinates {(1.5,0,0) (1.5,0,1.5)};
-      \addplot3[color=black,thick] coordinates {(1.5,0,0) (1.5,1.5,0)};
-      \addplot3[color=black,dashed] coordinates {(0,0,0) (0,0,1)};
-      \addplot3[color=black,dashed] coordinates {(0,0,0) (0,1,0)};
-      \addplot3[color=black,dashed] coordinates {(0,0,0) (1,0,0)};
-      \addplot3[color=black] coordinates {(0,0,1) (0,0,1.5)};
-      \addplot3[color=black] coordinates {(0,1,0) (0,1.5,0)};
-      \addplot3[color=black] coordinates {(1,0,0) (1.5,0,0)};
-      \addplot3[patch,patch type=triangle,color=gray,fill opacity=0.6] coordinates {(0.0,0.0,0.0) (\varCN) (\varAN)
-};
-      \addplot3[patch,patch type=triangle,color=gray,fill opacity=0.5] coordinates {(0.0,0.0,0.0) (\varCN) (\varBN)
-};
-      \addplot3[patch,patch type=triangle,color=darkgray,fill opacity=0.5] coordinates {(\varCN) (\varAN) (\varBN)
-};
-      \addplot3 [color=black,thick] coordinates {(0,0,0) (\varCN)};
-      \addplot3 [color=black,thick] coordinates {(0,0,0) (\varXN)};
-      \addplot3 [color=black,thick] coordinates {(0,0,0) (\varMN)};
-      \addplot3[opacity = 0.1,surf,z buffer = sort,samples = 21,variable = \u,variable y = \v,domain = 0:90,y domain = 0:90,]
-    ({1*cos(u)*sin(v)}, {1*sin(u)*sin(v)}, {1*cos(v)});
-      \addplot3 [patch,patch type=rectangle,color=lightgray,fill opacity=0.6] coordinates{(\varAN) (\varA) (\varB) (\varBN)
-};
-      \addplot3 [color=black,thick] coordinates {(\varCN) (\varC)};
-      \addplot3 [color=black,thick] coordinates {(\varXN) (\varX)};
-      \addplot3 [color=black,thick] coordinates {(\varMN) (\varM)};
-      \addplot3 [patch,patch type=triangle,color=lightgray,fill opacity=0.6] coordinates{(\varA) (\varC) (\varB)};
-      \addplot3 [patch,patch type=triangle,color=gray,fill opacity=0.8] coordinates{(\varA) (\varX) (\varB)};
-      \addplot3 [patch,patch type=triangle,color=gray,fill opacity=0.6] coordinates{(\varA) (\varM) (\varB)};
-      \node [anchor=south] at (axis cs: 0.1,0.0,0.0) {O};
-      \node [anchor=south] at (axis cs: \varA) {A};
-      \node [anchor=south] at (axis cs: \varB) {B};
-      \node [anchor=south] at (axis cs: \varAN) {A'};
-      \node [anchor=west] at (axis cs: \varBN) {B'};
-      \node [anchor=south] at (axis cs: \varCN) {C'};
-      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varCN)};
-      \node [anchor=south] at (axis cs: \varC) {C};
-      \node [anchor=east] at (axis cs: \varXN) {X'};
-      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varXN)};
-      \node [anchor=south] at (axis cs: \varX) {X};
-      \node [anchor=west] at (axis cs: \varMN) {M'};
-      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varMN)};
-      \node [anchor=south] at (axis cs: \varM) {M};
+%      \node [anchor=south] at (axis cs: 0.1,0.0,0.0) {O};
+%      \node [anchor=south] at (axis cs: \varA) {A};
+%      \node [anchor=south] at (axis cs: \varB) {B};
+%      \node [anchor=south] at (axis cs: \varAN) {A'};
+%      \node [anchor=west] at (axis cs: \varBN) {B'};
+%      \node [anchor=south] at (axis cs: \varCN) {C'};
+%      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varCN)};
+%      \node [anchor=south] at (axis cs: \varC) {C};
+%      \node [anchor=east] at (axis cs: \varXN) {X'};
+%      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varXN)};
+%      \node [anchor=south] at (axis cs: \varX) {X};
+%      \node [anchor=west] at (axis cs: \varMN) {M'};
+%      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varMN)};
+%      \node [anchor=south] at (axis cs: \varM) {M};
     \end{axis}
   \end{tikzpicture}
 \end{minipage}
@@ -532,8 +469,8 @@ $\angle ACB$ & 0.349 & $\angle AOB$ & 0.333 & $\angle ACB$ & 0.325 \\
       \addplot3 [color=black,thick] coordinates {(0,0,0) (\varCN)};
       \addplot3 [color=black,thick] coordinates {(0,0,0) (\varXN)};
       \addplot3 [color=black,thick] coordinates {(0,0,0) (\varMN)};
-      \addplot3[opacity = 0.1,surf,z buffer = sort,samples = 21,variable = \u,variable y = \v,domain = 0:90,y domain = 0:90,]
-    ({1*cos(u)*sin(v)}, {1*sin(u)*sin(v)}, {1*cos(v)});
+%      \addplot3[opacity = 0.1,surf,z buffer = sort,samples = 21,variable = \u,variable y = \v,domain = 0:90,y domain = 0:90,]
+%    ({1*cos(u)*sin(v)}, {1*sin(u)*sin(v)}, {1*cos(v)});
       \addplot3 [patch,patch type=rectangle,color=lightgray,fill opacity=0.6] coordinates{(\varAN) (\varA) (\varB) (\varBN)
 };
       \addplot3 [color=black,thick] coordinates {(\varCN) (\varC)};
@@ -542,20 +479,83 @@ $\angle ACB$ & 0.349 & $\angle AOB$ & 0.333 & $\angle ACB$ & 0.325 \\
       \addplot3 [patch,patch type=triangle,color=lightgray,fill opacity=0.6] coordinates{(\varA) (\varC) (\varB)};
       \addplot3 [patch,patch type=triangle,color=gray,fill opacity=0.8] coordinates{(\varA) (\varX) (\varB)};
       \addplot3 [patch,patch type=triangle,color=gray,fill opacity=0.6] coordinates{(\varA) (\varM) (\varB)};
-      \node [anchor=south] at (axis cs: 0.1,0.0,0.0) {O};
-      \node [anchor=south] at (axis cs: \varA) {A};
-      \node [anchor=south] at (axis cs: \varB) {B};
-      \node [anchor=south] at (axis cs: \varAN) {A'};
-      \node [anchor=west] at (axis cs: \varBN) {B'};
-      \node [anchor=south] at (axis cs: \varCN) {C'};
-      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varCN)};
-      \node [anchor=south] at (axis cs: \varC) {C};
-      \node [anchor=east] at (axis cs: \varXN) {X'};
-      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varXN)};
-      \node [anchor=south] at (axis cs: \varX) {X};
-      \node [anchor=west] at (axis cs: \varMN) {M'};
-      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varMN)};
-      \node [anchor=south] at (axis cs: \varM) {M};
+%      \node [anchor=south] at (axis cs: 0.1,0.0,0.0) {O};
+%      \node [anchor=south] at (axis cs: \varA) {A};
+%      \node [anchor=south] at (axis cs: \varB) {B};
+%      \node [anchor=south] at (axis cs: \varAN) {A'};
+%      \node [anchor=west] at (axis cs: \varBN) {B'};
+%      \node [anchor=south] at (axis cs: \varCN) {C'};
+%      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varCN)};
+%      \node [anchor=south] at (axis cs: \varC) {C};
+%      \node [anchor=east] at (axis cs: \varXN) {X'};
+%      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varXN)};
+%      \node [anchor=south] at (axis cs: \varX) {X};
+%      \node [anchor=west] at (axis cs: \varMN) {M'};
+%      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varMN)};
+%      \node [anchor=south] at (axis cs: \varM) {M};
+    \end{axis}
+  \end{tikzpicture}
+\end{minipage}
+\hfill
+\begin{minipage}{0.3\textwidth}
+\centering
+  \begin{tikzpicture}
+    \def\varA{0.3,0.6,1.35};
+    \def\varB{0.4,1.6,1.1};
+    \def\varC{1.0,1.0,1.0};
+    \def\varM{1.35,1.6,1.1};
+    \def\varX{2.5,1.6,1.7};
+    \def\varAN{0.2,0.4,0.8944};
+    \def\varBN{0.2,0.8,0.5657};
+    \def\varCN{0.5774,0.5774,0.5774};
+    \def\varMN{0.5709,0.6766,0.4651};
+    \def\varXN{0.7309,0.4678,0.4970};
+    \begin{axis}[scale = 0.6,axis line style=white,view={120}{10},xmin=0,xmax=1.5,ymin=0,ymax=1.5,zmin=0,zmax=1.5,colormap/blackwhite,ticks=none]
+      \addplot3[color=black,thick] coordinates {(0,0,1.5) (0,1.5,1.5)};
+      \addplot3[color=black,thick] coordinates {(0,0,1.5) (1.5,0,1.5)};
+      \addplot3[color=black,thick] coordinates {(0,1.5,0) (0,1.5,1.5)};
+      \addplot3[color=black,thick] coordinates {(0,1.5,0) (1.5,1.5,0)};
+      \addplot3[color=black,thick] coordinates {(1.5,0,0) (1.5,0,1.5)};
+      \addplot3[color=black,thick] coordinates {(1.5,0,0) (1.5,1.5,0)};
+      \addplot3[color=black,dashed] coordinates {(0,0,0) (0,0,1)};
+      \addplot3[color=black,dashed] coordinates {(0,0,0) (0,1,0)};
+      \addplot3[color=black,dashed] coordinates {(0,0,0) (1,0,0)};
+      \addplot3[color=black] coordinates {(0,0,1) (0,0,1.5)};
+      \addplot3[color=black] coordinates {(0,1,0) (0,1.5,0)};
+      \addplot3[color=black] coordinates {(1,0,0) (1.5,0,0)};
+      \addplot3[patch,patch type=triangle,color=gray,fill opacity=0.6] coordinates {(0.0,0.0,0.0) (\varCN) (\varAN)
+};
+      \addplot3[patch,patch type=triangle,color=gray,fill opacity=0.5] coordinates {(0.0,0.0,0.0) (\varCN) (\varBN)
+};
+      \addplot3[patch,patch type=triangle,color=darkgray,fill opacity=0.5] coordinates {(\varCN) (\varAN) (\varBN)
+};
+      \addplot3 [color=black,thick] coordinates {(0,0,0) (\varCN)};
+      \addplot3 [color=black,thick] coordinates {(0,0,0) (\varXN)};
+      \addplot3 [color=black,thick] coordinates {(0,0,0) (\varMN)};
+%      \addplot3[opacity = 0.1,surf,z buffer = sort,samples = 21,variable = \u,variable y = \v,domain = 0:90,y domain = 0:90,]
+%    ({1*cos(u)*sin(v)}, {1*sin(u)*sin(v)}, {1*cos(v)});
+      \addplot3 [patch,patch type=rectangle,color=lightgray,fill opacity=0.6] coordinates{(\varAN) (\varA) (\varB) (\varBN)
+};
+      \addplot3 [color=black,thick] coordinates {(\varCN) (\varC)};
+      \addplot3 [color=black,thick] coordinates {(\varXN) (\varX)};
+      \addplot3 [color=black,thick] coordinates {(\varMN) (\varM)};
+      \addplot3 [patch,patch type=triangle,color=lightgray,fill opacity=0.6] coordinates{(\varA) (\varC) (\varB)};
+      \addplot3 [patch,patch type=triangle,color=gray,fill opacity=0.8] coordinates{(\varA) (\varX) (\varB)};
+      \addplot3 [patch,patch type=triangle,color=gray,fill opacity=0.6] coordinates{(\varA) (\varM) (\varB)};
+%      \node [anchor=south] at (axis cs: 0.1,0.0,0.0) {O};
+%      \node [anchor=south] at (axis cs: \varA) {A};
+%      \node [anchor=south] at (axis cs: \varB) {B};
+%      \node [anchor=south] at (axis cs: \varAN) {A'};
+%      \node [anchor=west] at (axis cs: \varBN) {B'};
+%      \node [anchor=south] at (axis cs: \varCN) {C'};
+%      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varCN)};
+%      \node [anchor=south] at (axis cs: \varC) {C};
+%      \node [anchor=east] at (axis cs: \varXN) {X'};
+%      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varXN)};
+%      \node [anchor=south] at (axis cs: \varX) {X};
+%      \node [anchor=west] at (axis cs: \varMN) {M'};
+%      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varMN)};
+%      \node [anchor=south] at (axis cs: \varM) {M};
     \end{axis}
   \end{tikzpicture}
 \end{minipage}
