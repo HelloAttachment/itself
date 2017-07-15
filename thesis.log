@@ -1,18 +1,18 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.6.5)  15 JUL 2017 14:30
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.9.4)  15 JUL 2017 14:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **thesis
 (./thesis.tex
-LaTeX2e <2016/02/01>
-Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 78 languages loaded.
 (./uolthesis.cls
 Document Class: uolthesis 28/09/2012, modified from mitthesis.cls by Yue Gao at
  QMUL.
 (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
-Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@chapter=\count80
@@ -77,22 +77,22 @@ Package tocbibind Note: Using chapter style headings, unless overridden.
 Package: parskip 2001/04/09 non-zero parskip adjustments
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: pdftex.def on input line 95.
+Package graphics Info: Driver file: pdftex.def on input line 91.
 
 (/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
@@ -109,40 +109,40 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@width=\dimen104
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2016/03/03 v2.15a AMS math features
+Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip59
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2000/06/29 v2.01 AMS text
+Package: amstext 2000/06/29 v2.01
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0 generic functions
+File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks15
 \ex@=\dimen105
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen106
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count94
-LaTeX Info: Redefining \frac on input line 199.
+LaTeX Info: Redefining \frac on input line 210.
 \uproot@=\count95
 \leftroot@=\count96
-LaTeX Info: Redefining \overline on input line 297.
+LaTeX Info: Redefining \overline on input line 306.
 \classnum@=\count97
 \DOTSCASE@=\count98
-LaTeX Info: Redefining \ldots on input line 394.
-LaTeX Info: Redefining \dots on input line 397.
-LaTeX Info: Redefining \cdots on input line 518.
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
 \Mathstrutbox@=\box26
 \strutbox@=\box27
 \big@size=\dimen107
-LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \macc@depth=\count99
 \c@MaxMatrixCols=\count100
 \dotsspace@=\muskip10
@@ -163,8 +163,8 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
 \multlinegap=\skip60
 \multlinetaggap=\skip61
 \mathdisplay@stack=\toks19
-LaTeX Info: Redefining \[ on input line 2735.
-LaTeX Info: Redefining \] on input line 2736.
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
@@ -177,7 +177,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
-Package: amsthm 2015/03/04 v2.20.2
+Package: amsthm 2004/08/06 v2.20
 \thm@style=\toks20
 \thm@bodyfont=\toks21
 \thm@headfont=\toks22
@@ -192,7 +192,7 @@ Package: amsthm 2015/03/04 v2.20.2
 Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \c@r@tfl@t=\count106
 \rotFPtop=\skip65
@@ -212,83 +212,76 @@ Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup6
 )
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+(/usr/share/texmf/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texmf/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texmf/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks27
-\pgfutil@tempdima=\dimen115
-\pgfutil@tempdimb=\dimen116
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
-ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+)
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-latex.def
 \pgfutil@abb=\box29
+
 (/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
-Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2010/10/25 v2.10 (rcs-revision 1.24)
 ))
-Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+Package: pgf 2008/01/15 v2.10 (rcs-revision 1.12)
 
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
-Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+(/usr/share/texmf/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texmf/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks28
 \pgfkeys@temptoks=\toks29
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
-ex
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
 \pgfkeys@tmptoks=\toks30
 ))
-\pgf@x=\dimen117
-\pgf@y=\dimen118
-\pgf@xa=\dimen119
-\pgf@ya=\dimen120
-\pgf@xb=\dimen121
-\pgf@yb=\dimen122
-\pgf@xc=\dimen123
-\pgf@yc=\dimen124
+\pgf@x=\dimen115
+\pgf@y=\dimen116
+\pgf@xa=\dimen117
+\pgf@ya=\dimen118
+\pgf@xb=\dimen119
+\pgf@yb=\dimen120
+\pgf@xc=\dimen121
+\pgf@yc=\dimen122
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
 \c@pgf@counta=\count107
 \c@pgf@countb=\count108
 \c@pgf@countc=\count109
 \c@pgf@countd=\count110
-\t@pgf@toka=\toks31
-\t@pgf@tokb=\toks32
-\t@pgf@tokc=\toks33
- (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
-Driver file for pgf: pgfsys-pdftex.def
+Package pgfsys Info: Driver file for pgf: pgfsys-pdftex.def on input line 900.
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
-File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2009/05/22  (rcs-revision 1.26)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
-f
-File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2008/05/19  (rcs-revision 1.10)
 )))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
-tex
-File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2008/07/18  (rcs-revision 1.7)
 \pgfsyssoftpath@smallbuffer@items=\count111
 \pgfsyssoftpath@bigbuffer@items=\count112
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
-tex
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
-)) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+))
+(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
@@ -305,206 +298,175 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
-Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen125
+(/usr/share/texmf/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen123
 \pgfmath@count=\count113
 \pgfmath@box=\box30
-\pgfmath@toks=\toks34
-\pgfmath@stack@operand=\toks35
-\pgfmath@stack@operation=\toks36
+\pgfmath@toks=\toks31
+\pgfmath@stack@operand=\toks32
+\pgfmath@stack@operation=\toks33
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
-.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
-ric.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
-e.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
-.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
-tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
-.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
-tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
-thmetics.code.tex)))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.random.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.base.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.round.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)))
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count114
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
-x
-File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
-\pgf@picminx=\dimen126
-\pgf@picmaxx=\dimen127
-\pgf@picminy=\dimen128
-\pgf@picmaxy=\dimen129
-\pgf@pathminx=\dimen130
-\pgf@pathmaxx=\dimen131
-\pgf@pathminy=\dimen132
-\pgf@pathmaxy=\dimen133
-\pgf@xx=\dimen134
-\pgf@xy=\dimen135
-\pgf@yx=\dimen136
-\pgf@yy=\dimen137
-\pgf@zx=\dimen138
-\pgf@zy=\dimen139
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
+\pgf@picminx=\dimen124
+\pgf@picmaxx=\dimen125
+\pgf@picminy=\dimen126
+\pgf@picmaxy=\dimen127
+\pgf@pathminx=\dimen128
+\pgf@pathmaxx=\dimen129
+\pgf@pathminy=\dimen130
+\pgf@pathmaxy=\dimen131
+\pgf@xx=\dimen132
+\pgf@xy=\dimen133
+\pgf@yx=\dimen134
+\pgf@yy=\dimen135
+\pgf@zx=\dimen136
+\pgf@zy=\dimen137
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
-code.tex
-File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
-\pgf@path@lastx=\dimen140
-\pgf@path@lasty=\dimen141
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2010/08/03  (rcs-revision 1.24)
+\pgf@path@lastx=\dimen138
+\pgf@path@lasty=\dimen139
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
-.tex
-File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
-\pgf@shorten@end@additional=\dimen142
-\pgf@shorten@start@additional=\dimen143
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2008/04/22  (rcs-revision 1.12)
+\pgf@shorten@end@additional=\dimen140
+\pgf@shorten@start@additional=\dimen141
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
-x
-File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2010/09/08  (rcs-revision 1.34)
 \pgfpic=\box31
 \pgf@hbox=\box32
 \pgf@layerbox@main=\box33
 \pgf@picture@serial@count=\count115
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
-ode.tex
-File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
-\pgflinewidth=\dimen144
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2008/04/22  (rcs-revision 1.9)
+\pgflinewidth=\dimen142
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
-s.code.tex
-File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
-\pgf@pt@x=\dimen145
-\pgf@pt@y=\dimen146
-\pgf@pt@temp=\dimen147
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2009/06/10  (rcs-revision 1.11)
+\pgf@pt@x=\dimen143
+\pgf@pt@y=\dimen144
+\pgf@pt@temp=\dimen145
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
-ex
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
 File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
-.code.tex
-File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2008/10/09  (rcs-revision 1.8)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
-x
-File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
-\pgfarrowsep=\dimen148
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2008/04/23  (rcs-revision 1.11)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
-File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
-\pgf@max=\dimen149
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2008/11/23  (rcs-revision 1.13)
+\pgf@max=\dimen146
 \pgf@sys@shading@range@num=\count116
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
-File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2010/03/25  (rcs-revision 1.16)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
-tex
-File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2010/09/01  (rcs-revision 1.17)
 \pgfexternal@startupbox=\box34
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
-x
-File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2010/08/27  (rcs-revision 1.2)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
-ode.tex
-File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2008/01/17  (rcs-revision 1.2)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
-tex
-File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2009/07/02  (rcs-revision 1.3)
 )))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
-File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+(/usr/share/texmf/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2010/09/09  (rcs-revision 1.13)
 \pgfnodeparttextbox=\box35
-) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
-File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
-.sty
-Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen150
-\pgf@nodesepend=\dimen151
+(/usr/share/texmf/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2010/10/22  (rcs-revision 1.8)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
-.sty
-Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
-)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
-Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen152
-\pgffor@skip=\dimen153
-\pgffor@stack=\toks37
-\pgffor@toks=\toks38
+(/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2007/07/03 v2.10 (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen147
+\pgf@nodesepend=\dimen148
+)
+(/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
-Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+(/usr/share/texmf/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texmf/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texmf/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2010/03/23 v2.10 (rcs-revision 1.18)
+\pgffor@iter=\dimen149
+\pgffor@skip=\dimen150
+\pgffor@stack=\toks34
+\pgffor@toks=\toks35
+))
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2010/10/13 v2.10 (rcs-revision 1.76)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
-.code.tex
-File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+(/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
 \pgf@plot@mark@count=\count117
-\pgfplotmarksize=\dimen154
+\pgfplotmarksize=\dimen151
 )
-\tikz@lastx=\dimen155
-\tikz@lasty=\dimen156
-\tikz@lastxsaved=\dimen157
-\tikz@lastysaved=\dimen158
-\tikzleveldistance=\dimen159
-\tikzsiblingdistance=\dimen160
+\tikz@lastx=\dimen152
+\tikz@lasty=\dimen153
+\tikz@lastxsaved=\dimen154
+\tikz@lastysaved=\dimen155
+\tikzleveldistance=\dimen156
+\tikzsiblingdistance=\dimen157
 \tikz@figbox=\box36
-\tikz@figbox@bg=\box37
-\tikz@tempbox=\box38
-\tikz@tempbox@bg=\box39
+\tikz@tempbox=\box37
 \tikztreelevel=\count118
 \tikznumberofchildren=\count119
 \tikznumberofcurrentchild=\count120
 \tikz@fig@count=\count121
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
-File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+(/usr/share/texmf/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
 \pgfmatrixcurrentrow=\count122
 \pgfmatrixcurrentcolumn=\count123
 \pgf@matrix@numberofcolumns=\count124
 )
 \tikz@expandcount=\count125
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarytopaths.code.tex
-File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
-)))
-(/usr/share/texlive/texmf-dist/tex/latex/pgfplots/pgfplots.sty
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopat
+hs.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v2.10 (rcs-revision 1.2)
+))) (/usr/share/texlive/texmf-dist/tex/latex/pgfplots/pgfplots.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
-Package: pgfplots 2016/01/06 v1.13 Data Visualization (1.13)
+Package: pgfplots 2013/10/03 v1.9 Data Visualization (1.9)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
-\t@pgfplots@toka=\toks39
-\t@pgfplots@tokb=\toks40
-\t@pgfplots@tokc=\toks41
-\pgfplots@tmpa=\dimen161
+\t@pgfplots@toka=\toks36
+\t@pgfplots@tokb=\toks37
+\t@pgfplots@tokc=\toks38
+\pgfplots@tmpa=\dimen158
 \c@pgfplots@coordindex=\count126
 \c@pgfplots@scanlineindex=\count127
 
@@ -514,15 +476,42 @@ Package: pgfplots 2016/01/06 v1.13 Data Visualization (1.13)
 ex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
 gfsupp_loader.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex
-)
-Package pgfplots: loading complementary arithmetics for your pgf version...
+Package pgfplots: loading complementary code for your PGF version...
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
-gfsupp_pgflibraryfpu.code.tex)
+gfsupp_misc.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks39
+\pgfkeys@temptoks=\toks40
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks41
+))
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
 gfsupp_pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count128
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2012/09/11 v2.10 (rcs-revision 1.17)
+\pgf@plot@mark@count=\count129
+\pgfplotmarksize=\dimen159
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_pgflibraryfpu.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2012/11/30  (rcs-revision 1.38)
+\pgfpic=\box38
+\pgf@hbox=\box39
+\pgf@layerbox@main=\box40
+\pgf@picture@serial@count=\count130
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2012/11/07  (rcs-revision 1.5)
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotslists
@@ -531,13 +520,13 @@ tructure.code.tex)
 tructureext.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray
 .code.tex
-\c@pgfplotsarray@tmp=\count129
+\c@pgfplotsarray@tmp=\count131
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatri
 x.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshare
 d.code.tex
-\c@pgfplotstable@counta=\count130
+\c@pgfplotstable@counta=\count132
 \t@pgfplotstable@a=\toks42
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque
@@ -550,7 +539,7 @@ de.tex))
 .tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.sur
 fshading.code.tex
-\c@pgfplotslibrarysurf@no=\count131
+\c@pgfplotslibrarysurf@no=\count133
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surf
 shading.pgfsys-pdftex.def)))
@@ -563,9 +552,7 @@ ex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.t
 ex
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.cod
-e.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.
-tex)))
+e.tex))
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.cod
 e.tex)
@@ -573,80 +560,79 @@ e.tex)
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarydecorations.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.cod
-e.tex
-\pgfdecoratedcompleteddistance=\dimen162
-\pgfdecoratedremainingdistance=\dimen163
-\pgfdecoratedinputsegmentcompleteddistance=\dimen164
-\pgfdecoratedinputsegmentremainingdistance=\dimen165
-\pgf@decorate@distancetomove=\dimen166
-\pgf@decorate@repeatstate=\count132
-\pgfdecorationsegmentamplitude=\dimen167
-\pgfdecorationsegmentlength=\dimen168
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecor
+ations.code.tex
+(/usr/share/texmf/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen160
+\pgfdecoratedremainingdistance=\dimen161
+\pgfdecoratedinputsegmentcompleteddistance=\dimen162
+\pgfdecoratedinputsegmentremainingdistance=\dimen163
+\pgf@decorate@distancetomove=\dimen164
+\pgf@decorate@repeatstate=\count134
+\pgfdecorationsegmentamplitude=\dimen165
+\pgfdecorationsegmentlength=\dimen166
 )
-\tikz@lib@dec@box=\box40
+\tikz@lib@dec@box=\box41
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarydecorations.pathmorphing.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
-decorations.pathmorphing.code.tex))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarydecorations.pathreplacing.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
-decorations.pathreplacing.code.tex))
-\pgfplots@numplots=\count133
-\pgfplots@xmin@reg=\dimen169
-\pgfplots@xmax@reg=\dimen170
-\pgfplots@ymin@reg=\dimen171
-\pgfplots@ymax@reg=\dimen172
-\pgfplots@zmin@reg=\dimen173
-\pgfplots@zmax@reg=\dimen174
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecor
+ations.pathmorphing.code.tex
+(/usr/share/texmf/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.p
+athmorphing.code.tex))
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecor
+ations.pathreplacing.code.tex
+(/usr/share/texmf/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.p
+athreplacing.code.tex))
+\pgfplots@numplots=\count135
+\pgfplots@xmin@reg=\dimen167
+\pgfplots@xmax@reg=\dimen168
+\pgfplots@ymin@reg=\dimen169
+\pgfplots@ymax@reg=\dimen170
+\pgfplots@zmin@reg=\dimen171
+\pgfplots@zmax@reg=\dimen172
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibraryplotmarks.code.tex
-File: tikzlibraryplotmarks.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryplotm
+arks.code.tex
+File: tikzlibraryplotmarks.code.tex 2008/01/09 v2.10 (rcs-revision 1.1)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.co
-de.tex
-File: pgflibraryplotmarks.code.tex 2015/08/03 v3.0.1a (rcs-revision 1.14)
-))) (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+(/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
+File: pgflibraryplotmarks.code.tex 2010/10/15 v2.10 (rcs-revision 1.12)
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 67.
-\captionmargin=\dimen175
-\captionmargin@=\dimen176
-\captionwidth=\dimen177
-\caption@tempdima=\dimen178
-\caption@indent=\dimen179
-\caption@parindent=\dimen180
-\caption@hangindent=\dimen181
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen173
+\captionmargin@=\dimen174
+\captionwidth=\dimen175
+\caption@tempdima=\dimen176
+\caption@indent=\dimen177
+\caption@parindent=\dimen178
+\caption@hangindent=\dimen179
 )
-\c@ContinuedFloat=\count134
+\c@ContinuedFloat=\count136
 Package caption Info: rotating package is loaded.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
-Package: subcaption 2016/02/20 v1.1-142 Sub-captions (AR)
-\c@subfigure=\count135
-\c@subtable=\count136
+Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
+\c@subfigure=\count137
+\c@subtable=\count138
 )
 (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
-\bigstrutjot=\dimen182
+\bigstrutjot=\dimen180
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarypositioning.code.tex
-File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.1a (rcs-revision 1.7)
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryposit
+ioning.code.tex
+File: tikzlibrarypositioning.code.tex 2008/10/06 v2.10 (rcs-revision 1.7)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibraryshapes.arrows.code.tex
-File: tikzlibraryshapes.arrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshape
 s.arrows.code.tex
-File: pgflibraryshapes.arrows.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
+File: tikzlibraryshapes.arrows.code.tex 2008/01/09 v2.10 (rcs-revision 1.1)
+
+(/usr/share/texmf/tex/generic/pgf/libraries/shapes/pgflibraryshapes.arrows.code
+.tex
+File: pgflibraryshapes.arrows.code.tex 2008/06/26 v2.10 (rcs-revision 1.1)
 )) (./thesis.aux (./cover.aux) (./ch4/Four.aux))
 \openout1 = `thesis.aux'.
 
@@ -662,24 +648,24 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
 LaTeX Font Info:    ... okay on input line 60.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
 LaTeX Font Info:    ... okay on input line 60.
-\c@maskedRefs=\count137
-
-(./english.apc
+\c@maskedRefs=\count139
+ (./english.apc
 File: english.apc 2013/07/21 v6.03 apacite language file
 LaTeX Info: Redefining \BPBI on input line 129.
 LaTeX Info: Redefining \BHBI on input line 130.
-) (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+)
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count138
-\scratchdimen=\dimen183
-\scratchbox=\box41
-\nofMPsegments=\count139
-\nofMParguments=\count140
+\scratchcounter=\count140
+\scratchdimen=\dimen181
+\scratchbox=\box42
+\nofMPsegments=\count141
+\nofMParguments=\count142
 \everyMPshowfont=\toks43
-\MPscratchCnt=\count141
-\MPscratchDim=\dimen184
-\MPnumerator=\count142
-\makeMPintoPDFobject=\count143
+\MPscratchCnt=\count143
+\MPscratchDim=\dimen182
+\MPnumerator=\count144
+\makeMPintoPDFobject=\count145
 \everyMPtoPDFconversion=\toks44
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
@@ -732,8 +718,8 @@ e
 ABD: EveryShipout initializing macros
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
-ick labels; missing features). Consider writing \pgfplotsset{compat=1.13} into 
-your preamble.
+ick labels; missing features). Consider writing \pgfplotsset{compat=1.9} into y
+our preamble.
  on input line 60.
 
 Package caption Info: Begin \AtBeginDocument code.
@@ -754,22 +740,7 @@ he dis-tri-bu-tional seman-tic paradigm,
 
 ] [2]) [3
 
-] (./thesis.toc
-LaTeX Font Info:    Try loading font information for U+msa on input line 5.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 5.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 5.
-
-(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
-File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-))
+] (./thesis.toc)
 \tf@toc=\write4
 \openout4 = `thesis.toc'.
 
@@ -779,8 +750,7 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ]
 \openout2 = `ch4/Four.aux'.
 
-
-(./ch4/Four.tex
+ (./ch4/Four.tex
 Chapter 3.
 
 LaTeX Warning: Reference `chap:theory' on page 2 undefined on input line 2.
@@ -804,9 +774,24 @@ Package natbib Warning: Citation `YangEA2006' on page 3 undefined on input line
 Package natbib Warning: Citation `FinkelsteinEA2002' on page 3 undefined on inp
 ut line 11.
 
+LaTeX Font Info:    Try loading font information for U+msa on input line 11.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 11.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 11.
+
+(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 11.
+
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 Underfull \hbox (badness 10000) in paragraph at lines 11--11
 [][]\T1/cmr/m/n/9 Copies of the instruc-tions, along with the data itself, can 
@@ -909,1308 +894,68 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
 
-Runaway argument?
-color=gray,fill opacity=0.5] coordinates {(0.0,0.0,0.0) (\varCN ) (\varBN \ETC.
-! Paragraph ended before \pgfplots@loop@next was complete.
-<to be read again> 
-                   \par 
-l.563 
-      
-? 
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.564 \subsection
-                 {Generalising the Models}
-? 
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.564 \subsection
-                 {Generalising the Models}
-? 
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.566 \subsection
-                 {Frames of Similarity}
-? 
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.566 \subsection
-                 {Frames of Similarity}
-? 
-Missing character: There is no ? in font nullfont!
 
 Package natbib Warning: Citation `Tversky1977' on page 10 undefined on input li
 ne 567.
 
-Missing character: There is no , in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no y in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no y in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no v in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no y in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no y in font nullfont!
-Missing character: There is no , in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no v in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no y in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no y in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no y in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no : in font nullfont!
-Missing character: There is no ( in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no , in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no w in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no ( in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no , in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no ) in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no ? in font nullfont!
-Missing character: There is no ? in font nullfont!
 
 LaTeX Warning: Reference `fig:axes' on page 10 undefined on input line 569.
 
-Missing character: There is no , in font nullfont!
-Missing character: There is no w in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no v in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no y in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no w in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no y in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no ) in font nullfont!
-)
-! Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.82 \include{ch4/Four}
-                       
-? 
-! Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.82 \include{ch4/Four}
-                       
-? 
-! Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.82 \include{ch4/Four}
-                       
-? 
-! Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.82 \include{ch4/Four}
-                       
-? 
-! Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.82 \include{ch4/Four}
-                       
-? 
-! Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.82 \include{ch4/Four}
-                       
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.82 \include{ch4/Four}
-                       
-? 
-! Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.82 \include{ch4/Four}
-                       
-? 
-! Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.82 \include{ch4/Four}
-                       
-? 
-! Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.82 \include{ch4/Four}
-                       
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.82 \include{ch4/Four}
-                       
-? 
-(./thesis.bbl
-Underfull \hbox (badness 1895) in paragraph at lines 4--8
-\T1/cmr/m/it/10.95 dis-ci-plinary Reviews:
- []
+) [10] [11] (./thesis.bbl [12
 
 
-Underfull \hbox (badness 6173) in paragraph at lines 10--15
-[]\T1/cmr/m/n/10.95 Agres, K., McGre-gor,
- []
-
-
-Underfull \hbox (badness 1584) in paragraph at lines 10--15
-\T1/cmr/m/n/10.95 Wig-gins, G. (2015).
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--15
-\T1/cmr/m/n/10.95 Con-cep-tu-al-is-ing
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--15
-\T1/cmr/m/n/10.95 In \T1/cmr/m/it/10.95 Pro-ceed-ings of
- []
-
-
-Underfull \hbox (badness 4181) in paragraph at lines 17--20
-\T1/cmr/m/n/10.95 and Zam-par-elli, R.
- []
-
-
-Underfull \hbox (badness 4132) in paragraph at lines 17--20
-\T1/cmr/m/n/10.95 space: A pro-gram
- []
-
-
-Underfull \hbox (badness 4108) in paragraph at lines 17--20
-\T1/cmr/m/it/10.95 Lin-guis-tic Issues in
- []
-
-
-Underfull \hbox (badness 1748) in paragraph at lines 22--25
-[]\T1/cmr/m/n/10.95 Baroni, M., Dinu, G.,
- []
-
-
-Underfull \hbox (badness 1852) in paragraph at lines 22--25
-\T1/cmr/m/n/10.95 and Kruszewski, G.
- []
-
-
-Underfull \hbox (badness 1303) in paragraph at lines 22--25
-\T1/cmr/m/n/10.95 pre-dict!  In \T1/cmr/m/it/10.95 ACL
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 27--30
-\T1/cmr/m/n/10.95 and Baroni, M.
- []
-
-
-Underfull \hbox (badness 2096) in paragraph at lines 27--30
-\T1/cmr/m/n/10.95 tics.  \T1/cmr/m/it/10.95 Jour-nal of
- []
-
-
-Underfull \hbox (badness 1371) in paragraph at lines 27--30
-\T1/cmr/m/it/10.95 Arti-fi-cial Intel-li-gence
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--35
-\T1/cmr/m/it/10.95 Body, and World
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--35
-\T1/cmr/m/n/10.95 Press, Cam-bridge,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 37--41
-\T1/cmr/m/n/10.95 tor space mod-els
- []
-
-
-Underfull \hbox (badness 6961) in paragraph at lines 37--41
-\T1/cmr/m/n/10.95 of lex-i-cal mean-ing.
- []
-
-
-Underfull \hbox (badness 3849) in paragraph at lines 37--41
-\T1/cmr/m/n/10.95 In Lap-pin, S. and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 37--41
-\T1/cmr/m/it/10.95 Hand-book of Con-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 37--41
-\T1/cmr/m/it/10.95 tem-po-rary Seman-tic
- []
-
-
-Underfull \hbox (badness 2894) in paragraph at lines 37--41
-\T1/cmr/m/it/10.95 The-ory\T1/cmr/m/n/10.95 , pages 493--
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--48
-[]\T1/cmr/m/n/10.95 Collobert, R. and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--48
-\T1/cmr/m/n/10.95 uni-fied archi-tec-ture
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--48
-\T1/cmr/m/n/10.95 pro-cess-ing: Deep
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--48
-\T1/cmr/m/n/10.95 mul-ti-task learn-ing.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--48
-\T1/cmr/m/n/10.95 In \T1/cmr/m/it/10.95 Pro-ceed-ings of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--48
-\T1/cmr/m/it/10.95 the 25th Inter-na-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--48
-\T1/cmr/m/it/10.95 Machine Learn-ing\T1/cmr/m/n/10.95 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--53
-[]\T1/cmr/m/n/10.95 Dummett, M. (1981).
- []
-
-
-Underfull \hbox (badness 1484) in paragraph at lines 50--53
-\T1/cmr/m/it/10.95 Lan-guage\T1/cmr/m/n/10.95 .  Duck-
- []
-
-
-Underfull \hbox (badness 1097) in paragraph at lines 55--59
-\T1/cmr/m/it/10.95 ceed-ings of the 54th
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 55--59
-\T1/cmr/m/it/10.95 (Vol-ume 1: Long
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 55--59
-\T1/cmr/m/n/10.95 for Com-pu-ta-tional
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 55--59
-\T1/cmr/m/n/10.95 Lin-guis-tics, Berlin,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 61--64
-[]\T1/cmr/m/n/10.95 Fellbaum, C. (1998).
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 61--64
-\T1/cmr/m/it/10.95 Word-Net: An
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 61--64
-\T1/cmr/m/it/10.95 Elec-tronic Lex-i-cal
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 66--71
-[]\T1/cmr/m/n/10.95 Gabrilovich, E. and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 66--71
-\T1/cmr/m/n/10.95 Markovitch, S.
- []
-
-
-Underfull \hbox (badness 4765) in paragraph at lines 66--71
-\T1/cmr/m/n/10.95 seman-tic relat-ed-ness
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 66--71
-\T1/cmr/m/n/10.95 explicit seman-tic
- []
-
-
-Underfull \hbox (badness 1097) in paragraph at lines 66--71
-\T1/cmr/m/it/10.95 ceed-ings of the 20th
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 66--71
-\T1/cmr/m/it/10.95 Inter-na-tional Joint
- []
-
-
-Underfull \hbox (badness 4699) in paragraph at lines 73--76
-[]\T1/cmr/m/n/10.95 Gärdenfors, P. (2000).
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--76
-\T1/cmr/m/it/10.95 Con-cep-tual Space:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--76
-\T1/cmr/m/it/10.95 The Geom-e-try of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--76
-\T1/cmr/m/n/10.95 Press, Cam-bridge,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 78--81
-\T1/cmr/m/it/10.95 Eco-log-i-cal Approach
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 78--81
-\T1/cmr/m/n/10.95 Houghton Mif-fline,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--88
-[]\T1/cmr/m/n/10.95 Gutiérrez, E. D.,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--88
-\T1/cmr/m/n/10.95 Shutova, E.,
- []
-
-
-Underfull \hbox (badness 3312) in paragraph at lines 83--88
-\T1/cmr/m/n/10.95 Marghetis, T., and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--88
-\T1/cmr/m/it/10.95 Pro-ceed-ings of the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--88
-\T1/cmr/m/it/10.95 of the Asso-ci-a-tion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--88
-\T1/cmr/m/it/10.95 for Com-pu-ta-tional
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--95
-\T1/cmr/m/n/10.95 abstract con-cept
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--95
-\T1/cmr/m/n/10.95 embed-dings from
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--95
-\T1/cmr/m/n/10.95 multi-modal data:
- []
-
-
-Underfull \hbox (badness 4403) in paragraph at lines 90--95
-\T1/cmr/m/n/10.95 Since you prob-a-bly
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--95
-\T1/cmr/m/n/10.95 can't see what I
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--95
-\T1/cmr/m/it/10.95 ence on Empir-i-cal
- []
-
-
-Underfull \hbox (badness 5064) in paragraph at lines 90--95
-\T1/cmr/m/it/10.95 Meth-ods in Nat-u-ral
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 103--108
-[]\T1/cmr/m/n/10.95 Kottur, S., Vedan-
- []
-
-
-Underfull \hbox (badness 1527) in paragraph at lines 103--108
-\T1/cmr/m/n/10.95 M. F., and Parikh,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 103--108
-\T1/cmr/m/n/10.95 word2vec (vis-w2v):
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 103--108
-\T1/cmr/m/n/10.95 Learn-ing visu-ally
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 103--108
-\T1/cmr/m/n/10.95 grounded word
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 103--108
-\T1/cmr/m/n/10.95 embed-dings using
- []
-
-
-Underfull \hbox (badness 3954) in paragraph at lines 103--108
-\T1/cmr/m/it/10.95 2016 IEEE Con-fer-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 103--108
-\T1/cmr/m/it/10.95 ence on Com-puter
- []
-
-
-Underfull \hbox (badness 4899) in paragraph at lines 103--108
-\T1/cmr/m/it/10.95 Vision and Pat-tern
- []
-
-
-Underfull \hbox (badness 2512) in paragraph at lines 110--115
-\T1/cmr/m/n/10.95 eval-u-a-tion of dis-tri-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 110--115
-\T1/cmr/m/n/10.95 bu-tional seman-tic
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 110--115
-\T1/cmr/m/n/10.95 mod-els: Param-e-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 110--115
-\T1/cmr/m/n/10.95 ters, inter-ac-tions
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 110--115
-\T1/cmr/m/n/10.95 and model selec-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 110--115
-\T1/cmr/m/it/10.95 Com-pu-ta-tional Lin-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 117--122
-\T1/cmr/m/n/10.95 word embed-ding
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 117--122
-\T1/cmr/m/n/10.95 as implicit matrix
- []
-
-
-Underfull \hbox (badness 2173) in paragraph at lines 117--122
-\T1/cmr/m/n/10.95 fac-tor-iza-tion.  In
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 117--122
-\T1/cmr/m/n/10.95 Ghahra-mani, Z.,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 117--122
-\T1/cmr/m/n/10.95 and Wein-berger,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 117--122
-\T1/cmr/m/n/10.95 K. Q., edi-tors,
- []
-
-
-Underfull \hbox (badness 4403) in paragraph at lines 117--122
-\T1/cmr/m/it/10.95 Advances in Neu-ral
- []
-
-
-Underfull \hbox (badness 2050) in paragraph at lines 117--122
-\T1/cmr/m/it/10.95 Infor-ma-tion Pro-cess-
- []
-
-
-Underfull \hbox (badness 1400) in paragraph at lines 117--122
-\T1/cmr/m/n/10.95 2177--2185. Cur-ran
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--128
-[]\T1/cmr/m/n/10.95 McGregor, S., Agres,
- []
-
-
-Underfull \hbox (badness 1584) in paragraph at lines 124--128
-\T1/cmr/m/n/10.95 Wig-gins, G. (2015).
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--128
-\T1/cmr/m/n/10.95 From dis-tri-bu-tional
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--128
-\T1/cmr/m/n/10.95 seman-tics to con-
- []
-
-
-Underfull \hbox (badness 4927) in paragraph at lines 124--128
-\T1/cmr/m/n/10.95 cep-tual spaces: A
- []
-
-
-Underfull \hbox (badness 6691) in paragraph at lines 124--128
-\T1/cmr/m/n/10.95 novel com-pu-ta-tional
- []
-
-
-Underfull \hbox (badness 3019) in paragraph at lines 124--128
-\T1/cmr/m/n/10.95 method for con-cept
- []
-
-
-Underfull \hbox (badness 1178) in paragraph at lines 124--128
-\T1/cmr/m/n/10.95 cre-ation.  \T1/cmr/m/it/10.95 Jour-nal
- []
-
-
-Underfull \hbox (badness 1509) in paragraph at lines 124--128
-\T1/cmr/m/it/10.95 of Arti-fi-cial Gen-eral
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 130--133
-\T1/cmr/m/n/10.95 Cor-rado, G., and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 130--133
-\T1/cmr/m/n/10.95 Dean, J. (2013a).
- []
-
-
-Underfull \hbox (badness 2253) in paragraph at lines 130--133
-\T1/cmr/m/n/10.95 word rep-re-sen-ta-tions
- []
-
-
-Underfull \hbox (badness 1014) in paragraph at lines 135--140
-[]\T1/cmr/m/n/10.95 Mikolov, T., Sutskever,
- []
-
-
-Underfull \hbox (badness 5771) in paragraph at lines 135--140
-\T1/cmr/m/n/10.95 G., and Dean, J.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 135--140
-\T1/cmr/m/n/10.95 rep-re-sen-ta-tions of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 135--140
-\T1/cmr/m/n/10.95 words and phrases
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 135--140
-\T1/cmr/m/n/10.95 and their com-po-
- []
-
-
-Underfull \hbox (badness 7704) in paragraph at lines 135--140
-\T1/cmr/m/n/10.95 si-tion-al-ity.  In
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 135--140
-\T1/cmr/m/it/10.95 Pro-ceed-ings of the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 135--140
-\T1/cmr/m/it/10.95 26th Inter-na-tional
- []
-
-
-Underfull \hbox (badness 2050) in paragraph at lines 135--140
-\T1/cmr/m/it/10.95 Infor-ma-tion Pro-cess-
- []
-
-
-Underfull \hbox (badness 5592) in paragraph at lines 135--140
-\T1/cmr/m/it/10.95 ing Sys-tems\T1/cmr/m/n/10.95 , pages
- []
-
-
-Underfull \hbox (badness 2529) in paragraph at lines 142--147
-[]\T1/cmr/m/n/10.95 Mikolov, T., tau Yih,
- []
-
-
-Underfull \hbox (badness 1616) in paragraph at lines 142--147
-\T1/cmr/m/n/10.95 W., and Zweig, G.
- []
-
-
-Underfull \hbox (badness 6859) in paragraph at lines 142--147
-\T1/cmr/m/n/10.95 reg-u-lar-i-ties in con-
- []
-
-
-Underfull \hbox (badness 4595) in paragraph at lines 142--147
-\T1/cmr/m/n/10.95 tin-u-ous space word
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 142--147
-\T1/cmr/m/it/10.95 Pro-ceed-ings of the
- []
-
-
-Underfull \hbox (badness 5460) in paragraph at lines 142--147
-\T1/cmr/m/it/10.95 2013 Con-fer-ence of
- []
-
-
-Underfull \hbox (badness 1874) in paragraph at lines 142--147
-\T1/cmr/m/it/10.95 the North Amer-i-can
- []
-
-
-Underfull \hbox (badness 5460) in paragraph at lines 142--147
-\T1/cmr/m/it/10.95 ci-a-tion for Com-pu-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 142--147
-\T1/cmr/m/it/10.95 ta-tional Lin-guis-tics:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 142--147
-\T1/cmr/m/it/10.95 Human Lan-guage
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 142--147
-\T1/cmr/m/it/10.95 Tech-nolo-gies\T1/cmr/m/n/10.95 , pages
- []
-
-
-Underfull \hbox (badness 3826) in paragraph at lines 149--154
-\T1/cmr/m/n/10.95 (2016).  Robust
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--154
-\T1/cmr/m/n/10.95 co-occurrence quan-
- []
-
-
-Underfull \hbox (badness 3009) in paragraph at lines 149--154
-\T1/cmr/m/n/10.95 tifi-ca-tion for lex-i-cal
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--154
-\T1/cmr/m/it/10.95 of the ACL 2016
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--154
-\T1/cmr/m/it/10.95 Stu-dent Research
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--154
-\T1/cmr/m/it/10.95 Work-shop\T1/cmr/m/n/10.95 , pages
- []
-
-
-Underfull \hbox (badness 2452) in paragraph at lines 149--154
-\T1/cmr/m/n/10.95 58--64, Berlin, Ger-
- []
-
-
-Underfull \hbox (badness 2698) in paragraph at lines 149--154
-\T1/cmr/m/n/10.95 many. Asso-ci-a-tion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--154
-\T1/cmr/m/n/10.95 for Com-pu-ta-tional
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 156--159
-\T1/cmr/m/n/10.95 based con-struc-tion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 156--159
-\T1/cmr/m/n/10.95 of seman-tic space
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 156--159
-\T1/cmr/m/it/10.95 tional Lin-guis-tics\T1/cmr/m/n/10.95 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 161--165
-\T1/cmr/m/n/10.95 R., and Man-ning,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 161--165
-\T1/cmr/m/n/10.95 Global vec-tors for
- []
-
-
-Underfull \hbox (badness 4378) in paragraph at lines 161--165
-\T1/cmr/m/n/10.95 word rep-re-sen-ta-tion.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 161--165
-\T1/cmr/m/n/10.95 In \T1/cmr/m/it/10.95 Con-fer-ence on
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 161--165
-\T1/cmr/m/it/10.95 Empir-i-cal Meth-ods
- []
-
-
-Underfull \hbox (badness 5331) in paragraph at lines 167--172
-\T1/cmr/m/n/10.95 tic vec-tors through
- []
-
-
-Underfull \hbox (badness 1087) in paragraph at lines 167--172
-\T1/cmr/m/n/10.95 nor-mal-i-sa-tion.  In
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 167--172
-\T1/cmr/m/it/10.95 Pro-ceed-ings of the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 167--172
-\T1/cmr/m/it/10.95 14th Con-fer-ence of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 167--172
-\T1/cmr/m/it/10.95 of the Asso-ci-a-tion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 167--172
-\T1/cmr/m/it/10.95 for Com-pu-ta-tional
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 167--172
-\T1/cmr/m/it/10.95 Lin-guis-tics\T1/cmr/m/n/10.95 , pages
- []
-
-
-Underfull \hbox (badness 1033) in paragraph at lines 174--179
-[]\T1/cmr/m/n/10.95 Schwartz, R., Reichart,
- []
-
-
-Underfull \hbox (badness 1648) in paragraph at lines 174--179
-\T1/cmr/m/n/10.95 R., and Rap-poport,
- []
-
-
-Underfull \hbox (badness 1253) in paragraph at lines 174--179
-\T1/cmr/m/n/10.95 A. (2015).  Sym-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 174--179
-\T1/cmr/m/n/10.95 word embed-dings
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 174--179
-\T1/cmr/m/n/10.95 for improved word
- []
-
-
-Underfull \hbox (badness 1603) in paragraph at lines 174--179
-\T1/cmr/m/n/10.95 sim-i-lar-ity pre-dic-tion.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 174--179
-\T1/cmr/m/n/10.95 In \T1/cmr/m/it/10.95 Pro-ceed-ings of
- []
-
-
-Underfull \hbox (badness 2181) in paragraph at lines 174--179
-\T1/cmr/m/it/10.95 the 19th Con-fer-ence
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 174--179
-\T1/cmr/m/it/10.95 on Com-pu-ta-tional
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 174--179
-\T1/cmr/m/it/10.95 Nat-u-ral Lan-guage
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 174--179
-\T1/cmr/m/it/10.95 Learn-ing\T1/cmr/m/n/10.95 , pages
- []
-
-
-Underfull \hbox (badness 5388) in paragraph at lines 181--187
-[]\T1/cmr/m/n/10.95 Socher, R., Pere-ly-gin,
- []
-
-
-Underfull \hbox (badness 1668) in paragraph at lines 181--187
-\T1/cmr/m/n/10.95 Ng, A., and Potts,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 181--187
-\T1/cmr/m/n/10.95 sive deep mod-els
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 181--187
-\T1/cmr/m/n/10.95 for seman-tic com-
- []
-
-
-Underfull \hbox (badness 4024) in paragraph at lines 181--187
-\T1/cmr/m/n/10.95 po-si-tion-al-ity over a
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 181--187
-\T1/cmr/m/n/10.95 sen-ti-ment tree-bank.
- []
-
-
-Underfull \hbox (badness 2600) in paragraph at lines 181--187
-\T1/cmr/m/it/10.95 2013 Con-fer-ence on
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 181--187
-\T1/cmr/m/it/10.95 Empir-i-cal Meth-ods
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 181--187
-\T1/cmr/m/it/10.95 Pro-cess-ing\T1/cmr/m/n/10.95 , pages
- []
-
-
-Underfull \hbox (badness 6364) in paragraph at lines 189--194
-\T1/cmr/m/n/10.95 R. A., Schmet-tow,
- []
-
-
-Underfull \hbox (badness 6910) in paragraph at lines 189--194
-\T1/cmr/m/n/10.95 M., and Nazareth,
- []
-
-
-Underfull \hbox (badness 1163) in paragraph at lines 189--194
-\T1/cmr/m/n/10.95 D. S. (2015).  A
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 189--194
-\T1/cmr/m/n/10.95 seman-tic map for
- []
-
-
-Underfull \hbox (badness 1360) in paragraph at lines 189--194
-\T1/cmr/m/n/10.95 eval-u-at-ing cre-ativ-ity.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 189--194
-\T1/cmr/m/it/10.95 Sixth Inter-na-tional
- []
-
-
-Underfull \hbox (badness 6032) in paragraph at lines 189--194
-\T1/cmr/m/it/10.95 pu-ta-tional Cre-ativ-ity
- []
-
-
-Underfull \hbox (badness 1057) in paragraph at lines 189--194
-\T1/cmr/m/it/10.95 (ICCC 2015)\T1/cmr/m/n/10.95 , pages
- []
-
-
-Underfull \hbox (badness 2237) in paragraph at lines 196--202
-\T1/cmr/m/it/10.95 Instinc-tive Behav-ior:
- []
-
-
-Underfull \hbox (badness 1490) in paragraph at lines 196--202
-\T1/cmr/m/it/10.95 The Devel-op-ment of
- []
-
-
-Underfull \hbox (badness 6641) in paragraph at lines 196--202
-\T1/cmr/m/it/10.95 a Mod-ern Con-cept\T1/cmr/m/n/10.95 ,
- []
-
-
-Underfull \hbox (badness 1496) in paragraph at lines 196--202
-\T1/cmr/m/n/10.95 pages 5--80. Inter-
- []
-
-
-Underfull \hbox (badness 3679) in paragraph at lines 196--202
-\T1/cmr/m/n/10.95 na-tional Uni-ver-si-ties
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 204--207
-[]\T1/cmr/m/n/10.95 Widdows, D. (2004).
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 204--207
-\T1/cmr/m/n/10.95 ca-tions, Stan-ford,
- []
-
-)
+] [13])
 
 Package natbib Warning: There were undefined citations.
 
@@ -2218,14 +963,48 @@ Package natbib Warning: There were undefined citations.
 Package caption Warning: Unused \captionsetup[sub] on input line 29.
 See the caption package documentation for explanation.
 
+[14] (./thesis.aux (./cover.aux) (./ch4/Four.aux))
 
-! LaTeX Error: \begin{tikzpicture} on input line 188 ended by \end{document}.
+LaTeX Warning: There were undefined references.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.95 \end{document}
-                   
-? 
-(./thesis.aux (./cover.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 21673 strings out of 493304
+ 501698 string characters out of 6139872
+ 794208 words of memory out of 5000000
+ 24634 multiletter control sequences out of 15000+600000
+ 25549 words of font info for 66 fonts, out of 8000000 for 9000
+ 958 hyphenation exceptions out of 8191
+ 56i,11n,86p,3151b,2095s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+symbols/msam10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx0900.pfb><
+/usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fon
+ts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-s
+uper/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pfb></
+usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/font
+s/type1/public/cm-super/sfcc1095.pfb></usr/share/texmf/fonts/type1/public/cm-su
+per/sfrm0600.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></u
+sr/share/texmf/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf/fonts
+/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-sup
+er/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></us
+r/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf/fonts/
+type1/public/cm-super/sfrm2488.pfb></usr/share/texmf/fonts/type1/public/cm-supe
+r/sfti0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr
+/share/texmf/fonts/type1/public/cm-super/sftt0900.pfb></usr/share/texmf/fonts/t
+ype1/public/cm-super/sftt1095.pfb>
+Output written on thesis.pdf (18 pages, 448808 bytes).
+PDF statistics:
+ 171 PDF objects out of 1000 (max. 8388607)
+ 123 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+
