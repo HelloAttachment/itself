@@ -16,7 +16,7 @@ Standard distributional semantic models have generally tended to capture semanti
 
 Nonetheless, there may be some advantages to identifying context specific subspaces based on an analysis of word pair inputs.  For instance in cases where one of the words being compared has multiple senses, the selection of mutually relevant co-occurrence dimensions under the \textsc{joint} and \textsc{zipped} techniques might offer a degree of disambiguation.  Beyond this, I hypothesise that similar measures to the ones that have proved productive for static vector space models, so, in particular, measures of cosine similarity between word-vectors, anchored at the origin as well as at the generic points of the space, should be indicative of semantic relatedness.  I further predict, following on the results reported earlier in this chapter on the relationship between the norm of vectors in contextualised subspaces and conceptual entailment, that measures involving the distance of word-vectors from the origin will also correlate positively with relatedness, and here my subspaces, with their sense of interior and exterior, centre and periphery, should have an advantage.
 
-\subsection{Relatedness: Methodology}
+\subsection{Relatedness: Methodology and Model}
 In order to test the ability of my statistical methodologies to likewise model relatedness, I build \textsc{joint}, \textsc{indy}, and \textsc{zipped} subspaces using each of the 353 word pairs in the WordSim data as input.  I project subspaces of 20, 50, 200, and 400 dimensions, extrapolated from base spaces built using 2x2 and 5x5 word co-occurrence windows.  For each subspace, I extract the geometric features listed in the previous chapter in Table~\ref{tab:features} and use these as the independent variables of a linear regression, taking the WordSim rating of the word pair used to generate the subspace as the dependent variable.  The relatedness ordering of word pairs inherent in the scores assigned by the regression are then compared to human WordSim ratings in terms of Spearman's correlations, as is standard practice in the NLP literature.  Results from my model are compared with results from singular value decompositions of my base space using comparable parameters, as well as \texttt{word2vec} skip-gram and bag-of-words models, again using commensurable parameters.
 
 \begin{table}
@@ -42,9 +42,28 @@ Results are reported in Table~\ref{tab:related} (and all correlations are statis
 
 In terms of comparing between my dimensional selection techniques, the \textsc{joint} and \textsc{indy} techniques perform somewhat comparably, with the \textsc{indy} technique doing a bit better in the 5x5 spaces.  The strong performance of the \textsc{joint} technique in the 2x2 models at 400 dimensions seems anomalous.  The joint technique in particular should begin to run out of useful dimensions to select between words as the dimensionality of the spaces scale up, and so would be expected to follow a similar trend as with the \textsc{zipped} subspaces, where results begin to tail off after 200 dimensions---and this effect should be more prominent in the 2x2 models, where there is less overall co-occurrence information available.  It's likewise interesting that the \textsc{zipped} technique offers consistently lower correlations, particularly considering that this technique was conceived as something of a hybrid between the comprehensive \textsc{joint} approach and the independent \textsc{indy} approach.  It would seem, then, that the dimensions most predictive of semantic relatedness are either those which are substantially informative about both words being compared, or those which are highly informative about one word and only incidentally informative about the other, to the exclusion of the middle ground of dimensions that are highly informative about one word and at least marginally informative about another.  The conclusion to draw here is that the \textsc{joint} and \textsc{indy} spaces are identifying relatedness in two different capacities: in the case of the former, the degree of proximity between two points with fairly high values is being captured, while in the case of the latter the extent to which there is some degree of overlap (or, alternatively, the extent of the orthogonality) between the salient co-occurrence features is being exploited.
 
-\subsection{Relatedness: Statistical Geometry}
+\subsection{Relatedness: Comparing to Other Models}
+
+It must at this point be noted that the models described above are instances of fitting the output produced by my methodologies, and so they should not be construed in some sense as solutions
 
 In order to get a sense of what's actually happening in these models, I next produce Spearman's correlations between the WordSim data and each of the features of different subspaces independently.  The top five features for 400 dimension \textsc{joint}, \textsc{indy}, and \textsc{zipped} spaces generated using 2x2 word co-occurrence windows are reported in Table~\ref{tab:ind-related}.  Here a strong correlation between the most predictive of the \textsc{joint} and \textsc{zipped} subspaces is evident, and this makes sense: as these types of subspaces increase in dimensionality, the possible combinations of co-occurrence dimensions with non-zero values for both input word-vectors decreases, so the subspaces themselves begin to converge.  The features selected here tend to involve the mean norm of the input word-vectors, so the prominence of these vectors in the spaces that are jointly informative about both of them is clearly positively correlated with relatedness between the two terms.\footnote{There is clearly a high degree of multi-colinearity at play between these top independent features, and this will be addressed below.}  In other words, related words tend to share strong PMI values with a number of co-occurrence dimensions---hardly a surprising finding, and in line with the results indicating the powerfulness of norm measures revealed in the proof of concept outlined earlier in this chapter.
+
+%\begin{table}
+%\centering
+%\begin{tabular}{lr|lr|lr}
+%\hline
+%\multicolumn{2}{c}{\textsc{joint}} & \multicolumn{2}{c}{\textsc{indy}} & \multicolumn{2}{c}{\textsc{zipped}} \\
+%\hline
+%$\mu (A,B)$ & 0.609 & $\angle ACB$ & 0.683 & $\mu (A,B)$ & 0.611 \\
+%$\mu (A,B)/C$ & 0.604 & $\angle AMB$ & 0.654 & $\mu (A,B)/X$ & 0.603 \\
+%$\mu (A,B)/X$ & 0.603 & $\angle A'C'B'$ & 0.600 & $\mu (A,B)/C$ & 0.598 \\
+%$\mu (A,B)/M$ & 0.602 & $\angle AOB$ & 0.594 & $\mu (A,B)/M$ & 0.596 \\
+%$\angle ACB$ & 0.574 & $\angle A'X'B'$ & 0.571 & $\angle AMB$ & 0.566 \\
+%\hline
+%\end{tabular}
+%\caption{Independent Spearman's correlations with WordSim data for top five features of each subspace type for 2x2 word co-occurrence window, 400 dimension subspaces.}
+%\label{tab:ind-related}
+%\end{table}
 
 \begin{table}
 \centering
@@ -52,14 +71,14 @@ In order to get a sense of what's actually happening in these models, I next pro
 \hline
 \multicolumn{2}{c}{\textsc{joint}} & \multicolumn{2}{c}{\textsc{indy}} & \multicolumn{2}{c}{\textsc{zipped}} \\
 \hline
-$\mu (A,B)$ & 0.609 & $\angle ACB$ & 0.683 & $\mu (A,B)$ & 0.611 \\
-$\mu (A,B)/C$ & 0.604 & $\angle AMB$ & 0.654 & $\mu (A,B)/X$ & 0.603 \\
-$\mu (A,B)/X$ & 0.603 & $\angle A'C'B'$ & 0.600 & $\mu (A,B)/C$ & 0.598 \\
-$\mu (A,B)/M$ & 0.602 & $\angle AOB$ & 0.594 & $\mu (A,B)/M$ & 0.596 \\
-$\angle ACB$ & 0.574 & $\angle A'X'B'$ & 0.571 & $\angle AMB$ & 0.566 \\
+$\angle AMB$ & 0.645 & $\angle ACB$ & 0.721 & $\angle AMB$ & 0.636 \\
+$\angle ACB$ & 0.636 & $\angle AMB$ & 0.703 & $\angle ACB$ & 0.607 \\
+$\mu (A,B)/M$ & 0.604 & $\angle A'C'B'$ & 0.663 & $\mu (A,B)$ & 0.603 \\
+$\mu (A,B)$ & 0.604 & $\angle A'X'B'$ & 0.634 & $\angle A'M'B'$ & 0.593 \\
+$\mu (A,B)/C$ & 0.603 & $\angle AOB$ & 0.634 & $\angle A'X'B'$ & 0.587 \\
 \hline
 \end{tabular}
-\caption{Independent Spearman's correlations with WordSim data for top five features of each subspace type for 2x2 word co-occurrence window, 400 dimension subspaces.}
+\caption{Independent Spearman's correlations with WordSim data for top five features of each subspace type for 5x5 word co-occurrence window, 400 dimension subspaces.}
 \label{tab:ind-related}
 \end{table}
 
@@ -67,23 +86,38 @@ Much more interestingly, though, an altogether different set of top features eme
 
 So, where the \textsc{joint} and \textsc{indy} subspaces provide a basis for correlation between norms and relatedness, the \textsc{indy} subspaces evidently create a similar axis of correlation between angles and relatedness.  In order to delve deeper into the models learned from the geometric features of these spaces, I next discover an optimally predictive and uncorrelated combinations of five features for modelling relatedness in each type of subspace.  Treating this process as a breadth-first search of possible linear combinations of features to be fed to a regression model, I begin with each independent feature and then concatenate additional features with the constraint that each added feature must not have a \emph{variance inflation factor} \cite{OBrien2007} of greater than 10 with an existing chain of features.  So, if $R_{i}^{2}$ is the coefficient of determination of adding independent variable $i$ to an $i-1$ linear model, then the addition is only considered if it satisfies the inequality $1/(1-R_{i}^{2}) < 10$. This constraint serves two purposes.  First, it eliminates multicolinearity in the combinations of features learned by the model; this, in turn, results in a combination of features which is optimally informative about the information contained in the geometry of a type of subspace and also in model coefficients which are interpretable in terms of their scale.  Second, it makes a potentially very large state space of feature vectors computationally tractable by eliminating a good proportion of possible combinations of features at each level of the search tree.  So, for instance, in the case of the 2x2 word, 400 dimensional \textsc{joint} subspace, the state space of 33,390,720 five feature long combinations selected from 34 different features becomes a space of just 194,481 combinations.
 
-('aAOB', '1.841'), ('mAOB', '1.001'), ('lACB', '1.590'), ('aAMB', '0.637'), ('nACB', '-0.708')
+%\begin{table}
+%\centering
+%\begin{tabular}{lr|lr|lr}
+%\hline
+%\multicolumn{2}{c}{\textsc{joint} ($\rho = 0.682$)} & \multicolumn{2}{c}{\textsc{indy} ($\rho = 0.706$)} & \multicolumn{2}{c}{\textsc{zipped} ($\rho = 0.664$)} \\
+%\hline
+%$\rho = 0.682$ && $\rho = 0.706$ && $\rho = 0.664$ & \\
+%$\mu(A,B)$ & 1.088 & $\angle ACB$ & 1.787 & $\angle AOB$ & 1.841 \\
+%$\overline{A'M'}:\overline{B'M'}$ & 0.702 & $\angle A'C'B'$ & -0.730 & $\mu(\overline{A'C'},\overline{B'C'})$ & 1.590 \\
+%$\overline{A'C'}:\overline{B'C'}$ & -0.548 & $\overline{A'C'}:\overline{B'C'}$ & -0.181 & $\mu(A,B)$ & 1.001 \\
+%$\angle A'M'B'$ & 0.405 & $X$ & 0.109 & $\angle A'C'B'$ & -0.708 \\
+%$\angle{COX}$ & -0.162 & $\overline{AC}:\overline{BC}$ & -0.086 & $\angle AMB$ & 0.637 \\
+%\hline
+%\end{tabular}
+%\caption{The optimal combination of five non-correlated features for a linear regression modelling WordSim data for 2x2 word co-occurrence window, 400 dimensional subspaces projected using each dimensional selection technique.}
+%\label{tab:fivelated}
+%\end{table}
 
 \begin{table}
 \centering
 \begin{tabular}{lr|lr|lr}
 \hline
-\multicolumn{2}{c}{\textsc{joint} ($\rho = 0.682$)} & \multicolumn{2}{c}{\textsc{indy} ($\rho = 0.706$)} & \multicolumn{2}{c}{\textsc{zipped} ($\rho = 0.664$)} \\
+\multicolumn{2}{c}{\textsc{joint} ($\rho = 0.668$)} & \multicolumn{2}{c}{\textsc{indy} ($\rho = 0.728$)} & \multicolumn{2}{c}{\textsc{zipped} ($\rho = 0.668$)} \\
 \hline
-%$\rho = 0.682$ && $\rho = 0.706$ && $\rho = 0.664$ & \\
-$\mu(A,B)$ & 1.088 & $\angle ACB$ & 1.787 & $\angle AOB$ & 1.841 \\
-$\overline{A'M'}:\overline{B'M'}$ & 0.702 & $\angle A'C'B'$ & -0.730 & $\mu(\overline{A'C'},\overline{B'C'})$ & 1.590 \\
-$\overline{A'C'}:\overline{B'C'}$ & -0.548 & $\overline{A'C'}:\overline{B'C'}$ & -0.181 & $\mu(A,B)$ & 1.001 \\
-$\angle A'M'B'$ & 0.405 & $X$ & 0.109 & $\angle A'C'B'$ & -0.708 \\
-$\angle{COX}$ & -0.162 & $\overline{AC}:\overline{BC}$ & -0.086 & $\angle AMB$ & 0.637 \\
+$\angle AMB$ & 1.463 & $\angle ACB$ & 1.833 & $\angle AMB$ & 1.363 \\
+$\overline{A'M'}:\overline{B'M'}$ & 0.795 & $\angle A'C'B'$ & -0.554 & $\mu(A,B)$ & 0.743 \\
+$\overline{A'X'}:\overline{B'X'}$ & -0.675 & $\overline{A'M'}:\overline{B'M'}$ & -0.123 & $\overline{A'X'}:\overline{B'X'}$ & 0.491 \\
+$\overline{AB}$ & 0.274 & $\mu(AB)/X$ & -0.101 & $\mu(AB)/C$ & -0.424 \\
+$\overline{AM}:\overline{BM}$ & -0.230 & $A:B$ & -0.066 & $\overline{AC}:\overline{BC}$ & -0.154 \\
 \hline
 \end{tabular}
-\caption{The optimal combination of five non-correlated features for a linear regression modelling WordSim data for 2x2 word co-occurrence window, 400 dimensional subspaces projected using each dimensional selection technique.}
+\caption{The optimal combination of five non-correlated features for a linear regression modelling WordSim data for 5x5 word co-occurrence window, 400 dimensional subspaces projected using each dimensional selection technique.}
 \label{tab:fivelated}
 \end{table}
 
@@ -137,17 +171,35 @@ $\angle ACB$ & 0.349 & $\angle AOB$ & 0.333 & $\angle ACB$ & 0.325 \\
 \label{tab:ind-similar}
 \end{table}
 
+\begin{table}
+\centering
+\begin{tabular}{lr|lr|lr}
+\hline
+\multicolumn{2}{c}{\textsc{joint} ($\rho = 0.668$)} & \multicolumn{2}{c}{\textsc{indy} ($\rho = 0.728$)} & \multicolumn{2}{c}{\textsc{zipped} ($\rho = 0.668$)} \\
+\hline
+$\angle AMB$ & 1.463 & $\angle ACB$ & 1.833 & $\angle AMB$ & 1.363 \\
+$\overline{A'M'}:\overline{B'M'}$ & 0.795 & $\angle A'C'B'$ & -0.554 & $\mu(A,B)$ & 0.743 \\
+$\overline{A'X'}:\overline{B'X'}$ & -0.675 & $\overline{A'M'}:\overline{B'M'}$ & -0.123 & $\overline{A'X'}:\overline{B'X'}$ & 0.491 \\
+$\overline{AB}$ & 0.274 & $\mu(AB)/X$ & -0.101 & $\mu(AB)/C$ & -0.424 \\
+$\overline{AM}:\overline{BM}$ & -0.230 & $A:B$ & -0.066 & $\overline{AC}:\overline{BC}$ & -0.154 \\
+\hline
+\end{tabular}
+\caption{The optimal combination of five non-correlated features for a linear regression modelling SimLex data for 2x2 word co-occurrence window, 400 dimensional subspaces projected using each dimensional selection technique.}
+\label{tab:fivelated}
+\end{table}
+
 \subsection{Comparing the Two Phenomena} \label{sec:litpare}
 \begin{figure}
   \centering
+  \footnotesize
   \begin{tikzpicture}
     \begin{axis}[xscale=2,yscale=1.5,hide axis]
       \addplot [<->,very thick] coordinates{(0,5) (10,5)};
       \addplot [<->,very thick] coordinates{(5,0) (5,10)};
-      \node at (axis cs: 0,5) [below] {\textsc{unrelated}};
-      \node at (axis cs: 10,5) [above] {\textsc{related}};
-      \node at (axis cs: 5,0) [right] {\textsc{dissimilar}};
-      \node at (axis cs: 5,10) [left] {\textsc{similar}};
+      \node at (axis cs: 0,5) [below] {\normalsize \textsc{unrelated}};
+      \node at (axis cs: 10,5) [below] {\normalsize \textsc{related}};
+      \node at (axis cs: 5,0) [right] {\normalsize \textsc{dissimilar}};
+      \node at (axis cs: 5,10) [left] {\normalsize \textsc{similar}};
       \node at (axis cs: 7.901,1.760) [below] {(\emph{bread, butter})};
       \node at (axis cs: 7.901,1.760) {$\times$};
       \node at (axis cs: 2.646,2.940) [below] {(\emph{dentist, colonel})};
@@ -158,22 +210,24 @@ $\angle ACB$ & 0.349 & $\angle AOB$ & 0.333 & $\angle ACB$ & 0.325 \\
       \node at (axis cs: 7.744,3.406) {$\times$};
       \node at (axis cs: 5.129,3.714) [below] {(\emph{alcohol, cocktail})};
       \node at (axis cs: 5.129,3.714) {$\times$};
-      \node at (axis cs: 5.530,5.901) [below] {(\emph{year, century})};
+      \node at (axis cs: 5.530,5.901) [above] {(\emph{year, century})};
       \node at (axis cs: 5.530,5.901) {$\times$};
-      \node at (axis cs: 10.483,5.368) [below] {(\emph{decade, century})};
-      \node at (axis cs: 10.483,5.368) {$\times$};
-      \node at (axis cs: 7.320,4.828) [below] {(\emph{car,plane})};
+      \node at (axis cs: 9.75,5.368) [above] {(\emph{decade, century})};
+      \node at (axis cs: 9.75,5.368) {$\times$};
+      \node at (axis cs: 7.320,4.828) [below] {(\emph{car, plane})};
       \node at (axis cs: 7.320,4.828) {$\times$};
-      \node at (axis cs: 8.057,7.550) [below] {(\emph{car,train})};
+      \node at (axis cs: 8.057,7.550) [above] {(\emph{car, train})};
       \node at (axis cs: 8.057,7.550) {$\times$};
-      \node at (axis cs: 8.286,6.724) [below] {(\emph{attorney,lawyer})};
+      \node at (axis cs: 8.286,6.724) [below] {(\emph{attorney, lawyer})};
       \node at (axis cs: 8.286,6.724) {$\times$};
       \node at (axis cs: 1.852,1.512) [below] {(\emph{gun,fur})};
       \node at (axis cs: 1.852,1.512) {$\times$};
-      \node at (axis cs: 6.106,4.936) [below] {(\emph{gun,knife})};
+      \node at (axis cs: 6.106,4.936) [above] {(\emph{gun, knife})};
       \node at (axis cs: 6.106,4.936) {$\times$};
-      \node at (axis cs: 5.694,4.244) [below] {(\emph{fur,mink})};
-      \node at (axis cs: 5.694,4.244) {$\times$};
+      \node at (axis cs: 7.068,7.667) [below] {(\emph{street, place})};
+      \node at (axis cs: 7.068,7.667) {$\times$};
+      \node at (axis cs: 9.458,9.050) [below] {(\emph{street, avenue})};
+      \node at (axis cs: 9.458,9.050) {$\times$};
     \end{axis}
   \end{tikzpicture}
 \caption{Noun pair scores along axes of relatedness and similarity as returned by a model built from features of 2x2 word co-occurrence window, 400 dimensional, \textsc{indy} type subspaces.}
@@ -183,32 +237,30 @@ $\angle ACB$ & 0.349 & $\angle AOB$ & 0.333 & $\angle ACB$ & 0.325 \\
 \footnote{Intriguingly, when identical words are given as input, they are rated as being very related and very dissimilar.  The latter outcome is obviously an imperfection, but it also reveals the extent to which the models of each type of semantic phenomenon are making use of different geometric features, or the same features in opposite ways.}
 
 \begin{figure}
-\begin{minipage}{0.3\textwidth}
+\footnotesize
+\begin{subfigure}{0.3\textwidth} % alcohol - cocktail
 \centering
   \begin{tikzpicture}
-    \def\varA{36.4577,0.010,77.1556};
-    \def\varB{26.9499,79.8289,0.0105};
-    \def\varC{15.7914,36.3081,38.2218};
-    \def\varM{11.3696,38.3468,38.8568};
-    \def\varX{18.1730,82.9411,88.9351};
-    \def\varAN{0.4272,0.0001,0.9041};
-    \def\varBN{0.3199,0.9475,0.0001};
-    \def\varCN{0.2869,0.6598,0.6945};
-    \def\varMN{0.2039,0.6877,0.6968};
-    \def\varXN{0.1519,0.6697,0.7269};
+    \def\varA{79.0460,0.0100,36.6061};
+    \def\varB{0.0100,84.4756,44.1699};
+    \def\varC{30.1642,30.1641,30.1644};
+    \def\varM{26.1589,22.2901,42.0425};
+    \def\varX{54.3220,50.1692,92.1549};
+    \def\varAN{27.2226,0.0035,12.6067};
+    \def\varBN{0.0032,26.5852,13.9006};
+    \def\varCN{17.3205,17.3204,17.3206};
+    \def\varMN{14.4519,12.3145,23.2270};
+    \def\varXN{13.7927,12.7383,23.3987};
     \begin{axis}[scale = 0.6,axis line style=white,view={120}{10},xmin=0,xmax=100,ymin=0,ymax=100,zmin=0,zmax=100,colormap/blackwhite,ticks=none]
-      \addplot3[color=black,thick] coordinates {(0,0,1.5) (0,1.5,1.5)};
-      \addplot3[color=black,thick] coordinates {(0,0,1.5) (1.5,0,1.5)};
-      \addplot3[color=black,thick] coordinates {(0,1.5,0) (0,1.5,1.5)};
-      \addplot3[color=black,thick] coordinates {(0,1.5,0) (1.5,1.5,0)};
-      \addplot3[color=black,thick] coordinates {(1.5,0,0) (1.5,0,1.5)};
-      \addplot3[color=black,thick] coordinates {(1.5,0,0) (1.5,1.5,0)};
-      \addplot3[color=black,dashed] coordinates {(0,0,0) (0,0,1)};
-      \addplot3[color=black,dashed] coordinates {(0,0,0) (0,1,0)};
-      \addplot3[color=black,dashed] coordinates {(0,0,0) (1,0,0)};
-      \addplot3[color=black] coordinates {(0,0,1) (0,0,1.5)};
-      \addplot3[color=black] coordinates {(0,1,0) (0,1.5,0)};
-      \addplot3[color=black] coordinates {(1,0,0) (1.5,0,0)};
+      \addplot3[color=black,thick] coordinates {(0,0,100) (0,100,100)};
+      \addplot3[color=black,thick] coordinates {(0,0,100) (100,0,100)};
+      \addplot3[color=black,thick] coordinates {(0,100,0) (0,100,100)};
+      \addplot3[color=black,thick] coordinates {(0,100,0) (100,100,0)};
+      \addplot3[color=black,thick] coordinates {(100,0,0) (100,0,100)};
+      \addplot3[color=black,thick] coordinates {(100,0,0) (100,100,0)};
+      \addplot3[color=black] coordinates {(0,0,0) (0,0,100)};
+      \addplot3[color=black] coordinates {(0,0,0) (0,100,0)};
+      \addplot3[color=black] coordinates {(0,0,0) (100,0,0)};
       \addplot3[patch,patch type=triangle,color=gray,fill opacity=0.6] coordinates {(0.0,0.0,0.0) (\varCN) (\varAN)};
       \addplot3[patch,patch type=triangle,color=gray,fill opacity=0.5] coordinates {(0.0,0.0,0.0) (\varCN) (\varBN)};
       \addplot3[patch,patch type=triangle,color=darkgray,fill opacity=0.5] coordinates {(\varCN) (\varAN) (\varBN)};
@@ -226,49 +278,47 @@ $\angle ACB$ & 0.349 & $\angle AOB$ & 0.333 & $\angle ACB$ & 0.325 \\
       \addplot3 [patch,patch type=triangle,color=gray,fill opacity=0.8] coordinates{(\varA) (\varX) (\varB)};
       \addplot3 [patch,patch type=triangle,color=gray,fill opacity=0.6] coordinates{(\varA) (\varM) (\varB)};
 %      \node [anchor=south] at (axis cs: 0.1,0.0,0.0) {O};
-%      \node [anchor=south] at (axis cs: \varA) {A};
-%      \node [anchor=south] at (axis cs: \varB) {B};
+      \node [anchor=south] at (axis cs: \varA) {alcohol};
+      \node [anchor=south] at (axis cs: \varB) {cocktail};
 %      \node [anchor=south] at (axis cs: \varAN) {A'};
 %      \node [anchor=west] at (axis cs: \varBN) {B'};
 %      \node [anchor=south] at (axis cs: \varCN) {C'};
 %      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varCN)};
-%      \node [anchor=south] at (axis cs: \varC) {C};
+      \node [anchor=south] at (axis cs: \varC) {C};
 %      \node [anchor=east] at (axis cs: \varXN) {X'};
 %      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varXN)};
-%      \node [anchor=south] at (axis cs: \varX) {X};
+      \node [anchor=south] at (axis cs: \varX) {X};
 %      \node [anchor=west] at (axis cs: \varMN) {M'};
 %      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varMN)};
-%      \node [anchor=south] at (axis cs: \varM) {M};
+      \node [anchor=south] at (axis cs: \varM) {M};
     \end{axis}
   \end{tikzpicture}
-\end{minipage}
+\caption*{\footnotesize \emph{relatedness = 5.129} \\ \emph{similarity = 3.714}}
+\end{subfigure}
 \hfill
-\begin{minipage}{0.3\textwidth}
+\begin{subfigure}{0.3\textwidth} % year - century
 \centering
   \begin{tikzpicture}
-    \def\varA{0.3,0.6,1.35};
-    \def\varB{0.4,1.6,1.1};
-    \def\varC{1.0,1.0,1.0};
-    \def\varM{1.35,1.6,1.1};
-    \def\varX{2.5,1.6,1.7};
-    \def\varAN{0.2,0.4,0.8944};
-    \def\varBN{0.2,0.8,0.5657};
-    \def\varCN{0.5774,0.5774,0.5774};
-    \def\varMN{0.5709,0.6766,0.4651};
-    \def\varXN{0.7309,0.4678,0.4970};
-    \begin{axis}[scale = 0.6,axis line style=white,view={120}{10},xmin=0,xmax=1.5,ymin=0,ymax=1.5,zmin=0,zmax=1.5,colormap/blackwhite,ticks=none]
-      \addplot3[color=black,thick] coordinates {(0,0,1.5) (0,1.5,1.5)};
-      \addplot3[color=black,thick] coordinates {(0,0,1.5) (1.5,0,1.5)};
-      \addplot3[color=black,thick] coordinates {(0,1.5,0) (0,1.5,1.5)};
-      \addplot3[color=black,thick] coordinates {(0,1.5,0) (1.5,1.5,0)};
-      \addplot3[color=black,thick] coordinates {(1.5,0,0) (1.5,0,1.5)};
-      \addplot3[color=black,thick] coordinates {(1.5,0,0) (1.5,1.5,0)};
-      \addplot3[color=black,dashed] coordinates {(0,0,0) (0,0,1)};
-      \addplot3[color=black,dashed] coordinates {(0,0,0) (0,1,0)};
-      \addplot3[color=black,dashed] coordinates {(0,0,0) (1,0,0)};
-      \addplot3[color=black] coordinates {(0,0,1) (0,0,1.5)};
-      \addplot3[color=black] coordinates {(0,1,0) (0,1.5,0)};
-      \addplot3[color=black] coordinates {(1,0,0) (1.5,0,0)};
+    \def\varA{51.9626,6.4671,21.7839};
+    \def\varB{0.0100,63.1563,21.7575};
+    \def\varC{25.6275,25.6274,25.6277};
+    \def\varM{22.1142,19.2209,35.5466};
+    \def\varX{51.7446,49.2619,82.4910};
+    \def\varAN{27.4867,3.4209,11.5230};
+    \def\varBN{0.0045,28.3640,9.7715};
+    \def\varCN{17.3205,17.3204,17.3206};
+    \def\varMN{14.4018,12.5175,23.1496};
+    \def\varXN{14.2249,13.5424,22.6772};
+    \begin{axis}[scale = 0.6,axis line style=white,view={120}{10},xmin=0,xmax=100,ymin=0,ymax=100,zmin=0,zmax=100,colormap/blackwhite,ticks=none]
+      \addplot3[color=black,thick] coordinates {(0,0,100) (0,100,100)};
+      \addplot3[color=black,thick] coordinates {(0,0,100) (100,0,100)};
+      \addplot3[color=black,thick] coordinates {(0,100,0) (0,100,100)};
+      \addplot3[color=black,thick] coordinates {(0,100,0) (100,100,0)};
+      \addplot3[color=black,thick] coordinates {(100,0,0) (100,0,100)};
+      \addplot3[color=black,thick] coordinates {(100,0,0) (100,100,0)};
+      \addplot3[color=black] coordinates {(0,0,0) (0,0,100)};
+      \addplot3[color=black] coordinates {(0,0,0) (0,100,0)};
+      \addplot3[color=black] coordinates {(0,0,0) (100,0,0)};
       \addplot3[patch,patch type=triangle,color=gray,fill opacity=0.6] coordinates {(0.0,0.0,0.0) (\varCN) (\varAN)};
       \addplot3[patch,patch type=triangle,color=gray,fill opacity=0.5] coordinates {(0.0,0.0,0.0) (\varCN) (\varBN)};
       \addplot3[patch,patch type=triangle,color=darkgray,fill opacity=0.5] coordinates {(\varCN) (\varAN) (\varBN)};
@@ -286,49 +336,87 @@ $\angle ACB$ & 0.349 & $\angle AOB$ & 0.333 & $\angle ACB$ & 0.325 \\
       \addplot3 [patch,patch type=triangle,color=gray,fill opacity=0.8] coordinates{(\varA) (\varX) (\varB)};
       \addplot3 [patch,patch type=triangle,color=gray,fill opacity=0.6] coordinates{(\varA) (\varM) (\varB)};
 %      \node [anchor=south] at (axis cs: 0.1,0.0,0.0) {O};
-%      \node [anchor=south] at (axis cs: \varA) {A};
-%      \node [anchor=south] at (axis cs: \varB) {B};
+      \node [anchor=south] at (axis cs: \varA) {year};
+      \node [anchor=south] at (axis cs: \varB) {century};
 %      \node [anchor=south] at (axis cs: \varAN) {A'};
 %      \node [anchor=west] at (axis cs: \varBN) {B'};
 %      \node [anchor=south] at (axis cs: \varCN) {C'};
 %      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varCN)};
-%      \node [anchor=south] at (axis cs: \varC) {C};
+      \node [anchor=south] at (axis cs: \varC) {C};
 %      \node [anchor=east] at (axis cs: \varXN) {X'};
 %      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varXN)};
-%      \node [anchor=south] at (axis cs: \varX) {X};
+      \node [anchor=south] at (axis cs: \varX) {X};
 %      \node [anchor=west] at (axis cs: \varMN) {M'};
 %      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varMN)};
-%      \node [anchor=south] at (axis cs: \varM) {M};
+      \node [anchor=south] at (axis cs: \varM) {M};
     \end{axis}
   \end{tikzpicture}
-\end{minipage}
+\caption*{\footnotesize \emph{relatedness = 5.530} \\ \emph{similarity = 5.901}}
+\end{subfigure}
 \hfill
-\begin{minipage}{0.3\textwidth}
+\begin{subfigure}{0.3\textwidth} % car - train
 \centering
   \begin{tikzpicture}
-    \def\varA{0.3,0.6,1.35};
-    \def\varB{0.4,1.6,1.1};
-    \def\varC{1.0,1.0,1.0};
-    \def\varM{1.35,1.6,1.1};
-    \def\varX{2.5,1.6,1.7};
-    \def\varAN{0.2,0.4,0.8944};
-    \def\varBN{0.2,0.8,0.5657};
-    \def\varCN{0.5774,0.5774,0.5774};
-    \def\varMN{0.5709,0.6766,0.4651};
-    \def\varXN{0.7309,0.4678,0.4970};
-    \begin{axis}[scale = 0.6,axis line style=white,view={120}{10},xmin=0,xmax=1.5,ymin=0,ymax=1.5,zmin=0,zmax=1.5,colormap/blackwhite,ticks=none]
-      \addplot3[color=black,thick] coordinates {(0,0,1.5) (0,1.5,1.5)};
-      \addplot3[color=black,thick] coordinates {(0,0,1.5) (1.5,0,1.5)};
-      \addplot3[color=black,thick] coordinates {(0,1.5,0) (0,1.5,1.5)};
-      \addplot3[color=black,thick] coordinates {(0,1.5,0) (1.5,1.5,0)};
-      \addplot3[color=black,thick] coordinates {(1.5,0,0) (1.5,0,1.5)};
-      \addplot3[color=black,thick] coordinates {(1.5,0,0) (1.5,1.5,0)};
-      \addplot3[color=black,dashed] coordinates {(0,0,0) (0,0,1)};
-      \addplot3[color=black,dashed] coordinates {(0,0,0) (0,1,0)};
-      \addplot3[color=black,dashed] coordinates {(0,0,0) (1,0,0)};
-      \addplot3[color=black] coordinates {(0,0,1) (0,0,1.5)};
-      \addplot3[color=black] coordinates {(0,1,0) (0,1.5,0)};
-      \addplot3[color=black] coordinates {(1,0,0) (1.5,0,0)};
+    \def\varA{19.9946,72.8400,15.5063};
+    \def\varB{70.9042,15.2298,16.5710};
+    \def\varC{28.8258,28.8259,28.8257};
+    \def\varM{30.6877,33.1717,22.6174};
+    \def\varX{70.4550,74.4422,58.8530};
+    \def\varAN{7.7790,28.3389,6.0328};
+    \def\varBN{28.5940,6.1418,6.6827};
+    \def\varCN{17.3205,17.3206,17.3205};
+    \def\varMN{18.2182,19.6929,13.4272};
+    \def\varXN{17.8833,18.8953,14.9384};
+%    \def\varA{19.9946,15.5063,72.8400};
+%    \def\varB{70.9042,16.5710,15.2298};
+%    \def\varC{28.8258,28.8257,28.8259};
+%    \def\varM{30.6877,22.6174,33.1717};
+%    \def\varX{70.4550,58.8530,74.4422};
+%    \def\varAN{7.7790,6.0328,28.3389};
+%    \def\varBN{28.5940,6.6827,6.1418};
+%    \def\varCN{17.3205,17.3205,17.3206};
+%    \def\varMN{18.2182,13.4272,19.6929};
+%    \def\varXN{17.8833,14.9384,18.8953};
+%    \def\varA{65.4685,49.1227,19.3840};
+%    \def\varB{61.7135,61.5873,33.5169};
+%    \def\varC{26.2133,26.2126,26.2126};
+%    \def\varM{32.1238,32.7204,13.7926};
+%    \def\varX{100.3424,50.3228,35.4999};
+%    \def\varAN{23.3503,17.5204,6.9136};
+%    \def\varBN{19.8208,19.7802,10.7648};
+%    \def\varCN{17.3208,17.3203,17.3203};
+%    \def\varMN{20.1264,20.5001,8.6414};
+%    \def\varXN{25.5685,12.8229,9.0458};
+%    \def\varA{49.1227,65.4685,19.3840};
+%    \def\varB{61.5873,61.7135,33.5169};
+%    \def\varC{26.2126,26.2133,26.2126};
+%    \def\varM{32.7204,32.1238,13.7926};
+%    \def\varX{50.3228,100.3424,35.4999};
+%    \def\varAN{17.5204,23.3503,6.9136};
+%    \def\varBN{19.7802,19.8208,10.7648};
+%    \def\varCN{17.3203,17.3208,17.3203};
+%    \def\varMN{20.5001,20.1264,8.6414};
+%    \def\varXN{12.8229,25.5685,9.0458};
+%    \def\varA{49.1227,19.3840,65.4685};
+%    \def\varB{61.5873,33.5169,61.7135};
+%    \def\varC{26.2126,26.2126,26.2133};
+%    \def\varM{32.7204,13.7926,32.1238};
+%    \def\varX{50.3228,35.4999,100.3424};
+%    \def\varAN{17.5204,6.9136,23.3503};
+%    \def\varBN{19.7802,10.7648,19.8208};
+%    \def\varCN{17.3203,17.3203,17.3208};
+%    \def\varMN{20.5001,8.6414,20.1264};
+%    \def\varXN{12.8229,9.0458,25.5685};
+    \begin{axis}[scale = 0.6,axis line style=white,view={120}{10},xmin=0,xmax=100,ymin=0,ymax=100,zmin=0,zmax=100,colormap/blackwhite,ticks=none]
+      \addplot3[color=black,thick] coordinates {(0,0,100) (0,100,100)};
+      \addplot3[color=black,thick] coordinates {(0,0,100) (100,0,100)};
+      \addplot3[color=black,thick] coordinates {(0,100,0) (0,100,100)};
+      \addplot3[color=black,thick] coordinates {(0,100,0) (100,100,0)};
+      \addplot3[color=black,thick] coordinates {(100,0,0) (100,0,100)};
+      \addplot3[color=black,thick] coordinates {(100,0,0) (100,100,0)};
+      \addplot3[color=black] coordinates {(0,0,0) (0,0,100)};
+      \addplot3[color=black] coordinates {(0,0,0) (0,100,0)};
+      \addplot3[color=black] coordinates {(0,0,0) (100,0,0)};
       \addplot3[patch,patch type=triangle,color=gray,fill opacity=0.6] coordinates {(0.0,0.0,0.0) (\varCN) (\varAN)};
       \addplot3[patch,patch type=triangle,color=gray,fill opacity=0.5] coordinates {(0.0,0.0,0.0) (\varCN) (\varBN)};
       \addplot3[patch,patch type=triangle,color=darkgray,fill opacity=0.5] coordinates {(\varCN) (\varAN) (\varBN)};
@@ -346,48 +434,59 @@ $\angle ACB$ & 0.349 & $\angle AOB$ & 0.333 & $\angle ACB$ & 0.325 \\
       \addplot3 [patch,patch type=triangle,color=gray,fill opacity=0.8] coordinates{(\varA) (\varX) (\varB)};
       \addplot3 [patch,patch type=triangle,color=gray,fill opacity=0.6] coordinates{(\varA) (\varM) (\varB)};
 %      \node [anchor=south] at (axis cs: 0.1,0.0,0.0) {O};
-%      \node [anchor=south] at (axis cs: \varA) {A};
-%      \node [anchor=south] at (axis cs: \varB) {B};
+      \node [anchor=south] at (axis cs: \varA) {car};
+      \node [anchor=south] at (axis cs: \varB) {train};
 %      \node [anchor=south] at (axis cs: \varAN) {A'};
 %      \node [anchor=west] at (axis cs: \varBN) {B'};
 %      \node [anchor=south] at (axis cs: \varCN) {C'};
 %      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varCN)};
-%      \node [anchor=south] at (axis cs: \varC) {C};
+      \node [anchor=south] at (axis cs: \varC) {C};
 %      \node [anchor=east] at (axis cs: \varXN) {X'};
 %      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varXN)};
-%      \node [anchor=south] at (axis cs: \varX) {X};
+      \node [anchor=south] at (axis cs: \varX) {X};
 %      \node [anchor=west] at (axis cs: \varMN) {M'};
 %      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varMN)};
-%      \node [anchor=south] at (axis cs: \varM) {M};
+      \node [anchor=south] at (axis cs: \varM) {M};
     \end{axis}
   \end{tikzpicture}
-\end{minipage}
-\begin{minipage}{0.3\textwidth}
+\caption*{\footnotesize \emph{relatedness = 8.057} \\ \emph{similarity = 7.550}}
+\end{subfigure}
+\vfill
+\vspace{10pt}
+\vfill
+\begin{subfigure}{0.3\textwidth} % gun-fur
 \centering
   \begin{tikzpicture}
-    \def\varA{0.3,0.6,1.35};
-    \def\varB{0.4,1.6,1.1};
-    \def\varC{1.0,1.0,1.0};
-    \def\varM{1.35,1.6,1.1};
-    \def\varX{2.5,1.6,1.7};
-    \def\varAN{0.2,0.4,0.8944};
-    \def\varBN{0.2,0.8,0.5657};
-    \def\varCN{0.5774,0.5774,0.5774};
-    \def\varMN{0.5709,0.6766,0.4651};
-    \def\varXN{0.7309,0.4678,0.4970};
-    \begin{axis}[scale = 0.6,axis line style=white,view={120}{10},xmin=0,xmax=1.5,ymin=0,ymax=1.5,zmin=0,zmax=1.5,colormap/blackwhite,ticks=none]
-      \addplot3[color=black,thick] coordinates {(0,0,1.5) (0,1.5,1.5)};
-      \addplot3[color=black,thick] coordinates {(0,0,1.5) (1.5,0,1.5)};
-      \addplot3[color=black,thick] coordinates {(0,1.5,0) (0,1.5,1.5)};
-      \addplot3[color=black,thick] coordinates {(0,1.5,0) (1.5,1.5,0)};
-      \addplot3[color=black,thick] coordinates {(1.5,0,0) (1.5,0,1.5)};
-      \addplot3[color=black,thick] coordinates {(1.5,0,0) (1.5,1.5,0)};
-      \addplot3[color=black,dashed] coordinates {(0,0,0) (0,0,1)};
-      \addplot3[color=black,dashed] coordinates {(0,0,0) (0,1,0)};
-      \addplot3[color=black,dashed] coordinates {(0,0,0) (1,0,0)};
-      \addplot3[color=black] coordinates {(0,0,1) (0,0,1.5)};
-      \addplot3[color=black] coordinates {(0,1,0) (0,1.5,0)};
-      \addplot3[color=black] coordinates {(1,0,0) (1.5,0,0)};
+    \def\varA{0.2227,83.1037,19.3450};
+    \def\varB{80.6411,0.0100,24.3846};
+    \def\varC{31.2668,31.2672,31.2669};
+    \def\varM{36.2502,37.1321,20.4184};
+    \def\varX{73.2282,78.5851,58.6705};
+    \def\varAN{0.0783,29.2187,6.8016};
+    \def\varBN{28.7159,0.0036,8.6832};
+    \def\varCN{17.3204,17.3206,17.3205};
+    \def\varMN{19.5015,19.9759,10.9844};
+    \def\varXN{17.9490,19.2620,14.3808};
+%    \def\varA{0.2227,19.3450,83.1037};
+%    \def\varB{80.6411,24.3846,0.0100};
+%    \def\varC{31.2668,31.2669,31.2672};
+%    \def\varM{36.2502,20.4184,37.1321};
+%    \def\varX{73.2282,58.6705,78.5851};
+%    \def\varAN{0.0783,6.8016,29.2187};
+%    \def\varBN{28.7159,8.6832,0.0036};
+%    \def\varCN{17.3204,17.3205,17.3206};
+%    \def\varMN{19.5015,10.9844,19.9759};
+%    \def\varXN{17.9490,14.3808,19.2620};
+    \begin{axis}[scale = 0.6,axis line style=white,view={120}{10},xmin=0,xmax=100,ymin=0,ymax=100,zmin=0,zmax=100,colormap/blackwhite,ticks=none]
+      \addplot3[color=black,thick] coordinates {(0,0,100) (0,100,100)};
+      \addplot3[color=black,thick] coordinates {(0,0,100) (100,0,100)};
+      \addplot3[color=black,thick] coordinates {(0,100,0) (0,100,100)};
+      \addplot3[color=black,thick] coordinates {(0,100,0) (100,100,0)};
+      \addplot3[color=black,thick] coordinates {(100,0,0) (100,0,100)};
+      \addplot3[color=black,thick] coordinates {(100,0,0) (100,100,0)};
+      \addplot3[color=black] coordinates {(0,0,0) (0,0,100)};
+      \addplot3[color=black] coordinates {(0,0,0) (0,100,0)};
+      \addplot3[color=black] coordinates {(0,0,0) (100,0,0)};
       \addplot3[patch,patch type=triangle,color=gray,fill opacity=0.6] coordinates {(0.0,0.0,0.0) (\varCN) (\varAN)};
       \addplot3[patch,patch type=triangle,color=gray,fill opacity=0.5] coordinates {(0.0,0.0,0.0) (\varCN) (\varBN)};
       \addplot3[patch,patch type=triangle,color=darkgray,fill opacity=0.5] coordinates {(\varCN) (\varAN) (\varBN)};
@@ -405,49 +504,57 @@ $\angle ACB$ & 0.349 & $\angle AOB$ & 0.333 & $\angle ACB$ & 0.325 \\
       \addplot3 [patch,patch type=triangle,color=gray,fill opacity=0.8] coordinates{(\varA) (\varX) (\varB)};
       \addplot3 [patch,patch type=triangle,color=gray,fill opacity=0.6] coordinates{(\varA) (\varM) (\varB)};
 %      \node [anchor=south] at (axis cs: 0.1,0.0,0.0) {O};
-%      \node [anchor=south] at (axis cs: \varA) {A};
-%      \node [anchor=south] at (axis cs: \varB) {B};
+      \node [anchor=south] at (axis cs: \varA) {gun};
+      \node [anchor=south] at (axis cs: \varB) {fur};
 %      \node [anchor=south] at (axis cs: \varAN) {A'};
 %      \node [anchor=west] at (axis cs: \varBN) {B'};
 %      \node [anchor=south] at (axis cs: \varCN) {C'};
 %      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varCN)};
-%      \node [anchor=south] at (axis cs: \varC) {C};
+      \node [anchor=south] at (axis cs: \varC) {C};
 %      \node [anchor=east] at (axis cs: \varXN) {X'};
 %      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varXN)};
-%      \node [anchor=south] at (axis cs: \varX) {X};
+      \node [anchor=south] at (axis cs: \varX) {X};
 %      \node [anchor=west] at (axis cs: \varMN) {M'};
 %      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varMN)};
-%      \node [anchor=south] at (axis cs: \varM) {M};
+      \node [anchor=south] at (axis cs: \varM) {M};
     \end{axis}
   \end{tikzpicture}
-\end{minipage}
+\caption*{\footnotesize \emph{relatedness = 1.852} \\ \emph{similarity = 1.512}}
+\end{subfigure}
 \hfill
-\begin{minipage}{0.3\textwidth}
+\begin{subfigure}{0.3\textwidth} %alcohol - chemistry
 \centering
   \begin{tikzpicture}
-    \def\varA{0.3,0.6,1.35};
-    \def\varB{0.4,1.6,1.1};
-    \def\varC{1.0,1.0,1.0};
-    \def\varM{1.35,1.6,1.1};
-    \def\varX{2.5,1.6,1.7};
-    \def\varAN{0.2,0.4,0.8944};
-    \def\varBN{0.2,0.8,0.5657};
-    \def\varCN{0.5774,0.5774,0.5774};
-    \def\varMN{0.5709,0.6766,0.4651};
-    \def\varXN{0.7309,0.4678,0.4970};
-    \begin{axis}[scale = 0.6,axis line style=white,view={120}{10},xmin=0,xmax=1.5,ymin=0,ymax=1.5,zmin=0,zmax=1.5,colormap/blackwhite,ticks=none]
-      \addplot3[color=black,thick] coordinates {(0,0,1.5) (0,1.5,1.5)};
-      \addplot3[color=black,thick] coordinates {(0,0,1.5) (1.5,0,1.5)};
-      \addplot3[color=black,thick] coordinates {(0,1.5,0) (0,1.5,1.5)};
-      \addplot3[color=black,thick] coordinates {(0,1.5,0) (1.5,1.5,0)};
-      \addplot3[color=black,thick] coordinates {(1.5,0,0) (1.5,0,1.5)};
-      \addplot3[color=black,thick] coordinates {(1.5,0,0) (1.5,1.5,0)};
-      \addplot3[color=black,dashed] coordinates {(0,0,0) (0,0,1)};
-      \addplot3[color=black,dashed] coordinates {(0,0,0) (0,1,0)};
-      \addplot3[color=black,dashed] coordinates {(0,0,0) (1,0,0)};
-      \addplot3[color=black] coordinates {(0,0,1) (0,0,1.5)};
-      \addplot3[color=black] coordinates {(0,1,0) (0,1.5,0)};
-      \addplot3[color=black] coordinates {(1,0,0) (1.5,0,0)};
+    \def\varA{6.2406,84.0428,11.2675};
+    \def\varB{77.9932,3.0879,15.4691};
+    \def\varC{30.4804,30.4805,30.4803};
+    \def\varM{31.5977,34.8934,24.9498};
+    \def\varX{70.7068,73.5172,59.2103};
+    \def\varAN{2.2020,29.6538,3.9757};
+    \def\varBN{29.4046,1.1642,5.8321};
+    \def\varCN{17.3205,17.3206,17.3204};
+    \def\varMN{17.7924,19.6482,14.0491};
+    \def\varXN{17.9853,18.7002,15.0610};
+%    \def\varA{6.2406,11.2675,84.0428};
+%    \def\varB{77.9932,15.4691,3.0879};
+%    \def\varC{30.4804,30.4803,30.4805};
+%    \def\varM{31.5977,24.9498,34.8934};
+%    \def\varX{70.7068,59.2103,73.5172};
+%    \def\varAN{2.2020,3.9757,29.6538};
+%    \def\varBN{29.4046,5.8321,1.1642};
+%    \def\varCN{17.3205,17.3204,17.3206};
+%    \def\varMN{17.7924,14.0491,19.6482};
+%    \def\varXN{17.9853,15.0610,18.7002};
+    \begin{axis}[scale = 0.6,axis line style=white,view={120}{10},xmin=0,xmax=100,ymin=0,ymax=100,zmin=0,zmax=100,colormap/blackwhite,ticks=none]
+      \addplot3[color=black,thick] coordinates {(0,0,100) (0,100,100)};
+      \addplot3[color=black,thick] coordinates {(0,0,100) (100,0,100)};
+      \addplot3[color=black,thick] coordinates {(0,100,0) (0,100,100)};
+      \addplot3[color=black,thick] coordinates {(0,100,0) (100,100,0)};
+      \addplot3[color=black,thick] coordinates {(100,0,0) (100,0,100)};
+      \addplot3[color=black,thick] coordinates {(100,0,0) (100,100,0)};
+      \addplot3[color=black] coordinates {(0,0,0) (0,0,100)};
+      \addplot3[color=black] coordinates {(0,0,0) (0,100,0)};
+      \addplot3[color=black] coordinates {(0,0,0) (100,0,0)};
       \addplot3[patch,patch type=triangle,color=gray,fill opacity=0.6] coordinates {(0.0,0.0,0.0) (\varCN) (\varAN)};
       \addplot3[patch,patch type=triangle,color=gray,fill opacity=0.5] coordinates {(0.0,0.0,0.0) (\varCN) (\varBN)};
       \addplot3[patch,patch type=triangle,color=darkgray,fill opacity=0.5] coordinates {(\varCN) (\varAN) (\varBN)};
@@ -465,49 +572,57 @@ $\angle ACB$ & 0.349 & $\angle AOB$ & 0.333 & $\angle ACB$ & 0.325 \\
       \addplot3 [patch,patch type=triangle,color=gray,fill opacity=0.8] coordinates{(\varA) (\varX) (\varB)};
       \addplot3 [patch,patch type=triangle,color=gray,fill opacity=0.6] coordinates{(\varA) (\varM) (\varB)};
 %      \node [anchor=south] at (axis cs: 0.1,0.0,0.0) {O};
-%      \node [anchor=south] at (axis cs: \varA) {A};
-%      \node [anchor=south] at (axis cs: \varB) {B};
+      \node [anchor=south] at (axis cs: \varA) {alcohol};
+      \node [anchor=south] at (axis cs: \varB) {chemistry};
 %      \node [anchor=south] at (axis cs: \varAN) {A'};
 %      \node [anchor=west] at (axis cs: \varBN) {B'};
 %      \node [anchor=south] at (axis cs: \varCN) {C'};
 %      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varCN)};
-%      \node [anchor=south] at (axis cs: \varC) {C};
+      \node [anchor=south] at (axis cs: \varC) {C};
 %      \node [anchor=east] at (axis cs: \varXN) {X'};
 %      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varXN)};
-%      \node [anchor=south] at (axis cs: \varX) {X};
+      \node [anchor=south] at (axis cs: \varX) {X};
 %      \node [anchor=west] at (axis cs: \varMN) {M'};
 %      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varMN)};
-%      \node [anchor=south] at (axis cs: \varM) {M};
+      \node [anchor=south] at (axis cs: \varM) {M};
     \end{axis}
   \end{tikzpicture}
-\end{minipage}
+\caption*{\footnotesize \emph{relatedness = 4.247} \\ \emph{similarity = 1.109}}
+\end{subfigure}
 \hfill
-\begin{minipage}{0.3\textwidth}
+\begin{subfigure}{0.3\textwidth} %bread - butter
 \centering
   \begin{tikzpicture}
-    \def\varA{0.3,0.6,1.35};
-    \def\varB{0.4,1.6,1.1};
-    \def\varC{1.0,1.0,1.0};
-    \def\varM{1.35,1.6,1.1};
-    \def\varX{2.5,1.6,1.7};
-    \def\varAN{0.2,0.4,0.8944};
-    \def\varBN{0.2,0.8,0.5657};
-    \def\varCN{0.5774,0.5774,0.5774};
-    \def\varMN{0.5709,0.6766,0.4651};
-    \def\varXN{0.7309,0.4678,0.4970};
-    \begin{axis}[scale = 0.6,axis line style=white,view={120}{10},xmin=0,xmax=1.5,ymin=0,ymax=1.5,zmin=0,zmax=1.5,colormap/blackwhite,ticks=none]
-      \addplot3[color=black,thick] coordinates {(0,0,1.5) (0,1.5,1.5)};
-      \addplot3[color=black,thick] coordinates {(0,0,1.5) (1.5,0,1.5)};
-      \addplot3[color=black,thick] coordinates {(0,1.5,0) (0,1.5,1.5)};
-      \addplot3[color=black,thick] coordinates {(0,1.5,0) (1.5,1.5,0)};
-      \addplot3[color=black,thick] coordinates {(1.5,0,0) (1.5,0,1.5)};
-      \addplot3[color=black,thick] coordinates {(1.5,0,0) (1.5,1.5,0)};
-      \addplot3[color=black,dashed] coordinates {(0,0,0) (0,0,1)};
-      \addplot3[color=black,dashed] coordinates {(0,0,0) (0,1,0)};
-      \addplot3[color=black,dashed] coordinates {(0,0,0) (1,0,0)};
-      \addplot3[color=black] coordinates {(0,0,1) (0,0,1.5)};
-      \addplot3[color=black] coordinates {(0,1,0) (0,1.5,0)};
-      \addplot3[color=black] coordinates {(1,0,0) (1.5,0,0)};
+    \def\varA{27.0584,98.9587,33.0727};
+    \def\varB{100.9304,27.8853,38.9284};
+    \def\varC{31.8889,31.8891,31.8889};
+    \def\varM{37.0303,37.7084,20.9277};
+    \def\varX{72.6366,77.1240,57.5067};
+    \def\varAN{7.5308,27.5420,9.2047};
+    \def\varBN{27.1042,7.4884,10.4540};
+    \def\varCN{17.3205,17.3206,17.3205};
+    \def\varMN{19.5434,19.9013,11.0450};
+    \def\varXN{18.0770,19.1938,14.3116};
+%    \def\varA{27.0584,33.0727,98.9587};
+%    \def\varB{100.9304,38.9284,27.8853};
+%    \def\varC{31.8889,31.8889,31.8891};
+%    \def\varM{37.0303,20.9277,37.7084};
+%    \def\varX{72.6366,57.5067,77.1240};
+%    \def\varAN{7.5308,9.2047,27.5420};
+%    \def\varBN{27.1042,10.4540,7.4884};
+%    \def\varCN{17.3205,17.3205,17.3206};
+%    \def\varMN{19.5434,11.0450,19.9013};
+%    \def\varXN{18.0770,14.3116,19.1938};
+    \begin{axis}[scale = 0.6,axis line style=white,view={120}{10},xmin=0,xmax=100,ymin=0,ymax=100,zmin=0,zmax=100,colormap/blackwhite,ticks=none]
+      \addplot3[color=black,thick] coordinates {(0,0,100) (0,100,100)};
+      \addplot3[color=black,thick] coordinates {(0,0,100) (100,0,100)};
+      \addplot3[color=black,thick] coordinates {(0,100,0) (0,100,100)};
+      \addplot3[color=black,thick] coordinates {(0,100,0) (100,100,0)};
+      \addplot3[color=black,thick] coordinates {(100,0,0) (100,0,100)};
+      \addplot3[color=black,thick] coordinates {(100,0,0) (100,100,0)};
+      \addplot3[color=black] coordinates {(0,0,0) (0,0,100)};
+      \addplot3[color=black] coordinates {(0,0,0) (0,100,0)};
+      \addplot3[color=black] coordinates {(0,0,0) (100,0,0)};
       \addplot3[patch,patch type=triangle,color=gray,fill opacity=0.6] coordinates {(0.0,0.0,0.0) (\varCN) (\varAN)};
       \addplot3[patch,patch type=triangle,color=gray,fill opacity=0.5] coordinates {(0.0,0.0,0.0) (\varCN) (\varBN)};
       \addplot3[patch,patch type=triangle,color=darkgray,fill opacity=0.5] coordinates {(\varCN) (\varAN) (\varBN)};
@@ -525,22 +640,23 @@ $\angle ACB$ & 0.349 & $\angle AOB$ & 0.333 & $\angle ACB$ & 0.325 \\
       \addplot3 [patch,patch type=triangle,color=gray,fill opacity=0.8] coordinates{(\varA) (\varX) (\varB)};
       \addplot3 [patch,patch type=triangle,color=gray,fill opacity=0.6] coordinates{(\varA) (\varM) (\varB)};
 %      \node [anchor=south] at (axis cs: 0.1,0.0,0.0) {O};
-%      \node [anchor=south] at (axis cs: \varA) {A};
-%      \node [anchor=south] at (axis cs: \varB) {B};
+      \node [anchor=south] at (axis cs: \varA) {bread};
+      \node [anchor=south] at (axis cs: \varB) {butter};
 %      \node [anchor=south] at (axis cs: \varAN) {A'};
 %      \node [anchor=west] at (axis cs: \varBN) {B'};
 %      \node [anchor=south] at (axis cs: \varCN) {C'};
 %      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varCN)};
-%      \node [anchor=south] at (axis cs: \varC) {C};
+      \node [anchor=south] at (axis cs: \varC) {C};
 %      \node [anchor=east] at (axis cs: \varXN) {X'};
 %      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varXN)};
-%      \node [anchor=south] at (axis cs: \varX) {X};
+      \node [anchor=south] at (axis cs: \varX) {X};
 %      \node [anchor=west] at (axis cs: \varMN) {M'};
 %      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varMN)};
-%      \node [anchor=south] at (axis cs: \varM) {M};
+      \node [anchor=south] at (axis cs: \varM) {M};
     \end{axis}
   \end{tikzpicture}
-\end{minipage}
+\caption*{\footnotesize \emph{relatedness = 7.901} \\ \emph{similarity = 1.760}}
+\end{subfigure}
 \end{figure}
 
 \subsection{Generalising the Models}

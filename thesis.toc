@@ -1,0 +1,12 @@
+\contentsline {chapter}{Abstract}{i}
+\contentsline {chapter}{Glossary}{iii}
+\contentsline {chapter}{Table of Contents}{1}
+\contentsline {chapter}{\numberline {3}Relatedness and Similarity}{2}
+\contentsline {section}{\numberline {3.1}An Experiment on Relatedness}{4}
+\contentsline {subsection}{\numberline {3.1.1}Relatedness: Methodology and Model}{5}
+\contentsline {subsection}{\numberline {3.1.2}Relatedness: Comparing to Other Models}{6}
+\contentsline {section}{\numberline {3.2}An Experiment on Similarity}{9}
+\contentsline {subsection}{\numberline {3.2.1}Comparing the Two Phenomena}{10}
+\contentsline {subsection}{\numberline {3.2.2}Generalising the Models}{10}
+\contentsline {subsection}{\numberline {3.2.3}Frames of Similarity}{10}
+\contentsline {chapter}{References}{12}
