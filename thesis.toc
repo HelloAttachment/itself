@@ -1,0 +1,17 @@
+\contentsline {chapter}{Abstract}{i}
+\contentsline {chapter}{Glossary}{iii}
+\contentsline {chapter}{Table of Contents}{1}
+\contentsline {chapter}{\numberline {3}Context Sensitive Distributional Semantics}{2}
+\contentsline {section}{\numberline {3.1}Establishing and Analysing a Large Scale Textual Corpus}{3}
+\contentsline {section}{\numberline {3.2}Selecting Dimensions from a Sparse Co-Occurrence Matrix}{5}
+\contentsline {section}{\numberline {3.3}Exploring the Geometry of a Context Specific Subspace}{10}
+\contentsline {subsection}{\numberline {3.3.1}Two Measures for Probing a Subspace}{11}
+\contentsline {subsection}{\numberline {3.3.2}Replete Geometric Analysis}{15}
+\contentsline {section}{\numberline {3.4}A Mathematical Justification for Geometric Analysis}{19}
+\contentsline {section}{\numberline {3.5}Comparing to Alternative Approaches}{21}
+\contentsline {subsection}{\numberline {3.5.1}Static Interpretations of the Base Space}{22}
+\contentsline {subsection}{\numberline {3.5.2}A Model Trained Using a Neural Network}{23}
+\contentsline {section}{\numberline {3.6}A Proof of Concept}{25}
+\contentsline {subsection}{\numberline {3.6.1}Experimental Set-Up}{26}
+\contentsline {subsection}{\numberline {3.6.2}Results and Analysis}{27}
+\contentsline {chapter}{References}{30}
