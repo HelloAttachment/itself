@@ -2,47 +2,60 @@ This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: cover.aux
+A level-1 auxiliary file: ch3/Three.aux
 A level-1 auxiliary file: ch3.5/ThreePointFive.aux
+A level-1 auxiliary file: ch4/Four.aux
 The style file: apalike.bst
 Database file #1: Mega.bib.bib
-You've used 33 entries,
+Warning--I didn't find a database entry for "ReidlEA2013"
+Warning--I didn't find a database entry for "Sahlgren"
+Warning--I didn't find a database entry for "Saussure"
+Warning--I didn't find a database entry for "HalawieEA2012"
+Warning--I didn't find a database entry for "BajadeEA2015"
+Warning--I didn't find a database entry for "ChenEA2017"
+Warning--I didn't find a database entry for "BarsalouEA1993"
+Warning--can't use both volume and number fields in Carston2010
+Warning--empty publisher in Jager2010
+Warning--empty publisher in Wille2005
+You've used 104 entries,
             1935 wiz_defined-function locations,
-            690 strings with 10583 characters,
-and the built_in function-call counts, 14855 in all, are:
-= -- 1476
-> -- 551
-< -- 32
-+ -- 193
-- -- 180
-* -- 1108
-:= -- 2403
-add.period$ -- 103
-call.type$ -- 33
-change.case$ -- 245
-chr.to.int$ -- 30
-cite$ -- 33
-duplicate$ -- 682
-empty$ -- 1123
-format.name$ -- 231
-if$ -- 3110
+            1179 strings with 23849 characters,
+and the built_in function-call counts, 46128 in all, are:
+= -- 4615
+> -- 1588
+< -- 117
++ -- 552
+- -- 513
+* -- 3455
+:= -- 7460
+add.period$ -- 326
+call.type$ -- 104
+change.case$ -- 747
+chr.to.int$ -- 101
+cite$ -- 107
+duplicate$ -- 2109
+empty$ -- 3539
+format.name$ -- 669
+if$ -- 9662
 int.to.chr$ -- 4
 int.to.str$ -- 0
-missing$ -- 39
-newline$ -- 168
-num.names$ -- 106
-pop$ -- 316
+missing$ -- 121
+newline$ -- 523
+num.names$ -- 337
+pop$ -- 905
 preamble$ -- 1
-purify$ -- 251
+purify$ -- 763
 quote$ -- 0
-skip$ -- 501
+skip$ -- 1579
 stack$ -- 0
-substring$ -- 1012
-swap$ -- 172
-text.length$ -- 15
+substring$ -- 3301
+swap$ -- 526
+text.length$ -- 50
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 184
-warning$ -- 0
-while$ -- 121
+type$ -- 586
+warning$ -- 3
+while$ -- 399
 width$ -- 0
-write$ -- 432
+write$ -- 1366
+(There were 10 warnings)

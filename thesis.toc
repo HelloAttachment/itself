@@ -1,12 +1,14 @@
 \contentsline {chapter}{Abstract}{i}
 \contentsline {chapter}{Glossary}{iii}
 \contentsline {chapter}{Table of Contents}{1}
-\contentsline {chapter}{\numberline {3}Relatedness and Similarity}{2}
-\contentsline {section}{\numberline {3.1}An Experiment on Relatedness}{4}
-\contentsline {subsection}{\numberline {3.1.1}Relatedness: Methodology and Model}{5}
-\contentsline {subsection}{\numberline {3.1.2}The Geometry of Relatedness}{6}
-\contentsline {section}{\numberline {3.2}An Experiment on Similarity}{9}
-\contentsline {section}{\numberline {3.3}Comparing the Two Phenomena}{11}
-\contentsline {subsection}{\numberline {3.3.1}Comparing the Two Phenomena}{11}
-\contentsline {section}{\numberline {3.4}Frames of Similarity}{12}
-\contentsline {chapter}{References}{13}
+\contentsline {chapter}{\numberline {3}Metaphor and Coercion}{2}
+\contentsline {section}{\numberline {3.1}An Experiment on Metaphor}{3}
+\contentsline {subsection}{\numberline {3.1.1}Methodology and Results}{5}
+\contentsline {subsection}{\numberline {3.1.2}The Geometry of Metaphor}{7}
+\contentsline {subsection}{\numberline {3.1.3}Generalising the Model}{7}
+\contentsline {section}{\numberline {3.2}An Experiment on Coercion}{7}
+\contentsline {subsection}{\numberline {3.2.1}Methodology and Results}{7}
+\contentsline {subsection}{\numberline {3.2.2}The Geometry of Coercion}{7}
+\contentsline {subsection}{\numberline {3.2.3}Adding Sentential Context}{7}
+\contentsline {section}{\numberline {3.3}Interpretation and Composition in Context}{7}
+\contentsline {chapter}{References}{9}

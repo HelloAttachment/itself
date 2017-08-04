@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.9.4)  19 JUL 2017 18:57
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.9.4)  4 AUG 2017 15:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -633,7 +633,7 @@ File: tikzlibraryshapes.arrows.code.tex 2008/01/09 v2.10 (rcs-revision 1.1)
 (/usr/share/texmf/tex/generic/pgf/libraries/shapes/pgflibraryshapes.arrows.code
 .tex
 File: pgflibraryshapes.arrows.code.tex 2008/06/26 v2.10 (rcs-revision 1.1)
-)) (./thesis.aux)
+)) (./thesis.aux (./cover.aux) (./ch5/Five.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
@@ -740,7 +740,22 @@ he dis-tri-bu-tional seman-tic paradigm,
 
 ] [2]) [3
 
-] (./thesis.toc)
+] (./thesis.toc
+LaTeX Font Info:    Try loading font information for U+msa on input line 5.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 5.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 5.
+
+(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+))
 \tf@toc=\write4
 \openout4 = `thesis.toc'.
 
@@ -748,286 +763,156 @@ he dis-tri-bu-tional seman-tic paradigm,
 
 
 ]
-\openout2 = `ch4/Four.aux'.
+\openout2 = `ch5/Five.aux'.
 
- (./ch4/Four.tex
+
+(./ch5/Five.tex
 Chapter 3.
 
-LaTeX Warning: Reference `chap:theory' on page 2 undefined on input line 2.
+LaTeX Warning: Reference `sec:figurative' on page 2 undefined on input line 2.
 
 
-LaTeX Warning: Reference `chap:method' on page 2 undefined on input line 2.
+Package natbib Warning: Citation `Fraser1993' on page 2 undefined on input line
+ 4.
+
+
+Package natbib Warning: Citation `BouveretEA2009' on page 2 undefined on input 
+line 4.
+
+
+Package natbib Warning: Citation `Gibbs1993' on page 2 undefined on input line 
+6.
+
+
+Package natbib Warning: Citation `Gibbs1994' on page 2 undefined on input line 
+6.
 
 [2
 
 
 ]
 
-Package natbib Warning: Citation `RubensteinEA1965' on page 3 undefined on inpu
-t line 8.
+Package natbib Warning: Citation `ShutovaEA2013' on page 3 undefined on input l
+ine 15.
 
 
-Package natbib Warning: Citation `YangEA2006' on page 3 undefined on input line
- 8.
+Package natbib Warning: Citation `LakoffEA2003' on page 3 undefined on input li
+ne 15.
 
 
-Package natbib Warning: Citation `FinkelsteinEA2002' on page 3 undefined on inp
-ut line 8.
-
-LaTeX Font Info:    Try loading font information for U+msa on input line 8.
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 8.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 8.
-
-(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
-File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-)
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 8.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-Underfull \hbox (badness 10000) in paragraph at lines 8--8
-[][]\T1/cmr/m/n/9 Copies of the instruc-tions, along with the data itself, can 
-be found at
- []
+Package natbib Warning: Citation `Utsumi2011' on page 3 undefined on input line
+ 15.
 
 
-Package natbib Warning: Citation `BruniEA2012' on page 3 undefined on input lin
-e 8.
-
-
-Package natbib Warning: Citation `FaruquiEA2016' on page 3 undefined on input l
-ine 8.
-
-
-Package natbib Warning: Citation `AgirreEA2009' on page 3 undefined on input li
-ne 10.
-
-
-Package natbib Warning: Citation `HillEA2015' on page 3 undefined on input line
- 10.
-
-
-Package natbib Warning: Citation `MihalceaEA2006' on page 3 undefined on input 
-line 10.
-
-
-Package natbib Warning: Citation `HassanEA2011' on page 3 undefined on input li
-ne 10.
+Package natbib Warning: Citation `HovyEA2013' on page 3 undefined on input line
+ 15.
 
 [3]
 
-Package natbib Warning: Citation `GarbilovichEA2007' on page 4 undefined on inp
-ut line 15.
+Package natbib Warning: Citation `MitchellEA2010' on page 4 undefined on input 
+line 17.
 
 
-Package natbib Warning: Citation `HassanEA2011' on page 4 undefined on input li
-ne 15.
+Package natbib Warning: Citation `BaroniEA2010' on page 4 undefined on input li
+ne 17.
 
 
-Package natbib Warning: Citation `HalawiEA2012' on page 4 undefined on input li
-ne 15.
+Package natbib Warning: Citation `CoeckeEA2011' on page 4 undefined on input li
+ne 17.
 
 
-Package natbib Warning: Citation `LuongEA2013' on page 4 undefined on input lin
-e 15.
-
-
-LaTeX Warning: Reference `tab:features' on page 4 undefined on input line 20.
+Package natbib Warning: Citation `TsvetkovEA2014' on page 4 undefined on input 
+line 23.
 
 [4]
 
-LaTeX Warning: Reference `tab:related' on page 5 undefined on input line 41.
+Package natbib Warning: Citation `BaroniEA2010' on page 5 undefined on input li
+ne 25.
 
 
-Package natbib Warning: Citation `Sahlgren' on page 5 undefined on input line 4
-1.
+Package natbib Warning: Citation `LakoffEA1980' on page 5 undefined on input li
+ne 25.
+
+[5] [6]
+
+Package natbib Warning: Citation `Shutova2015' on page 7 undefined on input lin
+e 94.
 
 
-Package natbib Warning: Citation `Saussure' on page 5 undefined on input line 4
-1.
+Package natbib Warning: Citation `Shutova2015' on page 7 undefined on input lin
+e 94.
 
 
-Package natbib Warning: Citation `Saussure' on page 5 undefined on input line 4
-1.
+Package natbib Warning: Citation `Davidson' on page 7 undefined on input line 9
+6.
 
-[5]
 
-LaTeX Warning: Reference `tab:ind-related' on page 6 undefined on input line 49
+Package natbib Warning: Citation `Sweetser' on page 7 undefined on input line 9
+6.
+
+
+Package natbib Warning: Citation `Gibson' on page 7 undefined on input line 96.
+
+
+
+Package natbib Warning: Citation `Bateson' on page 7 undefined on input line 96
 .
 
-[6]
 
-Package natbib Warning: Citation `OBrien2007' on page 7 undefined on input line
- 87.
+Package natbib Warning: Citation `Raczsek' on page 7 undefined on input line 96
+.
 
+[7]) [8] (./thesis.bbl
+Overfull \hbox (7.62492pt too wide) in paragraph at lines 10--17
+\T1/cmr/m/n/10.95 study on sim-i-lar-ity and relat-ed-ness using dis-tri-bu-tio
+nal and wordnet-based approaches.
+ []
 
-LaTeX Warning: Reference `tab:fivelated' on page 7 undefined on input line 124.
-
-
-[7]
-
-LaTeX Warning: Reference `tab:profiles' on page 8 undefined on input line 128.
-
-[8]
-
-LaTeX Warning: Reference `sec:litpare' on page 9 undefined on input line 132.
+[9
 
 
-Package natbib Warning: Citation `RecksiEA2016' on page 9 undefined on input li
-ne 135.
-
-
-Package natbib Warning: Citation `KornaiEA2015' on page 9 undefined on input li
-ne 135.
-
-
-Package natbib Warning: Citation `BanjadeEA2015' on page 9 undefined on input l
-ine 135.
-
-
-Package natbib Warning: Citation `SchwartzEA2015' on page 9 undefined on input 
-line 135.
-
-
-Package natbib Warning: Citation `MaEA2017' on page 9 undefined on input line 1
-35.
-
-[9]
-
-LaTeX Warning: Reference `sec:frames' on page 10 undefined on input line 139.
-
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-[10]
-
-Package natbib Warning: Citation `Tversky1977' on page 11 undefined on input li
-ne 669.
-
-[11]
-
-LaTeX Warning: Reference `fig:axes' on page 12 undefined on input line 671.
-
-) [12] (./thesis.bbl [13
-
-
-] [14])
+] [10] [11] [12] [13])
 
 Package natbib Warning: There were undefined citations.
 
-[15] (./thesis.aux (./cover.aux) (./ch4/Four.aux)
 
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
+Package caption Warning: Unused \captionsetup[sub] on input line 29.
+See the caption package documentation for explanation.
 
-)
+[14] (./thesis.aux (./cover.aux) (./ch5/Five.aux))
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 21791 strings out of 493304
- 504238 string characters out of 6139872
- 802697 words of memory out of 5000000
- 24755 multiletter control sequences out of 15000+600000
- 26312 words of font info for 67 fonts, out of 8000000 for 9000
+ 22139 strings out of 493304
+ 504655 string characters out of 6139872
+ 637977 words of memory out of 5000000
+ 25107 multiletter control sequences out of 15000+600000
+ 23460 words of font info for 62 fonts, out of 8000000 for 9000
  958 hyphenation exceptions out of 8191
- 56i,13n,86p,3154b,2188s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,14n,74p,1952b,1776s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/
+f-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols
-/msam10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx0900.pfb></usr/sh
-are/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type
-1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sf
-bx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pfb></usr/sha
-re/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1
-/public/cm-super/sfcc1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfr
-m0600.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/shar
-e/texmf/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf/fonts/type1/
-public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm
-1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share
-/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf/fonts/type1/p
-ublic/cm-super/sfrm2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti0
-900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/
-texmf/fonts/type1/public/cm-super/sftt0900.pfb></usr/share/texmf/fonts/type1/pu
-blic/cm-super/sftt1095.pfb>
-Output written on thesis.pdf (19 pages, 471330 bytes).
+ype1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx10
+95.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/t
+exmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/pub
+lic/cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx248
+8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1095.pfb></usr/share/te
+xmf/fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/texmf/fonts/type1/publ
+ic/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0900
+.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/tex
+mf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/publi
+c/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.
+pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2488.pfb></usr/share/texm
+f/fonts/type1/public/cm-super/sfti1095.pfb>
+Output written on thesis.pdf (18 pages, 341402 bytes).
 PDF statistics:
- 179 PDF objects out of 1000 (max. 8388607)
- 129 compressed objects within 2 object streams
+ 147 PDF objects out of 1000 (max. 8388607)
+ 105 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
