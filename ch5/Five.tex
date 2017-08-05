@@ -79,6 +79,22 @@ In addition to allowing for a commitment to
 \end{figure}
 
 \subsection{The Geometry of Metaphor}
+\begin{table}
+\centering
+\begin{tabular}{lr|lr|lr|lr|lr}
+\hline
+\multicolumn{2}{c}{\textsc{joint}} & \multicolumn{2}{c}{\textsc{indy}} & \multicolumn{2}{c}{\textsc{zipped}} & \multicolumn{2}{c}{\textsc{adjective}} & \multicolumn{2}{c}{\textsc{noun}} \\
+\hline
+$\mu(A,B)$ & 0.787 & $C$ & 0.767 & $\mu(A,B)$ & 0.788 & $\mu(A,B)/M$ & 0.745 & $\mu(A,B)$ & 0.756 \\
+$C$ & 0.771 & $C/M$ & 0.749 & $C$ & 0.771 & $\overline{AC}:\overline{BC}$ & 0.736 & $C$ & 0.747 \\
+$\mu(A,B)/M$ & 0.764 & $\angle AMB$ 0.747 & $\mu(A,B)/M$ & 0.769 & $\overline{AC}/\overline{BC}$ & 0.734 & $\mu(A,B)/X$ & 0.728 \\
+$\angle COX$ & 0.762 & $C/X$ & 0.746 $X$ & 0.767 & $\mu(A,B)/X$ & 0.732 & $\mu(A,B)/M$ & 0.721 \\
+$X$ & 0.762 & $\mu(A,B)$ & 0.734 & $\mu(A,B)/X$ & 0.759 & $\angle ACB$ & 0.730 & $C/X$ & 0.721 \\
+\hline
+\end{tabular}
+\caption{Independent f-scores from the metaphor classification data for top five features of each subspace type for 5x5 word co-occurrence window, 400 dimension subspaces.}
+\label{tab:ind-metaphor}
+\end{table}
 
 \subsection{Generalising the Model} \label{sec:genaphor}
 One of the interesting things about feature-based classification is that there is always an inherent commitment to degree of class membership, even when the training data used to build a model is simply binary.  This is true of any model which uses, for instance, a logistic regression technique for determining class, as there is a cut-off point along the spectrum of model output and a corresponding proximity to that point for any given sample, and it is especially obvious when the features of the model are actually geometrical measures.  In this section, I will apply the models learned from the the \cite{GutierrezEA2016} data to another dataset designed to assess metaphor as a matter of degree rather than simply as a binary situation
