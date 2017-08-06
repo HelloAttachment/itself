@@ -1,32 +1,5 @@
-\gdef \the@ipfilectr {@-1}
-\gdef \the@ipfilectr {}
-\gdef \the@ipfilectr {@-2}
-\gdef \the@ipfilectr {}
-\gdef \the@ipfilectr {@-3}
 \addvspace {10\p@ }
-\gdef \the@ipfilectr {}
-\gdef \the@ipfilectr {@-4}
-\addvspace {10\p@ }
-\gdef \the@ipfilectr {}
-\gdef \the@ipfilectr {@-5}
-\addvspace {10\p@ }
-\gdef \the@ipfilectr {}
-\gdef \the@ipfilectr {@-6}
-\addvspace {10\p@ }
-\gdef \the@ipfilectr {}
-\gdef \the@ipfilectr {@-7}
-\addvspace {10\p@ }
-\gdef \the@ipfilectr {}
-\gdef \the@ipfilectr {@-8}
-\addvspace {10\p@ }
-\gdef \the@ipfilectr {}
-\gdef \the@ipfilectr {@-9}
-\addvspace {10\p@ }
-\gdef \the@ipfilectr {}
-\gdef \the@ipfilectr {@-10}
-\addvspace {10\p@ }
-\gdef \the@ipfilectr {}
-\gdef \the@ipfilectr {@-11}
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\gdef \the@ipfilectr {}
+\contentsline {table}{\numberline {3-A}{\ignorespaces Context Sensitive and Static Model F-Scores for Metaphor Classification}}{5}
+\contentsline {table}{\numberline {3-B}{\ignorespaces F-Scores for Metaphor Classification of Unseen Adjectives}}{7}
+\contentsline {table}{\numberline {3-C}{\ignorespaces Comparative Metaphor Classification Statistics}}{9}
+\contentsline {table}{\numberline {3-D}{\ignorespaces Top Independent Features for Metaphor Classification}}{9}

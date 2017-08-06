@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.7.19)  6 AUG 2017 00:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.7.19)  6 AUG 2017 20:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -647,7 +647,7 @@ File: tikzlibraryshapes.arrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
 s.arrows.code.tex
 File: pgflibraryshapes.arrows.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
-)) (./thesis.aux (./cover.aux) (./ch5/Five.aux))
+)) (./thesis.aux (./cover.aux) (./toc.aux) (./ch5/Five.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
@@ -755,17 +755,17 @@ he dis-tri-bu-tional seman-tic paradigm,
 ] [2]) [3
 
 ] (./thesis.toc
-LaTeX Font Info:    Try loading font information for U+msa on input line 5.
+LaTeX Font Info:    Try loading font information for U+msa on input line 9.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 5.
+LaTeX Font Info:    Try loading font information for U+msb on input line 9.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 5.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 9.
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
@@ -773,124 +773,163 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 \tf@toc=\write4
 \openout4 = `thesis.toc'.
 
- [1
+ [4
 
 
 ]
+\openout2 = `toc.aux'.
+
+ (./toc.tex
+(./thesis.toc)
+\tf@toc=\write5
+\openout5 = `thesis.toc'.
+
+ [5
+
+
+] (./thesis.lof)
+\tf@lof=\write6
+\openout6 = `thesis.lof'.
+
+ [6
+
+] (./thesis.lot
+
+Package natbib Warning: Citation `GutierrezEA2016' on page vii undefined on inp
+ut line 3.
+
+)
+\tf@lot=\write7
+\openout7 = `thesis.lot'.
+
+ [7
+
+] [8
+
+] [9])
 \openout2 = `ch5/Five.aux'.
 
-
-(./ch5/Five.tex
+ (./ch5/Five.tex
 Chapter 3.
 
-LaTeX Warning: Reference `sec:figurative' on page 2 undefined on input line 2.
+LaTeX Warning: Reference `sec:figurative' on page 1 undefined on input line 2.
 
 
-Package natbib Warning: Citation `Fraser1993' on page 2 undefined on input line
+Package natbib Warning: Citation `Fraser1993' on page 1 undefined on input line
  4.
 
 
-Package natbib Warning: Citation `BouveretEA2009' on page 2 undefined on input 
+Package natbib Warning: Citation `BouveretEA2009' on page 1 undefined on input 
 line 4.
 
 
-Package natbib Warning: Citation `Barsalou1992' on page 2 undefined on input li
+Package natbib Warning: Citation `Barsalou1992' on page 1 undefined on input li
 ne 4.
 
 
-Package natbib Warning: Citation `Barsalou1993' on page 2 undefined on input li
+Package natbib Warning: Citation `Barsalou1993' on page 1 undefined on input li
 ne 4.
 
 
-Package natbib Warning: Citation `Gibbs1993' on page 2 undefined on input line 
+Package natbib Warning: Citation `Gibbs1993' on page 1 undefined on input line 
 6.
 
 
-Package natbib Warning: Citation `Gibbs1994' on page 2 undefined on input line 
+Package natbib Warning: Citation `Gibbs1994' on page 1 undefined on input line 
 6.
 
-[2
+[1
+
 
 
 ]
 
-Package natbib Warning: Citation `ShutovaEA2013' on page 3 undefined on input l
+Package natbib Warning: Citation `ShutovaEA2013' on page 2 undefined on input l
 ine 15.
 
 
-Package natbib Warning: Citation `LakoffEA2003' on page 3 undefined on input li
+Package natbib Warning: Citation `LakoffEA2003' on page 2 undefined on input li
 ne 15.
 
 
-Package natbib Warning: Citation `Utsumi2011' on page 3 undefined on input line
+Package natbib Warning: Citation `Utsumi2011' on page 2 undefined on input line
  15.
 
 
-Package natbib Warning: Citation `HovyEA2013' on page 3 undefined on input line
+Package natbib Warning: Citation `HovyEA2013' on page 2 undefined on input line
  15.
 
-[3]
+[2]
 
-Package natbib Warning: Citation `MitchellEA2010' on page 4 undefined on input 
+Package natbib Warning: Citation `MitchellEA2010' on page 3 undefined on input 
 line 17.
 
 
-Package natbib Warning: Citation `BaroniEA2010' on page 4 undefined on input li
+Package natbib Warning: Citation `BaroniEA2010' on page 3 undefined on input li
 ne 17.
 
 
-Package natbib Warning: Citation `CoeckeEA2011' on page 4 undefined on input li
+Package natbib Warning: Citation `CoeckeEA2011' on page 3 undefined on input li
 ne 17.
 
 
-Package natbib Warning: Citation `GutierrezEA2016' on page 4 undefined on input
+Package natbib Warning: Citation `GutierrezEA2016' on page 3 undefined on input
  line 19.
 
 
-Package natbib Warning: Citation `TsvetkovEA2014' on page 4 undefined on input 
+Package natbib Warning: Citation `TsvetkovEA2014' on page 3 undefined on input 
 line 19.
+
+[3]
+
+Package natbib Warning: Citation `GutierrezEA2016' on page 4 undefined on input
+ line 21.
+
+
+Package natbib Warning: Citation `BaroniEA2010' on page 4 undefined on input li
+ne 21.
+
+
+Package natbib Warning: Citation `LakoffEA1980' on page 4 undefined on input li
+ne 21.
+
+
+Package natbib Warning: Citation `GutierrezEA2016' on page 4 undefined on input
+ line 23.
+
+
+Package natbib Warning: Citation `GutierrezEA2016' on page 4 undefined on input
+ line 23.
+
+
+Package natbib Warning: Citation `Langacker1991' on page 4 undefined on input l
+ine 28.
+
+
+Package natbib Warning: Citation `Chomsky' on page 4 undefined on input line 28
+.
 
 [4]
 
 Package natbib Warning: Citation `GutierrezEA2016' on page 5 undefined on input
- line 21.
-
-
-Package natbib Warning: Citation `BaroniEA2010' on page 5 undefined on input li
-ne 21.
-
-
-Package natbib Warning: Citation `LakoffEA1980' on page 5 undefined on input li
-ne 21.
-
-
-Package natbib Warning: Citation `GutierrezEA2016' on page 5 undefined on input
- line 23.
-
-
-Package natbib Warning: Citation `GutierrezEA2016' on page 5 undefined on input
- line 23.
-
-
-Package natbib Warning: Citation `Langacker1991' on page 5 undefined on input l
-ine 28.
-
-
-Package natbib Warning: Citation `Chomsky' on page 5 undefined on input line 28
-.
-
-[5]
-
-Package natbib Warning: Citation `GutierrezEA2016' on page 6 undefined on input
  line 30.
 
 
-LaTeX Warning: Reference `tab:features' on page 6 undefined on input line 32.
+LaTeX Warning: Reference `tab:features' on page 5 undefined on input line 32.
 
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 55.
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [6]
+) [5]
+
+Package natbib Warning: Citation `GutierrezEA2016' on page 6 undefined on input
+ line 63.
+
+
+Package natbib Warning: Citation `GutierrezEA2016' on page 6 undefined on input
+ line 63.
+
+[6]
 
 Package natbib Warning: Citation `GutierrezEA2016' on page 7 undefined on input
  line 86.
@@ -898,52 +937,70 @@ Package natbib Warning: Citation `GutierrezEA2016' on page 7 undefined on input
 
 Package natbib Warning: Citation `GutierrezEA2016' on page 7 undefined on input
  line 86.
+
+
+Package natbib Warning: Citation `TsvetkovEA2014' on page 7 undefined on input 
+line 96.
 
 [7]
-Overfull \hbox (76.8213pt too wide) in paragraph at lines 113--124
+
+Package natbib Warning: Citation `GutierrezEA2016' on page 8 undefined on input
+ line 115.
+
+
+Package natbib Warning: Citation `TsvetkovEA2014' on page 8 undefined on input 
+line 117.
+
+[8]
+
+Package natbib Warning: Citation `GutierrezEA2016' on page 9 undefined on input
+ line 131.
+
+
+Overfull \hbox (76.8213pt too wide) in paragraph at lines 144--155
  [][] 
  []
 
 
-Package natbib Warning: Citation `GutierrezEA2016' on page 8 undefined on input
- line 129.
+Package natbib Warning: Citation `GutierrezEA2016' on page 9 undefined on input
+ line 160.
 
-[8]
+[9]
 
-Package natbib Warning: Citation `Shutova2015' on page 9 undefined on input lin
-e 142.
-
-
-Package natbib Warning: Citation `Shutova2015' on page 9 undefined on input lin
-e 142.
+Package natbib Warning: Citation `Shutova2015' on page 10 undefined on input li
+ne 173.
 
 
-Package natbib Warning: Citation `Davidson' on page 9 undefined on input line 1
-44.
+Package natbib Warning: Citation `Shutova2015' on page 10 undefined on input li
+ne 173.
 
 
-Package natbib Warning: Citation `Sweetser' on page 9 undefined on input line 1
-44.
+Package natbib Warning: Citation `Davidson' on page 10 undefined on input line 
+175.
 
 
-Package natbib Warning: Citation `Gibson' on page 9 undefined on input line 144
-.
+Package natbib Warning: Citation `Sweetser' on page 10 undefined on input line 
+175.
 
 
-Package natbib Warning: Citation `Bateson' on page 9 undefined on input line 14
-4.
+Package natbib Warning: Citation `Gibson' on page 10 undefined on input line 17
+5.
 
 
-Package natbib Warning: Citation `Raczsek' on page 9 undefined on input line 14
-4.
+Package natbib Warning: Citation `Bateson' on page 10 undefined on input line 1
+75.
 
-[9]) [10] (./thesis.bbl
+
+Package natbib Warning: Citation `Raczsek' on page 10 undefined on input line 1
+75.
+
+) [10] [11] (./thesis.bbl
 Overfull \hbox (7.62492pt too wide) in paragraph at lines 4--11
 \T1/cmr/m/n/10.95 study on sim-i-lar-ity and relat-ed-ness using dis-tri-bu-tio
 nal and wordnet-based approaches.
  []
 
-[11
+[12
 
 
 ])
@@ -954,19 +1011,19 @@ Package natbib Warning: There were undefined citations.
 Package caption Warning: Unused \captionsetup[sub] on input line 29.
 See the caption package documentation for explanation.
 
-[12] (./thesis.aux (./cover.aux) (./ch5/Five.aux))
+[13] (./thesis.aux (./cover.aux) (./toc.aux) (./ch5/Five.aux))
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 25083 strings out of 493029
- 617441 string characters out of 6136234
- 790994 words of memory out of 5000000
- 28122 multiletter control sequences out of 15000+600000
- 23774 words of font info for 63 fonts, out of 8000000 for 9000
+ 25125 strings out of 493029
+ 618009 string characters out of 6136234
+ 783252 words of memory out of 5000000
+ 28147 multiletter control sequences out of 15000+600000
+ 25225 words of font info for 65 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 58i,14n,83p,1952b,1878s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,19n,78p,1952b,2117s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/
@@ -974,23 +1031,24 @@ fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-symbols/msam10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb><
-/usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fon
-ts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-s
-uper/sfbx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></
-usr/share/texmf/fonts/type1/public/cm-super/sfcc1095.pfb></usr/share/texmf/font
-s/type1/public/cm-super/sfrm0600.pfb></usr/share/texmf/fonts/type1/public/cm-su
-per/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0900.pfb></u
-sr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts
-/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-sup
-er/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></us
-r/share/texmf/fonts/type1/public/cm-super/sfrm2488.pfb></usr/share/texmf/fonts/
-type1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-supe
-r/sftt1095.pfb>
-Output written on thesis.pdf (16 pages, 370533 bytes).
+symbols/msam10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx0900.pfb><
+/usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fon
+ts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-s
+uper/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pfb></
+usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/font
+s/type1/public/cm-super/sfcc0900.pfb></usr/share/texmf/fonts/type1/public/cm-su
+per/sfcc1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0600.pfb></u
+sr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts
+/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf/fonts/type1/public/cm-sup
+er/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></us
+r/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/
+type1/public/cm-super/sfrm1728.pfb></usr/share/texmf/fonts/type1/public/cm-supe
+r/sfrm2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr
+/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb>
+Output written on thesis.pdf (23 pages, 406373 bytes).
 PDF statistics:
- 153 PDF objects out of 1000 (max. 8388607)
- 110 compressed objects within 2 object streams
+ 183 PDF objects out of 1000 (max. 8388607)
+ 131 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
