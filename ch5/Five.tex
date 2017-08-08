@@ -73,11 +73,16 @@ There is another possibility to consider regarding the adjectives in this datase
 \emph{window} & \multicolumn{4}{c}{2x2} & \multicolumn{4}{c}{5x5} \\
 \emph{dimensions} & 20 & 50 & 200 & \multicolumn{1}{c}{400} & 20 & 50 & 200 & 400 \\
 \hline
-\textsc{joint} & 0.815 & 0.834 & 0.853 & 0.856 & 0.813 & 0.833 & 0.855 & 0.862 \\
-\textsc{indy} & 0.781 & 0.794 & 0.827 & 0.834 & 0.771 & 0.801 & 0.824 & 0.841 \\
-\textsc{zipped} & 0.809 & 0.835 & 0.845 & 0.852 & 0.793 & 0.823 & 0.841 & 0.849 \\
-\textsc{adjective} & 0.617 & 0.834 & 0.751 & 0.787 & 0.686 & 0.689 & 0.767 & 0.696\\
-\textsc{noun} & 0.805 & 0.834 & 0.826 & 0.829 & 0.794 & 0.809 & 0.821 & 0.826 \\
+%\textsc{joint} & 0.817 & 0.835 & 0.842 & 0.824 & 0.825 & 0.849 & 0.855 & 0.847\\
+%\textsc{indy} & 0.782 & 0.819 & 0.841 & 0.845 & 0.789 & 0.834 & 0.853 & 0.865 \\
+%\textsc{zipped} & 0.804 & 0.836 & 0.844 & 0.838 & 0.819 & 0.844 & 0.864 & 0.859 \\
+%\textsc{adjective} & 0.707 & 0.741 & 0.783 & 0.811 & 0.732 & 0.747 & 0.791 & 0.820 \\
+%\textsc{noun} & 0.760 & 0.777 & 0.813 & 0.830 & 0.791 & 0.810 & 0.820 & 0.828 \\
+\textsc{joint} & 0.815 & 0.837 & 0.854 & 0.855 & 0.816 & 0.837 & 0.858 & 0.863 \\
+\textsc{indy} & 0.778 & 0.793 & 0.828 & 0.835 & 0.774 & 0.805 & 0.829 & 0.842 \\
+\textsc{zipped} & 0.810 & 0.838 & 0.847 & 0.854 & 0.799 & 0.828 & 0.844 & 0.853 \\
+\textsc{adjective} & 0.606 & 0.709 & 0.750 & 0.777 & 0.698 & 0.697 & 0.757 & 0.707 \\
+\textsc{noun} & 0.806 & 0.808 & 0.828 & 0.833 & 0.796 & 0.812 & 0.824 & 0.829 \\
 \textsc{SVD} & 0.679 & 0.691 & 0.695 & 0.690 & 0.665 & 0.674 & 0.678 & 0.676 \\
 \textsc{SG} & 0.668 & 0.664 & 0.659 & 0.657 & 0.659 & 0.656 & 0.644 & 0.638 \\
 \textsc{CBOW} & 0.657 & 0.665 & 0.665 & 0.661 & 0.656 & 0.660 & 0.666 & 0.660 \\
@@ -91,7 +96,7 @@ Table~\ref{tab:categoraphor} presents the results from this reshuffled version o
 
 XXX SIGNIFICANCE
 
-The major change here is, as expected, in the \textsc{adjective} subspaces: clearly when only information from the adjective in each word-pair is used to train a model, prior observations of a specific word type in the context of some other composition is a benefit.  The strong performance of the 50 dimensional, 2x2 word window subspaces is anomalous, though it is at least consistent with the generally strong performance of these parameter settings across single-word and static models.  There is also a minor decrease in performance for the static models, which is interesting in that it indicates that, even when a single distance metric is used to classify metaphoricity, observations of a word in training help to subsequently test phrases involving that word.  It is worth noting that of the 8,584 noun tokens spread across 3,473 noun types, 1,588 types, represented by 6,724 tokens, occur in more than one of the tranches delineating the conceptual categorisations of the adjectives, so it is possible that there is a small extent of learning to classify phrases based on previous observations of specific nouns.
+The major change here is, as expected, in the \textsc{adjective} subspaces: clearly when only information from the adjective in each word-pair is used to train a model, prior observations of a specific word type in the context of some other composition is a benefit.  There is also a minor decrease in performance for the static models, which is interesting in that it indicates that, even when a single distance metric is used to classify metaphoricity, observations of a word in training help to subsequently test phrases involving that word.  It is worth noting that of the 8,584 noun tokens spread across 3,473 noun types, 1,588 types, represented by 6,724 tokens, occur in more than one of the tranches delineating the conceptual categorisations of the adjectives, so it is possible that there is a small extent of learning to classify phrases based on previous observations of specific nouns.
 
 In order to take a closer look at the way that different techniques model this data, and in line with the metaphor classification work of \cite{TsvetkovEA2014}, Figure~\ref{fig:metaroc} illustrates receiver operating characteristic curves for four versions of the approaches that have been described here: the \textsc{joint} technique with 400 dimensional, 5x5 word subspaces, the same technique applied to the version of the data shuffled to avoid training and testing on the same adjectives, and the \textsc{CBOW} and \textsc{SVD} models for the optimally performing 50 dimensional, 2x2 word window subspaces.  True positive versus false positive rates are correlated at 99 increments in terms of the value of the output of a logistic regression model at which a phrase is determined to be metaphoric.  The outcomes visualised here tell a similar story to Tables~\ref{tab:metaphor} and~\ref{tab:categoraphor}, with the area under the curve statistics indicating a strong distinction between the context sensitive techniques and the static models.  Perhaps the most interesting thing to note is the overall smoothness of the curves, which suggests a steady relationship between precision and recall at various classification thresholds.
 
@@ -153,6 +158,23 @@ $X$ & 0.762 & $\mu(A,B)$ & 0.734 & $\mu(A,B)/X$ & 0.759 & $\angle ACB$ & 0.730 &
 \hline
 \end{tabular}
 \caption[Top Independent Features for Metaphor Classification]{Independent f-scores from the metaphor classification data for top five features of each subspace type for 5x5 word co-occurrence window, 400 dimension subspaces.}
+\label{tab:ind-metaphor}
+\end{table}
+
+\begin{table}
+\centering
+\begin{tabular}{lr|lr|lr|lr|lr}
+\hline
+\multicolumn{2}{c}{\textsc{joint}} & \multicolumn{2}{c}{\textsc{indy}} & \multicolumn{2}{c}{\textsc{zipped}} & \multicolumn{2}{c}{\textsc{adjective}} & \multicolumn{2}{c}{\textsc{noun}} \\
+\hline
+$\mu(A,B)$ & 0.785 & $C$ & 0.767 & $\mu(A,B)$ & 0.788 & $\mu(A,B)/M$ & 0.744 & $\mu(A,B)$ & 0.756 \\
+$C$ & 0.768 & $\angle AMB$ & 0.749 & $\mu(A,B)/M$ & 0.771 & $\overline{AC}:\overline{BC}$ & 0.737 & $C$ & 0.745 \\
+$\mu(A,B)/M$ & 0.764 & $C/M$ & 0.748 & $X$ & 0.769 & $\mu(A,B)/C$ & 0.736 & $\mu(A,B)/X$ & 0.728 \\
+$X$ & 0.763 & $C/X$ & 0.747 & $C$ & 0.767 $\mu(A,B)/X$ & 0.733 & $\mu(A,B)/M$ & 0.722 \\
+$\mu(A,B)/X$ & 0.759 & $\mu(A,B)$ & 0.733 & $\mu(A,B)/X$ & 0.762 & $\angle ACB$ & 0.732 & $C/X$ & 0.721 \\
+\hline
+\end{tabular}
+\caption[Top Independent Features for Metaphor Classification with Unseen Adjectives]{Independent f-scores from the metaphor classification data for top five features of each subspace type for 5x5 word co-occurrence window, 400 dimension subspaces with models tested on adjectives not observed in training.}
 \label{tab:ind-metaphor}
 \end{table}
 
