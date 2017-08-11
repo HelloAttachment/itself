@@ -1,5 +1,6 @@
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3-A}{\ignorespaces Context Sensitive and Static Model F-Scores for Metaphor Classification}}{5}
-\contentsline {table}{\numberline {3-B}{\ignorespaces F-Scores for Metaphor Classification of Unseen Adjectives}}{7}
-\contentsline {table}{\numberline {3-C}{\ignorespaces Comparative Metaphor Classification Statistics}}{9}
-\contentsline {table}{\numberline {3-D}{\ignorespaces Top Independent Features for Metaphor Classification}}{9}
+\contentsline {table}{\numberline {3-A}{\ignorespaces Context Sensitive and Static Model F-Scores for Metaphor Classification}}{6}
+\contentsline {table}{\numberline {3-B}{\ignorespaces F-Scores for Metaphor Classification of Unseen Adjectives}}{8}
+\contentsline {table}{\numberline {3-C}{\ignorespaces Comparative Metaphor Classification Statistics}}{10}
+\contentsline {table}{\numberline {3-D}{\ignorespaces Top Independent Features for Metaphor Classification}}{11}
+\contentsline {table}{\numberline {3-E}{\ignorespaces Comparison of most predictive features for relatedness and similarity in both \textsc {joint} and \textsc {indy} type 2x2 word window, 400 dimensional subspaces, with models optimised for leave-one-out cross-validation.\relax }}{11}

@@ -52,7 +52,7 @@ In each subspace, I extrapolate the same 34 geometric features described in Tabl
 \label{tab:metaphor}
 \end{table}
 
-In order to test the capacity of the geometric features of my subspaces to identify metaphor, I perform a logistic regression taking these features as independent variables and learning to predict the classifications assigned to the word pairs in the dataset.  Balanced f-scores based on the precision and recall of my various dimensional selection techniques as well as static SVD factorisations of my base spaces and the \texttt{word2vec} models are reported in Table~\ref{tab:metaphor}.  The first hing to note is the strong performance across the board of the context sensitive methodology: the least predictive versions of my models still substantially outpoerform the strongest versions of the static models
+In order to test the capacity of the geometric features of my subspaces to identify metaphor, I perform a logistic regression taking these features as independent variables and learning to predict the classifications assigned to the word pairs in the dataset.  Balanced f-scores based on the precision and recall of my various dimensional selection techniques as well as static SVD factorisations of my base spaces and the \texttt{word2vec} models are reported in Table~\ref{tab:metaphor}.  The first hing to note is the strong performance across the board of the context sensitive methodology: the least predictive versions of my models still substantially outperform the strongest versions of the static models
 
 XXX SIGNIFICANCE
 
@@ -140,12 +140,11 @@ baseline & 0.535 & 1.000 & 0.697 & 0.535 & 0.000 \\
 As a final point of comparison with other approaches to metaphor classification, I will return briefly to the unannotated character of my lexical representations.  One of the most powerful features of the methodology described here is its ability to build a somewhat general model of a semantic phenomenon from a sufficiently comprehensive dataset, and the strong Cohen's kappa score of the best performing subspace selection technique, which begins to approach the aforementioned inter-annotator agreement level of $\kappa = 0.80$, is a testament to this.  Following an analysis of the specific geometry of metaphor in the next section, Section~\ref{sec:genaphor} will assess the ability of my methodology to generalise even further from this data to a broader range of metaphors and to moreover move from classification to gradation based on observations of merely binary judgements of metaphoricity.  For now, I simply note that it is remarkable that data about nothing more than the way that words tend to be collocated can, with the aid of a mechanism for contextualisation, reveal so much about the nature of the semantic relationship between the lexical components of an previously unseen phrase.
 
 \subsection{The Geometry of Metaphor}
-In this section, I will explore the geometric features which prove most productive in the classification of metaphor.  As with relatedness and similarity in the previous chapter, I begin by examining the capacity of independent features to predict metaph
-
-Rather than a non-linear regression involving multiple independent variables, this analysis amounts to choosing a cut-off point in terms of the value of each feature separating literal and metaphoric phrases in the subspaces which an analysis of their corresponding word-vectors delineate.  So the f-scores reported in Table~\ref{tab:ind-metaphor} can be understood as indicating the degree to which the values of a given geometric feature separate the dataset into distinct categories corresponding to human judgements of metaphoricity.
+In this section, I will explore the geometric features which prove most productive in the classification of metaphor.  As with relatedness and similarity in the previous chapter, I begin by examining the capacity of independent features to predict metaphor.  Rather than a proper logistic regression involving multiple independent variables fed into a non-linear function, this analysis amounts to choosing a cut-off point in terms of the value of each feature separating literal and metaphoric phrases in the subspaces which an analysis of their corresponding word-vectors delineate.  So the f-scores reported in Table~\ref{tab:ind-metaphor} can be understood as indicating the degree to which the values of a given geometric feature separate the dataset into distinct categories corresponding to human judgements of metaphoricity.
 
 \begin{table}
 \centering
+\tiny
 \begin{tabular}{lr|lr|lr|lr|lr}
 \hline
 \multicolumn{2}{c}{\textsc{joint}} & \multicolumn{2}{c}{\textsc{indy}} & \multicolumn{2}{c}{\textsc{zipped}} & \multicolumn{2}{c}{\textsc{adjective}} & \multicolumn{2}{c}{\textsc{noun}} \\
@@ -161,28 +160,258 @@ $X$ & 0.762 & $\mu(A,B)$ & 0.734 & $\mu(A,B)/X$ & 0.759 & $\angle ACB$ & 0.730 &
 \label{tab:ind-metaphor}
 \end{table}
 
-\begin{table}
-\centering
-\begin{tabular}{lr|lr|lr|lr|lr}
-\hline
-\multicolumn{2}{c}{\textsc{joint}} & \multicolumn{2}{c}{\textsc{indy}} & \multicolumn{2}{c}{\textsc{zipped}} & \multicolumn{2}{c}{\textsc{adjective}} & \multicolumn{2}{c}{\textsc{noun}} \\
-\hline
-$\mu(A,B)$ & 0.785 & $C$ & 0.767 & $\mu(A,B)$ & 0.788 & $\mu(A,B)/M$ & 0.744 & $\mu(A,B)$ & 0.756 \\
-$C$ & 0.768 & $\angle AMB$ & 0.749 & $\mu(A,B)/M$ & 0.771 & $\overline{AC}:\overline{BC}$ & 0.737 & $C$ & 0.745 \\
-$\mu(A,B)/M$ & 0.764 & $C/M$ & 0.748 & $X$ & 0.769 & $\mu(A,B)/C$ & 0.736 & $\mu(A,B)/X$ & 0.728 \\
-$X$ & 0.763 & $C/X$ & 0.747 & $C$ & 0.767 $\mu(A,B)/X$ & 0.733 & $\mu(A,B)/M$ & 0.722 \\
-$\mu(A,B)/X$ & 0.759 & $\mu(A,B)$ & 0.733 & $\mu(A,B)/X$ & 0.762 & $\angle ACB$ & 0.732 & $C/X$ & 0.721 \\
-\hline
-\end{tabular}
-\caption[Top Independent Features for Metaphor Classification with Unseen Adjectives]{Independent f-scores from the metaphor classification data for top five features of each subspace type for 5x5 word co-occurrence window, 400 dimension subspaces with models tested on adjectives not observed in training.}
-\label{tab:ind-metaphor}
-\end{table}
+%\begin{table}
+%\centering
+%\begin{tabular}{lr|lr|lr|lr|lr}
+%\hline
+%\multicolumn{2}{c}{\textsc{joint}} & \multicolumn{2}{c}{\textsc{indy}} & \multicolumn{2}{c}{\textsc{zipped}} & \multicolumn{2}{c}{\textsc{adjective}} & \multicolumn{2}{c}{\textsc{noun}} \\
+%\hline
+%$\mu(A,B)$ & 0.785 & $C$ & 0.767 & $\mu(A,B)$ & 0.788 & $\mu(A,B)/M$ & 0.744 & $\mu(A,B)$ & 0.756 \\
+%$C$ & 0.768 & $\angle AMB$ & 0.749 & $\mu(A,B)/M$ & 0.771 & $\overline{AC}:\overline{BC}$ & 0.737 & $C$ & 0.745 \\
+%$\mu(A,B)/M$ & 0.764 & $C/M$ & 0.748 & $X$ & 0.769 & $\mu(A,B)/C$ & 0.736 & $\mu(A,B)/X$ & 0.728 \\
+%$X$ & 0.763 & $C/X$ & 0.747 & $C$ & 0.767 & $\mu(A,B)/X$ & 0.733 & $\mu(A,B)/M$ & 0.722 \\
+%$\mu(A,B)/X$ & 0.759 & $\mu(A,B)$ & 0.733 & $\mu(A,B)/X$ & 0.762 & $\angle ACB$ & 0.732 & $C/X$ & 0.721 \\
+%\hline
+%\end{tabular}
+%\caption[Top Independent Features for Metaphor Classification with Unseen Adjectives]{Independent f-scores from the metaphor classification data for top five features of each subspace type for 5x5 word co-occurrence window, 400 dimension subspaces with models tested on adjectives not observed in training.}
+%\label{tab:ind-metaphor}
+%\end{table}
 
 The scores themselves reflect the trend observed in Table~\ref{tab:metaphor} and~\ref{tab:categoraphor}: the \textsc{joint} and \textsc{zipped} subspaces produce features that are particulary good at classifying metaphor, with a decrease in performance in the \textsc{indy} subspaces and then another step down in the single-word subspaces.  None of the scores themselves come close to the levels of discrimination achieved by the models learned from full feature vectors, though
 
 XXX SIGNIFICANCE
 
-In terms of the actual features indicated by this analysis, two in particular figure prominently in one way or another, namely, the mean of the word-vector norms $\mu(A,B)$ and the norm of the central-vector $C$.  In the first instance, the role of the relationship between word-vectors and the origin of the spaces that their salient co-occurrence dimensions delineate is once again reflective of the preliminary findings on conceptual geometry described in Chapter~\ref{sec:pof}, where norm was seen to be an effective mechanism for defining a region of conceptual constituency.  In the case of the distance of the central-vector from the origin, the emergence of this feature, as well of the appearance of the norms $M$ and $X$ as components of various strongly predictive tendencies, indicate that here, as with similarity in the previous chapter, characteristics of dimensions outside of the situation of any particular word-vector along them might be in themselves indicative of metaphor: some words might simply be more likely to co-occur in the context of metaphoric language, and co-occurrence statistics should provide a handle for examining this tendency.
+In terms of the actual features indicated by this analysis, two in particular figure prominently in one way or another, namely, the mean of the word-vector norms $\mu(A,B)$ and the norm of the central-vector $C$.  In the first instance, the role of the relationship between word-vectors and the origin of the spaces that their salient co-occurrence dimensions delineate is once again reflective of the preliminary findings on conceptual geometry described in Chapter~\ref{sec:pof}, where norm was seen to be an effective mechanism for defining a region of conceptual constituency.  In the case of the distance of the central vector from the origin, the emergence of this feature, as well of the appearance of the norms $M$ and $X$ as components of various strongly predictive tendencies, indicate that here, as with similarity in the previous chapter, characteristics of dimensions outside of the situation of any particular word-vector along them might be in themselves indicative of metaphor: some words might simply be more likely to co-occur in the context of metaphoric language, and co-occurrence statistics should provide a handle for examining this tendency.
+
+\begin{table}
+\centering
+\begin{tabular}{llr}
+\hline
+& \multicolumn{1}{c}{10-fold ($f = 0.869$)} & \multicolumn{1}{c}{shuffled ($f = 0.830$)} \\
+\hline
+& \multicolumn{2}{c}{\textsc{distances}} \\
+word-vectors& - & - \\
+generic vectors & $M = -1.448$ & - \\
+\hline
+& \multicolumn{2}{c}{\textsc{angles}} \\
+word-vectors & $\angle ACB = -0.775$ & - \\
+normalised & - & - \\
+generic vectors & $\angle COX = -1.618$ & $-0.271 = \angle COM$  \\
+& $\angle COM = 0.974$ & $0.045 = \angle MOX$ \\
+\hline
+& \multicolumn{2}{c}{\textsc{means}} \\
+word-vectors & $\mu(\overline{AM},\overline{BM}) = -1.124$ & $-1.007 = \mu(\overline{AC},\overline{BC})$ \\
+normalised & - & - \\
+\hline
+& \multicolumn{2}{c}{\textsc{ratios}} \\
+word-vectors & - & $0.492 = \overline{AM}:\overline{BM}$ \\
+& & $-0.620 = \overline{AX}:\overline{BX}$ \\
+normalised & - & $-0.168 = \overline{A'C'}:\overline{B'C'}$ \\
+\hline
+& \multicolumn{2}{c}{\textsc{fractions}} \\
+word-vectors & $\overline{AC}/\overline{BC} = 0.325$ & - \\
+generic vectors & $M/X = 1.305$ & $0.252 = A/B$ \\
+\hline
+\end{tabular}
+\caption{Comparison of most predictive features for relatedness and similarity in both \textsc{joint} and \textsc{indy} type 2x2 word window, 400 dimensional subspaces, with models optimised for leave-one-out cross-validation.}
+\label{tab:features}
+\end{table}
+
+\begin{figure}
+\footnotesize
+\begin{subfigure}{0.3\textwidth} % sour - sauce
+\centering
+  \begin{tikzpicture}
+    \def\varA{56.2720,60.1719,75.2389};
+    \def\varB{73.7099,36.8692,94.6119};
+    \def\varC{33.4740,33.4737,33.4739};
+    \def\varM{36.1929,28.0423,36.1855};
+    \def\varX{117.9619,63.2478,89.8183};
+    \def\varAN{15.1308,16.1795,20.2308};
+    \def\varBN{17.6235,8.8151,22.6210};
+    \def\varCN{17.3206,17.3204,17.3205};
+    \def\varMN{18.6056,14.4156,18.6017};
+    \def\varXN{21.9544,11.7713,16.7165};
+    \begin{axis}[scale = 0.6,axis line style=white,view={120}{10},xmin=0,xmax=100,ymin=0,ymax=100,zmin=0,zmax=100,colormap/blackwhite,ticks=none]
+      \addplot3[color=black,thick] coordinates {(0,0,100) (0,100,100)};
+      \addplot3[color=black,thick] coordinates {(0,0,100) (100,0,100)};
+      \addplot3[color=black,thick] coordinates {(0,100,0) (0,100,100)};
+      \addplot3[color=black,thick] coordinates {(0,100,0) (100,100,0)};
+      \addplot3[color=black,thick] coordinates {(100,0,0) (100,0,100)};
+      \addplot3[color=black,thick] coordinates {(100,0,0) (100,100,0)};
+      \addplot3[color=black] coordinates {(0,0,0) (0,0,100)};
+      \addplot3[color=black] coordinates {(0,0,0) (0,100,0)};
+      \addplot3[color=black] coordinates {(0,0,0) (100,0,0)};
+      \addplot3[patch,patch type=triangle,color=gray,fill opacity=0.0] coordinates {(0.0,0.0,0.0) (\varCN) (\varAN)};
+      \addplot3[patch,patch type=triangle,color=gray,fill opacity=0.0] coordinates {(0.0,0.0,0.0) (\varCN) (\varBN)};
+      \addplot3[patch,patch type=triangle,color=darkgray,fill opacity=0.75] coordinates {(\varCN) (\varAN) (\varBN)};
+      \addplot3[patch,patch type=triangle,color=darkgray,fill opacity=0.5] coordinates {(\varMN) (\varAN) (\varBN)};
+      \addplot3[patch,patch type=triangle,color=darkgray,fill opacity=0.25] coordinates {(\varXN) (\varAN) (\varBN)};
+      \addplot3 [color=black,thick] coordinates {(0,0,0) (\varCN)};
+      \addplot3 [color=black,thick] coordinates {(0,0,0) (\varXN)};
+      \addplot3 [color=black,thick] coordinates {(0,0,0) (\varMN)};
+%      \addplot3[opacity = 0.1,surf,z buffer = sort,samples = 21,variable = \u,variable y = \v,domain = 0:90,y domain = 0:90,]
+%    ({1*cos(u)*sin(v)}, {1*sin(u)*sin(v)}, {1*cos(v)});
+      \addplot3 [patch,patch type=rectangle,color=lightgray,fill opacity=0.0] coordinates{(\varAN) (\varA) (\varB) (\varBN)
+};
+      \addplot3 [color=black,thick] coordinates {(\varCN) (\varC)};
+      \addplot3 [color=black,thick] coordinates {(\varXN) (\varX)};
+      \addplot3 [color=black,thick] coordinates {(\varMN) (\varM)};
+      \addplot3 [patch,patch type=triangle,color=lightgray,fill opacity=0.75] coordinates{(\varA) (\varC) (\varB)};
+      \addplot3 [patch,patch type=triangle,color=gray,fill opacity=0.25] coordinates{(\varA) (\varX) (\varB)};
+      \addplot3 [patch,patch type=triangle,color=gray,fill opacity=0.5] coordinates{(\varA) (\varM) (\varB)};
+%      \node [anchor=south] at (axis cs: 0.1,0.0,0.0) {O};
+      \node [anchor=south] at (axis cs: \varA) {sweet};
+      \node [anchor=south] at (axis cs: \varB) {watermelon};
+%      \node [anchor=south] at (axis cs: \varAN) {A'};
+%      \node [anchor=west] at (axis cs: \varBN) {B'};
+%      \node [anchor=south] at (axis cs: \varCN) {C'};
+%      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varCN)};
+      \node [anchor=south] at (axis cs: \varC) {C};
+%      \node [anchor=east] at (axis cs: \varXN) {X'};
+%      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varXN)};
+      \node [anchor=south] at (axis cs: \varX) {X};
+%      \node [anchor=west] at (axis cs: \varMN) {M'};
+%      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varMN)};
+      \node [anchor=south] at (axis cs: \varM) {M};
+    \end{axis}
+  \end{tikzpicture}
+\caption*{\footnotesize \emph{relatedness = 7.901} \\ \emph{similarity = 1.760}}
+\end{subfigure}
+\hfill
+\begin{subfigure}{0.3\textwidth} % warm - country
+\centering
+  \begin{tikzpicture}
+\def\varA{-8.639,51.611,50.881};
+    \def\varA{28.1002,64.5545,23.6443};
+    \def\varB{25.5857,1.7784,36.5694};
+    \def\varC{26.7296,26.7293,26.7296};
+    \def\varM{33.9479,23.3011,22.9391};
+    \def\varX{106.0249,69.1555,74.6834};
+    \def\varAN{11.3507,26.0758,9.5508};
+    \def\varBN{17.1844,1.1944,24.5615};
+    \def\varCN{17.3206,17.3204,17.3206};
+    \def\varMN{21.6073,14.8308,14.6004};
+    \def\varXN{21.6416,14.1159,15.2442};
+%    \def\varA{28.1610,61.1218,17.6209};
+%    \def\varB{25.3747,1.4444,39.0305};
+%    \def\varC{26.9347,26.9343,26.9347};
+%    \def\varM{33.5910,23.2122,23.9999};
+%    \def\varX{109.5311,68.2227,74.8557};
+%    \def\varAN{12.1443,26.3585,7.5989};
+%    \def\varBN{16.3440,0.9303,25.1398};
+%    \def\varCN{17.3206,17.3204,17.3206};
+%    \def\varMN{21.2772,14.7030,15.2020};
+%    \def\varXN{22.0266,13.7195,15.0534};
+    \begin{axis}[scale = 0.6,axis line style=white,view={120}{10},xmin=0,xmax=100,ymin=0,ymax=100,zmin=0,zmax=100,colormap/blackwhite,ticks=none]
+      \addplot3[color=black,thick] coordinates {(0,0,100) (0,100,100)};
+      \addplot3[color=black,thick] coordinates {(0,0,100) (100,0,100)};
+      \addplot3[color=black,thick] coordinates {(0,100,0) (0,100,100)};
+      \addplot3[color=black,thick] coordinates {(0,100,0) (100,100,0)};
+      \addplot3[color=black,thick] coordinates {(100,0,0) (100,0,100)};
+      \addplot3[color=black,thick] coordinates {(100,0,0) (100,100,0)};
+      \addplot3[color=black] coordinates {(0,0,0) (0,0,100)};
+      \addplot3[color=black] coordinates {(0,0,0) (0,100,0)};
+      \addplot3[color=black] coordinates {(0,0,0) (100,0,0)};
+      \addplot3[patch,patch type=triangle,color=gray,fill opacity=0.0] coordinates {(0.0,0.0,0.0) (\varCN) (\varAN)};
+      \addplot3[patch,patch type=triangle,color=gray,fill opacity=0.0] coordinates {(0.0,0.0,0.0) (\varCN) (\varBN)};
+      \addplot3[patch,patch type=triangle,color=darkgray,fill opacity=0.75] coordinates {(\varCN) (\varAN) (\varBN)};
+      \addplot3[patch,patch type=triangle,color=darkgray,fill opacity=0.5] coordinates {(\varMN) (\varAN) (\varBN)};
+      \addplot3[patch,patch type=triangle,color=darkgray,fill opacity=0.25] coordinates {(\varXN) (\varAN) (\varBN)};
+      \addplot3 [color=black,thick] coordinates {(0,0,0) (\varCN)};
+      \addplot3 [color=black,thick] coordinates {(0,0,0) (\varXN)};
+      \addplot3 [color=black,thick] coordinates {(0,0,0) (\varMN)};
+%      \addplot3[opacity = 0.1,surf,z buffer = sort,samples = 21,variable = \u,variable y = \v,domain = 0:90,y domain = 0:90,]
+%    ({1*cos(u)*sin(v)}, {1*sin(u)*sin(v)}, {1*cos(v)});
+      \addplot3 [patch,patch type=rectangle,color=lightgray,fill opacity=0.0] coordinates{(\varAN) (\varA) (\varB) (\varBN)
+};
+      \addplot3 [color=black,thick] coordinates {(\varCN) (\varC)};
+      \addplot3 [color=black,thick] coordinates {(\varXN) (\varX)};
+      \addplot3 [color=black,thick] coordinates {(\varMN) (\varM)};
+      \addplot3 [patch,patch type=triangle,color=lightgray,fill opacity=0.75] coordinates{(\varA) (\varC) (\varB)};
+      \addplot3 [patch,patch type=triangle,color=gray,fill opacity=0.25] coordinates{(\varA) (\varX) (\varB)};
+      \addplot3 [patch,patch type=triangle,color=gray,fill opacity=0.5] coordinates{(\varA) (\varM) (\varB)};
+%      \node [anchor=south] at (axis cs: 0.1,0.0,0.0) {O};
+      \node [anchor=south] at (axis cs: \varA) {warm};
+      \node [anchor=south] at (axis cs: \varB) {country};
+%      \node [anchor=south] at (axis cs: \varAN) {A'};
+%      \node [anchor=west] at (axis cs: \varBN) {B'};
+%      \node [anchor=south] at (axis cs: \varCN) {C'};
+%      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varCN)};
+      \node [anchor=south] at (axis cs: \varC) {C};
+%      \node [anchor=east] at (axis cs: \varXN) {X'};
+%      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varXN)};
+      \node [anchor=south] at (axis cs: \varX) {X};
+%      \node [anchor=west] at (axis cs: \varMN) {M'};
+%      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varMN)};
+      \node [anchor=south] at (axis cs: \varM) {M};
+    \end{axis}
+  \end{tikzpicture}
+\caption*{\footnotesize \emph{relatedness = 7.320} \\ \emph{similarity = 4.828}}
+\end{subfigure}
+\hfill
+\begin{subfigure}{0.3\textwidth} % bitter - letter
+\centering
+  \begin{tikzpicture}
+    \def\varA{27.7652,53.8416,22.8974};
+    \def\varB{33.0985,7.5929,45.5444};
+    \def\varC{28.9808,28.9805,28.9808};
+    \def\varM{33.1872,25.5252,28.2293};
+    \def\varX{109.8650,67.9613,76.3988};
+    \def\varAN{12.8618,24.9413,10.6069};
+    \def\varBN{17.4783,4.0096,24.0506};
+    \def\varCN{17.3206,17.3204,17.3206};
+    \def\varMN{19.7168,15.1648,16.7713};
+    \def\varXN{21.9604,13.5845,15.2710};
+    \begin{axis}[scale = 0.6,axis line style=white,view={120}{10},xmin=0,xmax=100,ymin=0,ymax=100,zmin=0,zmax=100,colormap/blackwhite,ticks=none]
+      \addplot3[color=black,thick] coordinates {(0,0,100) (0,100,100)};
+      \addplot3[color=black,thick] coordinates {(0,0,100) (100,0,100)};
+      \addplot3[color=black,thick] coordinates {(0,100,0) (0,100,100)};
+      \addplot3[color=black,thick] coordinates {(0,100,0) (100,100,0)};
+      \addplot3[color=black,thick] coordinates {(100,0,0) (100,0,100)};
+      \addplot3[color=black,thick] coordinates {(100,0,0) (100,100,0)};
+      \addplot3[color=black] coordinates {(0,0,0) (0,0,100)};
+      \addplot3[color=black] coordinates {(0,0,0) (0,100,0)};
+      \addplot3[color=black] coordinates {(0,0,0) (100,0,0)};
+      \addplot3[patch,patch type=triangle,color=gray,fill opacity=0.0] coordinates {(0.0,0.0,0.0) (\varCN) (\varAN)};
+      \addplot3[patch,patch type=triangle,color=gray,fill opacity=0.0] coordinates {(0.0,0.0,0.0) (\varCN) (\varBN)};
+      \addplot3[patch,patch type=triangle,color=darkgray,fill opacity=0.75] coordinates {(\varCN) (\varAN) (\varBN)};
+      \addplot3[patch,patch type=triangle,color=darkgray,fill opacity=0.5] coordinates {(\varMN) (\varAN) (\varBN)};
+      \addplot3[patch,patch type=triangle,color=darkgray,fill opacity=0.25] coordinates {(\varXN) (\varAN) (\varBN)};
+      \addplot3 [color=black,thick] coordinates {(0,0,0) (\varCN)};
+      \addplot3 [color=black,thick] coordinates {(0,0,0) (\varXN)};
+      \addplot3 [color=black,thick] coordinates {(0,0,0) (\varMN)};
+%      \addplot3[opacity = 0.1,surf,z buffer = sort,samples = 21,variable = \u,variable y = \v,domain = 0:90,y domain = 0:90,]
+%    ({1*cos(u)*sin(v)}, {1*sin(u)*sin(v)}, {1*cos(v)});
+      \addplot3 [patch,patch type=rectangle,color=lightgray,fill opacity=0.0] coordinates{(\varAN) (\varA) (\varB) (\varBN)
+};
+      \addplot3 [color=black,thick] coordinates {(\varCN) (\varC)};
+      \addplot3 [color=black,thick] coordinates {(\varXN) (\varX)};
+      \addplot3 [color=black,thick] coordinates {(\varMN) (\varM)};
+      \addplot3 [patch,patch type=triangle,color=lightgray,fill opacity=0.75] coordinates{(\varA) (\varC) (\varB)};
+      \addplot3 [patch,patch type=triangle,color=gray,fill opacity=0.25] coordinates{(\varA) (\varX) (\varB)};
+      \addplot3 [patch,patch type=triangle,color=gray,fill opacity=0.5] coordinates{(\varA) (\varM) (\varB)};
+%      \node [anchor=south] at (axis cs: 0.1,0.0,0.0) {O};
+      \node [anchor=south] at (axis cs: \varA) {bitter};
+      \node [anchor=south] at (axis cs: \varB) {letter};
+%      \node [anchor=south] at (axis cs: \varAN) {A'};
+%      \node [anchor=west] at (axis cs: \varBN) {B'};
+%      \node [anchor=south] at (axis cs: \varCN) {C'};
+%      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varCN)};
+      \node [anchor=south] at (axis cs: \varC) {C};
+%      \node [anchor=east] at (axis cs: \varXN) {X'};
+%      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varXN)};
+      \node [anchor=south] at (axis cs: \varX) {X};
+%      \node [anchor=west] at (axis cs: \varMN) {M'};
+%      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varMN)};
+      \node [anchor=south] at (axis cs: \varM) {M};
+    \end{axis}
+  \end{tikzpicture}
+\caption*{\footnotesize \emph{relatedness = 8.057} \\ \emph{similarity = 7.550}}
+\end{subfigure}
+\caption{Subspaces, including word-vectors and generic features, derived from word pairs with an assortment of relatedness and similarity scores.}
+\label{fig:relsimspaces}
+\end{figure}
 
 \subsection{Generalising the Model} \label{sec:genaphor}
 One of the interesting things about feature-based classification is that there is always an inherent commitment to degree of class membership, even when the training data used to build a model is simply binary.  This is true of any model which uses, for instance, a logistic regression technique for determining class, as there is a cut-off point along the spectrum of model output and a corresponding proximity to that point for any given sample, and it is especially obvious when the features of the model are actually geometrical measures.  In this section, I will apply the models learned from the the \cite{GutierrezEA2016} data to another dataset designed to assess metaphor as a matter of degree rather than simply as a binary situation, and a dataset that additionally deals with a different type of metaphor in terms of composition.  The question explored here is whether the geometric 
