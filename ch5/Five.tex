@@ -276,7 +276,7 @@ generic vectors & $M/X = 1.305$ & $0.252 = A/B$ \\
       \node [anchor=south] at (axis cs: \varM) {M};
     \end{axis}
   \end{tikzpicture}
-\caption*{\footnotesize \emph{relatedness = 7.901} \\ \emph{similarity = 1.760}}
+\caption*{\footnotesize \emph{literal: sweet watermelon}}
 \end{subfigure}
 \hfill
 \begin{subfigure}{0.3\textwidth} % warm - country
@@ -347,7 +347,7 @@ generic vectors & $M/X = 1.305$ & $0.252 = A/B$ \\
       \node [anchor=south] at (axis cs: \varM) {M};
     \end{axis}
   \end{tikzpicture}
-\caption*{\footnotesize \emph{relatedness = 7.320} \\ \emph{similarity = 4.828}}
+\caption*{\footnotesize \emph{neutral: warm country}}
 \end{subfigure}
 \hfill
 \begin{subfigure}{0.3\textwidth} % bitter - letter
@@ -407,14 +407,32 @@ generic vectors & $M/X = 1.305$ & $0.252 = A/B$ \\
       \node [anchor=south] at (axis cs: \varM) {M};
     \end{axis}
   \end{tikzpicture}
-\caption*{\footnotesize \emph{relatedness = 8.057} \\ \emph{similarity = 7.550}}
+\caption*{\footnotesize \emph{metaphoric: bitter letter}}
 \end{subfigure}
-\caption{Subspaces, including word-vectors and generic features, derived from word pairs with an assortment of relatedness and similarity scores.}
+\caption{Three dimensional projections of word-vectors and generic vectors in subspaces for pairs at the extents and in the middle of the literal-metaphorical spectrum.}
 \label{fig:relsimspaces}
 \end{figure}
 
 \subsection{Generalising the Model} \label{sec:genaphor}
 One of the interesting things about feature-based classification is that there is always an inherent commitment to degree of class membership, even when the training data used to build a model is simply binary.  This is true of any model which uses, for instance, a logistic regression technique for determining class, as there is a cut-off point along the spectrum of model output and a corresponding proximity to that point for any given sample, and it is especially obvious when the features of the model are actually geometrical measures.  In this section, I will apply the models learned from the the \cite{GutierrezEA2016} data to another dataset designed to assess metaphor as a matter of degree rather than simply as a binary situation, and a dataset that additionally deals with a different type of metaphor in terms of composition.  The question explored here is whether the geometric 
+
+\begin{table}
+\centering
+\begin{tabular}{lrrrrrr}
+\hline
+\emph{features} & 1 & 3 & 5 & 7 & 9 & full \\
+\hline
+& \multicolumn{6}{c}{\emph{logistic regression}} \\
+10-fold & 0.368 & 0.201 & 0.290 & 0.191 & 0.326 & 0.053 \\
+shuffled & 0.368 & 0.355 & 0.033 & 0.085 & 0.279 & -0.033 \\
+\hline
+& \multicolumn{6}{c}{\emph{support vector machine}} \\
+10-fold & 0.352 & 0.184 & 0.256 & 0.192 & 0.285 & 0.158 \\
+shuffled & 0.352 & 0.359 & 0.042 & 0.045 & 0.243 & 0.158 \\
+\hline
+\end{tabular}
+\caption[Scoring Metaphoricity Based On Classification Data]{Spearman's correlation with human verb-noun metaphoricity scales judgements based on logistic regression and support vector machine models trained on adjective-noun classification data, taking feature vectors of various lengths as independent variables.}
+\end{table}
 
 \section{An Experiment on Coercion}
 In this section, I will apply my methodology to the classification of a phenomenon closely related to metaphor, namely, \emph{semantic type coercion}, by which the semantic type of a noun is reassigned in the course of a verb taking that noun as an argument.  So, for instance, in phrases like \emph{denied wrongdoing} or \emph{heard footsteps}, the nouns in play are standing in for a conceptually relevant but different type of noun, and the literal versions of these phrases would go something like \emph{denied committing wrongdoing} or \emph{heard the sound of footsteps}, where the verbs select arguments of types along the lines of \textsc{activity} and \textsc{perception} respectively.  This phenomenon is often referred to as \emph{logical metonymy}, identifying it as a subspecies of the more general figurative phenomenon metonymy by which a thing is denoted by a conceptually related lexical representation.
@@ -430,7 +448,252 @@ Returning to the theoretical issues regarding grammaticality raised earlier in t
 
 and there is, as \cite{Langacker} has pointed out, a lurking ambiguity in the grammatical class distinctions between, for instance, 
 
+\begin{table}
+\centering
+\begin{tabular}{lrrrr|rrrr}
+\hline
+\emph{window} & \multicolumn{4}{c}{2x2} & \multicolumn{4}{c}{5x5} \\
+\emph{dimensions} & 20 & 50 & 200 & \multicolumn{1}{c}{400} & 20 & 50 & 200 & 400 \\
+\hline
+\textsc{joint} & 0.563 & 0.602 & 0.619 & 0.629 & 0.608 & 0.639 & 0.620 & 0.653 \\
+\textsc{indy} & 0.633 & 0.643 & 0.677 & 0.687 & 0.652 & 0.683 & 0.681 & 0.655 \\
+\textsc{zipped} & 0.537 & 0.582 & 0.564 & 0.624 & 0.605 & 0.605 & 0.630 & 0.641 \\
+\textsc{verb} & 0.624 & 0.651 & 0.680 & 0.702 & 0.620 & 0.634 & 0.678 & 0.678 \\
+\textsc{noun} & 0.601 & 0.605 & 0.669 & 0.630 & 0.507 & 0.555 & 0.630 & 0.661 \\
+\textsc{svd} & 0.533 & 0.527 & 0.550 & 0.000 & 0.551 & 0.432 & 0.549 & 0.529 \\
+\textsc{CBoW} & 0.517 & 0.527 & 0.522 & 0.347 & 0.517 & 0.545 & 0.531 & 0.396 \\
+\textsc{SG} & 0.547 & 0.561 & 0.578 & 0.509 & 0.557 & 0.563 & 0.603 & 0.545 \\
+\hline
+\end{tabular}
+\caption[Context Sensitive and Static Model F-Scores for Metaphor Classification]{F-scores for metaphor identification based on a ten-fold cross-validated logistic regression taking geometric features of various subspace types as input.}
+\label{tab:metaphor}
+\end{table}
+
+\begin{table}
+\centering
+\begin{tabular}{lrrrr|rrrr}
+\hline
+\emph{window} & \multicolumn{4}{c}{2x2} & \multicolumn{4}{c}{5x5} \\
+\emph{dimensions} & 20 & 50 & 200 & \multicolumn{1}{c}{400} & 20 & 50 & 200 & 400 \\
+\hline
+\textsc{joint} & 0.304 & 0.348 & 0.302 & 0.331 & 0.318 & 0.358 & 0.336 & 0.303 \\
+\textsc{indy} & 0.401 & 0.385 & 0.405 & 0.436 & 0.329 & 0.316 & 0.392 & 0.396 \\
+\textsc{zipped} & 0.222 & 0.253 & 0.290 & 0.286 & 0.274 & 0.291 & 0.335 & 0.347 \\
+\textsc{verb} & 0.218 & 0.210 & 0.256 & 0.352 & 0.254 & 0.359 & 0.275 & 0.284 \\
+\textsc{noun} & 0.242 & 0.390 & 0.377 & 0.420 & 0.207 & 0.237 & 0.277 & 0.344 \\
+\textsc{SVD} & 0.274 & 0.247 & 0.230 & 0.061 & 0.201 & 0.109 & 0.267 & 0.248 \\
+\textsc{CBoW} & 0.364 & 0.313 & 0.266 & 0.137 & 0.345 & 0.315 & 0.281 & 0.167 \\
+\textsc{SG} & 0.372 & 0.344 & 0.309 & 0.206 & 0.392 & 0.358 & 0.341 & 0.260 \\
+\hline
+\end{tabular}
+\caption[Context Sensitive and Static Model F-Scores for Metaphor Classification]{F-scores for metaphor identification based on a ten-fold cross-validated logistic regression taking geometric features of various subspace types as input.}
+\label{tab:metaphor}
+\end{table}
+
 \subsection{The Geometry of Coercion}
+\begin{table}
+\centering
+\tiny
+\begin{tabular}{lr|lr|lr|lr|lr}
+\hline
+\multicolumn{2}{c}{\textsc{joint}} & \multicolumn{2}{c}{\textsc{indy}} & \multicolumn{2}{c}{\textsc{zipped}} & \multicolumn{2}{c}{\textsc{adjective}} & \multicolumn{2}{c}{\textsc{noun}} \\
+\hline
+$\mu(\overline{A'C'},\overline{B'C'}$ & 0.544 & $\angle ACB$ & 0.506 & $\overline{AB}/C$ & 0.371 & $A:B$ & 0.504 & $A:B$ & 0.553 \\
+$\mu(\overline{AB}/C$ & 0.536 & $\angle AOB$ & 0.504 & $\angle AXB$ & 0.356 & $\overline{A'X'}:\overline{B'X'}$ & 0.445 & $A/B$ & 0.553 \\
+$\mu(\overline{A'X'},\overline{B'X'}$ & 0.533 & $\mu(\overline{A'X'},\overline{B'X'}$ & 0.482 & $\overline{AB}$ & 0.312 & $\overline{A'X'}/\overline{B'X'}$ & 0.445 & $\mu(\overline{AB}/C$ & 0.487 \\
+$\angle AOB$ & 0.524 & $\overline{AB}/C$ & 0.481 & $\angle AOB$ & 0.312 & $\mu(\overline{A'M'},\overline{B'M'}$ & 0.406 & $\angle AMB$ & 0.461 \\
+$\mu(\overline{A'M'},\overline{B'M'}$ & 0.503 & $\mu(\overline{A'C'},\overline{B'C'})$ & 0.476 & $\mu(\overline{A'C'},\overline{B'C'})$ & 0.306 & $A/B$ & 0.379 & $\angle ACB$ & 0.416 \\
+\hline
+\end{tabular}
+\caption[Top Independent Features for Coercion Classification]{Independent f-scores from the coercion classification data for top five features of each subspace type for 5x5 word co-occurrence window, 400 dimension subspaces.}
+\label{tab:ind-metaphor}
+\end{table}
+
+\begin{figure}
+\footnotesize
+\begin{subfigure}{0.3\textwidth} % heard noises
+\centering
+  \begin{tikzpicture}
+    \def\varA{31.2371,41.3708,33.9778};
+    \def\varB{64.4215,28.9478,79.8863};
+    \def\varC{29.3997,29.3994,29.3996};
+    \def\varM{36.4675,20.7482,30.9819};
+    \def\varX{112.3873,59.9255,80.0081};
+    \def\varAN{15.1191,20.0239,16.4456};
+    \def\varBN{18.1248,8.1444,22.4758};
+    \def\varCN{17.3206,17.3204,17.3205};
+    \def\varMN{20.9761,11.9343,17.8207};
+    \def\varXN{22.4161,11.9524,15.9580};
+    \begin{axis}[scale = 0.6,axis line style=white,view={120}{10},xmin=0,xmax=80,ymin=0,ymax=80,zmin=0,zmax=80,colormap/blackwhite,ticks=none]
+      \addplot3[color=black,thick] coordinates {(0,0,80) (0,80,80)};
+      \addplot3[color=black,thick] coordinates {(0,0,80) (80,0,80)};
+      \addplot3[color=black,thick] coordinates {(0,80,0) (0,80,80)};
+      \addplot3[color=black,thick] coordinates {(0,80,0) (80,80,0)};
+      \addplot3[color=black,thick] coordinates {(80,0,0) (80,0,80)};
+      \addplot3[color=black,thick] coordinates {(80,0,0) (80,80,0)};
+      \addplot3[color=black] coordinates {(0,0,0) (0,0,80)};
+      \addplot3[color=black] coordinates {(0,0,0) (0,80,0)};
+      \addplot3[color=black] coordinates {(0,0,0) (80,0,0)};
+      \addplot3[patch,patch type=triangle,color=gray,fill opacity=0.0] coordinates {(0.0,0.0,0.0) (\varCN) (\varAN)};
+      \addplot3[patch,patch type=triangle,color=gray,fill opacity=0.0] coordinates {(0.0,0.0,0.0) (\varCN) (\varBN)};
+      \addplot3[patch,patch type=triangle,color=darkgray,fill opacity=0.75] coordinates {(\varCN) (\varAN) (\varBN)};
+      \addplot3[patch,patch type=triangle,color=darkgray,fill opacity=0.5] coordinates {(\varMN) (\varAN) (\varBN)};
+      \addplot3[patch,patch type=triangle,color=darkgray,fill opacity=0.25] coordinates {(\varXN) (\varAN) (\varBN)};
+      \addplot3 [color=black,thick] coordinates {(0,0,0) (\varCN)};
+      \addplot3 [color=black,thick] coordinates {(0,0,0) (\varXN)};
+      \addplot3 [color=black,thick] coordinates {(0,0,0) (\varMN)};
+%      \addplot3[opacity = 0.1,surf,z buffer = sort,samples = 21,variable = \u,variable y = \v,domain = 0:90,y domain = 0:90,]
+%    ({1*cos(u)*sin(v)}, {1*sin(u)*sin(v)}, {1*cos(v)});
+      \addplot3 [patch,patch type=rectangle,color=lightgray,fill opacity=0.0] coordinates{(\varAN) (\varA) (\varB) (\varBN)
+};
+      \addplot3 [color=black,thick] coordinates {(\varCN) (\varC)};
+      \addplot3 [color=black,thick] coordinates {(\varXN) (\varX)};
+      \addplot3 [color=black,thick] coordinates {(\varMN) (\varM)};
+      \addplot3 [patch,patch type=triangle,color=lightgray,fill opacity=0.75] coordinates{(\varA) (\varC) (\varB)};
+      \addplot3 [patch,patch type=triangle,color=gray,fill opacity=0.25] coordinates{(\varA) (\varX) (\varB)};
+      \addplot3 [patch,patch type=triangle,color=gray,fill opacity=0.5] coordinates{(\varA) (\varM) (\varB)};
+%      \node [anchor=south] at (axis cs: 0.1,0.0,0.0) {O};
+      \node [anchor=south] at (axis cs: \varA) {heard};
+      \node [anchor=south] at (axis cs: \varB) {noises};
+%      \node [anchor=south] at (axis cs: \varAN) {A'};
+%      \node [anchor=west] at (axis cs: \varBN) {B'};
+%      \node [anchor=south] at (axis cs: \varCN) {C'};
+%      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varCN)};
+      \node [anchor=south] at (axis cs: \varC) {C};
+%      \node [anchor=east] at (axis cs: \varXN) {X'};
+%      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varXN)};
+      \node [anchor=south] at (axis cs: \varX) {X};
+%      \node [anchor=west] at (axis cs: \varMN) {M'};
+%      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varMN)};
+      \node [anchor=south] at (axis cs: \varM) {M};
+    \end{axis}
+  \end{tikzpicture}
+\caption*{\footnotesize \emph{literal: heard noises}}
+\end{subfigure}
+\hfill
+\begin{subfigure}{0.3\textwidth} % hear click
+\centering
+  \begin{tikzpicture}
+\def\varA{-8.639,51.611,50.881};
+    \def\varA{26.6923,45.2717,27.4741};
+    \def\varB{45.5472,10.6624,56.8395};
+    \def\varC{26.6298,26.6294,26.6297};
+    \def\varM{34.7432,19.5859,25.5589};
+    \def\varX{110.7493,59.4545,76.4383};
+    \def\varAN{13.5030,22.9019,13.8985};
+    \def\varBN{18.5620,4.3453,23.1640};
+    \def\varCN{17.3206,17.3204,17.3205};
+    \def\varMN{22.0031,12.4039,16.1866};
+    \def\varXN{22.5841,12.1240,15.5874};
+    \begin{axis}[scale = 0.6,axis line style=white,view={120}{10},xmin=0,xmax=80,ymin=0,ymax=80,zmin=0,zmax=80,colormap/blackwhite,ticks=none]
+      \addplot3[color=black,thick] coordinates {(0,0,80) (0,80,80)};
+      \addplot3[color=black,thick] coordinates {(0,0,80) (80,0,80)};
+      \addplot3[color=black,thick] coordinates {(0,80,0) (0,80,80)};
+      \addplot3[color=black,thick] coordinates {(0,80,0) (80,80,0)};
+      \addplot3[color=black,thick] coordinates {(80,0,0) (80,0,80)};
+      \addplot3[color=black,thick] coordinates {(80,0,0) (80,80,0)};
+      \addplot3[color=black] coordinates {(0,0,0) (0,0,80)};
+      \addplot3[color=black] coordinates {(0,0,0) (0,80,0)};
+      \addplot3[color=black] coordinates {(0,0,0) (80,0,0)};
+      \addplot3[patch,patch type=triangle,color=gray,fill opacity=0.0] coordinates {(0.0,0.0,0.0) (\varCN) (\varAN)};
+      \addplot3[patch,patch type=triangle,color=gray,fill opacity=0.0] coordinates {(0.0,0.0,0.0) (\varCN) (\varBN)};
+      \addplot3[patch,patch type=triangle,color=darkgray,fill opacity=0.75] coordinates {(\varCN) (\varAN) (\varBN)};
+      \addplot3[patch,patch type=triangle,color=darkgray,fill opacity=0.5] coordinates {(\varMN) (\varAN) (\varBN)};
+      \addplot3[patch,patch type=triangle,color=darkgray,fill opacity=0.25] coordinates {(\varXN) (\varAN) (\varBN)};
+      \addplot3 [color=black,thick] coordinates {(0,0,0) (\varCN)};
+      \addplot3 [color=black,thick] coordinates {(0,0,0) (\varXN)};
+      \addplot3 [color=black,thick] coordinates {(0,0,0) (\varMN)};
+%      \addplot3[opacity = 0.1,surf,z buffer = sort,samples = 21,variable = \u,variable y = \v,domain = 0:90,y domain = 0:90,]
+%    ({1*cos(u)*sin(v)}, {1*sin(u)*sin(v)}, {1*cos(v)});
+      \addplot3 [patch,patch type=rectangle,color=lightgray,fill opacity=0.0] coordinates{(\varAN) (\varA) (\varB) (\varBN)
+};
+      \addplot3 [color=black,thick] coordinates {(\varCN) (\varC)};
+      \addplot3 [color=black,thick] coordinates {(\varXN) (\varX)};
+      \addplot3 [color=black,thick] coordinates {(\varMN) (\varM)};
+      \addplot3 [patch,patch type=triangle,color=lightgray,fill opacity=0.75] coordinates{(\varA) (\varC) (\varB)};
+      \addplot3 [patch,patch type=triangle,color=gray,fill opacity=0.25] coordinates{(\varA) (\varX) (\varB)};
+      \addplot3 [patch,patch type=triangle,color=gray,fill opacity=0.5] coordinates{(\varA) (\varM) (\varB)};
+%      \node [anchor=south] at (axis cs: 0.1,0.0,0.0) {O};
+      \node [anchor=south] at (axis cs: \varA) {hear};
+      \node [anchor=south] at (axis cs: \varB) {click};
+%      \node [anchor=south] at (axis cs: \varAN) {A'};
+%      \node [anchor=west] at (axis cs: \varBN) {B'};
+%      \node [anchor=south] at (axis cs: \varCN) {C'};
+%      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varCN)};
+      \node [anchor=south] at (axis cs: \varC) {C};
+%      \node [anchor=east] at (axis cs: \varXN) {X'};
+%      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varXN)};
+      \node [anchor=south] at (axis cs: \varX) {X};
+%      \node [anchor=west] at (axis cs: \varMN) {M'};
+%      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varMN)};
+      \node [anchor=south] at (axis cs: \varM) {M};
+    \end{axis}
+  \end{tikzpicture}
+\caption*{\footnotesize \emph{neutral: hear click}}
+\end{subfigure}
+\hfill
+\begin{subfigure}{0.3\textwidth} % hear motor
+\centering
+  \begin{tikzpicture}
+    \def\varA{22.0152,49.7517,14.7908};
+    \def\varB{37.5202,2.4240,49.1531};
+    \def\varC{26.9425,26.9422,26.9425};
+    \def\varM{33.6557,22.5056,24.6651};
+    \def\varX{112.2882,64.2694,75.1433};
+    \def\varAN{11.7145,26.4732,7.8703};
+    \def\varBN{18.1889,1.1751,23.8282};
+    \def\varCN{17.3206,17.3204,17.3206};
+    \def\varMN{21.2972,14.2415,15.6080};
+    \def\varXN{22.5149,12.8867,15.0670};
+    \begin{axis}[scale = 0.6,axis line style=white,view={120}{10},xmin=0,xmax=80,ymin=0,ymax=80,zmin=0,zmax=80,colormap/blackwhite,ticks=none]
+      \addplot3[color=black,thick] coordinates {(0,0,80) (0,80,80)};
+      \addplot3[color=black,thick] coordinates {(0,0,80) (80,0,80)};
+      \addplot3[color=black,thick] coordinates {(0,80,0) (0,80,80)};
+      \addplot3[color=black,thick] coordinates {(0,80,0) (80,80,0)};
+      \addplot3[color=black,thick] coordinates {(80,0,0) (80,0,80)};
+      \addplot3[color=black,thick] coordinates {(80,0,0) (80,80,0)};
+      \addplot3[color=black] coordinates {(0,0,0) (0,0,80)};
+      \addplot3[color=black] coordinates {(0,0,0) (0,80,0)};
+      \addplot3[color=black] coordinates {(0,0,0) (80,0,0)};
+      \addplot3[patch,patch type=triangle,color=gray,fill opacity=0.0] coordinates {(0.0,0.0,0.0) (\varCN) (\varAN)};
+      \addplot3[patch,patch type=triangle,color=gray,fill opacity=0.0] coordinates {(0.0,0.0,0.0) (\varCN) (\varBN)};
+      \addplot3[patch,patch type=triangle,color=darkgray,fill opacity=0.75] coordinates {(\varCN) (\varAN) (\varBN)};
+      \addplot3[patch,patch type=triangle,color=darkgray,fill opacity=0.5] coordinates {(\varMN) (\varAN) (\varBN)};
+      \addplot3[patch,patch type=triangle,color=darkgray,fill opacity=0.25] coordinates {(\varXN) (\varAN) (\varBN)};
+      \addplot3 [color=black,thick] coordinates {(0,0,0) (\varCN)};
+      \addplot3 [color=black,thick] coordinates {(0,0,0) (\varXN)};
+      \addplot3 [color=black,thick] coordinates {(0,0,0) (\varMN)};
+%      \addplot3[opacity = 0.1,surf,z buffer = sort,samples = 21,variable = \u,variable y = \v,domain = 0:90,y domain = 0:90,]
+%    ({1*cos(u)*sin(v)}, {1*sin(u)*sin(v)}, {1*cos(v)});
+      \addplot3 [patch,patch type=rectangle,color=lightgray,fill opacity=0.0] coordinates{(\varAN) (\varA) (\varB) (\varBN)
+};
+      \addplot3 [color=black,thick] coordinates {(\varCN) (\varC)};
+      \addplot3 [color=black,thick] coordinates {(\varXN) (\varX)};
+      \addplot3 [color=black,thick] coordinates {(\varMN) (\varM)};
+      \addplot3 [patch,patch type=triangle,color=lightgray,fill opacity=0.75] coordinates{(\varA) (\varC) (\varB)};
+      \addplot3 [patch,patch type=triangle,color=gray,fill opacity=0.25] coordinates{(\varA) (\varX) (\varB)};
+      \addplot3 [patch,patch type=triangle,color=gray,fill opacity=0.5] coordinates{(\varA) (\varM) (\varB)};
+%      \node [anchor=south] at (axis cs: 0.1,0.0,0.0) {O};
+      \node [anchor=south] at (axis cs: \varA) {hear};
+      \node [anchor=south] at (axis cs: \varB) {motor};
+%      \node [anchor=south] at (axis cs: \varAN) {A'};
+%      \node [anchor=west] at (axis cs: \varBN) {B'};
+%      \node [anchor=south] at (axis cs: \varCN) {C'};
+%      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varCN)};
+      \node [anchor=south] at (axis cs: \varC) {C};
+%      \node [anchor=east] at (axis cs: \varXN) {X'};
+%      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varXN)};
+      \node [anchor=south] at (axis cs: \varX) {X};
+%      \node [anchor=west] at (axis cs: \varMN) {M'};
+%      \draw plot [mark=*, mark size=1] coordinates{(axis cs: \varMN)};
+      \node [anchor=south] at (axis cs: \varM) {M};
+    \end{axis}
+  \end{tikzpicture}
+\caption*{\footnotesize \emph{metaphoric: hear motor}}
+\end{subfigure}
+\caption{Three dimensional projections of word-vectors and generic vectors in subspaces for pairs at the extents and in the middle of the literal-metaphorical spectrum.}
+\label{fig:relsimspaces}
+\end{figure}
 
 \subsection{Adding Sentential Context}
 
