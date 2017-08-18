@@ -1,55 +1,61 @@
-This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: cover.aux
-A level-1 auxiliary file: ch4/Four.aux
+A level-1 auxiliary file: toc.aux
+A level-1 auxiliary file: ch5/Five.aux
 The style file: apalike.bst
 Database file #1: Mega.bib.bib
-Warning--I didn't find a database entry for "Sahlgren"
-Warning--I didn't find a database entry for "Saussure"
-Warning--I didn't find a database entry for "HalawieEA2012"
-Warning--I didn't find a database entry for "BajadeEA2015"
-Warning--I didn't find a database entry for "ChenEA2017"
-Warning--I didn't find a database entry for "BarsalouEA1993"
-You've used 25 entries,
+Warning--I didn't find a database entry for "LakoffEA2003"
+Warning--I didn't find a database entry for "Chomsky"
+Warning--I didn't find a database entry for "Langacker"
+Warning--I didn't find a database entry for "WilsonEA"
+Warning--I didn't find a database entry for "Davidson"
+Warning--I didn't find a database entry for "Sweetser"
+Warning--I didn't find a database entry for "Gibson"
+Warning--I didn't find a database entry for "Bateson"
+Warning--I didn't find a database entry for "Raczsek"
+Warning--can't use both author and editor fields in Fraser1993
+Warning--can't use both author and editor fields in Gibbs1993
+You've used 22 entries,
             1935 wiz_defined-function locations,
-            655 strings with 9533 characters,
-and the built_in function-call counts, 12900 in all, are:
-= -- 1306
-> -- 497
-< -- 26
-+ -- 178
-- -- 170
-* -- 988
-:= -- 2011
-add.period$ -- 76
-call.type$ -- 25
-change.case$ -- 209
-chr.to.int$ -- 25
-cite$ -- 25
-duplicate$ -- 579
-empty$ -- 946
-format.name$ -- 207
-if$ -- 2727
+            647 strings with 7483 characters,
+and the built_in function-call counts, 9117 in all, are:
+= -- 908
+> -- 309
+< -- 23
++ -- 108
+- -- 100
+* -- 713
+:= -- 1513
+add.period$ -- 68
+call.type$ -- 22
+change.case$ -- 153
+chr.to.int$ -- 22
+cite$ -- 24
+duplicate$ -- 394
+empty$ -- 684
+format.name$ -- 134
+if$ -- 1861
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 26
-newline$ -- 128
-num.names$ -- 75
-pop$ -- 268
+missing$ -- 30
+newline$ -- 113
+num.names$ -- 68
+pop$ -- 166
 preamble$ -- 1
-purify$ -- 210
+purify$ -- 159
 quote$ -- 0
-skip$ -- 442
+skip$ -- 304
 stack$ -- 0
-substring$ -- 973
-swap$ -- 178
-text.length$ -- 17
+substring$ -- 659
+swap$ -- 87
+text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 148
-warning$ -- 0
-while$ -- 110
+type$ -- 116
+warning$ -- 2
+while$ -- 77
 width$ -- 0
-write$ -- 328
-(There were 6 warnings)
+write$ -- 291
+(There were 11 warnings)

@@ -1,162 +1,128 @@
 \begin{thebibliography}{}
 
-\bibitem[Agirre et~al., 2009]{AgirreEA2009}
-Agirre, E., Alfonseca, E., Hall, K., Kravalova, J., Pa\c{s}ca, M., and Soroa,
-  A. (2009).
-\newblock A study on similarity and relatedness using distributional and
-  wordnet-based approaches.
-\newblock In {\em Proceedings of Human Language Technologies: The 2009 Annual
-  Conference of the North American Chapter of the Association for Computational
-  Linguistics}, pages 19--27.
+\bibitem[Baroni and Zamparelli, 2010]{BaroniEA2010}
+Baroni, M. and Zamparelli, R. (2010).
+\newblock Nouns are vectors, adjectives are matrices: Representing
+  adjective-noun constructions in semantic space.
+\newblock In {\em Proceedings of the 2010 Conference on Empirical Methods in
+  Natural Language Processing}, pages 1183--1193.
 
-\bibitem[Banjade et~al., 2015]{BanjadeEA2015}
-Banjade, R., Maharjan, N., Niraula, N.~B., Rus, V., and Gautam, D. (2015).
-\newblock Lemon and tea are not similar: Measuring word-to-word similarity by
-  combining different methods.
-\newblock In {\em Computational Linguistics and Intelligent Text Processing -
-  16th International Conference}, pages 335--346.
+\bibitem[Barsalou, 1992]{Barsalou1992}
+Barsalou, L.~W. (1992).
+\newblock Frames, concepts, and conceptual fields.
+\newblock In Lehrer, A. and Kittay, E.~F., editors, {\em Frames, Fields, and
+  Contrasts: New Essays in Semantic and Lexical Organization}, pages 21--74.
+  Lawrence Erlbaum Associates, Hillsdale, N.J.
 
-\bibitem[Bruni et~al., 2012]{BruniEA2012}
-Bruni, E., Boleda, G., Baroni, M., and Tran, N.-K. (2012).
-\newblock Distributional semantics in technicolor.
-\newblock In {\em Proceedings of the 50th Annual Meeting of the Association for
-  Computational Linguistics: Long Papers - Volume 1}, pages 136--145.
+\bibitem[Barsalou, 1993]{Barsalou1993}
+Barsalou, L.~W. (1993).
+\newblock {\em Theories of Memory}, chapter Flexibility, Structure, and
+  Linguistic Vagary in Concepts: Manifestations of a Compositional System of
+  Perceptual Symbols.
+\newblock Lawrence Erlbaum Associates, Hove.
 
-\bibitem[Faruqui et~al., 2016]{FaruquiEA2016}
-Faruqui, M., Tsvetkov, Y., Rastogi, P., and Dyer, C. (2016).
-\newblock Problems with evaluation of word embeddings using word similarity
-  tasks.
-\newblock In {\em Proceedings of the 1st Workshop on Evaluating Vector Space
-  Representations for NLP}.
+\bibitem[Bouveret and Sweetser, 2009]{BouveretEA2009}
+Bouveret, M. and Sweetser, E. (2009).
+\newblock Multi-frame semantics, metaphoric extensions and grammar.
+\newblock {\em Annual Meeting of the Berkeley Linguistics Society},
+  35(1):49--59.
 
-\bibitem[Finkelstein et~al., 2002]{FinkelsteinEA2002}
-Finkelstein, L., Gabrilovich, E., Matias, Y., Rivlin, E., Solan, Z., Wolfman,
-  G., and Ruppin, E. (2002).
-\newblock Placing search in context: The concept revisited.
-\newblock {\em ACM Transanction on Information Systems}, 20(1):116--131.
+\bibitem[Coecke et~al., 2011]{CoeckeEA2011}
+Coecke, B., Sadrzadeh, M., and Clark, S. (2011).
+\newblock Mathematical foundations for a compositional distributed model of
+  meaning.
+\newblock {\em Linguistic Analysis}, 36(1-4):345--384.
 
-\bibitem[Gabrilovich and Markovitch, 2007]{GabrilovichEA2007}
-Gabrilovich, E. and Markovitch, S. (2007).
-\newblock Computing semantic relatedness using wikipedia-based explicit
-  semantic analysis.
-\newblock In {\em Proceedings of the 20th International Joint Conference on
-  Artifical Intelligence}, pages 1606--1611.
+\bibitem[Fraser, 1993]{Fraser1993}
+Fraser, B. (1993).
+\newblock {\em Interpretation of novel metaphors}, pages 307--341.
+\newblock Cambridge University Press, 2 edition.
 
 \bibitem[G{\"a}rdenfors, 2000]{Gardenfors2000}
 G{\"a}rdenfors, P. (2000).
 \newblock {\em Conceptual Space: The Geometry of Thought}.
 \newblock The MIT Press, Cambridge, MA.
 
-\bibitem[Halawi et~al., 2012]{HalawiEA2012}
-Halawi, G., Dror, G., Gabrilovich, E., and Koren, Y. (2012).
-\newblock Large-scale learning of word relatedness with constraints.
-\newblock In {\em Proceedings of the 18th ACM SIGKDD International Conference
-  on Knowledge Discovery and Data Mining}, pages 1406--1414.
+\bibitem[Gibbs, 1994]{Gibbs1994}
+Gibbs, Jr., R.~W. (1994).
+\newblock {\em The Poetics of Mind}.
+\newblock Cambridge University Press.
 
-\bibitem[Hassan and Mihalcea, 2011]{HassanEA2011}
-Hassan, S. and Mihalcea, R. (2011).
-\newblock Semantic relatedness using salient semantic analysis.
-\newblock In {\em Proceedings of the Twenty-Fifth AAAI Conference on Artificial
-  Intelligence}, pages 884--889. AAAI Press.
+\bibitem[Gibbs~Jr., 1993]{Gibbs1993}
+Gibbs~Jr., R.~W. (1993).
+\newblock {\em Process and products in making sense of tropes}, page 252–276.
+\newblock Cambridge University Press, 2 edition.
 
-\bibitem[Herbelot and Ganesalingam, 2013]{HerbelotEA2013}
-Herbelot, A. and Ganesalingam, M. (2013).
-\newblock Measuring semantic content in distributional vectors.
-\newblock In {\em Proceedings of the 51st Annual Meeting of the Association for
-  Computational Linguistics}, pages 440--445.
+\bibitem[Guti{\'{e}}rrez et~al., 2016]{GutierrezEA2016}
+Guti{\'{e}}rrez, E.~D., Shutova, E., Marghetis, T., and Bergen, B.~K. (2016).
+\newblock Literal and metaphorical senses in compositional distributional
+  semantic models.
+\newblock In {\em Proceedings of the 54th Annual Meeting of the Association for
+  Computational Linguistics}.
 
-\bibitem[Hill et~al., 2015]{HillEA2015}
-Hill, F., Reichart, R., and Korhonen, A. (2015).
-\newblock Simlex-999: Evaluating semantic models with genuine similarity
-  estimation.
-\newblock {\em Computational Linguistics}, 41(4):665--695.
+\bibitem[Hovy et~al., 2013]{HovyEA2013}
+Hovy, D., Srivastava, S., Kumar, S., Sachan, J.~M., Goyal, K., Li, H., Sanders,
+  W., and Hovy, E. (2013).
+\newblock Identifying metaphorical word use with tree kernels.
+\newblock In {\em Proceedings of the First Workshop on Metaphor in NLP}, pages
+  52--57.
 
-\bibitem[Huang et~al., 2012]{HuangEA2012}
-Huang, E.~H., Socher, R., Manning, C.~D., and Ng, A.~Y. (2012).
-\newblock Improving word representations via global context and multiple word
-  prototypes.
-\newblock In {\em Proceedings of the 50th Annual Meeting of the Association for
-  Computational Linguistics: Long Papers - Volume 1}, pages 873--882.
+\bibitem[Jezek and Hanks, 2010]{JezekEA2010}
+Jezek, E. and Hanks, P. (2010).
+\newblock What lexical sets tell us about conceptual categories.
+\newblock {\em Lexis}, 4:7--22.
 
-\bibitem[Kiela and Clark, 2014]{KielaEA2014}
-Kiela, D. and Clark, S. (2014).
-\newblock A systematic study of semantic vector space model parameters.
-\newblock In {\em Proceedings of the 2nd Workshop on Continuous Vector Space
-  Models and their Compositionality (CVSC) @ EACL 2014}, pages 21--30,
-  Gothenburg.
+\bibitem[Lakoff and Johnson, 1980]{LakoffEA1980}
+Lakoff, G. and Johnson, M. (1980).
+\newblock {\em Metaphors We Live By}.
+\newblock University of Chicago Press.
 
-\bibitem[Kornai et~al., 2015]{KornaiEA2015}
-Kornai, A., {\'{A}}cs, J., Makrai, M., Nemeskey, D.~M., Pajkossy, K., and
-  Recski, G. (2015).
-\newblock Competence in lexical semantics.
-\newblock In {\em Proceedings of the Fourth Joint Conference on Lexical and
-  Computational Semantics, *SEM 2015, June 4-5, 2015, Denver, Colorado,
-  {USA.}}, pages 165--175.
+\bibitem[Langacker, 1991]{Langacker1991}
+Langacker, R. (1991).
+\newblock {\em Concept, Image, and Symbol: The Cognitive Basis of Grammar}.
+\newblock Mouton de Gruyter, Berlin.
 
-\bibitem[Luong et~al., 2013]{LuongEA2013}
-Luong, T., Socher, R., and Manning, C.~D. (2013).
-\newblock Better word representations with recursive neural networks for
-  morphology.
-\newblock In {\em Proceedings of the Seventeenth Conference on Computational
-  Natural Language Learning, CoNLL 2013, Sofia, Bulgaria, August 8-9, 2013},
-  pages 104--113.
+\bibitem[Lapata and Lascarides, 2003]{LapataEA2003}
+Lapata, M. and Lascarides, A. (2003).
+\newblock A probabilistic account of logical metonymy.
+\newblock {\em Computational Linguistics}, 29(2):261--315.
 
-\bibitem[Ma et~al., 2017]{MaEA2017}
-Ma, Y., Li, Q., Yang, Z., Liu, W., and Chan, A. (2017).
-\newblock Learning word embeddings via context grouping.
-\newblock In {\em ACM Turing 50th Celebration Conference}.
+\bibitem[Mitchell and Lapata, 2010]{MitchellEA2010}
+Mitchell, J. and Lapata, M. (2010).
+\newblock Composition in distributional models of semantics.
+\newblock {\em Cognitive Science}, 34(8):1388--1439.
 
-\bibitem[Melamud et~al., 2014]{MelamudEA2014}
-Melamud, O., Dagan, I., Goldberger, J., Szpektor, I., and Yuret, D. (2014).
-\newblock Probabilistic modeling of joint-context in distributional similarity.
-\newblock In {\em Proceedings of the Eighteenth Conference on Computational
-  Natural Language Learning}, pages 181--190.
+\bibitem[Pustejovsky, 1995]{Pustejovsky1995}
+Pustejovsky, J. (1995).
+\newblock {\em The Generative Lexicon}.
+\newblock MIT Press, Cambridge, MA.
 
-\bibitem[Mihalcea et~al., 2006]{MihalceaEA2006}
-Mihalcea, R., Corley, C., and Strapparava, C. (2006).
-\newblock Corpus-based and knowledge-based measures of text semantic
-  similarity.
-\newblock In {\em Proceedings of the 21st National Conference on Artificial
-  Intelligence - Volume 1}, pages 775--780.
+\bibitem[Shutova, 2015]{Shutova2015}
+Shutova, E. (2015).
+\newblock Design and evaluation of metaphor processing systems.
+\newblock {\em Computational Linguistics}, 41(4):579--623.
 
-\bibitem[O'brien, 2007]{OBrien2007}
-O'brien, R.~M. (2007).
-\newblock A caution regarding rules of thumb for variance inflation factors.
-\newblock {\em Quality {\&} Quantity}, 41(5):673--690.
+\bibitem[Shutova et~al., 2013]{ShutovaEA2013b}
+Shutova, E., Kaplan, J., Teufel, S., and Korhonen, A. (2013).
+\newblock A computational model of logical metonymy.
+\newblock {\em ACM Transactions on Speech and Language Processing},
+  10(3):11:1--11:28.
 
-\bibitem[Radinsky et~al., 2011]{RadinskyEA2011}
-Radinsky, K., Agichtein, E., Gabrilovich, E., and Markovitch, S. (2011).
-\newblock A word at a time: Computing word relatedness using temporal semantic
-  analysis.
-\newblock In {\em Proceedings of the 20th International Conference on World
-  Wide Web}, pages 337--346.
+\bibitem[Shutova et~al., 2012]{ShutovaEA2013}
+Shutova, E., Teufel, S., and Korhonen, A. (2012).
+\newblock Statistical metaphor processing.
+\newblock {\em Computational Linguistics}, 39(2):301--353.
 
-\bibitem[Recski et~al., 2016]{RecskiEA2016}
-Recski, G., Ikl\'{o}di, E., Pajkossy, K., and Kornai, A. (2016).
-\newblock Measuring semantic similarity of words using concept networks.
-\newblock In {\em Proceedings of the 1st Workshop on Representation Learning
-  for NLP}, pages 193--200, Berlin, Germany.
+\bibitem[Tsvetkov et~al., 2014]{TsvetkovEA2014}
+Tsvetkov, Y., Boytsov, L., Gershman, A., Nyberg, E., and Dyer, C. (2014).
+\newblock Metaphor detection with cross-lingual model transfer.
+\newblock In {\em {ACL} {(1)}}, pages 248--258. The Association for Computer
+  Linguistics.
 
-\bibitem[Rubenstein and Goodenough, 1965]{RubensteinEA1965}
-Rubenstein, H. and Goodenough, J.~B. (1965).
-\newblock Contextual correlates of synonymy.
-\newblock {\em Communincations of the ACM}, 8(10):627--633.
-
-\bibitem[Schwartz et~al., 2015]{SchwartzEA2015}
-Schwartz, R., Reichart, R., and Rappoport, A. (2015).
-\newblock Symmetric pattern based word embeddings for improved word similarity
-  prediction.
-\newblock In {\em Proceedings of the 19th Conference on Computational Natural
-  Language Learning}, pages 258--267.
-
-\bibitem[Tversky, 1977]{Tversky1977}
-Tversky, A. (1977).
-\newblock Features of similarity.
-\newblock {\em Psychological Review}, 84(4):327--352.
-
-\bibitem[Yang and Powers, 2006]{YangEA2006}
-Yang, D. and Powers, D. M.~W. (2006).
-\newblock Verb similarity on the taxonomy of wordnet.
-\newblock In {\em 3rd International WordNet Conference}, pages 121--128.
+\bibitem[Utsumi, 2011]{Utsumi2011}
+Utsumi, A. (2011).
+\newblock Computational exploration of metaphor comprehension processes using a
+  semantic space model.
+\newblock {\em Cognitive Science}, 35(2):251--296.
 
 \end{thebibliography}
