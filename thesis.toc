@@ -7,11 +7,11 @@
 \contentsline {section}{\numberline {3.1}An Experiment on Metaphor}{2}
 \contentsline {subsection}{\numberline {3.1.1}Methodology and Results}{4}
 \contentsline {subsection}{\numberline {3.1.2}The Geometry of Metaphor}{9}
-\contentsline {subsection}{\numberline {3.1.3}Generalising the Model}{11}
-\contentsline {section}{\numberline {3.2}An Experiment on Coercion}{11}
-\contentsline {subsection}{\numberline {3.2.1}Methodology and Results}{13}
-\contentsline {subsection}{\numberline {3.2.2}The Geometry of Coercion}{14}
-\contentsline {subsection}{\numberline {3.2.3}Adding Sentential Context}{15}
-\contentsline {section}{\numberline {3.3}Comparing the Phenomena}{15}
-\contentsline {section}{\numberline {3.4}Interpretation and Composition in Context}{16}
-\contentsline {chapter}{References}{17}
+\contentsline {subsection}{\numberline {3.1.3}Generalising the Model}{13}
+\contentsline {section}{\numberline {3.2}An Experiment on Coercion}{14}
+\contentsline {subsection}{\numberline {3.2.1}Methodology and Results}{15}
+\contentsline {subsection}{\numberline {3.2.2}The Geometry of Coercion}{16}
+\contentsline {subsection}{\numberline {3.2.3}Adding Sentential Context}{16}
+\contentsline {section}{\numberline {3.3}Comparing the Phenomena}{16}
+\contentsline {section}{\numberline {3.4}Interpretation and Composition in Context}{18}
+\contentsline {chapter}{References}{20}
