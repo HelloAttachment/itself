@@ -5,7 +5,7 @@
 \contentsline {table}{\numberline {3-D}{\ignorespaces Top Independent Features for Metaphor Classification}}{10}
 \contentsline {table}{\numberline {3-E}{\ignorespaces Most Predictive Feature Vectors for Metaphor Classification}}{11}
 \contentsline {table}{\numberline {3-F}{\ignorespaces Scoring Metaphoricity Based On Classification Data}}{14}
-\contentsline {table}{\numberline {3-G}{\ignorespaces Context Sensitive and Static Model F-Scores for Coercion Classification}}{16}
-\contentsline {table}{\numberline {3-H}{\ignorespaces F-Scores for Coercion Classification Testing on Unseen Verbs}}{16}
-\contentsline {table}{\numberline {3-I}{\ignorespaces Top Independent Features for Coercion Classification}}{16}
-\contentsline {table}{\numberline {3-J}{\ignorespaces Comparison of the seven most effective features for coercion classification in \textsc {indy} 2x2 word, 400 dimensional subspaces for \textsc {indy} versus verb based dimension selection in .\relax }}{17}
+\contentsline {table}{\numberline {3-G}{\ignorespaces Context Sensitive and Static Model F-Scores for Coercion Classification}}{17}
+\contentsline {table}{\numberline {3-H}{\ignorespaces F-Scores for Coercion Classification Testing on Unseen Verbs}}{18}
+\contentsline {table}{\numberline {3-I}{\ignorespaces Top Independent Features for Coercion Classification}}{19}
+\contentsline {table}{\numberline {3-J}{\ignorespaces Comparison of the seven most effective features for coercion classification in 2x2 word, 400 dimensional subspaces for \textsc {indy} versus \textsc {verb} based dimension selection.\relax }}{20}

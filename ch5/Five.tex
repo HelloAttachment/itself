@@ -20,7 +20,7 @@ The data described by \citeauthor{GutierrezEA2016} will serve as the basis for t
 
 %The section after that will explore the geometry of a particularly successful model learned using my methodology.  Finally, in Section~\ref{sec:genafor}, I will address the question of whether a classification model learned from the impressively large dataset contributed by \citeauthor{GutierrezEA2016} can be generalised to handle graduated human ratings of metaphoricity on a different type of metaphoric construction.
 
-\subsection{Methodology and Results}
+\subsection{Methodology and Results} \label{sec:metameth}
 My own methodology is clearly less committed to maintaining distinct representations for different semantic types than the compositional models described above, instead modelling all words as untagged word-vectors based on their co-occurrences as observed across a large scale corpus.  This feature of my research is in part theoretically motivated: in line with \cite{Langacker1991}, and \emph{contra} the grammatic nativism or exceptionalism that has been a mainstay in theoretical linguistics \citep{Chomsky}, I would like to investigate the possiblity that ``grammar is fully and appropriately describable using only symbolic units, each having both semantic and phonological import,'' (ibid, p. 290).  In other words, the syntactic component of a natural language might be described in terms of the entanglements of the meaning-making structures -- the lexical semantic representations -- that arise in the course of language use, or maybe even as emergent properties of these entanglements.
 
 With this in mind, I will approach the problem of metaphor classification with a similarly statistical and geometric methodology as was applied to relatedness and similarity in the previous chapter, outside of any prima fascie model of syntax or compositionality.  For every pair of words in the data produced by \cite{GutierrezEA2016}, I generate subspaces of 20, 50, 200, and 400 dimensions using the \textsc{joint}, \textsc{indy}, and \textsc{zipped} techniques, projected from 2x2 and 5x5 word co-occurrence window base spaces.  This data specifies a distince role for each word, one being a metaphoric source (the adjective) and the other being a target (the noun): so, for instance, a \emph{bitter loss} is a loss, but presumably not one with an actual taste, and so the noun \emph{loss} co-opts something of the quality of bitterness into its own conceptual domain.
@@ -431,21 +431,48 @@ The data used for this experiment was originally reported by \cite{JankowiakEA20
 
 Table~\ref{tab:verblearn} presents results for both modelling techniques, focussing on features extrapolated from 5x5 word window, 400 dimensional subspaces using the \textsc{joint} approach and through an analysis on the adjective in each word-pair from the input data.  Feature vectors of various lengths, picking the optimal geometric features for each dimensional selection technique, are used to feed input to each model.  In terms of the models trained on features from \textsc{joint} subspaces, there is a clear trend towards strong performance with one or three features, weaker performance with five or seven features, stronger performance again with nine features, and then a drop-off again in the full featured space.  The relatively low performance with the full set of features is not particularly surprising: there is clearly an encroaching incidence of generalisation error here as the models become flooded with data about various and certainly collinear statistical features of contextual geometry.  At the shallow end of the feature selection parameters, on the other hand, the single measure $\mu(A,B)$ (per Table~\ref{tab:ind-metaphor}) once again points to the efficacy of word-vector norm as a predictive characteristic of contextualised co-occurrence subspaces.
 
-The really remarkable outcome here, though, is the very strong performance of the models learned from the top seven and nine features extracted from subspaces selected by PMI values of the adjective word-vectors alone, though.  This is particularly interesting given that the data being tested here actually consists of a different type of grammatical relationship, namely, predicate-object pairs.  It would seem, then, that the geometry 
+The really remarkable outcome here, though, is the very strong performance of the models learned from the top seven and nine features extracted from subspaces selected by PMI values of the adjective word-vectors alone.  This is particularly interesting given that the data being tested actually consists of a different type of grammatical relationship, namely, predicate-object pairs.  It would seem, then, that the co-occurrence dimensions most salient to either verbs or adjectives generate a geometry in which their relationship to potential arguments can play out in similar ways in terms of the metaphoricity inherent in the semantic context: the interaction between the selecting vector, the noun-vector, and the generic vectors translates from one type of composition to another in an isomorphic way.  This explantion, including the claim that the mapping of predictive features from one type of metaphor to the other is to a large extent isomorphic, is supported by the particularly strong performance of the logistic regression at seven and nine dimensions, where the logistic function takes a polynomial with coefficients learned in the training phase as direct input.  The more complex non-linearity afforded by the support vector machine appears to actually somewhat confound the mapping from verb-noun to adjective-noun phrases---though the difference between the correlations at nine dimensions is not statistically significant at $p = .104$ based on a Fisher r-to-z transformation.
+
+The one area where a support vector machine provides a clear improvement in performance is in the full dimensional models extrapolated from \textsc{joint} subspaces.  In this case, it would seem that the radial basis function classification actually does a better job of avoiding the overfitting in a higher dimensional feature space.  But, putting questions of model choice aside, there is clear evidence here for the generality of the contextual geometry of metaphor, and also a strong case for the appropriateness of machine learning techniques for providing an appropriate mechanism for the computational manipulation of co-occurrence information to build a more nuanced model of degree of metaphor based on relatively rudimentary classification data.  Crucially, it is the context sensitivity of my methodology that facilitates the exploration of a multi-dimensional feature space in which the non-linear nuances of this particular semantic phenomenon can be discovered; a model providing a singular static relationship between lexical representations could not offer the context specific underpinning for generating a geometry replete with interpretable statistical features.  Finally, there are signs here to invite further research, and indeed some grounds for hoping that a context sensitive approach might have the scope for handling more sophisticated tasks such as metaphor interpretation and generation.
 
 \section{An Experiment on Coercion}
 In this section, I will apply my methodology to the classification of a phenomenon closely related to metaphor, namely, \emph{semantic type coercion}, by which the semantic type of a noun is reassigned in the course of a verb taking that noun as an argument.  So, for instance, in phrases like \emph{denied wrongdoing} or \emph{heard footsteps}, the nouns in play are standing in for a conceptually relevant but different type of noun, and the literal versions of these phrases would go something like \emph{denied committing wrongdoing} or \emph{heard the sound of footsteps}, where the verbs select arguments of types along the lines of \textsc{activity} and \textsc{perception} respectively.  This phenomenon is often referred to as \emph{logical metonymy}, identifying it as a subspecies of the more general figurative phenomenon metonymy by which a thing is denoted by a conceptually related lexical representation.
 
 Coercion is one of the semantic phenomena targeted by \citepos{Pustejovsky1995} theory of a \emph{generative lexicon}, by which nouns are semantically modelled as having a \emph{qualia structure} which maps out the way that a thing relates to itself, the world, and the agents interacting with it in that world on four different levels of abstraction, with the general objective of arriving at ``a model of meaning in language that captures the means by which words can assume a potentially infinite number of senses in context, while limiting the number of senses actually stored in the lexicon,'' (ibid, p. 104).  In terms of coercion, qualia provide the basis for a process of \emph{projection} by which a variety of semantic types can be extracted from a complex type (or a \emph{dot object} in Pustejovsky's lingo) in order to fulfil the typing requirements of a predicate in open ended ways.  The model that emerges here -- one built on dynamically interactive lexical semantic representations contingent on some sort of general conceptual context -- begins to look like the general linguistic stance that has motivated my own methodology.
 
-This theoretical commitment suggests a schematic by which a symbol manipulating system might begin to get a handle on productive and context sensitive lexical representations of things in the world.  To this end, \cite{JezekEA2010} have described an ontology based on a computational analysis of co-occurrence patterns designed to facilitate the modelling of what is ultimately a sliding scale of statistically enhanced semantic representations, or ``shimmering lexical sets,'' (ibid, p. 19), as the authors put it.  Applying a similar notion that coercion is probabilistic rather than discreet, \cite{LapataEA2003} use co-occurrence statistics to try to predict the verbs which, inthe role of for instance participles, successfully resolve instances of coercion.  And, under the rubric of \emph{logical metonymy}, \cite{ShutovaEA2013b} expand upon the work of \citeauthor{LapataEA2003} by extracting verb senses from WordNet to build a class based model, to some extent recapitulating the categorical distinctions that characterise many theoretical approaches to coercion.
+This theoretical commitment suggests a schematic by which a symbol manipulating system might begin to get a handle on productive and context sensitive lexical representations of things in the world.  To this end, \cite{JezekEA2010} have described an ontology based on a computational analysis of co-occurrence patterns designed to facilitate the modelling of what is ultimately a sliding scale of statistically enhanced semantic representations, or ``shimmering lexical sets,'' (ibid, p. 19), as the authors put it.  Applying a similar notion that coercion is probabilistic rather than discreet, \cite{LapataEA2003} use co-occurrence statistics to try to predict the verbs which, in the role of for instance participles, successfully resolve instances of coercion.  And, under the rubric of \emph{logical metonymy}, \cite{ShutovaEA2013b} expand upon the work of \citeauthor{LapataEA2003} by extracting verb senses from WordNet to build a class based model, to some extent recapitulating the categorical distinctions that characterise many theoretical approaches to coercion.  The motivation behind this last system is the apt observation that, in the case of coercion, ``humans are capable of interpreting these phrases using their world knowledge and contextual information,'' \citep[][11:2]{ShutovaEA2013b}.
 
-The motivation behind this last system is the apt observation that, in the case of coercion, ``humans are capable of interpreting these phrases using their world knowledge and contextual information,'' (ibid, 11:2)
+Returning to the theoretical issues regarding grammaticality raised earlier in this chapter, the analysis of coercion within the framework of the generative lexicon points to something more like a graduated typology, sliding from specific instances of processes, things, and the like to more general conceptual categories and finally to entire classes of words.  As \cite{Langacker1991} has pointed out, there is a lurking ambiguity in grammatical class distinctions, with various conceptual schema existing in any natural language for moving between classes: so, to borrow an example from Langacker, phonological and symbolic dynamics facilitate a conceptually coherent progression from \emph{sharp} to \emph{sharpen} to \emph{sharpener}, and the rules that are extrapolated as an explanum 
+
+such transitions are just a way of systematising the cognitive networks that underpin these linguistic
+
+With this in mind, my hypothesis is that, as with metaphor in the previous section, a syntactically neutral statistical model with a context generating capacity should be able to capture 
 
 \subsection{Methodology and Results}
-Returning to the theoretical issues regarding grammaticality raised earlier in this chapter, the analysis of coercion within the framework of the generative lexicon points to something more like a graduated typology, sliding from specific instances of, for instance, processes, things, or attributes to more general conceptual categories and finally to entire classes of words.
+The data which will be used to test my methodology in this section was originally presented by \cite{PustejovskyEA2010} as a task for the ongoing International Workshop on Semantic Evaluation series of computational semantic modelling challenges.  The data consists of 2,071 sentences each containing a marked verb and object, with the object classified as either coercive or not.  The verbs cover various conjugations of five different verb stems, each identified as selecting for a different semantic type as an argument: the verbs (and the semantic type selected) are \emph{arrive} (\textsc{location}), \emph{cancel} (\textsc{event}), \emph{deny} (\textsc{proposition}), \emph{finish} (\textsc{event}), and \emph{hear} (\textsc{sound}).  The objective, then, is to train a model to indicate that the phrase \emph{finish the party} is not coercive, in as much as we accept that \emph{party} denotes a member of the conceptual category \textsc{event}, whereas \emph{finish the food} is because what is actually being finished is the event of eating food, not the food itself.  For the purposes of the original presentation the data is split into a training set and a testing set of roughly equal size, but questions of the most meaningful partitioning of the data will be discussed below.
 
-and there is, as \cite{Langacker} has pointed out, a lurking ambiguity in the grammatical class distinctions between, for instance, 
+Two amendments are made to the data as presented.  First, of the 2,071 verb-object pairs, 197 contain multi-word objects not compatible with the vocabulary used for my model, reducing the total number of word pairs to 1,874, 543 of which are considered coercive.  Second, of these remaining computable word pairs, 903 are duplicates (they are presented in unique sentences, but for the first phase of analysis here only verb-noun pairs will be consider; sentential context will be addressed below).  This leaves a total of 971 word pairs, 376 of which are deemed coercive.  As with the metaphor data in the previous section, I train a logistic regression model to discriminate between regular argument selection and coercion.  I once again take the two words being analysed as input to generate a number of different context specific distributional semantic subspaces, treating the 34 geometric features outlined in Table~\ref{tab:features} plus the seven additional fractional features specific to asymmetric input terms described above in Section~\ref{sec:metameth} as the independent variables of the regression analysis.
+
+%\begin{table}
+%\centering
+%\begin{tabular}{lrrrr|rrrr}
+%\hline
+%\emph{window} & \multicolumn{4}{c}{2x2} & \multicolumn{4}{c}{5x5} \\
+%\emph{dimensions} & 20 & 50 & 200 & \multicolumn{1}{c}{400} & 20 & 50 & 200 & 400 \\
+%\hline
+%\textsc{joint} & 0.563 & 0.602 & 0.619 & 0.629 & 0.608 & 0.639 & 0.620 & 0.653 \\
+%\textsc{indy} & 0.633 & 0.643 & 0.677 & 0.687 & 0.652 & 0.683 & 0.681 & 0.655 \\
+%\textsc{zipped} & 0.537 & 0.582 & 0.564 & 0.624 & 0.605 & 0.605 & 0.630 & 0.641 \\
+%\textsc{verb} & 0.624 & 0.651 & 0.680 & 0.702 & 0.620 & 0.634 & 0.678 & 0.678 \\
+%\textsc{noun} & 0.601 & 0.605 & 0.669 & 0.630 & 0.507 & 0.555 & 0.630 & 0.661 \\
+%\textsc{svd} & 0.533 & 0.527 & 0.550 & 0.000 & 0.551 & 0.432 & 0.549 & 0.529 \\
+%\textsc{CBoW} & 0.517 & 0.527 & 0.522 & 0.347 & 0.517 & 0.545 & 0.531 & 0.396 \\
+%\textsc{SG} & 0.547 & 0.561 & 0.578 & 0.509 & 0.557 & 0.563 & 0.603 & 0.545 \\
+%\hline
+%\end{tabular}
+%\caption[Context Sensitive and Static Model F-Scores for Coercion Classification]{F-scores for coercion identification based on a ten-fold cross-validated logistic regression taking geometric features of various subspace types as input.}
+%\label{tab:coercion}
+%\end{table}
 
 \begin{table}
 \centering
@@ -454,19 +481,50 @@ and there is, as \cite{Langacker} has pointed out, a lurking ambiguity in the gr
 \emph{window} & \multicolumn{4}{c}{2x2} & \multicolumn{4}{c}{5x5} \\
 \emph{dimensions} & 20 & 50 & 200 & \multicolumn{1}{c}{400} & 20 & 50 & 200 & 400 \\
 \hline
-\textsc{joint} & 0.563 & 0.602 & 0.619 & 0.629 & 0.608 & 0.639 & 0.620 & 0.653 \\
-\textsc{indy} & 0.633 & 0.643 & 0.677 & 0.687 & 0.652 & 0.683 & 0.681 & 0.655 \\
-\textsc{zipped} & 0.537 & 0.582 & 0.564 & 0.624 & 0.605 & 0.605 & 0.630 & 0.641 \\
-\textsc{verb} & 0.624 & 0.651 & 0.680 & 0.702 & 0.620 & 0.634 & 0.678 & 0.678 \\
-\textsc{noun} & 0.601 & 0.605 & 0.669 & 0.630 & 0.507 & 0.555 & 0.630 & 0.661 \\
-\textsc{svd} & 0.533 & 0.527 & 0.550 & 0.000 & 0.551 & 0.432 & 0.549 & 0.529 \\
-\textsc{CBoW} & 0.517 & 0.527 & 0.522 & 0.347 & 0.517 & 0.545 & 0.531 & 0.396 \\
-\textsc{SG} & 0.547 & 0.561 & 0.578 & 0.509 & 0.557 & 0.563 & 0.603 & 0.545 \\
+\textsc{joint} & 0.577 & 0.613 & 0.607 & 0.641 & 0.611 & 0.679 & 0.636 & 0.649 \\
+\textsc{indy} & 0.661 & 0.653 & 0.679 & 0.689 & 0.655 & 0.662 & 0.705 & 0.673 \\
+\textsc{zipped} & 0.585 & 0.592 & 0.615 & 0.638 & 0.599 & 0.624 & 0.649 & 0.645 \\
+\textsc{verb} & 0.668 & 0.677 & 0.687 & 0.703 & 0.618 & 0.654 & 0.700 & 0.708 \\
+\textsc{noun} & 0.588 & 0.628 & 0.634 & 0.632 & 0.540 & 0.560 & 0.628 & 0.633 \\
+\textsc{SVD} & 0.511 & 0.523 & 0.539 & 0.412 & 0.521 & 0.409 & 0.483 & 0.563 \\
+\textsc{CBoW} & 0.498 & 0.508 & 0.531 & 0.493 & 0.496 & 0.544 & 0.535 & 0.496 \\
+\textsc{SG} & 0.518 & 0.565 & 0.575 & 0.529 & 0.534 & 0.523 & 0.583 & 0.557 \\
 \hline
 \end{tabular}
 \caption[Context Sensitive and Static Model F-Scores for Coercion Classification]{F-scores for coercion identification based on a ten-fold cross-validated logistic regression taking geometric features of various subspace types as input.}
-\label{tab:metaphor}
+\label{tab:coercion}
 \end{table}
+
+Table~\ref{tab:coercion} presents the f-scores derived from the precision and recall results of a ten-fold cross-validation of these logistic regression models.  Most obviously, these numbers are considerably lower than the comparable results for metaphor outlined in Table~\ref{tab:metaphor}, but this is to some extent mitigated by the relative scarcity of instances of coercion in the data: a minority class baseline always classifying word pairs as coercive would, based on the above data statistics, give $f = 0.558$.  The top score of $f = 0.708$ for the context sensitive models, achieved by the 5x5 word window, 400 dimensional verb-only dimensional selection technique, is significantly better than the baseline with
+
+XXX significance
+
+Of the three dimensional selection techniques that use both words as input, the \textsc{indy} method does best here (as opposed to the \textsc{joint} technique for metaphor), indicating that coercion plays out most clearly in the relative co-occurrence profiles of word-vectors across dimensions salient to words individually rather than jointly, and this is corroborated by the strong performance of the \textsc{verb} and \textsc{noun} subspaces generated based on an analysis of either one of the two input words.
+
+In line with the metaphor results is the poor performance of the static models, which generally do somewhat worse than the baseline and substantially worse than the context sensitive models.  Of particular note is the decline of the \textsc{SVD} models and the comparative ascent of the \texttt{word2vec} skip-gram methodology: the sentential context predicting mechanism of the skip-gram approach seems to better capture the typological relationships between predicates and arguments than a principal component analysis of the dimensional variance in a base space of co-occurrence statistics.  But in fact, the results here are across the board less regular in their relationship to parameters of dimensionality and co-occurrence window size, with a more even distribution of relatively high and low scores for both 2x2 and 5x5 word co-occurrence window models, and comparatively strong outcomes occasionally popping up for 20 or 50 dimensional spaces.  The seemingly erratic output of the model gives an overall impression of an unanchoring between the statistics of co-occurrence and the semantic phenomenon being explored here.  Perhaps in the case of coercion, or at least in terms of the data sampled here, many predicate-object combinations are, regardless of the influence of the verb on the noun's conceptual situation, too conventional for type shifts to be detected in a meaningful way in terms of co-occurrence profiles.
+
+Another telling feature of these results is the quite strong performance of the subspaces selected by an analysis of the verbs alone.  In fact, this is likely to be an artefact of the data itself: only five different verb stems are used, and some are arguably marked by their own semantic peculiarities, with, for instance, \emph{finish} coercing 152 out of the 252 arguments it takes in the data, where the rate for \emph{deny} is only 29 out of 183 instances.  In order to find out if the models being tested here are actually just learning, in one way or another, specific rules about particular inputs, I rearrange the data into five folds corresponding to the five verb types present, training a model on each combination of four different verbs and then testing the model on the classifications of word-pairs involving the fifth.  F-scores are reported in Table~\ref{tab:verb-coercion}.
+
+%\begin{table}
+%\centering
+%\begin{tabular}{lrrrr|rrrr}
+%\hline
+%\emph{window} & \multicolumn{4}{c}{2x2} & \multicolumn{4}{c}{5x5} \\
+%\emph{dimensions} & 20 & 50 & 200 & \multicolumn{1}{c}{400} & 20 & 50 & 200 & 400 \\
+%\hline
+%\textsc{joint} & 0.304 & 0.348 & 0.302 & 0.331 & 0.318 & 0.358 & 0.336 & 0.303 \\
+%\textsc{indy} & 0.401 & 0.385 & 0.405 & 0.436 & 0.329 & 0.316 & 0.392 & 0.396 \\
+%\textsc{zipped} & 0.222 & 0.253 & 0.290 & 0.286 & 0.274 & 0.291 & 0.335 & 0.347 \\
+%\textsc{verb} & 0.218 & 0.210 & 0.256 & 0.352 & 0.254 & 0.359 & 0.275 & 0.284 \\
+%\textsc{noun} & 0.242 & 0.390 & 0.377 & 0.420 & 0.207 & 0.237 & 0.277 & 0.344 \\
+%\textsc{SVD} & 0.274 & 0.247 & 0.230 & 0.061 & 0.201 & 0.109 & 0.267 & 0.248 \\
+%\textsc{CBoW} & 0.364 & 0.313 & 0.266 & 0.137 & 0.345 & 0.315 & 0.281 & 0.167 \\
+%\textsc{SG} & 0.372 & 0.344 & 0.309 & 0.206 & 0.392 & 0.358 & 0.341 & 0.260 \\
+%\hline
+%\end{tabular}
+%\caption[F-Scores for Coercion Classification Testing on Unseen Verbs]{F-scores for coercion identification taking each verb stem type as a separate fold of a cross-validation.}
+%\label{tab:verb-coercion}
+%\end{table}
 
 \begin{table}
 \centering
@@ -480,13 +538,13 @@ and there is, as \cite{Langacker} has pointed out, a lurking ambiguity in the gr
 \textsc{zipped} & 0.222 & 0.253 & 0.290 & 0.286 & 0.274 & 0.291 & 0.335 & 0.347 \\
 \textsc{verb} & 0.218 & 0.210 & 0.256 & 0.352 & 0.254 & 0.359 & 0.275 & 0.284 \\
 \textsc{noun} & 0.242 & 0.390 & 0.377 & 0.420 & 0.207 & 0.237 & 0.277 & 0.344 \\
-\textsc{SVD} & 0.274 & 0.247 & 0.230 & 0.061 & 0.201 & 0.109 & 0.267 & 0.248 \\
-\textsc{CBoW} & 0.364 & 0.313 & 0.266 & 0.137 & 0.345 & 0.315 & 0.281 & 0.167 \\
-\textsc{SG} & 0.372 & 0.344 & 0.309 & 0.206 & 0.392 & 0.358 & 0.341 & 0.260 \\
+\textsc{SVD} & 0.295 & 0.252 & 0.276 & 0.126 & 0.217 & 0.173 & 0.301 & 0.288 \\
+\textsc{CBoW} & 0.368 & 0.329 & 0.248 & 0.162 & 0.302 & 0.316 & 0.245 & 0.177 \\
+\textsc{SG} & 0.349 & 0.333 & 0.281 & 0.194 & 0.366 & 0.351 & 0.316 & 0.229 \\
 \hline
 \end{tabular}
 \caption[F-Scores for Coercion Classification Testing on Unseen Verbs]{F-scores for coercion identification taking each verb stem type as a separate fold of a cross-validation.}
-\label{tab:metaphor}
+\label{tab:verb-coercion}
 \end{table}
 
 \begin{figure}
@@ -502,8 +560,8 @@ and there is, as \cite{Langacker} has pointed out, a lurking ambiguity in the gr
       \legend{\textsc{joint} (0.945),shuffled (0.915),\textsc{CBOW} (0.681),\textsc{SVD} (0.678)} 
     \end{axis}
   \end{tikzpicture}
-\caption[Receiver Operating Characterisation for Metaphor Classification]{Receiver operating characteristic plots for a selection of models, with the area under the curve for each model type indicated in the legend.}
-\label{fig:metaroc}
+\caption[Receiver Operating Characterisation for Coercion Classification]{Receiver operating characteristic plots for a selection of models for coercion classification, with the area under the curve for each model type indicated in the legend.}
+\label{fig:coerroc}
 \end{figure}
 
 \subsection{The Geometry of Coercion}
@@ -513,66 +571,67 @@ and there is, as \cite{Langacker} has pointed out, a lurking ambiguity in the gr
 \hline
 \multicolumn{2}{c}{\textsc{joint}} & \multicolumn{2}{c}{\textsc{indy}} & \multicolumn{2}{c}{\textsc{zipped}} \\
 \hline
-$\mu(\overline{A'C'},\overline{B'C'}$ & 0.544 & $\angle ACB$ & 0.506 & $\overline{AB}/C$ & 0.371 \\
-$\mu(\overline{AB}/C$ & 0.536 & $\angle AOB$ & 0.504 & $\angle AXB$ & 0.356 \\
-$\mu(\overline{A'X'},\overline{B'X'}$ & 0.533 & $\mu(\overline{A'X'},\overline{B'X'}$ & 0.482 & $\overline{AB}$ & 0.312 \\
-$\angle AOB$ & 0.524 & $\overline{AB}/C$ & 0.481 & $\angle AOB$ & 0.312 \\
-$\mu(\overline{A'M'},\overline{B'M'}$ & 0.503 & $\mu(\overline{A'C'},\overline{B'C'})$ & 0.476 & $\mu(\overline{A'C'},\overline{B'C'})$ & 0.306 \\
+$\mu(\overline{A'C'},\overline{B'C'})$ & 0.540 & $\angle ACB$ & 0.501 & $\angle AXB$ & 0.491 \\
+$\mu(A,B)/C$ & 0.537 & $\angle AOB$ & 0.472 & $\mu(\overline{A'X'},\overline{B'X'})$ & 0.397 \\
+$\mu(\overline{A'X'},\overline{B'X'})$ & 0.526 & $\mu(A,B)/C$ & 0.447 & $\mu(\overline{A'C'},\overline{B'C'})$ & 0.315 \\
+$\mu(\overline{A'M'},\overline{B'M'})$ & 0.504 & $\mu(\overline{A'C'},\overline{B'C'})$ & 0.44 & $\overline{AB}$ & 0.261 \\
+$\angle AXB$ & 0.498 & $\angle AMB$ & 0.295 & $\mu(A,B)/C$ & 0.181 \\
 \hline
 \end{tabular}
 \vfill
 \begin{tabular}{lr|lr}
 \multicolumn{2}{c}{\textsc{verb}} & \multicolumn{2}{c}{\textsc{noun}} \\
 \hline
-$A:B$ & 0.504 & $A:B$ & 0.553 \\
-$\overline{A'X'}:\overline{B'X'}$ & 0.445 & $A/B$ & 0.553 \\
-$\overline{A'X'}/\overline{B'X'}$ & 0.445 & $\mu(\overline{AB}/C$ & 0.487 \\
-$\mu(\overline{A'M'},\overline{B'M'}$ & 0.406 & $\angle AMB$ & 0.461 \\
-$A/B$ & 0.379 & $\angle ACB$ & 0.416 \\
+$A:B$ & 0.445 & $A:B$ & 0.546 \\
+$\overline{AC}/\overline{BC}$ & 0.389 & $A/B$ & 0.546 \\
+$\mu(\overline{A'M'}),\overline{B'M'})$ & 0.353 & $\mu(A,B)/C$ & 0.477 \\
+$A/B$ & 0.164 & $\angle ACB$ & 0.472 \\
+$\mu(\overline{AM},\overline{BM})$ & 0.164 & $\angle AMB$ & 0.423 \\
 \hline
 \end{tabular}
-\caption[Top Independent Features for Coercion Classification]{Independent f-scores from the coercion classification data for top five features of each subspace type for 2x2 word co-occurrence window, 400 dimension subspaces.}
+\caption[Top Independent Features for Coercion Classification]{Independent f-scores from the coercion classification data for top five features of each subspace type for 2x2 word co-occurrence window, 400 dimension subspaces, validated on unobserved verbs.}
 \label{tab:ind-coercion}
 \end{table}
 
-%('0.654', [('mAMB', '2.193'), ('fABM', '-1.438'), ('aMOX', '0.395'), ('fACB', '-0.201'), ('X', '-0.851'), ('mAXB', '0.973'), ('eAXB', '0.155')])
+%('0.676', [('mAOB', '0.919'), ('fCM', '-0.838'), ('aCOM', '0.197'), ('aCOX', '-0.159'), ('aAMB', '-0.831'), ('fMX', '0.234'), ('qACB', '0.015')])
 
-%('0.682', [('mAOB', '2.154'), ('fCX', '-1.940'), ('rAOB', '0.304'), ('nAMB', '-0.260'), ('eACB', '-0.207'), ('qACB', '0.382'), ('qAMB', '-0.046')])
-
-%('0.693', [('C', '2.843'), ('mAOB', '-2.402'), ('lAMB', '1.352'), ('mAXB', '-0.037'), ('eAXB', '0.132'), ('fAMB', '-0.770'), ('rACB', '0.087')])
+('0.687', [('eACB', '1.863'), ('eAMB', '-1.602'), ('fMX', '0.974'), ('fABC', '-0.046'), ('fAOB', '0.443'), ('mAOB', '-0.817'), ('fAMB', '0.490')])
 
 \begin{table}
 \centering
 \begin{tabular}{llr}
 \hline
-& \multicolumn{1}{c}{\textsc{indy} ($f = 0.682$)} & \multicolumn{1}{c}{verb ($f = 0.693$)} \\
+& \multicolumn{1}{c}{\textsc{indy} ($f = 0.676$)} & \multicolumn{1}{c}{\textsc{verb} ($f = 0.687$)} \\
 \hline
 & \multicolumn{2}{c}{\textsc{distances}} \\
 word-vectors & - & - \\
-generic vectors & - & $2.843 = C$ \\
+generic vectors & - & - \\
 \hline
 & \multicolumn{2}{c}{\textsc{angles}} \\
-word-vectors & - & - \\
-normalised & $\angle A'M'B' = -0.260$ \\
-generic & - & - \\
+word-vectors & $\angle AMB = -0.831$ & - \\
+normalised & - & - \\
+generic & $\angle COM = 0.197$ & - \\
+& $\angle COX = -0.159$ & - \\
 \hline
 & \multicolumn{2}{c}{\textsc{means}} \\
-word-vectors & $\mu(\overline{AO},\overline{BO}) = 2.154$ & $-2.402 = \mu(\overline{AO},\overline{BO})$ \\
-& - & $-0.037 = \mu(\overline{AX},\overline{BX}$ \\
-normalised & - & $1.352 = \mu(\overline{A'M'},\overline{B'M'})$ \\
+word-vectors & $\mu(A,B) = 0.919$ & $-0.817 = \mu(A,B)$ \\
+normalised & - & - \\
 \hline
 & \multicolumn{2}{c}{\textsc{ratios}} \\
-word-vectors & $A:B = 0.304$ & $0.087 = \overline{AC}:\overline{BC}$ \\
-normalised & $\overline{A'C'}:\overline{B'C'} = 0.382$ & - \\
-& $\overline{A'M'}:\overline{B'M'} = -0.046$ \\
+word-vectors & - & - \\
+normalised & $\mu(\overline{A'C'}:\overline{B'C'}) = 0.015$ \\
 \hline
 & \multicolumn{2}{c}{\textsc{fractions}} \\
-word-vectors & - & $-0.770 = \overline{AM}/\overline{BM}$ \\
-normalised & $\overline{A'C'}/\overline{B'C'} = -0.207$ & - \\
-generic vectors & $C/X = -1.940$ & $0.132 = \overline{AX}/\overline{BX}$ \\
+word-vectors & - & $0.490 = \mu(\overline{AB})/M$ \\
+& & $0.443 = A/B$ \\
+& & $-0.046 = \mu(\overline{AB}/C)$ \\
+normalised & - & $-1.863 = \overline{A'C'}:\overline{B'C'}$ \\
+& & $-1.602 = \overline{A'M'}:\overline{B'M'}$ \\
+generic vectors & $C/M = -0.838$ & $0.974 = M/X$ \\
+& $M/X = 0.234$ \\
 \hline
 \end{tabular}
-\caption{Comparison of the seven most effective features for coercion classification in \textsc{indy} 2x2 word, 400 dimensional subspaces for \textsc{indy} versus verb based dimension selection in .}
+\caption{Comparison of the seven most effective features for coercion classification in 2x2 word, 400 dimensional subspaces for \textsc{indy} versus \textsc{verb} based dimension selection.}
 \label{tab:features}
 \end{table}
 
@@ -753,10 +812,10 @@ generic vectors & $C/X = -1.940$ & $0.132 = \overline{AX}/\overline{BX}$ \\
 
 \subsection{Adding Sentential Context}
 
-\section{Comparing the Phenomena}
+\section{Interpretation and Composition in Context}
 One of the tricky things about figurative language is its ephemerality: if we stare at it for long enough through a theoretical lens, it seems to vanish, as is evident in the deflationary case made by \cite{WilsonEA}.  But on the other hand, if we ask someone in street whether the phase \emph{buy a story} is more metaphoric than \emph{buy a book}, we can reasonably expect the answer will almost always be ``yes'', and it would be a mistake to dismiss the evidence that in a colloquial sense some compositions are clearly metaphoric, and others are clearly not.  This raises a challenging point with regard to the comparison between metaphor and coercion, the two instances of figurative language explored in this chapter: is metaphor perhaps to some extent a more overt case of coercion, or maybe a specific case that is in some way or another a little more subtle?  Part of the problem here is that the distinctions between these phenomena begin to exceed the capacity for what can reliably be quantified about language in a clinical setting, with evaluative criteria that will depend on the opinion of an expert which comes pre-packaged with inevitable biases.
 
-\section{Interpretation and Composition in Context}
+
 
 In fact, it is tempting to go so far as to say that figurative language is identified precisely as those instances of language where recourse to a conceptual context is necessary to interpret a lexical composition, and furthermore that the degree of figurativeness correlates with the extent of context construction involved in an interpretation.  This proposition is in line with \citepos{Shutova2015} empirical work treating metaphor interpretation as a mechanism for classification
 
