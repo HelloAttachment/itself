@@ -1,11 +1,9 @@
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3-A}{\ignorespaces Context Sensitive and Static Model F-Scores for Metaphor Classification}}{5}
-\contentsline {table}{\numberline {3-B}{\ignorespaces F-Scores for Metaphor Classification of Unseen Adjectives}}{7}
-\contentsline {table}{\numberline {3-C}{\ignorespaces Comparative Metaphor Classification Statistics}}{9}
-\contentsline {table}{\numberline {3-D}{\ignorespaces Top Independent Features for Metaphor Classification}}{10}
-\contentsline {table}{\numberline {3-E}{\ignorespaces Most Predictive Feature Vectors for Metaphor Classification}}{11}
-\contentsline {table}{\numberline {3-F}{\ignorespaces Scoring Metaphoricity Based On Classification Data}}{14}
-\contentsline {table}{\numberline {3-G}{\ignorespaces Context Sensitive and Static Model F-Scores for Coercion Classification}}{17}
-\contentsline {table}{\numberline {3-H}{\ignorespaces F-Scores for Coercion Classification Testing on Unseen Verbs}}{18}
-\contentsline {table}{\numberline {3-I}{\ignorespaces Top Independent Features for Coercion Classification}}{19}
-\contentsline {table}{\numberline {3-J}{\ignorespaces Comparison of the seven most effective features for coercion classification in 2x2 word, 400 dimensional subspaces for \textsc {indy} versus \textsc {verb} based dimension selection.\relax }}{20}
+\contentsline {table}{\numberline {3-A}{\ignorespaces Spearman's correlations for word ratings output by a linear regression model of the WordSim data for various subspace types and model parameters, compared to the correlations for cosine similarities output by static models using comparable parameters.\relax }}{5}
+\contentsline {table}{\numberline {3-B}{\ignorespaces Independent Spearman's correlations with WordSim data for top five features of each subspace type for 5x5 word co-occurrence window, 400 dimension subspaces.\relax }}{7}
+\contentsline {table}{\numberline {3-C}{\ignorespaces A comparison of Spearman's correlations returned by various models, including my optimal $\angle ACB$ measure.\relax }}{8}
+\contentsline {table}{\numberline {3-D}{\ignorespaces Spearman's correlations for word ratings output by a linear regression model of the SimLex data for various subspace types and model parameters, compared to the correlations for cosine similarities output by static models using comparable parameters.\relax }}{11}
+\contentsline {table}{\numberline {3-E}{\ignorespaces Independent Spearman's correlations with SimLex data for top five features of each subspace type for 2x2 word co-occurrence window, 400 dimension subspaces.\relax }}{12}
+\contentsline {table}{\numberline {3-F}{\ignorespaces The optimal combination of seven non-correlated features for a linear regression modelling SimLex data for 2x2 word co-occurrence window, 400 dimensional subspaces projected using each dimensional selection technique.\relax }}{14}
+\contentsline {table}{\numberline {3-G}{\ignorespaces A comparison of Spearman's correlations with SimLex data reported for various models, including my optimal \textsc {indy} technique.\relax }}{16}
+\contentsline {table}{\numberline {3-H}{\ignorespaces Comparison of most predictive features for relatedness and similarity in both \textsc {joint} and \textsc {indy} type 2x2 word window, 400 dimensional subspaces, with models optimised for leave-one-out cross-validation.\relax }}{17}
