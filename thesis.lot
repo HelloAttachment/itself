@@ -1,11 +1,19 @@
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3-A}{\ignorespaces Context Sensitive and Static Model F-Scores for Metaphor Classification}}{5}
-\contentsline {table}{\numberline {3-B}{\ignorespaces F-Scores for Metaphor Classification of Unseen Adjectives}}{7}
-\contentsline {table}{\numberline {3-C}{\ignorespaces Comparative Metaphor Classification Statistics}}{9}
-\contentsline {table}{\numberline {3-D}{\ignorespaces Top Independent Features for Metaphor Classification}}{10}
-\contentsline {table}{\numberline {3-E}{\ignorespaces Most Predictive Feature Vectors for Metaphor Classification}}{11}
-\contentsline {table}{\numberline {3-F}{\ignorespaces Scoring Metaphoricity Based On Classification Data}}{14}
-\contentsline {table}{\numberline {3-G}{\ignorespaces Context Sensitive and Static Model F-Scores for Coercion Classification}}{17}
-\contentsline {table}{\numberline {3-H}{\ignorespaces F-Scores for Coercion Classification Testing on Unseen Verbs}}{18}
-\contentsline {table}{\numberline {3-I}{\ignorespaces Top Independent Features for Coercion Classification}}{19}
-\contentsline {table}{\numberline {3-J}{\ignorespaces Comparison of the seven most effective features for coercion classification in 2x2 word, 400 dimensional subspaces for \textsc {indy} versus \textsc {verb} based dimension selection.\relax }}{20}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4-A}{\ignorespaces Highest and Lowest PMI Values}}{25}
+\contentsline {table}{\numberline {4-B}{\ignorespaces Top Dimensions for Wild Animals}}{27}
+\contentsline {table}{\numberline {4-C}{\ignorespaces Top Wild Animal Word-Vectors}}{32}
+\contentsline {table}{\numberline {4-D}{\ignorespaces Top Pet Word-Vectors}}{33}
+\contentsline {table}{\numberline {4-E}{\ignorespaces Mean and Maximum PMI Values}}{36}
+\contentsline {table}{\numberline {4-F}{\ignorespaces Schematic of Geometric Features}}{38}
+\contentsline {table}{\numberline {4-G}{\ignorespaces Accuracy Scores for WordNet Recapitulation}}{48}
+\contentsline {table}{\numberline {4-H}{\ignorespaces WordNet Accuracy Scores for Two Techniques}}{50}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {5-A}{\ignorespaces Spearman's Correlations for Relatedness}}{57}
+\contentsline {table}{\numberline {5-B}{\ignorespaces Relatedness Correlations of Individual Features}}{59}
+\contentsline {table}{\numberline {5-C}{\ignorespaces Comparison of Relatedness Scores}}{61}
+\contentsline {table}{\numberline {5-D}{\ignorespaces Spearman's Correlations for Similarity}}{64}
+\contentsline {table}{\numberline {5-E}{\ignorespaces Similarity Correlations of Individual Features}}{66}
+\contentsline {table}{\numberline {5-F}{\ignorespaces Optimal Feature Vectors for Similarity}}{67}
+\contentsline {table}{\numberline {5-G}{\ignorespaces Comparison of Similarity Scores}}{69}
+\contentsline {table}{\numberline {5-H}{\ignorespaces Comparing Optimal Features for Relatedness and Similarity}}{71}

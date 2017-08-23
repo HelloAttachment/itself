@@ -31,6 +31,7 @@
 \RequirePackage{amsfonts}           %
 \RequirePackage{amssymb}            %
 \RequirePackage{amsthm}             %
+\RequirePackage{ragged2e}
 
 \RequirePackage{rotating}           % for rotated table, \begin{sidewaystable}....\end{sidewaystable}
 %\RequirePackage{subfigure}          % for sub-figures
@@ -61,7 +62,7 @@
 \setlength{\parskip}{10pt}              % set the vertical space between paragraphs
 \setlength{\parindent}{16pt}            % set the indent of paragraphs (except the first one)
 
-%\doublespacing                          % Double spacing from the beginning
+\onehalfspacing                          % Double spacing from the beginning
 
 % By default, LaTeX doesn't like to fill more than 0.7 of a text page with tables and graphics,
 % nor does it like too many figures per page. This behaviour can be changed by placing lines
@@ -243,7 +244,7 @@ reserved.\par\permission}}
 {\LARGE \@author } \\
 \vskip 3cm
 \par
-{\def\baselinestretch{1.2}\Large A thesis to be submitted to the {\uol}
+{\def\baselinestretch{1.2}\Large A thesis submitted to {\uol}
 {for the}
 {\@degreeword}
 {of}
@@ -264,6 +265,38 @@ United Kingdom\\
 {\bf\Large \@dedication}
 \vfill
 \end{titlepage}}
+
+%%%%%%%%%%%%%%%%% Define commands to make declarartion pages %%%%%%%%%%%%%%%%%%%
+\def\makedeclaration{\begin{titlepage}
+\vspace*{2cm}
+\justifying
+My university requires me to make the following statement:
+
+The copyright of this thesis rests with the author and no quotation from it or information derived from it may be published without the prior written consent of the author.
+
+I add this:
+
+I hereby grant permission to anyone to do anything they so please with the text of this thesis and any information they derive from it or meaning they find in it, with or without acknowledgement of the source.
+\vfill
+\end{titlepage}}
+
+%%%%%%%%%%%%%%%%% declaration environment for abstract page %%%%%%%%%%%%%%%%%%%%
+\def\declaration{
+\clearpage
+\section*{}     % To correct the wrong link in PDF file by hyperref
+\begin{center}%{
+%\Huge{Abstract}}
+  \addcontentsline{toc}{chapter}{Abstract} % display Abstract in contents%
+\end{center}
+\vspace{0.5cm}
+\par
+\setlength{\parindent}{0pt}            % reset the indent of paragraphs (except the first one)
+}
+% for \end{abstract}
+\def\endabstract{
+\newpage
+\setlength{\parindent}{16pt}            % set the indent of paragraphs (except the first one)
+}
 
 %%%%%%%%%%%%%%%%%%% abstract environment for abstract page %%%%%%%%%%%%%%%%%%%%
 \def\abstract{
@@ -362,8 +395,8 @@ United Kingdom\\
 % The \kern0pt pushes any depth into the height.  Thanks to Richard Stone.
 \def\endtitlepage{\par\kern 0pt\egroup\vss\egroup\newpage}
 
-\def\UOL{UNIVERSITY OF LONDON}
-\def\uol{University of London}
+\def\UOL{QUEEN MARY UNIVERSITY OF LONDON}
+\def\uol{Queen Mary University of London}
 
 \def\permission{\par\noindent{\centering
    The author hereby grants to University of London permission to reproduce and

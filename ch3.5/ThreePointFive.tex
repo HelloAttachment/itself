@@ -9,7 +9,7 @@ In the previous chapter, I laid down the theoretical groundwork for a distributi
 
 The following three sections will pursue each of these aspects of a technical implementation in turn.  The end result is effectively a mapping from text as raw data to geometry as semiotic generator.  A fourth section will describe an alternative, general interpretation of the statistical data which underwrites my models and additionally offer a brief overview of another distributional semantic methodology, both to be used as a point of comparison in the empirical results which will be discussed in subsequent chapters.
 
-\section{Establishing and Analysing a Large Scale Textual Corpus}
+\section{Establishing and Analysing a Large Scale Corpus}
 The first step in a corpus based approach to natural language processing is the selection of the data which will provide the basis for our model.  I've picked the English language portion of Wikipedia as my data source, a choice which is in accordance with a good deal of work done in the field.  For instance, \cite{GabrilovichEA2007} and \cite{CollobertEA2008}, to name just a couple, use Wikipedia as their base data for training distributional semantic models designed to perform tasks similar to the ones explored in subsequent chapters, while \cite{BaroniEA2014}, \cite{PenningtonEA2014}, and \cite{GutierrezEA2016} use amalgamated corpora that include Wikipedia as a major component.  Wikipedia provides a very large sample of highly regular language, meaning that we can expect a certain syntactic and semantic consistency as well as language which, if not always overtly literal, is likewise not typically abstruse or periphrastic.  This should supply a source of linguistic data in which, to revisit the central dogma of the distributional hypothesis, words which occur in a particular syntactic and lexical setting can be expected to be semantically similar.
 
 In the case of my implementations, the November 2014 dump of English language Wikipedia has been used.\footnote{Relatively recent Wikipedia dumps are available at \url{https://dumps.wikimedia.org/}.}  A data cleaning process has been implemented, the first step of which is the chunking of the corpus into individual sentences.  Next parenthetical phrases are removed from each sentence, as these can potentially skew co-occurrence data, and all other punctuation other than hyphenation is subsequently removed.  All characters are converted into lowercase to avoid words capitalised at the beginning of sentences, quotations, and other places being considered as unique types.  Finally, the articles \emph{a}, \emph{an}, and \emph{the} are removed as they can distort co-occurrence distance counts, and then all sentences containing less than five words are discarded.  The cleaned corpus contains nearly 1.1 billion word tokens, consisting of almost 7.5 million unique word types spread across about 61 million sentences.  The distribution of these types is predictably Zipfian: over 10 million occurrences of each of the top nine word types are observed, while the least frequent 4.27 million words -- more than half of all types -- only occur once.  The top end of this distribution is populated by conjunctions, prepositions, and pronouns, while the bottom end is characterised by obscure place names, one-off abbreviations, unicode representing non-Latin alphabet spellings, and a good many spelling errors.
@@ -65,7 +65,7 @@ These techniques are used for the purpose of analysis, and, once this analysis h
 & \emph{regions} & 0.02538 & 0.00033 & \multicolumn{1}{|l}{\emph{there}} & 0.21320 & 0.00143 \\
 \hline
 \end{tabular}
-\caption{The top five and bottom five dimensions by PMI value for the words \emph{guitar} and \emph{dulcimer}, out of all the dimensions with non-zero values for both words, with scores tabulated independently for each word.}
+\caption[Highest and Lowest PMI Values]{The top five and bottom five dimensions by PMI value for the words \emph{guitar} and \emph{dulcimer}, out of all the dimensions with non-zero values for both words, with scores tabulated independently for each word.}
 \label{tab:norms}
 \end{table}
 
@@ -80,7 +80,7 @@ n_h := \left \{t \in t_h: \prod_{g=1}^{k} t_{g,i} > 0\right \}
 
 \begin{equation}
 J := \left \{ f_{1...d} \in \argmax_{f}\left(\sum_{g=1}^{k} \frac{M_{g,f}}{||m_g||}\right)\right \}
-\end{equation}
+\end{equation}-
 
 \noindent In the cases of the \textsc{indy} and \textsc{zipped} techniques, the selectional process is more straightforward, since mean values between features of word-vectors are not being considered.  Where the \textsc{joint} technique is intended to discover subspaces that represent an amalgamation of the input terms, the \textsc{indy} technique is expected to produce a subspace where individual conceptual characteristics of the input terms, captured as collections of co-occurrence dimensions, are distilled into distinct geometric regions.  So the set of $d$ dimensions $I$ returned by the \textsc{indy} technique will delineate a subspace in which the relative geometry of contextual input word-vectors will reflect the degree to which the independent co-occurrence profiles of those word-vectors overlap.  So, given the set $B$ of all dimensions and the input word-vectors $\{t_1, t_2... t_k\}$, $I$ can be selected from this base set of dimensions:
 
@@ -117,7 +117,7 @@ rhinoceros & stearns & polar & \multicolumn{1}{|l}{bred} & carp & domesticated \
 mauled & teddy & passant & \multicolumn{1}{|l}{robotic} & ednas & cat \\
 \hline
 \end{tabular}
-\caption{The top 10 dimensions returned using three different dimensional selection techniques, featuring one set of input terms collectively referring to wild animals and another set collectively referring to pets.}
+\caption[Top Dimensions for Wild Animals]{The top 10 dimensions returned using three different dimensional selection techniques, featuring one set of input terms collectively referring to wild animals and another set collectively referring to pets.}
 \label{tab:dims}
 \end{table}
 
@@ -246,7 +246,7 @@ The second effect is that there is a notion of centre and periphery in my subspa
   \end{tikzpicture}
   \caption{Word-vectors meansured in terms of distance from origin.}\label{fig:geo1-norm}
   \end{subfigure}
-  \caption{Co-occurrence statistics for a small vocabulary construed along two hand-picked dimensions.  Darker regions are expected to be more conceptually prototypical for the context captured by these dimensions.}\label{fig:geo1}
+  \caption[Two Methods for Probing a Subspace]{Co-occurrence statistics for a small vocabulary construed along two hand-picked dimensions.  Darker regions are expected to be more conceptually prototypical for the context captured by these dimensions.}\label{fig:geo1}
 \end{figure}
 
 \subsection{Two Measures for Probing a Subspace} \label{sec:twomeasures}
@@ -304,7 +304,7 @@ civet & dog & from & sumatran & cats & been \\
 sloth & panther & which & gules & golden & one \\
 \hline
 \end{tabular}
-\caption{The top word-vectors in subspaces selected by input terms characteristic of \textsc{wild animals}, for the \textsc{joint} and \textsc{indy} dimension selection techniques, measured in terms of top norms within each subspace (\emph{norm}), word-vectors closest to the mean point between the input word-vectors (\emph{distance}), and also the smallest angle with this mean vector regardless of actual position in the subspace (\emph{angle}).}
+\caption[Top Wild Animal Word-Vectors]{The top word-vectors in subspaces selected by input terms characteristic of \textsc{wild animals}, for the \textsc{joint} and \textsc{indy} dimension selection techniques, measured in terms of top norms within each subspace (\emph{norm}), word-vectors closest to the mean point between the input word-vectors (\emph{distance}), and also the smallest angle with this mean vector regardless of actual position in the subspace (\emph{angle}).}
 \label{tab:tops-wild}
 \end{table}
 
@@ -331,7 +331,7 @@ pets & giant & called & poodle & pig & of \\
 chickens & cats & which & jerboa & cats & has \\
 \hline
 \end{tabular}
-\caption{The top word-vectors in subspace, as in Table~\ref{tab:tops-wild} but selected by input terms characteristic of \textsc{pets}.}
+\caption[Top Pet Word-Vectors]{The top word-vectors in subspace, as in Table~\ref{tab:tops-wild} but selected by input terms characteristic of \textsc{pets}.}
 \label{tab:tops-pet}
 \end{table}
 
@@ -398,7 +398,7 @@ I will now propose a general method for a replete geometric analysis of a contex
 \node [anchor=south] at (axis cs: 1.35,1.6,1.1) {M};
 \end{axis}
 \end{tikzpicture}
-\caption{The geometric features of a subspace contextually projected based on an analysis of two input word-vectors.}
+\caption[Geometric Features of Contextualised Subspaces]{The geometric features of a subspace contextually projected based on an analysis of two input word-vectors.}
 \label{fig:geofull}
 \end{figure}
 
@@ -444,7 +444,7 @@ mean & 2.312 & 11.066 \\
 std & 0.396 & 1.607 \\
 \hline
 \end{tabular}
-\caption{Dimensional profiles in terms of mean and maximum PMI values along dimensions, including mean values and standard deviation as well as the top five and bottom five dimensions for each statistic.}
+\caption[Mean and Maximum PMI Values]{Dimensional profiles in terms of mean and maximum PMI values along dimensions, including mean values and standard deviation as well as the top five and bottom five dimensions for each statistic.}
 \label{tab:profiles}
 \end{table}
 
@@ -488,7 +488,7 @@ word-vectors & $\mu (A,B)/C$, \quad $\mu (A,B)/M$, \quad $\mu (A,B)/X$ \\
 generic points & $C/M$, \quad $C/X$, \quad $M/X$ \\
 \hline
 \end{tabular}
-\caption{Geometric features extrapolated from a subspace projected based on an analysis of two two input terms $A$ and $B$.}
+\caption[Schematic of Geometric Features]{Geometric features extrapolated from a subspace projected based on an analysis of two two input terms $A$ and $B$.}
 \label{tab:features}
 \end{table}
 
@@ -579,7 +579,7 @@ The gist of this experiment is to take a word pair representing a compound noun 
 
 An early version of this experiment was reported in \cite{AgresEA2015}.  That first effort arose out of a question posed by a colleague regarding the feasibility of using a statical NLP technique for generating categorical labels that could be used to evaluate computational creativity in a domain specific way \citep[for a psychological perspective on the difficulty of generating such terms in an objective way using human subjects, see][]{VanDerVeldeEA2015}.  So, for instance, given a creative domain such as \textsc{musical creativity}, could a distributional semantic model generate terms that are reliably relevant to the concept denoted by that phrase, rather than the potentially disparate properties independently associated with \textsc{music} and \textsc{creativity}?  Intuitively there seems to be little reason to hope that the space halfway between these points in a general semantic space would somehow adequately represent the properties of the overall concept.  The early work explored the dimensions contextually selected by analysing the co-occurrence features of word-vectors corresponding to inputs along the lines of the expository results presented anecdotally in Chapter~\ref{chap:method}, but without any rigorous evaluation.
 
-Reviewer responses to a subsequent journal article \citep{McGregorEA2015c}, designed as a more thorough introduction of the methodology, inspired a computationally oriented mode of evaluation.  The experiment that has emerged involves attempting to recapitulate taxonomical conceptual relationships from the WordNet database \citep{Fellbaum1998}.  Wordnet is a lexical taxonomy of \emph{synsets}, basically semantic word senses, arranged into a hierarchy of entailment relationships, with each synset associate with a number of \emph{lemmas}, word types indexed by that synset according to human annotators.  There is precedent for the construction of \emph{ad hoc} datasets from WordNet, with for instance \cite{BaroniEA2012}, \cite{ReidlEA2013}, and \cite{MelamudEA2014} all mining the extensive lexical taxonomy for gold standard entailment relationships.  My experiment takes as input instances of synsets labelled by compound noun phrases and seeks to output as many of the lemmas listed associated with synsets that are hyponyms of the input synset.  So, for instance, the synset \text{body part} has a hyponym \textsc{external body part}, which has a hyponym \textsc{extremity}, which has a synset \textsc{limb}, which has a synset \textsc{leg} associated with the lemma \emph{leg}, and so \emph{leg} would be considered a positive output for the input \emph{body part}.\footnote{In keeping with the convention used elsewhere in this thesis, synset labels will be presented in small caps and lemmas will be presented in italics.}
+Reviewer responses to a subsequent journal article \citep{McGregorEA2015c}, designed as a more thorough introduction of the methodology, inspired a computationally oriented mode of evaluation.  The experiment that has emerged involves attempting to recapitulate taxonomical conceptual relationships from the WordNet database \citep{Fellbaum1998}.  Wordnet is a lexical taxonomy of \emph{synsets}, basically semantic word senses, arranged into a hierarchy of entailment relationships, with each synset associate with a number of \emph{lemmas}, word types indexed by that synset according to human annotators.  There is precedent for the construction of \emph{ad hoc} datasets from WordNet, with for instance \cite{BaroniEA2012}, \cite{RiedlEA2013}, and \cite{MelamudEA2014} all mining the extensive lexical taxonomy for gold standard entailment relationships.  My experiment takes as input instances of synsets labelled by compound noun phrases and seeks to output as many of the lemmas listed associated with synsets that are hyponyms of the input synset.  So, for instance, the synset \text{body part} has a hyponym \textsc{external body part}, which has a hyponym \textsc{extremity}, which has a synset \textsc{limb}, which has a synset \textsc{leg} associated with the lemma \emph{leg}, and so \emph{leg} would be considered a positive output for the input \emph{body part}.\footnote{In keeping with the convention used elsewhere in this thesis, synset labels will be presented in small caps and lemmas will be presented in italics.}
 
 \subsection{Experimental Set-Up}
 12 of the top synset labels consisting of compound noun phrases are extracted from WordNet.  These labels are extracted through a breadth first traversal of the tree of noun synsets, selecting the highest 12 synsets with multi-word labels with the constraint that none of the 12 can be parent nodes of any of the others: in this way, 12 distinct, non-overlapping conceptual categories are choosen.  The experimental vocabulary is considered to be the intersection of the list of all WordNet noun lemmas associated with the vocabulary of my model (the 200,000 most frequent word types in Wikipedia), resulting in a total vocabulary of 32,155 words.  The lemmas associated with all the hyponyms of each synset are extracted and grouped, and these words become the target words for my models' output.  The 12 synset labels are itemised in Table~\ref{tab:wnitems}.
@@ -605,7 +605,7 @@ Results for the set-up described in the previous section can be found in Table~\
 & ratio & 4.967 & 3.525 & 3.967 & 2.997 & 4.290 & \multicolumn{1}{r|}{3.221} & 2.397 & 2.551 \\
 \hline
 \end{tabular}
-\caption{Average accuracy scores and average ratio of accuracy to baseline for reconstructing the lemmas entailed by 12 different multi-word WordNet synsets, for both the top 50 terms returned by models and the full set of terms returned up to the number of lemmas associated with each input.}
+\caption[Accuracy Scores for WordNet Recapitulation]{Average accuracy scores and average ratio of accuracy to baseline for reconstructing the lemmas entailed by 12 different multi-word WordNet synsets, for both the top 50 terms returned by models and the full set of terms returned up to the number of lemmas associated with each input.}
 \label{tab:wordnet}
 \end{table}
 
@@ -636,7 +636,7 @@ Focusing on the accuracy of the results returned by the models up to the full le
 \emph{woody plant} & 0.012 & 0.120 & 0.060 & 0.060 & 0.143 & 0.127 & 0.062 \\
 \hline
 \end{tabular}
-\caption{Item-by-item accuracy results for the entailment experiment run on WordNet synsets, reported for the norm and distance metrics using the \textsc{joint} technique as well as \texttt{word2vec's} bag-of-words method.}
+\caption[WordNet Accuracy Scores for Two Techniques]{Item-by-item accuracy results for the entailment experiment run on WordNet synsets, reported for the norm and distance metrics using the \textsc{joint} technique as well as \texttt{word2vec's} bag-of-words method.}
 \label{tab:wnitems}
 \end{table}
 

@@ -3,59 +3,55 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: cover.aux
 A level-1 auxiliary file: toc.aux
-A level-1 auxiliary file: ch5/Five.aux
+A level-1 auxiliary file: ch3/Three.aux
+A level-1 auxiliary file: ch3.5/ThreePointFive.aux
+A level-1 auxiliary file: ch4/Four.aux
 The style file: apalike.bst
 Database file #1: Mega.bib.bib
-Warning--I didn't find a database entry for "LakoffEA2003"
-Warning--I didn't find a database entry for "Chomsky"
-Warning--I didn't find a database entry for "Langacker"
-Warning--I didn't find a database entry for "WilsonEA"
-Warning--I didn't find a database entry for "Davidson"
-Warning--I didn't find a database entry for "Sweetser"
-Warning--I didn't find a database entry for "Gibson"
-Warning--I didn't find a database entry for "Bateson"
-Warning--I didn't find a database entry for "Raczsek"
-Warning--can't use both author and editor fields in Fraser1993
-Warning--can't use both author and editor fields in Gibbs1993
-You've used 22 entries,
+Warning--I'm ignoring Sahlgren2008's extra "volume" field
+--line 3646 of file Mega.bib.bib
+Warning--can't use both volume and number fields in Carston2010
+Warning--empty publisher in Jager2010
+Warning--empty publisher in Wille2005
+You've used 111 entries,
             1935 wiz_defined-function locations,
-            647 strings with 7483 characters,
-and the built_in function-call counts, 9117 in all, are:
-= -- 908
-> -- 309
-< -- 23
-+ -- 108
-- -- 100
-* -- 713
-:= -- 1513
-add.period$ -- 68
-call.type$ -- 22
-change.case$ -- 153
-chr.to.int$ -- 22
-cite$ -- 24
-duplicate$ -- 394
-empty$ -- 684
-format.name$ -- 134
-if$ -- 1861
-int.to.chr$ -- 1
+            1211 strings with 25020 characters,
+and the built_in function-call counts, 49309 in all, are:
+= -- 4928
+> -- 1722
+< -- 124
++ -- 598
+- -- 557
+* -- 3706
+:= -- 7990
+add.period$ -- 349
+call.type$ -- 111
+change.case$ -- 800
+chr.to.int$ -- 108
+cite$ -- 114
+duplicate$ -- 2243
+empty$ -- 3765
+format.name$ -- 724
+if$ -- 10315
+int.to.chr$ -- 4
 int.to.str$ -- 0
-missing$ -- 30
-newline$ -- 113
-num.names$ -- 68
-pop$ -- 166
+missing$ -- 129
+newline$ -- 559
+num.names$ -- 360
+pop$ -- 960
 preamble$ -- 1
-purify$ -- 159
+purify$ -- 817
 quote$ -- 0
-skip$ -- 304
+skip$ -- 1683
 stack$ -- 0
-substring$ -- 659
-swap$ -- 87
-text.length$ -- 7
+substring$ -- 3515
+swap$ -- 558
+text.length$ -- 53
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 116
-warning$ -- 2
-while$ -- 77
+type$ -- 626
+warning$ -- 3
+while$ -- 426
 width$ -- 0
-write$ -- 291
-(There were 11 warnings)
+write$ -- 1461
+(There were 4 warnings)
