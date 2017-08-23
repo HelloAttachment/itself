@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.7.19)  21 AUG 2017 18:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.7.19)  22 AUG 2017 23:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -647,7 +647,7 @@ File: tikzlibraryshapes.arrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
 s.arrows.code.tex
 File: pgflibraryshapes.arrows.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
-)) (./thesis.aux (./cover.aux) (./toc.aux) (./ch4/Four.aux))
+)) (./thesis.aux (./cover.aux) (./toc.aux) (./ch5/Five.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
@@ -786,28 +786,19 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 
 [5
 
-] (./thesis.lot
-Overfull \hbox (7.12524pt too wide) in paragraph at lines 4--4
- [][] []\T1/cmr/m/n/10.95 A com-par-i-son of Spear-man's cor-re-la-tions return
-ed by var-i-ous mod-els, includ- 
- []
-
-)
+] (./thesis.lot)
 \tf@lot=\write6
 \openout6 = `thesis.lot'.
 
  [6
 
 ])
-\openout2 = `ch4/Four.aux'.
+\openout2 = `ch5/Five.aux'.
 
- (./ch4/Four.tex
+ (./ch5/Five.tex
 Chapter 3.
 
-LaTeX Warning: Reference `chap:theory' on page 1 undefined on input line 2.
-
-
-LaTeX Warning: Reference `chap:method' on page 1 undefined on input line 2.
+LaTeX Warning: Reference `sec:figurative' on page 1 undefined on input line 2.
 
 [1
 
@@ -815,259 +806,101 @@ LaTeX Warning: Reference `chap:method' on page 1 undefined on input line 2.
 
 ]
 
-Package natbib Warning: Citation `RubensteinEA1965' on page 2 undefined on inpu
-t line 8.
+Package natbib Warning: Citation `LakoffEA2003' on page 2 undefined on input li
+ne 11.
 
+[2] [3]
 
-Package natbib Warning: Citation `YangEA2006' on page 2 undefined on input line
- 8.
+Package natbib Warning: Citation `Chomsky' on page 4 undefined on input line 24
+.
 
-
-Package natbib Warning: Citation `FinkelsteinEA2002' on page 2 undefined on inp
-ut line 8.
-
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 8.
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+[4]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 53.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+) [5] [6] [7]
+[8] [9]
+
+LaTeX Warning: Reference `sec:pof' on page 10 undefined on input line 190.
+
+[10] [11]
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+ [12]
+
+Package natbib Warning: Citation `JankowiakEA2015' on page 13 undefined on inpu
+t line 411.
+
+
+Package natbib Warning: Citation `AgresEA2016' on page 13 undefined on input li
+ne 411.
+
+[13] [14] [15]
+
+Package natbib Warning: Citation `Wittgenstein1953' on page 16 undefined on inp
+ut line 447.
+
+
+Package natbib Warning: Citation `Wittgenstein1953' on page 16 undefined on inp
+ut line 447.
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 447.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-Underfull \hbox (badness 10000) in paragraph at lines 8--8
-[][]\T1/cmr/m/n/9 Copies of the instruc-tions, along with the data itself, can 
-be found at
- []
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 447.
 
 
-Package natbib Warning: Citation `BruniEA2012' on page 2 undefined on input lin
-e 8.
+Package natbib Warning: Citation `PustejovskyEA2010' on page 16 undefined on in
+put line 452.
 
-
-Package natbib Warning: Citation `FaruquiEA2016' on page 2 undefined on input l
-ine 8.
-
-
-Package natbib Warning: Citation `AgirreEA2009' on page 2 undefined on input li
-ne 10.
-
-
-Package natbib Warning: Citation `HillEA2015' on page 2 undefined on input line
- 10.
-
-
-Package natbib Warning: Citation `MihalceaEA2006' on page 2 undefined on input 
-line 10.
-
-
-Package natbib Warning: Citation `HassanEA2011' on page 2 undefined on input li
-ne 10.
-
-[2]
-
-Package natbib Warning: Citation `GabrilovichEA2007' on page 3 undefined on inp
-ut line 17.
-
-
-Package natbib Warning: Citation `HassanEA2011' on page 3 undefined on input li
-ne 17.
-
-
-Package natbib Warning: Citation `HuangEA2012' on page 3 undefined on input lin
-e 17.
-
-
-Package natbib Warning: Citation `LuongEA2013' on page 3 undefined on input lin
-e 17.
-
-
-Package natbib Warning: Citation `RadinskyEA2011' on page 3 undefined on input 
-line 17.
-
-
-Package natbib Warning: Citation `HalawiEA2012' on page 3 undefined on input li
-ne 17.
-
-[3]
-
-LaTeX Warning: Reference `fig:geofull' on page 4 undefined on input line 24.
-
-
-Package natbib Warning: Citation `Sahlgren' on page 4 undefined on input line 4
-5.
-
-
-Package natbib Warning: Citation `Saussure' on page 4 undefined on input line 4
-5.
-
-
-Package natbib Warning: Citation `Saussure' on page 4 undefined on input line 4
-5.
-
-[4] [5]
-
-Package natbib Warning: Citation `LevyEA2014b' on page 6 undefined on input lin
-e 49.
-
-[6] [7]
-
-LaTeX Warning: Reference `sec:twomeasures' on page 8 undefined on input line 10
-6.
-
-
-Package natbib Warning: Citation `HassanEA2011' on page 8 undefined on input li
-ne 114.
-
-
-Package natbib Warning: Citation `LuongEA2013' on page 8 undefined on input lin
-e 115.
-
-
-Package natbib Warning: Citation `GabrilovichEA2007' on page 8 undefined on inp
-ut line 117.
-
-
-Package natbib Warning: Citation `RadinskyEA2011' on page 8 undefined on input 
-line 118.
-
-
-Package natbib Warning: Citation `HalawiEA2012' on page 8 undefined on input li
-ne 119.
-
-
-Package natbib Warning: Citation `HalawieEA2012' on page 8 undefined on input l
-ine 126.
-
-
-Package natbib Warning: Citation `GabrilovichEA2007' on page 8 undefined on inp
-ut line 126.
-
-
-Package natbib Warning: Citation `RadinskyEA2011' on page 8 undefined on input 
-line 126.
-
-
-Package natbib Warning: Citation `HalawieEA2012' on page 8 undefined on input l
-ine 126.
-
-[8]
-
-Package natbib Warning: Citation `HillEA2015' on page 9 undefined on input line
- 180.
-
-
-Package natbib Warning: Citation `RecskiEA2016' on page 9 undefined on input li
-ne 182.
-
-
-Package natbib Warning: Citation `KornaiEA2015' on page 9 undefined on input li
-ne 182.
-
-
-Package natbib Warning: Citation `BanjadeEA2015' on page 9 undefined on input l
-ine 182.
-
-
-Package natbib Warning: Citation `SchwartzEA2015' on page 9 undefined on input 
-line 182.
-
-
-Package natbib Warning: Citation `MaEA2017' on page 9 undefined on input line 1
-82.
-
-[9] [10]
-
-Package natbib Warning: Citation `HillEA2015' on page 11 undefined on input lin
-e 212.
-
-
-Package natbib Warning: Citation `HillEA2015' on page 11 undefined on input lin
-e 214.
-
-
-Package natbib Warning: Citation `KielaEA2014' on page 11 undefined on input li
-ne 214.
-
-
-Package natbib Warning: Citation `AgirreEA2009' on page 11 undefined on input l
-ine 214.
-
-[11]
-
-LaTeX Warning: Reference `sec:replete' on page 12 undefined on input line 236.
-
-[12]
-
-Package natbib Warning: Citation `OBrien2007' on page 13 undefined on input lin
-e 240.
-
-[13]
-
-LaTeX Warning: Reference `tab:ind-similarity' on page 14 undefined on input lin
-e 282.
-
-[14]
-
-Package natbib Warning: Citation `MaEA2017' on page 15 undefined on input line 
-300.
-
-
-Package natbib Warning: Citation `SchwartzEA2015' on page 15 undefined on input
- line 302.
-
-
-Package natbib Warning: Citation `BanjadeEA2015' on page 15 undefined on input 
-line 303.
-
-
-Package natbib Warning: Citation `RecskiEA2016' on page 15 undefined on input l
-ine 304.
-
-
-Package natbib Warning: Citation `SchwartzEA2015' on page 15 undefined on input
- line 311.
-
-
-Package natbib Warning: Citation `SchwartzEA2015' on page 15 undefined on input
- line 311.
-
-
-Package natbib Warning: Citation `BajadeEA2015' on page 15 undefined on input l
-ine 311.
-
-
-Package natbib Warning: Citation `BajadeEA2015' on page 15 undefined on input l
-ine 311.
-
-
-Package natbib Warning: Citation `RecskiEA2016' on page 15 undefined on input l
-ine 311.
-
-
-Package natbib Warning: Citation `RecskiEA2016' on page 15 undefined on input l
-ine 311.
-
-[15] [16]
-
-LaTeX Warning: Reference `sec:math' on page 17 undefined on input line 423.
-
-
-LaTeX Warning: Reference `eq:logdif' on page 17 undefined on input line 423.
-
-[17]
-
-Package natbib Warning: Citation `LevyEA2015' on page 18 undefined on input lin
-e 427.
-
-[18] [19]
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
+[16] [17] [18]
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -1113,138 +946,86 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-
-
-Package natbib Warning: Citation `Tversky1977' on page 20 undefined on input li
-ne 816.
-
-[20]
-
-Package natbib Warning: Citation `ChenEA2017' on page 21 undefined on input lin
-e 818.
-
-
-Package natbib Warning: Citation `ChenEA2017' on page 21 undefined on input lin
-e 818.
 
 
-Overfull \hbox (5.50826pt too wide) in paragraph at lines 818--819
-\T1/cmr/m/n/10.95 rela-tion-ships, as is \T1/cmr/m/it/10.95 mother:baby::frog:t
-adpole\T1/cmr/m/n/10.95 , but the propo-si-tion \T1/cmr/m/it/10.95 nurse:patien
-t::frog:tadpole
- []
+Package natbib Warning: Citation `WilsonEA' on page 19 undefined on input line 
+814.
 
+[19] [20]
 
-LaTeX Warning: Reference `sec:lexsem' on page 21 undefined on input line 820.
+Package natbib Warning: Citation `Davidson' on page 21 undefined on input line 
+820.
 
 
-Package natbib Warning: Citation `BarsalouEA1993' on page 21 undefined on input
- line 820.
+Package natbib Warning: Citation `Sweetser' on page 21 undefined on input line 
+820.
 
-[21]
 
-Package natbib Warning: Citation `FaruquiEA2016' on page 22 undefined on input 
-line 830.
+Package natbib Warning: Citation `Gibson' on page 21 undefined on input line 82
+0.
 
-[22]
 
-Package natbib Warning: Citation `HerbelotEA2013' on page 23 undefined on input
- line 832.
+Package natbib Warning: Citation `Bateson' on page 21 undefined on input line 8
+20.
 
 
-Package natbib Warning: Citation `MelamudEA2014' on page 23 undefined on input 
-line 832.
+Package natbib Warning: Citation `Raczsek' on page 21 undefined on input line 8
+20.
 
-[23]) [24] (./thesis.bbl
+) [21] (./thesis.bbl
 Overfull \hbox (3.89093pt too wide) in paragraph at lines 52--55
 []\T1/cmr/m/n/10.95 Gibbs Jr., R. W. (1993).  \T1/cmr/m/it/10.95 Pro-cess and p
 rod-ucts in mak-ing sense of tropes\T1/cmr/m/n/10.95 , page 252–276.
  []
 
-[25
+[22
 
 
 ])
 
 Package natbib Warning: There were undefined citations.
 
-[26] (./thesis.aux (./cover.aux) (./toc.aux) (./ch4/Four.aux))
+[23] (./thesis.aux (./cover.aux) (./toc.aux) (./ch5/Five.aux))
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 25213 strings out of 493029
- 619250 string characters out of 6136234
- 848494 words of memory out of 5000000
- 28235 multiletter control sequences out of 15000+600000
- 26312 words of font info for 67 fonts, out of 8000000 for 9000
+ 25271 strings out of 493029
+ 620549 string characters out of 6136234
+ 850891 words of memory out of 5000000
+ 28289 multiletter control sequences out of 15000+600000
+ 26987 words of font info for 68 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 61i,13n,103p,2328b,2355s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 58i,19n,84p,1975b,2355s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-y9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam1
-0.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx0900.pfb></usr/share/te
-xmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/publ
-ic/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440
-.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/tex
-mf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/publi
-c/cm-super/sfcc1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0600.
-pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texm
-f/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf/fonts/type1/public
-/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.p
-fb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf
-/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf/fonts/type1/public/
-cm-super/sfrm2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti0900.pf
-b></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf/
-fonts/type1/public/cm-super/sftt0900.pfb></usr/share/texmf/fonts/type1/public/c
-m-super/sftt1095.pfb>
-Output written on thesis.pdf (33 pages, 535629 bytes).
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols
+/msam10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx0900.pfb></usr/sh
+are/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type
+1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sf
+bx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pfb></usr/sha
+re/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1
+/public/cm-super/sfcc0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfc
+c1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0600.pfb></usr/shar
+e/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/
+public/cm-super/sfrm0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm
+1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share
+/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/p
+ublic/cm-super/sfrm1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2
+488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti0900.pfb></usr/share/
+texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/type1/pu
+blic/cm-super/sftt0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt10
+95.pfb>
+Output written on thesis.pdf (30 pages, 506353 bytes).
 PDF statistics:
- 227 PDF objects out of 1000 (max. 8388607)
- 162 compressed objects within 2 object streams
+ 217 PDF objects out of 1000 (max. 8388607)
+ 155 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
