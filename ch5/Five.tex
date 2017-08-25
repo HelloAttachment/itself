@@ -571,22 +571,22 @@ Another telling feature of these results is the quite strong performance of the 
 \hline
 \multicolumn{2}{c}{\textsc{joint}} & \multicolumn{2}{c}{\textsc{indy}} & \multicolumn{2}{c}{\textsc{zipped}} \\
 \hline
-$A/B$ & 0.544 & $A/B$ & 0.447 & $\angle AXB$ & 0.450 \\
-$\mu(\overline{A'C'},\overline{B'C'})$ & 0.543 & $\angle AOB$ & 0.442 & $\mu(A,B)/C$ & 0.312 \\
-$\angle AXB$ & 0.537 & $\mu(\overline{A'M'},\overline{B'M'})$ & 0.435 & $\mu(\overline{A'C'},\overline{B'C'})$ & 0.276 \\
-$\mu(\overline{A'X'},\overline{B'X'})$ & 0.527 & $\mu(\overline{A'C'},\overline{B'C'})$ & 0.417 & $\angle AOB$ & 0.261 \\
-$\mu(\overline{A'M'},\overline{B'M'})$ & 0.514 & $\mu(\overline{A'X'},\overline{B'X'})$ & 0.385 & $\mu(\overline{A'X'},\overline{B'X'})$ & 0.249 \\
+$\mu(\overline{A'X'},\overline{B'X'})$ & 0.526 & $\mu(\overline{A'X'},\overline{B'X'})$ & 0.547 & $\mu(\overline{A'C'},\overline{B'C'})$ & 0.392 \\
+$\mu(\overline{A'C'},\overline{B'X'}$ & 0.496 & $\mu(\overline{A'C'},\overline{B'C'})$ & 0.544 & $\mu(A,B)/C$ & 0.349 \\
+$\mu(\overline{A'M'},\overline{B'M'}$ & 0.453 & $\mu(A,B)/C$ & 0.522 & $\mu(\overline{A'X'},\overline{B'X'})$ & 0.321 \\
+$\mu(A,B)/C$ & 0.442 & $\angle AOB$ & 0.517 & $\mu(\overline{A'M'},\overline{B'M'})$ & 0.237 \\
+$\angle AOB$ & 0.429 & $\mu(\overline{A'M'},\overline{B'M'})$ & 0.504 & $\angle AOB$ & 0.209 \\
 \hline
 \end{tabular}
 \vfill
 \begin{tabular}{lr|lr}
 \multicolumn{2}{c}{\textsc{verb}} & \multicolumn{2}{c}{\textsc{noun}} \\
 \hline
-$\mu(\overline{A'M'},\overline{B'M'})$ & 0.315 & $A:B$ & 0.531 \\
-$\overline{AC}/\overline{BC}$ & 0.314 & $A/B$ & 0.531 \\
-$A/B$ & 0.252 & $\mu(\overline{AB})/C$ & 0.484 \\
-$\mu(\overline{A'C'},\overline{B'C'})$ & 0.248 & $\angle AMB$ & 0.420 \\
-$\angle A'M'B'$ & 0.238 & $\angle ACB$ & 0.375 \\
+$\overline{AC}/\overline{BC}$ & 0.580 & $A:B$ & 0.528 \\
+$A:B$ & 0.412 & $A/B$ & 0.486 \\
+$A/B$ & 0.387 & $\mu(A,B)/C$ & 0.486 \\
+$\mu(\overline{A'M'},\overline{B'M'})$ & 0.384 & $\angle AMB$ & 0.427 \\
+$\mu(\overline{A'X'},\overline{B'X'})$ & 0.374 & $\angle ACB$ & 0.423 \\
 \hline
 \end{tabular}
 \caption[Top Independent Features for Coercion Classification]{Independent f-scores from the coercion classification data for top five features of each subspace type for 2x2 word co-occurrence window, 400 dimension subspaces, validated on unobserved verbs.}
@@ -809,6 +809,41 @@ generic vectors & $C/M = -0.838$ & $0.974 = M/X$ \\
 \end{figure}
 
 \subsection{Adding Sentential Context}
+\begin{table}
+\centering
+\begin{tabular}{llrrrr|rrrr}
+\hline
+\multicolumn{2}{l}{\emph{window}} & \multicolumn{4}{c}{2x2} & \multicolumn{4}{c}{5x5} \\
+\multicolumn{2}{l}{\emph{dimensions}} & 20 & 50 & 200 & \multicolumn{1}{c}{400} & 20 & 50 & 200 & 400 \\
+\hline
+\parbox[t]{2mm}{\multirow{4}{*}{\rotatebox[origin=c]{90}{\textsc{joint}}}} & nouns & 0.157 & 0.174 & 0.244 & 0.283 & 0.193 & 0.244 & 0.257 & 0.271 \\
+& verbs & 0.121 & 0.155 & 0.190 & 0.237 & 0.117 & 0.163 & 0.215 & 0.229 \\
+& adjectives & 0.083 & 0.113 & 0.179 & 0.187 & 0.119 & 0.131 & 0.183 & 0.207 \\
+& adverbs & 0.042 & 0.091 & 0.155 & 0.154 & 0.101 & 0.128 & 0.171 & 0.174 \\
+\hline
+\parbox[t]{2mm}{\multirow{4}{*}{\rotatebox[origin=c]{90}{\textsc{indy}}}} & nouns & 0.092 & 0.133 & 0.147 & 0.157 & 0.158 & 0.170 & 0.148 & 0.168 \\
+& verbs & 0.117 & 0.126 & 0.173 & 0.165 & 0.147 & 0.209 & 0.174 & 0.201 \\
+& adjectives & 0.123 & 0.114 & 0.162 & 0.172 & 0.173 & 0.161 & 0.151 & 0.184 \\
+& adverbs & 0.115 & 0.137 & 0.139 & 0.120 & 0.167 & 0.146 & 0.121 & 0.111 \\
+\hline
+\end{tabular}
+\caption[Correlations for Part-of-Speech Based Subspaces]{F-scores for coercion detection in full featured subspaces based on \textsc{joint} and \textsc{indy} analyses of parts of speech found in each sentence containing a verb-noun pair.}
+
+\begin{table}
+\centering
+\begin{tabular}{lrrrr|rrrr}
+\hline
+\emph{window} & \multicolumn{4}{c}{2x2} & \multicolumn{4}{c}{5x5} \\
+\emph{dimensions} & 20 & 50 & 200 & \multicolumn{1}{c}{400} & 20 & 50 & 200 & 400 \\
+\hline
+\textsc{joint} & 0.348 & 0.369 & 0.352 & 0.371 & 0.369 & 0.392 & 0.362 & 0.383 \\
+\textsc{indy} & 0.411 & 0.406 & 0.467 & 0.494 & 0.402 & 0.358 & 0.421 & 0.438 \\
+\hline
+\end{tabular}
+\caption[F-Scores for Coercion Classification Testing on Unseen Verbs]{F-scores for coercion identification taking each verb stem type as a separate fold of a cross-validation.}
+\label{tab:verb-coercion}
+\end{table}
+\end{table}
 
 \section{Interpretation and Composition in Context}
 One of the tricky things about figurative language is its ephemerality: if we stare at it for long enough through a theoretical lens, it seems to vanish, as is evident in the deflationary case made by \cite{WilsonEA}.  But on the other hand, if we ask someone in street whether the phase \emph{buy a story} is more metaphoric than \emph{buy a book}, we can reasonably expect the answer will almost always be ``yes'', and it would be a mistake to dismiss the evidence that in a colloquial sense some compositions are clearly metaphoric, and others are clearly not.  This raises a challenging point with regard to the comparison between metaphor and coercion, the two instances of figurative language explored in this chapter: is metaphor perhaps to some extent a more overt case of coercion, or maybe a specific case that is in some way or another a little more subtle?  Part of the problem here is that the distinctions between these phenomena begin to exceed the capacity for what can reliably be quantified about language in a clinical setting, with evaluative criteria that will depend on the opinion of an expert which comes pre-packaged with inevitable biases.
