@@ -13,4 +13,4 @@
 \contentsline {subsection}{\numberline {3.2.2}The Geometry of Coercion}{22}
 \contentsline {subsection}{\numberline {3.2.3}Adding Sentential Context}{22}
 \contentsline {section}{\numberline {3.3}Interpretation and Composition in Context}{22}
-\contentsline {chapter}{References}{25}
+\contentsline {chapter}{References}{26}

@@ -9,3 +9,5 @@
 \contentsline {table}{\numberline {3-H}{\ignorespaces F-Scores for Coercion Classification Testing on Unseen Verbs}}{21}
 \contentsline {table}{\numberline {3-I}{\ignorespaces Top Independent Features for Coercion Classification}}{22}
 \contentsline {table}{\numberline {3-J}{\ignorespaces Comparison of the seven most effective features for coercion classification in 2x2 word, 400 dimensional subspaces for \textsc {indy} versus \textsc {verb} based dimension selection.\relax }}{23}
+\contentsline {table}{\numberline {3-K}{\ignorespaces Correlations for Part-of-Speech Based Subspaces}}{23}
+\contentsline {table}{\numberline {3-L}{\ignorespaces F-Scores for Coercion Classification Testing on Unseen Verbs}}{23}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.18)  25 AUG 2017 17:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.18)  30 AUG 2017 16:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -668,7 +668,11 @@ File: tikzlibraryshapes.arrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 shapes.arrows.code.tex
 File: pgflibraryshapes.arrows.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
 )) (./thesis.aux (./cover.aux) (./toc.aux)
-(./ch5/Five.aux))
+(./ch5/Five.aux
+
+LaTeX Warning: Label `tab:verb-coercion' multiply defined.
+
+))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
@@ -1025,7 +1029,13 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
 Package natbib Warning: Citation `PustejovskyEA2010' on page 18 undefined on in
 put line 452.
 
-[18] [19] [20] [21]
+[18] [19] [20]
+Overfull \hbox (10.0386pt too wide) in paragraph at lines 596--597
+\T1/cmr/m/n/10.95 ('0.688', [('fAMB', '2.315'), ('fCM', '-2.398'), ('aCOM', '1.
+241'), ('aCOX', '-0.214'), ('lAXB',
+ []
+
+[21]
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -1074,59 +1084,62 @@ Missing character: There is no ; in font nullfont!
 
 
 Package natbib Warning: Citation `WilsonEA' on page 22 undefined on input line 
-832.
+847.
 
 [22] [23]
 
 Package natbib Warning: Citation `Shutova2015' on page 24 undefined on input li
-ne 836.
+ne 851.
 
 
 Package natbib Warning: Citation `Shutova2015' on page 24 undefined on input li
-ne 836.
+ne 851.
 
 
 Package natbib Warning: Citation `Davidson' on page 24 undefined on input line 
-838.
+853.
 
 
 Package natbib Warning: Citation `Sweetser' on page 24 undefined on input line 
-838.
+853.
 
 
-Package natbib Warning: Citation `Gibson' on page 24 undefined on input line 83
-8.
+Package natbib Warning: Citation `Gibson' on page 24 undefined on input line 85
+3.
 
 
 Package natbib Warning: Citation `Bateson' on page 24 undefined on input line 8
-38.
+53.
 
 
 Package natbib Warning: Citation `Raczsek' on page 24 undefined on input line 8
-38.
+53.
 
-) [24] (./thesis.bbl
+) [24] [25] (./thesis.bbl
 Overfull \hbox (7.62492pt too wide) in paragraph at lines 10--17
 \T1/cmr/m/n/10.95 study on sim-i-lar-ity and relat-ed-ness using dis-tri-bu-tio
 nal and wordnet-based approaches.
  []
 
-[25
+[26
 
 
-] [26] [27] [28] [29] [30] [31])
+] [27] [28] [29] [30] [31] [32])
 
 Package natbib Warning: There were undefined citations.
 
-[32] (./thesis.aux (./cover.aux) (./toc.aux) (./ch5/Five.aux))
+[33] (./thesis.aux (./cover.aux) (./toc.aux) (./ch5/Five.aux))
 
 LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
  25616 strings out of 492990
  628732 string characters out of 6132621
- 843374 words of memory out of 5000000
+ 844408 words of memory out of 5000000
  28650 multiletter control sequences out of 15000+600000
  26987 words of font info for 68 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
@@ -1161,10 +1174,10 @@ pe1/public/cm-super/sfti0900.pfb></usr/local/texlive/2017/texmf-dist/fonts/type
 1/public/cm-super/sfti1095.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/
 public/cm-super/sftt0900.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pu
 blic/cm-super/sftt1095.pfb>
-Output written on thesis.pdf (40 pages, 541739 bytes).
+Output written on thesis.pdf (41 pages, 545669 bytes).
 PDF statistics:
- 255 PDF objects out of 1000 (max. 8388607)
- 182 compressed objects within 2 object streams
+ 258 PDF objects out of 1000 (max. 8388607)
+ 184 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
