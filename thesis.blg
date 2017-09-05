@@ -4,55 +4,61 @@ The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: cover.aux
 A level-1 auxiliary file: toc.aux
 A level-1 auxiliary file: ch2/Two.aux
+A level-1 auxiliary file: ch3/Three.aux
+A level-1 auxiliary file: ch3.5/ThreePointFive.aux
+A level-1 auxiliary file: ch4/Four.aux
 The style file: apalike.bst
+Reallocated field_info (elt_size=4) to 10214 items from 5000.
 Database file #1: Mega.bib.bib
 Warning--I'm ignoring Sahlgren2008's extra "volume" field
 --line 3942 of file Mega.bib.bib
 Warning--empty journal in Carston2010
 Warning--empty booktitle in Hume1738
 Warning--empty booktitle in Husserl1900
+Warning--empty publisher in Jager2010
 Warning--empty booktitle in Locke1689
 Warning--empty chapter and pages in Sowa2006
 Warning--there's a number but no volume in Wiggins2012
-You've used 163 entries,
+Warning--empty publisher in Wille2005
+You've used 237 entries,
             1935 wiz_defined-function locations,
-            1502 strings with 27828 characters,
-and the built_in function-call counts, 62093 in all, are:
-= -- 6145
-> -- 1865
-< -- 184
-+ -- 659
-- -- 576
-* -- 4562
-:= -- 10479
-add.period$ -- 522
-call.type$ -- 163
-change.case$ -- 1039
-chr.to.int$ -- 160
-cite$ -- 169
-duplicate$ -- 2838
-empty$ -- 4909
-format.name$ -- 805
-if$ -- 12725
-int.to.chr$ -- 4
+            1947 strings with 41893 characters,
+and the built_in function-call counts, 95984 in all, are:
+= -- 9560
+> -- 3055
+< -- 269
++ -- 1068
+- -- 963
+* -- 7102
+:= -- 15903
+add.period$ -- 753
+call.type$ -- 237
+change.case$ -- 1584
+chr.to.int$ -- 232
+cite$ -- 245
+duplicate$ -- 4389
+empty$ -- 7479
+format.name$ -- 1310
+if$ -- 19862
+int.to.chr$ -- 6
 int.to.str$ -- 0
-missing$ -- 215
-newline$ -- 828
-num.names$ -- 524
-pop$ -- 1175
+missing$ -- 298
+newline$ -- 1198
+num.names$ -- 761
+pop$ -- 1834
 preamble$ -- 1
-purify$ -- 1088
+purify$ -- 1641
 quote$ -- 0
-skip$ -- 2102
+skip$ -- 3280
 stack$ -- 0
-substring$ -- 4255
-swap$ -- 507
-text.length$ -- 45
+substring$ -- 6708
+swap$ -- 921
+text.length$ -- 84
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 868
-warning$ -- 6
-while$ -- 535
+type$ -- 1290
+warning$ -- 8
+while$ -- 830
 width$ -- 0
-write$ -- 2140
-(There were 7 warnings)
+write$ -- 3113
+(There were 9 warnings)
