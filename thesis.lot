@@ -1,22 +1,13 @@
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {2-A}{\ignorespaces Spearman's Correlations for Relatedness}}{6}
-\contentsline {table}{\numberline {2-B}{\ignorespaces Relatedness Correlations of Individual Features}}{8}
-\contentsline {table}{\numberline {2-C}{\ignorespaces Comparison of Relatedness Scores}}{10}
-\contentsline {table}{\numberline {2-D}{\ignorespaces Spearman's Correlations for Similarity}}{13}
-\contentsline {table}{\numberline {2-E}{\ignorespaces Similarity Correlations of Individual Features}}{15}
-\contentsline {table}{\numberline {2-F}{\ignorespaces Optimal Feature Vectors for Similarity}}{16}
-\contentsline {table}{\numberline {2-G}{\ignorespaces Comparison of Similarity Scores}}{18}
-\contentsline {table}{\numberline {2-H}{\ignorespaces Comparing Optimal Features for Relatedness and Similarity}}{20}
-\addvspace {10\p@ }
-\contentsline {table}{\numberline {3-A}{\ignorespaces Context Sensitive and Static Model F-Scores for Metaphor Classification}}{34}
-\contentsline {table}{\numberline {3-B}{\ignorespaces F-Scores for Metaphor Classification of Unseen Adjectives}}{36}
-\contentsline {table}{\numberline {3-C}{\ignorespaces Comparative Metaphor Classification Statistics}}{38}
-\contentsline {table}{\numberline {3-D}{\ignorespaces Top Independent Features for Metaphor Classification}}{39}
-\contentsline {table}{\numberline {3-E}{\ignorespaces Most Predictive Feature Vectors for Metaphor Classification}}{41}
-\contentsline {table}{\numberline {3-F}{\ignorespaces Scoring Metaphoricity Based On Classification Data}}{44}
-\contentsline {table}{\numberline {3-G}{\ignorespaces Context Sensitive and Static Model F-Scores for Coercion Classification}}{48}
-\contentsline {table}{\numberline {3-H}{\ignorespaces F-Scores for Coercion Classification Testing on Unseen Verbs}}{49}
-\contentsline {table}{\numberline {3-I}{\ignorespaces Top Independent Features for Coercion Classification}}{52}
-\contentsline {table}{\numberline {3-J}{\ignorespaces Comparison of the seven most effective features for coercion classification in 2x2 word, 400 dimensional subspaces for \textsc {indy} versus \textsc {verb} based dimension selection.\relax }}{53}
-\contentsline {table}{\numberline {3-K}{\ignorespaces Correlations for Part-of-Speech Based Subspaces}}{54}
-\contentsline {table}{\numberline {3-L}{\ignorespaces F-Scores for Coercion Classification Using Full Sentences}}{55}
+\contentsline {table}{\numberline {2-A}{\ignorespaces Context Sensitive and Static Model F-Scores for Metaphor Classification}}{6}
+\contentsline {table}{\numberline {2-B}{\ignorespaces F-Scores for Metaphor Classification of Unseen Adjectives}}{8}
+\contentsline {table}{\numberline {2-C}{\ignorespaces Comparative Metaphor Classification Statistics}}{10}
+\contentsline {table}{\numberline {2-D}{\ignorespaces Top Independent Features for Metaphor Classification}}{11}
+\contentsline {table}{\numberline {2-E}{\ignorespaces Most Predictive Feature Vectors for Metaphor Classification}}{13}
+\contentsline {table}{\numberline {2-F}{\ignorespaces Scoring Metaphoricity Based On Classification Data}}{16}
+\contentsline {table}{\numberline {2-G}{\ignorespaces Context Sensitive and Static Model F-Scores for Coercion Classification}}{20}
+\contentsline {table}{\numberline {2-H}{\ignorespaces F-Scores for Coercion Classification Testing on Unseen Verbs}}{22}
+\contentsline {table}{\numberline {2-I}{\ignorespaces Top Independent Features for Coercion Classification}}{24}
+\contentsline {table}{\numberline {2-J}{\ignorespaces Comparison of the seven most effective features for coercion classification in 2x2 word, 400 dimensional subspaces for \textsc {indy} versus \textsc {verb} based dimension selection.\relax }}{26}
+\contentsline {table}{\numberline {2-K}{\ignorespaces Correlations for Part-of-Speech Based Subspaces}}{30}
+\contentsline {table}{\numberline {2-L}{\ignorespaces F-Scores for Coercion Classification Using Full Sentences}}{30}
