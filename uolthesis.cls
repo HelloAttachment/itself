@@ -186,6 +186,9 @@
 \def\prevdegrees#1{\gdef\@prevdegrees{#1}}
 \def\@prevdegrees{}
 
+\def\firstsup#1{\gdef\@firstsup{#1}}
+\def\secondsup#1{\gdef\@secondsup{#1}}
+
 \def\department#1{\gdef\@department{#1}}
 \def\college#1{\gdef\@college{#1}}
 
@@ -249,7 +252,11 @@ reserved.\par\permission}}
 {\@degreeword}
 {of}
 {\LARGE\@degree}\par}
-\vskip 6cm
+%\vskip 6cm
+\vskip 2.5cm
+{\Large First Supervisor: Prof. Geraint Wiggins} \\
+{\Large Second Supervisor: Dr. Matthew Purver} \\
+\vskip 2.5 cm
 {\Large \@department\\
 \@college\\
 United Kingdom\\
@@ -270,13 +277,15 @@ United Kingdom\\
 \def\makedeclaration{\begin{titlepage}
 \vspace*{2cm}
 \justifying
+The text of this thesis, as well as the research it describes, is my own original work and has not been previously submitted for any other degree or qualification.  In places where words or ideas have been adopted from others, I have clearly indicated this with quotations and citations as appropriate.  Everything else, in both form and content, has been made by me and no one else.
+
 My university requires me to make the following statement:
 
 The copyright of this thesis rests with the author and no quotation from it or information derived from it may be published without the prior written consent of the author.
 
 I add this:
 
-I hereby grant permission to anyone to do anything they so please with the text of this thesis and any information they derive from it or meaning they find in it, with or without acknowledgement of the source.
+I hereby grant permission to anyone to do anything they so please with the text of this thesis and any information they derive from it or meaning they find in it.
 \vfill
 \end{titlepage}}
 

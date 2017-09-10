@@ -47,6 +47,17 @@
 %\newcommand{\argmax}[1]{\underset{#1}{\operatorname{arg}\,\operatorname{max}}\;}
 \DeclareMathOperator*{\argmax}{argmax}
 
+\makeatletter
+\tikzset{
+    scale plot marks/.is choice,
+    scale plot marks/false/.code={
+        \def\pgfuseplotmark##1{\pgftransformresetnontranslations\csname pgf@plot@mark@##1\endcsname}
+    },
+    scale plot marks/true/.style={},
+    scale plot marks/.default=true
+}
+\makeatother
+
 %Modify the Figure Captionequ1-1:shannon
 %\renewcommand{\figurename}{Fig.}
 %set the figures captions

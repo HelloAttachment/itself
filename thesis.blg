@@ -9,11 +9,10 @@ A level-1 auxiliary file: ch3.5/ThreePointFive.aux
 A level-1 auxiliary file: ch4/Four.aux
 A level-1 auxiliary file: ch5/Five.aux
 The style file: apalike.bst
-Reallocated field_info (elt_size=4) to 10698 items from 5000.
+Reallocated field_info (elt_size=4) to 10676 items from 5000.
 Database file #1: Mega.bib.bib
 Warning--I'm ignoring Sahlgren2008's extra "volume" field
 --line 3999 of file Mega.bib.bib
-Warning--I didn't find a database entry for "MikolovEA2013;MikolovEA2013b;MikolovEA2013c"
 Warning--empty journal in Carston2010
 Warning--can't use both author and editor fields in Fraser1993
 Warning--can't use both author and editor fields in Gibbs1993
@@ -26,7 +25,7 @@ Warning--there's a number but no volume in Wiggins2012
 Warning--empty publisher in Wille2005
 You've used 258 entries,
             1935 wiz_defined-function locations,
-            2065 strings with 45401 characters,
+            2063 strings with 45315 characters,
 and the built_in function-call counts, 104759 in all, are:
 = -- 10437
 > -- 3366
@@ -65,4 +64,4 @@ warning$ -- 10
 while$ -- 904
 width$ -- 0
 write$ -- 3386
-(There were 12 warnings)
+(There were 11 warnings)

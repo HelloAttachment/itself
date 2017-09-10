@@ -4,9 +4,10 @@
 \contentsline {chapter}{List of Figures}{v}
 \contentsline {chapter}{List of Tables}{vi}
 \contentsline {chapter}{\numberline {2}The Geometry of Conceptualisation: Analogies}{1}
-\contentsline {section}{\numberline {2.1}Analogies as Parallel Vectors}{3}
-\contentsline {section}{\numberline {2.2}Contextualising Analogical Geometry}{3}
-\contentsline {subsection}{\numberline {2.2.1}Projecting Probability in Space}{3}
-\contentsline {subsection}{\numberline {2.2.2}Finding Contexts for Analogies}{3}
-\contentsline {section}{\numberline {2.3}A Note on the Data}{3}
-\contentsline {chapter}{References}{5}
+\contentsline {section}{\numberline {2.1}Analogies as Parallel Vectors}{2}
+\contentsline {section}{\numberline {2.2}Contextualising Analogical Geometry}{4}
+\contentsline {subsection}{\numberline {2.2.1}Projecting Probability into Space}{4}
+\contentsline {subsection}{\numberline {2.2.2}Projecting Probability in Space}{6}
+\contentsline {subsection}{\numberline {2.2.3}Finding Contexts for Analogies}{6}
+\contentsline {section}{\numberline {2.3}A Note on the Data}{6}
+\contentsline {chapter}{References}{9}
