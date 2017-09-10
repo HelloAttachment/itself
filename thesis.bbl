@@ -22,6 +22,13 @@ Agres, K., McGregor, S., Purver, M., and Wiggins, G. (2015).
 \newblock In {\em Proceedings of the 6th International Conference on
   Computational Creativity}, Park City, UT.
 
+\bibitem[Agres et~al., 2016]{AgresEA2016}
+Agres, K.~R., McGregor, S., Rataj, K., Purver, M., and Wiggins, G.~A. (2016).
+\newblock Modeling metaphor perception with distributional semantics vector
+  space models.
+\newblock In {\em Workshop on Computational Creativity, Concept Invention, and
+  General Intelligence}.
+
 \bibitem[Austin, 1962]{Austin1962}
 Austin, J.~L. (1962).
 \newblock {\em How to do things with words}.
@@ -156,6 +163,12 @@ Bostrom, N. (2014).
 \newblock {\em Superintelligence: Paths, Dangers, Strategies}.
 \newblock Oxford University Press, Oxford, UK, 1st edition.
 
+\bibitem[Bouveret and Sweetser, 2009]{BouveretEA2009}
+Bouveret, M. and Sweetser, E. (2009).
+\newblock Multi-frame semantics, metaphoric extensions and grammar.
+\newblock {\em Annual Meeting of the Berkeley Linguistics Society},
+  35(1):49--59.
+
 \bibitem[Brentano, 1995]{Brentano1874}
 Brentano, F. (1974/1995).
 \newblock {\em Psychology from an Empirical Standpoint}.
@@ -289,6 +302,11 @@ Colton, S., Cook, M., Hepworth, R., and Pease, A. (2014).
   creativity.
 \newblock In Kibble, R., editor, {\em Proceedings of the 50th Anniversary
   Convention of the AISB}.
+
+\bibitem[Copestake and Briscoe, 1995]{CopestakeEA1995}
+Copestake, A. and Briscoe, T. (1995).
+\newblock Semi-productive polysemy and sense extension.
+\newblock {\em Journal of Semantics}, 12:15--67.
 
 \bibitem[Croft and Cruse, 2004]{CroftEA2004}
 Croft, W. and Cruse, D.~A. (2004).
@@ -469,6 +487,11 @@ Fox, C. and Lappin, S. (2005).
 \newblock {\em Foundations of Intensional Semantics}.
 \newblock Blackwell Publishing, Oxford.
 
+\bibitem[Fraser, 1993]{Fraser1993}
+Fraser, B. (1993).
+\newblock {\em Interpretation of novel metaphors}, pages 307--341.
+\newblock Cambridge University Press, 2 edition.
+
 \bibitem[Fredkin, 2003]{Fredkin2003}
 Fredkin, E. (2003).
 \newblock The digital perspective.
@@ -512,6 +535,16 @@ Geffet, M. and Dagan, I. (2005).
 Gelder, T.~V. (1995).
 \newblock What might cognition be, if not computation?
 \newblock {\em The Journal of Philosophy}, 92(7):345--381.
+
+\bibitem[Gibbs, 1994]{Gibbs1994}
+Gibbs, Jr., R.~W. (1994).
+\newblock {\em The Poetics of Mind}.
+\newblock Cambridge University Press.
+
+\bibitem[Gibbs~Jr., 1993]{Gibbs1993}
+Gibbs~Jr., R.~W. (1993).
+\newblock {\em Process and products in making sense of tropes}, page 252–276.
+\newblock Cambridge University Press, 2 edition.
 
 \bibitem[Gibson, 1979]{Gibson1979}
 Gibson, J.~J. (1979).
@@ -603,6 +636,13 @@ Hoffmeyer, J. (1997).
 \newblock {\em Signs of Meaning in the Universe}.
 \newblock Indiana University Press.
 
+\bibitem[Hovy et~al., 2013]{HovyEA2013}
+Hovy, D., Srivastava, S., Kumar, S., Sachan, J.~M., Goyal, K., Li, H., Sanders,
+  W., and Hovy, E. (2013).
+\newblock Identifying metaphorical word use with tree kernels.
+\newblock In {\em Proceedings of the First Workshop on Metaphor in NLP}, pages
+  52--57.
+
 \bibitem[Huang et~al., 2012]{HuangEA2012}
 Huang, E.~H., Socher, R., Manning, C.~D., and Ng, A.~Y. (2012).
 \newblock Improving word representations via global context and multiple word
@@ -641,6 +681,17 @@ J{\"a}ger, G. (2010).
 \newblock In Aloni, M., Bastiaanse, H., de~Jager, T., and Schulz, K., editors,
   {\em Logic, Language and Meaning: 17th Amsterdam Colloquium, Amsterdam, The
   Netherlands, December 16-18, 2009, Revised Selected Papers}, pages 11--20.
+
+\bibitem[Jankowiak et~al., 2015]{JankowiakEA2015}
+Jankowiak, K., Naskr\k{e}cki, R., and Rataj, K. (2015).
+\newblock Event-related potentials of bilingual figurative language processing.
+\newblock In {\em Poster presented at the 19th Conference of the European
+  Society for Cognitive Psychology}, Paphos, Cyprus.
+
+\bibitem[Jezek and Hanks, 2010]{JezekEA2010}
+Jezek, E. and Hanks, P. (2010).
+\newblock What lexical sets tell us about conceptual categories.
+\newblock {\em Lexis}, 4:7--22.
 
 \bibitem[Johnson, 1990]{Johnson1990}
 Johnson, M. (1990).
@@ -762,6 +813,11 @@ Lakoff, G. and Johnson, M. (1980).
 \newblock {\em Metaphors We Live By}.
 \newblock University of Chicago Press.
 
+\bibitem[Lakoff and Johnson, 2003]{LakoffEA2003}
+Lakoff, G. and Johnson, M. (2003).
+\newblock {\em Metaphors We Live By}.
+\newblock University of Chicago Press, 2nd edition.
+
 \bibitem[Landauer et~al., 1997]{LandauerEA1997}
 Landauer, T., Laham, D., Rehder, B., and Schreiner, M.~E. (1997).
 \newblock How well can passage meaning be derived without using word order? a
@@ -775,10 +831,20 @@ Landauer, T.~K. and Dumais, S.~T. (1997).
   acquisition, induction, and representation of knowledge.
 \newblock {\em Psychological Review}, 104(2):211--240.
 
+\bibitem[Langacker, 1991]{Langacker1991}
+Langacker, R. (1991).
+\newblock {\em Concept, Image, and Symbol: The Cognitive Basis of Grammar}.
+\newblock Mouton de Gruyter, Berlin.
+
 \bibitem[Langacker, 1987]{Langacker1987}
 Langacker, R.~W. (1987).
 \newblock {\em Foundations of cognitive grammar: Theoretical Prerequisites}.
 \newblock Stanford University Press, Stanford, CA.
+
+\bibitem[Lapata and Lascarides, 2003]{LapataEA2003}
+Lapata, M. and Lascarides, A. (2003).
+\newblock A probabilistic account of logical metonymy.
+\newblock {\em Computational Linguistics}, 29(2):261--315.
 
 \bibitem[Lapesa and Evert, 2013]{LapesaEA2013}
 Lapesa, G. and Evert, S. (2013).
@@ -890,6 +956,12 @@ McGregor, S., Wiggins, G., and Purver, M. (2014).
   to philosophy.
 \newblock In {\em Proceedings of the Fifth International Conference on
   Computational Creativity}.
+
+\bibitem[McGregort et~al., 2017]{McGregorEA2017}
+McGregort, S., Jezek, E., Purver, M., and Wiggins, G. (2017).
+\newblock A geometric method for detecting semantic coercion.
+\newblock In {\em Proceedings of 12th International Workshop on Computational
+  Semantics}.
 
 \bibitem[Melamud et~al., 2014]{MelamudEA2014}
 Melamud, O., Dagan, I., Goldberger, J., Szpektor, I., and Yuret, D. (2014).
@@ -1020,10 +1092,21 @@ Polajnar, T. and Clark, S. (2014).
 \newblock In {\em Proceedings of the 14th Conference of the European Chapter of
   the Association for Computational Linguistics}, pages 230--238.
 
+\bibitem[Pustejovsky, 1993]{Pustejovsky1993}
+Pustejovsky, J. (1993).
+\newblock Type coercion and lexical selection.
+\newblock In Pustejovsky, J., editor, {\em Semantics and the Lexicon}, pages
+  73--94. Kluwer Academic Publishers.
+
 \bibitem[Pustejovsky, 1995]{Pustejovsky1995}
 Pustejovsky, J. (1995).
 \newblock {\em The Generative Lexicon}.
 \newblock MIT Press, Cambridge, MA.
+
+\bibitem[Pustejovsky and Jezek, 2008]{PustejovskyEA2008}
+Pustejovsky, J. and Jezek, E. (2008).
+\newblock Semantic coercion in language: Beyone distributional analysis.
+\newblock {\em Rivista di Linguistica}, 20(1):181--214.
 
 \bibitem[Pustejovsky et~al., 2010]{PustejovskyEA2010}
 Pustejovsky, J., Rumshisky, A., Plotnick, A., Jezek, E., Batiukova, O., and
@@ -1080,6 +1163,26 @@ R\k{a}czaszek-Leonardi, J. (2012).
 \newblock Language as a system of replicable constraints.
 \newblock In Pattee, H.~H. and R\k{a}czaszek-Leonardi, J., editors, {\em Laws,
   Lanuage and Life}, pages 295--333. Springer.
+
+\bibitem[R\k{a}czaszek-Leonardi and Nomikou, 2015]{RaczasekLeonardiEA2015}
+R\k{a}czaszek-Leonardi, J. and Nomikou, I. (2015).
+\newblock Beyon mechanistic interaction: value-based constraints on meaning in
+  language.
+\newblock {\em Frontiers in Psychology}, 6(1579).
+
+\bibitem[Roberts and Harabagiu, 2010]{RobertsEA2010}
+Roberts, K. and Harabagiu, S.~M. (2010).
+\newblock Utdmet: Combining wordnet and corpus data for argument coercion
+  detection.
+\newblock In {\em Proceedings of the 5th International Workshop on Semantic
+  Evaluation}, pages 252--255.
+
+\bibitem[Roberts and Harabagiu, 2011]{RobertsEA2011}
+Roberts, K. and Harabagiu, S.~M. (2011).
+\newblock Unsupervised learning of selectional restrictions and detection of
+  argument coercions.
+\newblock In {\em Proceedings of the Conference on Empirical Methods in Natural
+  Language Processing}, EMNLP '11, pages 980--990.
 
 \bibitem[Rorty, 1979]{Rorty1979}
 Rorty, R. (1979).
@@ -1185,6 +1288,12 @@ Shutova, E. (2015).
 \newblock Design and evaluation of metaphor processing systems.
 \newblock {\em Computational Linguistics}, 41(4):579--623.
 
+\bibitem[Shutova et~al., 2013]{ShutovaEA2013b}
+Shutova, E., Kaplan, J., Teufel, S., and Korhonen, A. (2013).
+\newblock A computational model of logical metonymy.
+\newblock {\em ACM Transactions on Speech and Language Processing},
+  10(3):11:1--11:28.
+
 \bibitem[Shutova et~al., 2012]{ShutovaEA2013}
 Shutova, E., Teufel, S., and Korhonen, A. (2012).
 \newblock Statistical metaphor processing.
@@ -1219,6 +1328,12 @@ Sperber, D. and Wilson, D. (2012).
 \newblock In Wilson, D. and Sperber, D., editors, {\em Meaning and Relevance},
   pages 97--122. Cambridge University Press.
 
+\bibitem[Sweetser, 1990]{Sweetser1990}
+Sweetser, E. (1990).
+\newblock {\em From Etymology to Pragmatics: Metaphor and Cultural Aspects of
+  Semantic Structure}.
+\newblock Cambridge University Press.
+
 \bibitem[Thomas and Mareschal, 1999]{ThomasEA1999}
 Thomas, M. S.~C. and Mareschal, D. (1999).
 \newblock Metaphor as categorisation: A connectionist implementation.
@@ -1234,6 +1349,13 @@ Thompson, E. (2007).
 Tononi, G. (2008).
 \newblock Consciousness as integrated information: A provisional manifesto.
 \newblock {\em Biological Bulletin}, 215.
+
+\bibitem[Toutanova and Manning, 2000]{ToutanovaEA2000}
+Toutanova, K. and Manning, C.~D. (2000).
+\newblock Enriching the knowledge sources used in a maximum entropy
+  part-of-speech tagger.
+\newblock In {\em Proceedings of the 2000 Joint SIGDAT Conference on Empirical
+  Methods in Natural Language Processing and Very Large Corpora}, pages 63--70.
 
 \bibitem[Tsvetkov et~al., 2014]{TsvetkovEA2014}
 Tsvetkov, Y., Boytsov, L., Gershman, A., Nyberg, E., and Dyer, C. (2014).
