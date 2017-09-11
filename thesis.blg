@@ -8,11 +8,12 @@ A level-1 auxiliary file: ch3/Three.aux
 A level-1 auxiliary file: ch3.5/ThreePointFive.aux
 A level-1 auxiliary file: ch4/Four.aux
 A level-1 auxiliary file: ch5/Five.aux
+A level-1 auxiliary file: ch6/Six.aux
 The style file: apalike.bst
-Reallocated field_info (elt_size=4) to 10676 items from 5000.
+Reallocated field_info (elt_size=4) to 10786 items from 5000.
 Database file #1: Mega.bib.bib
 Warning--I'm ignoring Sahlgren2008's extra "volume" field
---line 3999 of file Mega.bib.bib
+--line 4044 of file Mega.bib.bib
 Warning--empty journal in Carston2010
 Warning--can't use both author and editor fields in Fraser1993
 Warning--can't use both author and editor fields in Gibbs1993
@@ -23,45 +24,45 @@ Warning--empty booktitle in Locke1689
 Warning--empty chapter and pages in Sowa2006
 Warning--there's a number but no volume in Wiggins2012
 Warning--empty publisher in Wille2005
-You've used 258 entries,
+You've used 263 entries,
             1935 wiz_defined-function locations,
-            2063 strings with 45315 characters,
-and the built_in function-call counts, 104759 in all, are:
-= -- 10437
-> -- 3366
-< -- 292
-+ -- 1177
-- -- 1064
-* -- 7773
-:= -- 17345
-add.period$ -- 817
-call.type$ -- 258
-change.case$ -- 1736
-chr.to.int$ -- 253
-cite$ -- 268
-duplicate$ -- 4783
-empty$ -- 8132
-format.name$ -- 1452
-if$ -- 21666
-int.to.chr$ -- 6
+            2091 strings with 46324 characters,
+and the built_in function-call counts, 106894 in all, are:
+= -- 10653
+> -- 3430
+< -- 298
++ -- 1200
+- -- 1084
+* -- 7935
+:= -- 17684
+add.period$ -- 832
+call.type$ -- 263
+change.case$ -- 1771
+chr.to.int$ -- 257
+cite$ -- 273
+duplicate$ -- 4884
+empty$ -- 8308
+format.name$ -- 1483
+if$ -- 22113
+int.to.chr$ -- 7
 int.to.str$ -- 0
-missing$ -- 325
-newline$ -- 1303
-num.names$ -- 826
-pop$ -- 2007
+missing$ -- 330
+newline$ -- 1328
+num.names$ -- 841
+pop$ -- 2054
 preamble$ -- 1
-purify$ -- 1796
+purify$ -- 1831
 quote$ -- 0
-skip$ -- 3578
+skip$ -- 3642
 stack$ -- 0
-substring$ -- 7292
-swap$ -- 1011
-text.length$ -- 91
+substring$ -- 7452
+swap$ -- 1030
+text.length$ -- 93
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1404
+type$ -- 1434
 warning$ -- 10
-while$ -- 904
+while$ -- 924
 width$ -- 0
-write$ -- 3386
+write$ -- 3449
 (There were 11 warnings)

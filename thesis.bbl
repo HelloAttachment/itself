@@ -46,6 +46,13 @@ Banjade, R., Maharjan, N., Niraula, N.~B., Rus, V., and Gautam, D. (2015).
 \newblock In {\em Computational Linguistics and Intelligent Text Processing -
   16th International Conference}, pages 335--346.
 
+\bibitem[Barnden and Lee, 1999]{BarndenEA1999}
+Barnden, J.~A. and Lee, M.~G. (1999).
+\newblock An implemented context system that combines belief reasoning,
+  metaphor-based reasoning and uncertainty handling.
+\newblock In {\em Modeling and Using Context: Second International and
+  Interdisciplinary Conference}, pages 28--41.
+
 \bibitem[Baroni et~al., 2012]{BaroniEA2012}
 Baroni, M., Bernardi, R., Do, N., and Shan, C. (2012).
 \newblock Entailment above the word level in distributional semantics.
@@ -238,7 +245,7 @@ Chemero, A. (2009).
 \bibitem[Chen et~al., 2017]{ChenEA2017}
 Chen, D., Peterson, J.~C., and Griffiths, T.~L. (2017).
 \newblock Evaluating vector-space models of analogy.
-\newblock {\em CoRR}, abs/1705.04416.
+\newblock In {\em 39th Annual Conference of the Cognitive Science Society}.
 
 \bibitem[Chomsky, 1959]{Chomsky1959}
 Chomsky, N. (1959).
@@ -535,6 +542,11 @@ Geffet, M. and Dagan, I. (2005).
 Gelder, T.~V. (1995).
 \newblock What might cognition be, if not computation?
 \newblock {\em The Journal of Philosophy}, 92(7):345--381.
+
+\bibitem[Gentner, 1983]{Gentner1983}
+Gentner, D. (1983).
+\newblock Structure-mapping: A theoretical framework for analogy.
+\newblock {\em Cognitive Science}, 7(2):155--170.
 
 \bibitem[Gibbs, 1994]{Gibbs1994}
 Gibbs, Jr., R.~W. (1994).
@@ -882,8 +894,14 @@ Levinson, S.~C. (2001).
 \newblock Y\'{e}l\^{i} dnye and the theory of basic color terms.
 \newblock {\em Journal of Linguistic Anthropology}, 10(1):3--55.
 
-\bibitem[Levy and Goldberg, 2014]{LevyEA2014b}
-Levy, O. and Goldberg, Y. (2014).
+\bibitem[Levy and Goldberg, 2014a]{LevyEA2014}
+Levy, O. and Goldberg, Y. (2014a).
+\newblock Linguistic regularities in sparse and explicit word representations.
+\newblock In {\em Eighteenth Conference on Computational Natural Language
+  Learning}.
+
+\bibitem[Levy and Goldberg, 2014b]{LevyEA2014b}
+Levy, O. and Goldberg, Y. (2014b).
 \newblock Neural word embedding as implicit matrix factorization.
 \newblock In Ghahramani, Z., Welling, M., Cortes, C., Lawrence, N.~D., and
   Weinberger, K.~Q., editors, {\em Advances in Neural Information Processing
@@ -949,6 +967,12 @@ McGregor, S., Agres, K., Purver, M., and Wiggins, G. (2015).
 \newblock From distributional semantics to conceptual spaces: A novel
   computational method for concept creation.
 \newblock {\em Journal of Artificial General Intelligence}.
+
+\bibitem[McGregor et~al., 2016]{McGregorEA2016}
+McGregor, S., Purver, M., and Wiggins, G. (2016).
+\newblock Words, concepts, and the geometry of analogy.
+\newblock In {\em Proceedings of the Workshop on Semantic Spaces at the
+  Intersection of NLP, Physics and Cognitive Science (SLPCS)}, pages 39--48.
 
 \bibitem[McGregor et~al., 2014]{McGregorEA2014}
 McGregor, S., Wiggins, G., and Purver, M. (2014).
@@ -1423,6 +1447,12 @@ Veale, T. and Hao, Y. (2007).
 \newblock Comprehending and generating apt metaphors: A web-driven, case-based
   approach to figurative language.
 \newblock {\em AAAI}, pages 1471--1476.
+
+\bibitem[Veale and Keane, 1992]{VealeEA1992}
+Veale, T. and Keane, M.~T. (1992).
+\newblock Conceptual scaffolding: A spatially foounded meaning representation
+  for metaphor comprehension.
+\newblock {\em Computational Intelligence}, 8(3):494--519.
 
 \bibitem[Veale et~al., 2015]{VealeEA2015}
 Veale, T., Valitutti, A., and Li, G. (2015).

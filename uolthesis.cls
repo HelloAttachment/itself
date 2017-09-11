@@ -277,15 +277,61 @@ United Kingdom\\
 \def\makedeclaration{\begin{titlepage}
 \vspace*{2cm}
 \justifying
-The text of this thesis, as well as the research it describes, is my own original work and has not been previously submitted for any other degree or qualification.  In places where words or ideas have been adopted from others, I have clearly indicated this with quotations and citations as appropriate.  Everything else, in both form and content, has been made by me and no one else.
+%The text of this thesis, as well as the research it describes, is my own original work and has not been previously submitted for any other degree or qualification.  In places where words or ideas have been adopted from others, I have clearly indicated this with quotations and citations as appropriate.  Everything else, in both form and content, has been made by me and no one else.
 
-My university requires me to make the following statement:
+%My university requires me to make the following statement:
+
+%The copyright of this thesis rests with the author and no quotation from it or information derived from it may be published without the prior written consent of the author.
+
+%I add this:
+
+%I hereby grant permission to anyone to do anything they so please with the text of this thesis and any information they derive from it or meaning they find in it.
+I, Stephen McGregor, confirm that the research included within this thesis is my own work or that where it has been carried out in collaboration with, or supported by others, that this is duly acknowledged below and my contribution indicated. Previously published material is also acknowledged below.
+
+I attest that I have exercised reasonable care to ensure that the work is original, and does not to the best of my knowledge break any UK law, infringe any third party’s copyright or other Intellectual Property Right, or contain any confidential material.
+
+I accept that the College has the right to use plagiarism detection software to check the electronic version of the thesis.
+
+I confirm that this thesis has not been previously submitted for the award of a degree by this or any other university.
 
 The copyright of this thesis rests with the author and no quotation from it or information derived from it may be published without the prior written consent of the author.
 
-I add this:
+Signature: 
+Date:
+
+My university has required me to make the above statement.  To this I add the following:
 
 I hereby grant permission to anyone to do anything they so please with the text of this thesis and any information they derive from it or meaning they find in it.
+
+\vfill
+\end{titlepage}}
+
+%%%%%%%%%%%%%%%%% Define commands to make publication pages %%%%%%%%%%%%%%%%%%%
+\def\makepublication{\begin{titlepage}
+\vspace*{2cm}
+\justifying
+Details of collaboration and publications:
+
+McGregor, S., Jezek, E., Purver, M., Wiggins, G.: A Geometric Method for Detecting Semantic Coercion. 12th International Workshop on Computational Semantics. Montpellier (2017).
+
+2016 McGregor, S., Purver, M., Wiggins, G.: Words, Concepts, and the Geometry of Analogy. Proceedings of the Workshop on Semantic Spaces at the Intersection of NLP, Physics and Cognitive Science. Glasgow (2016).
+
+McGregor, S., Purver, M., Wiggins, G.: Process Based Evaluation of Computer Generated Poetry. Proceedings of the INLG Workshop on Computational Creativity in Natural Language Generation. Edinburgh (2016).
+
+Agres, K., McGregor, S., Rataj, K., Purver, M., Wiggins, G.: Modeling Metaphor Perception with Distributional Semantics Vector Space Models. Proceedings of C3GI at ESSLLI 2016.
+
+McGregor, S., Agres, K., Purver, M., Wiggins, G.: From Distributional Semantics to Conceptual Spaces: A Novel Computational Method for concept creation. Journal of Artificial General Intelligence 6(1) (2015).
+
+Agres, K., McGregor, S., Purver, M., Wiggins, G.: Conceptualising Creativity: From Distributional Semantics to Conceptual Spaces. Proceedings of the 6th International Conference on Computational Creativity. Park City, UT (2015).
+
+McGregor, S., Purver, M., Wiggins, G.: Metaphor, Meaning, Computers, and Consciousness. Proceedings of the 8th AISB Symposium on Philosophy and Computing. Canterbury (2015).
+
+McGregor, S., McGinty, M., Griffiths, S.: How Many Robots Does It Take? Creativity, Robots, and Multi-Agent Systems. Proceedings of the AISB 2015 Symposium on Computational Creativity. Canterbury (2015).
+
+McGregor, S., Purver, M., Wiggins, G.: Computational Creativity: A Philosophical Approach, and an Approach to Philosophy. Proceedings of the 5th International Conference on Computational Creativity. Ljubljana (2014).
+
+McGregor, S.: Considering the Law as an Evaluative Mechanism for Computational Creativity. Proceedings of the 50th Anniversary Convention of the AISB. London (2014).
+
 \vfill
 \end{titlepage}}
 
