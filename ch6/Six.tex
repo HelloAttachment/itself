@@ -301,11 +301,11 @@ This last point leads to a further question: what if there is some way, given th
 \hline
 \multicolumn{2}{l}{\emph{dimensions}} & 5 & 10 & 20 & 50 & 100 & 200 \\
 \hline
-\parbox[t]{2mm}{\multirow{4}{*}{\rotatebox[origin=c]{90}{2x2}}} & \textsc{joint} & 0.654 & 0.814 & 0.896 & 0.930 & 0.881 & 0.466 \\
+\parbox[t]{2mm}{\multirow{3}{*}{\rotatebox[origin=c]{90}{2x2}}} & \textsc{joint} & 0.654 & 0.814 & 0.896 & 0.930 & 0.881 & 0.466 \\
 & \textsc{indy} & 0.115 & 0.234 & 0.341 & 0.369 & 0.267 & 0.045 \\
 & \textsc{zipped} & 0.616 & 0.806 & 0.892 & 0.929 & 0.887 & 0.489 \\
 \hline
-\parbox[t]{2mm}{\multirow{4}{*}{\rotatebox[origin=c]{90}{\textsc{5x5}}}} & \textsc{joint} & 0.657 & 0.828 & 0.901 & 0.921 & 0.835 & 0.402 \\
+\parbox[t]{2mm}{\multirow{3}{*}{\rotatebox[origin=c]{90}{\textsc{5x5}}}} & \textsc{joint} & 0.657 & 0.828 & 0.901 & 0.921 & 0.835 & 0.402 \\
 & \textsc{indy} & 0.129 & 0.253 & 0.338 & 0.384 & 0.277 & 0.051 \\
 & \textsc{zipped} & 0.589 & 0.790 & 0.888 & 0.915 & 0.876 & 0.418 \\
 \hline
@@ -326,6 +326,31 @@ On the other hand, though, these scores are substantially lower than those repor
 
 \subsection{Searching for Solutions to Analogies}
 Having established that there are in principle analogically productive subspaces to be discovered based on taking part of an analogy as input to a context sensitive distributional semantic model, I now explore the capacity of my methodology for completing partial analogies.
+
+\begin{table}
+\centering
+\begin{tabular}{clrrrrrrr}
+\hline
+\multicolumn{2}{l}{\emph{dimensions}} & 5 & 10 & 20 & 50 & 100 & 200 & 400 \\
+\hline
+\parbox[t]{2mm}{\multirow{6}{*}{\rotatebox[origin=c]{90}{2x2}}} & \textsc{joint} & 0.020 & 0.052 & 0.082 & 0.164 & 0.164 & 0.221 & 0.271 & 0.274 \\
+& \textsc{indy} 0.010 & 0.079 & 0.163 & 0.315 & 0.406 & 0.450 & 0.469 \\
+& \textsc{zipped} 0.016 & 0.055 & 0.128 & 0.234 & 0.280 & 0.294 & 0.282 \\
+& \textsc{CBoW} & - & - & 0.180 & 0.435 & - & 0.588 & 0.612 \\
+& \textsc{SG} & - & - & 0.191 & 0.394 & - & 0.630 & 0.674 \\
+& \textsc{SVD} & - & - & 0.035 & 0.033 & - & 0.025 & 0.026 \\
+\hline
+\parbox[t]{2mm}{\multirow{6}{*}{\rotatebox[origin=c]{90}{\textsc{5x5}}}} & \textsc{joint} & 0.016 & 0.048 & 0.094 & 0.199 & 0.291 & 0.326 & 0.327 \\
+& \textsc{indy} & 0.017 & 0.077 & 0.182 & 0.340 & 0.438 & 0.511 & 0.509 \\
+& \textsc{zipped} & 0.016 & 0.058 & 0.150 & 0.307 & 0.357 & 0.378 & 0.367 \\
+& \textsc{CBoW} & - & - & 0.200 & 0.448 & - & 0.607 & 0.632 \\
+& \textsc{SG} & - & - & 0.175 & 0.397 & - & 0.622 & 0.672 \\
+& \textsc{SVD} & - & - & 0.043 & 0.045 & - & 0.047 & 0.051 \\
+\hline
+\end{tabular}
+\caption[Solving Analogies]{Accuracy rates for analogy solution by various techniques with various parameters, taking the first three words in an analogy as input and then providing the fourth word as output.}
+\label{tab:fakes}
+\end{table}
 
 \begin{figure}
 \centering

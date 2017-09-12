@@ -1,15 +1,72 @@
 \chapter{Introduction}
-``Words,'' writes Thomas Pynchon in \emph{Gravity's Rainbow}, ``are only an eye-twitch away from the things they stand for.''
+``Words,'' writes \cite{Pynchon}, ``are only an eye-twitch away from the things they stand for,'' (XXX).  Words press right up against reality: they are always almost becoming the things that they point at, bleeding into thoughts and actions, taking on shapes or else pressing shapes onto the world of perceptions and experiences that they inhabit.  Words are felt by the ear, on they eye, in the mouth, but also in the mind, on so many levels that the problem of disentangling words from thoughts and meanings has ruined some of the most fastidiously calculated analyses of the nature of cognition and existence.  As language vacillates between being and connecting, it 
+
+As \cite{Wittgenstein} puts it, ``Philosophical problems arise when language goes on holiday,'' (XXX).
+
+In the almost-becoming of language, then, there lurks a treacherous encounter with the 
+
+but also an interface with the actual mechanisms of 
+
+the guts of 
+
+In the very same inescapable closeness of words that has occasionally confounded thinkers, the data-minded scientist might hope to find a handle for connecting a process of rules and reactions to the murky near-world of signs and meanings.
+
+One of the principal theoretical commitments of this paper is that language is in the world: language is experienced materially, and it is the structure of language, not just in a formal abstraction of syntax
+
+And one of the primary practical consequences of this principal theoretical commitment is that language can more or less never be 
+
+And so an axis of the research that I'll describe across the following pages, serving as both a theoretical motivation and a philosophical target, is the 
+
+of the status of words
 
 \section{A Question and A Hypothesis}
-In my research I have sought to explore the question of the extent to which the type of data-driven, statistical mechanisms available to a symbol manipulating, information processing machine can 
+In my research I have sought to explore the question of the extent to which a data-driven, statistical mechanism, instantiated by an information processing, symbol manipulating machine, can achieve a lexical semantic model that is suited to capturing the protean nature of conceptualisation in a world of unstable and unpredictable situations.  This line of enquiry follows from the idea that cognitive agents are fundamentally enmeshed in their environments, to such an extent that no model of cognition can be abstracted away from a corresponding model of the world without significant loss of efficacy.\footnote{As \cite{Brooks} has pointed out, the best model of the world is very often just the world, anyway.}  This supposition presents a serious problem for the computational modelling of semantics, however: how can a machine which is by definition a system of processes unto themselves, with a carefully constrained mechanism for receiving input and offering output, be used to capture the embedded condition of cognition by which semantics arise in the first place?  And here I will refrain from attempting a universal definition of the contentious term \emph{semantics}, but I will broadly apply this word to describe the processes by which symbols or representations that are in some sense tangible commute with the immaterial realm of concepts and meaning.
+
+I will take as a pretence the idea that there are far too many ways to conceptualise, and furthermore that the structures that support conceptualisation are far too complex and varied, to yield to a lexical or conceptual model based on rigid, static symbolic representations, however composite they may potentially be.  Instead, I will seek to build a model which is contextual from the ground up, such that there is no base state that might be construed as standard, default, literal, or in some sense more true to a construct of the world as it is---precisely because \emph{the world as it is} is always necessarily just that, an artefact constructed on the premise of some situational context determining the units and levels of abstraction on which an analysis is to be performed.  So I propose to seek computational methodologies which are prolific to the point of promiscuity in their capacity for generating conceptual relationships, and here I believe the procedures associated with the machine learning paradigm in computing will in fact prove beneficial: rather than treat the proliferation of data that arises from the analysis of large scale data as, as it has sometimes been construed, a \emph{curse}, I will embrace the combinatory immensity of
+
+as a feature affording perpetual contextualisation.
+
+There is a basic geometric and computational insight to be had here.  Given interrelated data points in a very high dimensional space, there are necessarily an arbitrarily large number of lower dimensional perspectives that can be taken on the data; given a choice of perspective, and assuming at least a degree of differentiation in terms of relationships across dimensions, we should be able to arbitrarily select some point of view by which the relationships between data points fall into a desired order.
+
+then becomes the problem of finding a way to reliably select the correct perspective on data without prior recourse to the nature or validity of the affordances of that perspective.
+
+In the case of the computational linguistic research described here, the 
+
+taking perspectives on this data involves choosing particular 
+
+GEOMETRY
 
 \section{Contributions to the Field}
-First and foremost, this thesis presents a novel computational methodology for using linguistic data to generate conceptually productive geometries of word-vectors.
+First and foremost, this thesis presents a novel computational methodology for using linguistic data to generate conceptually productive geometries of word-vectors.  This methodology is grounded in the well known distributional semantic paradigm, which involves the representation of words (or other lexical units) as vectors in high dimensional spaces, constructed on the basis of observations of they way words occur with one another across large scale corpora.  A fundamental characteristic of this approach is that it traffics in lexical representations which are structured in such a way as to be semantically productive: through their relative situation in space, through their composition by linear algebraic operations, and so forth, the representations themselves provide a handle on the way that words become implements of conceptualisation and vessels of meaning.  These representations are constructed through a process of corpus traversal, taking in a very large number of observations about the way in which words tend to co-occur with one another, resulting in a quantitative instantiation of signs as not only the indices but also the operons of meaning-making.  The data-driven nature of this representation-building process means that this technique is naturally amenable to computation, and the advent of massive digitised textual resources combined with the availability of powerful hardware has seen the field flourish in the last several years.
+
+Computers are, on the other hand, notoriously literal devices, not, in
+
+particularly suited to feeling out the critical nuance that is inherent in human communication.  My contribution to this active area of research is to introduce, by way of a theoretical consideration of the relationship between language and cognition, an element of contextuality to the mechanisms of distributional semantic spaces.  My approach effectively moves distributional 
+
+The consequence of this is that 
+
+In the case of metaphor classification, they are state-of-the-art, and components of the analogy completion results likewise in places offer at least a very promising outlook for future exploration.  Elsewhere the results are in many cases competitive, and in all cases provide a valuable basis for a consideration of the special operation of my methodology as well as a reflection on the theoretical assumptions underpinning the model.
+
+It is in terms of this last regard, concerning the theoretical contingencies and consequences of my empirical research, that I envision my second contribution to the field.
 
 The second contribution of the work described here is to apply a noteworthy but under-represented current of theoretical work in linguistics and the philosophy of language to computational approaches to words and concepts.
 
 \section{Methods}
+As there are 
+
+I will offer an overview of the techniques for constructing, applying, and validating the models which will serve as the central empirical contribution of this work.
+
+\paragraph[Representation Construction] The mechanism by which 
+
+\paragraph[Data Predicting] I will present the models produced using my methodlogy with, broadly, two categories of task: the rating or ranking of linguistic relationships, in the form of word pairs, in terms of their 
+
+(in particular \emph{relatedness} and \emph{similarity}, and similarly the classification of word pairs again in terms of whether they represent instances of 
+
+\paragraph[Hypothesis Testing]
+
+The tasks handled by my methodology will consist of broadly of two types, the ranking of 
+
 In the case of comparisons between correlations, the method for establishing the probability of results not invalidating the null hypothesis -- which is to say, the chances of the results happening by pure chance given the hypothetical viccitudes of the data -- will be calculated using the Fisher r-to-z transform.  This equation takes as input a correlation coefficient between model output and target data
 
 \section{The Layout of the Thesis}
+
