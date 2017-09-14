@@ -3,12 +3,11 @@
 \contentsline {chapter}{Table of Contents}{iv}
 \contentsline {chapter}{List of Figures}{v}
 \contentsline {chapter}{List of Tables}{vi}
-\contentsline {chapter}{\numberline {2}Introduction}{1}
-\contentsline {section}{\numberline {2.1}A Question and A Hypothesis}{2}
-\contentsline {section}{\numberline {2.2}Contributions to the Field}{4}
-\contentsline {section}{\numberline {2.3}Methods}{6}
-\contentsline {paragraph}{Representation Construction}{6}
-\contentsline {paragraph}{Model Learning}{6}
-\contentsline {paragraph}{Hypothesis Testing}{6}
-\contentsline {section}{\numberline {2.4}The Layout of the Thesis}{6}
-\contentsline {chapter}{References}{7}
+\contentsline {chapter}{\numberline {2}The Geometry of Conceptualisation: Analogies}{1}
+\contentsline {section}{\numberline {2.1}Analogies as Parallel Vectors}{2}
+\contentsline {section}{\numberline {2.2}Contextualising Analogical Geometry}{5}
+\contentsline {subsection}{\numberline {2.2.1}Projecting Probability into Space}{5}
+\contentsline {subsection}{\numberline {2.2.2}Finding Contexts for Analogies}{7}
+\contentsline {subsection}{\numberline {2.2.3}Searching for Solutions to Analogies}{12}
+\contentsline {section}{\numberline {2.3}A Note on the Data}{13}
+\contentsline {chapter}{References}{15}
