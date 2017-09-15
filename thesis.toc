@@ -9,5 +9,5 @@
 \contentsline {subsection}{\numberline {2.2.1}Projecting Probability into Space}{5}
 \contentsline {subsection}{\numberline {2.2.2}Finding Contexts for Analogies}{7}
 \contentsline {subsection}{\numberline {2.2.3}Searching for Solutions to Analogies}{12}
-\contentsline {section}{\numberline {2.3}A Note on the Data}{13}
-\contentsline {chapter}{References}{15}
+\contentsline {section}{\numberline {2.3}A Note on the Data}{16}
+\contentsline {chapter}{References}{18}

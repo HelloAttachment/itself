@@ -278,11 +278,11 @@ So I think it makes sense to expand this approach to analogy modelling to cover 
 \hline
 \multicolumn{2}{l}{\emph{dimensions}} & 5 & 10 & 20 & 50 & 100 & 200 \\
 \hline
-\parbox[t]{2mm}{\multirow{4}{*}{\rotatebox[origin=c]{90}{ 2x2}}} & \textsc{joint} & 0.911 & 0.972 & 0.989 & 0.986 & 0.970 & 0.916 \\
+\parbox[t]{2mm}{\multirow{3}{*}{\rotatebox[origin=c]{90}{ 2x2}}} & \textsc{joint} & 0.911 & 0.972 & 0.989 & 0.986 & 0.970 & 0.916 \\
 & \textsc{indy} & 0.722 & 0.908 & 0.976 & 0.985 & 0.967 & 0.873 \\
 & \textsc{zipped} & 0.921 & 0.975 & 0.991 & 0.987 & 0.970 & 0.919 \\
 \hline
-\parbox[t]{2mm}{\multirow{4}{*}{\rotatebox[origin=c]{90}{\textsc{ 5x5}}}} & \textsc{joint} & 0.941 & 0.987 & 0.996 & 0.997 & 0.995 & 0.957 \\
+\parbox[t]{2mm}{\multirow{3}{*}{\rotatebox[origin=c]{90}{\textsc{ 5x5}}}} & \textsc{joint} & 0.941 & 0.987 & 0.996 & 0.997 & 0.995 & 0.957 \\
 & \textsc{indy} & 0.697 & 0.908 & 0.973 & 0.984 & 0.962 & 0.895 \\
 & \textsc{zipped} & 0.934 & 0.987 & 0.999 & 0.998 & 0.997 & 0.968 \\
 \hline
@@ -314,18 +314,10 @@ This last point leads to a further question: what if there is some way, given th
 \label{tab:fakes}
 \end{table}
 
-On the one hand, these results are impressively -- even surprisingly -- good.  It turns out, for instance, that there is some set of 50 dimensions to be selected from the 400 dimensional subspace projected by applying the \textsc{joint} technique to the inputs
-
-XXX
-
-that solves the unlikely analogy
-
-XXX
-
-On the other hand, though, these scores are substantially lower than those reported for established analogies in Table~\ref{tab:knowns}.  This is particularly the case for higher dimensionalities, where the options for discovering a multitude of dimensions facilitating the mapping of a randomly generated analogy evidently become confounded, and the difference is greatest of all for relatively large sets of dimensions chosen from the \textsc{indy} subspaces.  So it would seem that the overlap between independently selected co-occurrence dimensions is actually indicative of some degree of conceptual coherence after all, evidenced by the relative likelihood of solving an attested analogy versus a random one.  (It's also interesting to note that subspaces derived from smaller co-occurrence windows are more apt to yield what we might call forgiving analogical options for the randomly generated data, indicating once more that there is more conceptual association in the syntagmatics available in a wider co-occurrence window, as discussed in the context of relatedness versus similarity in Chapter~\ref{sec:relmeth}.)
+On the one hand, these results are impressively -- even surprisingly -- good.  It turns out, for instance, that there is some set of 50 dimensions to be selected from the 400 dimensional subspace projected by applying the \textsc{joint} technique to the inputs (\emph{Athens, Greece, Berlin}) that solves the unlikely analogy \emph{Athens:Greece :: Berline:Impossible}.  On the other hand, though, these scores are substantially lower than those reported for established analogies in Table~\ref{tab:knowns}.  This is particularly the case for higher dimensionalities, where the options for discovering a multitude of dimensions facilitating the mapping of a randomly generated analogy evidently become confounded, and the difference is greatest of all for relatively large sets of dimensions chosen from the \textsc{indy} subspaces.  So it would seem that the overlap between independently selected co-occurrence dimensions is actually indicative of some degree of conceptual coherence after all, evidenced by the relative likelihood of solving an attested analogy versus a random one.  (It's also interesting to note that subspaces derived from smaller co-occurrence windows are more apt to yield what we might call forgiving analogical options for the randomly generated data, indicating once more that there is more conceptual association in the syntagmatics available in a wider co-occurrence window, as discussed in the context of relatedness versus similarity in Chapter~\ref{sec:relmeth}.)
 
 \subsection{Searching for Solutions to Analogies}
-Having established that there are in principle analogically productive subspaces to be discovered based on taking part of an analogy as input to a context sensitive distributional semantic model, I now explore the capacity of my methodology for completing partial analogies.
+Having established that there are in principle analogically productive subspaces to be discovered based on taking part of an analogy as input to a context sensitive distributional semantic model, I now explore the capacity of my methodology for completing partial analogies.  The procedure applied here is simply to take the first three terms for each analogy as input and then use an analysis of the corresponding word vectors to project subspaces following the \textsc{joint}, \textsc{indy}, and \textsc{zipped} methods.  These spaces then become the basis for a geometric solution to the analogy, taking the fourth point to be the word-vector that most closely completes the parallelogram indicated by the three input vectors.  Unlike with the experiments on relatedness, similarity, metaphor, and coercion described in the previous two chapters, this experiment is completely unsupervised; the hypothesis tested is that contextualisation alone should provide a basis for the geometric modelling of the conceptual alignments inherent in analogy.
 
 \begin{table}
 \centering
@@ -334,8 +326,8 @@ Having established that there are in principle analogically productive subspaces
 \multicolumn{2}{l}{\emph{dimensions}} & 5 & 10 & 20 & 50 & 100 & 200 & 400 \\
 \hline
 \parbox[t]{2mm}{\multirow{6}{*}{\rotatebox[origin=c]{90}{2x2}}} & \textsc{joint} & 0.020 & 0.052 & 0.082 & 0.164 & 0.221 & 0.271 & 0.274 \\
-& \textsc{indy} 0.010 & 0.079 & 0.163 & 0.315 & 0.406 & 0.450 & 0.469 \\
-& \textsc{zipped} 0.016 & 0.055 & 0.128 & 0.234 & 0.280 & 0.294 & 0.282 \\
+& \textsc{indy} & 0.010 & 0.079 & 0.163 & 0.315 & 0.406 & 0.450 & 0.469 \\
+& \textsc{zipped} & 0.016 & 0.055 & 0.128 & 0.234 & 0.280 & 0.294 & 0.282 \\
 & \textsc{CBoW} & - & - & 0.180 & 0.435 & - & 0.588 & 0.612 \\
 & \textsc{SG} & - & - & 0.191 & 0.394 & - & 0.630 & 0.674 \\
 & \textsc{SVD} & - & - & 0.035 & 0.033 & - & 0.025 & 0.026 \\
@@ -349,8 +341,36 @@ Having established that there are in principle analogically productive subspaces
 \hline
 \end{tabular}
 \caption[Solving Analogies]{Accuracy rates for analogy solution by various techniques with various parameters, taking the first three words in an analogy as input and then providing the fourth word as output.}
-\label{tab:fakes}
+\label{tab:solutions}
 \end{table}
+
+Results for my methodologies as well as the \texttt{word2vec} modelling techniques and static SVD models, with various parametric specifications, are reported in Table~\ref{tab:solutions}.  With the exception of the most low dimensional subspaces, the \textsc{indy} technique performs the best of the context sensitive methodologies, eventually offering the expected solution to more than half of the analogies in the dataset for higher dimensional subspaces (and the difference here is approaching significance with $p = .028$ based on a permutation test).  This is an interesting result in the context of the lower \textsc{indy} scores in Tables~\ref{tab:knowns} and \ref{tab:fakes} above: taken altogether, this suggests that this technique returns sparser subspaces consisting of more specialised co-occurrence dimensions salient to only one of the inputs, which make it harder to consistently find dimensions where the analogical relationships play out in the desired way, given full knowledge of the conceptual relationships being mapped, but by the same token less likely to find dimensions that complete an arbitrary analogy, as well.  So on balance, co-occurrence dimensions that are more likely to be have a few strong values for a small set of relevant words would seem to correspond to the kind of contextualised conceptual specificity that lends itself to the productive generation of analogical completions.
+
+The context sensitive approaches exhibit steadily improving performance up to 200 dimensions, but then seem to level off after this point, suggestive once again that, in the case of count-based distributional models, a sufficient but still, relative to the dimensionality of the base spaces, small number of highly relevant co-occurrence dimensions are best suited for extrapolating conceptual geometry.  Also of note is the improvement across the board moving from lower to higher sized co-occurrence windows.  So it would seem that in the case of the semantic alignments at play in analogy, the syntagmatic information available across wider portions of sentences gives more of a semantic handle to the resulting geometric relationships of word-vectors.  Finally, and not dissimilarly to results for previous experiments, there is not too much to pick between the \textsc{joint} and \textsc{zipped} techniques, though the latter does, as it moves towards the specificity afforded by the \textsc{indy} method, offer marginally better outcomes.
+
+In terms of the static semantic models, the SVD approach completely collapses on this test.  It would seem that the move of dimension-wise normalisation of the abstracted matrix of optimally informational vectors, which proved so effective for word relatedness modelling and at least adequate on other tests, knocks the lexical representations of the model out of the neat geometric relationships that are sought here.  The \texttt{word2vec} techniques, on the other hand, are outstanding, with any marginal differences in performance between what is reported here and results reported in the original literature as discussed above presumably attributable to variations in the underlying corpora involved in training the models (and the probability of the difference between the top 2x2 window, 400 dimensional skip-gram model and the 5x5 window, 200 dimensional \textsc{indy} subspaces being attributable to variations in the data is $p = .018$).  The skip-gram technique, which \cite{MikolovEA2013} conjectured should be particularly good at handling what they termed as semantic (meaning more overtly intensional) analogy, does consistently better than the CBoW technique at higher dimensionalities, though, interestingly, not at lower dimensionalities, indicating that the co-occurrence predicting approach gains in semantic potency as more informational leeway is allowed into the model.
+
+\begin{figure}
+\centering
+\begin{subfigure}{1 \textwidth}
+\begin{tikzpicture}
+  \begin{axis}[width=0.9*\textwidth,xtick=data,ybar=2*\pgflinewidth,symbolic x coords={countries,currencies,states,demonyms,families,antonyms},enlarge x limits=0.25,ymin=0,height=0.2\textheight,ylabel={accuracy},major x tick style=transparent]
+    \addplot[fill=gray,opacity=0.2] coordinates {(countries,0.698) (currencies,0.167) (states,0.474) (demonyms,0.886) (families,0.909) (antonyms,0.273)};
+    \addplot[fill=gray,opacity=0.4] coordinates {(countries,0.866) (currencies,0.133) (states,0.533) (demonyms,0.898) (families,0.818) (antonyms,0.273)};
+    \addplot[fill=gray,opacity=0.8] coordinates {(countries,0.819) (currencies,0.000) (states,0.533) (demonyms,0.761) (families,0.545) (antonyms,0.159)};
+    \legend{\textsc{CBoW},\textsc{SG},\textsc{indy}}
+  \end{axis}
+\end{tikzpicture}
+\end{subfigure}
+\caption[Comparative Analogy Completion Scores] {Accuracy rates for various modelling techniques on semantically delineated subsets of the data, for 5x5 word window, 200 dimensional spaces.}
+\label{fig:anaparisons}
+\end{figure}
+
+In order to tease out the operations of various methodologies a bit more, I separate the data into 12 different conceptual categories, in line with the divisions provided by the original data, though I will not dwell on the theoretical issues raised by the distinctions initially made between semantics and syntax.  Figure~\ref{fig:anaparisons} illustrated the accuracy scores for these subsets of the data for four different semantic modelling techniques, the two \texttt{word2vec} methods and my \textsc{zipped} and \textsc{indy} methods, all with parameters set to 5x5 word windows and 200 dimensions for the sake of comparison, presented as a bar chart for the sake of visual comparison within and across categories.
+
+
+
+Finally, in order to analyse the performance of the \textsc{indy} technique in terms of statistical features of co-occurrences rather than suppositional conceptual categories, Figure~\ref{fig:xando} presents hits and misses in the 200 dimensional, 5x5 word window subspaces as functions of the number of non-zero valued co-occurrence dimensions jointly shared by all three input word-vectors versus the sum of independent non-zero valued dimensions for each word-vector.  The trend that emerges here is a distinct clustering of hits for subspaces picked by words that have an overall lower number of positive co-occurrence dimensions, and then secondarily for subspaces invoked by words with a relatively high overlapping co-occurrence profile compared to their independent distributions of co-occurrences.  In the first instance, this would seem to indicate that more specialised relationships, denoted by words that either simply come up less or else come up in more particular sentential contexts, are more prone to picking the subspaces where a fourth component of an analogy will be successfully identified.  In the second instance, partial analogies involving words that have a relatively significant degree of overlap in terms of the way that they tend to be used.  In both cases, it makes sense that the \textsc{indy} technique, which will hone in on specialised co-occurrences, should provide a good bases for contextualising partial analogies.
 
 \begin{figure}
 \centering
@@ -1277,7 +1297,7 @@ x y label
 67852 4879 x
 33155 2431 x
 196891 12433 x
-213802 16134 x
+213802 16134 xgerund
 144909 11651 x
 53504 3192 x
 80310 8294 x
@@ -1360,12 +1380,36 @@ x y label
 \end{axis}
 \end{tikzpicture}
 \caption[Analogical Hits and Misses]{A scatter plot of hits and misses for analogy solution as functions of the number of jointly non-zero dimensions versus independently non-zero dimensions, with both axes scaled logarithmically.}
+\label{fig:xando}
 \end{figure}
 
-It's not particularly surprising that there is a fairly strong positive correlation between the total number of jointly non-zero dimensions and the number of independent non-zero dimensions: word-vectors with more non-zero dimensions are more likely to have an overlap with other word-vectors.  But the sharpness of definition of the upper boundary of this relationship is notable, with a dense clustering of both positive and negative results with a relatively high overlap compared to relatively low forming a distinct ridge along the upper left boundary of the distribution.  The implication here is a long tail of increasingly disconnected word sets drifting off to the lower right hand of the plot: this could mean that there are mismatches between the co-occurrence profiles of the input terms as well as the relative frequencies of the terms.
+So it looks like what's happening is that, as the overlap between the words involved in an analogy decreases, the expected location of the fourth point is pushed into problematic regions of the space on a dimension-by-dimension basis.  This can be visualised by once again considering the dimensional analysis of analogy illustrated in Figure~\ref{fig:histograms}.  In the case where the dimension selecting word is the first component of the analogy ($A$ in $A:B::C:D$), the expected location of the fourth point is actually pushed into the negative region of the dimension, where there is no information to be found.  In cases where $B$ or $C$ are the selecting words, $D$ would be expected to be paired with this selector, and so to have a relatively high value along the same dimension.  Overall, in these cases where, again, there is minimal co-occurrence information shared between the different input components, the fourth point is pushed into an increasingly unlikely region of a subspace, and the likelihood of a semantically plausible output decreases.  This \emph{post hoc} analysis suggests that more nuanced approaches to the dimensional selection process, for instance something like a partial application of the \textsc{zipped} technique, where there is a guarantee of some information for all input words, might be prescribed in cases where, based on frequentist features of the input, difficulty in completing an analogy is expected.
+
+More generally, it's not particularly surprising that there is a fairly strong positive correlation between the total number of jointly non-zero dimensions and the number of independent non-zero dimensions: word-vectors with more non-zero dimensions are more likely to have an overlap with other word-vectors.  But the sharpness of definition of one boundary of this relationship is notable, even given the logarithmic scaling of the plot, with a dense clustering of both positive and negative results with a relatively high overlap compared to relatively low forming a distinct ridge along the upper left perimeter of the distribution.  The implication here is a long tail of increasingly disconnected word sets drifting off to the lower right hand of the plot: this could mean that there are mismatches between the co-occurrence profiles of the input terms as well as the relative frequencies of the terms.  One quite plausible hypothesis, which is certainly open to future empirical exploration, is that the nature of the distribution illustrated here is peculiar to analogy, and that, if random trios of words were selected, the lower right region of the plot would be more filled in as we discovered more instance of words with a wide range of co-occurrence features but relatively little overlap between one another corresponding to conceptual disparity.
 
 \section{A Note on the Data}
 It must be mentioned that the data that has been analysed in this chapter is of a very specific character.  The analogies put together by the team at Google are populated by a high percentage of proper names, in particular place names and also currencies, demonyms, and the like.  This belies a particular view of language and indeed cognition which is at odds with the premise motivating the model described in this thesis, as outlined at the beginning of Chapter~\ref{chap:theory}.  Proper names are, as \cite{Russell1905} has pointed out, particular kinds of words with peculiar denotational properties in that they refer to specific and unique entities or correspondingly specific classes of entities.  This is not to say that they do not admit ambiguity -- \emph{Paris} is the name of, among other things, a classical character, and \emph{Berlin} the name of a 1980s new wave band -- but there tends to be a certain clarity of intent when these types of words are used.  These types of analogies are exemplary of cases where language coalesces into a relatively stable conceptual representation, and, notwithstanding cases of polysemy, it's arguably not particularly surprising that these relationships emerge as commensurable directions in a likewise stable representational space.
 
-Furthermore, it is telling that the designers of the dataset have chosen to refer to the variety of analogy typified by \emph{Denmark:Danish :: China:Chinese} as \emph{syntactic}, whereas the relationships denoted by \emph{grandfather:grandmother :: grandson:granddaughter} is considered \emph{semantic}.
+Furthermore, it is telling that the designers of the dataset have chosen to refer to the variety of analogy typified by \emph{Denmark:Danish :: China:Chinese} as \emph{syntactic}, whereas the relationships denoted by \emph{grandfather:grandmother :: grandson:granddaughter} is considered \emph{semantic}.  Both of these examples exhibit conceptual relationships that to a certain extent map to morphological features of the representations involved, and so exemplify some of the characteristics of conceptual schemas described in \citepos{Langacker1991} cognitive grammar.  It seems like the designers of this dataset resorted to some instinctive assumptions about the categorical nature of concepts in their selections, ultimately landing on classifications which are pointedly non-ambiguous.  This is well motivated, and the data has provided a very useful tool for exploring the geometry of contextualised distributional semantic subspaces, but there is also an element of conceptual absolutism at play and a corresponding drift from the looseness and ambiguity that overwhelmingly characterise natural language as it is actual used by humans.  We might reasonably conjecture that these types of conceptual relationships are particularly conducive to the geometry of static semantic spaces such as those generated by \texttt{word2vec}.
+
+\cite{Linzen2016} has made some very interesting observations regarding the way that analogical geometry actually plays out in \texttt{word2vec} models.  For one thing, it turns out that the parallelograms expected to emerge in analogical mappings are in fact, in the case of the data tested here, elongated to the point of being virtually lines, to such an extent that they are effectively lines and the models would usually return one of the input terms if it weren't for a system constraint prohibiting this.  This supports the observation made regarding the conceptual comparmentalisation noted in Figure~\ref{fig:inspace}, but it also suggests that the types of analogy being analysed here involve pairs of words that, in the static spaces generated by the neural networks of the skip-gram and CBoW methods, are clustered into very distinct semantic regions of static spaces.  A related finding was that in a number of cases, the expected completions to analogies were so proximate to one of the input words that a simple nearest neighbour approach based on a single input would return the specified output.  This is particularly the case in analogies involving demonyms and capital cities, where the propensity for words related along these conceptual axes to be observed in similar sentential contexts is presumably so high as to cause the models to push their vectors into virtual collocation.
+
+\begin{table}
+\centering
+\begin{tabular}{l|llll}
+\hline
+input & \textsc{joint} & \textsc{indy} & \textsc{SG} & \textsc{CBoW} \\
+\hline
+\emph{stool, motorcycle, sofa} & car & & motorbike & motorbike \\
+\emph{surgeon, butcher, scalpel} & knife & & knife & butchers \\
+\emph{scalpel, cleaver, surgeon} & advisor & & beckwith & physician \\
+\emph{key, piano, string} & violin & & cello & violin \\
+\emph{bird, fly, fish} & catch & & anchovies & bait \\
+\emph{fire, hot, ice} & cold & & bubbling & hockey \\
+\emph{cold, ice, hot} & chocolate & & hockey & hockey \\
+\hline
+\end{tabular}
+\end{table}
+
+The poor performance of the \textsc{indy} technique on these examples suggests that this technique is also possibly better suited for handling stable lexical representations; the strong results in Tabls~\ref{tab:solutions} may, in fact, be an artefact of this property of these subspaces, and this invites further research into subspace selection techniques.
 
