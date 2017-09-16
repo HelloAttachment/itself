@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.30)  15 SEP 2017 19:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.30)  16 SEP 2017 14:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -683,19 +683,27 @@ Package etexcmds Info: Could not find \expanded.
 )))
 \quo@toppartop=\skip81
 )
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip82
+\enit@outerparindent=\dimen183
+\enit@toks=\toks43
+\enit@inbox=\box41
+\enitdp@description=\count138
+)
 (/usr/share/texlive/texmf-dist/tex/latex/tools/xr.sty
 Package: xr 1994/05/28 v5.02 eXternal References (DPC)
 )
-Package xr Info: IMPORTING LABELS FROM ch2/Two.aux on input line 34.
-Package xr Info: IMPORTING LABELS FROM ch3/Three.aux on input line 35.
+Package xr Info: IMPORTING LABELS FROM ch2/Two.aux on input line 35.
+Package xr Info: IMPORTING LABELS FROM ch3/Three.aux on input line 36.
 Package xr Info: IMPORTING LABELS FROM ch3.5/ThreePointFive.aux on input line 3
-6.
-Package xr Info: IMPORTING LABELS FROM ch4/Four.aux on input line 37.
+7.
+Package xr Info: IMPORTING LABELS FROM ch4/Four.aux on input line 38.
 
 
 LaTeX Warning: Label `tab:features' multiply defined.
 
-Package xr Info: IMPORTING LABELS FROM ch5/Five.aux on input line 38.
+Package xr Info: IMPORTING LABELS FROM ch5/Five.aux on input line 39.
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarypositioning.code.tex
@@ -711,19 +719,19 @@ File: pgflibraryshapes.arrows.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
 )) (./thesis.aux (./cover.aux) (./toc.aux) (./ch6/Six.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-\c@maskedRefs=\count138
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+\c@maskedRefs=\count139
 
 (./english.apc
 File: english.apc 2013/07/21 v6.03 apacite language file
@@ -731,17 +739,17 @@ LaTeX Info: Redefining \BPBI on input line 129.
 LaTeX Info: Redefining \BHBI on input line 130.
 ) (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count139
-\scratchdimen=\dimen183
-\scratchbox=\box41
-\nofMPsegments=\count140
-\nofMParguments=\count141
-\everyMPshowfont=\toks43
-\MPscratchCnt=\count142
-\MPscratchDim=\dimen184
-\MPnumerator=\count143
-\makeMPintoPDFobject=\count144
-\everyMPtoPDFconversion=\toks44
+\scratchcounter=\count140
+\scratchdimen=\dimen184
+\scratchbox=\box42
+\nofMPsegments=\count141
+\nofMParguments=\count142
+\everyMPshowfont=\toks44
+\MPscratchCnt=\count143
+\MPscratchDim=\dimen185
+\MPnumerator=\count144
+\makeMPintoPDFobject=\count145
+\everyMPtoPDFconversion=\toks45
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -774,13 +782,13 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 79.
+LaTeX Info: Redefining \selectfont on input line 80.
  ABD: EveryShipout initializing macros
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.13} into 
 your preamble.
- on input line 79.
+ on input line 80.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
@@ -898,71 +906,82 @@ Overfull \hbox (1.3398pt too wide) in paragraph at lines 335--335
  []
 
 [12] [13]
+Overfull \hbox (19.17648pt too wide) in paragraph at lines 392--393
+[]\T1/cmr/m/n/10.95 59 adjec-tives and their com-par-a-tive and superla-tive fo
+rms (\T1/cmr/m/it/10.95 good:better :: tough:tougher\T1/cmr/m/n/10.95 ); 
+ []
 
-Package pgfplots Warning: scatter/classes: can't find class for 'xgerund'!? Ple
-ase make sure you have specified 'scatter src=explicit symbolic'. Ignoring clas
-s 'xgerund' (this message will not come again). on input line 1380.
+[14] [15] [16] [17]
 
- [warning /pgfplots/warning/scatter classes no such class]
-[14] [15] [16]
+Package natbib Warning: Citation `Linzen2016' on page 18 undefined on input lin
+e 1425.
 
-Package natbib Warning: Citation `Linzen2016' on page 17 undefined on input lin
-e 1395.
+[18]
 
-) [17] (./thesis.bbl
+LaTeX Warning: Reference `tab:' on page 19 undefined on input line 1427.
+
+
+LaTeX Warning: Reference `sec:intercomp' on page 19 undefined on input line 145
+2.
+
+) [19] (./thesis.bbl
 Overfull \hbox (7.62492pt too wide) in paragraph at lines 10--17
 \T1/cmr/m/n/10.95 study on sim-i-lar-ity and relat-ed-ness using dis-tri-bu-tio
 nal and wordnet-based approaches.
  []
 
-[18
+[20
 
 
-] [19] [20] [21] [22]
+] [21] [22] [23] [24]
 Overfull \hbox (3.89093pt too wide) in paragraph at lines 557--560
 []\T1/cmr/m/n/10.95 Gibbs Jr., R. W. (1993).  \T1/cmr/m/it/10.95 Pro-cess and p
 rod-ucts in mak-ing sense of tropes\T1/cmr/m/n/10.95 , page 252–276.
  []
 
-[23] [24] [25] [26] [27] [28] [29] [30] [31] [32])
+[25] [26] [27] [28] [29] [30] [31] [32] [33] [34])
 
 Package natbib Warning: There were undefined citations.
 
-[33] (./thesis.aux (./cover.aux) (./toc.aux) (./ch6/Six.aux)) ) 
+[35] (./thesis.aux (./cover.aux) (./toc.aux) (./ch6/Six.aux))
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 26679 strings out of 493029
- 646510 string characters out of 6136234
- 1236933 words of memory out of 5000000
- 29672 multiletter control sequences out of 15000+600000
+ 26988 strings out of 493029
+ 651829 string characters out of 6136234
+ 1235846 words of memory out of 5000000
+ 29977 multiletter control sequences out of 15000+600000
  28280 words of font info for 75 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 55i,21n,84p,8118b,2342s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texm
-f/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-msy10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/shar
-e/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/
-public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx
-2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share
-/texmf/fonts/type1/public/cm-super/sfcc1000.pfb></usr/share/texmf/fonts/type1/p
-ublic/cm-super/sfcc1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0
-600.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/
-texmf/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf/fonts/type1/pu
-blic/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm10
-95.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/t
-exmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/pub
-lic/cm-super/sfrm1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm248
-8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti0900.pfb></usr/share/te
-xmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts/type1/publ
-ic/cm-super/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt0900
-.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on thesis.pdf (42 pages, 625415 bytes).
+ 55i,21n,84p,8118b,2354s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1
+095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/
+texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/pu
+blic/cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx24
+88.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1000.pfb></usr/share/t
+exmf/fonts/type1/public/cm-super/sfcc1095.pfb></usr/share/texmf/fonts/type1/pub
+lic/cm-super/sfrm0600.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm080
+0.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/te
+xmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/publ
+ic/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200
+.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/tex
+mf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf/fonts/type1/publi
+c/cm-super/sfrm2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti0900.
+pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texm
+f/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/type1/public
+/cm-super/sftt0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.p
+fb>
+Output written on thesis.pdf (44 pages, 634662 bytes).
 PDF statistics:
- 249 PDF objects out of 1000 (max. 8388607)
- 177 compressed objects within 2 object streams
+ 256 PDF objects out of 1000 (max. 8388607)
+ 182 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
