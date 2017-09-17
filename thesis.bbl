@@ -29,6 +29,18 @@ Agres, K.~R., McGregor, S., Rataj, K., Purver, M., and Wiggins, G.~A. (2016).
 \newblock In {\em Workshop on Computational Creativity, Concept Invention, and
   General Intelligence}.
 
+\bibitem[Ahnert and Ahnert, 2015]{Ahnert2015}
+Ahnert, R. and Ahnert, S.~E. (2015).
+\newblock Protestant letter networks in the reign of mary i: A quantitative
+  approach.
+\newblock {\em English Literary History}, 82(1):1--33.
+
+\bibitem[Allington et~al., 2016]{AllingtonEA2016}
+Allington, D., Brouillette, S., and Golumbia, D. (2016).
+\newblock Neoliberal tools (and archives): A political history of digital
+  humanities.
+\newblock {\em Los Angeles Review of Books}, (1.5.2016).
+
 \bibitem[Austin, 1962]{Austin1962}
 Austin, J.~L. (1962).
 \newblock {\em How to do things with words}.
@@ -45,6 +57,12 @@ Banjade, R., Maharjan, N., Niraula, N.~B., Rus, V., and Gautam, D. (2015).
   combining different methods.
 \newblock In {\em Computational Linguistics and Intelligent Text Processing -
   16th International Conference}, pages 335--346.
+
+\bibitem[Barnden, 2008]{Barnden2008}
+Barnden, J.~A. (2008).
+\newblock Metaphor and artificial intelligence: Why they matter to each other.
+\newblock In {Gibbs Jr.}, R.~W., editor, {\em The Cambridge Handbook of
+  Metaphor and Thought}, pages 311--338. Cambridge Univeristy Press.
 
 \bibitem[Barnden and Lee, 1999]{BarndenEA1999}
 Barnden, J.~A. and Lee, M.~G. (1999).
@@ -183,6 +201,11 @@ Brentano, F. (1974/1995).
 \newblock Translated by Antos C. Rancurello and D. B. Terrell and Linda L.
   McAlister.
 
+\bibitem[Brooks, 1991]{Brooks1991}
+Brooks, R. (1991).
+\newblock Intelligence without representation.
+\newblock {\em Artificial Intelligence}, 47:139--159.
+
 \bibitem[Bruni et~al., 2012]{BruniEA2012}
 Bruni, E., Boleda, G., Baroni, M., and Tran, N.-K. (2012).
 \newblock Distributional semantics in technicolor.
@@ -271,6 +294,11 @@ Clark, A. (1997).
 Clark, A. (2006).
 \newblock Language, embodiment, and the cognitive niche.
 \newblock {\em Trends in Cognitive Sciences}, 10(8):370--374.
+
+\bibitem[Clark, 2016]{Clark2016}
+Clark, A. (2016).
+\newblock {\em Surfing Uncertainty: Prediction, Action and the Embodied Mind}.
+\newblock Oxford University Press.
 
 \bibitem[Clark, 2015]{Clark2015}
 Clark, S. (2015).
@@ -648,6 +676,12 @@ Hoffmeyer, J. (1997).
 \newblock {\em Signs of Meaning in the Universe}.
 \newblock Indiana University Press.
 
+\bibitem[Hope and Witmore, 2010]{HopeEA2010}
+Hope, J. and Witmore, M. (2010).
+\newblock The hundredth psalm to the tune of "green sleevess": Digital
+  approaches to shakespeare's language of genre.
+\newblock {\em Shakespeare Quarterly}, 61(3):357--390.
+
 \bibitem[Hovy et~al., 2013]{HovyEA2013}
 Hovy, D., Srivastava, S., Kumar, S., Sachan, J.~M., Goyal, K., Li, H., Sanders,
   W., and Hovy, E. (2013).
@@ -922,6 +956,12 @@ Levy, O., Remus, S., Biemann, C., and Dagan, I. (2015b).
   Association for Computational Linguistics: Human Language Technologies},
   pages 970--976.
 
+\bibitem[Linzen, 2016]{Linzen2016}
+Linzen, T. (2016).
+\newblock Issues in evaluating semantic spaces using word analogies.
+\newblock In {\em Proceedings of the 1st Workshop on Evaluating Vector-Space
+  Representations for NLP}, pages 13--18.
+
 \bibitem[Locke, 1997]{Locke1689}
 Locke, J. (1689/1997).
 \newblock An essay concerning human understanding.
@@ -1042,6 +1082,11 @@ Montague, R. (1974).
 \newblock In Thompson, R.~H., editor, {\em Formal Philosophy: selected papers
   of Richard Montague}. Yale University Press, New Haven, CT.
 
+\bibitem[Moretti, 2013]{Moretti2013}
+Moretti, F. (2013).
+\newblock {\em Distant Reading}.
+\newblock Verso, London.
+
 \bibitem[Narayanan, 1999]{Narayanan1999}
 Narayanan, S. (1999).
 \newblock Moving right along: {A} computational model of metaphoric reasoning
@@ -1145,6 +1190,11 @@ Putnam, H. (1975).
 \newblock In Gunderson, K., editor, {\em Language, Mind, and Knowledge}, pages
   131--193. University of Minnesota Press.
 
+\bibitem[Pynchon, 1973]{Pynchon1973}
+Pynchon, T. (1973).
+\newblock {\em Gravity's Rainbow}.
+\newblock Penguin Books, New York, NY.
+
 \bibitem[Radinsky et~al., 2011]{RadinskyEA2011}
 Radinsky, K., Agichtein, E., Gabrilovich, E., and Markovitch, S. (2011).
 \newblock A word at a time: Computing word relatedness using temporal semantic
@@ -1190,7 +1240,7 @@ R\k{a}czaszek-Leonardi, J. (2012).
 
 \bibitem[R\k{a}czaszek-Leonardi and Nomikou, 2015]{RaczasekLeonardiEA2015}
 R\k{a}czaszek-Leonardi, J. and Nomikou, I. (2015).
-\newblock Beyon mechanistic interaction: value-based constraints on meaning in
+\newblock Beyond mechanistic interaction: Value-based constraints on meaning in
   language.
 \newblock {\em Frontiers in Psychology}, 6(1579).
 
@@ -1280,6 +1330,11 @@ Searle, J.~R. (1979).
 \newblock In Ortony, A., editor, {\em Metaphor and Thought}. Cambridge
   University Press.
 
+\bibitem[Searle, 1980]{Searle1980}
+Searle, J.~R. (1980).
+\newblock Minds, brains, and programs.
+\newblock {\em The Behavioral and Brain Sciences}, 3:417--457.
+
 \bibitem[Searle, 1983]{Searle1983b}
 Searle, J.~R. (1983).
 \newblock {\em Intentionality: An Essay in the Philosophy of Mind}.
@@ -1312,14 +1367,14 @@ Shutova, E. (2015).
 \newblock Design and evaluation of metaphor processing systems.
 \newblock {\em Computational Linguistics}, 41(4):579--623.
 
-\bibitem[Shutova et~al., 2013]{ShutovaEA2013b}
-Shutova, E., Kaplan, J., Teufel, S., and Korhonen, A. (2013).
+\bibitem[Shutova et~al., 2013a]{ShutovaEA2013b}
+Shutova, E., Kaplan, J., Teufel, S., and Korhonen, A. (2013a).
 \newblock A computational model of logical metonymy.
 \newblock {\em ACM Transactions on Speech and Language Processing},
   10(3):11:1--11:28.
 
-\bibitem[Shutova et~al., 2012]{ShutovaEA2013}
-Shutova, E., Teufel, S., and Korhonen, A. (2012).
+\bibitem[Shutova et~al., 2013b]{ShutovaEA2013}
+Shutova, E., Teufel, S., and Korhonen, A. (2013b).
 \newblock Statistical metaphor processing.
 \newblock {\em Computational Linguistics}, 39(2):301--353.
 
