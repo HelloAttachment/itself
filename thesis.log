@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.30)  18 SEP 2017 01:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.30)  19 SEP 2017 11:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -712,7 +712,274 @@ File: tikzlibraryshapes.arrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
 s.arrows.code.tex
 File: pgflibraryshapes.arrows.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
-)) (./thesis.aux)
+)) (./thesis.aux (./cover.aux) (./toc.aux) (./ch1/One.aux)
+(./ch2/Two.aux
+
+LaTeX Warning: Label `chap:background' multiply defined.
+
+
+LaTeX Warning: Label `sec:meanmake' multiply defined.
+
+
+LaTeX Warning: Label `sec:concepts' multiply defined.
+
+
+LaTeX Warning: Label `sec:words' multiply defined.
+
+
+LaTeX Warning: Label `sec:data' multiply defined.
+
+) (./ch3/Three.aux
+
+LaTeX Warning: Label `chap:theory' multiply defined.
+
+
+LaTeX Warning: Label `sec:lexsem' multiply defined.
+
+
+LaTeX Warning: Label `sec:sensitivity' multiply defined.
+
+
+LaTeX Warning: Label `fig:bland' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:bland' multiply defined.
+
+
+LaTeX Warning: Label `fig:reduce' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:reduce' multiply defined.
+
+
+LaTeX Warning: Label `fig:perspective' multiply defined.
+
+
+LaTeX Warning: Label `sec:litdims' multiply defined.
+
+
+LaTeX Warning: Label `fig:lattice' multiply defined.
+
+
+LaTeX Warning: Label `sec:interpretable' multiply defined.
+
+
+LaTeX Warning: Label `fig:svsw' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:svsw' multiply defined.
+
+
+LaTeX Warning: Label `fig:bvso' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:bvso' multiply defined.
+
+
+LaTeX Warning: Label `fig:instruments' multiply defined.
+
+) (./ch3.5/ThreePointFive.aux
+
+LaTeX Warning: Label `chap:method' multiply defined.
+
+
+LaTeX Warning: Label `sec:pmi' multiply defined.
+
+
+LaTeX Warning: Label `eq:MI' multiply defined.
+
+
+LaTeX Warning: Label `sec:project' multiply defined.
+
+
+LaTeX Warning: Label `tab:norms' multiply defined.
+
+
+LaTeX Warning: Label `eq:subset' multiply defined.
+
+
+LaTeX Warning: Label `tab:dims' multiply defined.
+
+
+LaTeX Warning: Label `sec:geotext' multiply defined.
+
+
+LaTeX Warning: Label `fig:geo1-dist' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:geo1-dist' multiply defined.
+
+
+LaTeX Warning: Label `fig:geo1-norm' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:geo1-norm' multiply defined.
+
+
+LaTeX Warning: Label `fig:geo1' multiply defined.
+
+
+LaTeX Warning: Label `sec:twomeasures' multiply defined.
+
+
+LaTeX Warning: Label `tab:tops-wild' multiply defined.
+
+
+LaTeX Warning: Label `tab:tops-pet' multiply defined.
+
+
+LaTeX Warning: Label `fig:geofull' multiply defined.
+
+
+LaTeX Warning: Label `sec:replete' multiply defined.
+
+
+LaTeX Warning: Label `tab:profiles' multiply defined.
+
+
+LaTeX Warning: Label `tab:features' multiply defined.
+
+
+LaTeX Warning: Label `sec:math' multiply defined.
+
+
+LaTeX Warning: Label `eq:logdif' multiply defined.
+
+
+LaTeX Warning: Label `sec:w2v' multiply defined.
+
+
+LaTeX Warning: Label `sec:poc' multiply defined.
+
+
+LaTeX Warning: Label `tab:wordnet' multiply defined.
+
+
+LaTeX Warning: Label `tab:wnitems' multiply defined.
+
+) (./ch4/Four.aux
+
+LaTeX Warning: Label `chap:relsim' multiply defined.
+
+
+LaTeX Warning: Label `sec:relperiment' multiply defined.
+
+
+LaTeX Warning: Label `sec:relmeth' multiply defined.
+
+
+LaTeX Warning: Label `tab:related' multiply defined.
+
+
+LaTeX Warning: Label `tab:ind-related' multiply defined.
+
+
+LaTeX Warning: Label `tab:relpare' multiply defined.
+
+
+LaTeX Warning: Label `sec:simperiment' multiply defined.
+
+
+LaTeX Warning: Label `sec:simmeth' multiply defined.
+
+
+LaTeX Warning: Label `tab:similar' multiply defined.
+
+
+LaTeX Warning: Label `tab:ind-similar' multiply defined.
+
+
+LaTeX Warning: Label `tab:fivelated' multiply defined.
+
+
+LaTeX Warning: Label `tab:simpare' multiply defined.
+
+
+LaTeX Warning: Label `sec:litpare' multiply defined.
+
+
+LaTeX Warning: Label `tab:relsim-features' multiply defined.
+
+
+LaTeX Warning: Label `fig:axes' multiply defined.
+
+
+LaTeX Warning: Label `fig:relsimspaces' multiply defined.
+
+
+LaTeX Warning: Label `sec:frames' multiply defined.
+
+) (./ch5/Five.aux
+
+LaTeX Warning: Label `chap:figurative' multiply defined.
+
+
+LaTeX Warning: Label `sec:metperiment' multiply defined.
+
+
+LaTeX Warning: Label `sec:metaback' multiply defined.
+
+
+LaTeX Warning: Label `sec:metameth' multiply defined.
+
+
+LaTeX Warning: Label `tab:metaphor' multiply defined.
+
+
+LaTeX Warning: Label `tab:categoraphor' multiply defined.
+
+
+LaTeX Warning: Label `fig:metaroc' multiply defined.
+
+
+LaTeX Warning: Label `tab:metastats' multiply defined.
+
+
+LaTeX Warning: Label `tab:ind-metaphor' multiply defined.
+
+
+LaTeX Warning: Label `tab:metatures' multiply defined.
+
+
+LaTeX Warning: Label `fig:metaspaces' multiply defined.
+
+
+LaTeX Warning: Label `sec:genaphor' multiply defined.
+
+
+LaTeX Warning: Label `tab:verblearn' multiply defined.
+
+
+LaTeX Warning: Label `sec:coerperiment' multiply defined.
+
+
+LaTeX Warning: Label `tab:coercion' multiply defined.
+
+
+LaTeX Warning: Label `tab:verb-coercion' multiply defined.
+
+
+LaTeX Warning: Label `fig:coerroc' multiply defined.
+
+
+LaTeX Warning: Label `tab:ind-coercion' multiply defined.
+
+
+LaTeX Warning: Label `tab:coertures' multiply defined.
+
+
+LaTeX Warning: Label `fig:coerspaces' multiply defined.
+
+
+LaTeX Warning: Label `tab:poses' multiply defined.
+
+
+LaTeX Warning: Label `tab:coerpare' multiply defined.
+
+
+LaTeX Warning: Label `sec:intercomp' multiply defined.
+
+) (./ch6/Six.aux) (./ch7/Seven.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
@@ -794,10 +1061,15 @@ Package caption Info: End \AtBeginDocument code.
 
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+<Signature.png, id=13, 224.7597pt x 41.9166pt>
+File: Signature.png Graphic file (type png)
+ <use Signature.png>
+Package pdftex.def Info: Signature.png used on input line 30.
+(pdftex.def)             Requested size: 224.75914pt x 41.91647pt.
+ [2
 
-]
-[3
+ <./Signature.png>] [3
 
 ]
 Overfull \hbox (13.43198pt too wide) in paragraph at lines 47--48
@@ -807,45 +1079,54 @@ he dis-tri-bu-tional seman-tic paradigm,
 
 [1
 
-] [2]) [3
+] [2] [3
+
+]) [4
 
 ]
 \openout2 = `toc.aux'.
 
- (./toc.tex (./thesis.toc)
+ (./toc.tex (./thesis.toc
+LaTeX Font Info:    Try loading font information for U+msa on input line 8.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 8.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 8.
+
+(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+) [5
+
+
+
+] [6])
 \tf@toc=\write4
 \openout4 = `thesis.toc'.
 
- [4
-
-
-
-] (./thesis.lof)
+ [7]
+(./thesis.lof)
 \tf@lof=\write5
 \openout5 = `thesis.lof'.
 
- [5
+ [8
 
-] (./thesis.lot)
+] (./thesis.lot [9
+
+])
 \tf@lot=\write6
 \openout6 = `thesis.lot'.
 
-
-[6
-
-])
+ [10])
 \openout2 = `ch1/One.aux'.
 
  (./ch1/One.tex
 Chapter 1.
-
-Package natbib Warning: Citation `Pynchon1973' on page 1 undefined on input lin
-e 2.
-
-
-Package natbib Warning: Citation `Wittgenstein1953' on page 1 undefined on inpu
-t line 2.
-
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 2.
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
@@ -856,1029 +1137,49 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 
 
 
-]
-LaTeX Font Info:    Try loading font information for U+msa on input line 9.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 9.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 9.
-
-(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
-File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-)
-
-Package natbib Warning: Citation `Brooks1991' on page 2 undefined on input line
- 9.
-
-[2]
+] [2]
 Overfull \hbox (13.49696pt too wide) in paragraph at lines 16--17
 []\T1/cmr/m/it/10.95 In a dis-tri-bu-tional seman-tic space defined in terms of
  dimen-sions of co-occurrence
  []
 
-[3] [4] [5]
-
-Package natbib Warning: Citation `Barnden2008' on page 6 undefined on input lin
-e 32.
-
-
-Package natbib Warning: Citation `ShutovaEA2013' on page 6 undefined on input l
-ine 32.
-
-[6] [7]
+[3] [4] [5] [6] [7]
 Overfull \hbox (1.32767pt too wide) in paragraph at lines 43--44
 \T1/cmr/m/n/10.95 ol-ogy extracts from con-tex-tu-ally pro-jected sub-spaces wi
 ll be mea-sure-ments of and between
  []
 
-[8]
-
-LaTeX Warning: Reference `chap:relsim' on page 9 undefined on input line 52.
-
-
-LaTeX Warning: Reference `chap:analogy' on page 9 undefined on input line 52.
-
-[9]
-
-LaTeX Warning: Reference `chap:relsim' on page 10 undefined on input line 56.
-
-
-LaTeX Warning: Reference `sec:relperiment' on page 10 undefined on input line 5
-6.
-
-
-LaTeX Warning: Reference `sec:simperiment' on page 10 undefined on input line 5
-6.
-
-
-LaTeX Warning: Reference `sec:litpare' on page 10 undefined on input line 56.
-
-[10]
-
-LaTeX Warning: Reference `chap:analogy' on page 11 undefined on input line 58.
-
-
-LaTeX Warning: Reference `sec:parallel' on page 11 undefined on input line 58.
-
-
-LaTeX Warning: Reference `sec:anatext' on page 11 undefined on input line 58.
-
-
-LaTeX Warning: Reference `sec:datanote' on page 11 undefined on input line 58.
-
-) [11]
+[8] [9] [10]) [11]
 \openout2 = `ch2/Two.aux'.
 
  (./ch2/Two.tex
 Chapter 2.
-
-Package natbib Warning: Citation `Gallie1956' on page 12 undefined on input lin
-e 4.
-
-
-Package natbib Warning: Citation `Deacon2011' on page 12 undefined on input lin
-e 4.
-
 [12
 
 
 
-]
-
-Package natbib Warning: Citation `Descartes1911' on page 13 undefined on input 
-line 11.
-
-
-Package natbib Warning: Citation `Husserl1900' on page 13 undefined on input li
-ne 11.
-
-
-Package natbib Warning: Citation `Heidegger1926' on page 13 undefined on input 
-line 11.
-
-
-Package natbib Warning: Citation `Locke1689' on page 13 undefined on input line
- 11.
-
-
-Package natbib Warning: Citation `Hume1738' on page 13 undefined on input line 
-11.
-
-
-Package natbib Warning: Citation `Kant1787' on page 13 undefined on input line 
-11.
-
-
-Package natbib Warning: Citation `Hegel1816' on page 13 undefined on input line
- 11.
-
-
-Package natbib Warning: Citation `Brentano1874' on page 13 undefined on input l
-ine 11.
-
-
-Package natbib Warning: Citation `Wittgenstein1953' on page 13 undefined on inp
-ut line 11.
-
-
-Package natbib Warning: Citation `Wittgenstein1953' on page 13 undefined on inp
-ut line 11.
-
-[13]
-
-Package natbib Warning: Citation `Floridi2011' on page 14 undefined on input li
-ne 13.
-
-
-Package natbib Warning: Citation `Floridi2011' on page 14 undefined on input li
-ne 13.
-
-
-Package natbib Warning: Citation `Fredkin2003' on page 14 undefined on input li
-ne 13.
-
-
-Package natbib Warning: Citation `Bostrom2014' on page 14 undefined on input li
-ne 13.
-
-
-Package natbib Warning: Citation `ShannonEA1949' on page 14 undefined on input 
-line 13.
-
-
-Package natbib Warning: Citation `Pierce1980' on page 14 undefined on input lin
-e 13.
-
-
-Package natbib Warning: Citation `CarnapEA1952' on page 14 undefined on input l
-ine 13.
-
-
-Package natbib Warning: Citation `Dretske1981' on page 14 undefined on input li
-ne 13.
-
-
-Package natbib Warning: Citation `BarwiseEA1983' on page 14 undefined on input 
-line 13.
-
-
-Package natbib Warning: Citation `Montague1974' on page 14 undefined on input l
-ine 13.
-
-
-Package natbib Warning: Citation `Koch2004' on page 14 undefined on input line 
-15.
-
-
-Package natbib Warning: Citation `Tononi2008' on page 14 undefined on input lin
-e 15.
-
-
-Package natbib Warning: Citation `Chalmers1996' on page 14 undefined on input l
-ine 15.
-
-
-Package natbib Warning: Citation `VonUexkull1957' on page 14 undefined on input
- line 15.
-
-
-Package natbib Warning: Citation `Koestler1964' on page 14 undefined on input l
-ine 15.
-
-
-Package natbib Warning: Citation `ColtonEA2014' on page 14 undefined on input l
-ine 15.
-
-
-Package natbib Warning: Citation `Gallie1956' on page 14 undefined on input lin
-e 15.
-
-[14]
-
-Package natbib Warning: Citation `Boden1990' on page 15 undefined on input line
- 17.
-
-
-Package natbib Warning: Citation `Wiggins2006b' on page 15 undefined on input l
-ine 17.
-
-
-Package natbib Warning: Citation `Ritchie2007' on page 15 undefined on input li
-ne 17.
-
-
-Package natbib Warning: Citation `Colton2008' on page 15 undefined on input lin
-e 17.
-
-
-Package natbib Warning: Citation `Jordanous2012' on page 15 undefined on input 
-line 17.
-
-
-Package natbib Warning: Citation `Descartes1911' on page 15 undefined on input 
-line 19.
-
-
-Package natbib Warning: Citation `Hobbes1651' on page 15 undefined on input lin
-e 19.
-
-
-Package natbib Warning: Citation `Plato1892' on page 15 undefined on input line
- 19.
-
-
-Package natbib Warning: Citation `Rorty1979' on page 15 undefined on input line
- 19.
-
-
-Package natbib Warning: Citation `Rowlands2010' on page 15 undefined on input l
-ine 19.
-
-
-Package natbib Warning: Citation `Dennett1991' on page 15 undefined on input li
-ne 19.
-
-
-Package natbib Warning: Citation `MaturanaEA1987' on page 15 undefined on input
- line 19.
-
-
-Package natbib Warning: Citation `Haugeland1993' on page 15 undefined on input 
-line 19.
-
-
-Package natbib Warning: Citation `Thompson2007' on page 15 undefined on input l
-ine 19.
-
-
-Package natbib Warning: Citation `Levine1983' on page 15 undefined on input lin
-e 19.
-
-
-Package natbib Warning: Citation `VanGelder1995' on page 15 undefined on input 
-line 19.
-
-
-Package natbib Warning: Citation `Kauffman1995' on page 15 undefined on input l
-ine 19.
-
-
-Package natbib Warning: Citation `Hoffmeyer1997' on page 15 undefined on input 
-line 19.
-
-
-Package natbib Warning: Citation `Pattee2001' on page 15 undefined on input lin
-e 19.
-
-
-Package natbib Warning: Citation `Deacon2011' on page 15 undefined on input lin
-e 19.
-
-[15]
-
-Package natbib Warning: Citation `WhiteheadEA1927' on page 16 undefined on inpu
-t line 21.
-
-
-Package natbib Warning: Citation `Church1940' on page 16 undefined on input lin
-e 21.
-
-
-Package natbib Warning: Citation `FoxEA2005' on page 16 undefined on input line
- 21.
-
-
-Package natbib Warning: Citation `Fodor2001' on page 16 undefined on input line
- 21.
-
-
-Package natbib Warning: Citation `Putnam1975' on page 16 undefined on input lin
-e 21.
-
-
-Package natbib Warning: Citation `McGregorEA2014' on page 16 undefined on input
- line 23.
-
-
-Package natbib Warning: Citation `Coeckelbergh2016' on page 16 undefined on inp
-ut line 23.
-
-[16]
-
-Package natbib Warning: Citation `Searle1983b' on page 17 undefined on input li
-ne 26.
-
-
-Package natbib Warning: Citation `MargolisEA2007' on page 17 undefined on input
- line 26.
-
-
-Package natbib Warning: Citation `Fodor2008' on page 17 undefined on input line
- 26.
-
-
-Package natbib Warning: Citation `Boden2006' on page 17 undefined on input line
- 26.
-
-
-Package natbib Warning: Citation `Lenat1995' on page 17 undefined on input line
- 26.
-
-
-Package natbib Warning: Citation `Sowa2006' on page 17 undefined on input line 
-26.
-
-
-Package natbib Warning: Citation `FodorEA1988' on page 17 undefined on input li
-ne 28.
-
-
-Package natbib Warning: Citation `Hutto2001' on page 17 undefined on input line
- 28.
-
-
-Package natbib Warning: Citation `Chemero2009' on page 17 undefined on input li
-ne 28.
-
-
-Package natbib Warning: Citation `Gibson1979' on page 17 undefined on input lin
-e 28.
-
-
-Package natbib Warning: Citation `Clark1997' on page 17 undefined on input line
- 28.
-
-
-Package natbib Warning: Citation `Kant1787' on page 17 undefined on input line 
-30.
-
-
-Package natbib Warning: Citation `Gardenfors2000' on page 17 undefined on input
- line 30.
-
-
-Package natbib Warning: Citation `Gardenfors2014' on page 17 undefined on input
- line 30.
-
-[17]
-
-Package natbib Warning: Citation `Barsalou1992' on page 18 undefined on input l
-ine 32.
-
-
-Package natbib Warning: Citation `Barsalou1992' on page 18 undefined on input l
-ine 32.
-
-
-Package natbib Warning: Citation `FauconnierEA1998' on page 18 undefined on inp
-ut line 32.
-
-
-Package natbib Warning: Citation `Veale2012b' on page 18 undefined on input lin
-e 32.
-
-
-Package natbib Warning: Citation `ZnidarsicEA2016' on page 18 undefined on inpu
-t line 32.
-
-
-Package natbib Warning: Citation `Baars1988' on page 18 undefined on input line
- 32.
-
-
-Package natbib Warning: Citation `Shanahan2010' on page 18 undefined on input l
-ine 32.
-
-
-Package natbib Warning: Citation `Wiggins2012' on page 18 undefined on input li
-ne 32.
-
-
-Package natbib Warning: Citation `Davidson1974' on page 18 undefined on input l
-ine 34.
-
-
-Package natbib Warning: Citation `Davidson1974' on page 18 undefined on input l
-ine 34.
-
-
-Package natbib Warning: Citation `Floridi2011' on page 18 undefined on input li
-ne 34.
-
-
-Package natbib Warning: Citation `Deacon2011' on page 18 undefined on input lin
-e 34.
-
-[18]
-
-Package natbib Warning: Citation `Chomsky1959' on page 19 undefined on input li
-ne 39.
-
-
-Package natbib Warning: Citation `Chomsky1959' on page 19 undefined on input li
-ne 39.
-
-
-Package natbib Warning: Citation `Skinner1957' on page 19 undefined on input li
-ne 39.
-
-
-Package natbib Warning: Citation `Skinner1957' on page 19 undefined on input li
-ne 39.
-
-
-Package natbib Warning: Citation `Chomsky1986' on page 19 undefined on input li
-ne 39.
-
-
-Package natbib Warning: Citation `Pinker1994' on page 19 undefined on input lin
-e 39.
-
-
-Package natbib Warning: Citation `Fodor2001' on page 19 undefined on input line
- 39.
-
-
-Package natbib Warning: Citation `Levinson2001' on page 19 undefined on input l
-ine 39.
-
-
-Package natbib Warning: Citation `Everett2005' on page 19 undefined on input li
-ne 39.
-
-[19]
-
-Package natbib Warning: Citation `Sapir1929' on page 20 undefined on input line
- 41.
-
-
-Package natbib Warning: Citation `Whorf1940' on page 20 undefined on input line
- 41.
-
-
-Package natbib Warning: Citation `CroftEA2004' on page 20 undefined on input li
-ne 41.
-
-
-Package natbib Warning: Citation `Langacker1987' on page 20 undefined on input 
-line 41.
-
-
-Package natbib Warning: Citation `Lakoff1987' on page 20 undefined on input lin
-e 41.
-
-
-Package natbib Warning: Citation `Johnson1990' on page 20 undefined on input li
-ne 41.
-
-
-Package natbib Warning: Citation `Evans2009' on page 20 undefined on input line
- 45.
-
-
-Package natbib Warning: Citation `Ortony1993' on page 20 undefined on input lin
-e 45.
-
-
-Package natbib Warning: Citation `Black1977' on page 20 undefined on input line
- 45.
-
-
-Package natbib Warning: Citation `Ortony1975' on page 20 undefined on input lin
-e 45.
-
-
-Package natbib Warning: Citation `LakoffEA1980' on page 20 undefined on input l
-ine 45.
-
-
-Package natbib Warning: Citation `Shutova2015' on page 20 undefined on input li
-ne 45.
-
-
-Package natbib Warning: Citation `ShutovaEA2013' on page 20 undefined on input 
-line 45.
-
-[20]
-
-Package natbib Warning: Citation `vanGenabith2001' on page 21 undefined on inpu
-t line 47.
-
-
-Package natbib Warning: Citation `ThomasEA1999' on page 21 undefined on input l
-ine 47.
-
-
-Package natbib Warning: Citation `Black1977' on page 21 undefined on input line
- 47.
-
-
-Package natbib Warning: Citation `Shutova2010' on page 21 undefined on input li
-ne 47.
-
-
-Package natbib Warning: Citation `Wilks1978' on page 21 undefined on input line
- 47.
-
-
-Package natbib Warning: Citation `Fass1991' on page 21 undefined on input line 
-47.
-
-
-Package natbib Warning: Citation `Indurkhya1997' on page 21 undefined on input 
-line 49.
-
-
-Package natbib Warning: Citation `Narayanan1999' on page 21 undefined on input 
-line 49.
-
-
-Package natbib Warning: Citation `LeeEA2001' on page 21 undefined on input line
- 49.
-
-
-Package natbib Warning: Citation `GargettEA2013' on page 21 undefined on input 
-line 49.
-
-
-Package natbib Warning: Citation `BarndenEA1999' on page 21 undefined on input 
-line 49.
-
-
-Package natbib Warning: Citation `VealeEA2015' on page 21 undefined on input li
-ne 49.
-
-
-Package natbib Warning: Citation `VealeEA2007' on page 21 undefined on input li
-ne 49.
-
-[21]
-
-Package natbib Warning: Citation `Shutova2013' on page 22 undefined on input li
-ne 51.
-
-
-Package natbib Warning: Citation `BirkeEA2006' on page 22 undefined on input li
-ne 51.
-
-
-Package natbib Warning: Citation `Utsumi2011' on page 22 undefined on input lin
-e 51.
-
-
-Package natbib Warning: Citation `Dunn2013' on page 22 undefined on input line 
-51.
-
-
-Package natbib Warning: Citation `TurneyEA2011' on page 22 undefined on input l
-ine 51.
-
-
-Package natbib Warning: Citation `ShutovaEA2013' on page 22 undefined on input 
-line 51.
-
-
-Package natbib Warning: Citation `Kintsch2000' on page 22 undefined on input li
-ne 51.
-
-
-Package natbib Warning: Citation `Kintsch2000' on page 22 undefined on input li
-ne 51.
-
-
-Package natbib Warning: Citation `GutierrezEA2016' on page 22 undefined on inpu
-t line 51.
-
-
-Package natbib Warning: Citation `TsvetkovEA2014' on page 22 undefined on input
- line 51.
-
-
-Package natbib Warning: Citation `Davidson1978' on page 22 undefined on input l
-ine 53.
-
-
-Package natbib Warning: Citation `Veale2016' on page 22 undefined on input line
- 53.
-
-
-Package natbib Warning: Citation `Searle1979' on page 22 undefined on input lin
-e 53.
-
-
-Package natbib Warning: Citation `Searle1979' on page 22 undefined on input lin
-e 53.
-
-
-Package natbib Warning: Citation `GibbsEA2006' on page 22 undefined on input li
-ne 53.
-
-
-Package natbib Warning: Citation `Carston2012' on page 22 undefined on input li
-ne 53.
-
-[22]
-
-Package natbib Warning: Citation `Carston2010' on page 23 undefined on input li
-ne 55.
-
-
-Package natbib Warning: Citation `Barsalou1993' on page 23 undefined on input l
-ine 55.
-
-
-Package natbib Warning: Citation `Barsalou1993' on page 23 undefined on input l
-ine 55.
-
-
-Package natbib Warning: Citation `SperberEA1995' on page 23 undefined on input 
-line 55.
-
-
-Package natbib Warning: Citation `SperberEA2012' on page 23 undefined on input 
-line 55.
-
-
-Package natbib Warning: Citation `Reimer2001' on page 23 undefined on input lin
-e 55.
-
-[23]
-
-Package natbib Warning: Citation `BasharinEA2004' on page 24 undefined on input
- line 60.
-
-
-Package natbib Warning: Citation `ShannonEA1949' on page 24 undefined on input 
-line 60.
-
-
-Package natbib Warning: Citation `Harris1954' on page 24 undefined on input lin
-e 60.
-
-
-Package natbib Warning: Citation `Harris1954' on page 24 undefined on input lin
-e 60.
-
-
-Package natbib Warning: Citation `Sahlgren2008' on page 24 undefined on input l
-ine 60.
-
-
-Package natbib Warning: Citation `Pantel2005' on page 24 undefined on input lin
-e 60.
-
-
-Package natbib Warning: Citation `Pantel2005' on page 24 undefined on input lin
-e 60.
-
-
-Package natbib Warning: Citation `Firth1957' on page 24 undefined on input line
- 60.
-
-
-Package natbib Warning: Citation `Firth1957' on page 24 undefined on input line
- 60.
-
-
-Package natbib Warning: Citation `MacWhinney1998' on page 24 undefined on input
- line 60.
-
-
-Package natbib Warning: Citation `BaroniEA2014b' on page 24 undefined on input 
-line 60.
-
-
-Package natbib Warning: Citation `GrefenstetteEA2011' on page 24 undefined on i
-nput line 60.
-
-
-Package natbib Warning: Citation `Peirce1932' on page 24 undefined on input lin
-e 62.
-
-
-Package natbib Warning: Citation `Eco1976' on page 24 undefined on input line 6
-2.
-
-
-Package natbib Warning: Citation `MillerEA1991' on page 24 undefined on input l
-ine 62.
-
-[24]
-
-Package natbib Warning: Citation `SaltonEA1975' on page 25 undefined on input l
-ine 64.
-
-
-Package natbib Warning: Citation `Schutze1992' on page 25 undefined on input li
-ne 64.
-
-
-Package natbib Warning: Citation `SaltonEA1988' on page 25 undefined on input l
-ine 64.
-
-
-Package natbib Warning: Citation `Turney2001' on page 25 undefined on input lin
-e 64.
-
-
-LaTeX Warning: Reference `sec:anamath' on page 25 undefined on input line 64.
-
-
-Package natbib Warning: Citation `LandauerEA1997b' on page 25 undefined on inpu
-t line 64.
-
-
-Package natbib Warning: Citation `TurneyEA2010' on page 25 undefined on input l
-ine 66.
-
-
-Package natbib Warning: Citation `Clark2015' on page 25 undefined on input line
- 66.
-
-
-Package natbib Warning: Citation `BullinariaEA2012' on page 25 undefined on inp
-ut line 66.
-
-
-Package natbib Warning: Citation `LevyEA2015b' on page 25 undefined on input li
-ne 66.
-
-
-Package natbib Warning: Citation `DeerwesterEA1990' on page 25 undefined on inp
-ut line 66.
-
-[25]
-
-Package natbib Warning: Citation `GeffetEA2005' on page 26 undefined on input l
-ine 68.
-
-
-Package natbib Warning: Citation `BaroniEA2012' on page 26 undefined on input l
-ine 68.
-
-
-Package natbib Warning: Citation `Rimell2014' on page 26 undefined on input lin
-e 68.
-
-
-Package natbib Warning: Citation `Schutze1998' on page 26 undefined on input li
-ne 68.
-
-
-Package natbib Warning: Citation `KartsaklisEA2013' on page 26 undefined on inp
-ut line 68.
-
-
-Package natbib Warning: Citation `MalandrakisEA2013' on page 26 undefined on in
-put line 68.
-
-
-Package natbib Warning: Citation `DosSantosEA2014' on page 26 undefined on inpu
-t line 68.
-
-
-Package natbib Warning: Citation `MitchellEA2010' on page 26 undefined on input
- line 68.
-
-
-Package natbib Warning: Citation `BaroniEA2010' on page 26 undefined on input l
-ine 68.
-
-
-Package natbib Warning: Citation `CoeckeEA2011' on page 26 undefined on input l
-ine 68.
-
-
-Package natbib Warning: Citation `BengioEA2003' on page 26 undefined on input l
-ine 70.
-
-
-Package natbib Warning: Citation `CollobertEA2008' on page 26 undefined on inpu
-t line 70.
-
-
-Package natbib Warning: Citation `MikolovEA2013' on page 26 undefined on input 
-line 70.
-
+] [13] [14] [15] [16] [17] [18] [19] [20] [21] [22] [23] [24] [25] [26]
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 70.
+
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-
-LaTeX Warning: Reference `chap:analogy' on page 26 undefined on input line 70.
-
-[26]
-
-Package natbib Warning: Citation `BaroniEA2014' on page 27 undefined on input l
-ine 72.
-
-
-Package natbib Warning: Citation `BaroniEA2014' on page 27 undefined on input l
-ine 72.
-
-
-Package natbib Warning: Citation `LevyEA2014b' on page 27 undefined on input li
-ne 72.
-
-
-Package natbib Warning: Citation `BaroniEA2010b' on page 27 undefined on input 
-line 74.
-
-
-Package natbib Warning: Citation `FinkelsteinEA2002' on page 27 undefined on in
-put line 74.
-
-
-Package natbib Warning: Citation `HillEA2015' on page 27 undefined on input lin
-e 74.
-
-
-Package natbib Warning: Citation `GutierrezEA2016' on page 27 undefined on inpu
-t line 74.
-
-
-Package natbib Warning: Citation `PustejovskyEA2010' on page 27 undefined on in
-put line 74.
-
-
-Package natbib Warning: Citation `MikolovEA2013' on page 27 undefined on input 
-line 74.
-
-[27]) [28]
+) [27] [28]) [29]
 \openout2 = `ch3/Three.aux'.
 
- (./ch3/Three.tex
+
+(./ch3/Three.tex
 Chapter 3.
-
-Package natbib Warning: Citation `Casasanto2015' on page 29 undefined on input 
-line 2.
-
-
-Package natbib Warning: Citation `Austin1962' on page 29 undefined on input lin
-e 2.
-
-
-Package natbib Warning: Citation `JurafskyEA2000' on page 29 undefined on input
- line 10.
-
-
-Package natbib Warning: Citation `Dreyfus2012' on page 29 undefined on input li
-ne 10.
-
-
-Package natbib Warning: Citation `Dreyfus2012' on page 29 undefined on input li
-ne 10.
-
-[29
+[30
 
 
 
 ]
-
-Package natbib Warning: Citation `Rorty1979' on page 30 undefined on input line
- 12.
-
-
 Overfull \hbox (5.95616pt too wide) in paragraph at lines 17--18
 []\T1/cmr/m/n/10.95 The method-ol-ogy should gen-er-ate rep-re-sen-ta-tions tha
 t incor-po-rate seman-tics directly
  []
 
-[30]
-
-LaTeX Warning: Reference `chap:relsim' on page 31 undefined on input line 23.
-
-
-LaTeX Warning: Reference `chap:analogy' on page 31 undefined on input line 23.
-
-[31]
-
-Package natbib Warning: Citation `Russell1905' on page 32 undefined on input li
-ne 30.
-
-
-Package natbib Warning: Citation `Kaplan1979' on page 32 undefined on input lin
-e 30.
-
-
-Package natbib Warning: Citation `Carnap1947' on page 32 undefined on input lin
-e 30.
-
-
-Package natbib Warning: Citation `Peirce1932' on page 32 undefined on input lin
-e 32.
-
-
-Package natbib Warning: Citation `RaczaszekLeonardi2012' on page 32 undefined o
-n input line 32.
-
-
-Package natbib Warning: Citation `Clark2006' on page 32 undefined on input line
- 32.
-
-[32]
-
-Package natbib Warning: Citation `Barsalou1992' on page 33 undefined on input l
-ine 34.
-
-
-Package natbib Warning: Citation `Evans2009' on page 33 undefined on input line
- 34.
-
-
-Package natbib Warning: Citation `Pustejovsky1995' on page 33 undefined on inpu
-t line 34.
-
-
-Package natbib Warning: Citation `Clark2015' on page 33 undefined on input line
- 36.
-
-[33]
-
-Package natbib Warning: Citation `Barsalou2008' on page 34 undefined on input l
-ine 38.
-
-
-Package natbib Warning: Citation `Evans2009' on page 34 undefined on input line
- 38.
-
-
-Package natbib Warning: Citation `Putnam1975' on page 34 undefined on input lin
-e 40.
-
-[34]
-
-Package natbib Warning: Citation `Montague1974' on page 35 undefined on input l
-ine 43.
-
-
-Package natbib Warning: Citation `Grice1975' on page 35 undefined on input line
- 43.
-
-
-Package natbib Warning: Citation `Chomsky1986' on page 35 undefined on input li
-ne 43.
-
-
-Package natbib Warning: Citation `Birkhoff1958' on page 35 undefined on input l
-ine 43.
-
-
-Package natbib Warning: Citation `Wille1982' on page 35 undefined on input line
- 43.
-
-
-Package natbib Warning: Citation `VonNeumann1945' on page 35 undefined on input
- line 43.
-
-
-Package natbib Warning: Citation `BaroniEA2014b' on page 35 undefined on input 
-line 45.
-
-
-Package natbib Warning: Citation `BaroniEA2014b' on page 35 undefined on input 
-line 45.
-
-
-Package natbib Warning: Citation `ErkEA2008' on page 35 undefined on input line
- 45.
-
-
-Package natbib Warning: Citation `Wilks1978' on page 35 undefined on input line
- 45.
-
-
-Package natbib Warning: Citation `ErkEA2010' on page 35 undefined on input line
- 45.
-
-[35]
-
-Package natbib Warning: Citation `ErkEA2008' on page 36 undefined on input line
- 47.
-
-
-Package natbib Warning: Citation `Barsalou1993' on page 36 undefined on input l
-ine 47.
-
-
-Package natbib Warning: Citation `Barsalou1993' on page 36 undefined on input l
-ine 47.
-
-
-Package natbib Warning: Citation `Carston2010' on page 36 undefined on input li
-ne 47.
-
-
-Package natbib Warning: Citation `Carston2010' on page 36 undefined on input li
-ne 47.
-
-
+[31] [32] [33] [34] [35] [36]
 Overfull \hbox (12.9105pt too wide) in paragraph at lines 129--130
  [][] 
  []
@@ -1888,272 +1189,26 @@ Overfull \hbox (2.4216pt too wide) in paragraph at lines 54--133
 [][] [] 
  []
 
-[36]
-
-Package natbib Warning: Citation `Schutze1992b' on page 37 undefined on input l
-ine 139.
-
-
-Package natbib Warning: Citation `BurgessEA1997' on page 37 undefined on input 
-line 139.
-
-[37]
-
-Package natbib Warning: Citation `Bateson1972' on page 38 undefined on input li
-ne 141.
-
-
-Package natbib Warning: Citation `Bateson1972' on page 38 undefined on input li
-ne 141.
-
-
-Package natbib Warning: Citation `Grice1975' on page 38 undefined on input line
- 141.
-
-
-Package natbib Warning: Citation `Grice1975' on page 38 undefined on input line
- 141.
-
-
-Package natbib Warning: Citation `MillerEA1991' on page 38 undefined on input l
-ine 143.
-
-
-Package natbib Warning: Citation `SaltonEA1975' on page 38 undefined on input l
-ine 146.
-
-
-Package natbib Warning: Citation `BullinariaEA2012' on page 38 undefined on inp
-ut line 146.
-
-
-Package natbib Warning: Citation `KielaEA2014' on page 38 undefined on input li
-ne 146.
-
-
-Package natbib Warning: Citation `BullinariaEA2012' on page 38 undefined on inp
-ut line 146.
-
-
-Package natbib Warning: Citation `LapesaEA2013' on page 38 undefined on input l
-ine 146.
-
-
-Package natbib Warning: Citation `KielaEA2014' on page 38 undefined on input li
-ne 146.
-
-
-Package natbib Warning: Citation `BengioEA2003' on page 38 undefined on input l
-ine 146.
-
-
-Package natbib Warning: Citation `CollobertEA2008' on page 38 undefined on inpu
-t line 146.
-
-
-Package natbib Warning: Citation `KalchbrennerEA2014' on page 38 undefined on i
-nput line 146.
-
-[38] [39]
-
-Package natbib Warning: Citation `Wille1982' on page 40 undefined on input line
- 200.
-
-
-Package natbib Warning: Citation `Wille2005' on page 40 undefined on input line
- 200.
-
-
-Package natbib Warning: Citation `Widdows2004' on page 40 undefined on input li
-ne 200.
-
-
-Package natbib Warning: Citation `GeffetEA2005' on page 40 undefined on input l
-ine 200.
-
-
-Package natbib Warning: Citation `KartsaklisEA2016' on page 40 undefined on inp
-ut line 200.
-
-[40]
-
-Package natbib Warning: Citation `Rimell2014' on page 41 undefined on input lin
-e 202.
-
-
-Package natbib Warning: Citation `Widdows2003' on page 41 undefined on input li
-ne 202.
-
-[41]
-
-Package natbib Warning: Citation `DeerwesterEA1990' on page 42 undefined on inp
-ut line 209.
-
-
-Package natbib Warning: Citation `LandauerEA1997' on page 42 undefined on input
- line 209.
-
-
-Package natbib Warning: Citation `LandauerEA1997' on page 42 undefined on input
- line 209.
-
-
-Package natbib Warning: Citation `Gardenfors2000' on page 42 undefined on input
- line 211.
-
-
-Package natbib Warning: Citation `Gardenfors2000' on page 42 undefined on input
- line 211.
-
-
-Package natbib Warning: Citation `Gardenfors2014' on page 42 undefined on input
- line 211.
-
-[42]
-
-Package natbib Warning: Citation `Jager2010' on page 43 undefined on input line
- 213.
-
-
-Package natbib Warning: Citation `KayEA1999' on page 43 undefined on input line
- 213.
-
-
-Package natbib Warning: Citation `Levinson2001' on page 43 undefined on input l
-ine 213.
-
-
-Package natbib Warning: Citation `DerracEA2015' on page 43 undefined on input l
-ine 215.
-
-
-Package natbib Warning: Citation `DerracEA2015' on page 43 undefined on input l
-ine 215.
-
-
-Package natbib Warning: Citation `DerracEA2015' on page 43 undefined on input l
-ine 217.
-
-[43]
+[37] [38] [39] [40] [41] [42] [43] [44]
 Overfull \hbox (2.4216pt too wide) in paragraph at lines 220--272
 [][] [] 
  []
 
-
-Package natbib Warning: Citation `Gardenfors2000' on page 44 undefined on input
- line 278.
-
-
-Package natbib Warning: Citation `Gardenfors2000' on page 44 undefined on input
- line 278.
-
-[44]) [45]
+[45] [46]) [47]
 \openout2 = `ch3.5/ThreePointFive.aux'.
 
  (./ch3.5/ThreePointFive.tex
 Chapter 4.
-[46
+[48
 
 
 
-]
-
-Package natbib Warning: Citation `GabrilovichEA2007' on page 47 undefined on in
-put line 13.
-
-
-Package natbib Warning: Citation `CollobertEA2008' on page 47 undefined on inpu
-t line 13.
-
-
-Package natbib Warning: Citation `BaroniEA2014' on page 47 undefined on input l
-ine 13.
-
-
-Package natbib Warning: Citation `PenningtonEA2014' on page 47 undefined on inp
-ut line 13.
-
-
-Package natbib Warning: Citation `GutierrezEA2016' on page 47 undefined on inpu
-t line 13.
-
-[47] [48]
-
-Package natbib Warning: Citation `LevyEA2014b' on page 49 undefined on input li
-ne 29.
-
-
-Package natbib Warning: Citation `SocherEA2013b' on page 49 undefined on input 
-line 29.
-
-
-Package natbib Warning: Citation `PadoEA2007' on page 49 undefined on input lin
-e 29.
-
-
-Package natbib Warning: Citation `LapesaEA2014' on page 49 undefined on input l
-ine 29.
-
-
-Package natbib Warning: Citation `MilajevsEA2016' on page 49 undefined on input
- line 29.
-
-[49]
+] [49] [50] [51]
 Overfull \hbox (15.72865pt too wide) in paragraph at lines 33--33
 []\T1/cmr/bx/n/14.4 Selecting Dimen-sions from a Sparse Co-Occurrence Matrix 
  []
 
-
-Package natbib Warning: Citation `Gibson1979' on page 50 undefined on input lin
-e 34.
-
-
-Package natbib Warning: Citation `Clark1997' on page 50 undefined on input line
- 34.
-
-
-Package natbib Warning: Citation `HillEA2014' on page 50 undefined on input lin
-e 38.
-
-
-Package natbib Warning: Citation `BruniEA2014' on page 50 undefined on input li
-ne 38.
-
-[50] [51] [52] [53] [54]
-
-Package natbib Warning: Citation `PolajnarEA2014' on page 55 undefined on input
- line 126.
-
-
-Package natbib Warning: Citation `PolajnarEA2014' on page 55 undefined on input
- line 128.
-
-
-Package natbib Warning: Citation `Widdows2004' on page 55 undefined on input li
-ne 131.
-
-
-Package natbib Warning: Citation `Clark2015' on page 55 undefined on input line
- 131.
-
-
-Package natbib Warning: Citation `Clark2015' on page 55 undefined on input line
- 131.
-
-
-Package natbib Warning: Citation `BaroniEA2014b' on page 55 undefined on input 
-line 131.
-
-
-Package natbib Warning: Citation `Dummett1981' on page 55 undefined on input li
-ne 131.
-
-[55]
-
-Package natbib Warning: Citation `AbdiEA2010' on page 56 undefined on input lin
-e 133.
-
-[56]
+[52] [53] [54] [55] [56] [57] [58]
 Overfull \hbox (6.37645pt too wide) in paragraph at lines 197--198
  [][] 
  []
@@ -2163,400 +1218,18 @@ Overfull \hbox (6.37645pt too wide) in paragraph at lines 246--247
  [][] 
  []
 
-[57]
-
-Package natbib Warning: Citation `Gardenfors2000' on page 58 undefined on input
- line 258.
-
-
-Package natbib Warning: Citation `Gardenfors2000' on page 58 undefined on input
- line 258.
-
-[58] [59] [60]
-
-LaTeX Warning: Reference `chap:relsim' on page 61 undefined on input line 345.
-
-[61] [62] [63] [64] [65] [66] [67]
-
-LaTeX Warning: Reference `chap:relsim' on page 68 undefined on input line 530.
-
-[68]
-
-Package natbib Warning: Citation `SchwartzEA2015' on page 69 undefined on input
- line 535.
-
-
-Package natbib Warning: Citation `GutierrezEA2016' on page 69 undefined on inpu
-t line 535.
-
-
-Package natbib Warning: Citation `DeerwesterEA1990' on page 69 undefined on inp
-ut line 540.
-
-[69]
-
-Package natbib Warning: Citation `DeerwesterEA1990' on page 70 undefined on inp
-ut line 546.
-
-
-Package natbib Warning: Citation `TurneyEA2010' on page 70 undefined on input l
-ine 546.
-
-
-Package natbib Warning: Citation `MikolovEA2013b' on page 70 undefined on input
- line 565.
-
-
-Package natbib Warning: Citation `ErkEA2016' on page 70 undefined on input line
- 565.
-
-
-Package natbib Warning: Citation `KielaEA2015' on page 70 undefined on input li
-ne 565.
-
-
-Package natbib Warning: Citation `MikolovEA2013' on page 70 undefined on input 
-line 565.
-
-
-Package natbib Warning: Citation `KotturEA2016' on page 70 undefined on input l
-ine 565.
-
-[70]
-
-Package natbib Warning: Citation `MikolovEA2013c' on page 71 undefined on input
- line 567.
-
-[71] [72]
-
-Package natbib Warning: Citation `AgresEA2015' on page 73 undefined on input li
-ne 580.
-
-
-Package natbib Warning: Citation `VanDerVeldeEA2015' on page 73 undefined on in
-put line 580.
-
-
-Package natbib Warning: Citation `McGregorEA2015c' on page 73 undefined on inpu
-t line 582.
-
-
-Package natbib Warning: Citation `Fellbaum1998' on page 73 undefined on input l
-ine 582.
-
-
-Package natbib Warning: Citation `BaroniEA2012' on page 73 undefined on input l
-ine 582.
-
-
-Package natbib Warning: Citation `RiedlEA2013' on page 73 undefined on input li
-ne 582.
-
-
-Package natbib Warning: Citation `MelamudEA2014' on page 73 undefined on input 
-line 582.
-
-[73] [74] [75] [76] [77]) [78]
+[59] [60] [61] [62] [63] [64] [65] [66] [67] [68] [69] [70] [71] [72] [73]
+[74] [75] [76] [77] [78] [79]) [80]
 \openout2 = `ch4/Four.aux'.
 
  (./ch4/Four.tex
 Chapter 5.
-[79
+[81
 
 
 
-]
-
-Package natbib Warning: Citation `RubensteinEA1965' on page 80 undefined on inp
-ut line 8.
-
-
-Package natbib Warning: Citation `YangEA2006' on page 80 undefined on input lin
-e 8.
-
-
-Package natbib Warning: Citation `FinkelsteinEA2002' on page 80 undefined on in
-put line 8.
-
-
-Package natbib Warning: Citation `BruniEA2012' on page 80 undefined on input li
-ne 8.
-
-
-Package natbib Warning: Citation `FaruquiEA2016' on page 80 undefined on input 
-line 8.
-
-
-Package natbib Warning: Citation `AgirreEA2009' on page 80 undefined on input l
-ine 10.
-
-
-Package natbib Warning: Citation `HillEA2015' on page 80 undefined on input lin
-e 10.
-
-
-Package natbib Warning: Citation `MihalceaEA2006' on page 80 undefined on input
- line 10.
-
-
-Package natbib Warning: Citation `HassanEA2011' on page 80 undefined on input l
-ine 10.
-
-[80] [81]
-
-Package natbib Warning: Citation `GabrilovichEA2007' on page 82 undefined on in
-put line 17.
-
-
-Package natbib Warning: Citation `HassanEA2011' on page 82 undefined on input l
-ine 17.
-
-
-LaTeX Warning: Reference `sec:frames' on page 82 undefined on input line 17.
-
-
-Package natbib Warning: Citation `HuangEA2012' on page 82 undefined on input li
-ne 17.
-
-
-Package natbib Warning: Citation `LuongEA2013' on page 82 undefined on input li
-ne 17.
-
-
-Package natbib Warning: Citation `RadinskyEA2011' on page 82 undefined on input
- line 17.
-
-
-Package natbib Warning: Citation `HalawiEA2012' on page 82 undefined on input l
-ine 17.
-
-[82]
-
-LaTeX Warning: Reference `tab:related' on page 83 undefined on input line 45.
-
-
-Package natbib Warning: Citation `Sahlgren2008' on page 83 undefined on input l
-ine 45.
-
-
-Package natbib Warning: Citation `Saussure1959' on page 83 undefined on input l
-ine 45.
-
-
-Package natbib Warning: Citation `Saussure1959' on page 83 undefined on input l
-ine 45.
-
-[83]
-
-Package natbib Warning: Citation `LevyEA2014b' on page 84 undefined on input li
-ne 49.
-
-[84] [85]
-
-LaTeX Warning: Reference `tab:ind-related' on page 86 undefined on input line 6
-6.
-
-
-LaTeX Warning: Reference `tab:related' on page 86 undefined on input line 66.
-
-[86]
-
-LaTeX Warning: Reference `sec:litpare' on page 87 undefined on input line 108.
-
-
-Package natbib Warning: Citation `HassanEA2011' on page 87 undefined on input l
-ine 114.
-
-
-Package natbib Warning: Citation `LuongEA2013' on page 87 undefined on input li
-ne 115.
-
-
-Package natbib Warning: Citation `GabrilovichEA2007' on page 87 undefined on in
-put line 117.
-
-
-Package natbib Warning: Citation `RadinskyEA2011' on page 87 undefined on input
- line 118.
-
-
-Package natbib Warning: Citation `HalawiEA2012' on page 87 undefined on input l
-ine 119.
-
-
-LaTeX Warning: Reference `tab:relpare' on page 87 undefined on input line 126.
-
-
-Package natbib Warning: Citation `HalawiEA2012' on page 87 undefined on input l
-ine 126.
-
-
-Package natbib Warning: Citation `GabrilovichEA2007' on page 87 undefined on in
-put line 126.
-
-
-Package natbib Warning: Citation `RadinskyEA2011' on page 87 undefined on input
- line 126.
-
-
-Package natbib Warning: Citation `HalawiEA2012' on page 87 undefined on input l
-ine 126.
-
-[87]
-
-Package natbib Warning: Citation `HillEA2015' on page 88 undefined on input lin
-e 180.
-
-[88]
-
-Package natbib Warning: Citation `RecskiEA2016' on page 89 undefined on input l
-ine 182.
-
-
-Package natbib Warning: Citation `KornaiEA2015' on page 89 undefined on input l
-ine 182.
-
-
-Package natbib Warning: Citation `BanjadeEA2015' on page 89 undefined on input 
-line 182.
-
-
-Package natbib Warning: Citation `SchwartzEA2015' on page 89 undefined on input
- line 182.
-
-
-Package natbib Warning: Citation `MaEA2017' on page 89 undefined on input line 
-182.
-
-
-LaTeX Warning: Reference `sec:frames' on page 89 undefined on input line 186.
-
-[89]
-
-LaTeX Warning: Reference `tab:similar' on page 90 undefined on input line 189.
-
-[90]
-
-Package natbib Warning: Citation `HillEA2015' on page 91 undefined on input lin
-e 212.
-
-
-Package natbib Warning: Citation `HillEA2015' on page 91 undefined on input lin
-e 214.
-
-
-Package natbib Warning: Citation `KielaEA2014' on page 91 undefined on input li
-ne 214.
-
-
-Package natbib Warning: Citation `AgirreEA2009' on page 91 undefined on input l
-ine 214.
-
-[91]
-
-LaTeX Warning: Reference `tab:ind-similar' on page 92 undefined on input line 2
-17.
-
-[92]
-
-LaTeX Warning: Reference `tab:similar' on page 93 undefined on input line 238.
-
-
-Package natbib Warning: Citation `OBrien2007' on page 93 undefined on input lin
-e 240.
-
-
-LaTeX Warning: Reference `tab:fivelated' on page 93 undefined on input line 280
-.
-
-
-LaTeX Warning: Reference `tab:ind-similar' on page 93 undefined on input line 2
-80.
-
-[93]
-
-LaTeX Warning: Reference `tab:ind-similar' on page 94 undefined on input line 2
-82.
-
-[94] [95]
-
-Package natbib Warning: Citation `MaEA2017' on page 96 undefined on input line 
-300.
-
-
-Package natbib Warning: Citation `SchwartzEA2015' on page 96 undefined on input
- line 302.
-
-
-Package natbib Warning: Citation `BanjadeEA2015' on page 96 undefined on input 
-line 303.
-
-
-Package natbib Warning: Citation `RecskiEA2016' on page 96 undefined on input l
-ine 304.
-
-
-LaTeX Warning: Reference `tab:simpare' on page 96 undefined on input line 311.
-
-
-Package natbib Warning: Citation `SchwartzEA2015' on page 96 undefined on input
- line 311.
-
-
-Package natbib Warning: Citation `SchwartzEA2015' on page 96 undefined on input
- line 311.
-
-
-Package natbib Warning: Citation `BanjadeEA2015' on page 96 undefined on input 
-line 311.
-
-
-Package natbib Warning: Citation `BanjadeEA2015' on page 96 undefined on input 
-line 311.
-
-
-Package natbib Warning: Citation `RecskiEA2016' on page 96 undefined on input l
-ine 311.
-
-
-Package natbib Warning: Citation `RecskiEA2016' on page 96 undefined on input l
-ine 311.
-
-[96]
-
-LaTeX Warning: Reference `tab:ind-related' on page 97 undefined on input line 3
-14.
-
-
-LaTeX Warning: Reference `tab:ind-similar' on page 97 undefined on input line 3
-14.
-
-
-LaTeX Warning: Reference `tab:fivelated' on page 97 undefined on input line 314
-.
-
-[97] [98]
-
-Package natbib Warning: Citation `Barsalou1992' on page 99 undefined on input l
-ine 427.
-
-
-Package natbib Warning: Citation `Barsalou1992' on page 99 undefined on input l
-ine 427.
-
-
-Package natbib Warning: Citation `LevyEA2015' on page 99 undefined on input lin
-e 427.
-
-[99]
-
-LaTeX Warning: Reference `fig:axes' on page 100 undefined on input line 476.
-
-[100]
-
-LaTeX Warning: Reference `fig:relsimspaces' on page 101 undefined on input line
- 478.
-
+] [82] [83] [84] [85] [86] [87] [88] [89] [90] [91] [92] [93] [94] [95]
+[96] [97] [98] [99] [100] [101] [102]
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -2647,190 +1320,18 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-[101]
-
-Package natbib Warning: Citation `Tversky1977' on page 102 undefined on input l
-ine 814.
-
-
-Package natbib Warning: Citation `ChenEA2017' on page 102 undefined on input li
-ne 816.
-
-
-Package natbib Warning: Citation `ChenEA2017' on page 102 undefined on input li
-ne 816.
-
-
-Overfull \hbox (5.50826pt too wide) in paragraph at lines 816--817
-\T1/cmr/m/n/10.95 rela-tion-ships, as is \T1/cmr/m/it/10.95 mother:baby::frog:t
-adpole\T1/cmr/m/n/10.95 , but the propo-si-tion \T1/cmr/m/it/10.95 nurse:patien
-t::frog:tadpole
- []
-
-[102]
-
-Package natbib Warning: Citation `BarsalouEA1993' on page 103 undefined on inpu
-t line 818.
-
-[103]
-
-Package natbib Warning: Citation `Gardenfors2000' on page 104 undefined on inpu
-t line 826.
-
-
-Package natbib Warning: Citation `FaruquiEA2016' on page 104 undefined on input
- line 828.
-
-
-Package natbib Warning: Citation `HerbelotEA2013' on page 104 undefined on inpu
-t line 830.
-
-
-Package natbib Warning: Citation `MelamudEA2014' on page 104 undefined on input
- line 830.
-
-[104] [105]) [106]
+ [103] [104] [105] [106] [107]) [108]
 \openout2 = `ch5/Five.aux'.
 
- (./ch5/Five.tex
+
+(./ch5/Five.tex
 Chapter 6.
+[109
 
-Package natbib Warning: Citation `Fraser1993' on page 107 undefined on input li
-ne 4.
 
 
-Package natbib Warning: Citation `BouveretEA2009' on page 107 undefined on inpu
-t line 4.
-
-
-Package natbib Warning: Citation `Barsalou1992' on page 107 undefined on input 
-line 4.
-
-[107
-
-
-
-]
-
-Package natbib Warning: Citation `Gibbs1993' on page 108 undefined on input lin
-e 6.
-
-
-Package natbib Warning: Citation `Gibbs1994' on page 108 undefined on input lin
-e 6.
-
-[108]
-
-Package natbib Warning: Citation `ShutovaEA2013' on page 109 undefined on input
- line 11.
-
-
-Package natbib Warning: Citation `LakoffEA2003' on page 109 undefined on input 
-line 11.
-
-
-Package natbib Warning: Citation `Utsumi2011' on page 109 undefined on input li
-ne 11.
-
-
-Package natbib Warning: Citation `HovyEA2013' on page 109 undefined on input li
-ne 11.
-
-
-Package natbib Warning: Citation `MitchellEA2010' on page 109 undefined on inpu
-t line 13.
-
-
-Package natbib Warning: Citation `BaroniEA2010' on page 109 undefined on input 
-line 13.
-
-
-Package natbib Warning: Citation `CoeckeEA2011' on page 109 undefined on input 
-line 13.
-
-
-Package natbib Warning: Citation `Gardenfors2000' on page 109 undefined on inpu
-t line 13.
-
-
-Package natbib Warning: Citation `Gardenfors2000' on page 109 undefined on inpu
-t line 13.
-
-[109]
-
-Package natbib Warning: Citation `GutierrezEA2016' on page 110 undefined on inp
-ut line 15.
-
-
-Package natbib Warning: Citation `TsvetkovEA2014' on page 110 undefined on inpu
-t line 15.
-
-
-Package natbib Warning: Citation `GutierrezEA2016' on page 110 undefined on inp
-ut line 17.
-
-
-Package natbib Warning: Citation `BaroniEA2010' on page 110 undefined on input 
-line 17.
-
-
-Package natbib Warning: Citation `LakoffEA1980' on page 110 undefined on input 
-line 17.
-
-
-Package natbib Warning: Citation `GutierrezEA2016' on page 110 undefined on inp
-ut line 19.
-
-
-Package natbib Warning: Citation `GutierrezEA2016' on page 110 undefined on inp
-ut line 19.
-
-[110]
-
-Package natbib Warning: Citation `Langacker1991' on page 111 undefined on input
- line 24.
-
-
-Package natbib Warning: Citation `GutierrezEA2016' on page 111 undefined on inp
-ut line 26.
-
-[111] [112]
-
-Package natbib Warning: Citation `GutierrezEA2016' on page 113 undefined on inp
-ut line 59.
-
-
-Package natbib Warning: Citation `GutierrezEA2016' on page 113 undefined on inp
-ut line 59.
-
-[113]
-
-Package natbib Warning: Citation `GutierrezEA2016' on page 114 undefined on inp
-ut line 87.
-
-
-Package natbib Warning: Citation `GutierrezEA2016' on page 114 undefined on inp
-ut line 87.
-
-
-Package natbib Warning: Citation `TsvetkovEA2014' on page 114 undefined on inpu
-t line 93.
-
-[114]
-
-Package natbib Warning: Citation `GutierrezEA2016' on page 115 undefined on inp
-ut line 112.
-
-
-Package natbib Warning: Citation `TsvetkovEA2014' on page 115 undefined on inpu
-t line 112.
-
-[115]
-
-Package natbib Warning: Citation `GutierrezEA2016' on page 116 undefined on inp
-ut line 124.
-
-[116] [117] [118] [119]
+] [110] [111] [112] [113] [114] [115] [116] [117] [118] [119] [120]
+[121]
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -2877,95 +1378,11 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-
-
-Package natbib Warning: Citation `GutierrezEA2016' on page 120 undefined on inp
-ut line 401.
-
-[120]
-
-Package natbib Warning: Citation `JankowiakEA2015' on page 121 undefined on inp
-ut line 403.
-
-
-Package natbib Warning: Citation `AgresEA2016' on page 121 undefined on input l
-ine 403.
-
-
-Package natbib Warning: Citation `GutierrezEA2016' on page 121 undefined on inp
-ut line 403.
-
-[121] [122]
-
-Package natbib Warning: Citation `Pustejovsky1995' on page 123 undefined on inp
-ut line 433.
-
-
-Package natbib Warning: Citation `Pustejovsky1995' on page 123 undefined on inp
-ut line 433.
-
-[123]
-
-Package natbib Warning: Citation `JezekEA2010' on page 124 undefined on input l
-ine 435.
-
-
-Package natbib Warning: Citation `LapataEA2003' on page 124 undefined on input 
-line 435.
-
-
-Package natbib Warning: Citation `ShutovaEA2013b' on page 124 undefined on inpu
-t line 435.
-
-
-Package natbib Warning: Citation `LapataEA2003' on page 124 undefined on input 
-line 435.
-
-
-Package natbib Warning: Citation `ShutovaEA2013b' on page 124 undefined on inpu
-t line 435.
-
-
-Package natbib Warning: Citation `Langacker1991' on page 124 undefined on input
- line 437.
-
-
-Package natbib Warning: Citation `Wittgenstein1953' on page 124 undefined on in
-put line 437.
-
-
-Package natbib Warning: Citation `Wittgenstein1953' on page 124 undefined on in
-put line 437.
-
+ [122] [123] [124] [125]
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 437.
-
-Package natbib Warning: Citation `CopestakeEA1995' on page 124 undefined on inp
-ut line 437.
-
-
-Package natbib Warning: Citation `McGregorEA2017' on page 124 undefined on inpu
-t line 439.
-
-
-Package natbib Warning: Citation `PustejovskyEA2008' on page 124 undefined on i
-nput line 439.
-
-
-Package natbib Warning: Citation `PustejovskyEA2008' on page 124 undefined on i
-nput line 439.
-
-[124]
-
-Package natbib Warning: Citation `PustejovskyEA2010' on page 125 undefined on i
-nput line 442.
-
-[125] [126] [127] [128] [129] [130] [131]
-
-LaTeX Warning: Reference `sec:litpare' on page 132 undefined on input line 611.
-
-
-[132]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 439.
+ [126] [127] [128] [129] [130] [131] [132]
+[133] [134] [135]
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -3012,237 +1429,32 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (11.74248pt too wide) in paragraph at lines 788--789
+Overfull \hbox (11.74248pt too wide) in paragraph at lines 790--791
 []\T1/cmr/m/n/10.95 Figure 6.4[] illus-trates word-vectors and generic vec-tors
  pro-jected into exem-plary instances
  []
 
-[133]
-
-Package natbib Warning: Citation `Pustejovsky1993' on page 134 undefined on inp
-ut line 790.
-
-
-Package natbib Warning: Citation `LapataEA2003' on page 134 undefined on input 
-line 790.
-
-
-Package natbib Warning: Citation `ShutovaEA2013b' on page 134 undefined on inpu
-t line 790.
-
-[134]
-
-Package natbib Warning: Citation `PustejovskyEA2008' on page 135 undefined on i
-nput line 795.
-
-
-Package natbib Warning: Citation `PustejovskyEA2008' on page 135 undefined on i
-nput line 795.
-
-
-Package natbib Warning: Citation `PustejovskyEA2010' on page 135 undefined on i
-nput line 795.
-
-
-Package natbib Warning: Citation `ToutanovaEA2000' on page 135 undefined on inp
-ut line 797.
-
-[135] [136]
-
-Package natbib Warning: Citation `RobertsEA2010' on page 137 undefined on input
- line 833.
-
-
-Package natbib Warning: Citation `RobertsEA2011' on page 137 undefined on input
- line 834.
-
-
-Package natbib Warning: Citation `RobertsEA2011' on page 137 undefined on input
- line 845.
-
-
-Package natbib Warning: Citation `RobertsEA2010' on page 137 undefined on input
- line 845.
-
-
-Package natbib Warning: Citation `RobertsEA2011' on page 137 undefined on input
- line 847.
-
-
-Package natbib Warning: Citation `PadoEA2007' on page 137 undefined on input li
-ne 847.
-
-[137]
-
-Package natbib Warning: Citation `SperberEA2012' on page 138 undefined on input
- line 865.
-
-
-Package natbib Warning: Citation `Shutova2010' on page 138 undefined on input l
-ine 867.
-
-
-Package natbib Warning: Citation `Carston2010' on page 138 undefined on input l
-ine 867.
-
-
-Package natbib Warning: Citation `Carston2010' on page 138 undefined on input l
-ine 867.
-
-[138]
-
-Package natbib Warning: Citation `PustejovskyEA2010' on page 139 undefined on i
-nput line 871.
-
-
-Package natbib Warning: Citation `Davidson1978' on page 139 undefined on input 
-line 873.
-
-
-Package natbib Warning: Citation `Sweetser1990' on page 139 undefined on input 
-line 873.
-
-
-Package natbib Warning: Citation `Bateson1972' on page 139 undefined on input l
-ine 873.
-
-
-Package natbib Warning: Citation `Gibson1979' on page 139 undefined on input li
-ne 873.
-
-
-Package natbib Warning: Citation `RaczasekLeonardiEA2015' on page 139 undefined
- on input line 873.
-
-[139]) [140]
+[136] [137] [138] [139] [140] [141] [142]) [143]
 \openout2 = `ch6/Six.aux'.
 
  (./ch6/Six.tex
 Chapter 7.
-
-Package natbib Warning: Citation `Tversky1977' on page 141 undefined on input l
-ine 4.
-
-
-LaTeX Warning: Reference `sec:frames' on page 141 undefined on input line 4.
-
-
-Package natbib Warning: Citation `Gentner1983' on page 141 undefined on input l
-ine 4.
-
-
-Package natbib Warning: Citation `VealeEA1992' on page 141 undefined on input l
-ine 4.
-
-[141
+[144
 
 
 
 ]
-
-Package natbib Warning: Citation `Gardenfors2000' on page 142 undefined on inpu
-t line 6.
-
-
-Package natbib Warning: Citation `Rimell2014' on page 142 undefined on input li
-ne 6.
-
-
-Package natbib Warning: Citation `Rimell2014' on page 142 undefined on input li
-ne 6.
-
-
-Package natbib Warning: Citation `DerracEA2015' on page 142 undefined on input 
-line 6.
-
-
-Package natbib Warning: Citation `DerracEA2015' on page 142 undefined on input 
-line 6.
-
-
-Package natbib Warning: Citation `MikolovEA2013b' on page 142 undefined on inpu
-t line 9.
-
-
-Package natbib Warning: Citation `MikolovEA2013c' on page 142 undefined on inpu
-t line 9.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 9--9
 [][]\T1/cmr/m/n/9 The anal-ogy data is included in the pack-age that can be dow
 n-loaded at
  []
 
-[142]
-
-Package natbib Warning: Citation `PenningtonEA2014' on page 143 undefined on in
-put line 11.
-
-
-Package natbib Warning: Citation `LevyEA2014' on page 143 undefined on input li
-ne 13.
-
-
-LaTeX Warning: Reference `fig:sense' on page 143 undefined on input line 13.
-
-[143]
+[145] [146]
 Overfull \hbox (2.4216pt too wide) in paragraph at lines 17--52
 [][] [] 
  []
 
-
-Package natbib Warning: Citation `Tversky1977' on page 144 undefined on input l
-ine 56.
-
-
-Package natbib Warning: Citation `Tversky1977' on page 144 undefined on input l
-ine 56.
-
-
-LaTeX Warning: Reference `fig:nonsense' on page 144 undefined on input line 56.
-
-
-
-Package natbib Warning: Citation `ChenEA2017' on page 144 undefined on input li
-ne 58.
-
-[144]
-
-LaTeX Warning: Reference `fig:mismatch' on page 145 undefined on input line 61.
-
-
-
-Package natbib Warning: Citation `McGregorEA2016' on page 145 undefined on inpu
-t line 63.
-
-[145] [146]
-
-LaTeX Warning: Reference `fig:histograms' on page 147 undefined on input line 1
-01.
-
-
-LaTeX Warning: Reference `fig:mismatch' on page 147 undefined on input line 101
-.
-
-
-LaTeX Warning: Reference `fig:inspace' on page 147 undefined on input line 223.
-
-
-[147]
-
-LaTeX Warning: Reference `fig:inspace' on page 148 undefined on input line 225.
-
-
-[148]
-
-Package natbib Warning: Citation `McGregorEA2016' on page 149 undefined on inpu
-t line 271.
-
-
-Package natbib Warning: Citation `MikolovEA2013b' on page 149 undefined on inpu
-t line 273.
-
-[149]
+[147] [148] [149] [150] [151] [152]
 Overfull \hbox (1.39085pt too wide) in paragraph at lines 281--281
 [][] 
  []
@@ -3252,16 +1464,7 @@ Overfull \hbox (1.3398pt too wide) in paragraph at lines 285--285
 [][] 
  []
 
-
-LaTeX Warning: Reference `tab:knowns' on page 150 undefined on input line 294.
-
-
-LaTeX Warning: Reference `tab:knowns' on page 150 undefined on input line 296.
-
-
-LaTeX Warning: Reference `tab:fakes' on page 150 undefined on input line 296.
-
-[150]
+[153]
 Overfull \hbox (1.39085pt too wide) in paragraph at lines 304--304
 [][] 
  []
@@ -3271,14 +1474,7 @@ Overfull \hbox (1.3398pt too wide) in paragraph at lines 308--308
 [][] 
  []
 
-
-LaTeX Warning: Reference `tab:knowns' on page 151 undefined on input line 317.
-
-
-LaTeX Warning: Reference `sec:relmeth' on page 151 undefined on input line 317.
-
-
-[151]
+[154]
 Overfull \hbox (1.39085pt too wide) in paragraph at lines 328--328
 [][] 
  []
@@ -3288,244 +1484,62 @@ Overfull \hbox (1.3398pt too wide) in paragraph at lines 335--335
 [][] 
  []
 
-
-LaTeX Warning: Reference `tab:solutions' on page 152 undefined on input line 34
-7.
-
-
-LaTeX Warning: Reference `tab:knowns' on page 152 undefined on input line 347.
-
-
-LaTeX Warning: Reference `tab:fakes' on page 152 undefined on input line 347.
-
-[152]
-
-Package natbib Warning: Citation `MikolovEA2013' on page 153 undefined on input
- line 351.
-
-[153]
+[155] [156]
 Overfull \hbox (19.17648pt too wide) in paragraph at lines 392--393
 []\T1/cmr/m/n/10.95 59 adjec-tives and their com-par-a-tive and superla-tive fo
 rms (\T1/cmr/m/it/10.95 good:better :: tough:tougher\T1/cmr/m/n/10.95 ); 
  []
 
-
-LaTeX Warning: Reference `fig:anaparisons' on page 154 undefined on input line 
-399.
-
-[154]
-
-LaTeX Warning: Reference `sec:datanote' on page 155 undefined on input line 401
-.
-
-
-LaTeX Warning: Reference `fig:xando' on page 155 undefined on input line 403.
-
-[155]
-
-LaTeX Warning: Reference `fig:histograms' on page 156 undefined on input line 1
-416.
-
-[156]
-
-Package natbib Warning: Citation `Russell1905' on page 157 undefined on input l
-ine 1421.
-
-[157]
-
-Package natbib Warning: Citation `Langacker1991' on page 158 undefined on input
- line 1423.
-
-
-Package natbib Warning: Citation `Langacker1991' on page 158 undefined on input
- line 1423.
-
-
-Package natbib Warning: Citation `Linzen2016' on page 158 undefined on input li
-ne 1425.
-
-
-LaTeX Warning: Reference `fig:inspace' on page 158 undefined on input line 1425
-.
-
-[158]
-
-LaTeX Warning: Reference `tab:transgressions' on page 159 undefined on input li
-ne 1427.
-
-
-LaTeX Warning: Reference `fig:inspace' on page 159 undefined on input line 1451
-.
-
-
-Package natbib Warning: Citation `Linzen2016' on page 159 undefined on input li
-ne 1451.
-
-
-Package natbib Warning: Citation `MikolovEA2013' on page 159 undefined on input
- line 1451.
-
-
-LaTeX Warning: Reference `tab:solutions' on page 159 undefined on input line 14
-51.
-
-[159]
-
-Package natbib Warning: Citation `Gardenfors2000' on page 160 undefined on inpu
-t line 1453.
-
-
-Package natbib Warning: Citation `Widdows2004' on page 160 undefined on input l
-ine 1453.
-
-
-LaTeX Warning: Reference `tab:knowns' on page 160 undefined on input line 1453.
-
-
-
-LaTeX Warning: Reference `tab:fakes' on page 160 undefined on input line 1453.
-
-
-Package natbib Warning: Citation `McGregorEA2016' on page 160 undefined on inpu
-t line 1455.
-
-[160]) [161]
+[157] [158] [159] [160] [161] [162] [163]) [164]
 \openout2 = `ch7/Seven.aux'.
 
  (./ch7/Seven.tex
 Chapter 8.
-
-LaTeX Warning: Reference `chap:relsim' on page 162 undefined on input line 4.
-
-[162
+[165
 
 
 
 ]
-
-LaTeX Warning: Reference `chap:analogy' on page 163 undefined on input line 6.
-
-
 Overfull \hbox (9.09557pt too wide) in paragraph at lines 8--9
 []\T1/cmr/m/n/10.95 The ques-tion which moti-vated this research was whether da
 ta about word co-occurrences
  []
 
-
-LaTeX Warning: Reference `chap:relsim' on page 163 undefined on input line 11.
-
-[163] [164] [165] [166]
-
-LaTeX Warning: Reference `sec:frames' on page 167 undefined on input line 38.
-
-[167]
-
-Package natbib Warning: Citation `FinkelsteinEA2002' on page 168 undefined on i
-nput line 42.
-
-
-Package natbib Warning: Citation `HillEA2015' on page 168 undefined on input li
-ne 42.
-
-
-Package natbib Warning: Citation `PustejovskyEA2010' on page 168 undefined on i
-nput line 42.
-
-
-Package natbib Warning: Citation `AllingtonEA2016' on page 168 undefined on inp
-ut line 46.
-
-
-Package natbib Warning: Citation `Moretti2013' on page 168 undefined on input l
-ine 46.
-
-
-Package natbib Warning: Citation `HopeEA2010' on page 168 undefined on input li
-ne 46.
-
-
-Package natbib Warning: Citation `Ahnert2015' on page 168 undefined on input li
-ne 46.
-
-
-Package natbib Warning: Citation `HopeEA2010' on page 168 undefined on input li
-ne 46.
-
-[168]
-
-LaTeX Warning: Reference `chap:analogy' on page 169 undefined on input line 49.
-
-
-
-Package natbib Warning: Citation `Searle1980' on page 169 undefined on input li
-ne 49.
-
-
-LaTeX Warning: Reference `chap:intro' on page 169 undefined on input line 49.
-
-
-Overfull \hbox (12.28914pt too wide) in paragraph at lines 49--50
-\T1/cmr/m/n/10.95 At the begin-ning of Chap-ter [], I described anal-ogy as a k
-ind of seman-tic meta-phenomenon,
+[166] [167] [168] [169] [170] [171]
+Overfull \hbox (5.91814pt too wide) in paragraph at lines 49--50
+\T1/cmr/m/n/10.95 At the begin-ning of Chap-ter 7[], I described anal-ogy as a 
+kind of seman-tic meta-phenomenon,
  []
 
-
-Package natbib Warning: Citation `Wittgenstein1953' on page 169 undefined on in
-put line 51.
-
-[169]
-
-Package natbib Warning: Citation `Davidson1978' on page 170 undefined on input 
-line 55.
-
-
-Package natbib Warning: Citation `Davidson1978' on page 170 undefined on input 
-line 55.
-
-
-Package natbib Warning: Citation `Clark2016' on page 170 undefined on input lin
-e 55.
-
-[170]) [171] (./thesis.bbl
-Overfull \hbox (7.62492pt too wide) in paragraph at lines 10--17
+[172] [173]) [174] (./thesis.bbl
+Overfull \hbox (12.4547pt too wide) in paragraph at lines 10--17
 \T1/cmr/m/n/10.95 study on sim-i-lar-ity and relat-ed-ness using dis-tri-bu-tio
-nal and wordnet-based approaches.
+nal and WordNet-based approaches.
  []
 
-[172
+[175
 
 
-] [173] [174] [175] [176]
-Overfull \hbox (3.89093pt too wide) in paragraph at lines 585--588
+] [176] [177] [178] [179]
+Overfull \hbox (3.89093pt too wide) in paragraph at lines 570--573
 []\T1/cmr/m/n/10.95 Gibbs Jr., R. W. (1993).  \T1/cmr/m/it/10.95 Pro-cess and p
 rod-ucts in mak-ing sense of tropes\T1/cmr/m/n/10.95 , page 252–276.
  []
 
-[177] [178] [179] [180] [181] [182] [183] [184] [185] [186] [187])
-
-Package natbib Warning: There were undefined citations.
-
-[188] (./thesis.aux (./cover.aux) (./toc.aux) (./ch1/One.aux) (./ch2/Two.aux)
+[180] [181] [182] [183] [184] [185] [186] [187] [188] [189] [190]) [191]
+(./thesis.aux (./cover.aux) (./toc.aux) (./ch1/One.aux) (./ch2/Two.aux)
 (./ch3/Three.aux) (./ch3.5/ThreePointFive.aux) (./ch4/Four.aux) (./ch5/Five.aux
-) (./ch6/Six.aux) (./ch7/Seven.aux)
+) (./ch6/Six.aux) (./ch7/Seven.aux))
 
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 28205 strings out of 493029
- 676505 string characters out of 6136234
- 1343907 words of memory out of 5000000
- 31162 multiletter control sequences out of 15000+600000
- 30432 words of font info for 78 fonts, out of 8000000 for 9000
+ 28512 strings out of 493029
+ 681009 string characters out of 6136234
+ 1357404 words of memory out of 5000000
+ 31448 multiletter control sequences out of 15000+600000
+ 29656 words of font info for 77 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  61i,21n,103p,8118b,3844s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texliv
@@ -3541,27 +1555,26 @@ cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texm
 f/fonts/type1/public/cm-super/sfbi1095.pfb></usr/share/texmf/fonts/type1/public
-/cm-super/sfbx0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.p
-fb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf
-/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/
-cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pf
-b></usr/share/texmf/fonts/type1/public/cm-super/sfcc0900.pfb></usr/share/texmf/
-fonts/type1/public/cm-super/sfcc1000.pfb></usr/share/texmf/fonts/type1/public/c
-m-super/sfcc1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0600.pfb
-></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/f
-onts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf/fonts/type1/public/cm
--super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb>
-</usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fo
-nts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-
-super/sfrm1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2488.pfb><
-/usr/share/texmf/fonts/type1/public/cm-super/sfti0900.pfb></usr/share/texmf/fon
-ts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-s
-uper/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt0900.pfb></
-usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on thesis.pdf (197 pages, 1292068 bytes).
+/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.p
+fb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf
+/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/public/
+cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc0900.pf
+b></usr/share/texmf/fonts/type1/public/cm-super/sfcc1000.pfb></usr/share/texmf/
+fonts/type1/public/cm-super/sfcc1095.pfb></usr/share/texmf/fonts/type1/public/c
+m-super/sfrm0600.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb
+></usr/share/texmf/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf/f
+onts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm
+-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
+</usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fo
+nts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf/fonts/type1/public/cm-
+super/sfrm2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti0900.pfb><
+/usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fon
+ts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-s
+uper/sftt0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb>
+Output written on thesis.pdf (204 pages, 1312337 bytes).
 PDF statistics:
- 788 PDF objects out of 1000 (max. 8388607)
- 547 compressed objects within 6 object streams
+ 809 PDF objects out of 1000 (max. 8388607)
+ 560 compressed objects within 6 object streams
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
 

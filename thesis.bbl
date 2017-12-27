@@ -10,7 +10,7 @@ Abdi, H. and Williams, L.~J. (2010).
 Agirre, E., Alfonseca, E., Hall, K., Kravalova, J., Pa\c{s}ca, M., and Soroa,
   A. (2009).
 \newblock A study on similarity and relatedness using distributional and
-  wordnet-based approaches.
+  {WordNet}-based approaches.
 \newblock In {\em Proceedings of Human Language Technologies: The 2009 Annual
   Conference of the North American Chapter of the Association for Computational
   Linguistics}, pages 19--27.
@@ -31,7 +31,7 @@ Agres, K.~R., McGregor, S., Rataj, K., Purver, M., and Wiggins, G.~A. (2016).
 
 \bibitem[Ahnert and Ahnert, 2015]{Ahnert2015}
 Ahnert, R. and Ahnert, S.~E. (2015).
-\newblock Protestant letter networks in the reign of mary i: A quantitative
+\newblock Protestant letter networks in the reign of {Mary I}: A quantitative
   approach.
 \newblock {\em English Literary History}, 82(1):1--33.
 
@@ -40,6 +40,12 @@ Allington, D., Brouillette, S., and Golumbia, D. (2016).
 \newblock Neoliberal tools (and archives): A political history of digital
   humanities.
 \newblock {\em Los Angeles Review of Books}, (1.5.2016).
+
+\bibitem[Arora et~al., 2015]{AroraEA2015}
+Arora, S., Li, Y., Liang, Y., Ma, T., and Risteski, A. (2015).
+\newblock Random walks on context spaces: Towards an explanation of the
+  mysteries of semantic word embeddings.
+\newblock {\em Computing Research Repository}, abs/1502.03520.
 
 \bibitem[Austin, 1962]{Austin1962}
 Austin, J.~L. (1962).
@@ -77,15 +83,10 @@ Baroni, M., Bernardi, R., Do, N., and Shan, C. (2012).
 \newblock In {\em {EACL} 2012, 13th Conference of the European Chapter of the
   Association for Computational Linguistics}, pages 23--32.
 
-\bibitem[Baroni et~al., 2014a]{BaroniEA2014b}
-Baroni, M., Bernardi, R., and Zamparelli, R. (2014a).
+\bibitem[Baroni et~al., 2014]{BaroniEA2014b}
+Baroni, M., Bernardi, R., and Zamparelli, R. (2014).
 \newblock Frege in space: A program for compositional distributional semantics.
 \newblock {\em Linguistic Issues in Language Technology}, 9:241--346.
-
-\bibitem[Baroni et~al., 2014b]{BaroniEA2014}
-Baroni, M., Dinu, G., and Kruszewski, G. (2014b).
-\newblock Don't count, predict!
-\newblock In {\em ACL 2014}.
 
 \bibitem[Baroni and Lenci, 2010]{BaroniEA2010b}
 Baroni, M. and Lenci, A. (2010).
@@ -134,7 +135,7 @@ Barwise, J. and Perry, J. (1983).
 
 \bibitem[Basharin et~al., 2004]{BasharinEA2004}
 Basharin, G.~P., Langville, A.~N., and Naumov, V.~A. (2004).
-\newblock The life and work of a.a. markov.
+\newblock The life and work of {A.A. Markov}.
 \newblock {\em Linear Algebra and its Applications}, 386:3--26.
 \newblock Special Issue on the Conference on the Numerical Solution of Markov
   Chains 2003.
@@ -158,14 +159,8 @@ Birke, J. and Sarkar, A. (2006).
 
 \bibitem[Birkhoff, 1958]{Birkhoff1958}
 Birkhoff, G. (1958).
-\newblock Von neumann and lattice theory.
+\newblock {Von Neumann} and lattice theory.
 \newblock {\em Bulletin of the American Mathematical Society}, 64:50--56.
-
-\bibitem[Black, 1955]{Black1955}
-Black, M. (1955).
-\newblock Metaphor.
-\newblock In {\em Proceedings of the Aristotelian Society}, volume~55, pages
-  273--294.
 
 \bibitem[Black, 1977]{Black1977}
 Black, M. (1977).
@@ -220,7 +215,7 @@ Bruni, E., Tran, N.~K., and Baroni, M. (2014).
 \bibitem[Bullinaria and Levy, 2012]{BullinariaEA2012}
 Bullinaria, J.~A. and Levy, J.~P. (2012).
 \newblock Extracting semantic representations from word co-occurrence
-  statistics: stop-lists, stemming, and svd.
+  statistics: Stop-lists, stemming, and {SVD}.
 \newblock {\em Behavior Research Methods}, 44(3):890--907.
 
 \bibitem[Burgess and Lund, 1997]{BurgessEA1997}
@@ -241,7 +236,7 @@ Carnap, R. and Bar-Hillel, Y. (1952).
 \bibitem[Carston, 2010]{Carston2010}
 Carston, R. (2010).
 \newblock Metaphor: Ad hoc concepts, literal meaning and mental images.
-\newblock 110(3):297--323.
+\newblock {\em Proceedings of the Aristotelian Society}, 110(3):297--323.
 
 \bibitem[Carston, 2012]{Carston2012}
 Carston, R. (2012).
@@ -272,7 +267,7 @@ Chen, D., Peterson, J.~C., and Griffiths, T.~L. (2017).
 
 \bibitem[Chomsky, 1959]{Chomsky1959}
 Chomsky, N. (1959).
-\newblock A review of b. f. skinner's verbal behavior.
+\newblock A review of {B. F. Skinner's} verbal behavior.
 \newblock {\em Language}, 35(1):26--58.
 
 \bibitem[Chomsky, 1986]{Chomsky1986}
@@ -534,7 +529,7 @@ Fredkin, E. (2003).
 
 \bibitem[Gabrilovich and Markovitch, 2007]{GabrilovichEA2007}
 Gabrilovich, E. and Markovitch, S. (2007).
-\newblock Computing semantic relatedness using wikipedia-based explicit
+\newblock Computing semantic relatedness using {Wikipedia-based} explicit
   semantic analysis.
 \newblock In {\em Proceedings of the 20th International Joint Conference on
   Artifical Intelligence}, pages 1606--1611.
@@ -556,8 +551,8 @@ G{\"a}rdenfors, P. (2014).
 
 \bibitem[Gargett and Barnden, 2013]{GargettEA2013}
 Gargett, A. and Barnden, J. (2013).
-\newblock Gen-meta: Generating metaphors using a combination of ai reasoning
-  and corpus-based modeling of formulaic expressions.
+\newblock {Gen-Meta}: Generating metaphors using a combination of {AI}
+  reasoning and corpus-based modeling of formulaic expressions.
 \newblock In {\em Proceedings of TAAI 2013}.
 
 \bibitem[Geffet and Dagan, 2005]{GeffetEA2005}
@@ -566,25 +561,26 @@ Geffet, M. and Dagan, I. (2005).
 \newblock In {\em Proceedings of the 43rd Annual Meeting on Association for
   Computational Linguistics}, pages 107--114.
 
-\bibitem[Gelder, 1995]{VanGelder1995}
-Gelder, T.~V. (1995).
-\newblock What might cognition be, if not computation?
-\newblock {\em The Journal of Philosophy}, 92(7):345--381.
-
 \bibitem[Gentner, 1983]{Gentner1983}
 Gentner, D. (1983).
 \newblock Structure-mapping: A theoretical framework for analogy.
 \newblock {\em Cognitive Science}, 7(2):155--170.
 
-\bibitem[Gibbs, 1994]{Gibbs1994}
-Gibbs, Jr., R.~W. (1994).
-\newblock {\em The Poetics of Mind}.
-\newblock Cambridge University Press.
-
 \bibitem[Gibbs~Jr., 1993]{Gibbs1993}
 Gibbs~Jr., R.~W. (1993).
 \newblock {\em Process and products in making sense of tropes}, page 252–276.
 \newblock Cambridge University Press, 2 edition.
+
+\bibitem[Gibbs~Jr., 1994]{Gibbs1994}
+Gibbs~Jr., R.~W. (1994).
+\newblock {\em The Poetics of Mind}.
+\newblock Cambridge University Press.
+
+\bibitem[{Gibbs Jr.} and Tendahl, 2006]{GibbsEA2006}
+{Gibbs Jr.}, R.~W. and Tendahl, M. (2006).
+\newblock Cognitive effort and effects in metaphor comprehension: Relevance
+  theory and psycholinguistics.
+\newblock {\em Mind and Language}, 21(3):379--403.
 
 \bibitem[Gibson, 1979]{Gibson1979}
 Gibson, J.~J. (1979).
@@ -645,7 +641,7 @@ Hegel, G. W.~F. (1816/1989).
 Heidegger, M. (1926/1962).
 \newblock {\em Being and Time}.
 \newblock Basil Blackwell, Oxford.
-\newblock translated by John Macquarrie and Edward Robinson.
+\newblock Translated by John Macquarrie and Edward Robinson.
 
 \bibitem[Herbelot and Ganesalingam, 2013]{HerbelotEA2013}
 Herbelot, A. and Ganesalingam, M. (2013).
@@ -678,8 +674,8 @@ Hoffmeyer, J. (1997).
 
 \bibitem[Hope and Witmore, 2010]{HopeEA2010}
 Hope, J. and Witmore, M. (2010).
-\newblock The hundredth psalm to the tune of "green sleevess": Digital
-  approaches to shakespeare's language of genre.
+\newblock The {Hundredth Psalm} to the tune of ``{Green Sleevess}'': Digital
+  approaches to {Shakespeare's} language of genre.
 \newblock {\em Shakespeare Quarterly}, 61(3):357--390.
 
 \bibitem[Hovy et~al., 2013]{HovyEA2013}
@@ -696,10 +692,11 @@ Huang, E.~H., Socher, R., Manning, C.~D., and Ng, A.~Y. (2012).
 \newblock In {\em Proceedings of the 50th Annual Meeting of the Association for
   Computational Linguistics: Long Papers - Volume 1}, pages 873--882.
 
-\bibitem[Hume, 2000]{Hume1738}
-Hume, D. (1738/2000).
+\bibitem[Hume, 1738]{Hume1738}
+Hume, D. (1738).
 \newblock A treatise of human nature.
 \newblock Oxford University Press.
+\newblock This edition published in 2000.
 
 \bibitem[Husserl, 2001]{Husserl1900}
 Husserl, E. (1900/2001).
@@ -716,7 +713,7 @@ Hutto, D.~D. (2001).
 
 \bibitem[Indurkhya, 1997]{Indurkhya1997}
 Indurkhya, B. (1997).
-\newblock Metaphor as change of representation: an artificial intelligence
+\newblock Metaphor as change of representation: An artificial intelligence
   perspective.
 \newblock {\em Journal of Experimental \& Theoretical Artificial Intelligence},
   9(1):1--36.
@@ -750,12 +747,6 @@ Jordanous, A.~K. (2012).
 \newblock {\em Evaluating Computational Creativity: A Standardised Procedure
   for Evaluating Creative Systems and its Application}.
 \newblock PhD thesis, University of Sussex.
-
-\bibitem[Jr and Tendahl, 2006]{GibbsEA2006}
-Jr, R. W.~G. and Tendahl, M. (2006).
-\newblock Cognitive effort and effects in metaphor comprehension: Relevance
-  theory and psycholinguistics.
-\newblock {\em Mind and Language}, 21(3):379--403.
 
 \bibitem[Jurafsky and Martin, 2000]{JurafskyEA2000}
 Jurafsky, D. and Martin, J.~H. (2000).
@@ -844,8 +835,8 @@ Kornai, A., {\'{A}}cs, J., Makrai, M., Nemeskey, D.~M., Pajkossy, K., and
 
 \bibitem[Kottur et~al., 2016]{KotturEA2016}
 Kottur, S., Vedantam, R., Moura, J. M.~F., and Parikh, D. (2016).
-\newblock Visualword2vec (vis-w2v): Learning visually grounded word embeddings
-  using abstract scenes.
+\newblock {VisualWord2Vec (Vis-W2V)}: Learning visually grounded word
+  embeddings using abstract scenes.
 \newblock In {\em 2016 IEEE Conference on Computer Vision and Pattern
   Recognition (CVPR)}, pages 4985--4994.
 
@@ -866,15 +857,15 @@ Lakoff, G. and Johnson, M. (2003).
 
 \bibitem[Landauer et~al., 1997]{LandauerEA1997}
 Landauer, T., Laham, D., Rehder, B., and Schreiner, M.~E. (1997).
-\newblock How well can passage meaning be derived without using word order? a
+\newblock How well can passage meaning be derived without using word order? {A}
   comparison of latent semantic analysis and humans.
 \newblock In {\em Proceedings of the 19th Annual Conference of the Cognitive
   Science Society}, pages 412--417.
 
 \bibitem[Landauer and Dumais, 1997]{LandauerEA1997b}
 Landauer, T.~K. and Dumais, S.~T. (1997).
-\newblock A solution to plato's problem: The latent semantic analysis theory of
-  acquisition, induction, and representation of knowledge.
+\newblock A solution to {Plato's} problem: The latent semantic analysis theory
+  of acquisition, induction, and representation of knowledge.
 \newblock {\em Psychological Review}, 104(2):211--240.
 
 \bibitem[Langacker, 1991]{Langacker1991}
@@ -925,7 +916,7 @@ Levine, J. (1983).
 
 \bibitem[Levinson, 2001]{Levinson2001}
 Levinson, S.~C. (2001).
-\newblock Y\'{e}l\^{i} dnye and the theory of basic color terms.
+\newblock {Y\'{e}l\^{i} Dnye} and the theory of basic color terms.
 \newblock {\em Journal of Linguistic Anthropology}, 10(1):3--55.
 
 \bibitem[Levy and Goldberg, 2014a]{LevyEA2014}
@@ -962,10 +953,11 @@ Linzen, T. (2016).
 \newblock In {\em Proceedings of the 1st Workshop on Evaluating Vector-Space
   Representations for NLP}, pages 13--18.
 
-\bibitem[Locke, 1997]{Locke1689}
-Locke, J. (1689/1997).
+\bibitem[Locke, 1689]{Locke1689}
+Locke, J. (1689).
 \newblock An essay concerning human understanding.
 \newblock Penguin, London.
+\newblock This edition published in 1997.
 
 \bibitem[Luong et~al., 2013]{LuongEA2013}
 Luong, T., Socher, R., and Manning, C.~D. (2013).
@@ -991,6 +983,13 @@ Malandrakis, N., Potamianos, A., Elias, I., and Narayanan, S.~S. (2013).
 \newblock {\em IEEE Transactions on Audio, Speech and Language Processing},
   21(11):2379--2392.
 
+\bibitem[{Marco Baroni, Georgiana Dinu}, 2014]{BaroniEA2014}
+{Marco Baroni, Georgiana Dinu}, G.~K. (2014).
+\newblock Don't count, predict! a systematic comparison of context-counting vs.
+  context-predicting semantic vectors.
+\newblock In {\em 52nd Annual Meeting of the Association for Computational
+  Linguistics, ACL 2014}, pages 238--247.
+
 \bibitem[Margolis and Laurence, 2007]{MargolisEA2007}
 Margolis, E. and Laurence, S. (2007).
 \newblock The ontology of concepts--abstract objects or mental representations?
@@ -1008,6 +1007,12 @@ McGregor, S., Agres, K., Purver, M., and Wiggins, G. (2015).
   computational method for concept creation.
 \newblock {\em Journal of Artificial General Intelligence}.
 
+\bibitem[McGregor et~al., 2017]{McGregorEA2017}
+McGregor, S., Jezek, E., Purver, M., and Wiggins, G. (2017).
+\newblock A geometric method for detecting semantic coercion.
+\newblock In {\em Proceedings of 12th International Workshop on Computational
+  Semantics}.
+
 \bibitem[McGregor et~al., 2016]{McGregorEA2016}
 McGregor, S., Purver, M., and Wiggins, G. (2016).
 \newblock Words, concepts, and the geometry of analogy.
@@ -1020,12 +1025,6 @@ McGregor, S., Wiggins, G., and Purver, M. (2014).
   to philosophy.
 \newblock In {\em Proceedings of the Fifth International Conference on
   Computational Creativity}.
-
-\bibitem[McGregort et~al., 2017]{McGregorEA2017}
-McGregort, S., Jezek, E., Purver, M., and Wiggins, G. (2017).
-\newblock A geometric method for detecting semantic coercion.
-\newblock In {\em Proceedings of 12th International Workshop on Computational
-  Semantics}.
 
 \bibitem[Melamud et~al., 2014]{MelamudEA2014}
 Melamud, O., Dagan, I., Goldberger, J., Szpektor, I., and Yuret, D. (2014).
@@ -1150,9 +1149,10 @@ Pinker, S. (1994).
 \newblock William Morrow.
 
 \bibitem[Plato, 1892]{Plato1892}
-Plato (1892).
+Plato (380BCE/1892).
 \newblock {\em The Republic}.
 \newblock Oxford University Press.
+\newblock Translated by Benjamin Jowett.
 
 \bibitem[Polajnar and Clark, 2014]{PolajnarEA2014}
 Polajnar, T. and Clark, S. (2014).
@@ -1174,13 +1174,13 @@ Pustejovsky, J. (1995).
 
 \bibitem[Pustejovsky and Jezek, 2008]{PustejovskyEA2008}
 Pustejovsky, J. and Jezek, E. (2008).
-\newblock Semantic coercion in language: Beyone distributional analysis.
+\newblock Semantic coercion in language: Beyond distributional analysis.
 \newblock {\em Rivista di Linguistica}, 20(1):181--214.
 
 \bibitem[Pustejovsky et~al., 2010]{PustejovskyEA2010}
 Pustejovsky, J., Rumshisky, A., Plotnick, A., Jezek, E., Batiukova, O., and
   Quochi, V. (2010).
-\newblock Semeval-2010 task 7: Argument selection and coercion.
+\newblock Semeval-2010 {Task} 7: Argument selection and coercion.
 \newblock In {\em Proceedings of the 5th International Workshop on Semantic
   Evaluation}, pages 27--32.
 
@@ -1199,8 +1199,8 @@ Pynchon, T. (1973).
 Radinsky, K., Agichtein, E., Gabrilovich, E., and Markovitch, S. (2011).
 \newblock A word at a time: Computing word relatedness using temporal semantic
   analysis.
-\newblock In {\em Proceedings of the 20th International Conference on World
-  Wide Web}, pages 337--346.
+\newblock In {\em Proceedings of the 20th International World Wide Web
+  Conference}, pages 337--346.
 
 \bibitem[Recski et~al., 2016]{RecskiEA2016}
 Recski, G., Ikl\'{o}di, E., Pajkossy, K., and Kornai, A. (2016).
@@ -1246,7 +1246,7 @@ R\k{a}czaszek-Leonardi, J. and Nomikou, I. (2015).
 
 \bibitem[Roberts and Harabagiu, 2010]{RobertsEA2010}
 Roberts, K. and Harabagiu, S.~M. (2010).
-\newblock Utdmet: Combining wordnet and corpus data for argument coercion
+\newblock {UTDMet}: Combining wordnet and corpus data for argument coercion
   detection.
 \newblock In {\em Proceedings of the 5th International Workshop on Semantic
   Evaluation}, pages 252--255.
@@ -1294,10 +1294,10 @@ Salton, G., Wong, A., and Yang, C.~S. (1975).
 \newblock In {\em Proceedings of the 12th ACM SIGIR Conference}, pages
   137--150.
 
-\bibitem[Sapir, 1970]{Sapir1970}
-Sapir, E. (1970).
-\newblock {\em The Status of Linguistics as a Science}, pages 65--77.
-\newblock University of California Press.
+\bibitem[Sapir, 1929]{Sapir1929}
+Sapir, E. (1929).
+\newblock The status of linguistics as a science.
+\newblock {\em Language}, 5(4):207--214.
 
 \bibitem[Sch\"{u}tze, 1992a]{Schutze1992b}
 Sch\"{u}tze, H. (1992a).
@@ -1353,7 +1353,7 @@ Shannon, C.~E. and Weaver, W. (1949).
 
 \bibitem[Shutova, 2010]{Shutova2010}
 Shutova, E. (2010).
-\newblock Models of metaphor in nlp.
+\newblock Models of metaphor in {NLP}.
 \newblock In {\em Proceedings of the 48th Annual Meeting of the Association for
   Computational Linguistics}, pages 688--697.
 
@@ -1445,7 +1445,7 @@ Tsvetkov, Y., Boytsov, L., Gershman, A., Nyberg, E., and Dyer, C. (2014).
 
 \bibitem[Turney, 2001]{Turney2001}
 Turney, P.~D. (2001).
-\newblock Mining the web for synonyms: Pmi-ir versus lsa on toefl.
+\newblock Mining the web for synonyms: {PMI-IR} versus {LSA} on {TOEFL}.
 \newblock In {\em Proceedings of the 12th European Conference on Machine
   Learning}, pages 491--502, London, UK, UK. Springer-Verlag.
 
@@ -1479,6 +1479,11 @@ van~der {Velde}, F., {Wolf}, R.~A., {Schmettow}, M., and {Nazareth}, D.~S.
 \newblock In {\em Proceedings of the Sixth International Conference on
   Computational Creativity (ICCC 2015)}, pages 94--101.
 
+\bibitem[{van Gelder}, 1995]{VanGelder1995}
+{van Gelder}, T. (1995).
+\newblock What might cognition be, if not computation?
+\newblock {\em The Journal of Philosophy}, 92(7):345--381.
+
 \bibitem[van Genabith, 2001]{vanGenabith2001}
 van Genabith, J. (2001).
 \newblock Metaphors, logic and type theory.
@@ -1505,7 +1510,7 @@ Veale, T. and Hao, Y. (2007).
 
 \bibitem[Veale and Keane, 1992]{VealeEA1992}
 Veale, T. and Keane, M.~T. (1992).
-\newblock Conceptual scaffolding: A spatially foounded meaning representation
+\newblock Conceptual scaffolding: A spatially founded meaning representation
   for metaphor comprehension.
 \newblock {\em Computational Intelligence}, 8(3):494--519.
 
@@ -1518,7 +1523,7 @@ Veale, T., Valitutti, A., and Li, G. (2015).
 
 \bibitem[von Neumann, 1945]{VonNeumann1945}
 von Neumann, J. (1945).
-\newblock First draft of a report on the edvac.
+\newblock First draft of a report on the {EDVAC}.
 \newblock Technical report, University of Pennsylvania.
 
 \bibitem[von Uexk\"{u}ll, 1957]{VonUexkull1957}
@@ -1528,16 +1533,19 @@ von Uexk\"{u}ll, J. (1957).
 \newblock In Schiller, C.~H., editor, {\em Instinctive Behavior: The
   Development of a Modern Concept}, pages 5--80. International Universities
   Press, Inc., New York City, NY.
+\newblock Translated by Claire H. Schiller. Originally appeared as von
+  Uexk\"{u}ll (1934) Streifz\"{u}ge durch die Umwelten von Tieren und Menschen.
+  Berlin: Springer.
 
 \bibitem[Whitehead and Russell, 1927]{WhiteheadEA1927}
 Whitehead, A.~N. and Russell, B. (1927).
 \newblock {\em Principia Mathematica}.
 \newblock Cambridge University Press.
 
-\bibitem[Whorf, 2012]{Whorf2012}
-Whorf, B.~L. (2012).
-\newblock {\em Science and Linguistics (1940)}, pages 265--280.
-\newblock MIT Press.
+\bibitem[Whorf, 1940]{Whorf1940}
+Whorf, B.~L. (1940).
+\newblock Science and linguistics.
+\newblock {\em MIT Technology Review}, pages 265--280.
 
 \bibitem[Widdows, 2003]{Widdows2003}
 Widdows, D. (2003).

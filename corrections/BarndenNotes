@@ -1,0 +1,245 @@
+MINOR AMENDMENTS
+================
+requested by John Barnden.
+
+Please contact me if you'd like clarification of a request.
+
+Some issues not featuring in the requests below were covered in the viva
+or mentioned in my preliminary report. It's up to you whether or not you
+attend to those (unless of course you're asked to do so by Anna
+Korhonen).
+
+
+Metaphor and related things  (mainly section 6.1)
+--------
+
+1) Make it clear that in the current state of play the system only
+responds to pre-existing similarity, rather than being capable of doing
+things like adding new features to the target based on features of the
+source (where in many cases the new features can contravene existing
+knowledge of the target).  As far as I understand it, with "surgeons are
+butchers", the vector for surgeons is not affected by the metaphor, and
+also no meaning vector is constructed - cf. the meaning vector that
+Utsumi's vector based approach to metaphor computes on the basis of the
+source and target vectors.
+
+Optionally you could add something to the future work part of the thesis
+about prospects the system has for the above sort of thing or
+interpretation in other respects.
+
+
+2) Make it clearer that as it stands the method is not sensitive to
+information provided by small local contexts that might affect what it
+does with something (e.g. a metaphor) placed within that context. Or, of
+course, if it is sensitive to it in some way, make the matter clear.
+
+
+
+Coercion (section 6.2)
+--------
+
+p.137f: You seem to be just using the context words as subspace selectors,
+ignoring the targeted pair itself, and if I remember correctly you
+confirmed this in the viva. But why not compare performance between
+
+(a) original method, using the word pair but not the context words, with
+
+(b) that method plus context words?
+
+This should surely reveal the effect of context in a better way? I may
+be wrong, but anyway add something about whether it would be a good
+approach or not.
+
+
+Metaphor/Coercion Ramifications (section 6.3)
+--------------------------------
+
+p.141 bottom: The claim that there is a strong correlation between
+figurativeness and the need to process context during interpretation
+needs additional justification (or weakening of the claim if you can't
+comply).
+
+p.143 last para: Do you mean you can compute new meaning by moving
+around within the spaces? If so, this could be something to mention in
+emendments responding to my comment (1) in the Metaphor segment above.
+
+
+
+Analogy  (Ch7)
+-------
+
+1) Re an analogy experiment, around p.151: Add commentary on why
+seemingly irrelevant dimensions/terms such as "hearing" and
+"accidentally" come into play, and why relevant dimensions don't appear,
+such as perhaps "sit" in the analogy involving sofas. What *is* the
+intuitive significance of the most prominent dimensions that your
+analysis uncovers? I didn't understand your answer in the viva that it
+doesn't matter what the dimensions are. So considerable extra
+clarification is needed on these matters.
+
+2) The condition (a-b)-(c-d)=0 is equivalent to (a-c)-(b-d)=0, making
+A:B::C:D equivalent to A:C::B:D from the point of view of a method of
+yours. Comment on the reasonableness or otherwise of this, and if
+possible on relevant evdience from psychological experiments.
+
+3) p.153 para 1: As mentioned in the viva, you seem to be saying that,
+for each analogy separately, you find the best "top ... projection".
+This apperenlty conflicts with the 90% claim in next para, which seems
+to say there's a good space that works for 90% of the analogies. Apply
+the clarification that you gave in the viva.
+
+4) Say whether you have looked at the vectors a-b, a-c etc to see how
+similar they might be to vectors for the expected underlying
+relationships in the analogy, and/or mention something about this in
+future work. Of course, if you have an argument for not expecting those
+difference vectors to be interesting, add this.
+
+
+
+Miscellaneous
+-------------
+
+For non-speclialist readers, state somewhere what precision and recall
+are and how f-score and accuracy are defined. You thesis may well be
+read by people who are not computational linguists or similar. The
+information could go in glossary at beginning, along with the other
+comparably basic concepts you include there.
+
+Make sure it's clear, for each experiment, what the definitions of
+precision and recall are exactly in the particular case. Sometimes it's
+not clear what you're counting.
+
+Glossary would also be good place to say that e.g. by a 2x2
+co-occurrence window you mean one that goes two before and two after the
+target word.
+
+And after p.50: you actually talk about window size in terms of "k", so
+on first use of "NxN" for some N, point out you mean k=N.
+
+
+p.41 and Fig 3.2: clarify that "co-occurrence terms" are selected words
+to which other words are being related. It only becomes gradually
+clear up to p.46 that you're talking about co-occurrence with "soprano"
+etc.
+
+p.49: I don't understand the point about parentheticals - add extra
+explanation.
+
+
+****************
+p.51 para 1: The meaning given for the ratio (without the "a"
+correction) is wrong. The ratio can be bigger than 1 (right?) so cannot
+be any sort of probability! I think you mean: the denominator is
+proportional to the joint probability. The formula given on p.69 and
+p.149 in terms of probabilites makes the matter much clearer, and shows
+that the explanation on p.51 is askew.
+******************
+
+
+Around here say something about how the chosen value of 10,000 for "a"
+comes about. What was this choice influenced by? Would it change of the
+corpus-size changed?? Etc.
+
+
+Explain at some early point that the "dimensions" are just the words
+along the top of the matrix M.
+
+
+p.53 (and as necessary elsewhere):
+
+  You say "component" of T, but "member"and "element" would be clearer
+  and standard. It's just a set, right?
+
+  In INDY: what about different components of T selecting some of the
+  SAME dimensions, so you can't just concatenate the lists of dimensions
+  found? You seem to assume there'll be no such duplication.  Clarify
+  this matter.
+
+  What does "top" amount to here?
+
+  What if d/|T| isn't an integer?
+
+  In explanation of JOINT: what does "merged" mean here? Multiplied or
+  minimized point-wise? Becomes clear later, but it should be made clear
+  here (in ordinary English, probably, rather than mathematically).
+
+  Surely you discard the dimensions with *zero* elements, not non-zero
+  elements!
+
+  For definiteness, explain that by normalised you mean in the standard
+  vector-space sense of converting to length 1. "Normalise" means lots
+  of different things in different areas.
+
+
+p.54, para before formula 4.2: being "central" sounds contradictory with
+being "peripheral" - explain.
+
+p.54: Formula 4.2 needs amendment. For one thing you seem to be using
+the curly brackets normally used for *set* notation to define a vector
+instead.
+
+And anyway the "i" has no reference, but needs somehow to be tied to
+"t". Minimally "t" should be replaced by "t_h,i" (where my underscore
+means subscripting).
+
+I think that what you wnat to is actually quite tricky to write in a
+clear formula, and it may be best to stick with saying that n_h is
+formed successively from those successive components t_h,i of t_h where
+((... your Pi > 0 condition as written in 4.2))
+
+Formula 4.4: I don't understand the "d/k" subscript of "max".
+
+
+Somewhere up to here: I felt the need for some idea of typical values of
+d and |T|.
+
+
+p.56, Table 5A and text: give more systematic information about
+statistical significance of the results.
+
+
+p.77: WordNet experiment re "body part" etc.: you mention "accuracy" but
+your explanations sound as though you're only looking at number of
+correct items found, i.e. measuring *recall*. (This contrasts with use
+of f-scores at other places, e.g. on p.114 bottom.) Make the text
+clearer.
+
+Somewhere up to p.93: Optional amendment: I suggest that you make more
+of the superiority of your method over static methods on the lower
+dimensionalities.
+
+p.118: what agreement or whatever is the kappa measure measuring in this
+analysis?
+
+p.122: end of middle para, relating to Fig 6.2:
+  "remain fairly far": doesn't seem to be borne out by the Figure.
+
+p.155: "the analysis" -- but that used for the prior results involved
+knowing the fourth term, no?
+
+
+Important Typos etc.
+--------------------
+
+NB there are quite a few minor typos spread over the thesis - it needs a
+further round of complete proofreading.
+
+Some of the more important things to fix:
+
+p.25 near top: do you really mean "asseveration"? Just mean "assertion"?
+Your word sounds a bit judgmental.
+
+p.32 first full para:  criteria -> criterion
+
+p.61, Table 4C: "angel" !
+
+p.66, l.-5: distances -> distances between  
+  {I presume}
+
+p.126,   p.137 l.5,   p.170 l.-6,   p.171 l.2:
+   discreet -> discrete
+
+   {discreet has a completely different meaning!}
+
+
+p.138 top: content -> context 

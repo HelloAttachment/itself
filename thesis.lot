@@ -2,39 +2,39 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4-A}{\ignorespaces Highest and Lowest PMI Values}}{52}
-\contentsline {table}{\numberline {4-B}{\ignorespaces Top Dimensions for Wild Animals}}{54}
-\contentsline {table}{\numberline {4-C}{\ignorespaces Top Wild Animal Word-Vectors}}{59}
-\contentsline {table}{\numberline {4-D}{\ignorespaces Top Pet Word-Vectors}}{60}
-\contentsline {table}{\numberline {4-E}{\ignorespaces Mean and Maximum PMI Values}}{64}
-\contentsline {table}{\numberline {4-F}{\ignorespaces Schematic of Geometric Features}}{65}
-\contentsline {table}{\numberline {4-G}{\ignorespaces Accuracy Scores for WordNet Recapitulation}}{75}
-\contentsline {table}{\numberline {4-H}{\ignorespaces WordNet Accuracy Scores for Two Techniques}}{77}
+\contentsline {table}{\numberline {4-A}{\ignorespaces Highest and Lowest PMI Values}}{54}
+\contentsline {table}{\numberline {4-B}{\ignorespaces Top Dimensions for Wild Animals}}{56}
+\contentsline {table}{\numberline {4-C}{\ignorespaces Top Wild Animal Word-Vectors}}{61}
+\contentsline {table}{\numberline {4-D}{\ignorespaces Top Pet Word-Vectors}}{62}
+\contentsline {table}{\numberline {4-E}{\ignorespaces Mean and Maximum PMI Values}}{66}
+\contentsline {table}{\numberline {4-F}{\ignorespaces Schematic of Geometric Features}}{68}
+\contentsline {table}{\numberline {4-G}{\ignorespaces Accuracy Scores for WordNet Recapitulation}}{78}
+\contentsline {table}{\numberline {4-H}{\ignorespaces WordNet Accuracy Scores for Two Techniques}}{79}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5-A}{\ignorespaces Spearman's Correlations for Relatedness}}{83}
-\contentsline {table}{\numberline {5-B}{\ignorespaces Relatedness Correlations of Individual Features}}{86}
-\contentsline {table}{\numberline {5-C}{\ignorespaces Comparison of Relatedness Scores}}{88}
-\contentsline {table}{\numberline {5-D}{\ignorespaces Spearman's Correlations for Similarity}}{90}
-\contentsline {table}{\numberline {5-E}{\ignorespaces Similarity Correlations of Individual Features}}{92}
-\contentsline {table}{\numberline {5-F}{\ignorespaces Optimal Feature Vectors for Similarity}}{94}
-\contentsline {table}{\numberline {5-G}{\ignorespaces Comparison of Similarity Scores}}{96}
-\contentsline {table}{\numberline {5-H}{\ignorespaces Comparing Optimal Features for Relatedness and Similarity}}{98}
+\contentsline {table}{\numberline {5-A}{\ignorespaces Spearman's Correlations for Relatedness}}{86}
+\contentsline {table}{\numberline {5-B}{\ignorespaces Relatedness Correlations of Individual Features}}{88}
+\contentsline {table}{\numberline {5-C}{\ignorespaces Comparison of Relatedness Scores}}{90}
+\contentsline {table}{\numberline {5-D}{\ignorespaces Spearman's Correlations for Similarity}}{93}
+\contentsline {table}{\numberline {5-E}{\ignorespaces Similarity Correlations of Individual Features}}{95}
+\contentsline {table}{\numberline {5-F}{\ignorespaces Optimal Feature Vectors for Similarity}}{96}
+\contentsline {table}{\numberline {5-G}{\ignorespaces Comparison of Similarity Scores}}{99}
+\contentsline {table}{\numberline {5-H}{\ignorespaces Comparing Optimal Features for Relatedness and Similarity}}{100}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {6-A}{\ignorespaces Context Sensitive and Static Model F-Scores for Metaphor Classification}}{112}
-\contentsline {table}{\numberline {6-B}{\ignorespaces F-Scores for Metaphor Classification of Unseen Adjectives}}{114}
-\contentsline {table}{\numberline {6-C}{\ignorespaces Comparative Metaphor Classification Statistics}}{116}
-\contentsline {table}{\numberline {6-D}{\ignorespaces Top Independent Features for Metaphor Classification}}{117}
-\contentsline {table}{\numberline {6-E}{\ignorespaces Most Predictive Feature Vectors for Metaphor Classification}}{119}
-\contentsline {table}{\numberline {6-F}{\ignorespaces Scoring Metaphoricity Based On Classification Data}}{122}
-\contentsline {table}{\numberline {6-G}{\ignorespaces Context Sensitive and Static Model F-Scores for Coercion Classification}}{126}
-\contentsline {table}{\numberline {6-H}{\ignorespaces F-Scores for Coercion Classification Testing on Unseen Verbs}}{128}
-\contentsline {table}{\numberline {6-I}{\ignorespaces Top Independent Features for Coercion Classification}}{130}
-\contentsline {table}{\numberline {6-J}{\ignorespaces Most Predictive Feature Vectors for Coercion Classification}}{131}
-\contentsline {table}{\numberline {6-K}{\ignorespaces Correlations for Part-of-Speech Based Subspaces}}{136}
-\contentsline {table}{\numberline {6-L}{\ignorespaces Coercion Scores Compared Against Other Methods}}{137}
+\contentsline {table}{\numberline {6-A}{\ignorespaces Context Sensitive and Static Model F-Scores for Metaphor Classification}}{115}
+\contentsline {table}{\numberline {6-B}{\ignorespaces F-Scores for Metaphor Classification of Unseen Adjectives}}{116}
+\contentsline {table}{\numberline {6-C}{\ignorespaces Comparative Metaphor Classification Statistics}}{118}
+\contentsline {table}{\numberline {6-D}{\ignorespaces Top Independent Features for Metaphor Classification}}{120}
+\contentsline {table}{\numberline {6-E}{\ignorespaces Most Predictive Feature Vectors for Metaphor Classification}}{121}
+\contentsline {table}{\numberline {6-F}{\ignorespaces Scoring Metaphoricity Based On Classification Data}}{124}
+\contentsline {table}{\numberline {6-G}{\ignorespaces Context Sensitive and Static Model F-Scores for Coercion Classification}}{129}
+\contentsline {table}{\numberline {6-H}{\ignorespaces F-Scores for Coercion Classification Testing on Unseen Verbs}}{130}
+\contentsline {table}{\numberline {6-I}{\ignorespaces Top Independent Features for Coercion Classification}}{133}
+\contentsline {table}{\numberline {6-J}{\ignorespaces Most Predictive Feature Vectors for Coercion Classification}}{134}
+\contentsline {table}{\numberline {6-K}{\ignorespaces Correlations for Part-of-Speech Based Subspaces}}{138}
+\contentsline {table}{\numberline {6-L}{\ignorespaces Coercion Scores Compared Against Other Methods}}{140}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {7-A}{\ignorespaces Finding Spaces for Known Analogies}}{150}
-\contentsline {table}{\numberline {7-B}{\ignorespaces Finding Spaces for Fake Analogies}}{151}
-\contentsline {table}{\numberline {7-C}{\ignorespaces Solving Analogies}}{152}
-\contentsline {table}{\numberline {7-D}{\ignorespaces Transgressive Analogies}}{159}
+\contentsline {table}{\numberline {7-A}{\ignorespaces Finding Spaces for Known Analogies}}{153}
+\contentsline {table}{\numberline {7-B}{\ignorespaces Finding Spaces for Fake Analogies}}{154}
+\contentsline {table}{\numberline {7-C}{\ignorespaces Solving Analogies}}{155}
+\contentsline {table}{\numberline {7-D}{\ignorespaces Transgressive Analogies}}{162}
 \addvspace {10\p@ }
