@@ -1,0 +1,73 @@
+\contentsline {chapter}{Abstract}{i}
+\contentsline {chapter}{Acknowledgments}{iii}
+\contentsline {chapter}{Glossary}{iv}
+\contentsline {chapter}{Table of Contents}{v}
+\contentsline {chapter}{List of Figures}{viii}
+\contentsline {chapter}{List of Tables}{ix}
+\contentsline {chapter}{\numberline {1}Introduction}{1}
+\contentsline {section}{\numberline {1.1}A Question and A Hypothesis}{2}
+\contentsline {section}{\numberline {1.2}Contributions to the Field}{5}
+\contentsline {section}{\numberline {1.3}Methods}{7}
+\contentsline {paragraph}{Representation Construction and Projection}{8}
+\contentsline {paragraph}{Feature Extraction and Model Learning}{8}
+\contentsline {paragraph}{Result Scoring and Hypothesis Testing}{9}
+\contentsline {section}{\numberline {1.4}The Layout of the Thesis}{9}
+\contentsline {chapter}{\numberline {2}Background}{12}
+\contentsline {section}{\numberline {2.1}Meaning Making}{13}
+\contentsline {section}{\numberline {2.2}Concepts}{17}
+\contentsline {section}{\numberline {2.3}Words}{20}
+\contentsline {section}{\numberline {2.4}Data}{24}
+\contentsline {chapter}{\numberline {3}Semantics in Context}{30}
+\contentsline {section}{\numberline {3.1}Modelling Lexical Semantics}{33}
+\contentsline {section}{\numberline {3.2}Dynamic Context Sensitivity}{36}
+\contentsline {paragraph}{A Note on \emph {Context}}{38}
+\contentsline {section}{\numberline {3.3}Literal Dimensions of Co-Occurrence}{39}
+\contentsline {section}{\numberline {3.4}Interpretable Geometry}{43}
+\contentsline {chapter}{\numberline {4}Context Sensitive Distributional Semantics}{48}
+\contentsline {section}{\numberline {4.1}Establishing and Analysing a Large Scale Corpus}{49}
+\contentsline {section}{\numberline {4.2}Selecting Dimensions from a Sparse Co-Occurrence Matrix}{52}
+\contentsline {section}{\numberline {4.3}Exploring the Geometry of a Context Specific Subspace}{58}
+\contentsline {subsection}{\numberline {4.3.1}Two Measures for Probing a Subspace}{60}
+\contentsline {subsection}{\numberline {4.3.2}Replete Geometric Analysis}{64}
+\contentsline {section}{\numberline {4.4}A Mathematical Justification for Geometric Analysis}{69}
+\contentsline {section}{\numberline {4.5}Comparing to Alternative Approaches}{71}
+\contentsline {subsection}{\numberline {4.5.1}Static Interpretations of the Base Space}{72}
+\contentsline {subsection}{\numberline {4.5.2}A Model Trained Using a Neural Network}{73}
+\contentsline {section}{\numberline {4.6}A Proof of Concept}{75}
+\contentsline {subsection}{\numberline {4.6.1}Experimental Set-Up}{76}
+\contentsline {subsection}{\numberline {4.6.2}Results and Analysis}{77}
+\contentsline {chapter}{\numberline {5}Relatedness and Similarity}{81}
+\contentsline {section}{\numberline {5.1}An Experiment on Relatedness}{83}
+\contentsline {subsection}{\numberline {5.1.1}Background and Data}{84}
+\contentsline {subsection}{\numberline {5.1.2}Relatedness: Methodology and Model}{85}
+\contentsline {subsection}{\numberline {5.1.3}The Geometry of Relatedness}{87}
+\contentsline {section}{\numberline {5.2}An Experiment on Similarity}{91}
+\contentsline {subsection}{\numberline {5.2.1}Background and Data}{91}
+\contentsline {subsection}{\numberline {5.2.2}Similarity: Methodology and Model}{92}
+\contentsline {subsection}{\numberline {5.2.3}The Geometry of Similarity}{94}
+\contentsline {section}{\numberline {5.3}Comparing the Two Phenomena}{99}
+\contentsline {section}{\numberline {5.4}Frames of Similarity}{104}
+\contentsline {chapter}{\numberline {6}Metaphor and Coercion}{109}
+\contentsline {section}{\numberline {6.1}An Experiment on Metaphor}{111}
+\contentsline {subsection}{\numberline {6.1.1}Background and Data}{113}
+\contentsline {subsection}{\numberline {6.1.2}Methodology and Results}{114}
+\contentsline {subsection}{\numberline {6.1.3}The Geometry of Metaphor}{120}
+\contentsline {subsection}{\numberline {6.1.4}Generalising the Model}{124}
+\contentsline {section}{\numberline {6.2}An Experiment on Coercion}{126}
+\contentsline {subsection}{\numberline {6.2.1}Background}{127}
+\contentsline {subsection}{\numberline {6.2.2}Methodology and Results}{128}
+\contentsline {subsection}{\numberline {6.2.3}The Geometry of Coercion}{133}
+\contentsline {subsection}{\numberline {6.2.4}Adding Sentential Context}{138}
+\contentsline {section}{\numberline {6.3}Interpretation and Composition in Context}{141}
+\contentsline {chapter}{\numberline {7}The Geometry of Conceptualisation: Analogies}{145}
+\contentsline {section}{\numberline {7.1}Analogies as Parallel Vectors}{146}
+\contentsline {section}{\numberline {7.2}Contextualising Analogical Geometry}{149}
+\contentsline {subsection}{\numberline {7.2.1}Projecting Probability into Space}{150}
+\contentsline {subsection}{\numberline {7.2.2}Finding Contexts for Analogies}{151}
+\contentsline {subsection}{\numberline {7.2.3}Searching for Solutions to Analogies}{156}
+\contentsline {section}{\numberline {7.3}A Note on the Data}{161}
+\contentsline {chapter}{\numberline {8}Conclusion}{166}
+\contentsline {section}{\numberline {8.1}Summary}{168}
+\contentsline {section}{\numberline {8.2}Outlook}{169}
+\contentsline {section}{\numberline {8.3}Direct Encounters with Meaning}{173}
+\contentsline {chapter}{References}{176}

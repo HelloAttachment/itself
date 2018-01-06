@@ -298,7 +298,8 @@ I confirm that this thesis has not been previously submitted for the award of a 
 The copyright of this thesis rests with the author and no quotation from it or information derived from it may be published without the prior written consent of the author.
 
 Signature:
-\includegraphics{Signature.png}
+%\includegraphics{Signature.png}
+\includegraphics{Signature.eps}
 
 Date: September 20, 2017
 

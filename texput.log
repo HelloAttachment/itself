@@ -1,20 +1,21 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2017.4.26)  26 APR 2017 18:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.30)  27 DEC 2017 13:15
 entering extended mode
+ restricted \write18 enabled.
  %&-line parsing enabled.
-**apacite
+**revesis
 
 ! Emergency stop.
-<*> apacite
+<*> revesis
            
 End of file on the terminal!
 
  
 Here is how much of TeX's memory you used:
- 3 strings out of 493849
- 108 string characters out of 1152846
- 47808 words of memory out of 3000000
- 3381 multiletter control sequences out of 15000+50000
- 3640 words of font info for 14 fonts, out of 3000000 for 9000
- 714 hyphenation exceptions out of 8191
- 0i,0n,0p,10b,6s stack positions out of 5000i,500n,10000p,200000b,50000s
-No pages of output.
+ 3 strings out of 493029
+ 109 string characters out of 6136234
+ 53065 words of memory out of 5000000
+ 3641 multiletter control sequences out of 15000+600000
+ 3640 words of font info for 14 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 0i,0n,0p,10b,6s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!

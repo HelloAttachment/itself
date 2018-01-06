@@ -1,0 +1,882 @@
+\chapter{Metaphor and Coercion} \label{chap:figurative}
+In this chapter, I will extend the empirical work on exploring the application of my context sensitive distributional semantic models to two semantic phenomena which involve the application of words in situations where their meanings are in some sense conceptually altered: \emph{metaphor} and \emph{semantic type coercion}.  The connotation of these terms will be explored throughout the course of this chapter, eventually arriving at a proposal for how to frame the idea of figurative language through a computational analysis.  As an overview, the distinguishing characteristic of these phenomena as they are conventionally understood is that they involve cases where what might be thought of as the stable, encyclopedic understanding of some word sense -- a \emph{dictionary definition} of a word, so to speak -- is in some way appropriated or subverted in order to, among other things, transfer information via the attributional conduits connecting figurative source to literal target.
+
+My hypothesis is that, because figurative language always involves the contextual specification of word meaning, context sensitive geometries of lexical representations should provide an appropriate framework for identifying when this type of semantic phenomenon is in effect.  \cite{Fraser1993} demonstrates empirically that metaphor interpretation is, when a metaphor is presented to a subject out of context, an ambiguous exercise, and, to the extent that interpretations of de-contextualised metaphors can be predicted, the predicting factors are themselves culturally relative.  Along similar lines, \cite{BouveretEA2009} propose that metaphor production involves the contextual alignment of overlapping semantic frames, and that this alignment likewise imports structure associated with one frame into the domain of another, evident in, for instance, the additional transposition of syntactic constraints from source to target.  From a cognitive perspective, this coordinates a contextual theory of metaphor with the work on conceptual frames from \cite{Barsalou1992} discussed at the end of the previous chapter in the context of judgements of semantic similarity.  From a modelling perspective, this suggests that a methodology for projecting semantic spaces where contextualisation can reveal \emph{ad hoc} viewpoints on semantic relationships should be a productive approach to identifying figurative language.
+
+The idea that metaphor and metonymy are both instances of ``a connection between two things where one term is substituted for another,'' \citep[][p. 260]{Gibbs1993} will quickly call to mind the premise of distributional semantics: if the motivation for building vector space models of word co-occurrence statistics is that related words have similar co-occurrence tendencies, then figurative language might be construed as a special case in which unrelated or at least conceptually divergent words are likewise sometimes found in similar sentential situations.  The question, then, is whether statistical characteristics of the particular co-occurrences profiles selected by words with different meanings are predictive of figurativeness.  A naive hypothesis might be that word combinations that are figurative should simply be further apart in a semantic space than word combination that are literal.  If related words have similar co-occurrence profiles, then maybe unrelated words, for instance words with different conceptual entailments, should have less similar co-occurrence profiles.  This conjecture, however, is belied first of all by the fact that, in the type of corpus containing a broad range of examples of language use necessary for building distributional semantic models, figurative language will already be built into the data \citep[and, as][has pointed out, figurative language is going to built into any sample of language no matter how small or basic]{Gibbs1994}.  A second problem is that, specifically to overcome the problems with modelling semantic relationships merely in terms of collocations, distributional semantics compares the co-occurrence profiles of words rather than their direct relationships, and it seems likely that word combinations prone to metaphoric interpretation might very well have at least overlapping profiles.
+
+So the objective of the experiments reported in this chapter will be to explore the ways in which and the degrees to which a more fleshed out statistical description of contextually selected distributional semantic subspaces can reveal figurative language.  As with the experiments on relatedness and similarity reported in the previous chapter, in addition to the relationship between target word-vectors in the subspaces they select, the statistical properties of the selected dimensions themselves will also be examined.  And, again as with previous results, the instrument of analysis will be the geometric features of the subspaces in question, with, again, particular attention paid to the way in which the sets of features can collectively indicate figurative language.  The two primary datasets explored represent binary decisions about metaphoricity and coercion respectively, and so my models will be applied to classification tasks here.  In the case of metaphor, I also test whether a model learned based on classification data is generalisable to graduated human ratings of metaphoricity.  With the coercion data, I will examine whether the addition of information about sentential context enhances the classification of word pairs.  I will conclude the chapter with a reflection on some of the theoretical implications of the positive results attained here.
+
+\section{An Experiment on Metaphor} \label{sec:metperiment}
+As pointed out by \cite{ShutovaEA2013}, statistical approaches to metaphor identification and interpretation have generally been formulated in the context of the \emph{conceptual metaphor} theory of \cite{LakoffEA2003}.  This model is founded on the principle that ``we systematically use inference patterns from one conceptual domain to reason about another conceptual domain,'' (ibid, p. 246).  Metaphors are then the mechanism for performing the mapping between these domains, and as such cut right to the core of cognitive processes \citep{Gibbs1994}.  Statistical models of metaphor have accordingly treated metaphors as transformations of lexical representations, and vector space models of distributional semantics have naturally lent themselves to this type of approach.  The construction of representations with the potential to interact with one another in semantically productive ways has in turn lent itself to the development of models that consider the compositional nature of metaphor, effectively treating the metaphor itself as a transformation of the underlying representations.  So \cite{Utsumi2011} constructs candidate metaphor vectors by calculating the centroid of a number of vectors derived from an analysis of a noun-vector and a predicate-vector learned through latent semantic analysis, and then uses the spatial relationships between these composed vectors to analyse the metaphoricity of certain phrases.  \cite{HovyEA2013} similarly consider composition in their approach to metaphor classification, in this case by combining word-vector type representations with a model trained to identify metaphor based on dependency trees of sentences labelled for metaphoricity.
+
+In the tradition of work on compositional distributional semantics explored by the likes of \cite{MitchellEA2010}, \cite{BaroniEA2010}, and \cite{CoeckeEA2011}, among others, semantic types such as adjectives and verbs are modelled as tensors which perform transformations on nouns, which are modelled as vectors.  In the normal run of things, compositional models therefore represent, for instance, noun phrases modified by adjectives as the product $A\overrightarrow{n}$, where $\overrightarrow{n}$ in a noun vector and $A$ is a matrix representing an adjective learned from observations of attested instances of the adjective with other noun word-vectors.  So the phrase \emph{black dog} becomes a word-vector in the same space as the representation of just \emph{dog}, and can be compared quantitatively and geometrically with other phrases such as \emph{white dog} or \emph{big cat} and so forth: these adjectival phrases become effectively denotations.  In the case of metaphor, these transformations are expected to map the word-vector representing metaphoric phrases into a region corresponding to the semantic domain of the original noun-vector modified by a metaphoric interpretation of the word associated with the tensor of a modifier or a predicate.  So, for instance, in a model that effectively captures metaphoricity, the composition of the vector space representations corresponding to \emph{brilliant light} would map to a region of space where comparisons between phrases like \emph{dark illumination} and \emph{red glow} are productive, while \emph{brilliant child} might be expected to map into the proximity of \emph{stupid boy} and \emph{boring girl}.\footnote{It should be noted that such a methodology at this point begins to assume dim shades of \citepos{Gardenfors2000} conceptual spaces, with different compositions inherently defining different regions of the space.}
+
+\revJB{1}{Rather than using mathematically endowed informational structures to transform a lexical semantic representation from a literal to a metaphoric sense, my application of my context sensitive methodology will involve the identification of subspaces that capture the conceptual context facilitating a particular metaphor.  So, where \cite{Utsumi2011} compounds input word-vectors to derive a metaphor vector, or where \cite{GutierrezEA2016} derive tensors from an analysis of established metaphors in order to evaluate candidate metaphors, my approach involves, as with the work on relatedness and similarity described in the previous chapter, the projection of both source and target vectors into a contextualised subspace.  This means that the projected relationships between source and target do not capture, for instance, the transference of potentially atypical properties from one domain to another, and so one of my premises is that the identification of metaphor, that primary task that will be explored here, does not necessarily involve the interpretation of metaphor.  Instead, by discovering the characteristics of a subspace that is conducive to capturing the co-occurrences features collectively salient to the components of a metaphor, we are also effectively discovering how much work has to be done in order to find a profile of dimensions permitting an analysis of the words in question.  A hypothesis which will bear out in the following experiments is therefore that it is not only the relationship between projections of source and target vectors, but also the overall statistical situation of a given subspace that indicates the presence (and, potentially, degree) of metaphor.}  \revJB{2}{On the other hand, it must also be noted that my methodology will generally not be sensitive to the semantic nuances provided by highly localised contexts, so, for instance, the transference of a very particular property across the broader alignment of two conceptual domains.}
+
+\subsection{Background and Data} \label{sec:metaback}
+The data that I will use in this section to test my methodology was originally presented by \cite{GutierrezEA2016}, along with an accompanying experiment on a novel model.  It consists of 8,592 adjective-noun pairs, spanning 23 adjectives chosen for their membership in six different broad semantic categories that are prone to both literal and metaphoric use: so, for instance, \emph{bitter}, \emph{sour}, and \emph{sweet} are considered constituents of the category \textsc{taste}.  There are 3,473 different noun types used, with only 141 types, represented by 640 tokens, occurring in both literal and metaphoric phrases, hinting from the outset that some nouns might attract more metaphor than others.  Each pair has been rated as either literal or metaphoric by a pair of human annotators, with inter-annotator agreement measuring at Cohen's $\kappa = 0.80$; 4,593 of the pairs have been judged metaphorical.  This dataset was conceived as something of an expansion of the similar but smaller corpus of adjective-noun phrases annotated with binary metaphoricity classifications presented by \cite{TsvetkovEA2014} (and those authors tested their own data with an assortment of models, achieving highest f-scores by applying a random forest classifier to the features of an existing library of distributional semantic word-vectors).
+
+In their own experimental treatment of the data, \citeauthor{GutierrezEA2016} constructed a pair of compositional models in the mode of \cite{BaroniEA2010}, learning adjective matrixes $A$ to map from noun-vectors to noun-adjective phrase-vectors extracted from observations of co-occurrences of both nouns and phrases in a corpus.  By creating separate tensor representations for literal and metaphoric instances of a given adjective, the authors can then compare the relationships between the vectors resulting from a noun-vector composed with literal and metaphoric senses of an adjective-vector to try to determine whether a given phrase would generally be classified as a metaphor or a literal expression by comparing the respective compared vectors to the phrase-vector as observed in the corpus.  In a further attempt to generalise the method, and, notably, to apply the conceptual metaphor theory of \cite{LakoffEA1980} to their computational model, the authors learn matrices performing linear transformations from literal to metaphoric adjective-noun compositions and then compare the similarity between observed phrase-vectors and literal composed vectors versus transformed literal composed vectors to determine whether a given phrase is metaphoric or not.
+
+The data described by \citeauthor{GutierrezEA2016} will serve as the basis for testing my own context sensitive distributional semantic methodology's ability to classify phrases as literal or metaphoric, and the results of this experiment will be described in the following section.  My hypothesis is that metaphor, and indeed all figurative language, is fundamentally entangled with the context mutually indicated by the representations of the words participating in the composition being analysed.  In fact, I think that part of what is captured by the model described by \citeauthor{GutierrezEA2016}, and indeed a number of other researchers investigating statistical methods for metaphor classification, is precisely that there is a context inherent in the linear algebraic dynamics of composable lexical representations, and this is something which many researchers recognise.  But I also think that the explicit projection of context specific semantic subspaces, the mainstay of my methodology, should provide an ideal testing ground to discover the way in which statistical geometry can directly broadcast the presence or absence and even potentially the degree of metaphor inherent in a given phrase.  The following sections will test this hypothesis using a similar methodology to that applied to semantic relatedness and similarity in the previous chapter.
+
+%The section after that will explore the geometry of a particularly successful model learned using my methodology.  Finally, in Section~\ref{sec:genafor}, I will address the question of whether a classification model learned from the impressively large dataset contributed by \citeauthor{GutierrezEA2016} can be generalised to handle graduated human ratings of metaphoricity on a different type of metaphoric construction.
+
+\subsection{Methodology and Results} \label{sec:metameth}
+My own methodology is clearly less committed to maintaining distinct representations for different semantic types than the compositional models described above, instead modelling all words as untagged word-vectors based on their co-occurrences as observed across a large scale corpus.  This feature of my research is in part theoretically motivated: in line with \cite{Langacker1991}, and \emph{contra} the grammatic nativism or exceptionalism that has been foundational in theoretical linguistics, I would like to investigate the possiblity that ``grammar is fully and appropriately describable using only symbolic units, each having both semantic and phonological import,'' (ibid, p. 290).  In other words, the syntactic component of a natural language might be described in terms of the entanglements of the meaning-making structures -- the lexical semantic representations -- that arise in the course of language use, or maybe even as emergent properties of these entanglements.
+
+With this in mind, I will approach the problem of metaphor classification with a similarly statistical and geometric methodology as was applied to relatedness and similarity in the previous chapter, outside of any \emph{prima fascie} model of syntax or compositionality.  For every pair of words in the data produced by \cite{GutierrezEA2016}, I generate subspaces of 20, 50, 200, and 400 dimensions using the \textsc{joint}, \textsc{indy}, and \textsc{zipped} techniques, projected from 2x2 and 5x5 word co-occurrence window base spaces.  This data specifies a distince role for each word, one being a metaphoric source (the adjective) and the other being a target (the noun): so, for instance, a \emph{bitter loss} is a loss, but presumably not one with an actual taste, and so the noun \emph{loss} co-opts something of the quality of bitterness into its own conceptual domain.
+%SOMETHING ABOUT SALIENT PROJECTION?
+As such, it might be useful to generate subspaces based simply on an anlysis of the word-vectors corresponding to the adjective and the noun respectively.  I do this by simply selecting the top $d$ dimensions, in line with the dimensionality parameter for each model, for the term in question, and these spaces are labelled \textsc{adjective} and \textsc{noun} in the results that follow.
+
+In each subspace, I extrapolate the same 34 geometric features described in Table~\ref{tab:features} and applied in the previous chapter in the semantic relatedness and similarity experiments.  Again because of the semantic asymmetry of the relationship between the input terms, an additional seven features are also available in these spaces: the adjective-vector norm divided by the noun-vector norm ($A/B$), likewise the lengths of the vectors between the adjective and the generic vectors divided by the lengths of the noun-generic-vectors ($\overline{AC}/\overline{BC}$, $\overline{AM}/\overline{BM}$, and $\overline{AX}/\overline{BX}$), and the corresponding fractions of the normalised versions of these vectors ($\overline{A'C'}/\overline{B'C'}$, $\overline{A'M'}/\overline{B'M'}$, and $\overline{A'X'}/\overline{B'X'}$).  These additional measures might offer a sense of wehther there are statistical tendencies that are specific to the semantic role being played by a word moving from literal to metaphorical relationships, and we might expect this to be particularly evident in the spaces selected by either the noun or the adjective on their own.  As with the subspaces of relatedness and similarity, I normalise each feature across all word pairs to have means of zero and standard deviations of one.
+
+\begin{table}
+\centering
+\begin{tabular}{lrrrr|rrrr}
+\hline
+\emph{window} & \multicolumn{4}{c}{2x2} & \multicolumn{4}{c}{5x5} \\
+\emph{dimensions} & 20 & 50 & 200 & \multicolumn{1}{c}{400} & 20 & 50 & 200 & 400 \\
+\hline
+\textsc{joint} & 0.839 & 0.860 & 0.878 & 0.881 & 0.840 & 0.862 & 0.880 & 0.886 \\
+\textsc{indy} & 0.821 & 0.839 & 0.855 & 0.860 & 0.817 & 0.840 & 0.858 & 0.867 \\
+\textsc{zipped} & 0.839 & 0.864 & 0.876 & 0.878 & 0.833 & 0.854 & 0.873 & 0.880 \\
+\textsc{adjective} & 0.771 & 0.860 & 0.828 & 0.845 & 0.781 & 0.804 & 0.828 & 0.837 \\
+\textsc{noun} & 0.819 & 0.861 & 0.843 & 0.847 & 0.806 & 0.821 & 0.838 & 0.843 \\
+\textsc{SVD} & 0.685 & 0.703 & 0.703 & 0.697 & 0.677 & 0.694 & 0.687 & 0.684 \\
+\textsc{SG} & 0.679 & 0.676 & 0.679 & 0.673 & 0.664 & 0.665 & 0.672 & 0.656 \\
+\textsc{CBOW} & 0.669 & 0.681 & 0.677 & 0.672 & 0.669 & 0.673 & 0.677 & 0.671 \\
+\hline
+\end{tabular}
+\caption[Context Sensitive and Static Model F-Scores for Metaphor Classification]{F-scores for metaphor identification based on a stratified ten-fold cross-validated logistic regression taking geometric features of various subspace types as input.}
+\label{tab:metaphor}
+\end{table}
+
+In order to test the capacity of the geometric features of my subspaces to identify metaphor, I perform a stratified ten-fold cross-validated logistic regression taking these features as independent variables and learning to predict the classifications assigned to the word pairs in the dataset.  Balanced f-scores based on the precision and recall of my various dimensional selection techniques as well as static SVD factorisations of my base spaces and the \texttt{word2vec} models are reported in Table~\ref{tab:metaphor}.  The first thing to note is the strong performance across the board of the context sensitive methodology: the model based on my strongest performing subspaces (\textsc{joint}, 5x5 window, 400 dimensions) substantially outperforms the strongest versions of the static models (the SVD 5x5, 50 dimension model) with $p < .005$ based on a permutation test.  The context sensitive models perform better, but only marginally better, in the 5x5 word window subspaces, suggesting that most of the useful information about the semantic properties that indicate a metaphoric projection are captured by the profile of terms co-occurring in close proximity to the constituent words.  That this trend is reversed for the static spaces, with 2x2 word window spaces doing a bit better, further indicates that the peripheral information of wider ranging co-occurrences, to that it is useful, is specifically useful for a context sensitive analysis.
+
+The \textsc{joint} technique gives the strongest results, suggesting that subspaces delineated in terms of co-occurrence dimensions mutually salient to both input terms offer the best platform for analysing metaphoricity.  This makes sense: in the case of metaphor versus literalness, it is the co-occurrences that both words have in common that position their respective word-vectors in an indicative relationship relative to one another and the subspace overall.  So for instance the co-occurrences salient to both \emph{sweet} and \emph{fruit} will have a particular conceptual profile that will not be evident in the dimensions jointly selected by \emph{sweet} and \emph{revenge}; this effect will be less evident for dimensions independently salient to each word.  \textsc{Zipped} subspaces, where there will be at least some information about both words along every dimension, accordingly score almost as well as \textsc{joint} subspaces, with the \textsc{indy} subspaces falling further behind.
+
+Interestingly, the \textsc{adjective} and \textsc{noun} spaces classify metaphor most accurately in 50 dimensional subspaces projected from the 2x2 word window base space.  To the extent that part-of-speech can be a component of the analysis of these models, we can expect the smaller co-occurrence window to produce statistics that are more indicative of a particular grammatical class.  The degradation of classification at higher dimensionalities for the smaller co-occurrence window setting is a little surprising, and it's worth noting that the \textsc{indy} subspaces, which are basically blends of the \textsc{adjective} and \textsc{noun} subspaces, don't exhibit the same tendency.  In this case, it would seem the whole really is greater than the sum of the parts, with the extension of a concatenation of independently salient dimensions providing useful comparison beyond the point where the extension of a single word's co-occurrence context stops being informative.  A similar pattern emerges for the static spaces: the \textsc{SVD}, \textsc{SG}, and \textsc{CBOW} models all produce the most accurate classifications in 2x2 word window, 50 dimensional subspaces.  One way to explain this is that more ambiguous information about word use begins to leak in at higher dimensionalities, serving to obscure the more standard indications available in either the most salient dimensions or the dimensions containing the most information about variance across the corpus.
+
+There is another possibility to consider regarding the adjectives in this dataset in particular: as there are only 23 different adjective types, each adjective is observed multiple times in both metaphoric and non-metaphoric contexts.  It is therefore possible that, in any given fold of the cross-validation of a classifier, the model might be learning how to guess whether a specific adjective is involved in a metaphor rather than something more general about the statistical geometry of metaphoricity.  In order to avoid this trap, I reorganise the data into tranches based on the adjective in each pair, using the eight conceptual categories outlined by \cite{GutierrezEA2016} to structure this new partioning.\footnote{\cite{GutierrezEA2016}, identifying a similar problem, likewise develop a second model that learns metaphors as mappings between domains rather than just from noun-vectors to phrase, though their methodology requires them to use a reduced version of the data.}  I use each of these eight new sets of word pairs as a fold in a cross-validated logistic regression, such that the adjective in each phrase in each test set has not been observed in the training data.
+
+%So it is possible that a model is detecting something about a particular adjective's propensity to be involved in a metaphor, and then learning a combination of features that effectively serve to label each adjective in a way that is mappable to a fairly reliable classification.
+
+%Outside of my own methodology, one interesting trend to notice in these results, and in contrast to the results on relatedness and similarity discussed in the previous chapter, is that all three techniques for building static models show an ambiguous trajectory as dimensionality is increased, with in particular a slight but consistent decreases in their agreement with human classifications moving from 200 to 400 dimensional spaces.
+
+\begin{table}
+\centering
+\begin{tabular}{lrrrr|rrrr}
+\hline
+\emph{window} & \multicolumn{4}{c}{2x2} & \multicolumn{4}{c}{5x5} \\
+\emph{dimensions} & 20 & 50 & 200 & \multicolumn{1}{c}{400} & 20 & 50 & 200 & 400 \\
+\hline
+%\textsc{joint} & 0.817 & 0.835 & 0.842 & 0.824 & 0.825 & 0.849 & 0.855 & 0.847\\
+%\textsc{indy} & 0.782 & 0.819 & 0.841 & 0.845 & 0.789 & 0.834 & 0.853 & 0.865 \\
+%\textsc{zipped} & 0.804 & 0.836 & 0.844 & 0.838 & 0.819 & 0.844 & 0.864 & 0.859 \\
+%\textsc{adjective} & 0.707 & 0.741 & 0.783 & 0.811 & 0.732 & 0.747 & 0.791 & 0.820 \\
+%\textsc{noun} & 0.760 & 0.777 & 0.813 & 0.830 & 0.791 & 0.810 & 0.820 & 0.828 \\
+\textsc{joint} & 0.815 & 0.837 & 0.854 & 0.855 & 0.816 & 0.837 & 0.858 & 0.863 \\
+\textsc{indy} & 0.778 & 0.793 & 0.828 & 0.835 & 0.774 & 0.805 & 0.829 & 0.842 \\
+\textsc{zipped} & 0.810 & 0.838 & 0.847 & 0.854 & 0.799 & 0.828 & 0.844 & 0.853 \\
+\textsc{adjective} & 0.606 & 0.709 & 0.750 & 0.777 & 0.698 & 0.697 & 0.757 & 0.707 \\
+\textsc{noun} & 0.806 & 0.808 & 0.828 & 0.833 & 0.796 & 0.812 & 0.824 & 0.829 \\
+\textsc{SVD} & 0.679 & 0.691 & 0.695 & 0.690 & 0.665 & 0.674 & 0.678 & 0.676 \\
+\textsc{SG} & 0.668 & 0.664 & 0.659 & 0.657 & 0.659 & 0.656 & 0.644 & 0.638 \\
+\textsc{CBoW} & 0.657 & 0.665 & 0.665 & 0.661 & 0.656 & 0.660 & 0.666 & 0.660 \\
+\hline
+\end{tabular}
+\caption[F-Scores for Metaphor Classification of Unseen Adjectives]{F-scores for metaphor identification with each of the conceptual categories identified by \cite{GutierrezEA2016} treated as a separate fold for cross-validation.}
+\label{tab:categoraphor}
+\end{table}
+
+Table~\ref{tab:categoraphor} presents the results from this reshuffled version of the experiment.  The f-scores for metaphor classification returned by the context sensitive models are down slightly, but the difference is not significant at $p = .073$.  The major change here is, as expected, in the \textsc{adjective} subspaces: clearly when only information from the adjective in each word-pair is used to train a model, prior observations of a specific adjective type in the context of some other composition is a benefit.  There is also a minor decrease in performance for the static models, which is interesting in that it indicates that, even when a single distance metric is used to classify metaphoricity, observations of a word in training help to subsequently test phrases involving that word.  It is worth noting that of the 8,584 noun tokens spread across 3,473 noun types, 1,588 types, represented by 6,724 tokens, occur in more than one of the tranches delineating the conceptual categorisations of the adjectives, so it is possible that there is a certain degree of learning to classify phrases based on previous observations of specific nouns.
+
+In order to take a closer look at the way that different techniques model this data, and in line with the metaphor classification work of \cite{TsvetkovEA2014}, Figure~\ref{fig:metaroc} illustrates receiver operating characteristic curves for four versions of the approaches that have been described here: the \textsc{joint} technique with 400 dimensional, 5x5 word subspaces, the same technique applied to the version of the data shuffled to avoid training and testing on the same adjectives, and the CBoW and SVD models for the optimally performing 50 dimensional, 2x2 word window subspaces.  True positive versus false positive rates are correlated at 99 increments in terms of the value of the output of a logistic regression model at which a phrase is determined to be metaphoric.  The outcomes visualised here tell a similar story to Tables~\ref{tab:metaphor} and~\ref{tab:categoraphor}, with the area under the curve statistics indicating a strong distinction between the context sensitive techniques and the static models.  Perhaps the most interesting thing to note is the overall smoothness of the curves, which suggests a steady relationship between precision and recall at various classification thresholds, though this is probably also symptomatic of the large scale of the data.
+
+\begin{figure}
+  \centering
+  \footnotesize
+  \begin{tikzpicture}
+    \begin{axis}[xmin=0,xmax=1,ymin=0,ymax=1,xlabel={false positive rate},ylabel={true positive rate},legend pos=south east,legend cell align={right},legend style={font=\footnotesize}]
+      \addplot [dashed,forget plot] coordinates{(0,0) (1,1)};
+      \addplot [] coordinates{(0.0,0.0) (0.001,0.143) (0.004,0.240) (0.005,0.315) (0.008,0.373) (0.009,0.419) (0.012,0.463) (0.014,0.499) (0.017,0.527) (0.019,0.556) (0.022,0.578) (0.024,0.603) (0.026,0.621) (0.028,0.640) (0.030,0.660) (0.033,0.676) (0.037,0.690) (0.040,0.702) (0.044,0.713) (0.046,0.725) (0.048,0.736) (0.051,0.744) (0.053,0.754) (0.054,0.761) (0.059,0.767) (0.061,0.774) (0.065,0.783) (0.069,0.788) (0.071,0.796) (0.074,0.802) (0.078,0.808) (0.081,0.814) (0.084,0.819) (0.088,0.826) (0.092,0.833) (0.095,0.838) (0.097,0.843) (0.099,0.846) (0.102,0.851) (0.105,0.855) (0.108,0.859) (0.112,0.862) (0.116,0.868) (0.118,0.871) (0.121,0.874) (0.125,0.877) (0.128,0.880) (0.132,0.883) (0.136,0.887) (0.139,0.890) (0.144,0.893) (0.148,0.896) (0.151,0.899) (0.154,0.901) (0.157,0.903) (0.161,0.906) (0.165,0.909) (0.168,0.911) (0.174,0.914) (0.179,0.916) (0.183,0.918) (0.188,0.920) (0.190,0.922) (0.195,0.925) (0.200,0.927) (0.204,0.930) (0.209,0.933) (0.213,0.934) (0.220,0.937) (0.227,0.939) (0.234,0.942) (0.240,0.946) (0.247,0.948) (0.254,0.952) (0.262,0.953) (0.271,0.957) (0.280,0.958) (0.291,0.959) (0.299,0.961) (0.307,0.963) (0.318,0.965) (0.332,0.968) (0.345,0.970) (0.355,0.971) (0.369,0.973) (0.380,0.975) (0.393,0.975) (0.405,0.978) (0.419,0.979) (0.436,0.981) (0.456,0.982) (0.476,0.984) (0.497,0.985) (0.525,0.987) (0.558,0.989) (0.590,0.991) (0.627,0.993) (0.671,0.995) (0.732,0.996) (0.820,0.998) (1.0,1.0)}; %joint auc = 0.945
+      \addplot [dash dot] coordinates{(0.0,0.0) (0.005,0.153) (0.009,0.240) (0.016,0.302) (0.020,0.352) (0.025,0.396) (0.026,0.430) (0.028,0.462) (0.032,0.489) (0.038,0.514) (0.041,0.534) (0.045,0.556) (0.048,0.576) (0.051,0.591) (0.055,0.609) (0.059,0.623) (0.063,0.637) (0.067,0.651) (0.070,0.663) (0.074,0.676) (0.076,0.687) (0.079,0.698) (0.082,0.708) (0.086,0.717) (0.090,0.724) (0.094,0.733) (0.096,0.742) (0.101,0.749) (0.106,0.759) (0.108,0.765) (0.111,0.773) (0.116,0.780) (0.119,0.785) (0.121,0.792) (0.124,0.798) (0.128,0.805) (0.130,0.810) (0.133,0.814) (0.136,0.818) (0.140,0.823) (0.144,0.828) (0.147,0.833) (0.151,0.837) (0.154,0.841) (0.157,0.846) (0.160,0.850) (0.163,0.853) (0.167,0.856) (0.169,0.860) (0.175,0.864) (0.176,0.865) (0.182,0.868) (0.188,0.873) (0.192,0.874) (0.197,0.878) (0.201,0.882) (0.204,0.884) (0.208,0.887) (0.210,0.890) (0.215,0.892) (0.218,0.895) (0.224,0.898) (0.231,0.901) (0.237,0.904) (0.243,0.906) (0.249,0.909) (0.255,0.914) (0.260,0.917) (0.265,0.920) (0.272,0.922) (0.277,0.925) (0.283,0.927) (0.291,0.931) (0.298,0.934) (0.306,0.937) (0.313,0.941) (0.321,0.945) (0.330,0.947) (0.340,0.949) (0.355,0.950) (0.361,0.954) (0.370,0.955) (0.383,0.957) (0.394,0.959) (0.408,0.963) (0.421,0.965) (0.432,0.968) (0.446,0.970) (0.460,0.972) (0.474,0.973) (0.492,0.976) (0.516,0.978) (0.535,0.980) (0.564,0.982) (0.591,0.985) (0.623,0.987) (0.653,0.989) (0.696,0.992) (0.749,0.994) (0.818,0.997) (1.0,1.0)}; %joint reshuffled auc = 0.915
+      \addplot [dash dot dot] coordinates {(0.000,0.000) (0.000,0.001) (0.000,0.002) (0.001,0.006) (0.001,0.008) (0.001,0.012) (0.001,0.019) (0.002,0.025) (0.005,0.034) (0.008,0.047) (0.011,0.063) (0.014,0.079) (0.019,0.099) (0.025,0.118) (0.034,0.143) (0.041,0.166) (0.052,0.191) (0.062,0.216) (0.079,0.243) (0.092,0.267) (0.107,0.293) (0.123,0.317) (0.143,0.349) (0.164,0.383) (0.186,0.410) (0.210,0.438) (0.233,0.470) (0.257,0.498) (0.281,0.528) (0.305,0.556) (0.327,0.579) (0.355,0.604) (0.381,0.627) (0.406,0.652) (0.429,0.679) (0.451,0.705) (0.478,0.727) (0.501,0.748) (0.530,0.768) (0.557,0.787) (0.583,0.806) (0.610,0.823) (0.633,0.842) (0.656,0.855) (0.682,0.869) (0.701,0.881) (0.724,0.895) (0.745,0.906) (0.763,0.919) (0.783,0.926) (0.804,0.936) (0.821,0.945) (0.840,0.951) (0.857,0.959) (0.870,0.965) (0.885,0.969) (0.897,0.973) (0.909,0.977) (0.920,0.980) (0.929,0.985) (0.943,0.989) (0.951,0.991) (0.960,0.993) (0.966,0.996) (0.973,0.998) (0.977,0.999) (0.983,0.999) (0.987,0.999) (0.991,1.000) (0.995,1.000) (0.998,1.000) (0.999,1.000) (1.000,1.000)}; %cbow, auc = 0.681
+      \addplot [dotted] coordinates{(0.000,0.000) (0.000,0.001) (0.001,0.002) (0.001,0.003) (0.002,0.004) (0.003,0.007) (0.004,0.011) (0.007,0.016) (0.009,0.022) (0.013,0.030) (0.017,0.040) (0.024,0.055) (0.033,0.067) (0.040,0.087) (0.051,0.108) (0.063,0.136) (0.079,0.171) (0.101,0.208) (0.123,0.241) (0.149,0.277) (0.169,0.319) (0.192,0.361) (0.216,0.402) (0.240,0.444) (0.269,0.489) (0.298,0.526) (0.331,0.567) (0.353,0.600) (0.378,0.635) (0.406,0.669) (0.437,0.700) (0.466,0.732) (0.496,0.756) (0.519,0.781) (0.545,0.801) (0.566,0.823) (0.587,0.841) (0.611,0.864) (0.634,0.879) (0.654,0.892) (0.676,0.904) (0.697,0.918) (0.715,0.929) (0.736,0.938) (0.753,0.949) (0.772,0.959) (0.786,0.965) (0.802,0.971) (0.818,0.974) (0.834,0.977) (0.851,0.980) (0.863,0.984) (0.878,0.988) (0.891,0.989) (0.899,0.992) (0.909,0.994) (0.920,0.995) (0.928,0.996) (0.936,0.997) (0.945,0.998) (0.950,0.999) (0.956,0.999) (0.963,0.999) (0.967,1.000) (0.972,1.000) (0.978,1.000) (0.983,1.000) (0.989,1.000) (0.994,1.000) (0.996,1.000) (0.997,1.000) (0.999,1.000) (1.000,1.000)}; %svd 2x50, auc = 0.678
+      \legend{\textsc{joint} (0.945),shuffled (0.915),\textsc{CBOW} (0.681),\textsc{SVD} (0.678)} 
+    \end{axis}
+  \end{tikzpicture}
+\caption[Receiver Operating Characterisation for Metaphor Classification]{Receiver operating characteristic plots for a selection of models, with the area under the curve for each model type indicated in the legend.}
+\label{fig:metaroc}
+\end{figure}
+
+With the trade off between true and false positives in mind, Table~\ref{tab:metastats} presents precision, recall, f-score, accuracy, and Cohen's kappa scores for the same models plotted in Figure~\ref{fig:metaroc}, along with a majority class baseline and the scores originally achieved by \cite{GutierrezEA2016}.  The trend to notice here is that context sensitive and static models tend to favour recall over precision (and the slight preference for precision in the \textsc{joint} 400 dimensional, 5x5 word subspaces for the shuffled version of the data reported here is an anomaly, as other approaches to that data exhibit the tendency towards higher recall).  This evident enthusiasm for classifying phrases as metaphoric is a reflection of the data itself, which is slightly skewed towards metaphoric phrases, as described above and indicated in the performance of the majority class baseline, and this is reinforced by the relatively low accuracy scores for both context sensitive and static non-compositional distributional semantic models.  It is noteworthy, then, that the model described by \cite{GutierrezEA2016} actually scores better for precision than recall, suggesting it tends to under-predict metaphoricity.  This could perhaps be expected as a general distinction between statistical models based on unannotated data such as mine, which will arguably tend to favour a majority class, versus likewise statistical models operating on theoretically motivated mappings between representations, which have an apparent propensity for zeroing in with confidence on the properties of a compositional transformation that are indicative of metaphor---but at the expense of sometimes missing what might be considered outliers.  In the same spirit, the jumpier nature of the receiver operating characteristic plots presented by \cite{TsvetkovEA2014} is quite possibly an artefact of the decision points inherent in heuristically mapping model features from human made knowledge bases.
+
+\begin{table}
+\centering
+\begin{tabular}{lrrrrr}
+\hline
+\ & \emph{precision} & \emph{recall} & \emph{f-score} & \emph{accuracy} & \emph{kappa} \\
+\hline
+\textsc{joint} & 0.879 & 0.894 & 0.886 & 0.877 & 0.753\\
+shuffled & 0.873 & 0.865 & 0.862 & 0.854 & 0.678 \\
+\textsc{SVD} & 0.631 & 0.794 & 0.703 & 0.641 & 0.265 \\
+\textsc{CBOW} & 0.638 & 0.721 & 0.677 & 0.632 & 0.253 \\
+\cite{GutierrezEA2016} & 0.842 & 0.793 & 0.817 & 0.809 & 0.618 \\
+baseline & 0.535 & 1.000 & 0.697 & 0.535 & 0.000 \\
+\hline
+\end{tabular}
+\caption[Comparative Metaphor Classification Statistics]{Full classification statistics results for the models tested here as well as the results from the original literature and the majority class (metaphor) baseline.}
+\label{tab:metastats}
+\end{table}
+
+As a final point of comparison with other approaches to metaphor classification, I will return briefly to the unannotated character of my lexical representations.  One of the most powerful features of the methodology described here is its ability to build a somewhat general model of a semantic phenomenon from a sufficiently comprehensive dataset, and the strong Cohen's kappa score of the best performing subspace selection technique, which begins to approach the aforementioned inter-annotator agreement level of $\kappa = 0.80$, is a testament to this.  Following an analysis of the specific geometry of metaphor in the next section, Section~\ref{sec:genaphor} will assess the ability of my methodology to generalise even further from this data to a broader range of metaphors and to moreover move from classification to gradation based on observations of merely binary judgements of metaphoricity.  For now, I simply note that it is remarkable that data about nothing more than the way that words tend to be collocated can, with the aid of a mechanism for contextualisation, reveal so much about the nature of the semantic relationship between the lexical components of a previously unseen phrase.
+
+\subsection{The Geometry of Metaphor}
+In this section, I will explore the geometric features which prove most productive in the classification of metaphor.  As with relatedness and similarity in the previous chapter, I begin by examining the capacity of independent features to predict metaphor.  Rather than a proper logistic regression involving multiple independent variables fed into a non-linear function, this analysis amounts to choosing a cut-off point in terms of the value of each feature separating literal and metaphoric phrases in the subspaces which an analysis of their corresponding word-vectors delineate.  So the f-scores reported in Table~\ref{tab:ind-metaphor} can be understood as indicating the degree to which the values of a given geometric feature separate the dataset into distinct categories corresponding to human judgements of metaphoricity.
+
+\begin{table}
+\centering
+\begin{tabular}{lr|lr|lr}
+\hline
+\multicolumn{2}{c}{\textsc{joint}} & \multicolumn{2}{c}{\textsc{indy}} & \multicolumn{2}{c}{\textsc{zipped}} \\
+\hline
+$\mu(A,B)$ & 0.787 & $C$ & 0.767 & $\mu(A,B)$ & 0.788 \\
+$C$ & 0.771 & $C/M$ & 0.749 & $C$ & 0.771 \\
+$\mu(A,B)/M$ & 0.764 & $\angle AMB$ & 0.747 & $\mu(A,B)/M$ & 0.769 \\
+$\angle COX$ & 0.762 & $C/X$ & 0.746 & $X$ & 0.767 \\
+$X$ & 0.762 & $\mu(A,B)$ & 0.734 & $\mu(A,B)/X$ & 0.759 \\
+\hline
+\end{tabular}
+\vfill
+\begin{tabular}{lr|lr}
+\multicolumn{2}{c}{\textsc{adjective}} & \multicolumn{2}{c}{\textsc{noun}} \\
+\hline
+$\mu(A,B)/M$ & 0.745 & $\mu(A,B)$ & 0.756 \\
+$\overline{AC}:\overline{BC}$ & 0.736 & $C$ & 0.747 \\
+$\overline{AC}/\overline{BC}$ & 0.734 & $\mu(A,B)/X$ & 0.728 \\
+$\mu(A,B)/X$ & 0.732 & $\mu(A,B)/M$ & 0.721 \\
+$\angle ACB$ & 0.730 & $C/X$ & 0.721 \\
+\hline
+\end{tabular}
+\caption[Top Independent Features for Metaphor Classification]{Independent f-scores from the metaphor classification data for top five features of each subspace type for 5x5 word co-occurrence window, 400 dimension subspaces.}
+\label{tab:ind-metaphor}
+\end{table}
+
+%\begin{table}
+%\centering
+%\begin{tabular}{lr|lr|lr|lr|lr}
+%\hline
+%\multicolumn{2}{c}{\textsc{joint}} & \multicolumn{2}{c}{\textsc{indy}} & \multicolumn{2}{c}{\textsc{zipped}} & \multicolumn{2}{c}{\textsc{adjective}} & \multicolumn{2}{c}{\textsc{noun}} \\
+%\hline
+%$\mu(A,B)$ & 0.785 & $C$ & 0.767 & $\mu(A,B)$ & 0.788 & $\mu(A,B)/M$ & 0.744 & $\mu(A,B)$ & 0.756 \\
+%$C$ & 0.768 & $\angle AMB$ & 0.749 & $\mu(A,B)/M$ & 0.771 & $\overline{AC}:\overline{BC}$ & 0.737 & $C$ & 0.745 \\
+%$\mu(A,B)/M$ & 0.764 & $C/M$ & 0.748 & $X$ & 0.769 & $\mu(A,B)/C$ & 0.736 & $\mu(A,B)/X$ & 0.728 \\
+%$X$ & 0.763 & $C/X$ & 0.747 & $C$ & 0.767 & $\mu(A,B)/X$ & 0.733 & $\mu(A,B)/M$ & 0.722 \\
+%$\mu(A,B)/X$ & 0.759 & $\mu(A,B)$ & 0.733 & $\mu(A,B)/X$ & 0.762 & $\angle ACB$ & 0.732 & $C/X$ & 0.721 \\
+%\hline
+%\end{tabular}
+%\caption[Top Independent Features for Metaphor Classification with Unseen Adjectives]{Independent f-scores from the metaphor classification data for top five features of each subspace type for 5x5 word co-occurrence window, 400 dimension subspaces with models tested on adjectives not observed in training.}
+%\label{tab:ind-metaphor}
+%\end{table}
+
+The scores themselves reflect the trend observed in Table~\ref{tab:metaphor} and~\ref{tab:categoraphor}: the \textsc{joint} and \textsc{zipped} subspaces produce features that are particulary good at classifying metaphor, with a decrease in performance in the \textsc{indy} subspaces and then another step down in the single-word subspaces.  None of the scores themselves come close to the levels of discrimination achieved by the models learned from full feature vectors, with the difference between the performance of the best feature for the \textsc{joint} technique and that of the corresponding full featured space somehwat significant at $p = .006$.  In terms of the actual features indicated by this analysis, two in particular figure prominently in one way or another, namely, the mean of the word-vector norms $\mu(A,B)$ and the norm of the central-vector $C$.  In the first instance, the role of the relationship between word-vectors and the origin of the spaces that their salient co-occurrence dimensions delineate is once again reflective of the preliminary findings on conceptual geometry described in Chapter~\ref{sec:poc}, where norm was seen to be an effective mechanism for defining a region of conceptual constituency.  In the case of the distance of the central vector from the origin, the emergence of this feature, as well of the appearance of the norms $M$ and $X$ as components of various strongly predictive tendencies, indicate that here, as with similarity in the previous chapter, characteristics of dimensions outside of the situation of any particular word-vector along them might be in themselves indicative of metaphor: some words might simply be more likely to co-occur in the context of metaphoric language, and a trend in the mean or maximum values of those words' co-occurrence profiles might provide a handle for examining this tendency.
+
+To further delve into the statistical geometry of metaphor, and in line with the results on relatedness and similarity described in the previous chapter, I once again search the state space of possible combinations of features to find the optimal feature vector for classifying metaphor in context sensitive subspaces.  This is again treated as a beam search problem, though the search space expanded at each level of the search tree is here limited to the top 500 combinations of features given the larger size of the data being modelled.  Table~\ref{tab:metatures} presents the optimal seven feature combinations discovered for the 5x5 word window, 400 dimensional \textsc{joint} subspaces based on both a standard ten-fold cross-validation and the version of the data shuffled in order to test on adjectives not observed in each training phase.  The f-scores achieved by these combinations of features, reported next to the respective labels at the top of the table, indicate a marginal decrease in the overall performance as compared to the full featured models of subspaces, but the results are still strong.
+
+\begin{table}
+\centering
+\begin{tabular}{llr}
+\hline
+& \multicolumn{1}{c}{10-fold ($f = 0.869$)} & \multicolumn{1}{c}{shuffled ($f = 0.830$)} \\
+\hline
+& \multicolumn{2}{c}{\textsc{distances}} \\
+word-vectors& - & - \\
+generic vectors & $M = -1.448$ & - \\
+\hline
+& \multicolumn{2}{c}{\textsc{angles}} \\
+word-vectors & $\angle ACB = -0.775$ & - \\
+normalised & - & - \\
+generic vectors & $\angle COX = -1.618$ & $-0.271 = \angle COM$  \\
+& $\angle COM = 0.974$ & $0.045 = \angle MOX$ \\
+\hline
+& \multicolumn{2}{c}{\textsc{means}} \\
+word-vectors & $\mu(\overline{AM},\overline{BM}) = -1.124$ & $-1.007 = \mu(\overline{AC},\overline{BC})$ \\
+normalised & - & - \\
+\hline
+& \multicolumn{2}{c}{\textsc{ratios}} \\
+word-vectors & - & $0.492 = \overline{AM}:\overline{BM}$ \\
+& & $-0.620 = \overline{AX}:\overline{BX}$ \\
+normalised & - & $-0.168 = \overline{A'C'}:\overline{B'C'}$ \\
+\hline
+& \multicolumn{2}{c}{\textsc{fractions}} \\
+word-vectors & $\overline{AC}/\overline{BC} = 0.325$ & - \\
+generic vectors & $M/X = 1.305$ & $0.252 = A/B$ \\
+\hline
+\end{tabular}
+\caption[Most Predictive Feature Vectors for Metaphor Classification]{The seven most predictive features for metaphor classification, compared between ten-fold and sight-unseen cross-validation of logistic regression on statistics extrapolated from 5x5 word window, 400 dimensional \textsc{joint} subspaces.}
+\label{tab:metatures}
+\end{table}
+
+Angles between generic vectors, which were already evident as independently predictive features in Table~\ref{tab:ind-metaphor}, have a strong effect here, with the strong negative correlation of $\angle COX$ in the ten-fold cross-validation in particular suggesting that maximal values tend to be relatively similar across dimensions jointly selected by literal adjective-noun combinations, pulling the line of $X$ closer to the centroid described by $C$.  To put this differently, as pairs become more metaphoric, they tend to also become less consistent in the type of dimension that they co-select, as evidenced in the increasing variance in the maximum values of these dimensions.  Perhaps the most interesting thing to observe here, though, is the strong correlation between ratios of word-vector to generic vector distances in the case of the version of the data shuffled to test on unseen adjectives, but not in the case of the stratified cross-validation.  The positive correlation with the balance of the distances from the word-vectors to the mean vector $M$ means that subspaces where the word-vectors have a relatively even relationship to the weighted centre are, in fact, more metaphoric (and their relationship to the maximum vector is comparatively less balanced, with this vector in turn being less central to the space per the observations regarding $\angle COX$).  But more generally, it is noteworthy that the balance between word vectors and generic vectors is informative about metaphoricity specifically in models tested on unseen adjectives: this balance is in effect a projection into space of the ratio of set of propositions about the individual ratios of the conditional probability of a dimension being a co-occurrence term for a word compared to the mean conditional probability of that same dimension being a co-occurrence term for any word.
+
+Figure~\ref{fig:metaspaces} presents visualisations by way of three dimensional projections of word-vectors and generic vectors from 400 dimensional \textsc{joint} subspaces selected from the 5x5 word window base space.\footnote{These projections have been rendered using the same regression technique as applied to the images for related word pairs in the previous section, but the coordinates of $X$ have been divided by 1.5 instead of 2.}  In the example of the uncontroversially literal phrase \emph{sweet watermelon}, the word-vectors are characteristically far from the origin and close to one another, corresponding to the predictivity of $\mu(A,B)$ in particular.  At the other extent of the spectrum, the highly metaphoric phrase \emph{bitter letter} is characterised by a dropping of the word-vectors and a widening of the angle between them; the generic vectors, meanwhile, are now further from the origin relative to the word-vectors that select the subspace and, at the same time, draw closer to one another in particular at the normalised layer of the subspace.  But most interestingly, at a relatively neutral point, occupied by the intriguingly ambiguous phrase \emph{warm country}, which the logistic regression trained on these subspaces assigned a score close to 0.5, there is actually evidence of an intermediary widening out of the overall array of points even as the word-vectors remain fairly far from the origin.
+
+\begin{figure}
+\footnotesize
+\begin{subfigure}{0.3\textwidth} % sour - sauce
+\centering
+  \begin{tikzpicture}
+    \def\varA{(56.2720,60.1719,75.2389)};
+    \def\varB{(73.7099,36.8692,94.6119)};
+    \def\varC{(33.4740,33.4737,33.4739)};
+    \def\varM{(36.1929,28.0423,36.1855)};
+    \def\varX{(117.9619,63.2478,89.8183)};
+    \def\varAN{(15.1308,16.1795,20.2308)};
+    \def\varBN{(17.6235,8.8151,22.6210)};
+    \def\varCN{(17.3206,17.3204,17.3205)};
+    \def\varMN{(18.6056,14.4156,18.6017)};
+    \def\varXN{(21.9544,11.7713,16.7165)};
+    \def\nodA{56.2720,60.1719,75.2389};
+    \def\nodB{73.7099,36.8692,94.6119};
+    \def\nodC{33.4740,33.4737,33.4739};
+    \def\nodM{36.1929,28.0423,36.1855};
+    \def\nodX{117.9619,63.2478,89.8183};
+    \begin{axis}[scale = 0.6,axis line style=white,view={120}{10},xmin=0,xmax=100,ymin=0,ymax=100,zmin=0,zmax=100,colormap/blackwhite,ticks=none]
+      \addplot3[color=black,thick] coordinates {(0,0,80) (0,80,80)};
+      \addplot3[color=black,thick] coordinates {(0,0,80) (80,0,80)};
+      \addplot3[color=black,thick] coordinates {(0,80,0) (0,80,80)};
+      \addplot3[color=black,thick] coordinates {(0,80,0) (80,80,0)};
+      \addplot3[color=black,thick] coordinates {(80,0,0) (80,0,80)};
+      \addplot3[color=black,thick] coordinates {(80,0,0) (80,80,0)};
+      \addplot3[color=black] coordinates {(0,0,0) (0,0,80)};
+      \addplot3[color=black] coordinates {(0,0,0) (0,80,0)};
+      \addplot3[color=black] coordinates {(0,0,0) (80,0,0)};
+      \addplot3[patch,patch type=triangle,color=gray,fill opacity=0.0] coordinates {(0.0,0.0,0.0) \varCN \varAN};
+      \addplot3[patch,patch type=triangle,color=gray,fill opacity=0.0] coordinates {(0.0,0.0,0.0) \varCN \varBN};
+      \addplot3[patch,patch type=triangle,color=darkgray,fill opacity=0.75] coordinates {\varCN \varAN \varBN};
+      \addplot3[patch,patch type=triangle,color=darkgray,fill opacity=0.5] coordinates {\varMN \varAN \varBN};
+      \addplot3[patch,patch type=triangle,color=darkgray,fill opacity=0.25] coordinates {\varXN \varAN \varBN};
+      \addplot3 [color=black,thick] coordinates {(0,0,0) \varCN};
+      \addplot3 [color=black,thick] coordinates {(0,0,0) \varXN};
+      \addplot3 [color=black,thick] coordinates {(0,0,0) \varMN};
+%      \addplot3[opacity = 0.1,surf,z buffer = sort,samples = 21,variable = \u,variable y = \v,domain = 0:90,y domain = 0:90,]
+%    ({1*cos(u)*sin(v)}, {1*sin(u)*sin(v)}, {1*cos(v)});
+      \addplot3 [patch,patch type=rectangle,color=lightgray,fill opacity=0.0] coordinates{\varAN \varA \varB \varBN
+};
+      \addplot3 [color=black,thick] coordinates {\varCN \varC};
+      \addplot3 [color=black,thick] coordinates {\varXN \varX};
+      \addplot3 [color=black,thick] coordinates {\varMN \varM};
+      \addplot3 [patch,patch type=triangle,color=lightgray,fill opacity=0.75] coordinates{\varA \varC \varB};
+      \addplot3 [patch,patch type=triangle,color=gray,fill opacity=0.25] coordinates{\varA \varX \varB};
+      \addplot3 [patch,patch type=triangle,color=gray,fill opacity=0.5] coordinates{\varA \varM \varB};
+      \node [anchor=south] at (axis cs: \nodA) {sour};
+      \node [anchor=south] at (axis cs: \nodB) {sauce};
+      \node [anchor=south] at (axis cs: \nodC) {C};
+      \node [anchor=south] at (axis cs: \nodX) {X};
+      \node [anchor=south] at (axis cs: \nodM) {M};
+    \end{axis}
+  \end{tikzpicture}
+\caption*{\footnotesize \emph{literal: sweet watermelon}}
+\end{subfigure}
+\hfill
+\begin{subfigure}{0.3\textwidth} % warm - country
+\centering
+  \begin{tikzpicture}
+\def\varA{-8.639,51.611,50.881};
+    \def\varA{(28.1002,64.5545,23.6443)};
+    \def\varB{(25.5857,1.7784,36.5694)};
+    \def\varC{(26.7296,26.7293,26.7296)};
+    \def\varM{(33.9479,23.3011,22.9391)};
+    \def\varX{(106.0249,69.1555,74.6834)};
+    \def\varAN{(11.3507,26.0758,9.5508)};
+    \def\varBN{(17.1844,1.1944,24.5615)};
+    \def\varCN{(17.3206,17.3204,17.3206)};
+    \def\varMN{(21.6073,14.8308,14.6004)};
+    \def\varXN{(21.6416,14.1159,15.2442)};
+    \def\nodA{28.1002,64.5545,23.6443};
+    \def\nodB{25.5857,1.7784,36.5694};
+    \def\nodC{26.7296,26.7293,26.7296};
+    \def\nodM{33.9479,23.3011,22.9391};
+    \def\nodX{106.0249,69.1555,74.6834};
+    \begin{axis}[scale = 0.6,axis line style=white,view={120}{10},xmin=0,xmax=100,ymin=0,ymax=100,zmin=0,zmax=100,colormap/blackwhite,ticks=none]
+      \addplot3[color=black,thick] coordinates {(0,0,80) (0,80,80)};
+      \addplot3[color=black,thick] coordinates {(0,0,80) (80,0,80)};
+      \addplot3[color=black,thick] coordinates {(0,80,0) (0,80,80)};
+      \addplot3[color=black,thick] coordinates {(0,80,0) (80,80,0)};
+      \addplot3[color=black,thick] coordinates {(80,0,0) (80,0,80)};
+      \addplot3[color=black,thick] coordinates {(80,0,0) (80,80,0)};
+      \addplot3[color=black] coordinates {(0,0,0) (0,0,80)};
+      \addplot3[color=black] coordinates {(0,0,0) (0,80,0)};
+      \addplot3[color=black] coordinates {(0,0,0) (80,0,0)};
+      \addplot3[patch,patch type=triangle,color=gray,fill opacity=0.0] coordinates {(0.0,0.0,0.0) \varCN \varAN};
+      \addplot3[patch,patch type=triangle,color=gray,fill opacity=0.0] coordinates {(0.0,0.0,0.0) \varCN \varBN};
+      \addplot3[patch,patch type=triangle,color=darkgray,fill opacity=0.75] coordinates {\varCN \varAN \varBN};
+      \addplot3[patch,patch type=triangle,color=darkgray,fill opacity=0.5] coordinates {\varMN \varAN \varBN};
+      \addplot3[patch,patch type=triangle,color=darkgray,fill opacity=0.25] coordinates {\varXN \varAN \varBN};
+      \addplot3 [color=black,thick] coordinates {(0,0,0) \varCN};
+      \addplot3 [color=black,thick] coordinates {(0,0,0) \varXN};
+      \addplot3 [color=black,thick] coordinates {(0,0,0) \varMN};
+%      \addplot3[opacity = 0.1,surf,z buffer = sort,samples = 21,variable = \u,variable y = \v,domain = 0:90,y domain = 0:90,]
+%    ({1*cos(u)*sin(v)}, {1*sin(u)*sin(v)}, {1*cos(v)});
+      \addplot3 [patch,patch type=rectangle,color=lightgray,fill opacity=0.0] coordinates{\varAN \varA \varB \varBN
+};
+      \addplot3 [color=black,thick] coordinates {\varCN \varC};
+      \addplot3 [color=black,thick] coordinates {\varXN \varX};
+      \addplot3 [color=black,thick] coordinates {\varMN \varM};
+      \addplot3 [patch,patch type=triangle,color=lightgray,fill opacity=0.75] coordinates{\varA \varC \varB};
+      \addplot3 [patch,patch type=triangle,color=gray,fill opacity=0.25] coordinates{\varA \varX \varB};
+      \addplot3 [patch,patch type=triangle,color=gray,fill opacity=0.5] coordinates{\varA \varM \varB};
+      \node [anchor=south] at (axis cs: \nodA) {warm};
+      \node [anchor=south] at (axis cs: \nodB) {country};
+      \node [anchor=south] at (axis cs: \nodC) {C};
+      \node [anchor=south] at (axis cs: \nodX) {X};
+      \node [anchor=south] at (axis cs: \nodM) {M};
+    \end{axis}
+  \end{tikzpicture}
+\caption*{\footnotesize \emph{neutral: warm country}}
+\end{subfigure}
+\hfill
+\begin{subfigure}{0.3\textwidth} % bitter - letter
+\centering
+  \begin{tikzpicture}
+    \def\varA{(27.7652,53.8416,22.8974)};
+    \def\varB{(33.0985,7.5929,45.5444)};
+    \def\varC{(28.9808,28.9805,28.9808)};
+    \def\varM{(33.1872,25.5252,28.2293)};
+    \def\varX{(109.8650,67.9613,76.3988)};
+    \def\varAN{(12.8618,24.9413,10.6069)};
+    \def\varBN{(17.4783,4.0096,24.0506)};
+    \def\varCN{(17.3206,17.3204,17.3206)};
+    \def\varMN{(19.7168,15.1648,16.7713)};
+    \def\varXN{(21.9604,13.5845,15.2710)};
+    \def\nodA{27.7652,53.8416,22.8974};
+    \def\nodB{33.0985,7.5929,45.5444};
+    \def\nodC{28.9808,28.9805,28.9808};
+    \def\nodM{33.1872,25.5252,28.2293};
+    \def\nodX{109.8650,67.9613,76.3988};
+    \begin{axis}[scale = 0.6,axis line style=white,view={120}{10},xmin=0,xmax=100,ymin=0,ymax=100,zmin=0,zmax=100,colormap/blackwhite,ticks=none]
+      \addplot3[color=black,thick] coordinates {(0,0,80) (0,80,80)};
+      \addplot3[color=black,thick] coordinates {(0,0,80) (80,0,80)};
+      \addplot3[color=black,thick] coordinates {(0,80,0) (0,80,80)};
+      \addplot3[color=black,thick] coordinates {(0,80,0) (80,80,0)};
+      \addplot3[color=black,thick] coordinates {(80,0,0) (80,0,80)};
+      \addplot3[color=black,thick] coordinates {(80,0,0) (80,80,0)};
+      \addplot3[color=black] coordinates {(0,0,0) (0,0,80)};
+      \addplot3[color=black] coordinates {(0,0,0) (0,80,0)};
+      \addplot3[color=black] coordinates {(0,0,0) (80,0,0)};
+      \addplot3[patch,patch type=triangle,color=gray,fill opacity=0.0] coordinates {(0.0,0.0,0.0) \varCN \varAN};
+      \addplot3[patch,patch type=triangle,color=gray,fill opacity=0.0] coordinates {(0.0,0.0,0.0) \varCN \varBN};
+      \addplot3[patch,patch type=triangle,color=darkgray,fill opacity=0.75] coordinates {\varCN \varAN \varBN};
+      \addplot3[patch,patch type=triangle,color=darkgray,fill opacity=0.5] coordinates {\varMN \varAN \varBN};
+      \addplot3[patch,patch type=triangle,color=darkgray,fill opacity=0.25] coordinates {\varXN \varAN \varBN};
+      \addplot3 [color=black,thick] coordinates {(0,0,0) \varCN};
+      \addplot3 [color=black,thick] coordinates {(0,0,0) \varXN};
+      \addplot3 [color=black,thick] coordinates {(0,0,0) \varMN};
+%      \addplot3[opacity = 0.1,surf,z buffer = sort,samples = 21,variable = \u,variable y = \v,domain = 0:90,y domain = 0:90,]
+%    ({1*cos(u)*sin(v)}, {1*sin(u)*sin(v)}, {1*cos(v)});
+      \addplot3 [patch,patch type=rectangle,color=lightgray,fill opacity=0.0] coordinates{\varAN \varA \varB \varBN
+};
+      \addplot3 [color=black,thick] coordinates {\varCN \varC};
+      \addplot3 [color=black,thick] coordinates {\varXN \varX};
+      \addplot3 [color=black,thick] coordinates {\varMN \varM};
+      \addplot3 [patch,patch type=triangle,color=lightgray,fill opacity=0.75] coordinates{\varA \varC \varB};
+      \addplot3 [patch,patch type=triangle,color=gray,fill opacity=0.25] coordinates{\varA \varX \varB};
+      \addplot3 [patch,patch type=triangle,color=gray,fill opacity=0.5] coordinates{\varA \varM \varB};
+      \node [anchor=south] at (axis cs: \nodA) {bitter};
+      \node [anchor=south] at (axis cs: \nodB) {letter};
+      \node [anchor=south] at (axis cs: \nodC) {C};
+      \node [anchor=south] at (axis cs: \nodX) {X};
+      \node [anchor=south] at (axis cs: \nodM) {M};
+    \end{axis}
+  \end{tikzpicture}
+\caption*{\footnotesize \emph{metaphoric: bitter letter}}
+\end{subfigure}
+\caption[Metaphors In Space]{Three dimensional projections of word-vectors and generic vectors in subspaces for pairs at the extents and in the middle of the literal-metaphorical spectrum, taken from 5x5 word window, 400 dimensional subspaces selected using the \textsc{joint} technique.}
+\label{fig:metaspaces}
+\end{figure}
+
+The exciting thing about this last observation is that it suggests that, rather than existing on a linear or even monotonic scale, metaphor may itself actually be a multi-dimensional phenomenon, with a characteristic particular to highly ambiguous word combinations that is to some extent separate from the statistical features of straightforward literalness and clear cut metaphoricity.  The broad arrangement of word-vectors in space engendered by the contextualisation of the phrase \emph{warm country}, in contrast to the relatively tight relationship of the generic vectors, can be interpreted as revealing an uncertainty regarding the semantic properties being transferred in this small composition, corresponding to a drifting of the word-vectors and a contracting of the generic vectors across the jointly selected co-occurrence profile.  Here, once again, the statistical geometry of a subspace can be productively mapped to a theoretical statement about the nature of a semantic phenomenon as characterised by a selectively contextual and quantitative representation of observations about the way that words are used, by and large outside of any strong preconditions symbolically encoded in the computational framework.
+
+\subsection{Generalising the Model} \label{sec:genaphor}
+One of the interesting things about feature-based classification is that there is typically an inherent commitment to degree of class membership, even when the training data used to build a model is simply binary.  This is true of any model which uses, for instance, a logistic regression technique for determining class, as there is a cut-off point along the spectrum of model output and a corresponding proximity to that point for any given sample, and it is especially obvious when the features of the model are actually geometrical measures.  In this section, I will apply the models learned from the the \cite{GutierrezEA2016} data to another dataset designed to assess metaphor as a matter of degree rather than simply as a binary situation, and a dataset that additionally deals with a different type of metaphor in terms of composition.  The question explored here is whether the geometric features of context specific distributional semantic analysis of word-vectors will provide binary classification models with adequate information for projecting metaphoricity along a continuous scale.
+
+The data used for this experiment was originally reported by \cite{JankowiakEA2015}, and was used to train a model based on an earlier version of my methodology as described by \cite{AgresEA2016}.  This data consists of 228 predicate-object word pairs selected to cover three degrees of metaphor, consisting of literal pairs such as \emph{announce willingness}, conventionally metaphoric pairs such as \emph{cut pollution}, and novel metaphors such as \emph{smell excuses}.  102 human participants provided metaphoricity scores on a seven point Likert scale, and the average scores were compiled into the dataset that will used to test models learned from the geometric features output by my context sensitive methodology.\footnote{Studies were also conducted to gather ratings for \emph{familiarity} and \emph{meaningfulness}, but those ratings will not be modelled in this thesis.}  Specifically, I will experiment with two different classification model techniques.  In the first instance, I will take the output of the logistic regression described above, trained on the \cite{GutierrezEA2016} data, as assigning probabilities to the metaphoricity of an input word pair, and I will in turn measure the degree to which these probabilities correlate with the degree of metaphoricity collectively assigned by human raters.  In the second instance, I'll use the binary metaphor classification data to train a support vector machine.\footnote{This is implemented using the python scikit-learn \texttt{SVC} module.}  Applying a radial basis function kernel, I analyse the correlation between distance from the discriminatory hyperplane and the human ratings.  In both cases, and in line with results reported in the previous chapter, Spearman's correlations are the unit of analysis.
+
+\begin{table}
+\centering
+\begin{tabular}{lrrrrrr}
+\hline
+\emph{features} & 1 & 3 & 5 & 7 & 9 & full \\
+\hline
+& \multicolumn{6}{c}{\emph{logistic regression}} \\
+\textsc{joint} & 0.368 & 0.355 & 0.033 & 0.085 & 0.279 & -0.033 \\
+\textsc{adjective} & -0.377 & 0.355 & 0.044 & 0.513 & 0.511 & 0.335 \\
+\hline
+& \multicolumn{6}{c}{\emph{support vector machine}} \\
+\textsc{joint} & 0.352 & 0.359 & 0.042 & 0.045 & 0.243 & 0.158 \\
+\textsc{adjective} & -0.170 & 0.247 & -0.021 & 0.407 & 0.418 & 0.236 \\
+\hline
+\end{tabular}
+\caption[Scoring Metaphoricity Based On Classification Data]{Spearman's correlation with human verb-noun metaphoricity scales judgements based on logistic regression and support vector machine models trained on adjective-noun classification data, taking feature vectors of various lengths as independent variables.}
+\label{tab:verblearn}
+\end{table}
+
+Table~\ref{tab:verblearn} presents results for both modelling techniques, focusing on features extrapolated from 5x5 word window, 400 dimensional subspaces using both the \textsc{joint} approach and an analysis of just the adjective in each word-pair from the input data.  Feature vectors of various lengths, picking the optimal geometric features for each dimensional selection technique, are used to feed input to each model.  In terms of the models trained on features from \textsc{joint} subspaces, there is a clear trend towards strong performance with one or three features, weaker performance with five or seven features, stronger performance again with nine features, and then a drop-off again in the full featured space.  The relatively low performance with the full set of features is not particularly surprising: there is clearly an encroaching incidence of generalisation error here as the models become flooded with data about various and certainly collinear statistical features of contextual geometry.  At the shallow end of the feature selection parameters, on the other hand, the single measure $\mu(A,B)$ (per Table~\ref{tab:ind-metaphor}) once again points to the efficacy of word-vector norm as a predictive characteristic of contextualised co-occurrence subspaces.
+
+The really remarkable outcome here, though, is the very strong performance of the models learned from the top seven and nine features extracted from subspaces selected by PMI values of the adjective word-vectors alone.  This is particularly interesting given that the data being tested actually consists of a different type of grammatical relationship, namely, predicate-object pairs.  It would seem, then, that the co-occurrence dimensions most salient to either verbs or adjectives generate a geometry in which their relationship to potential arguments can play out in similar ways in terms of the graded metaphoricity inherent in the semantic context: the interaction between the selecting vector, the noun-vector, and the generic vectors translates from one type of composition to another in an isomorphic way.  This explantion, including the claim that the mapping of predictive features from one type of metaphor to the other is to a large extent isomorphic, is supported by the particularly strong performance of the logistic regression at seven and nine dimensions, where the logistic function takes a polynomial with coefficients learned in the training phase as direct input.  The more complex non-linearity afforded by the support vector machine appears to actually somewhat confound the mapping from verb-noun to adjective-noun phrases---though the difference between the correlations at nine dimensions is not statistically significant at $p = .104$ based on a Fisher r-to-z transformation.
+
+The one area where a support vector machine provides a clear improvement in performance is in the full dimensional models extrapolated from \textsc{joint} subspaces.  In this case, it would seem that the radial basis function classification actually does a better job of avoiding the overfitting in a higher dimensional feature space.  But, putting questions of model choice aside, there is clear evidence here for the generality of the contextual geometry of metaphor, and also a strong case for the appropriateness of machine learning techniques for providing a mechanism for the computational manipulation of co-occurrence information to build a more nuanced model of degree of metaphor based on relatively rudimentary classification data.  Crucially, it is the context sensitivity of my methodology that facilitates the exploration of a multi-dimensional feature space in which the non-linear nuances of this particular semantic phenomenon can be discovered; a model providing a singular static relationship between lexical representations could not offer the context specific underpinning for generating a geometry replete with interpretable statistical features.  Finally, there are signs here to invite further research, and indeed some grounds for hoping that a context sensitive approach might have the scope for handling more sophisticated tasks such as metaphor interpretation and generation.
+
+\section{An Experiment on Coercion} \label{sec:coerperiment}
+In this section, I will apply my methodology to the classification of a phenomenon closely related to metaphor, namely, \emph{semantic type coercion}, by which the semantic type of a word is shifted through its interaction with another word: in the cases examined here, verbs that select for a particular semantic type will be seen to coerce nouns from one conceptual category to another by taking those nouns as arguments.  So, for instance, in phrases like \emph{denied wrongdoing} or \emph{heard footsteps}, the nouns in play are standing in for a conceptually relevant but different type of noun, and the literal versions of these phrases would go something like \emph{denied committing wrongdoing} or \emph{heard the sound of footsteps}, where the verbs select arguments of types along the lines of \textsc{activity} and \textsc{perception} respectively.  This phenomenon is often referred to as \emph{logical metonymy}, identifying it as a subspecies of the more general figurative phenomenon metonymy by which a thing is denoted by a conceptually related lexical representation.
+
+\subsection{Background}
+Coercion is one of the semantic phenomena targeted by \citepos{Pustejovsky1995} theory of a \emph{generative lexicon}, by which nouns are semantically modelled as having a \emph{qualia structure} which maps out the way that a thing relates to itself, the world, and the agents interacting with it in that world on four different levels of abstraction, with the general objective of arriving at ``a model of meaning in language that captures the means by which words can assume a potentially infinite number of senses in context, while limiting the number of senses actually stored in the lexicon,'' (p. 104).  In terms of coercion, qualia provide the basis for a process of \emph{projection} by which a variety of semantic types can be extracted from a complex type (or a \emph{dot object} in Pustejovsky's lingo) in order to fulfil the typing requirements of a predicate in open ended ways.  The model that emerges here -- one built on dynamically interactive lexical semantic representations contingent on some sort of general conceptual context -- begins to look like the general linguistic stance that has motivated my own methodology.
+
+This theoretical commitment suggests a schematic by which a symbol manipulating system might begin to get a handle on productive and context sensitive lexical representations of things in the world.  To this end, \cite{JezekEA2010} have described an ontology based on a computational analysis of co-occurrence patterns designed to facilitate the modelling of what is ultimately a sliding scale of statistically enhanced semantic representations, or ``shimmering lexical sets,'' (p. 19), as the authors put it.  Applying a similar notion that coercion is probabilistic rather than discreet, \cite{LapataEA2003} use co-occurrence statistics to try to predict the verbs which, in the role of for instance participles, successfully resolve instances of coercion.  And, under the rubric of \emph{logical metonymy}, \cite{ShutovaEA2013b} expand upon the work of \citeauthor{LapataEA2003} by extracting verb senses from WordNet to build a class based model, to some extent recapitulating the categorical distinctions that characterise many theoretical approaches to coercion.  The motivation behind this last system is the apt observation that, in the case of coercion, ``humans are capable of interpreting these phrases using their world knowledge and contextual information,'' \citep[][11:2]{ShutovaEA2013b}.
+
+Returning to the theoretical issues regarding grammaticality raised earlier in this chapter, the analysis of coercion within the framework of the generative lexicon points to something more like a graduated typology, sliding from specific instances of processes, things, and the like to more general conceptual categories and finally to entire classes of words.  As \cite{Langacker1991} has pointed out, there is a lurking ambiguity in grammatical class distinctions, with various conceptual schema existing in any natural language for moving between classes: so, to borrow an example from Langacker, phonological and symbolic dynamics facilitate a conceptually coherent progression from \emph{sharp} to \emph{sharpen} to \emph{sharpener}, and the rules that are extrapolated as an explanatory framework for such transitions are just a way of systematising the cognitive networks that underpin this linguistic phenotype.\footnote{\citepos{Wittgenstein1953} quip regarding ``grammatical fictions,'' (ibid, \P 307) also seems pertinent.}  And as \cite{CopestakeEA1995} point out in their probabilistic account of coercion, selectional preferences are at least to a certain extent conditioned by factors involving word frequency, suggesting that there could be grounds for a distributional mechanism for modelling semantic shifting.
+
+With this in mind, my hypothesis is that, as with metaphor in the previous section, a syntactically neutral statistical model with a context generating capacity should be able to capture the way in which, in the case of argument type coercion, a predicate specifies some conceptual contingency of the coerced object in order to accommodate its selectional preference.  The purpose of this set of experiments \citep[an early version of which is reported in][]{McGregorEA2017} is to test this broad hypothesis, and to explore the particular statistical features of co-occurrence which afford appropriate contextualisations.  This will serve, to a certain extent, to address a question raised by \cite{PustejovskyEA2008}, who illustrate some of the difficulties inherent in extracting typological structure from a distributional analysis of a large-scale corpus.  The point made there is that ``generative mechanisms in the semantics, such as coercion, modulate meanings in context and allow words to behave distributionally in unexpected ways with respect to their selectional properties,'' (ibid, p. 209).  Those authors show how a model involving a dynamic between a statistical approach such as a distributional semantic model and a theoretical structure such as the generative lexicon can accommodate some of this unexpectedness.  My goal in the following experiments is to explore the extent to which a context sensitive approach to distributional semantics can, without the structure of a symbolic formalism or pre-formulated grammatical or typological annotations, address the pertinent theoretical issues raised by the kind of analysis offered by \citeauthor{PustejovskyEA2008}.
+
+\subsection{Methodology and Results}
+The data which will be used to test my methodology in this section was originally presented by \cite{PustejovskyEA2010} as a task for the ongoing International Workshop on Semantic Evaluation series of computational semantic modelling challenges.  The data consists of 2,071 sentences (originally split into a test set of 1,039 training instances and 1,032 testing instances)\footnote{The data is available under task seven at \url{http://semeval2.fbk.eu/semeval2.php?location=data}.} each containing a marked verb and object, with the object classified as either coercive or not.  The verbs cover various conjugations of five different verb stems, each identified as selecting for a different semantic type as an argument: the verbs (and the semantic type selected) are \emph{arrive} (\textsc{location}), \emph{cancel} (\textsc{event}), \emph{deny} (\textsc{proposition}), \emph{finish} (\textsc{event}), and \emph{hear} (\textsc{sound}).  The objective, then, is to train a model to indicate that the phrase \emph{finish the party} is not coercive, in as much as we accept that \emph{party} denotes a member of the conceptual category \textsc{event}, whereas \emph{finish the food} is because what is actually being finished is the event of eating food, not the food itself.  For the purposes of the original presentation the data is split into a training set and a testing set of roughly equal size, but questions of the most meaningful partitioning of the data will be discussed below.
+
+Two amendments are made to the data as presented.  First, of the 2,071 verb-object pairs, 78 contain multi-word objects not compatible with the vocabulary used for my model, reducing the total number of word pairs to 1,992, 591 of which are considered coercive.  Second, of these remaining computable word pairs, 903 are duplicates (they are presented in unique sentences, but for the first phase of analysis here only verb-noun pairs will be consider; sentential context will be addressed below).  This leaves a total of 1,029 word pairs, 399 of which are deemed coercive.  As with the metaphor data in the previous section, I train a logistic regression model to discriminate between regular argument selection and coercion.  I once again take the two words being analysed as input to generate a number of different context specific distributional semantic subspaces, treating the 34 geometric features outlined in Table~\ref{tab:features} plus the seven additional fractional features specific to asymmetric input terms described above in Section~\ref{sec:metameth} as the independent variables of the regression analysis.
+
+%\begin{table}
+%\centering
+%\begin{tabular}{lrrrr|rrrr}
+%\hline
+%\emph{window} & \multicolumn{4}{c}{2x2} & \multicolumn{4}{c}{5x5} \\
+%\emph{dimensions} & 20 & 50 & 200 & \multicolumn{1}{c}{400} & 20 & 50 & 200 & 400 \\
+%\hline
+%\textsc{joint} & 0.563 & 0.602 & 0.619 & 0.629 & 0.608 & 0.639 & 0.620 & 0.653 \\
+%\textsc{indy} & 0.633 & 0.643 & 0.677 & 0.687 & 0.652 & 0.683 & 0.681 & 0.655 \\
+%\textsc{zipped} & 0.537 & 0.582 & 0.564 & 0.624 & 0.605 & 0.605 & 0.630 & 0.641 \\
+%\textsc{verb} & 0.624 & 0.651 & 0.680 & 0.702 & 0.620 & 0.634 & 0.678 & 0.678 \\
+%\textsc{noun} & 0.601 & 0.605 & 0.669 & 0.630 & 0.507 & 0.555 & 0.630 & 0.661 \\
+%\textsc{svd} & 0.533 & 0.527 & 0.550 & 0.000 & 0.551 & 0.432 & 0.549 & 0.529 \\
+%\textsc{CBoW} & 0.517 & 0.527 & 0.522 & 0.347 & 0.517 & 0.545 & 0.531 & 0.396 \\
+%\textsc{SG} & 0.547 & 0.561 & 0.578 & 0.509 & 0.557 & 0.563 & 0.603 & 0.545 \\
+%\hline
+%\end{tabular}
+%\caption[Context Sensitive and Static Model F-Scores for Coercion Classification]{F-scores for coercion identification based on a ten-fold cross-validated logistic regression taking geometric features of various subspace types as input.}
+%\label{tab:coercion}
+%\end{table}
+
+\begin{table}
+\centering
+\begin{tabular}{lrrrr|rrrr}
+\hline
+\emph{window} & \multicolumn{4}{c}{2x2} & \multicolumn{4}{c}{5x5} \\
+\emph{dimensions} & 20 & 50 & 200 & \multicolumn{1}{c}{400} & 20 & 50 & 200 & 400 \\
+\hline
+\textsc{joint} & 0.604 & 0.619 & 0.630 & 0.657 & 0.634 & 0.672 & 0.673 & 0.691 \\
+\textsc{indy} & 0.666 & 0.677 & 0.703 & 0.693 & 0.652 & 0.660 & 0.707 & 0.679 \\
+\textsc{zipped} & 0.568 & 0.624 & 0.610 & 0.647 & 0.596 & 0.625 & 0.658 & 0.663 \\
+\textsc{verb} & 0.664 & 0.675 & 0.698 & 0.704 & 0.631 & 0.652 & 0.699 & 0.700 \\
+\textsc{noun} & 0.601 & 0.628 & 0.643 & 0.633 & 0.518 & 0.565 & 0.603 & 0.641 \\
+\textsc{SVD} & 0.511 & 0.523 & 0.539 & 0.412 & 0.521 & 0.409 & 0.483 & 0.563 \\
+\textsc{CBoW} & 0.498 & 0.508 & 0.531 & 0.493 & 0.496 & 0.544 & 0.535 & 0.496 \\
+\textsc{SG} & 0.518 & 0.565 & 0.575 & 0.529 & 0.534 & 0.523 & 0.583 & 0.557 \\
+\hline
+\end{tabular}
+\caption[Context Sensitive and Static Model F-Scores for Coercion Classification]{F-scores for coercion identification based on a ten-fold cross-validated logistic regression taking geometric features of various subspace types as input.}
+\label{tab:coercion}
+\end{table}
+
+Table~\ref{tab:coercion} presents the f-scores derived from the precision and recall results of a ten-fold cross-validation of these logistic regression models.  Most obviously, these numbers are considerably lower than the comparable results for metaphor outlined in Table~\ref{tab:metaphor}, but this is to some extent mitigated by the relative scarcity of instances of coercion in the data: a minority class baseline always classifying word pairs as coercive would, based on the above data statistics, give $f = 0.558$.  The top score of $f = 0.707$ for the context sensitive models, achieved by the 5x5 word window, 200 dimensional \textsc{indy} dimension selection technique, is substantially better than the baseline with the probability of this difference happening by chance at $p = .028$, and the difference with the skip-gram model with the same parameter are likewise notable, if not outright statistically significant, at $p = .075$.  Of the three dimensional selection techniques that use both words as input, the \textsc{indy} method achieves the overall highest scores (as opposed to the \textsc{joint} technique for metaphor), but it must be noted that these top results come at 200 dimensional subspaces selected from both 2x2 and 5x5 word window spaces, suggesting that there is a degradation in the usefulness of information included on dimensions past a certain point of saliency for a given input word.  The progression of results as dimensionality increases is evident elsewhere here as well, with the single word input dimensional selection techniques as well as with the static SVD and \texttt{word2vec} models.  The SVD models in particular perform erratically on this task, hinting that the angular relationships in a centred space of word-vectors which has proved effective on previous tasks provides only marginal information about the selectional relationships between predicates and objects.
+
+In line with the metaphor results is the overall poor performance of the static models, which generally do somewhat worse than the baseline and substantially worse than the context sensitive models.  Of particular note is the decline of the \textsc{SVD} models and the comparative ascent of the \texttt{word2vec} skip-gram methodology: the sentential context predicting mechanism of the skip-gram approach seems to better capture the typological relationships between predicates and arguments than a principal component analysis of the dimensional variance in a base space of co-occurrence statistics.  But in fact, the results here are across the board less regular in their relationship to parameters of dimensionality and co-occurrence window size, with a more even distribution of relatively low scores for high dimensionalities for both 2x2 and 5x5 word co-occurrence window models, while comparatively strong outcomes occasionally pop up for 20 or 50 dimensional spaces.  The seemingly erratic output of the model gives an overall impression of an unanchoring between the statistics of co-occurrence and the semantic phenomenon being explored here.  Perhaps in the case of coercion, or at least in terms of the data sampled here, many predicate-object combinations are, regardless of the influence of the verb on the noun's conceptual situation, too conventional for type shifts to be detected in a meaningful way in terms of co-occurrence profiles.
+
+Another telling feature of these results is the quite strong performance of the subspaces selected by an analysis of the verbs alone.  In fact, this is likely to be an artefact of the data itself: only five different verb stems are present, and some are arguably marked by their own semantic peculiarities, with, for instance, \emph{finish} coercing 152 out of the 252 arguments it takes in the data, where the rate for \emph{deny} is only 29 out of 183 instances.  In order to find out if the models being tested here are actually just learning, in one way or another, specific rules about particular inputs, I rearrange the data into five folds corresponding to the five verb types present, training a model on each combination of four different verbs and then testing the model on the classifications of word-pairs involving the fifth.  F-scores are reported in Table~\ref{tab:verb-coercion}.
+
+\begin{table}
+\centering
+\begin{tabular}{lrrrr|rrrr}
+\hline
+\emph{window} & \multicolumn{4}{c}{2x2} & \multicolumn{4}{c}{5x5} \\
+\emph{dimensions} & 20 & 50 & 200 & \multicolumn{1}{c}{400} & 20 & 50 & 200 & 400 \\
+\hline
+\textsc{joint} & 0.338 & 0.397 & 0.362 & 0.381 & 0.345 & 0.428 & 0.404 & 0.386 \\
+\textsc{indy} & 0.454 & 0.386 & 0.436 & 0.459 & 0.369 & 0.350 & 0.411 & 0.410 \\
+\textsc{zipped} & 0.256 & 0.297 & 0.363 & 0.358 & 0.324 & 0.352 & 0.377 & 0.357 \\
+\textsc{verb} & 0.233 & 0.334 & 0.361 & 0.448 & 0.307 & 0.401 & 0.352 & 0.336 \\
+\textsc{noun} & 0.306 & 0.398 & 0.406 & 0.401 & 0.243 & 0.293 & 0.317 & 0.340 \\
+\textsc{SVD} & 0.295 & 0.252 & 0.276 & 0.126 & 0.217 & 0.173 & 0.301 & 0.288 \\
+\textsc{CBoW} & 0.368 & 0.329 & 0.248 & 0.162 & 0.302 & 0.316 & 0.245 & 0.177 \\
+\textsc{SG} & 0.349 & 0.333 & 0.281 & 0.194 & 0.366 & 0.351 & 0.316 & 0.229 \\
+\hline
+\end{tabular}
+\caption[F-Scores for Coercion Classification Testing on Unseen Verbs]{F-scores for coercion identification taking each verb stem type as a separate fold of a cross-validation.}
+\label{tab:verb-coercion}
+\end{table}
+
+There is indeed a notable drop-off in scores across the board here, with the hypothesis that there is no difference between the top \textsc{indy} 400 dimensional, 2x2 word window score here and the top score from the unshuffled version of the data fairly unlikely at $p = .030$.  On the other hand, the progression of scores as dimensionality increases remains jagged, with the static models particularly notable in their poor performance at higher dimensionalities.  So it would seem that a great deal of what is being learned here may be specific to the verbs and the types of the arguments they take, a hypothesis supported by the relatively weak showing for the verb-only dimension selection technique.  On the other hand, the verb-only, noun-only, and \textsc{indy} techniques, unlike the various other methods, do now evince a steady increase in performance as dimensinoality increases, suggesting that with this rearrangement of the data these approaches are now at least discovering much of what can be classified about coercion based on co-occurrence statistics.  In fact, it should be remarked that each \textsc{indy} subspace is composed of the first half of the dimensions selected by the verb-only technique of the same dimensionality, combined with the first half of the noun-only subspaces, so the correspondence between these approaches isn't surprising.  It is noteworthy that here subspaces built from a conjunction of dimensions associated with the two words in play are most indicative of the categorical shifting of a noun's type, rather than the subspaces formed by dimensions which are each in themselves representative of something of a conjunction in the salient co-occurrences of both words, as was the case for metaphor classification.
+
+\begin{figure}
+  \centering
+  \footnotesize
+  \begin{tikzpicture}
+    \begin{axis}[xmin=0,xmax=1,ymin=0,ymax=1,xlabel={false positive rate},ylabel={true positive rate},legend pos=south east,legend cell align={right},legend style={font=\footnotesize}]
+      \addplot [dashed,forget plot] coordinates{(0,0) (1,1)};
+      \addplot [] coordinates{(0.000,0.000) (0.000,0.005) (0.000,0.016) (0.003,0.016) (0.005,0.021) (0.008,0.027) (0.010,0.043) (0.012,0.053) (0.013,0.066) (0.017,0.072) (0.017,0.082) (0.020,0.096) (0.022,0.112) (0.024,0.133) (0.029,0.146) (0.030,0.160) (0.034,0.186) (0.035,0.205) (0.037,0.218) (0.039,0.231) (0.039,0.247) (0.039,0.250) (0.040,0.263) (0.045,0.274) (0.050,0.293) (0.055,0.322) (0.057,0.348) (0.062,0.372) (0.064,0.383) (0.069,0.396) (0.072,0.420) (0.077,0.431) (0.081,0.468) (0.089,0.495) (0.097,0.516) (0.101,0.529) (0.109,0.543) (0.118,0.553) (0.124,0.572) (0.133,0.601) (0.136,0.606) (0.145,0.625) (0.148,0.625) (0.158,0.638) (0.163,0.644) (0.170,0.665) (0.173,0.686) (0.176,0.694) (0.187,0.713) (0.195,0.726) (0.197,0.737) (0.205,0.745) (0.208,0.747) (0.215,0.758) (0.225,0.766) (0.234,0.779) (0.240,0.790) (0.245,0.798) (0.262,0.814) (0.279,0.822) (0.292,0.824) (0.308,0.835) (0.323,0.843) (0.338,0.848) (0.346,0.856) (0.356,0.862) (0.373,0.867) (0.392,0.878) (0.405,0.883) (0.425,0.888) (0.439,0.896) (0.459,0.907) (0.479,0.907) (0.496,0.915) (0.509,0.920) (0.528,0.934) (0.541,0.939) (0.558,0.941) (0.576,0.947) (0.598,0.957) (0.629,0.963) (0.642,0.968) (0.664,0.971) (0.684,0.973) (0.697,0.976) (0.719,0.979) (0.745,0.979) (0.780,0.987) (0.797,0.987) (0.829,0.987) (0.859,0.987) (0.877,0.992) (0.914,0.992) (0.938,0.997) (0.961,1.000) (1.000,1.000)}; %indy auc = 0.834
+      \addplot [dash dot] coordinates{(0.000,0.000) (0.000,0.005) (0.000,0.008) (0.000,0.008) (0.000,0.008) (0.000,0.011) (0.000,0.019) (0.000,0.021) (0.000,0.027) (0.002,0.029) (0.002,0.032) (0.002,0.037) (0.003,0.056) (0.010,0.061) (0.012,0.069) (0.013,0.085) (0.015,0.095) (0.019,0.109) (0.019,0.130) (0.022,0.143) (0.027,0.162) (0.039,0.183) (0.045,0.210) (0.049,0.244) (0.056,0.273) (0.061,0.292) (0.066,0.326) (0.074,0.347) (0.077,0.379) (0.088,0.395) (0.089,0.419) (0.094,0.454) (0.103,0.469) (0.113,0.483) (0.121,0.512) (0.128,0.536) (0.136,0.544) (0.140,0.554) (0.143,0.584) (0.146,0.615) (0.152,0.623) (0.158,0.631) (0.162,0.637) (0.167,0.647) (0.172,0.658) (0.180,0.676) (0.180,0.690) (0.189,0.698) (0.190,0.703) (0.199,0.714) (0.199,0.729) (0.204,0.751) (0.207,0.759) (0.219,0.764) (0.224,0.767) (0.231,0.777) (0.236,0.796) (0.239,0.801) (0.244,0.801) (0.253,0.806) (0.258,0.812) (0.264,0.814) (0.268,0.814) (0.271,0.820) (0.279,0.825) (0.291,0.833) (0.306,0.844) (0.325,0.857) (0.332,0.862) (0.354,0.867) (0.367,0.867) (0.384,0.873) (0.392,0.891) (0.401,0.899) (0.421,0.907) (0.444,0.912) (0.466,0.915) (0.505,0.918) (0.524,0.923) (0.544,0.931) (0.566,0.939) (0.589,0.944) (0.609,0.950) (0.621,0.950) (0.646,0.952) (0.672,0.958) (0.699,0.963) (0.722,0.973) (0.742,0.979) (0.771,0.979) (0.785,0.984) (0.803,0.987) (0.828,0.989) (0.848,0.992) (0.875,0.992) (0.907,0.995) (0.951,0.997) (1.000,1.000)}; %verb auc = 0.827
+      \addplot [dash dot dot] coordinates {(0.000,0.000) (0.001,0.000) (0.001,0.005) (0.003,0.011) (0.004,0.013) (0.007,0.013) (0.007,0.019) (0.007,0.027) (0.011,0.039) (0.016,0.042) (0.018,0.054) (0.019,0.054) (0.021,0.059) (0.026,0.066) (0.028,0.077) (0.033,0.080) (0.038,0.093) (0.046,0.097) (0.053,0.120) (0.056,0.121) (0.065,0.135) (0.070,0.143) (0.080,0.152) (0.085,0.159) (0.099,0.175) (0.108,0.179) (0.119,0.183) (0.127,0.194) (0.139,0.205) (0.142,0.215) (0.151,0.231) (0.156,0.244) (0.158,0.267) (0.168,0.280) (0.171,0.285) (0.184,0.297) (0.192,0.300) (0.199,0.320) (0.204,0.341) (0.209,0.367) (0.212,0.384) (0.219,0.399) (0.224,0.417) (0.242,0.428) (0.254,0.437) (0.261,0.460) (0.268,0.477) (0.291,0.499) (0.304,0.508) (0.314,0.528) (0.326,0.543) (0.336,0.562) (0.339,0.567) (0.354,0.574) (0.363,0.578) (0.374,0.591) (0.383,0.599) (0.398,0.615) (0.410,0.630) (0.417,0.635) (0.429,0.638) (0.436,0.645) (0.452,0.647) (0.464,0.664) (0.475,0.681) (0.496,0.695) (0.518,0.707) (0.523,0.723) (0.529,0.734) (0.545,0.746) (0.555,0.754) (0.567,0.761) (0.578,0.774) (0.586,0.775) (0.600,0.785) (0.612,0.787) (0.623,0.787) (0.635,0.789) (0.646,0.791) (0.654,0.805) (0.670,0.806) (0.677,0.815) (0.689,0.824) (0.697,0.843) (0.712,0.846) (0.726,0.862) (0.737,0.870) (0.749,0.880) (0.759,0.886) (0.777,0.896) (0.791,0.904) (0.805,0.913) (0.816,0.933) (0.844,0.946) (0.887,0.969) (0.941,0.980) (1.000,1.000)}; %indy shuffled auc = 0.636
+      \addplot [dotted] coordinates{(0.000,0.000) (0.000,0.004) (0.002,0.008) (0.006,0.009) (0.012,0.017) (0.012,0.022) (0.018,0.022) (0.026,0.030) (0.036,0.037) (0.042,0.039) (0.046,0.047) (0.052,0.058) (0.055,0.063) (0.061,0.071) (0.063,0.079) (0.067,0.084) (0.069,0.096) (0.079,0.107) (0.086,0.123) (0.091,0.130) (0.095,0.138) (0.102,0.146) (0.109,0.150) (0.120,0.158) (0.125,0.174) (0.129,0.188) (0.139,0.198) (0.142,0.211) (0.147,0.218) (0.149,0.226) (0.156,0.233) (0.166,0.249) (0.174,0.257) (0.182,0.265) (0.188,0.281) (0.192,0.296) (0.197,0.304) (0.205,0.304) (0.211,0.329) (0.222,0.340) (0.233,0.360) (0.242,0.370) (0.247,0.385) (0.258,0.396) (0.262,0.404) (0.278,0.413) (0.295,0.423) (0.303,0.437) (0.309,0.452) (0.312,0.460) (0.323,0.464) (0.327,0.481) (0.341,0.491) (0.352,0.496) (0.366,0.498) (0.382,0.516) (0.391,0.521) (0.401,0.527) (0.416,0.540) (0.426,0.551) (0.430,0.576) (0.445,0.600) (0.456,0.618) (0.465,0.634) (0.473,0.648) (0.489,0.670) (0.492,0.689) (0.499,0.694) (0.513,0.701) (0.536,0.708) (0.540,0.720) (0.552,0.726) (0.567,0.726) (0.576,0.731) (0.582,0.744) (0.589,0.750) (0.598,0.760) (0.613,0.782) (0.629,0.784) (0.642,0.791) (0.655,0.801) (0.671,0.814) (0.686,0.818) (0.701,0.825) (0.713,0.834) (0.733,0.843) (0.743,0.849) (0.757,0.853) (0.768,0.856) (0.779,0.887) (0.790,0.899) (0.816,0.909) (0.828,0.914) (0.840,0.921) (0.856,0.927) (0.875,0.940) (0.905,0.961) (0.942,0.968) (0.973,0.996) (1.000,1.000)}; %verb shuffled auc = 0.604
+      \legend{\textsc{indy} (0.834),verb (0.827),\textsc{indy} unseen (0.636),verb unseen (0.604)} 
+    \end{axis}
+  \end{tikzpicture}
+\caption[Receiver Operating Characterisation for Coercion Classification]{Receiver operating characteristic plots for a selection of models for coercion classification, with the area under the curve for each model type indicated in the legend.}
+\label{fig:coerroc}
+\end{figure}
+
+Figure~\ref{fig:coerroc} presents a receiver operating characteristic plot comparing between the verb-only and \textsc{indy} techniques for both the regular and rearranged versions of the data at 400 dimensions with 2x2 word windows, with areas under the curve indicated in the legend.  As expected, the verb-only and \textsc{indy} techniques are comparable for the unaltered version of the data, but the model learned from verb-only subspaces falls off once each verb stem is treated as its own fold of the data.  Of particular note is the way that the rearranged verb-only curve flattens out in the middle: the relative drop-off in true positives in the mid-range of cut-off points for classifying coercion tells us that there is a lull in the precision of the model here, with mistakes being made on the interpretation of subspaces projected by unfamiliar verbs (keeping in mind that, in the unaltered version of the data, the subspace projected by two different instances of the same verb morpheme would be identical, and so it is only the variance in the relative situation of the noun-vector in these subspaces that needs to be analysed to evaluate coercion).  The relative jumpiness of the curves as compared to the smooth trajectories observed for the metaphor data in Figure~\ref{fig:metaroc} can be attributed to the scale of the data, with the massiveness of the metaphor dataset providing a steadier progression as the criteria for positive classification are relaxed.  On the whole, though, the story here is a similar one of a fairly balanced advance of recall and a correspondingly steady decline in precision as the model becomes increasingly permissive in its classification of coercion.
+
+\subsection{The Geometry of Coercion}
+Following the procedure which has proved productive for the analysis of semantic phenomena in preceding experiments, I will now study the statistical geometry associated with the contextual classification of coercion, beginning with an analysis of individual features and moving on to a consideration of optimal combinations of features.  In Table~\ref{tab:ind-coercion}, I once again report the top five performing (in terms of f-score) features for each of the context sensitive dimension selection techniques described in the previous section.  These features have been tested on the more prohibitive version of the coercion data rearranged to avoid training and testing on the same verb stem types, and with this in mind the improvement in scores here as compared to Table~\ref{tab:verb-coercion} is remarkable.  With the exception of the \textsc{zipped} subspaces, all other techniques exhibit substantial improvements on the models learned from the full set of statistical features, with the difference in the verb-only spaces especially notable and a substantial improvement with the chance of the results being randomly attained at $p = .070$.
+
+\begin{table}
+\centering
+\begin{tabular}{lr|lr|lr}
+\hline
+\multicolumn{2}{c}{\textsc{joint}} & \multicolumn{2}{c}{\textsc{indy}} & \multicolumn{2}{c}{\textsc{zipped}} \\
+\hline
+$\mu(\overline{A'X'},\overline{B'X'})$ & 0.526 & $\mu(\overline{A'X'},\overline{B'X'})$ & 0.547 & $\mu(\overline{A'C'},\overline{B'C'})$ & 0.392 \\
+$\mu(\overline{A'C'},\overline{B'X'}$ & 0.496 & $\mu(\overline{A'C'},\overline{B'C'})$ & 0.544 & $\mu(A,B)/C$ & 0.349 \\
+$\mu(\overline{A'M'},\overline{B'M'}$ & 0.453 & $\mu(A,B)/C$ & 0.522 & $\mu(\overline{A'X'},\overline{B'X'})$ & 0.321 \\
+$\mu(A,B)/C$ & 0.442 & $\angle AOB$ & 0.517 & $\mu(\overline{A'M'},\overline{B'M'})$ & 0.237 \\
+$\angle AOB$ & 0.429 & $\mu(\overline{A'M'},\overline{B'M'})$ & 0.504 & $\angle AOB$ & 0.209 \\
+\hline
+\end{tabular}
+\vfill
+\begin{tabular}{lr|lr}
+\multicolumn{2}{c}{\textsc{verb}} & \multicolumn{2}{c}{\textsc{noun}} \\
+\hline
+$\overline{AC}/\overline{BC}$ & 0.580 & $A:B$ & 0.528 \\
+$A:B$ & 0.412 & $A/B$ & 0.486 \\
+$A/B$ & 0.387 & $\mu(A,B)/C$ & 0.486 \\
+$\mu(\overline{A'M'},\overline{B'M'})$ & 0.384 & $\angle AMB$ & 0.427 \\
+$\mu(\overline{A'X'},\overline{B'X'})$ & 0.374 & $\angle ACB$ & 0.423 \\
+\hline
+\end{tabular}
+\caption[Top Independent Features for Coercion Classification]{Independent f-scores from the coercion classification data for top five features of each subspace type for 2x2 word co-occurrence window, 400 dimension subspaces, validated on unobserved verbs.}
+\label{tab:ind-coercion}
+\end{table}
+
+Also of note is the character of the features that are most predictive for each dimensional selection technique.  For all three methods involving both words as input for subspace selection, the mean values of distances at the normalised level of subspaces feature prominently (and it should be noted that the angle $\angle AOB$, which also features here, is perfectly correlated with the distance between the normalised word-vectors $A'$ and $B'$).  This indicates that the angles formed between the word-vectors and the generic vectors are especially associated with coercion, and this as opposed to metaphor, where the distance of various vectors from the origin as well as the ratios of these distances are particular predictive.  That the averages of the angles with the generic vectors seem generally more significant than the angles between the word-vectors themselves is evidence that it is the absolute and combined situation of the word-vectors in the context of their subspaces, rather than their relationship to one another, that can be interpreted in terms of a typological semantic relationship such as coercion.
+
+All of this is in opposition to the top features for the subspaces selected based on a single input term, where fractions and ratios are prominent.  Of particular note is the significance of the relationship between the word-vectors, and this makes sense: given that the relevance of one word-vector in a subspace selected by the other is only incidental and in no way built into the space itself, differences in the relative lengths of the word-vectors and their relative distances to generic points are particularly indicative of degrees of inclusion in the profile characteristic of the dimension-selecting term.  The implication is that, with a co-occurrence profile chosen by one word, it is simply the prominence of the other word with respect to this profile that is indicative of the typological relationship between the verb's selectional constraints and the noun's categorical expectation.  Furthermore, the resurgence of verb-only spaces here in terms of a singular feature, namely, the fraction of the verb-centre-vector distance $\overline{AC}$ to the comparable distance $\overline{BC}$, tells us that the comparative situation of the word-vectors to the absolute centre of a subspace varies between coercive and non-coercive cases of argument selection.  It's worth noting here that, in verb-selected subspaces projected from the 2x2 word window base space, co-occurrence dimensions will correspond to terms that tend to be observed in close proximity to the verbs themselves, so we can expect these dimensions to be characterised by arguments of the verbs and modifiers of those arguments: it isn't hard to imagine how, in terms of modifiers in particular, the typical characteristics of the arguments normally selected by a verb would serve as a kind of template for testing the typological fit of a new candidate argument, with relative proximity to the centre, along with the extent of the noun vector along these characteristic co-occurrence dimensions, being good metrics for determining the fit.
+
+\begin{table}
+\centering
+\begin{tabular}{llr}
+\hline
+& \multicolumn{1}{c}{\textsc{indy} ($f = 0.681$)} & \multicolumn{1}{c}{\textsc{verb} ($f = 0.688$)} \\
+\hline
+& \multicolumn{2}{c}{\textsc{distances}} \\
+word-vectors & - & - \\
+generic vectors & - & $-0.833 = X$ \\
+\hline
+& \multicolumn{2}{c}{\textsc{angles}} \\
+word-vectors & $\angle AMB = -0.564$ & - \\
+& $\angle ACB = -0.103$ \\
+normalised & - & $0.290 = \angle A'M'B'$ \\
+generic & - & $1.241 = \angle COM$ \\
+& & $-0.214 = \angle COX$ \\
+\hline
+& \multicolumn{2}{c}{\textsc{means}} \\
+word-vectors & $\mu(A,B) = 1.656$ & - \\
+normalised & - & $0.452 = \mu(\overline{A'X'},\overline{B'X'})$ \\
+\hline
+& \multicolumn{2}{c}{\textsc{ratios}} \\
+word-vectors & $\overline{AM}:\overline{BM} = 0.450$ & - \\
+normalised - & - \\
+\hline
+& \multicolumn{2}{c}{\textsc{fractions}} \\
+word-vectors & - & $2.315 = \overline{AM}/\overline{BM}$ \\
+normalised & $\overline{A'M'}/\overline{B'M'} = -0.259$ & - \\
+& $\overline{A'X'}/\overline{B'X'} = 0.203$ & - \\
+generic vectors & $C/M = -1.257$ & $-2.398 = C/M$ \\
+\hline
+\end{tabular}
+\caption[Most Predictive Feature Vectors for Coercion Classification]{Comparison of the seven most effective features for coercion classification in 2x2 word, 400 dimensional subspaces for \textsc{indy} versus \textsc{verb} based dimension selection.}
+\label{tab:coertures}
+\end{table}
+
+These independent feature results are suggestive of the types of statistics that are associated with coercion, but not of the direction of these correlations, let alone the dynamics between different statistics.  To examine the geometry of coercion more in depth, I once again perform a beam search to discover the top seven features associated with both the \textsc{indy} and verb-only subspace selection techniques in 400 dimensional subspaces projected from 2x2 word window base spaces, training models on the rearranged version of the data and applying a vector inflation factor in order to avoid collinearity between input features.  Results are reported in Table~\ref{tab:coertures}.  Remarkably, a very different picture emerges than what was observed above regarding independent features, with neither the mean distances between the norms of the \textsc{indy} subspaces nor the angles and ratios individually observed in the verb-only subspaces making an appearance.  In fact, one of the most notable characteristics of the respective feature vectors is, on the one hand, the spread of the features across several different categories of co-occurrence statistic, but then also the balance between non-normalised features in one category for one technique versus the normalised components of the same category for the other technique.
+
+So, for instance, the angles $\angle AMB$ and $\angle ACB$ both correlate negatively with coercion (meaning the angles are wider for more coercive word pairs) in the \textsc{indy} type subspaces, implying that the word-vectors are more likely to be found on opposite sides of these two central points in the space in the case of coercive pairings (but not necessarily on opposite sides of the lines extending from the origin through these points--they could, for instance, be above and below a point relative to the origin).  The positive correlation with the angle $\angle A'M'B'$ in the verb-only subspaces, on the other hand, indicates that the word-vectors tend to be on opposite sides of the lines extending through the mean vector.  This is interesting, since we can safely assume that the verb-vector will occupy a relatively central position in a subspace defined entirely by dimensions with which the verb has a high expectation of co-occurrence: it would seem that the noun-vector essentially pivots towards the co-occurrence dimensions that are most strongly associated with the verb, meaning that the words that are especially characteristic of the immediate syntagmatic situation of the verb tend to have a stronger association with nouns of a type not paradigmatically selected by the verb.  In the case of fractions of lengths between vectors, on the other hand, the very strong positive correlation between coercion and $\overline{AM}/\overline{BM}$ in verb-only spaces suggests that as the noun-vector (associated with $B$) retracts towards the origin relative to the verb-vector, coercion is more likely.  This makes sense in this type of subspace, since nouns of types that categorically satisfy a verb's selectional constraints will tend to have higher PMI values along the dimensions selected by that verb.  The negative value for the normalised version of the same fraction in the case of the \textsc{indy} subspaces, however, means that the respective angles between the word-vectors and the mean vector tend to be more balanced in cases of coercion.
+
+The one point of consistent comparison across the two techniques is the fraction of the length of the central vector $C$ divided by the length of the mean vector $M$.  As discussed in Chapter~\ref{sec:litpare} in the context of the comparison between relatedness and similarity, the negative correlation here for both the \textsc{indy} technique and the verb-only technique indicates an increase in the likelihood of classifying a relationship as coercive as variance across the mean values of features delineating a subspace increases.  If high variance were only associated with coercion through the \textsc{indy} technique, it could be argued that coercion simply correlates with subspaces patched together from two different independently selected co-occurrence profiles with a tendency towards very different mean values: for instance, one word might select co-occurrence terms that occur more frequently and therefore have lower mean values than the other.  Given that this effect is even stronger for the verb-only subspaces, however, where the co-occurrence profile of just one term is in play, the prominence of this feature actually indicates that, as with similarity, there are some words (and, in particular, verbs) which just tend to be more coercive than others.  Moreover, these words tend to have a particular statistical characteristic by which the terms with which they co-occur tend to have more varied mean values.  In the end, this can be reduced to an observation that might not seem particularly surprising, even if it also wasn't immediately obvious prior to this geometric analysis: words that tend to be involved in coercive relationships also tend to co-occur with a range of other words that are more varied in terms of their own essential characteristics such as frequency.  This interpretation is further supported by the negative correlation between the length of the maximum vector $X$ and coercion in verb-only subspaces.  This generally indicates that there are some basic differences between the types of verbs, and the corresponding dimensional profiles, that tend to coerce their arguments, and specifically implies that coercive verbs tend to be observed in close proximity to at least some higher frequency words.
+
+%verb joint shuffled f = 0.654
+
+\begin{figure}
+\footnotesize
+\begin{subfigure}{0.3\textwidth} % heard noises
+\centering
+  \begin{tikzpicture}
+    \def\varA{(31.2371,41.3708,33.9778)};
+    \def\varB{(64.4215,28.9478,79.8863)};
+    \def\varC{(29.3997,29.3994,29.3996)};
+    \def\varM{(36.4675,20.7482,30.9819)};
+    \def\varX{(112.3873,59.9255,80.0081)};
+    \def\varAN{(15.1191,20.0239,16.4456)};
+    \def\varBN{(18.1248,8.1444,22.4758)};
+    \def\varCN{(17.3206,17.3204,17.3205)};
+    \def\varMN{(20.9761,11.9343,17.8207)};
+    \def\varXN{(22.4161,11.9524,15.9580)};
+    \def\nodA{31.2371,41.3708,33.9778};
+    \def\nodB{64.4215,28.9478,79.8863};
+    \def\nodC{29.3997,29.3994,29.3996};
+    \def\nodM{36.4675,20.7482,30.9819};
+    \def\nodX{112.3873,59.9255,80.0081};
+    \begin{axis}[scale = 0.6,axis line style=white,view={120}{10},xmin=0,xmax=80,ymin=0,ymax=80,zmin=0,zmax=80,colormap/blackwhite,ticks=none]
+      \addplot3[color=black,thick] coordinates {(0,0,80) (0,80,80)};
+      \addplot3[color=black,thick] coordinates {(0,0,80) (80,0,80)};
+      \addplot3[color=black,thick] coordinates {(0,80,0) (0,80,80)};
+      \addplot3[color=black,thick] coordinates {(0,80,0) (80,80,0)};
+      \addplot3[color=black,thick] coordinates {(80,0,0) (80,0,80)};
+      \addplot3[color=black,thick] coordinates {(80,0,0) (80,80,0)};
+      \addplot3[color=black] coordinates {(0,0,0) (0,0,80)};
+      \addplot3[color=black] coordinates {(0,0,0) (0,80,0)};
+      \addplot3[color=black] coordinates {(0,0,0) (80,0,0)};
+      \addplot3[patch,patch type=triangle,color=gray,fill opacity=0.0] coordinates {(0.0,0.0,0.0) \varCN \varAN};
+      \addplot3[patch,patch type=triangle,color=gray,fill opacity=0.0] coordinates {(0.0,0.0,0.0) \varCN \varBN};
+      \addplot3[patch,patch type=triangle,color=darkgray,fill opacity=0.75] coordinates {\varCN \varAN \varBN};
+      \addplot3[patch,patch type=triangle,color=darkgray,fill opacity=0.5] coordinates {\varMN \varAN \varBN};
+      \addplot3[patch,patch type=triangle,color=darkgray,fill opacity=0.25] coordinates {\varXN \varAN \varBN};
+      \addplot3 [color=black,thick] coordinates {(0,0,0) \varCN};
+      \addplot3 [color=black,thick] coordinates {(0,0,0) \varXN};
+      \addplot3 [color=black,thick] coordinates {(0,0,0) \varMN};
+%      \addplot3[opacity = 0.1,surf,z buffer = sort,samples = 21,variable = \u,variable y = \v,domain = 0:90,y domain = 0:90,]
+%    ({1*cos(u)*sin(v)}, {1*sin(u)*sin(v)}, {1*cos(v)});
+      \addplot3 [patch,patch type=rectangle,color=lightgray,fill opacity=0.0] coordinates{\varAN \varA \varB \varBN
+};
+      \addplot3 [color=black,thick] coordinates {\varCN \varC};
+      \addplot3 [color=black,thick] coordinates {\varXN \varX};
+      \addplot3 [color=black,thick] coordinates {\varMN \varM};
+      \addplot3 [patch,patch type=triangle,color=lightgray,fill opacity=0.75] coordinates{\varA \varC \varB};
+      \addplot3 [patch,patch type=triangle,color=gray,fill opacity=0.25] coordinates{\varA \varX \varB};
+      \addplot3 [patch,patch type=triangle,color=gray,fill opacity=0.5] coordinates{\varA \varM \varB};
+      \node [anchor=south] at (axis cs: \nodA) {heard};
+      \node [anchor=south] at (axis cs: \nodB) {noises};
+      \node [anchor=south] at (axis cs: \nodC) {C};
+      \node [anchor=south] at (axis cs: \nodX) {X};
+      \node [anchor=south] at (axis cs: \nodM) {M};
+    \end{axis}
+  \end{tikzpicture}
+\caption*{\footnotesize \emph{non-coercive: heard noises}}
+\end{subfigure}
+\hfill
+\begin{subfigure}{0.3\textwidth} % hear click
+\centering
+  \begin{tikzpicture}
+    \def\varA{(26.6923,45.2717,27.4741)};
+    \def\varB{(45.5472,10.6624,56.8395)};
+    \def\varC{(26.6298,26.6294,26.6297)};
+    \def\varM{(34.7432,19.5859,25.5589)};
+    \def\varX{(110.7493,59.4545,76.4383)};
+    \def\varAN{(13.5030,22.9019,13.8985)};
+    \def\varBN{(18.5620,4.3453,23.1640)};
+    \def\varCN{(17.3206,17.3204,17.3205)};
+    \def\varMN{(22.0031,12.4039,16.1866)};
+    \def\varXN{(22.5841,12.1240,15.5874)};
+    \def\nodA{26.6923,45.2717,27.4741};
+    \def\nodB{45.5472,10.6624,56.8395};
+    \def\nodC{26.6298,26.6294,26.6297};
+    \def\nodM{34.7432,19.5859,25.5589};
+    \def\nodX{110.7493,59.4545,76.4383};
+    \begin{axis}[scale = 0.6,axis line style=white,view={120}{10},xmin=0,xmax=80,ymin=0,ymax=80,zmin=0,zmax=80,colormap/blackwhite,ticks=none]
+      \addplot3[color=black,thick] coordinates {(0,0,80) (0,80,80)};
+      \addplot3[color=black,thick] coordinates {(0,0,80) (80,0,80)};
+      \addplot3[color=black,thick] coordinates {(0,80,0) (0,80,80)};
+      \addplot3[color=black,thick] coordinates {(0,80,0) (80,80,0)};
+      \addplot3[color=black,thick] coordinates {(80,0,0) (80,0,80)};
+      \addplot3[color=black,thick] coordinates {(80,0,0) (80,80,0)};
+      \addplot3[color=black] coordinates {(0,0,0) (0,0,80)};
+      \addplot3[color=black] coordinates {(0,0,0) (0,80,0)};
+      \addplot3[color=black] coordinates {(0,0,0) (80,0,0)};
+      \addplot3[patch,patch type=triangle,color=gray,fill opacity=0.0] coordinates {(0.0,0.0,0.0) \varCN \varAN};
+      \addplot3[patch,patch type=triangle,color=gray,fill opacity=0.0] coordinates {(0.0,0.0,0.0) \varCN \varBN};
+      \addplot3[patch,patch type=triangle,color=darkgray,fill opacity=0.75] coordinates {\varCN \varAN \varBN};
+      \addplot3[patch,patch type=triangle,color=darkgray,fill opacity=0.5] coordinates {\varMN \varAN \varBN};
+      \addplot3[patch,patch type=triangle,color=darkgray,fill opacity=0.25] coordinates {\varXN \varAN \varBN};
+      \addplot3 [color=black,thick] coordinates {(0,0,0) \varCN};
+      \addplot3 [color=black,thick] coordinates {(0,0,0) \varXN};
+      \addplot3 [color=black,thick] coordinates {(0,0,0) \varMN};
+%      \addplot3[opacity = 0.1,surf,z buffer = sort,samples = 21,variable = \u,variable y = \v,domain = 0:90,y domain = 0:90,]
+%    ({1*cos(u)*sin(v)}, {1*sin(u)*sin(v)}, {1*cos(v)});
+      \addplot3 [patch,patch type=rectangle,color=lightgray,fill opacity=0.0] coordinates{\varAN \varA \varB \varBN
+};
+      \addplot3 [color=black,thick] coordinates {\varCN \varC};
+      \addplot3 [color=black,thick] coordinates {\varXN \varX};
+      \addplot3 [color=black,thick] coordinates {\varMN \varM};
+      \addplot3 [patch,patch type=triangle,color=lightgray,fill opacity=0.75] coordinates{\varA \varC \varB};
+      \addplot3 [patch,patch type=triangle,color=gray,fill opacity=0.25] coordinates{\varA \varX \varB};
+      \addplot3 [patch,patch type=triangle,color=gray,fill opacity=0.5] coordinates{\varA \varM \varB};
+      \node [anchor=south] at (axis cs: \nodA) {hear};
+      \node [anchor=south] at (axis cs: \nodB) {click};
+      \node [anchor=south] at (axis cs: \nodC) {C};
+      \node [anchor=south] at (axis cs: \nodX) {X};
+      \node [anchor=south] at (axis cs: \nodM) {M};
+    \end{axis}
+  \end{tikzpicture}
+\caption*{\footnotesize \emph{neutral: hear click}}
+\end{subfigure}
+\hfill
+\begin{subfigure}{0.3\textwidth} % hear motor
+\centering
+  \begin{tikzpicture}
+    \def\varA{(22.0152,49.7517,14.7908)};
+    \def\varB{(37.5202,2.4240,49.1531)};
+    \def\varC{(26.9425,26.9422,26.9425)};
+    \def\varM{(33.6557,22.5056,24.6651)};
+    \def\varX{(112.2882,64.2694,75.1433)};
+    \def\varAN{(11.7145,26.4732,7.8703)};
+    \def\varBN{(18.1889,1.1751,23.8282)};
+    \def\varCN{(17.3206,17.3204,17.3206)};
+    \def\varMN{(21.2972,14.2415,15.6080)};
+    \def\varXN{(22.5149,12.8867,15.0670)};
+    \def\nodA{22.0152,49.7517,14.7908};
+    \def\nodB{37.5202,2.4240,49.1531};
+    \def\nodC{26.9425,26.9422,26.9425};
+    \def\nodM{33.6557,22.5056,24.6651};
+    \def\nodX{112.2882,64.2694,75.1433};
+    \begin{axis}[scale = 0.6,axis line style=white,view={120}{10},xmin=0,xmax=80,ymin=0,ymax=80,zmin=0,zmax=80,colormap/blackwhite,ticks=none]
+      \addplot3[color=black,thick] coordinates {(0,0,80) (0,80,80)};
+      \addplot3[color=black,thick] coordinates {(0,0,80) (80,0,80)};
+      \addplot3[color=black,thick] coordinates {(0,80,0) (0,80,80)};
+      \addplot3[color=black,thick] coordinates {(0,80,0) (80,80,0)};
+      \addplot3[color=black,thick] coordinates {(80,0,0) (80,0,80)};
+      \addplot3[color=black,thick] coordinates {(80,0,0) (80,80,0)};
+      \addplot3[color=black] coordinates {(0,0,0) (0,0,80)};
+      \addplot3[color=black] coordinates {(0,0,0) (0,80,0)};
+      \addplot3[color=black] coordinates {(0,0,0) (80,0,0)};
+      \addplot3[patch,patch type=triangle,color=gray,fill opacity=0.0] coordinates {(0.0,0.0,0.0) \varCN \varAN};
+      \addplot3[patch,patch type=triangle,color=gray,fill opacity=0.0] coordinates {(0.0,0.0,0.0) \varCN \varBN};
+      \addplot3[patch,patch type=triangle,color=darkgray,fill opacity=0.75] coordinates {\varCN \varAN \varBN};
+      \addplot3[patch,patch type=triangle,color=darkgray,fill opacity=0.5] coordinates {\varMN \varAN \varBN};
+      \addplot3[patch,patch type=triangle,color=darkgray,fill opacity=0.25] coordinates {\varXN \varAN \varBN};
+      \addplot3 [color=black,thick] coordinates {(0,0,0) \varCN};
+      \addplot3 [color=black,thick] coordinates {(0,0,0) \varXN};
+      \addplot3 [color=black,thick] coordinates {(0,0,0) \varMN};
+%      \addplot3[opacity = 0.1,surf,z buffer = sort,samples = 21,variable = \u,variable y = \v,domain = 0:90,y domain = 0:90,]
+%    ({1*cos(u)*sin(v)}, {1*sin(u)*sin(v)}, {1*cos(v)});
+      \addplot3 [patch,patch type=rectangle,color=lightgray,fill opacity=0.0] coordinates{\varAN \varA \varB \varBN
+};
+      \addplot3 [color=black,thick] coordinates {\varCN \varC};
+      \addplot3 [color=black,thick] coordinates {\varXN \varX};
+      \addplot3 [color=black,thick] coordinates {\varMN \varM};
+      \addplot3 [patch,patch type=triangle,color=lightgray,fill opacity=0.75] coordinates{\varA \varC \varB};
+      \addplot3 [patch,patch type=triangle,color=gray,fill opacity=0.25] coordinates{\varA \varX \varB};
+      \addplot3 [patch,patch type=triangle,color=gray,fill opacity=0.5] coordinates{\varA \varM \varB};
+      \node [anchor=south] at (axis cs: \nodA) {hear};
+      \node [anchor=south] at (axis cs: \nodB) {motor};
+      \node [anchor=south] at (axis cs: \nodC) {C};
+      \node [anchor=south] at (axis cs: \nodX) {X};
+      \node [anchor=south] at (axis cs: \nodM) {M};
+    \end{axis}
+  \end{tikzpicture}
+\caption*{\footnotesize \emph{coercive: hear motor}}
+\end{subfigure}
+\caption[Coercion in Space]{Three dimensional projections of word-vectors and generic vectors in \textsc{indy} subspaces for pairs at the extents and in the middle of the spectrum of coercion.}
+\label{fig:coerspaces}
+\end{figure}
+
+Figure~\ref{fig:coerspaces} illustrates word-vectors and generic vectors projected into exemplary instances of subspaces at three different phases of coercion.  Similarly to the literal stage of metaphor illustrated in Figure~\ref{fig:metaspaces}, the least coercive instance is characterised by a relatively tight space, with the noun-vector particularly prominent and acute angles at the vertexes of the generic points.  The next two stages of coercion go through something of the reverse of the process observed with metaphor, however, beginning with a retraction and a bit of a widening in the somewhat neutral case of \emph{hear click}, and then opening up into a more disparate arrangement across the subspace for the unambiguously coercive \emph{hear motor}.  The angles at the vertices of the generic point in particular, as well as the balance between the distances between the word-vectors and these points, follow the trend indicated by the coefficient weightings reported for \textsc{indy} subspaces in Table~\ref{tab:coertures}.  The shift in the overall balance of the word-vectors is interesting to note, as well: while the ratio $A:B$ wasn't indicated in the feature-wise analysis of the space, the prominence of the vector for \emph{noise} in the projection on the left suggests that there could be some nouns which are less likely to be susceptible to coercion, and indeed it is tricky to imagine the context in which the fairly abstract word \emph{noise} could be adapted to a conceptual category other than \textsc{noise}.
+
+A more general implication of this geometric analysis is the idea that coercion is a graduated rather than a binary phenomenon.  This runs counter to what has been the conventional approach to this semantic phenomenon in the field, which considers coercion to be effectively an activation of a rule based process of constraint satisfaction: \cite{Pustejovsky1993} surveys the typical approach to coercion, and indeed to lexical ambiguity in general, as a process of contextualised \emph{selectional restriction} over a set of discreet word senses \citep[though see][for computational applications of a probabilistic, corpus based model]{LapataEA2003,ShutovaEA2013b}.  It seems apparent, though, that some instances of predicate type coercion are less obvious than others.  \emph{Hear click} illustrates this point nicely, as we are are forced to pause while we consider whether \emph{click} categorically denotes \textsc{noise} or something more like \textsc{process} or even \textsc{event}.  Furthermore, to borrow an instance from \cite{CopestakeEA1995}, among others, phrases such as \emph{enjoy a book} are clearly coercive and moreover open to interpretation as to the exact mechanism of type shifting: is the book being read or written?
+
+The prodigious use of terms with tangible denotations such as \emph{book} in the literature suggests that the axis of concretion and abstraction may be involved in these determinations.  To the extent that concrete terms might be understood as relatively low level nodes in a conceptual taxonomy working its way up to the more abstract types, the distance of a word like \emph{motor} from a paradigmatic denotation such as \textsc{physical object} could therefore facilitate its coercion into the class \textsc{noise}.  Rather than modelling this semantic phenomenon as a consequence of a symbolic system of typed representations, however, I have sought to explore the extent to which co-occurrence features can prefigure subsequent high-level decisions about coercion.  To the degree that the output of my methodology can be considered a positive result, the finding might be summarised like this: there is evidence here for a lexical semantic model grounded in statistical, interactive, contextually adjustable representations, with categorical commitments regarding the conceptual indices of semantic units emerging from the dynamics of the representation in the course of language use.
+
+\subsection{Adding Sentential Context}
+To revisit \citepos{PustejovskyEA2008} hypothesis regarding the mechanisms of semantic type coercion, the explication of type shifts arises fundamentally in a conceptual and, accordingly, linguistic context.  While I have, as discussed in Chapter~\ref{sec:sensitivity}, endeavoured to treat context as a more generally cognitive rather than strictly textual phenomenon, one of the appealing things about the data provided by \cite{PustejovskyEA2010} is that the word pairs classified in terms of coercion are embedded in sentences, and these sentences do naturally offer the basis for some sort of conceptual handle on the interaction between predicate and object.  In this section, I will perform a final experiment on semantic type coercion in which the content of each sentence is provided to my models as an additional input for projecting co-occurrence subspaces in which the relationship between word-vectors and generic vectors can be analysed.
+
+To begin with, I take each sentence and, using the Stanford Parser \citep{ToutanovaEA2000},\footnote{As provided by the \texttt{nltk} package for python.} extract a part-of-speech tag for each word in each sentence in the data.  (Note that, now that I'm using the full sentences which provide unique data for every word-pair, I can use full data set of 1,992 sentences.)  For each sentence, I group together all the words other than the target verb and object that satisfy one of four grammatical class descriptions: nouns, verbs, adjectives, and adverbs.  I then run four different experiments, one treating the words for each of these grammatical classes as the input for dimension selection and then analyse the situation of the word-vectors in the projected subspaces in terms of the now familiar catalogue of geometric statistical features.  I treat the output for each grammatical class as the data for a logistic regression, first applying standard mean normalisation and then, setting values for sentences where no words of a particular grammatical class are available to zero, train a model to learn to classify each word pair as coercive or not coercive.  Results for each grammatical class, with various dimensional and co-occurrence window parameters, using the \textsc{joint} and \textsc{indy} dimension selection techniques, are reported in Table~\ref{tab:poses}.
+
+\begin{table}
+\centering
+\begin{tabular}{llrrrr|rrrr}
+\hline
+\multicolumn{2}{l}{\emph{window}} & \multicolumn{4}{c}{2x2} & \multicolumn{4}{c}{5x5} \\
+\multicolumn{2}{l}{\emph{dimensions}} & 20 & 50 & 200 & \multicolumn{1}{c}{400} & 20 & 50 & 200 & 400 \\
+\hline
+\parbox[t]{2mm}{\multirow{4}{*}{\rotatebox[origin=c]{90}{\textsc{joint}}}} & nouns & 0.157 & 0.174 & 0.244 & 0.283 & 0.193 & 0.244 & 0.257 & 0.271 \\
+& verbs & 0.121 & 0.155 & 0.190 & 0.237 & 0.117 & 0.163 & 0.215 & 0.229 \\
+& adjectives & 0.083 & 0.113 & 0.179 & 0.187 & 0.119 & 0.131 & 0.183 & 0.207 \\
+& adverbs & 0.042 & 0.091 & 0.155 & 0.154 & 0.101 & 0.128 & 0.171 & 0.174 \\
+\hline
+\parbox[t]{2mm}{\multirow{4}{*}{\rotatebox[origin=c]{90}{\textsc{indy}}}} & nouns & 0.092 & 0.133 & 0.147 & 0.157 & 0.158 & 0.170 & 0.148 & 0.168 \\
+& verbs & 0.117 & 0.126 & 0.173 & 0.165 & 0.147 & 0.209 & 0.174 & 0.201 \\
+& adjectives & 0.123 & 0.114 & 0.162 & 0.172 & 0.173 & 0.161 & 0.151 & 0.184 \\
+& adverbs & 0.115 & 0.137 & 0.139 & 0.120 & 0.167 & 0.146 & 0.121 & 0.111 \\
+\hline
+\end{tabular}
+\caption[Correlations for Part-of-Speech Based Subspaces]{F-scores for coercion detection in full featured subspaces based on \textsc{joint} and \textsc{indy} analyses of parts of speech found in each sentence containing a verb-noun pair.}
+\label{tab:poses}
+\end{table}
+
+The scores here are, clearly, low, with the difference between the top score of $f = 0.283$ for nouns in the 2x2 word window, 400 dimensional \textsc{joint} subspaces and the minority class baseline of $f = 0.458$ approaching significance at $p = .020$.  Beyond that, it is notable that the \textsc{joint} subspaces perform substantially better that the \textsc{indy} subspaces (at $p = .056$ for the 2x2 word window, 400 dimensional noun subspaces).  This suggests that a coherent subspace representing the intersection of co-occurrence profiles across the instances of a given grammatical class found in a sentence, rather a subspace merged out of the divergent co-occurrences associated with each word independently, presents a more cohesive basis for the analysis of the conceptual relationship between a predicate and an object.  More to the point, though, it seems that sentential context, as far as this analytical technique is concerned, provides only marginal information for contextualising the relationship between a verb and the potentially shifted type of one of its arguments.  Turning back to the data, the sentences analysed were extracted from the BNC corpus, and so in many instances have a particularly colloquial or conversational character: it is not clear how much useful additional co-occurrence context could be found in sentences such as, ``We will be \emph{denying} the \emph{charges} strongly in court,'' or, ``I mean the \emph{train} could have been \emph{cancelled} or something,'' or simpy, ``He \emph{finished} his \emph{drink}.''  In the end, then, sentential context could easily be seen as activating other non-linguistic cognitive context that is not built into the type of statistical model explored here.
+
+\revJB{3}{A more comprehensive approach to classifying coercion might involve projecting subspaces based on an analysis of both the words in the relationship being modelled and the corresponding sentential context.  The problem mentioned above, however, of some sentences providing significantly more information than others, would confound a straightforward attempt to simply concatenate statistics derived from each type of analysis: some features vectors of subspaces derived from word pairs would be coupled with significantly more informative sentential feature vectors than others.  A more productive and sophisticated version of such an approach could involve the establishment of a balanced interpretive input for any given sentence through, for instance, the application of a topic modelling technique such as latent dirichlet allocation \citep{BleiEA2003}, which could associate any given sentence with a set number of key words.  This extension of the research presented here is one of the many directions worth considering for future applications of my context sensitive methodology.}
+
+Finally, Table~\ref{tab:coerpare} presents the outcomes of models tested on the data as originally presented, split into a training and test set each containing instances of all five verb stems.  In addition to the top performing \textsc{indy} and verb-only subspaces, I present results for two different \emph{example based learning} techniques.  In the first instance, denoted \textsc{EBL}, a rule is learned for each verb stem type in the training data, based simply on whether that verb is usually observed to take a noun of the specified type as an argument or to coerce the type of its argument, and then that rule is applied across all instances in the test data.  In practice this means that forms of \emph{finish} are predicted to be coercive, and all other verbs are predicted to take arguments of the expected type.  The enhanced \textsc{EBL*} technique learns a rule for each verb-noun combination, resorting to the \textsc{EBL} rule when it encounters an unobserved pairing in the training data.  The very strong results here simply indicate that a large number of combinations are attested in both the training and test data, a peculiarity which I sought to overcome through the rearrangement of the data described above.
+
+\begin{table}
+\centering
+\begin{tabular}{lrrrr}
+\hline
+& \emph{precision} & \emph{recall} & \emph{f-score} & \emph{accuracy} \\
+\hline
+\textsc{indy} & 0.708 & 0.603 & 0.651 & 0.805 \\
+\textsc{verb} & 0.726 & 0.610 & 0.663 & 0.813 \\
+\cite{RobertsEA2010} & - & - & - & 0.961 \\
+\cite{RobertsEA2011} & - & - & - & 0.812 \\
+\textsc{EBL} & 0.630 & 0.498 & 0.556 & 0.764 \\
+\textsc{EBL*} & 0.833 & 0.690 & 0.755 & 0.871 \\
+\textsc{minority class} & 0.291 & 1.000 & 0.458 & 0.297 \\
+\textsc{majority class} & 0.000 & 0.000 & 0.000 & 0.703 \\
+\hline
+\end{tabular}
+\caption[Coercion Scores Compared Against Other Methods]{Coercion scores for the best performing context sensitive methods trained and tested on the original data configuration and compared to various other results.}
+\label{tab:coerpare}
+\end{table}
+
+I also survey the two results previously reported in the literature here.  \cite{RobertsEA2011} present a probabilistic model that assigns a likelihood to classes associated with both predicate arguments and nouns based on observations across a large scale corpus and then uses the training set of the SemEval data to learn to identify a threshold of coercion.  So, where my models learn something about the way that predicates and objects interact in different co-occurrence contexts, this model seeks to learn something about coercion based on dependency-enhanced distributions.  The similar accuracy scores suggest that in the end the two approaches are using different mechanisms to arrive at a similar sense of coercion outside of sentential context, though it would be interesting to compare precision and recall scores or even line-by-line model output in order to better understand the specific ways that each techniqe makes its determinations.  The superior results of \cite{RobertsEA2010} are based on a model which specifically extracts predicate argument expectations and noun classes from WordNet and combines these features with a number of other features, combining data driven approaches with knowledge bases.  The end result can be thought of as an enhancement on the \textsc{EBL*} technique described above.
+
+Based on the results reported by \cite{RobertsEA2011}, we might reasonably speculate that building word-vectors based on dependency relationships -- for instance, treating the distance between words in a parse tree rather than absolute distance in a string as the boundary condition for co-occurrence window size, as \cite{PadoEA2007} have discussed -- might significantly enhance a model's ability to classify coercion.  But this would come at the expense of building a model that doesn't have some degree of syntactic commitment already built into it, and it is likewise easy to imagine how such an approach would open itself up to accusations of tautology: if coercion as a binary case is a grammatical abstraction, then such a model would be to some extent recapitulating the premise of coercion data structuring.  Of greater interest would be, in line with the degrees or axes of metaphoricity briefly explored in Section~\ref{sec:genaphor}, establishing data indicating novel or exceptional cases of coercion, or alternatively of coercion scored along a continuous scale.  This might require a reworking of the standard dogma of semantic type shifting, but then one of the objectives of my methodology is to provide a computational framework for exploring and possibly shifting the lines of theories about language and meaning.
+
+%\begin{table}
+%\centering
+%\begin{tabular}{lrrrr|rrrr}
+%\hline
+%\emph{window} & \multicolumn{4}{c}{2x2} & \multicolumn{4}{c}{5x5} \\
+%\emph{dimensions} & 20 & 50 & 200 & \multicolumn{1}{c}{400} & 20 & 50 & 200 & 400 \\
+%\hline
+%\textsc{joint} & 0.348 & 0.369 & 0.352 & 0.371 & 0.369 & 0.392 & 0.362 & 0.383 \\
+%\textsc{indy} & 0.411 & 0.406 & 0.467 & 0.494 & 0.402 & 0.358 & 0.421 & 0.438 \\
+%\hline
+%\end{tabular}
+%\caption[F-Scores for Coercion Classification Using Full Sentences]{F-scores for coercion identification using sentential context to generate additional subspaces and corresponding feature vectors.}
+%\label{tab:full-coercion}
+%\end{table}
+
+\section{Interpretation and Composition in Context} \label{sec:intercomp}
+One of the tricky things about figurative language is its ephemerality: if we stare at it for long enough through a theoretical lens, it seems to vanish, as is evident in the deflationary case made by \cite{SperberEA2012}.  But on the other hand, if we ask someone in street whether the phase \emph{buy a story} is more metaphoric than \emph{buy a book}, we can reasonably expect the answer will almost always be ``yes'', and it would be a mistake to dismiss the evidence that in a colloquial sense some compositions are clearly metaphoric, and others are clearly not.  This raises a challenging point with regard to the comparison between metaphor and coercion, the two instances of figurative language explored in this chapter: is metaphor perhaps to some extent a more overt case of coercion, or maybe a specific case that is in some way or another a little more subtle?  Part of the problem here is that the distinctions between these phenomena begin to exceed the capacity for what can reliably be quantified about language in a clinical setting, with evaluative criteria that will depend on the opinion of an expert which comes pre-packaged with inevitable biases.
+
+The experiments presented in this chapter have focused on the classification of non-literal language: the simple task of determining whether the way that a set of words are used pertains to some encyclopaedic sense of their lexical semantic role, without regard to the explication of any sort of interpretation of how semantics are subverted or what the metaphor communicates.  But \cite{Shutova2010} has made the case that, in a cognitively plausible sense, metaphor classification should be seen precisely as metaphor interpretation, and this theoretical stance has been backed up by a data-driven computational model that involves classification of metaphor by way of a round-trip paraphrasing technique.  This in turn invites a consideration of the entanglement between the interpretation and composition of figurative language: metaphor and metonymy are things that, in some particular conceptual context, are done by one lexical entity to another, as the apt term \emph{coercion} would itself suggest.  If composition happens in some cognitive context, then interpretation presumably involves the identification or simulation of that context, as the relevance theoretical account of metaphor surveyed in Chapter~\ref{sec:words}.  So this is in line with \citepos{Carston2010} description of how metaphor involves the generation of an \emph{ad hoc} concept pertaining to the semantics of the shifted lexeme in the specific context of a particular linguistic encounter.
+
+In fact, \del{it is tempting to go so far as to say} \revJB{4}{we might speculate} that, \revJB{4}{at least to a certain extent,} figurative language is identified \del{precisely} \revJB{4}{partly} as \del{those} instances of language where recourse to a conceptual context is necessary to interpret a lexical composition, and furthermore that the degree of figurativeness correlates with the extent of context construction involved in an interpretation.  If this postulate holds water, it means that figurative language is arguably about the perception of contextuality in the semantic complex that fulgurates between words and ideas as much as it is about the alignment of properties between conceptual domains.  \revJB{4}{This theoretical suggestion is to some extent backed up by psycholinguistic studies in which EEG tests have indicated increasing processing time in human subjects moving from the comprehension of literal to conventional and then unfamiliar instances of metaphor \cite{ArzouanEA2007}.}  Under this theoretical regime, my context sensitive methodology should offer a good framework for identifying figurative language, because models built using this methodology can be indicative of the extent to which contextualisation draws generic or encyclopaedic representations into alignment with one another.  This hypothesis is supported by the evidence from the metaphor experiments in Section~\ref{sec:metperiment}, where strong results for both metaphor classification and the translation of metaphor classification models to the task of rating metaphoricity on a continuous scale indicate that the relationship between lexical semantic concepts in context sensitive spaces does tell us something about the degree to which \emph{ad hoc} concepts are being extrapolated in the course of composing the input terms.
+
+The lower numbers associated with the coercion results described in Section~\ref{sec:coerperiment}, and particularly to the detection of predicate argument coercion involving unattested verbs, are to some extent a natural product of the nature of the data, given that the data offered by \cite{PustejovskyEA2010} presents coercion as a minority case.  It's also worth considering, however, the way in which the theoretical framing of coercion seeks to impose a fairly rigid structure on the conceptual hierarchy inherent in lexical typing.  The presumption is broadly, in the specific case of predicate argument shifting examined here, that a given verb takes a singular class as its argument, and that noun sense are likewise defined in terms of distinct classes, and so coercion is in principle understood as a discretely binary phenomenon.  But there are clearly issues of hierarchy and level of abstraction at stake in making class distinctions with regard to the denotations of nouns, and in fact there are some instances of coercion -- ``cancel a train'', for instance, or ``hear a click'' -- where the conceptual shift, while perhaps strictly present according to a particular categorical lexicon, does not involve a significant conceptual reconstruction by way of contextualisation.
+
+This, then, raises a valid question: is the role of figurative language exclusively, or even for that matter primarily, to port attributes from one conceptual domain to another?  Or is what metaphor does, as \cite{Davidson1978} has famously suggested, really about something more fundamentally phenomenological than just the efficient transmission of propositions?  So, where, for instance, \cite{Sweetser1990} sees polysemy as an intermediate stage bridging the progress from literal to metaphoric usage, my methodology leaves itself open to the possibility that all usage is, in fact, first and foremost pragmatic, and only secondarily lexicalised.  By this interpretation, words have semantic affordances in terms of their potential to convey cognitive content intersubjectively, and they are picked up and used in much the same way that a cognitive agent might adapt an object designed or just perceived as being for one purpose as an implement in another activity---using a shoe as a hammer, for example, or a chair to fend off a lion.  The cognitive foregrounding of this nascent theory can be found in the ecological psychology of \cite{Bateson1972} and \cite{Gibson1979}, and the linguistic correlary seems to be in line with what psycholinguists inspired by biosemiotics such as \cite{RaczasekLeonardiEA2015} are saying about the way that language is primarily about affording cognitive value to interlocutors, including but hardly limited to truth values.
+
+This theoretical speculation is a potential extrapolation of my methodology rather than a precondition for it, and is offered primarily as an example of how this statistical approach might become a component of productive line of philosophical enquiry.  The point, though, is that with a geometric methodology, relationships between lexical semantic representations can be recast as Gibsonian affordances: there is a mechanism for the direct perception of opportunities for meaning making in the actual layout of the statistical environment.  Meaning is, then, something which is directly perceived and acted upon, in the sense that a geometric mode of representation allows us, in an abstract sense, to imagine how an agent might participate in symbolically grounded semantic activity without resorting to the computation of the conceptual transpositions involved in the analysis of figurative language.  \revJB{5}{By this stipulation, meaning arises not so much from an exploration of a semantic space, as through the contextual generation of a space in which useful and potentially unexpected opportunities for communication and representation present themselves.}  By situating semantic representations in situationally induced spaces, the probabilisitic contingencies between words in particular contexts can in principle be mapped directly to the perception of an opportunity for meaning making without the need to resort to an interposing layer of conceptual computation.  It would be a mistake to go any further than this in terms of arguing for the cognitive plausibility of a model that is fundamentally statistical and computational, but, inasmuch as it it a desirable thing to consider the possibility that the prolific use of metaphor in the course of ordinary linguistic communication is an artefact of a more general cognitive propensity to grab whatever is available in an environment and make use of it, the methodology described here seems like an acceptable starting point for further investigation.
+

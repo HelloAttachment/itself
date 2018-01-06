@@ -1,0 +1,81 @@
+\chapter{Implementation and Results}
+The base model has been trained on the English language text of Wikipedia, compiling statistics for a vocabulary of the 200,000 most frequent word types in the corpus and the terms that occur within a window of five words on either side of each token of the elements of the vocabulary.  In the cases presented here, the 200 most salient dimensions for each input query are used to project the contextualised subspaces.
+
+\section{The Base Model and Projections}
+Tests performed so far on the base model have returned good results for some sample contextual projections from the base model.  Two different types of input queries have been considered, one involving terms which together denote some contextually specific concept and another which offers a short list of conceptual exemplars.  Results for four sample queries are offered in~\ref{tab:context}, with the top ten output words in terms of norm being reported.
+
+\begin{center}
+	\begin{table}[h]\small
+	\caption{Contextualised Word Spaces}
+	\label{tab:context}
+	\centering
+	\begin{tabular}{|l|l|l|l|}
+		\hline
+		\multicolumn{2}{|c|}{\textsc{by hypernym}} & \multicolumn{2}{c|}{\textsc{by list}} \\
+		\hline
+		\multicolumn{1}{|c|}{\emph{wild animals}} & \multicolumn{1}{c|}{\emph{professional occupations}} & \multicolumn{1}{c|}{\emph{lion,tiger,bear}} & \multicolumn{1}{c|}{\emph{surgeon,butcher,builder}} \\
+		\hline
+		pocupines & technicians & leopard & bricklayer \\
+		deer & accountants & dhole & grocer \\
+		boar & technologists & hyena & apprenticed \\
+		rabbits & therapists & boar & wheelwright \\
+		foxes & electricians & langur & blacksmith \\
+		raccoons & physiotherapists & macaque & plumber \\
+		boars & dentists & tapir & shoemaker \\
+		goats & hygienists & chital & industrialist \\
+		squirrels & pharmacists & lion & joiner \\
+		hares & nurses & rhinoceros & cabinetmaker \\
+		\hline
+	\end{tabular}
+	\end{table}
+\end{center}
+
+\section{Taxonomies}
+Some preliminary results, comparing the performance of the model described here versus the word2vec model of \cite{Mikolov}, are offered in~\ref{tab:hyper}.  The linear algebraic technique of using vector addition and then rating similar terms based on cosine similarity has been applied in the case of word2vec, as described in the literature.  Here \emph{hits} refer to terms that can be found in the WordNet subtree of terms associated with the appropriate synset for each input query, \emph{misses} refer to terms that are in WordNet but are not in the appropriate subtree, \emph{absent} tallies terms that are not in WordNet at all, and \emph{duplicate} indicates the count of terms that are morphemically identical to other words already returned by each model.
+
+\begin{center}
+	\begin{table}[h]\small
+	\caption{Comparative Hypernymy}
+	\label{tab:hyper}
+	\centering
+	\begin{tabular}{|r|l|l|l|l|}
+		\cline{2-5}
+		\multicolumn{1}{c|}{} & \multicolumn{2}{c|}{\emph{wild animals}} & \multicolumn{2}{c|}{\emph{visual artist}} \\
+		\cline{2-5}
+		\multicolumn{1}{c|}{} & \multicolumn{1}{c|}{\textsc{model}} & \multicolumn{1}{c|}{\textsc{w2v}} & \multicolumn{1}{c|}{\textsc{model}} & \multicolumn{1}{c|}{\textsc{w2v}} \\
+		\hline
+		\textsc{hits} & 40 & 34 & 16 & 8 \\
+		\textsc{misses} & 5 & 9 & 24 & 30 \\
+		\textsc{absent} & 2 & 2 & 7 & 9 \\
+		\textsc{duplicate} & 3 & 5 & 3 & 3 \\
+		\hline
+	\end{tabular}
+	\end{table}
+\end{center}
+
+\section{Analogies}
+Preliminary experiments have been carried out to explore the comparative geometry of different word-spaces.  The approach thus far has been to measure the angles of the vertexes of different constellations of word-vectors within a subspace, and then to examine how these angles line up with the angles in another space with an eye towards describing a prospective conceptual mapping.  Experiments with the model's projections are under way, and results will be forthcoming.  For the time being, \ref{tab:metaphors} offers a comparison between terms within the general, non-reduced space.  Three mappings are offered; in each case, all possible alignments of words between each space are compared.  The average difference in angle between each of the two spaces for each possible alignment is calculated, and the ranking of the alignment that is deemed, for the purposes of this test run, conceptually satisfactory as compared to all other alignments is returned.  The high performance of the appropriate alignments even in the unrefined base space motivates further and more rigorous testing of mappings between projected spaces, which should remit a much higher degree of conceptual coherence.
+
+\begin{table}[h]\footnotesize
+\centering
+\caption{Angular Mappings of Conceptual Regions}
+\label{tab:metaphors}
+	\begin{tabular}{|l||l|l|l|}
+		\hline
+		target & ROYALS & SURGERY & EMOTIONS \\
+		source & PEOPLE & BUTCHERY & ORIENTATIONS \\
+		\hline
+		rank & 1 out of 24 & 15 out of 720 & 3 out of 720 \\
+		mean & 0.062 & 0.046 & 0.048 \\
+		high & - & 0.037 & 0.045 \\
+		low & 0.198 & 0.094 & 0.101 \\
+		\hline
+		\multirow{6}{*}{mappings} & man $\rightarrow$ king & butcher $\rightarrow$ surgeon & up $\rightarrow$ happiness \\
+			&woman $\rightarrow$ queen & cleaver $\rightarrow$ scalpel & down $\rightarrow$ sadness \\
+			&boy $\rightarrow$ prince & abattoir $\rightarrow$ hospital & out $\rightarrow$ loneliness \\
+			&girl $\rightarrow$ princess & lamb $\rightarrow$ patient & in $\rightarrow$ togetherness \\
+			&& pig slaught. $\rightarrow$ operation & atop $\rightarrow$ control \\
+			&& ruthlessness $\rightarrow$ precision & beneath $\rightarrow$ incapacity \\
+		\hline
+	\end{tabular}
+\end{table}
