@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.30)  6 JAN 2018 12:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.30)  6 JAN 2018 17:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1459,7 +1459,17 @@ Overfull \hbox (11.74248pt too wide) in paragraph at lines 792--793
  pro-jected into exem-plary instances
  []
 
-[136] [137] [138] [139] [140] [141] [142] [143]) [144]
+[136] [137] [138] [139]
+
+Package natbib Warning: Citation `BleiEA2003' on page 140 undefined on input li
+ne 827.
+
+[140] [141]
+
+Package natbib Warning: Citation `ArzouanEA2007' on page 142 undefined on input
+ line 875.
+
+[142] [143]) [144]
 \openout2 = `rev6/Six.aux'.
 
  (./rev6/Six.tex
@@ -1551,19 +1561,22 @@ Overfull \hbox (3.89093pt too wide) in paragraph at lines 570--573
 rod-ucts in mak-ing sense of tropes\T1/cmr/m/n/10.95 , page 252–276.
  []
 
-[181] [182] [183] [184] [185] [186] [187] [188] [189] [190] [191]) [192]
-(./revesis.aux (./cover.aux) (./toc.aux) (./rev1/One.aux) (./rev2/Two.aux)
-(./rev3/Three.aux) (./rev3.5/ThreePointFive.aux) (./rev4/Four.aux)
+[181] [182] [183] [184] [185] [186] [187] [188] [189] [190] [191])
+
+Package natbib Warning: There were undefined citations.
+
+[192] (./revesis.aux (./cover.aux) (./toc.aux) (./rev1/One.aux) (./rev2/Two.aux
+) (./rev3/Three.aux) (./rev3.5/ThreePointFive.aux) (./rev4/Four.aux)
 (./rev5/Five.aux) (./rev6/Six.aux) (./rev7/Seven.aux))
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 28604 strings out of 493029
- 681988 string characters out of 6136234
- 1359209 words of memory out of 5000000
- 31530 multiletter control sequences out of 15000+600000
+ 28606 strings out of 493029
+ 682015 string characters out of 6136234
+ 1359258 words of memory out of 5000000
+ 31532 multiletter control sequences out of 15000+600000
  29762 words of font info for 78 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  61i,21n,103p,8120b,3844s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1596,7 +1609,7 @@ super/sfrm2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti0900.pfb><
 /usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fon
 ts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-s
 uper/sftt0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on revesis.pdf (205 pages, 1309367 bytes).
+Output written on revesis.pdf (205 pages, 1311453 bytes).
 PDF statistics:
  814 PDF objects out of 1000 (max. 8388607)
  564 compressed objects within 6 object streams

@@ -58,7 +58,7 @@
 \contentsline {subsection}{\numberline {6.2.2}Methodology and Results}{128}
 \contentsline {subsection}{\numberline {6.2.3}The Geometry of Coercion}{133}
 \contentsline {subsection}{\numberline {6.2.4}Adding Sentential Context}{138}
-\contentsline {section}{\numberline {6.3}Interpretation and Composition in Context}{141}
+\contentsline {section}{\numberline {6.3}Interpretation and Composition in Context}{142}
 \contentsline {chapter}{\numberline {7}The Geometry of Conceptualisation: Analogies}{145}
 \contentsline {section}{\numberline {7.1}Analogies as Parallel Vectors}{146}
 \contentsline {section}{\numberline {7.2}Contextualising Analogical Geometry}{149}
