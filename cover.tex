@@ -88,12 +88,15 @@ And finally, I must note my gratitude to the Engineering and Physical Sciences R
 \item[base space] A high dimensional, sparse vector space of word-vectors, delineated in terms of dimensions of co-occurrence statistics.
 \item[context] The situation -- environmental, cognitive, perceptual, linguistic, and otherwise -- in which an agent finds itself and applies language to meaning.
 \item[contextual input] A set of words characteristic of a conceptual category or semantic relationship used to generate a subspace for the modelling of semantic phenomena.
-\item[dimension selection] The process of contextually choosing a subset of dimensions in order to project a subspace from a base space.
 \item[co-occurrence] The observation of one word in proximity to another in a corpus.
 \item[co-occurrence statistic] A measure of the tendency for one word to be observed in proximity to another across a corpus.
-\item[co-occurrence window] The boundary defining the proximity within which two words are considered to be co-occurring, typically a distance in terms of words within a sentence.
+\item[co-occurrence window] The boundary defining the proximity within which two words are considered to be co-occurring, typically a distance in terms of words within a sentence.  \revJB{12}{A 2x2 word co-occurrence window indicates that the two words to either side of a target word and within the boundary of a sentence will be considered to co-occur with it, for instance.}
+\item[dimension selection] The process of contextually choosing a subset of dimensions in order to project a subspace from a base space.
+\item[f-score] \revJB{10}{The harmonic mean of precision and recall, so an effective measure of a well-balanced approach to a classification task.}
 \item[methodology] The process of building base spaces from observations of co-occurrences within a corpus and contextually projecting subspaces through dimension selection.
 \item[model] An application of methodology to a particular linguistic task or experiment, sometimes including task specific statistical analysis techniques.
+\item[precision] \revJB{10}{For a classification task seeking to correctly label elements in a dataset, the ratio of correctly applied instances of a given label to the total number of times that label is applied.}
+\item[recall] \revJB{10}{For a classification task, the ratio of of instances of a given label which are correctly identified to the total number of elements that should have been assigned that label.}
 \item [subspace] A context specific lower-dimensional projection from a base space, effectively mapping semantic relationships to a context by way of the geometric relationships between word-vectors.
 \item[word-vector] A high-dimensional geometrically situated semantic representation of a word, constructed as an array of co-occurrence statistics.
 \end{description}

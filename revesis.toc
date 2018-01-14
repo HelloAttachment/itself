@@ -1,9 +1,9 @@
 \contentsline {chapter}{Abstract}{i}
 \contentsline {chapter}{Acknowledgments}{iii}
 \contentsline {chapter}{Glossary}{iv}
-\contentsline {chapter}{Table of Contents}{v}
-\contentsline {chapter}{List of Figures}{viii}
-\contentsline {chapter}{List of Tables}{ix}
+\contentsline {chapter}{Table of Contents}{vi}
+\contentsline {chapter}{List of Figures}{ix}
+\contentsline {chapter}{List of Tables}{x}
 \contentsline {chapter}{\numberline {1}Introduction}{1}
 \contentsline {section}{\numberline {1.1}A Question and A Hypothesis}{2}
 \contentsline {section}{\numberline {1.2}Contributions to the Field}{5}
@@ -27,7 +27,7 @@
 \contentsline {section}{\numberline {4.1}Establishing and Analysing a Large Scale Corpus}{49}
 \contentsline {section}{\numberline {4.2}Selecting Dimensions from a Sparse Co-Occurrence Matrix}{52}
 \contentsline {section}{\numberline {4.3}Exploring the Geometry of a Context Specific Subspace}{58}
-\contentsline {subsection}{\numberline {4.3.1}Two Measures for Probing a Subspace}{60}
+\contentsline {subsection}{\numberline {4.3.1}Two Measures for Probing a Subspace}{59}
 \contentsline {subsection}{\numberline {4.3.2}Replete Geometric Analysis}{64}
 \contentsline {section}{\numberline {4.4}A Mathematical Justification for Geometric Analysis}{69}
 \contentsline {section}{\numberline {4.5}Comparing to Alternative Approaches}{71}
@@ -59,15 +59,15 @@
 \contentsline {subsection}{\numberline {6.2.3}The Geometry of Coercion}{133}
 \contentsline {subsection}{\numberline {6.2.4}Adding Sentential Context}{138}
 \contentsline {section}{\numberline {6.3}Interpretation and Composition in Context}{142}
-\contentsline {chapter}{\numberline {7}The Geometry of Conceptualisation: Analogies}{145}
-\contentsline {section}{\numberline {7.1}Analogies as Parallel Vectors}{146}
-\contentsline {section}{\numberline {7.2}Contextualising Analogical Geometry}{149}
-\contentsline {subsection}{\numberline {7.2.1}Projecting Probability into Space}{150}
-\contentsline {subsection}{\numberline {7.2.2}Finding Contexts for Analogies}{151}
-\contentsline {subsection}{\numberline {7.2.3}Searching for Solutions to Analogies}{156}
-\contentsline {section}{\numberline {7.3}A Note on the Data}{161}
-\contentsline {chapter}{\numberline {8}Conclusion}{166}
-\contentsline {section}{\numberline {8.1}Summary}{168}
-\contentsline {section}{\numberline {8.2}Outlook}{169}
-\contentsline {section}{\numberline {8.3}Direct Encounters with Meaning}{173}
-\contentsline {chapter}{References}{176}
+\contentsline {chapter}{\numberline {7}The Geometry of Conceptualisation: Analogies}{146}
+\contentsline {section}{\numberline {7.1}Analogies as Parallel Vectors}{147}
+\contentsline {section}{\numberline {7.2}Contextualising Analogical Geometry}{150}
+\contentsline {subsection}{\numberline {7.2.1}Projecting Probability into Space}{151}
+\contentsline {subsection}{\numberline {7.2.2}Finding Contexts for Analogies}{152}
+\contentsline {subsection}{\numberline {7.2.3}Searching for Solutions to Analogies}{158}
+\contentsline {section}{\numberline {7.3}A Note on the Data}{164}
+\contentsline {chapter}{\numberline {8}Conclusion}{168}
+\contentsline {section}{\numberline {8.1}Summary}{170}
+\contentsline {section}{\numberline {8.2}Outlook}{171}
+\contentsline {section}{\numberline {8.3}Direct Encounters with Meaning}{175}
+\contentsline {chapter}{References}{178}

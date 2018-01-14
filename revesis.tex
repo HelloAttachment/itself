@@ -34,6 +34,7 @@
 \usepackage{xr}
 \usepackage[normalem]{ulem}
 \usepackage{fancyhdr}
+\usepackage{soul}
 \externaldocument{ch2/Two}
 \externaldocument{ch3/Three}
 \externaldocument{ch3.5/ThreePointFive}
@@ -50,9 +51,10 @@
 \newcommand{\citeposs}[1]{\citeauthor{#1}' \citeyearpar{#1}}
 %\newcommand{\argmax}[1]{\underset{#1}{\operatorname{arg}\,\operatorname{max}}\;}
 \newcommand{\del}[1]{\color{red}\sout{#1}\color{black}}
-\newcommand{\revJB}[2]{\color{blue}JB-#1: \underline{#2}\color{black}}
+\newcommand{\rev}[1]{\color{blue}\uline{#1}\color{black}}
+\newcommand{\revJB}[2]{\color{blue}JB-#1: \uline{#2}\color{black}}
 \newcommand{\delJB}[1]{\color{red}JB: \sout{#1}\color{black}}
-\newcommand{\revAK}[2]{\color{blue}AK-#1: \underline{#2}\color{black}}
+\newcommand{\revAK}[2]{\color{blue}AK-#1: \uline{#2}\color{black}}
 \newcommand{\delAK}[1]{\color{red}AK: \sout{#1}\color{black}}
 \newcommand{\revBO}[1]{\color{blue}JB/AK: #1\color{black}}
 \newcommand{\delBO}[1]{\color{red}JB/AK: \sout{#1}\color{black}}

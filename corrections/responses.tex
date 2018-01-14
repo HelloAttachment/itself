@@ -54,38 +54,60 @@ This should surely reveal the effect of context in a better way? I may be wrong,
 
 \paragraph{JB-7:} The condition (a-b)-(c-d)=0 is equivalent to (a-c)-(b-d)=0, making A:B::C:D equivalent to A:C::B:D from the point of view of a method of yours. Comment on the reasonableness or otherwise of this, and if possible on relevant evdience from psychological experiments.
 
-\paragraph{JB-8:} p.153 para 1: As mentioned in the viva, you seem to be saying that, for each analogy separately, you find the best "top ... projection". This apperenlty conflicts with the 90\% claim in next para, which seems to say there's a good space that works for 90\% of the analogies. Apply the clarification that you gave in the viva.
+\res{I've added some additional analysis of the oblong geometry of analogies, which I think speaks to this valid point: there are two different ways to cut the conceptual transfer happening in an analogy, but these cuts are often quantifiably different.  I've done this in the context of the potential for identifying equivalence between the mappings, and also included reference to relevant work from Tversky and Ortony.}
+
+\paragraph{JB-8:} p.153 para 1: As mentioned in the viva, you seem to be saying that, for each analogy separately, you find the best ``top ... projection''. This apperenlty conflicts with the 90\% claim in next para, which seems to say there's a good space that works for 90\% of the analogies. Apply the clarification that you gave in the viva.
+
+\res{I've clarified that I select the dimensions that most closely satisfy the equality between the word-vectors implied by the analogy, and then see if the analogy is in fact satisfactorily mapped in the resulting subspace.}
 
 \paragraph{JB-9:} Say whether you have looked at the vectors a-b, a-c etc to see how similar they might be to vectors for the expected underlying relationships in the analogy, and/or mention something about this in future work. Of course, if you have an argument for not expecting those difference vectors to be interesting, add this.
+
+\res{I've added a paragraph considering the interpretability of the vectors the describe the structure of an analogy, including a point about one potential problem (negative values), and also a suggestion that this points towards potentially productive future work.}
 
 
 \paragraph{Miscellaneous}
 
 \paragraph{JB-10:} For non-speclialist readers, state somewhere what precision and recall are and how f-score and accuracy are defined. You thesis may well be read by people who are not computational linguists or similar. The information could go in glossary at beginning, along with the other comparably basic concepts you include there.
 
+\res{I've added these definitions to the glossary.}
+
 \paragraph{JB-11:} Make sure it's clear, for each experiment, what the definitions of precision and recall are exactly in the particular case. Sometimes it's not clear what you're counting.
+
+\res{I've indicated the definition of coercion for both of the classification tasks (metaphor and coercion).}
 
 \paragraph{JB-12:} Glossary would also be good place to say that e.g. by a 2x2 co-occurrence window you mean one that goes two before and two after the target word.
 
+\res{I've updated the definition of co-occurrence window accordingly.}
+
 \paragraph{JB-13:} And after p.50: you actually talk about window size in terms of "k", so on first use of "NxN" for some N, point out you mean k=N.
+
+\res{I've clarified this both where I describe the parameter k and at the first mention of an NxN window.}
 
 \paragraph{JB-14:} p.41 and Fig 3.2: clarify that "co-occurrence terms" are selected words to which other words are being related. It only becomes gradually clear up to p.46 that you're talking about co-occurrence with "soprano" etc.
 
+\res{I've clarified that co-occurrence terms correspond to the dimensions selected for the analysis of a set of word-vectors, and have likewise clarified that the words in Figure 3.2 are the labels of co-occurrence dimensions selected for such an analysis.}
+
 \paragraph{JB-15:} p.49: I don't understand the point about parentheticals - add extra explanation.
+
+\res{I've clarified that parenthetical phrases often serve to interupt the sytagmatic flow of a sentence and therefore can skew the information available through co-occurrence counts.}
 
 ****************
 \paragraph{JB-16:} p.51 para 1: The meaning given for the ratio (without the "a" correction) is wrong. The ratio can be bigger than 1 (right?) so cannot be any sort of probability! I think you mean: the denominator is proportional to the joint probability. The formula given on p.69 and p.149 in terms of probabilites makes the matter much clearer, and shows that the explanation on p.51 is askew.
 ******************
 
-\paragraph{JB-17:} Around here say something about how the chosen value of 10,000 for "a" comes about. What was this choice influenced by? Would it change of the corpus-size changed?? Etc.
+\res{Yes, absolutely, this was a mistake: the ratio (omitting the constant "a") is the joint probabaility divided by the product of the independent probabilities.  This has been corrected, and the more detailed analyses later and this chapter and then in Chapter 7 have been cross-referenced.}
+
+\paragraph{JB-17:} Around here say something about how the chosen value of 10,000 for ``a'' comes about. What was this choice influenced by? Would it change of the corpus-size changed?? Etc.
+
+\res{I've noted that the value was determined through trial and error, but also corresponds approximately with the mean frequency of vocabulary words (ie, the 200,000 most frequent words.  I've also noted that the value should scale linearly with corpus size.}
 
 \paragraph{JB-18:} Explain at some early point that the ``dimensions'' are just the words along the top of the matrix M.
 
-\paragraph{JB-19:} p.53 (and as necessary elsewhere): You say ``component'' of T, but "member"and "element" would be clearer and standard. It's just a set, right?
+\paragraph{JB-19:} p.53 (and as necessary elsewhere): You say ``component'' of T, but ``member'' and ``element'' would be clearer and standard. It's just a set, right?
 
 \paragraph{JB-20:} In INDY: what about different components of T selecting some of the SAME dimensions, so you can't just concatenate the lists of dimensions found? You seem to assume there'll be no such duplication. Clarify this matter.
 
-\paragraph{JB-21:} What does "top" amount to here?
+\paragraph{JB-21:} What does ``top'' amount to here?
 
 \paragraph{JB-22:} What if d/$|$T$|$ isn't an integer?
 

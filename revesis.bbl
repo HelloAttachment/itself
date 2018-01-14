@@ -47,6 +47,12 @@ Arora, S., Li, Y., Liang, Y., Ma, T., and Risteski, A. (2015).
   mysteries of semantic word embeddings.
 \newblock {\em Computing Research Repository}, abs/1502.03520.
 
+\bibitem[Arzouan et~al., 2007]{ArzouanEA2007}
+Arzouan, Y., Goldstein, A., and Faust, M. (2007).
+\newblock Brainwaves are stethoscopes: Erp correlates of novel metaphor
+  comprehension.
+\newblock {\em Brain research}, 1160:69--81.
+
 \bibitem[Austin, 1962]{Austin1962}
 Austin, J.~L. (1962).
 \newblock {\em How to do things with words}.
@@ -167,6 +173,11 @@ Black, M. (1977).
 \newblock More about metaphor.
 \newblock In Ortony, A., editor, {\em Metaphor and Thought}, pages 19--41.
   Cambridge University Press, 2nd edition.
+
+\bibitem[Blei et~al., 2003]{BleiEA2003}
+Blei, D.~M., Ng, A.~Y., and Jordan, M.~I. (2003).
+\newblock Latent {D}irichlet allocation.
+\newblock {\em Journal of Machine Learning Research}, 3:993--1022.
 
 \bibitem[Boden, 1990]{Boden1990}
 Boden, M.~A. (1990).
