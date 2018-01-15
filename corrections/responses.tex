@@ -105,41 +105,59 @@ This should surely reveal the effect of context in a better way? I may be wrong,
 
 \paragraph{JB-19:} p.53 (and as necessary elsewhere): You say ``component'' of T, but ``member'' and ``element'' would be clearer and standard. It's just a set, right?
 
+\res{I've amended this usaged, and a comprehensive search of the thesis doesn't turn up any other instances.}
+
 \paragraph{JB-20:} In INDY: what about different components of T selecting some of the SAME dimensions, so you can't just concatenate the lists of dimensions found? You seem to assume there'll be no such duplication. Clarify this matter.
+
+\res{Yes, this was an omission: as with the ZIPPED technique, dimensions are selected iteratively and such that no dimension is selected more than once; I've made this clear.}
 
 \paragraph{JB-21:} What does ``top'' amount to here?
 
+\res{By top I meant highest PMI value.  I've made this clear.}
+
 \paragraph{JB-22:} What if d/$|$T$|$ isn't an integer?
+
+\res{The model iterates through the word-vectors in T until d is satisfied.  In principal, this means there could be a small imbalance in dimensions associated with a given input, but in practice most of my experiments explore dimensionalities that are divisible by the number of input vectors.  I've clarified this in the thesis.}
 
 \paragraph{JB-23:} In explanation of JOINT: what does "merged" mean here? Multiplied or minimized point-wise? Becomes clear later, but it should be made clear here (in ordinary English, probably, rather than mathematically).
 
+\res{I've changed this to read ``extracted from the base matrix M and aligned dimension-for-dimension''.}
+
 \paragraph{JB-24:} Surely you discard the dimensions with *zero* elements, not non-zero elements!
+
+\res{Yes!  Corrected.}
 
 \paragraph{JB-25:} For definiteness, explain that by normalised you mean in the standard vector-space sense of converting to length 1. "Normalise" means lots of different things in different areas.
 
+\res{I now described the truncated vectors as being ``subjected to L2 normalisation, such that each vector is of uniform length''.}
+
 \paragraph{JB-26:} p.54, para before formula 4.2: being "central" sounds contradictory with being "peripheral" - explain.
+
+\res{What I meant was ``central and far from the origin''.  I've made this clear.}
 
 \paragraph{JB-27:} p.54: Formula 4.2 needs amendment. For one thing you seem to be using the curly brackets normally used for *set* notation to define a vector instead.
 
-\paragraph{JB-28:} And anyway the "i" has no reference, but needs somehow to be tied to "t". Minimally "t" should be replaced by "t\_h,i" (where my underscore means subscripting).
+And anyway the "i" has no reference, but needs somehow to be tied to "t". Minimally "t" should be replaced by "t\_h,i" (where my underscore means subscripting).
 
-I think that what you wnat to is actually quite tricky to write in a clear formula, and it may be best to stick with saying that n\_h is formed successively from those successive components t\_h,i of t\_h where ((... your Pi > 0 condition as written in 4.2))
+I think that what you want to is actually quite tricky to write in a clear formula, and it may be best to stick with saying that n\_h is formed successively from those successive components t\_h,i of t\_h where ((... your Pi > 0 condition as written in 4.2))
 
-\paragraph{JB-29:} Formula 4.4: I don't understand the "d/k" subscript of "max".
+\res{Yes, I see what you're saying, this is tricky to express.  I've removed equation 4.2 altogether in favour of a sentential description, using your suggested nomenclature.  (I've also changed the name of the normalised matrix from M to N', so as not to confuse is with the established convention for the base matrix.)}
 
-\paragraph{JB-30:} Somewhere up to here: I felt the need for some idea of typical values of d and |T|.
+\paragraph{JB-28:} Formula 4.4: I don't understand the "d/k" subscript of "max".
 
-\paragraph{JB-31:} p.56, Table 5A and text: give more systematic information about statistical significance of the results.
+\paragraph{JB-29:} Somewhere up to here: I felt the need for some idea of typical values of d and |T|.
 
-\paragraph{JB-32:} p.77: WordNet experiment re "body part" etc.: you mention "accuracy" but your explanations sound as though you're only looking at number of correct items found, i.e. measuring *recall*. (This contrasts with use of f-scores at other places, e.g. on p.114 bottom.) Make the text clearer.
+\paragraph{JB-30:} p.56, Table 5A and text: give more systematic information about statistical significance of the results.
 
-\paragraph{JB-33:} Somewhere up to p.93: Optional amendment: I suggest that you make more of the superiority of your method over static methods on the lower dimensionalities.
+\paragraph{JB-31:} p.77: WordNet experiment re "body part" etc.: you mention "accuracy" but your explanations sound as though you're only looking at number of correct items found, i.e. measuring *recall*. (This contrasts with use of f-scores at other places, e.g. on p.114 bottom.) Make the text clearer.
 
-\paragraph{JB-34:} p.118: what agreement or whatever is the kappa measure measuring in this analysis?
+\paragraph{JB-32:} Somewhere up to p.93: Optional amendment: I suggest that you make more of the superiority of your method over static methods on the lower dimensionalities.
 
-\paragraph{JB-35:} p.122: end of middle para, relating to Fig 6.2: "remain fairly far": doesn't seem to be borne out by the Figure.
+\paragraph{JB-33:} p.118: what agreement or whatever is the kappa measure measuring in this analysis?
 
-\paragraph{JB-36:} p.155: "the analysis" -- but that used for the prior results involved knowing the fourth term, no?
+\paragraph{JB-34:} p.122: end of middle para, relating to Fig 6.2: "remain fairly far": doesn't seem to be borne out by the Figure.
+
+\paragraph{JB-35:} p.155: "the analysis" -- but that used for the prior results involved knowing the fourth term, no?
 
 \paragraph{Important Typos etc.}
 
