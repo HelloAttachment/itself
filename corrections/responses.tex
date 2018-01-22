@@ -101,7 +101,7 @@ This should surely reveal the effect of context in a better way? I may be wrong,
 
 \res{I've noted that the value was determined through trial and error, but also corresponds approximately with the mean frequency of vocabulary words (ie, the 200,000 most frequent words.  I've also noted that the value should scale linearly with corpus size.}
 
-\paragraph{JB-18:} Explain at some early point that the ``dimensions'' are just the words along the top of the matrix M.
+***\paragraph{JB-18:} Explain at some early point that the ``dimensions'' are just the words along the top of the matrix M.
 
 \paragraph{JB-19:} p.53 (and as necessary elsewhere): You say ``component'' of T, but ``member'' and ``element'' would be clearer and standard. It's just a set, right?
 
@@ -141,21 +141,33 @@ And anyway the "i" has no reference, but needs somehow to be tied to "t". Minima
 
 I think that what you want to is actually quite tricky to write in a clear formula, and it may be best to stick with saying that n\_h is formed successively from those successive components t\_h,i of t\_h where ((... your Pi > 0 condition as written in 4.2))
 
-\res{Yes, I see what you're saying, this is tricky to express.  I've removed equation 4.2 altogether in favour of a sentential description, using your suggested nomenclature.  (I've also changed the name of the normalised matrix from M to N', so as not to confuse is with the established convention for the base matrix.)}
+\res{Yes, I see what you're saying, this is tricky to express.  I've removed equation 4.2 altogether in favour of a sentential description, using your suggested nomenclature.  (I've also changed the name of the normalised matrix from M to N', so as not to confuse it with the established convention for the base matrix.)}
 
 \paragraph{JB-28:} Formula 4.4: I don't understand the "d/k" subscript of "max".
 
+\res{This is also tricky.  I'm trying to say that for each input, the top d/k dimensions are chosen from the corresponding word-vector.  Perhaps this is also something that should only be expressed sententially, but I've added a little text and tried to rewrite the formula.}
+
 \paragraph{JB-29:} Somewhere up to here: I felt the need for some idea of typical values of d and |T|.
 
-\paragraph{JB-30:} p.56, Table 5A and text: give more systematic information about statistical significance of the results.
+\res{I've added a preview of expected values right after the introduction of the three subspace selection techniques.}
+
+***\paragraph{JB-30:} p.56, Table 5A and text: give more systematic information about statistical significance of the results.
 
 \paragraph{JB-31:} p.77: WordNet experiment re "body part" etc.: you mention "accuracy" but your explanations sound as though you're only looking at number of correct items found, i.e. measuring *recall*. (This contrasts with use of f-scores at other places, e.g. on p.114 bottom.) Make the text clearer.
 
+\res{This is a good and also subtle point: this is, in fact, a classification task, where the words in the intersection between the WordNet and model vocabulary are being labelled as in or out of a given category.  As you say, I am not measuring accuracy; this would be besides the point, as there is a very large majority class of terms not included for each category.  I've made this clear in the text, but just with the caveat that, by this analysis, I think these results are properly described as precision scores, since it is the number of correct classifications made by the model compared to the total number of classification made by the model (I don't think was clear in the text, but hopefully now is).  Recall, and therefore f-score, would be misrepresentative in the cases where the models only return 50 terms, as these statistics would necessarily be very low for categories with much larger memberships.  I've included a footnote to this effect.}
+
 \paragraph{JB-32:} Somewhere up to p.93: Optional amendment: I suggest that you make more of the superiority of your method over static methods on the lower dimensionalities.
+
+\res{I've added a short paragraph noting and briefly analysing this.}
 
 \paragraph{JB-33:} p.118: what agreement or whatever is the kappa measure measuring in this analysis?
 
+\res{It measures the difference of the accuracy and the probability of chance agreement divided by the compliment of the probability of chance agreement, so it's effectively a more stringent statistic as accuracy increases.  I've added a couple lines about this.}
+
 \paragraph{JB-34:} p.122: end of middle para, relating to Fig 6.2: "remain fairly far": doesn't seem to be borne out by the Figure.
+
+\res{I've tempered the language; there's a bit of a trick of 3-D representation at play here, but it's very hard to get just the right perspective on these figures and I think the way they're presented is about as good as possible.}
 
 \paragraph{JB-35:} p.155: "the analysis" -- but that used for the prior results involved knowing the fourth term, no?
 
