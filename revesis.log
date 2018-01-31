@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.30)  21 JAN 2018 17:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.30)  30 JAN 2018 23:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -904,10 +904,10 @@ LaTeX Warning: Label `tab:relpare' multiply defined.
 LaTeX Warning: Label `sec:simperiment' multiply defined.
 
 
-LaTeX Warning: Label `sec:simmeth' multiply defined.
-
-
 LaTeX Warning: Label `tab:similar' multiply defined.
+
+
+LaTeX Warning: Label `sec:simmeth' multiply defined.
 
 
 LaTeX Warning: Label `tab:ind-similar' multiply defined.
@@ -919,10 +919,10 @@ LaTeX Warning: Label `tab:fivelated' multiply defined.
 LaTeX Warning: Label `tab:simpare' multiply defined.
 
 
-LaTeX Warning: Label `tab:relsim-features' multiply defined.
-
-
 LaTeX Warning: Label `sec:litpare' multiply defined.
+
+
+LaTeX Warning: Label `tab:relsim-features' multiply defined.
 
 
 LaTeX Warning: Label `fig:axes' multiply defined.
@@ -1186,7 +1186,12 @@ Overfull \hbox (1.32767pt too wide) in paragraph at lines 43--44
 ll be mea-sure-ments of and between
  []
 
-[8] [9] [10]) [11]
+[8]
+
+Package natbib Warning: Citation `RastogiEA2015' on page 9 undefined on input l
+ine 47.
+
+[9] [10]) [11]
 \openout2 = `rev2/Two.aux'.
 
  (./rev2/Two.tex
@@ -1357,7 +1362,7 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
- [105] [106] [107] [108]) [109]
+ [105] [106] [107] [108] [109])
 [110]
 \openout2 = `rev5/Five.aux'.
 
@@ -1431,10 +1436,10 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
- [125] [126] [127] [128]
+ [125] [126] [127] [128] [129]
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 447.
- [129] [130] [131] [132]
+ [130] [131] [132]
 [133] [134] [135] [136] [137] [138]
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -1548,13 +1553,13 @@ Overfull \hbox (1.3398pt too wide) in paragraph at lines 341--341
 [][] 
  []
 
-[160] [161] [162]
+[160] [161]
 Overfull \hbox (19.17648pt too wide) in paragraph at lines 398--399
 []\T1/cmr/m/n/10.95 59 adjec-tives and their com-par-a-tive and superla-tive fo
 rms (\T1/cmr/m/it/10.95 good:better :: tough:tougher\T1/cmr/m/n/10.95 ); 
  []
 
-[163] [164] [165] [166] [167] [168]) [169]
+[162] [163] [164] [165] [166] [167] [168]) [169]
 \openout2 = `rev7/Seven.aux'.
 
  (./rev7/Seven.tex
@@ -1602,10 +1607,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 28785 strings out of 493029
- 684267 string characters out of 6136234
- 1379898 words of memory out of 5000000
- 31706 multiletter control sequences out of 15000+600000
+ 28787 strings out of 493029
+ 684295 string characters out of 6136234
+ 1381313 words of memory out of 5000000
+ 31708 multiletter control sequences out of 15000+600000
  30075 words of font info for 79 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  61i,21n,103p,8120b,3846s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1638,7 +1643,7 @@ super/sfrm2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti0900.pfb><
 /usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fon
 ts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-s
 uper/sftt0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on revesis.pdf (210 pages, 1387346 bytes).
+Output written on revesis.pdf (210 pages, 1405305 bytes).
 PDF statistics:
  829 PDF objects out of 1000 (max. 8388607)
  574 compressed objects within 6 object streams
