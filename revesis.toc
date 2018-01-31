@@ -36,39 +36,39 @@
 \contentsline {subsection}{\numberline {4.5.2}A Model Trained Using a Neural Network}{74}
 \contentsline {section}{\numberline {4.6}A Proof of Concept}{76}
 \contentsline {subsection}{\numberline {4.6.1}Experimental Set-Up}{77}
-\contentsline {subsection}{\numberline {4.6.2}Results and Analysis}{78}
-\contentsline {chapter}{\numberline {5}Relatedness and Similarity}{82}
-\contentsline {section}{\numberline {5.1}An Experiment on Relatedness}{84}
-\contentsline {subsection}{\numberline {5.1.1}Background and Data}{85}
-\contentsline {subsection}{\numberline {5.1.2}Relatedness: Methodology and Model}{86}
-\contentsline {subsection}{\numberline {5.1.3}The Geometry of Relatedness}{88}
-\contentsline {section}{\numberline {5.2}An Experiment on Similarity}{92}
-\contentsline {subsection}{\numberline {5.2.1}Background and Data}{92}
-\contentsline {subsection}{\numberline {5.2.2}Similarity: Methodology and Model}{94}
-\contentsline {subsection}{\numberline {5.2.3}The Geometry of Similarity}{96}
-\contentsline {section}{\numberline {5.3}Comparing the Two Phenomena}{101}
-\contentsline {section}{\numberline {5.4}Frames of Similarity}{106}
-\contentsline {chapter}{\numberline {6}Metaphor and Coercion}{111}
-\contentsline {section}{\numberline {6.1}An Experiment on Metaphor}{113}
-\contentsline {subsection}{\numberline {6.1.1}Background and Data}{115}
-\contentsline {subsection}{\numberline {6.1.2}Methodology and Results}{116}
-\contentsline {subsection}{\numberline {6.1.3}The Geometry of Metaphor}{122}
-\contentsline {subsection}{\numberline {6.1.4}Generalising the Model}{126}
-\contentsline {section}{\numberline {6.2}An Experiment on Coercion}{129}
-\contentsline {subsection}{\numberline {6.2.1}Background}{129}
-\contentsline {subsection}{\numberline {6.2.2}Methodology and Results}{131}
-\contentsline {subsection}{\numberline {6.2.3}The Geometry of Coercion}{135}
-\contentsline {subsection}{\numberline {6.2.4}Adding Sentential Context}{141}
-\contentsline {section}{\numberline {6.3}Interpretation and Composition in Context}{144}
-\contentsline {chapter}{\numberline {7}The Geometry of Conceptualisation: Analogies}{148}
-\contentsline {section}{\numberline {7.1}Analogies as Parallel Vectors}{149}
-\contentsline {section}{\numberline {7.2}Contextualising Analogical Geometry}{152}
-\contentsline {subsection}{\numberline {7.2.1}Projecting Probability into Space}{153}
-\contentsline {subsection}{\numberline {7.2.2}Finding Contexts for Analogies}{154}
-\contentsline {subsection}{\numberline {7.2.3}Searching for Solutions to Analogies}{160}
-\contentsline {section}{\numberline {7.3}A Note on the Data}{166}
-\contentsline {chapter}{\numberline {8}Conclusion}{170}
-\contentsline {section}{\numberline {8.1}Summary}{172}
-\contentsline {section}{\numberline {8.2}Outlook}{173}
-\contentsline {section}{\numberline {8.3}Direct Encounters with Meaning}{177}
-\contentsline {chapter}{References}{180}
+\contentsline {subsection}{\numberline {4.6.2}Results and Analysis}{79}
+\contentsline {chapter}{\numberline {5}Relatedness and Similarity}{83}
+\contentsline {section}{\numberline {5.1}An Experiment on Relatedness}{85}
+\contentsline {subsection}{\numberline {5.1.1}Background and Data}{86}
+\contentsline {subsection}{\numberline {5.1.2}Relatedness: Methodology and Model}{87}
+\contentsline {subsection}{\numberline {5.1.3}The Geometry of Relatedness}{89}
+\contentsline {section}{\numberline {5.2}An Experiment on Similarity}{93}
+\contentsline {subsection}{\numberline {5.2.1}Background and Data}{93}
+\contentsline {subsection}{\numberline {5.2.2}Similarity: Methodology and Model}{95}
+\contentsline {subsection}{\numberline {5.2.3}The Geometry of Similarity}{97}
+\contentsline {section}{\numberline {5.3}Comparing the Two Phenomena}{102}
+\contentsline {section}{\numberline {5.4}Frames of Similarity}{107}
+\contentsline {chapter}{\numberline {6}Metaphor and Coercion}{112}
+\contentsline {section}{\numberline {6.1}An Experiment on Metaphor}{114}
+\contentsline {subsection}{\numberline {6.1.1}Background and Data}{116}
+\contentsline {subsection}{\numberline {6.1.2}Methodology and Results}{117}
+\contentsline {subsection}{\numberline {6.1.3}The Geometry of Metaphor}{123}
+\contentsline {subsection}{\numberline {6.1.4}Generalising the Model}{127}
+\contentsline {section}{\numberline {6.2}An Experiment on Coercion}{130}
+\contentsline {subsection}{\numberline {6.2.1}Background}{130}
+\contentsline {subsection}{\numberline {6.2.2}Methodology and Results}{132}
+\contentsline {subsection}{\numberline {6.2.3}The Geometry of Coercion}{136}
+\contentsline {subsection}{\numberline {6.2.4}Adding Sentential Context}{142}
+\contentsline {section}{\numberline {6.3}Interpretation and Composition in Context}{145}
+\contentsline {chapter}{\numberline {7}The Geometry of Conceptualisation: Analogies}{149}
+\contentsline {section}{\numberline {7.1}Analogies as Parallel Vectors}{150}
+\contentsline {section}{\numberline {7.2}Contextualising Analogical Geometry}{153}
+\contentsline {subsection}{\numberline {7.2.1}Projecting Probability into Space}{154}
+\contentsline {subsection}{\numberline {7.2.2}Finding Contexts for Analogies}{155}
+\contentsline {subsection}{\numberline {7.2.3}Searching for Solutions to Analogies}{161}
+\contentsline {section}{\numberline {7.3}A Note on the Data}{167}
+\contentsline {chapter}{\numberline {8}Conclusion}{171}
+\contentsline {section}{\numberline {8.1}Summary}{173}
+\contentsline {section}{\numberline {8.2}Outlook}{174}
+\contentsline {section}{\numberline {8.3}Direct Encounters with Meaning}{178}
+\contentsline {chapter}{References}{181}

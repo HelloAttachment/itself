@@ -31,10 +31,10 @@ In order to test the ability of my statistical methodology to model relatedness,
 \emph{window} & \multicolumn{4}{c}{2x2} & \multicolumn{4}{c}{5x5} \\
 \emph{dimensions} & 20 & 50 & 200 & \multicolumn{1}{c}{400} & 20 & 50 & 200 & 400 \\
 \hline
-\textsc{joint} & 0.666 & 0.681 & 0.698 & 0.728 & 0.704 & 0.698 & 0.700 & 0.709 \\
-\textsc{indy} & 0.671 & 0.676 & 0.702 & 0.707 & 0.703 & 0.712 & 0.715 & 0.729 \\
+\textsc{joint} & 0.666 & 0.681 & 0.698 & \revAK{4}{\emph{0.728}} & 0.704 & 0.698 & 0.700 & 0.709 \\
+\textsc{indy} & 0.671 & 0.676 & 0.702 & 0.707 & 0.703 & 0.712 & 0.715 & \revAK{4}{\emph{0.729}} \\
 \textsc{zipped} & 0.642 & 0.674 & 0.699 & 0.698 & 0.652 & 0.678 & 0.716 & 0.717 \\
-\textsc{SVD} & 0.521 & 0.618 & 0.690 & 0.728 & 0.527 & 0.663 & 0.722 & 0.742 \\
+\textsc{SVD} & 0.521 & 0.618 & 0.690 & \revAK{4}{\emph{0.728}} & 0.527 & 0.663 & 0.722 & 0.742 \\
 \textsc{SG} & 0.549 & 0.639 & 0.696 & 0.701 & 0.544 & 0.635 & 0.705 & 0.710 \\
 \textsc{CBOW} & 0.557 & 0.648 & 0.700 & 0.695 & 0.584 & 0.663 & 0.716 & 0.716 \\
 \hline
@@ -200,7 +200,7 @@ I initially treat the SimLex data in precisely the same way that I treated the W
 \emph{dimensions} & 20 & 50 & 200 & \multicolumn{1}{c}{400} & 20 & 50 & 200 & 400 \\
 \hline
 \textsc{joint} & 0.414 & 0.444 & 0.471 & 0.459 & 0.404 & 0.412 & 0.425 & 0.429 \\
-\textsc{indy} & 0.411 & 0.445 & 0.481 & 0.503 & 0.391 & 0.429 & 0.462 & 0.490 \\
+\textsc{indy} & 0.411 & 0.445 & 0.481 & \revAK{4}{\emph{0.503}} & 0.391 & 0.429 & 0.462 & \revAK{4}{\emph{0.490}} \\
 \textsc{zipped} & 0.425 & 0.446 & 0.480 & 0.471 & 0.400 & 0.406 & 0.430 & 0.446 \\
 \textsc{SVD} & 0.235 & 0.274 & 0.375 & 0.423 & 0.218 & 0.255 & 0.353 & 0.380 \\
 \textsc{SG} & 0.232 & 0.273 & 0.337 & 0.379 & 0.215 & 0.252 & 0.322 & 0.355 \\
