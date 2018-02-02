@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.30)  31 JAN 2018 23:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.30)  2 FEB 2018 00:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -828,9 +828,6 @@ LaTeX Warning: Label `tab:dims' multiply defined.
 LaTeX Warning: Label `sec:geotext' multiply defined.
 
 
-LaTeX Warning: Label `sec:twomeasures' multiply defined.
-
-
 LaTeX Warning: Label `fig:geo1-dist' multiply defined.
 
 
@@ -844,6 +841,9 @@ LaTeX Warning: Label `sub@fig:geo1-norm' multiply defined.
 
 
 LaTeX Warning: Label `fig:geo1' multiply defined.
+
+
+LaTeX Warning: Label `sec:twomeasures' multiply defined.
 
 
 LaTeX Warning: Label `tab:tops-wild' multiply defined.
@@ -889,10 +889,10 @@ LaTeX Warning: Label `chap:relsim' multiply defined.
 LaTeX Warning: Label `sec:relperiment' multiply defined.
 
 
-LaTeX Warning: Label `tab:related' multiply defined.
-
-
 LaTeX Warning: Label `sec:relmeth' multiply defined.
+
+
+LaTeX Warning: Label `tab:related' multiply defined.
 
 
 LaTeX Warning: Label `tab:ind-related' multiply defined.
@@ -904,10 +904,10 @@ LaTeX Warning: Label `tab:relpare' multiply defined.
 LaTeX Warning: Label `sec:simperiment' multiply defined.
 
 
-LaTeX Warning: Label `sec:simmeth' multiply defined.
-
-
 LaTeX Warning: Label `tab:similar' multiply defined.
+
+
+LaTeX Warning: Label `sec:simmeth' multiply defined.
 
 
 LaTeX Warning: Label `tab:ind-similar' multiply defined.
@@ -919,10 +919,10 @@ LaTeX Warning: Label `tab:fivelated' multiply defined.
 LaTeX Warning: Label `tab:simpare' multiply defined.
 
 
-LaTeX Warning: Label `tab:relsim-features' multiply defined.
-
-
 LaTeX Warning: Label `sec:litpare' multiply defined.
+
+
+LaTeX Warning: Label `tab:relsim-features' multiply defined.
 
 
 LaTeX Warning: Label `fig:axes' multiply defined.
@@ -1120,7 +1120,13 @@ he dis-tri-bu-tional seman-tic paradigm,
 
 ] [4
 
-]) [5]
+]
+Overfull \hbox (17.27846pt too wide) in paragraph at lines 102--103
+|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   [] 
+  |   []   |   []   |   []
+ []
+
+[5]) [6]
 \openout2 = `toc.aux'.
 
  (./toc.tex (./revesis.toc
@@ -1138,28 +1144,28 @@ LaTeX Font Info:    Try loading font information for U+rsfs on input line 8.
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-) [6
+) [7
 
 
 
-] [7])
+] [8])
 \tf@toc=\write4
 \openout4 = `revesis.toc'.
 
- [8]
+ [9]
 (./revesis.lof)
 \tf@lof=\write5
 \openout5 = `revesis.lof'.
 
- [9
+ [10
 
-] (./revesis.lot [10
+] (./revesis.lot [11
 
 ])
 \tf@lot=\write6
 \openout6 = `revesis.lot'.
 
- [11])
+ [12])
 \openout2 = `rev1/One.aux'.
 
  (./rev1/One.tex
@@ -1642,7 +1648,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  28787 strings out of 493029
  684295 string characters out of 6136234
- 1381310 words of memory out of 5000000
+ 1382311 words of memory out of 5000000
  31708 multiletter control sequences out of 15000+600000
  30075 words of font info for 79 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
@@ -1676,10 +1682,10 @@ super/sfrm2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti0900.pfb><
 /usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fon
 ts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-s
 uper/sftt0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on revesis.pdf (211 pages, 1410787 bytes).
+Output written on revesis.pdf (212 pages, 1423374 bytes).
 PDF statistics:
- 833 PDF objects out of 1000 (max. 8388607)
- 577 compressed objects within 6 object streams
+ 836 PDF objects out of 1000 (max. 8388607)
+ 579 compressed objects within 6 object streams
  0 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 

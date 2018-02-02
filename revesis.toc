@@ -1,9 +1,9 @@
 \contentsline {chapter}{Abstract}{i}
 \contentsline {chapter}{Acknowledgments}{iii}
 \contentsline {chapter}{Glossary}{iv}
-\contentsline {chapter}{Table of Contents}{vi}
-\contentsline {chapter}{List of Figures}{ix}
-\contentsline {chapter}{List of Tables}{x}
+\contentsline {chapter}{Table of Contents}{vii}
+\contentsline {chapter}{List of Figures}{x}
+\contentsline {chapter}{List of Tables}{xi}
 \contentsline {chapter}{\numberline {1}Introduction}{1}
 \contentsline {section}{\numberline {1.1}A Question and A Hypothesis}{2}
 \contentsline {section}{\numberline {1.2}Contributions to the Field}{5}
