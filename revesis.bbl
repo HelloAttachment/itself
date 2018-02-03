@@ -41,6 +41,11 @@ Allington, D., Brouillette, S., and Golumbia, D. (2016).
   humanities.
 \newblock {\em Los Angeles Review of Books}, (1.5.2016).
 
+\bibitem[Allott and Textor, 2012]{AllottEA2012}
+Allott, N. and Textor, M. (2012).
+\newblock Lexical pragmatic adjustment and the nature of ad hoc concepts.
+\newblock {\em International Review of Pragmatics}, 4:185--208.
+
 \bibitem[Arora et~al., 2015]{AroraEA2015}
 Arora, S., Li, Y., Liang, Y., Ma, T., and Risteski, A. (2015).
 \newblock Random walks on context spaces: Towards an explanation of the
@@ -323,6 +328,11 @@ Coeckelbergh, M. (2016).
 \newblock Can machines create art?
 \newblock {\em Philosophy {\&} Technology}.
 
+\bibitem[Cohen, 1960]{Cohen1960}
+Cohen, J. (1960).
+\newblock A coefficient of agreement for nominal scales.
+\newblock {\em Educational and Psychological Measurement}, 20(1):37--46.
+
 \bibitem[Collobert and Weston, 2008]{CollobertEA2008}
 Collobert, R. and Weston, J. (2008).
 \newblock A unified architecture for natural language processing: Deep neural
@@ -343,6 +353,13 @@ Colton, S., Cook, M., Hepworth, R., and Pease, A. (2014).
   creativity.
 \newblock In Kibble, R., editor, {\em Proceedings of the 50th Anniversary
   Convention of the AISB}.
+
+\bibitem[Cooper et~al., 2014]{CooperEA2014}
+Cooper, R., Dobnik, S., Lappin, S., and Larsson, S. (2014).
+\newblock A probabilistic rich type theory for semantic interpretation.
+\newblock In {\em Proceedings of the EACL 2014 Workshop on Type Theory and
+  Natural Language Semantics (TTNLS)}, pages 72--79. Association for
+  Computational Linguistics.
 
 \bibitem[Copestake and Briscoe, 1995]{CopestakeEA1995}
 Copestake, A. and Briscoe, T. (1995).
@@ -735,6 +752,12 @@ J{\"a}ger, G. (2010).
 \newblock In Aloni, M., Bastiaanse, H., de~Jager, T., and Schulz, K., editors,
   {\em Logic, Language and Meaning: 17th Amsterdam Colloquium, Amsterdam, The
   Netherlands, December 16-18, 2009, Revised Selected Papers}, pages 11--20.
+
+\bibitem[James, 1992]{James1992}
+James, P. (1992).
+\newblock Knowledge graphs.
+\newblock In van~de Riet, R.~P. and Meersman, R.~A., editors, {\em Linguistic
+  Instruments in Knowledge Engineering}. Elsevier, Amsterdam.
 
 \bibitem[Jankowiak et~al., 2015]{JankowiakEA2015}
 Jankowiak, K., Naskr\k{e}cki, R., and Rataj, K. (2015).
@@ -1137,6 +1160,11 @@ Pattee, H.~H. (2001).
 \newblock The physics of symbols: Bridging the epistemic cut.
 \newblock {\em Biosystems}, pages 5--21.
 
+\bibitem[Pearl, 2009]{Pearl2009}
+Pearl, J. (2009).
+\newblock Causal inference in statistics: An overview.
+\newblock {\em Statistics Surveys}, 3:96--146.
+
 \bibitem[Peirce, 1932]{Peirce1932}
 Peirce, C.~S. (1932).
 \newblock {\em Collected Papers of Charles Sanders Peirce}.
@@ -1172,6 +1200,11 @@ Polajnar, T. and Clark, S. (2014).
 \newblock In {\em Proceedings of the 14th Conference of the European Chapter of
   the Association for Computational Linguistics}, pages 230--238.
 
+\bibitem[Pushpendre~Rastogi and Arora, 2015]{RastogiEA2015}
+Pushpendre~Rastogi, B.~V. and Arora, R. (2015).
+\newblock Multiview lsa: Representation learning via generalized cca.
+\newblock In {\em Proceedings of NAACL}.
+
 \bibitem[Pustejovsky, 1993]{Pustejovsky1993}
 Pustejovsky, J. (1993).
 \newblock Type coercion and lexical selection.
@@ -1205,6 +1238,12 @@ Putnam, H. (1975).
 Pynchon, T. (1973).
 \newblock {\em Gravity's Rainbow}.
 \newblock Penguin Books, New York, NY.
+
+\bibitem[Quillian, 1969]{Quillian1969}
+Quillian, M.~R. (1969).
+\newblock The teachable language comprehender: A simulation program and theory
+  of language.
+\newblock {\em Communications of the ACM}, 12(8):459--476.
 
 \bibitem[Radinsky et~al., 2011]{RadinskyEA2011}
 Radinsky, K., Agichtein, E., Gabrilovich, E., and Markovitch, S. (2011).
@@ -1418,11 +1457,27 @@ Sperber, D. and Wilson, D. (2012).
 \newblock In Wilson, D. and Sperber, D., editors, {\em Meaning and Relevance},
   pages 97--122. Cambridge University Press.
 
+\bibitem[Spivak and Kent, 2012]{SpivakEA2012}
+Spivak, D.~I. and Kent, R.~E. (2012).
+\newblock Ologs: A categorical framework for knowledge representation.
+\newblock {\em PLOS ONE}, 7(1):1--22.
+
+\bibitem[Steedman, 1987]{Steedman1987}
+Steedman, M. (1987).
+\newblock Combinatory grammars and parasitic gaps.
+\newblock {\em Natural Language and Linguistic Theory}, 5(3):403--439.
+
 \bibitem[Sweetser, 1990]{Sweetser1990}
 Sweetser, E. (1990).
 \newblock {\em From Etymology to Pragmatics: Metaphor and Cultural Aspects of
   Semantic Structure}.
 \newblock Cambridge University Press.
+
+\bibitem[Szabolcsi, 1992]{Szabolcsi1992}
+Szabolcsi, A. (1992).
+\newblock Combinatory grammar and projection from the lexicon.
+\newblock In Sag, I.~A. and Szabolcsi, A., editors, {\em Lexical Matters}. CSLI
+  Publications.
 
 \bibitem[Thomas and Mareschal, 1999]{ThomasEA1999}
 Thomas, M. S.~C. and Mareschal, D. (1999).
