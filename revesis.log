@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.30)  3 FEB 2018 19:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.30)  4 FEB 2018 11:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1193,12 +1193,18 @@ Overfull \hbox (1.52867pt too wide) in paragraph at lines 36--37
  []
 
 [7]
-Overfull \hbox (1.32767pt too wide) in paragraph at lines 45--46
+Overfull \hbox (1.94232pt too wide) in paragraph at lines 45--46
+ \T1/cmr/bx/n/10.95 Task Selec-tion[] \T1/cmr/m/n/10.95 AK-18: |   []   |   [] 
+  |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []
+ []
+
+[8]
+Overfull \hbox (1.32767pt too wide) in paragraph at lines 47--48
 \T1/cmr/m/n/10.95 ol-ogy extracts from con-tex-tu-ally pro-jected sub-spaces wi
 ll be mea-sure-ments of and between
  []
 
-[8] [9] [10] [11]) [12]
+[9] [10] [11]) [12]
 \openout2 = `rev2/Two.aux'.
 
  (./rev2/Two.tex
@@ -1381,7 +1387,12 @@ Overfull \hbox (12.48338pt too wide) in paragraph at lines 197--210
  [][] 
  []
 
-[98] [99] [100] [101] [102] [103] [104] [105] [106] [107] [108]
+[98] [99] [100] [101] [102] [103]
+
+Package natbib Warning: Citation `HillEA2014b' on page 104 undefined on input l
+ine 302.
+
+[104] [105] [106] [107] [108]
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -1472,11 +1483,11 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
- [109] [110]
-[111] [112] [113]) [114]
+ [109] [110] [111] [112] [113]) [114]
 \openout2 = `rev5/Five.aux'.
 
- (./rev5/Five.tex
+
+(./rev5/Five.tex
 Chapter 6.
 [115
 
@@ -1577,7 +1588,7 @@ Overfull \hbox (12.48338pt too wide) in paragraph at lines 512--527
  [][] 
  []
 
-[139] [140] [141] [142] [143]
+[139] [140] [141] [142] [143] [144]
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -1629,7 +1640,7 @@ Overfull \hbox (11.74248pt too wide) in paragraph at lines 804--805
  pro-jected into exem-plary instances
  []
 
-[144] [145] [146]
+[145] [146]
 Overfull \hbox (22.86197pt too wide) in paragraph at lines 817--833
  [][] 
  []
@@ -1640,12 +1651,12 @@ Overfull \hbox (13.21pt too wide) in paragraph at lines 839--840
   |   []   |   []   |   []
  []
 
-[148] [149] [150] [151]) [152]
+[148] [149] [150] [151] [152]) [153]
 \openout2 = `rev6/Six.aux'.
 
  (./rev6/Six.tex
 Chapter 7.
-[153
+[154
 
 
 
@@ -1655,17 +1666,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--9
 n-loaded at
  []
 
-[154] [155]
+[155] [156]
 Overfull \hbox (2.4216pt too wide) in paragraph at lines 17--52
 [][] [] 
  []
 
-[156] [157] [158] [159] [160] [161]
+[157] [158] [159] [160] [161] [162]
 
-Package natbib Warning: Citation `Ortony1979' on page 162 undefined on input li
+Package natbib Warning: Citation `Ortony1979' on page 163 undefined on input li
 ne 275.
 
-[162]
+[163]
 Overfull \hbox (1.39085pt too wide) in paragraph at lines 287--287
 [][] 
  []
@@ -1675,7 +1686,7 @@ Overfull \hbox (1.3398pt too wide) in paragraph at lines 291--291
 [][] 
  []
 
-[163]
+[164]
 Overfull \hbox (1.39085pt too wide) in paragraph at lines 310--310
 [][] 
  []
@@ -1685,7 +1696,7 @@ Overfull \hbox (1.3398pt too wide) in paragraph at lines 314--314
 [][] 
  []
 
-[164]
+[165]
 Overfull \hbox (1.39085pt too wide) in paragraph at lines 334--334
 [][] 
  []
@@ -1695,18 +1706,18 @@ Overfull \hbox (1.3398pt too wide) in paragraph at lines 341--341
 [][] 
  []
 
-[165] [166]
+[166] [167]
 Overfull \hbox (19.17648pt too wide) in paragraph at lines 398--399
 []\T1/cmr/m/n/10.95 59 adjec-tives and their com-par-a-tive and superla-tive fo
 rms (\T1/cmr/m/it/10.95 good:better :: tough:tougher\T1/cmr/m/n/10.95 ); 
  []
 
-[167] [168] [169] [170] [171] [172] [173]) [174]
+[168] [169] [170] [171] [172] [173] [174]) [175]
 \openout2 = `rev7/Seven.aux'.
 
  (./rev7/Seven.tex
 Chapter 8.
-[175
+[176
 
 
 
@@ -1716,32 +1727,32 @@ Overfull \hbox (9.09557pt too wide) in paragraph at lines 8--9
 ta about word co-occurrences
  []
 
-[176] [177] [178] [179] [180] [181]
+[177] [178] [179] [180] [181] [182]
 Overfull \hbox (5.91814pt too wide) in paragraph at lines 49--50
 \T1/cmr/m/n/10.95 At the begin-ning of Chap-ter 7[], I described anal-ogy as a 
 kind of seman-tic meta-phenomenon,
  []
 
-[182] [183]) [184] (./revesis.bbl
+[183] [184]) [185] (./revesis.bbl
 Overfull \hbox (12.4547pt too wide) in paragraph at lines 10--17
 \T1/cmr/m/n/10.95 study on sim-i-lar-ity and relat-ed-ness using dis-tri-bu-tio
 nal and WordNet-based approaches.
  []
 
-[185
+[186
 
 
-] [186] [187] [188] [189] [190]
+] [187] [188] [189] [190] [191]
 Overfull \hbox (3.89093pt too wide) in paragraph at lines 598--601
 []\T1/cmr/m/n/10.95 Gibbs Jr., R. W. (1993).  \T1/cmr/m/it/10.95 Pro-cess and p
 rod-ucts in mak-ing sense of tropes\T1/cmr/m/n/10.95 , page 252–276.
  []
 
-[191] [192] [193] [194] [195] [196] [197] [198] [199] [200] [201])
+[192] [193] [194] [195] [196] [197] [198] [199] [200] [201] [202])
 
 Package natbib Warning: There were undefined citations.
 
-[202] (./revesis.aux (./cover.aux) (./toc.aux) (./rev1/One.aux) (./rev2/Two.aux
+[203] (./revesis.aux (./cover.aux) (./toc.aux) (./rev1/One.aux) (./rev2/Two.aux
 ) (./rev3/Three.aux) (./rev3.5/ThreePointFive.aux) (./rev4/Four.aux)
 (./rev5/Five.aux) (./rev6/Six.aux) (./rev7/Seven.aux))
 
@@ -1749,10 +1760,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 28826 strings out of 493029
- 685002 string characters out of 6136234
+ 28827 strings out of 493029
+ 685015 string characters out of 6136234
  1383658 words of memory out of 5000000
- 31747 multiletter control sequences out of 15000+600000
+ 31748 multiletter control sequences out of 15000+600000
  30075 words of font info for 79 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  61i,21n,103p,8120b,3846s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1785,10 +1796,10 @@ super/sfrm2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti0900.pfb><
 /usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fon
 ts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-s
 uper/sftt0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on revesis.pdf (217 pages, 1497833 bytes).
+Output written on revesis.pdf (218 pages, 1516780 bytes).
 PDF statistics:
- 855 PDF objects out of 1000 (max. 8388607)
- 593 compressed objects within 6 object streams
+ 858 PDF objects out of 1000 (max. 8388607)
+ 595 compressed objects within 6 object streams
  0 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
