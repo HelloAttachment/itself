@@ -18,7 +18,7 @@
 \contentsline {section}{\numberline {2.1}Meaning Making}{14}
 \contentsline {section}{\numberline {2.2}Concepts}{18}
 \contentsline {section}{\numberline {2.3}Words}{21}
-\contentsline {section}{\numberline {2.4}Data}{26}
+\contentsline {section}{\numberline {2.4}Data}{27}
 \contentsline {chapter}{\numberline {3}Semantics in Context}{33}
 \contentsline {section}{\numberline {3.1}Modelling Lexical Semantics}{36}
 \contentsline {section}{\numberline {3.2}Dynamic Context Sensitivity}{39}
@@ -71,5 +71,5 @@
 \contentsline {chapter}{\numberline {8}Conclusion}{176}
 \contentsline {section}{\numberline {8.1}Summary}{178}
 \contentsline {section}{\numberline {8.2}Outlook}{179}
-\contentsline {section}{\numberline {8.3}Direct Encounters with Meaning}{183}
-\contentsline {chapter}{References}{186}
+\contentsline {section}{\numberline {8.3}Direct Encounters with Meaning}{184}
+\contentsline {chapter}{References}{187}

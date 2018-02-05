@@ -16,7 +16,8 @@
 %                ]{natbib}           % to get citation like [1,2] and [3-5]
 %\RequirePackage{chapterbib}         % create bibiography for each chapter
 %\RequirePackage{hypernat}           % To solve the conflict between hyperref and natbib
-\RequirePackage[natbibapa]{apacite}
+\RequirePackage[doi,natbibapa]{apacite}
+%\RequirePackage{apacite}
 \RequirePackage{hypernat}           % To solve the conflict between hyperref and natbib
 
 \RequirePackage[titletoc            % Display the Appendix in table of contents

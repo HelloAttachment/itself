@@ -11,62 +11,62 @@ A level-1 auxiliary file: rev4/Four.aux
 A level-1 auxiliary file: rev5/Five.aux
 A level-1 auxiliary file: rev6/Six.aux
 A level-1 auxiliary file: rev7/Seven.aux
-The style file: apalike.bst
-Reallocated field_info (elt_size=4) to 11314 items from 5000.
+The style file: apacite.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated field_info (elt_size=4) to 18824 items from 5000.
 Database file #1: Mega.bib.bib
 Warning--I'm ignoring Sahlgren2008's extra "volume" field
---line 4042 of file Mega.bib.bib
-Warning--I didn't find a database entry for "Pinker1997"
-Warning--I didn't find a database entry for "Ortonty1979"
-Warning--there's a number but no volume in AllingtonEA2016
-Warning--can't use both author and editor fields in Fraser1993
-Warning--can't use both author and editor fields in Gibbs1993
-Warning--empty booktitle in Hume1738
-Warning--empty booktitle in Husserl1900
-Warning--empty publisher in Jager2010
-Warning--empty booktitle in Locke1689
-Warning--empty chapter and pages in Sowa2006
-Warning--there's a number but no volume in Wiggins2012
-Warning--empty publisher in Wille2005
-You've used 285 entries,
-            1935 wiz_defined-function locations,
-            2232 strings with 49967 characters,
-and the built_in function-call counts, 115209 in all, are:
-= -- 11502
-> -- 3693
-< -- 317
-+ -- 1289
-- -- 1165
-* -- 8595
-:= -- 19128
-add.period$ -- 906
-call.type$ -- 285
-change.case$ -- 1918
-chr.to.int$ -- 279
-cite$ -- 295
-duplicate$ -- 5224
-empty$ -- 8939
-format.name$ -- 1596
-if$ -- 23754
-int.to.chr$ -- 7
-int.to.str$ -- 0
-missing$ -- 353
-newline$ -- 1442
-num.names$ -- 913
-pop$ -- 2164
+--line 4055 of file Mega.bib.bib
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
+Warning--No address in CarnapEA1952
+Warning--No address in VonNeumann1945
+You've used 288 entries,
+            6951 wiz_defined-function locations,
+            3188 strings with 62851 characters,
+and the built_in function-call counts, 544671 in all, are:
+= -- 70069
+> -- 4464
+< -- 23541
++ -- 22654
+- -- 578
+* -- 32153
+:= -- 90652
+add.period$ -- 1388
+call.type$ -- 288
+change.case$ -- 5066
+chr.to.int$ -- 0
+cite$ -- 578
+duplicate$ -- 15326
+empty$ -- 22894
+format.name$ -- 6688
+if$ -- 108891
+int.to.chr$ -- 0
+int.to.str$ -- 872
+missing$ -- 0
+newline$ -- 7326
+num.names$ -- 2366
+pop$ -- 11779
 preamble$ -- 1
-purify$ -- 1979
+purify$ -- 1175
 quote$ -- 0
-skip$ -- 3896
+skip$ -- 38465
 stack$ -- 0
-substring$ -- 8083
-swap$ -- 1068
-text.length$ -- 94
+substring$ -- 25763
+swap$ -- 8713
+text.length$ -- 1126
 text.prefix$ -- 0
-top$ -- 0
-type$ -- 1564
-warning$ -- 10
-while$ -- 1005
+top$ -- 1
+type$ -- 30650
+warning$ -- 2
+while$ -- 2470
 width$ -- 0
-write$ -- 3745
-(There were 13 warnings)
+write$ -- 8732
+(There were 3 warnings)
