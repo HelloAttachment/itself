@@ -17,7 +17,9 @@
 %\RequirePackage{chapterbib}         % create bibiography for each chapter
 %\RequirePackage{hypernat}           % To solve the conflict between hyperref and natbib
 \RequirePackage[doi,natbibapa]{apacite}
+%\RequirePackage[backend=biber,natbib,style=apa]{biblatex}
 %\RequirePackage{apacite}
+%\RequirePackage{natbib}
 \RequirePackage{hypernat}           % To solve the conflict between hyperref and natbib
 
 \RequirePackage[titletoc            % Display the Appendix in table of contents

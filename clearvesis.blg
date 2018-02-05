@@ -1,6 +1,6 @@
 This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: revesis.aux
+The top-level auxiliary file: clearvesis.aux
 A level-1 auxiliary file: cover.aux
 A level-1 auxiliary file: toc.aux
 A level-1 auxiliary file: rev1/One.aux
@@ -30,43 +30,43 @@ Warning--No address in CarnapEA1952
 Warning--No address in VonNeumann1945
 You've used 288 entries,
             6951 wiz_defined-function locations,
-            3187 strings with 62851 characters,
-and the built_in function-call counts, 542942 in all, are:
-= -- 69808
-> -- 4469
-< -- 23495
-+ -- 22476
+            3187 strings with 62865 characters,
+and the built_in function-call counts, 543237 in all, are:
+= -- 69837
+> -- 4478
+< -- 23516
++ -- 22487
 - -- 578
-* -- 32072
-:= -- 90365
+* -- 32096
+:= -- 90402
 add.period$ -- 1388
 call.type$ -- 288
 change.case$ -- 5066
 chr.to.int$ -- 0
 cite$ -- 578
-duplicate$ -- 15197
-empty$ -- 22862
-format.name$ -- 6660
-if$ -- 108605
+duplicate$ -- 15212
+empty$ -- 22870
+format.name$ -- 6682
+if$ -- 108666
 int.to.chr$ -- 0
 int.to.str$ -- 872
 missing$ -- 0
-newline$ -- 7327
+newline$ -- 7335
 num.names$ -- 2366
-pop$ -- 11753
+pop$ -- 11756
 preamble$ -- 1
 purify$ -- 1175
 quote$ -- 0
-skip$ -- 38413
+skip$ -- 38415
 stack$ -- 0
-substring$ -- 25510
-swap$ -- 8664
+substring$ -- 25518
+swap$ -- 8673
 text.length$ -- 1126
 text.prefix$ -- 0
 top$ -- 1
 type$ -- 30650
 warning$ -- 2
-while$ -- 2439
+while$ -- 2448
 width$ -- 0
-write$ -- 8736
+write$ -- 8755
 (There were 3 warnings)

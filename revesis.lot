@@ -8,8 +8,8 @@
 \contentsline {table}{\numberline {4-D}{\ignorespaces Top Pet Word-Vectors}}{67}
 \contentsline {table}{\numberline {4-E}{\ignorespaces Mean and Maximum PMI Values}}{70}
 \contentsline {table}{\numberline {4-F}{\ignorespaces Schematic of Geometric Features}}{72}
-\contentsline {table}{\numberline {4-G}{\ignorespaces Accuracy Scores for WordNet Recapitulation}}{82}
-\contentsline {table}{\numberline {4-H}{\ignorespaces WordNet Accuracy Scores for Two Techniques}}{84}
+\contentsline {table}{\numberline {4-G}{\ignorespaces \color {red}\sout {Accuracy}\color {black} \color {blue}JB-31: \uline {Precision}\color {black} Scores for WordNet Recapitulation}}{83}
+\contentsline {table}{\numberline {4-H}{\ignorespaces WordNet \color {red}\sout {Accuracy}\color {black} \color {blue}JB-31: \uline {Precision}\color {black} Scores for Two Techniques}}{84}
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {5-A}{\ignorespaces Spearman's Correlations for Relatedness}}{91}
 \contentsline {table}{\numberline {5-B}{\ignorespaces Relatedness Correlations of Individual Features}}{94}
@@ -20,13 +20,13 @@
 \contentsline {table}{\numberline {5-G}{\ignorespaces Comparison of Similarity Scores}}{105}
 \contentsline {table}{\numberline {5-H}{\ignorespaces Comparing Optimal Features for Relatedness and Similarity}}{106}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {6-A}{\ignorespaces Context Sensitive and Static Model F-Scores for Metaphor Classification}}{123}
+\contentsline {table}{\numberline {6-A}{\ignorespaces F-Scores for Metaphor Classification}}{123}
 \contentsline {table}{\numberline {6-B}{\ignorespaces F-Scores for Metaphor Classification of Unseen Adjectives}}{125}
 \contentsline {table}{\numberline {6-C}{\ignorespaces Comparative Metaphor Classification Statistics}}{127}
 \contentsline {table}{\numberline {6-D}{\ignorespaces Top Independent Features for Metaphor Classification}}{128}
 \contentsline {table}{\numberline {6-E}{\ignorespaces Most Predictive Feature Vectors for Metaphor Classification}}{129}
 \contentsline {table}{\numberline {6-F}{\ignorespaces Scoring Metaphoricity Based On Classification Data}}{133}
-\contentsline {table}{\numberline {6-G}{\ignorespaces Context Sensitive and Static Model F-Scores for Coercion Classification}}{137}
+\contentsline {table}{\numberline {6-G}{\ignorespaces F-Scores for Coercion Classification}}{137}
 \contentsline {table}{\numberline {6-H}{\ignorespaces F-Scores for Coercion Classification Testing on Unseen Verbs}}{139}
 \contentsline {table}{\numberline {6-I}{\ignorespaces Top Independent Features for Coercion Classification}}{141}
 \contentsline {table}{\numberline {6-J}{\ignorespaces Most Predictive Feature Vectors for Coercion Classification}}{143}

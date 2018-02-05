@@ -474,7 +474,9 @@ Baroni%
 \BCBL {}\ \BBA {} Zamparelli%
 }{%
 Baroni%
-\ \protect \BOthers {.}}{%
+, Bernardi%
+\BCBL {}\ \BBA {} Zamparelli%
+}{%
 {\protect \APACyear {2014}}%
 }]{%
 BaroniEA2014b}
@@ -495,6 +497,39 @@ Baroni, M.%
 \newblock
 \APACjournalVolNumPages{Linguistic Issues in Language
   Technology}{9}{}{241--346}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Baroni%
+, Dinu%
+\BCBL {}\ \BBA {} Kruszewski%
+}{%
+Baroni%
+, Dinu%
+\BCBL {}\ \BBA {} Kruszewski%
+}{%
+{\protect \APACyear {2014}}%
+}]{%
+BaroniEA2014}
+\APACinsertmetastar {%
+BaroniEA2014}%
+\begin{APACrefauthors}%
+Baroni, M.%
+, Dinu, G.%
+\BCBL {}\ \BBA {} Kruszewski, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Don't count, predict! A systematic comparison of
+  context-counting vs. context-predicting semantic vectors} {Don't count,
+  predict! a systematic comparison of context-counting vs. context-predicting
+  semantic vectors}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {52nd Annual Meeting of the Association for Computational
+  Linguistics, ACL 2014} {52nd annual meeting of the association for
+  computational linguistics, acl 2014}\ (\BPGS\ 238--247).
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -4902,33 +4937,6 @@ Malandrakis, N.%
   Processing}{21}{11}{2379--2392}.
 \newblock
 \begin{APACrefDOI} \doi{10.1109/TASL.2013.2277931} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-{Marco Baroni, Georgiana Dinu}%
-}{%
-{Marco Baroni, Georgiana Dinu}%
-}{%
-{\protect \APACyear {2014}}%
-}]{%
-BaroniEA2014}
-\APACinsertmetastar {%
-BaroniEA2014}%
-\begin{APACrefauthors}%
-{Marco Baroni, Georgiana Dinu}, G\BPBI K.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2014}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Don't count, predict! A systematic comparison of
-  context-counting vs. context-predicting semantic vectors} {Don't count,
-  predict! a systematic comparison of context-counting vs. context-predicting
-  semantic vectors}.{\BBCQ}
-\newblock
-\BIn{} \APACrefbtitle {52nd Annual Meeting of the Association for Computational
-  Linguistics, ACL 2014} {52nd annual meeting of the association for
-  computational linguistics, acl 2014}\ (\BPGS\ 238--247).
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
