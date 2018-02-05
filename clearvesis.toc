@@ -22,12 +22,11 @@
 \contentsline {chapter}{\numberline {3}Semantics in Context}{31}
 \contentsline {section}{\numberline {3.1}Modelling Lexical Semantics}{34}
 \contentsline {section}{\numberline {3.2}Dynamic Context Sensitivity}{37}
-\contentsline {paragraph}{A Note on \emph {Context}}{39}
 \contentsline {section}{\numberline {3.3}Literal Dimensions of Co-Occurrence}{40}
 \contentsline {section}{\numberline {3.4}Interpretable Geometry}{43}
 \contentsline {chapter}{\numberline {4}Context Sensitive Distributional Semantics}{48}
 \contentsline {section}{\numberline {4.1}Establishing and Analysing a Large Scale Corpus}{49}
-\contentsline {section}{\numberline {4.2}Selecting Dimensions from a Sparse Co-Occurrence Matrix}{53}
+\contentsline {section}{\numberline {4.2}Selecting Dimensions from a Sparse Matrix}{53}
 \contentsline {section}{\numberline {4.3}Exploring the Geometry of a Context Specific Subspace}{59}
 \contentsline {subsection}{\numberline {4.3.1}Two Measures for Probing a Subspace}{60}
 \contentsline {subsection}{\numberline {4.3.2}Replete Geometric Analysis}{65}

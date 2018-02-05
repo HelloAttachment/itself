@@ -30,43 +30,43 @@ Warning--No address in CarnapEA1952
 Warning--No address in VonNeumann1945
 You've used 288 entries,
             6951 wiz_defined-function locations,
-            3187 strings with 62865 characters,
-and the built_in function-call counts, 543237 in all, are:
-= -- 69837
+            3187 strings with 62862 characters,
+and the built_in function-call counts, 542776 in all, are:
+= -- 69768
 > -- 4478
-< -- 23516
-+ -- 22487
+< -- 23502
++ -- 22439
 - -- 578
-* -- 32096
-:= -- 90402
+* -- 32074
+:= -- 90327
 add.period$ -- 1388
 call.type$ -- 288
 change.case$ -- 5066
 chr.to.int$ -- 0
 cite$ -- 578
-duplicate$ -- 15212
-empty$ -- 22870
-format.name$ -- 6682
-if$ -- 108666
+duplicate$ -- 15179
+empty$ -- 22862
+format.name$ -- 6674
+if$ -- 108589
 int.to.chr$ -- 0
 int.to.str$ -- 872
 missing$ -- 0
 newline$ -- 7335
 num.names$ -- 2366
-pop$ -- 11756
+pop$ -- 11749
 preamble$ -- 1
 purify$ -- 1175
 quote$ -- 0
-skip$ -- 38415
+skip$ -- 38401
 stack$ -- 0
-substring$ -- 25518
-swap$ -- 8673
+substring$ -- 25452
+swap$ -- 8661
 text.length$ -- 1126
 text.prefix$ -- 0
 top$ -- 1
 type$ -- 30650
 warning$ -- 2
-while$ -- 2448
+while$ -- 2440
 width$ -- 0
 write$ -- 8755
 (There were 3 warnings)

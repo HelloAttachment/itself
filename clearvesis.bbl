@@ -68,12 +68,12 @@ Agirre, E.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-K.~Agres%
+Agres%
 , McGregor%
 , Purver%
 \BCBL {}\ \BBA {} Wiggins%
 }{%
-K.~Agres%
+Agres%
 \ \protect \BOthers {.}}{%
 {\protect \APACyear {2015}}%
 }]{%
@@ -102,13 +102,13 @@ Agres, K.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-K\BPBI R.~Agres%
+Agres%
 , McGregor%
 , Rataj%
 , Purver%
 \BCBL {}\ \BBA {} Wiggins%
 }{%
-K\BPBI R.~Agres%
+Agres%
 \ \protect \BOthers {.}}{%
 {\protect \APACyear {2016}}%
 }]{%
@@ -116,7 +116,7 @@ AgresEA2016}
 \APACinsertmetastar {%
 AgresEA2016}%
 \begin{APACrefauthors}%
-Agres, K\BPBI R.%
+Agres, K.%
 , McGregor, S.%
 , Rataj, K.%
 , Purver, M.%
