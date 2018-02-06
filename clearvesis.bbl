@@ -4382,32 +4382,9 @@ Landauer, T\BPBI K.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-R.~Langacker%
+Langacker%
 }{%
-R.~Langacker%
-}{%
-{\protect \APACyear {1991}}%
-}]{%
-Langacker1991}
-\APACinsertmetastar {%
-Langacker1991}%
-\begin{APACrefauthors}%
-Langacker, R.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{1991}.
-\newblock
-\APACrefbtitle {Concept, Image, and Symbol: The Cognitive Basis of Grammar}
-  {Concept, image, and symbol: The cognitive basis of grammar}.
-\newblock
-\APACaddressPublisher{Berlin}{Mouton de Gruyter}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-R\BPBI W.~Langacker%
-}{%
-R\BPBI W.~Langacker%
+Langacker%
 }{%
 {\protect \APACyear {1987}}%
 }]{%
@@ -4425,6 +4402,29 @@ Langacker, R\BPBI W.%
   {Foundations of cognitive grammar: Theoretical prerequisites}.
 \newblock
 \APACaddressPublisher{Stanford, CA}{Stanford University Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Langacker%
+}{%
+Langacker%
+}{%
+{\protect \APACyear {1991}}%
+}]{%
+Langacker1991}
+\APACinsertmetastar {%
+Langacker1991}%
+\begin{APACrefauthors}%
+Langacker, R\BPBI W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1991}.
+\newblock
+\APACrefbtitle {Concept, Image, and Symbol: The Cognitive Basis of Grammar}
+  {Concept, image, and symbol: The cognitive basis of grammar}.
+\newblock
+\APACaddressPublisher{Berlin}{Mouton de Gruyter}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -5260,11 +5260,11 @@ Mikolov, T.%
 
 \bibitem [\protect \citeauthoryear {%
 Mikolov%
-, tau Yih%
+, Yih%
 \BCBL {}\ \BBA {} Zweig%
 }{%
 Mikolov%
-, tau Yih%
+, Yih%
 \BCBL {}\ \BBA {} Zweig%
 }{%
 {\protect \APACyear {2013}}%
@@ -5274,7 +5274,7 @@ MikolovEA2013}
 MikolovEA2013}%
 \begin{APACrefauthors}%
 Mikolov, T.%
-, tau Yih, W.%
+, Yih, W.%
 \BCBL {}\ \BBA {} Zweig, G.%
 \end{APACrefauthors}%
 \unskip\

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.30)  5 FEB 2018 22:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.30)  6 FEB 2018 14:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1365,13 +1365,8 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
- [107]
-Overfull \hbox (69.89664pt too wide) in paragraph at lines 824--825
-\T1/cmr/m/n/10.95 demand geo-met-ri-cally impos-si-ble tri-an-gu-la-tions: to u
-se one of their exam-ples, \T1/cmr/m/it/10.95 nurse:patient::mother:baby
- []
-
-[108] [109] [110]) [111]
+ [107] [108] [109] [110])
+[111]
 \openout2 = `rev5/Five.aux'.
 
  (./rev5/Five.tex
@@ -1478,75 +1473,68 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-
+ [141]
 Overfull \hbox (11.74248pt too wide) in paragraph at lines 804--805
 []\T1/cmr/m/n/10.95 Figure 6.4[] illus-trates word-vectors and generic vec-tors
  pro-jected into exem-plary instances
  []
 
-[141] [142] [143] [144] [145] [146] [147] [148]) [149]
+[142] [143] [144] [145] [146] [147] [148]) [149] [150]
 \openout2 = `rev6/Six.aux'.
 
  (./rev6/Six.tex
 Chapter 7.
-[150
+[151
 
 
 
-]
-Overfull \hbox (14.31259pt too wide) in paragraph at lines 9--10
-\T1/cmr/m/it/10.95 boy:girl :: man:woman\T1/cmr/m/n/10.95 , and, on the other h
-and, \T1/cmr/m/it/10.95 calm:calmly :: lucky:luckily \T1/cmr/m/n/10.95 or \T1/c
-mr/m/it/10.95 aware:unaware
- []
-
-[151] [152]
+] [152] [153]
 Overfull \hbox (2.4216pt too wide) in paragraph at lines 17--52
 [][] [] 
  []
 
-[153] [154] [155] [156] [157] [158] [159]
-Overfull \hbox (1.39085pt too wide) in paragraph at lines 287--287
+[154] [155] [156] [157] [158] [159] [160]
+Overfull \hbox (2.27863pt too wide) in paragraph at lines 287--287
 [][] 
  []
 
 
-Overfull \hbox (1.3398pt too wide) in paragraph at lines 291--291
-[][] 
- []
-
-[160]
-Overfull \hbox (1.39085pt too wide) in paragraph at lines 310--310
-[][] 
- []
-
-
-Overfull \hbox (1.3398pt too wide) in paragraph at lines 314--314
+Overfull \hbox (2.27863pt too wide) in paragraph at lines 291--291
 [][] 
  []
 
 [161]
-Overfull \hbox (1.39085pt too wide) in paragraph at lines 334--334
+Overfull \hbox (2.27863pt too wide) in paragraph at lines 310--310
 [][] 
  []
 
 
-Overfull \hbox (1.3398pt too wide) in paragraph at lines 341--341
+Overfull \hbox (2.27863pt too wide) in paragraph at lines 314--314
 [][] 
  []
 
-[162] [163] [164]
+[162]
+Overfull \hbox (2.27863pt too wide) in paragraph at lines 334--334
+[][] 
+ []
+
+
+Overfull \hbox (2.27863pt too wide) in paragraph at lines 341--341
+[][] 
+ []
+
+[163] [164] [165]
 Overfull \hbox (19.17648pt too wide) in paragraph at lines 398--399
 []\T1/cmr/m/n/10.95 59 adjec-tives and their com-par-a-tive and superla-tive fo
 rms (\T1/cmr/m/it/10.95 good:better :: tough:tougher\T1/cmr/m/n/10.95 ); 
  []
 
-[165] [166] [167] [168] [169] [170]) [171]
+[166] [167] [168] [169] [170] [171]) [172]
 \openout2 = `rev7/Seven.aux'.
 
  (./rev7/Seven.tex
 Chapter 8.
-[172
+[173
 
 
 
@@ -1556,42 +1544,42 @@ Overfull \hbox (9.09557pt too wide) in paragraph at lines 8--9
 ta about word co-occurrences
  []
 
-[173] [174] [175] [176] [177] [178] [179]
+[174] [175] [176] [177] [178] [179] [180]
 Overfull \hbox (5.91814pt too wide) in paragraph at lines 53--54
 \T1/cmr/m/n/10.95 At the begin-ning of Chap-ter 7[], I described anal-ogy as a 
 kind of seman-tic meta-phenomenon,
  []
 
-[180] [181]) [182] (./clearvesis.bbl
+[181] [182]) [183] (./clearvesis.bbl
 Overfull \hbox (20.33397pt too wide) in paragraph at lines 180--198
 \T1/cmr/m/n/10.95 Retrieved from $\T1/cmtt/m/n/10.95 https :// lareviewofbooks 
 [] .org / article / neoliberal [] -tools [] -archives []
  []
 
-[183
+[184
 
 
-] [184] [185] [186] [187] [188]
+] [185] [186] [187] [188] [189]
 Overfull \hbox (16.05075pt too wide) in paragraph at lines 2705--2722
 \T1/cmr/m/it/10.95 Physics\T1/cmr/m/n/10.95 , \T1/cmr/m/it/10.95 42\T1/cmr/m/n/
 10.95 (2), 145--145.  Retrieved from $\T1/cmtt/m/n/10.95 https :// doi [] .org 
 / 10 [] .1023 / A : 1024466313532$
  []
 
-[189]
+[190]
 Overfull \hbox (32.62534pt too wide) in paragraph at lines 2898--2914
 \T1/cmr/m/it/10.95 Sci-ence\T1/cmr/m/n/10.95 , \T1/cmr/m/it/10.95 7\T1/cmr/m/n/
 10.95 (2), 155--170.  Retrieved from $\T1/cmtt/m/n/10.95 http :// dx [] .doi []
  .org / 10 [] .1207 / s15516709cog0702 \
  []
 
-[190] [191] [192] [193] [194] [195] [196] [197] [198] [199] [200]
+[191] [192] [193] [194] [195] [196] [197] [198] [199] [200] [201]
 Overfull \hbox (15.7949pt too wide) in paragraph at lines 7557--7576
 \T1/cmtt/m/n/10.95 computationalcreativity [] .net / iccc2012 / wp [] -content 
 / uploads / 2012 / 05 / 001 [] -Veale []
  []
 
-[201]
+[202]
 Overfull \hbox (3.35886pt too wide) in paragraph at lines 7797--7812
 \T1/cmr/m/n/10.95 Retrieved from $\T1/cmtt/m/n/10.95 http :// web [] .mit [] .e
 du / allanmc / www / whorf [] .scienceandlinguistics []
@@ -1603,7 +1591,7 @@ Overfull \hbox (38.42839pt too wide) in paragraph at lines 8052--8078
 ativity [] -Infrastructure [] -for [] -Online []
  []
 
-) [202] (./clearvesis.aux (./cover.aux) (./toc.aux) (./rev1/One.aux)
+) [203] (./clearvesis.aux (./cover.aux) (./toc.aux) (./rev1/One.aux)
 (./rev2/Two.aux) (./rev3/Three.aux) (./rev3.5/ThreePointFive.aux)
 (./rev4/Four.aux) (./rev5/Five.aux) (./rev6/Six.aux) (./rev7/Seven.aux))
 
@@ -1613,7 +1601,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  29176 strings out of 493029
  691935 string characters out of 6136234
- 1372983 words of memory out of 5000000
+ 1372958 words of memory out of 5000000
  32094 multiletter control sequences out of 15000+600000
  30000 words of font info for 80 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
@@ -1646,10 +1634,10 @@ lic/cm-super/sfti0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti100
 0.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/te
 xmf/fonts/type1/public/cm-super/sftt0900.pfb></usr/share/texmf/fonts/type1/publ
 ic/cm-super/sftt1095.pfb>
-Output written on clearvesis.pdf (217 pages, 1339986 bytes).
+Output written on clearvesis.pdf (218 pages, 1340385 bytes).
 PDF statistics:
- 847 PDF objects out of 1000 (max. 8388607)
- 587 compressed objects within 6 object streams
+ 850 PDF objects out of 1000 (max. 8388607)
+ 589 compressed objects within 6 object streams
  0 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 

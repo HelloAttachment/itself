@@ -60,15 +60,15 @@
 \contentsline {subsection}{\numberline {6.2.3}The Geometry of Coercion}{138}
 \contentsline {subsection}{\numberline {6.2.4}Adding Sentential Context}{143}
 \contentsline {section}{\numberline {6.3}Interpretation and Composition in Context}{147}
-\contentsline {chapter}{\numberline {7}The Geometry of Conceptualisation: Analogies}{150}
-\contentsline {section}{\numberline {7.1}Analogies as Parallel Vectors}{151}
-\contentsline {section}{\numberline {7.2}Contextualising Analogical Geometry}{154}
-\contentsline {subsection}{\numberline {7.2.1}Projecting Probability into Space}{155}
-\contentsline {subsection}{\numberline {7.2.2}Finding Contexts for Analogies}{156}
-\contentsline {subsection}{\numberline {7.2.3}Searching for Solutions to Analogies}{162}
-\contentsline {section}{\numberline {7.3}A Note on the Data}{168}
-\contentsline {chapter}{\numberline {8}Conclusion}{172}
-\contentsline {section}{\numberline {8.1}Summary}{174}
-\contentsline {section}{\numberline {8.2}Outlook}{175}
-\contentsline {section}{\numberline {8.3}Direct Encounters with Meaning}{180}
-\contentsline {chapter}{References}{183}
+\contentsline {chapter}{\numberline {7}The Geometry of Conceptualisation: Analogies}{151}
+\contentsline {section}{\numberline {7.1}Analogies as Parallel Vectors}{152}
+\contentsline {section}{\numberline {7.2}Contextualising Analogical Geometry}{155}
+\contentsline {subsection}{\numberline {7.2.1}Projecting Probability into Space}{156}
+\contentsline {subsection}{\numberline {7.2.2}Finding Contexts for Analogies}{157}
+\contentsline {subsection}{\numberline {7.2.3}Searching for Solutions to Analogies}{163}
+\contentsline {section}{\numberline {7.3}A Note on the Data}{169}
+\contentsline {chapter}{\numberline {8}Conclusion}{173}
+\contentsline {section}{\numberline {8.1}Summary}{175}
+\contentsline {section}{\numberline {8.2}Outlook}{176}
+\contentsline {section}{\numberline {8.3}Direct Encounters with Meaning}{181}
+\contentsline {chapter}{References}{184}
