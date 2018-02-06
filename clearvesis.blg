@@ -21,52 +21,52 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 18824 items from 5000.
+Reallocated field_info (elt_size=4) to 18872 items from 5000.
 Database file #1: Mega.bib.bib
 Warning--I'm ignoring Sahlgren2008's extra "volume" field
---line 4055 of file Mega.bib.bib
+--line 4007 of file Mega.bib.bib
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
 Warning--No address in CarnapEA1952
 Warning--No address in VonNeumann1945
-You've used 288 entries,
+You've used 289 entries,
             6951 wiz_defined-function locations,
-            3186 strings with 62847 characters,
-and the built_in function-call counts, 542429 in all, are:
-= -- 69721
-> -- 4478
-< -- 23492
-+ -- 22407
-- -- 578
-* -- 32056
-:= -- 90266
-add.period$ -- 1388
-call.type$ -- 288
-change.case$ -- 5066
+            3157 strings with 61925 characters,
+and the built_in function-call counts, 543374 in all, are:
+= -- 69863
+> -- 4497
+< -- 23647
++ -- 22570
+- -- 580
+* -- 32082
+:= -- 90747
+add.period$ -- 1389
+call.type$ -- 289
+change.case$ -- 5081
 chr.to.int$ -- 0
-cite$ -- 578
-duplicate$ -- 15152
-empty$ -- 22854
-format.name$ -- 6666
-if$ -- 108534
+cite$ -- 580
+duplicate$ -- 15129
+empty$ -- 22698
+format.name$ -- 6707
+if$ -- 108579
 int.to.chr$ -- 0
-int.to.str$ -- 872
+int.to.str$ -- 875
 missing$ -- 0
-newline$ -- 7335
-num.names$ -- 2366
-pop$ -- 11744
+newline$ -- 7281
+num.names$ -- 2374
+pop$ -- 11752
 preamble$ -- 1
-purify$ -- 1175
+purify$ -- 1177
 quote$ -- 0
-skip$ -- 38391
+skip$ -- 38387
 stack$ -- 0
-substring$ -- 25406
-swap$ -- 8649
-text.length$ -- 1126
+substring$ -- 25562
+swap$ -- 8641
+text.length$ -- 1125
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 30650
+type$ -- 30602
 warning$ -- 2
-while$ -- 2432
+while$ -- 2444
 width$ -- 0
-write$ -- 8755
+write$ -- 8712
 (There were 3 warnings)

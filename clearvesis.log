@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.30)  6 FEB 2018 14:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.30)  6 FEB 2018 17:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1559,39 +1559,32 @@ Overfull \hbox (20.33397pt too wide) in paragraph at lines 180--198
 [184
 
 
-] [185] [186] [187] [188] [189]
-Overfull \hbox (16.05075pt too wide) in paragraph at lines 2705--2722
-\T1/cmr/m/it/10.95 Physics\T1/cmr/m/n/10.95 , \T1/cmr/m/it/10.95 42\T1/cmr/m/n/
-10.95 (2), 145--145.  Retrieved from $\T1/cmtt/m/n/10.95 https :// doi [] .org 
-/ 10 [] .1023 / A : 1024466313532$
+] [185] [186] [187] [188] [189] [190] [191] [192] [193] [194] [195]
+[196] [197]
+Overfull \hbox (1.42403pt too wide) in paragraph at lines 6230--6247
+\T1/cmr/m/n/10.95 guage devel-op-ment from an eco-log-i-cal per-spec-tive: Eco-
+log-i-cally valid ways to abstract
  []
 
-[190]
-Overfull \hbox (32.62534pt too wide) in paragraph at lines 2898--2914
-\T1/cmr/m/it/10.95 Sci-ence\T1/cmr/m/n/10.95 , \T1/cmr/m/it/10.95 7\T1/cmr/m/n/
-10.95 (2), 155--170.  Retrieved from $\T1/cmtt/m/n/10.95 http :// dx [] .doi []
- .org / 10 [] .1207 / s15516709cog0702 \
- []
-
-[191] [192] [193] [194] [195] [196] [197] [198] [199] [200] [201]
-Overfull \hbox (15.7949pt too wide) in paragraph at lines 7557--7576
+[198] [199] [200]
+Overfull \hbox (15.7949pt too wide) in paragraph at lines 7486--7505
 \T1/cmtt/m/n/10.95 computationalcreativity [] .net / iccc2012 / wp [] -content 
 / uploads / 2012 / 05 / 001 [] -Veale []
  []
 
-[202]
-Overfull \hbox (3.35886pt too wide) in paragraph at lines 7797--7812
+[201]
+Overfull \hbox (3.35886pt too wide) in paragraph at lines 7717--7732
 \T1/cmr/m/n/10.95 Retrieved from $\T1/cmtt/m/n/10.95 http :// web [] .mit [] .e
 du / allanmc / www / whorf [] .scienceandlinguistics []
  []
 
 
-Overfull \hbox (38.42839pt too wide) in paragraph at lines 8052--8078
-\T1/cmtt/m/n/10.95 wp [] -content / uploads / 2016 / 01 / Computational [] -Cre
-ativity [] -Infrastructure [] -for [] -Online []
+Overfull \hbox (44.08676pt too wide) in paragraph at lines 7968--7993
+\T1/cmtt/m/n/10.95 .computationalcreativity [] .net / iccc2016 / wp [] -content
+ / uploads / 2016 / 01 / Computational []
  []
 
-) [203] (./clearvesis.aux (./cover.aux) (./toc.aux) (./rev1/One.aux)
+[202]) [203] (./clearvesis.aux (./cover.aux) (./toc.aux) (./rev1/One.aux)
 (./rev2/Two.aux) (./rev3/Three.aux) (./rev3.5/ThreePointFive.aux)
 (./rev4/Four.aux) (./rev5/Five.aux) (./rev6/Six.aux) (./rev7/Seven.aux))
 
@@ -1599,10 +1592,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 29176 strings out of 493029
- 691935 string characters out of 6136234
- 1372958 words of memory out of 5000000
- 32094 multiletter control sequences out of 15000+600000
+ 29181 strings out of 493029
+ 692081 string characters out of 6136234
+ 1373064 words of memory out of 5000000
+ 32099 multiletter control sequences out of 15000+600000
  30000 words of font info for 80 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  61i,21n,103p,8123b,3847s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1634,7 +1627,7 @@ lic/cm-super/sfti0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti100
 0.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/te
 xmf/fonts/type1/public/cm-super/sftt0900.pfb></usr/share/texmf/fonts/type1/publ
 ic/cm-super/sftt1095.pfb>
-Output written on clearvesis.pdf (218 pages, 1340385 bytes).
+Output written on clearvesis.pdf (218 pages, 1338413 bytes).
 PDF statistics:
  850 PDF objects out of 1000 (max. 8388607)
  589 compressed objects within 6 object streams

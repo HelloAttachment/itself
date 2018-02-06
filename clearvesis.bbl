@@ -58,10 +58,10 @@ Agirre, E.%
   relatedness using distributional and {WordNet}-based approaches}.{\BBCQ}
 \newblock
 \BIn{} \APACrefbtitle {Proceedings of Human Language Technologies: The 2009
-  Annual Conference of the North American Chapter of the Association for
-  Computational Linguistics} {Proceedings of human language technologies: The
-  2009 annual conference of the north american chapter of the association for
-  computational linguistics}\ (\BPGS\ 19--27).
+  Annual Conference of the {N}orth {A}merican Chapter of the {A}ssociation for
+  {C}omputational {L}inguistics} {Proceedings of human language technologies:
+  The 2009 annual conference of the {N}orth {A}merican chapter of the
+  {A}ssociation for {C}omputational {L}inguistics}\ (\BPGS\ 19--27).
 \newblock
 \begin{APACrefURL} \url{http://dl.acm.org/citation.cfm?id=1620754.1620758}
   \end{APACrefURL}
@@ -94,9 +94,9 @@ Agres, K.%
   Semantics to Conceptual Spaces} {Conceptualising creativity: From
   distributional semantics to conceptual spaces}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the 6th International Conference on
-  Computational Creativity.} {Proceedings of the 6th international conference
-  on computational creativity.}
+\BIn{} \APACrefbtitle {{Proceedings of the 6th International Conference on
+  Computational Creativity}.} {{Proceedings of the 6th International Conference
+  on Computational Creativity}.}
 \newblock
 \APACaddressPublisher{Park City, UT}{}.
 \PrintBackRefs{\CurrentBib}
@@ -130,9 +130,9 @@ Agres, K.%
   semantics vector space models} {Modeling metaphor perception with
   distributional semantics vector space models}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Workshop on Computational Creativity, Concept Invention,
-  and General Intelligence.} {Workshop on computational creativity, concept
-  invention, and general intelligence.}
+\BIn{} \APACrefbtitle {{Workshop on Computational Creativity, Concept
+  Invention, and General Intelligence}.} {{Workshop on Computational
+  Creativity, Concept Invention, and General Intelligence}.}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -281,7 +281,7 @@ Arzouan, Y.%
   metaphor comprehension.} {Brainwaves are stethoscopes: Erp correlates of
   novel metaphor comprehension.}{\BBCQ}
 \newblock
-\APACjournalVolNumPages{Brain research}{1160}{}{69--81}.
+\APACjournalVolNumPages{Brain Research}{1160}{}{69--81}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -358,13 +358,10 @@ Banjade, R.%
   Similarity by Combining Different Methods} {Lemon and tea are not similar:
   Measuring word-to-word similarity by combining different methods}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Computational Linguistics and Intelligent Text
-  Processing - 16th International Conference} {Computational linguistics and
-  intelligent text processing - 16th international conference}\ (\BPGS\
+\BIn{} \APACrefbtitle {{Computational Linguistics and Intelligent Text
+  Processing - 16th International Conference}} {{Computational Linguistics and
+  Intelligent Text Processing - 16th International Conference}}\ (\BPGS\
   335--346).
-\newblock
-\begin{APACrefURL} \url{https://doi.org/10.1007/978-3-319-18111-0\_25}
-  \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.1007/978-3-319-18111-0\_25} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
@@ -390,8 +387,8 @@ Barnden, J\BPBI A.%
   each other} {Metaphor and artificial intelligence: Why they matter to each
   other}.{\BBCQ}
 \newblock
-\BIn{} R\BPBI W.~{Gibbs Jr.}\ (\BED), \APACrefbtitle {The Cambridge Handbook of
-  Metaphor and Thought} {The cambridge handbook of metaphor and thought}\
+\BIn{} R\BPBI W.~{Gibbs Jr.}\ (\BED), \APACrefbtitle {{The Cambridge Handbook
+  of Metaphor and Thought}} {{The Cambridge Handbook of Metaphor and Thought}}\
   (\BPGS\ 311--338).
 \newblock
 \APACaddressPublisher{}{Cambridge Univeristy Press}.
@@ -422,12 +419,9 @@ Barnden, J\BPBI A.%
   context system that combines belief reasoning, metaphor-based reasoning and
   uncertainty handling}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Modeling and Using Context: Second International and
-  Interdisciplinary Conference} {Modeling and using context: Second
-  international and interdisciplinary conference}\ (\BPGS\ 28--41).
-\newblock
-\begin{APACrefURL} \url{https://doi.org/10.1007/3-540-48315-2\_3}
-  \end{APACrefURL}
+\BIn{} \APACrefbtitle {"Modeling and Using Context: Second International and
+  Interdisciplinary Conference"} {"modeling and using context: Second
+  international and interdisciplinary conference"}\ (\BPGS\ 28--41).
 \newblock
 \begin{APACrefDOI} \doi{10.1007/3-540-48315-2\_3} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
@@ -459,9 +453,9 @@ Baroni, M.%
   semantics} {Entailment above the word level in distributional
   semantics}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {{EACL} 2012, 13th Conference of the European Chapter of
-  the Association for Computational Linguistics} {{EACL} 2012, 13th conference
-  of the european chapter of the association for computational linguistics}\
+\BIn{} \APACrefbtitle {{EACL 2012, 13th Conference of the European Chapter of
+  the Association for Computational Linguistics}} {{EACL 2012, 13th Conference
+  of the European Chapter of the Association for Computational Linguistics}}\
   (\BPGS\ 23--32).
 \newblock
 \begin{APACrefURL} \url{http://aclweb.org/anthology-new/E/E12/E12-1004.pdf}
@@ -527,9 +521,9 @@ Baroni, M.%
   predict! a systematic comparison of context-counting vs. context-predicting
   semantic vectors}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {52nd Annual Meeting of the Association for Computational
-  Linguistics, ACL 2014} {52nd annual meeting of the association for
-  computational linguistics, acl 2014}\ (\BPGS\ 238--247).
+\BIn{} \APACrefbtitle {{52nd Annual Meeting of the Association for
+  Computational Linguistics, ACL 2014}} {{52nd Annual Meeting of the
+  Association for Computational Linguistics, ACL 2014}}\ (\BPGS\ 238--247).
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -584,9 +578,9 @@ Baroni, M.%
   adjectives are matrices: Representing adjective-noun constructions in
   semantic space}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the 2010 Conference on Empirical Methods
-  in Natural Language Processing} {Proceedings of the 2010 conference on
-  empirical methods in natural language processing}\ (\BPGS\ 1183--1193).
+\BIn{} \APACrefbtitle {{Proceedings of the 2010 Conference on Empirical Methods
+  in Natural Language Processing}} {{Proceedings of the 2010 Conference on
+  Empirical Methods in Natural Language Processing}}\ (\BPGS\ 1183--1193).
 \newblock
 \begin{APACrefURL} \url{http://dl.acm.org/citation.cfm?id=1870658.1870773}
   \end{APACrefURL}
@@ -612,10 +606,10 @@ Barsalou, L\BPBI W.%
 {\BBOQ}\APACrefatitle {Frames, concepts, and conceptual fields} {Frames,
   concepts, and conceptual fields}.{\BBCQ}
 \newblock
-\BIn{} A.~Lehrer\ \BBA {} E\BPBI F.~Kittay\ (\BEDS), \APACrefbtitle {Frames,
-  Fields, and Contrasts: New Essays in Semantic and Lexical Organization}
-  {Frames, fields, and contrasts: New essays in semantic and lexical
-  organization}\ (\BPGS\ 21--74).
+\BIn{} A.~Lehrer\ \BBA {} E\BPBI F.~Kittay\ (\BEDS), \APACrefbtitle {{Frames,
+  Fields, and Contrasts: New Essays in Semantic and Lexical Organization}}
+  {{Frames, Fields, and Contrasts: New Essays in Semantic and Lexical
+  Organization}}\ (\BPGS\ 21--74).
 \newblock
 \APACaddressPublisher{Hillsdale, N.J.}{Lawrence Erlbaum Associates}.
 \newblock
@@ -645,7 +639,8 @@ Barsalou, L\BPBI W.%
   a compositional system of perceptual symbols}.{\BBCQ}
 \newblock
 \BIn{} A.~Collins, S.~Gathercole\BCBL {}\ \BBA {} M.~Conway\ (\BEDS),
-  \APACrefbtitle {Theories of memory} {Theories of memory}\ (\BPGS\ 29--101).
+  \APACrefbtitle {{Theories of memory}} {{Theories of memory}}\ (\BPGS\
+  29--101).
 \newblock
 \APACaddressPublisher{London}{Lawrence Erlbaum Associates}.
 \PrintBackRefs{\CurrentBib}
@@ -697,9 +692,9 @@ Barsalou, L\BPBI W.%
 {\BBOQ}\APACrefatitle {Concepts and meaning} {Concepts and meaning}.{\BBCQ}
 \newblock
 \BIn{} K.~Beals, G.~Cooke, D.~Kathman, K.~McCullough, S.~Kita\BCBL {}\ \BBA {}
-  D.~Testen\ (\BEDS), \APACrefbtitle {Chicago Linguistics Society 29: Papers
-  from the Parasession on Conceptual Representations} {Chicago linguistics
-  society 29: Papers from the parasession on conceptual representations}\
+  D.~Testen\ (\BEDS), \APACrefbtitle {{Chicago Linguistics Society 29: Papers
+  from the Parasession on Conceptual Representations}} {{Chicago Linguistics
+  Society 29: Papers from the Parasession on Conceptual Representations}}\
   (\BPGS\ 23--61).
 \newblock
 \APACaddressPublisher{Chicago}{Chicago Linguistics Society}.
@@ -727,7 +722,7 @@ Barwise, J.%
 \newblock
 \APACrefYear{1983}.
 \newblock
-\APACrefbtitle {Situations and Attitudes} {Situations and attitudes}.
+\APACrefbtitle {{Situations and Attitudes}} {{Situations and Attitudes}}.
 \newblock
 \APACaddressPublisher{Cambridge, MA}{MIT Press}.
 \PrintBackRefs{\CurrentBib}
@@ -765,8 +760,7 @@ Basharin, G\BPBI P.%
 \APACrefnote{Special Issue on the Conference on the Numerical Solution of
   Markov Chains 2003}
 \newblock
-\begin{APACrefDOI} \doi{http://dx.doi.org/10.1016/j.laa.2003.12.041}
-  \end{APACrefDOI}
+\begin{APACrefDOI} \doi{10.1016/j.laa.2003.12.041} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -846,7 +840,7 @@ Birke, J.%
   recognition of nonliteral language} {A clustering approach for nearly
   unsupervised recognition of nonliteral language}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of EACL-06} {Proceedings of eacl-06}\
+\BIn{} \APACrefbtitle {{Proceedings of EACL-06}} {{Proceedings of EACL-06}}\
   (\BPGS\ 329--336).
 \PrintBackRefs{\CurrentBib}
 
@@ -896,8 +890,8 @@ Black, M.%
 \newblock
 {\BBOQ}\APACrefatitle {More about Metaphor} {More about metaphor}.{\BBCQ}
 \newblock
-\BIn{} A.~Ortony\ (\BED), \APACrefbtitle {Metaphor and Thought} {Metaphor and
-  thought}\ (\PrintOrdinal{2nd}\ \BEd, \BPG~19-41).
+\BIn{} A.~Ortony\ (\BED), \APACrefbtitle {{Metaphor and Thought}} {{Metaphor
+  and Thought}}\ (\PrintOrdinal{2nd}\ \BEd, \BPGS\ 19--41).
 \newblock
 \APACaddressPublisher{}{Cambridge University Press}.
 \PrintBackRefs{\CurrentBib}
@@ -923,7 +917,7 @@ Blei, D\BPBI M.%
 \newblock
 \APACrefYearMonthDay{2003}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Latent Dirichlet Allocation} {Latent dirichlet
+{\BBOQ}\APACrefatitle {Latent {D}irichlet Allocation} {Latent {D}irichlet
   allocation}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Journal of Machine Learning Research}{3}{}{993--1022}.
@@ -949,8 +943,8 @@ Boden, M\BPBI A.%
 \newblock
 \APACrefYear{1990}.
 \newblock
-\APACrefbtitle {The Creative Mind: Myths and Mechanisms} {The creative mind:
-  Myths and mechanisms}.
+\APACrefbtitle {{The Creative Mind: Myths and Mechanisms}} {{The Creative Mind:
+  Myths and Mechanisms}}.
 \newblock
 \APACaddressPublisher{London}{Weidenfeld and Nicolson}.
 \PrintBackRefs{\CurrentBib}
@@ -972,8 +966,8 @@ Boden, M\BPBI A.%
 \newblock
 \APACrefYear{2006}.
 \newblock
-\APACrefbtitle {Mind as Machine: A History of Cognitive Science} {Mind as
-  machine: A history of cognitive science}.
+\APACrefbtitle {{Mind as Machine: A History of Cognitive Science}} {{Mind as
+  Machine: A History of Cognitive Science}}.
 \newblock
 \APACaddressPublisher{Oxford}{Clarendon}.
 \PrintBackRefs{\CurrentBib}
@@ -995,8 +989,9 @@ Bostrom, N.%
 \newblock
 \APACrefYear{2014}.
 \newblock
-\APACrefbtitle {Superintelligence: Paths, Dangers, Strategies}
-  {Superintelligence: Paths, dangers, strategies}\ (\PrintOrdinal{1st}\ \BEd).
+\APACrefbtitle {{Superintelligence: Paths, Dangers, Strategies}}
+  {{Superintelligence: Paths, Dangers, Strategies}}\ (\PrintOrdinal{1st}\
+  \BEd).
 \newblock
 \APACaddressPublisher{Oxford, UK}{Oxford University Press}.
 \PrintBackRefs{\CurrentBib}
@@ -1051,8 +1046,8 @@ Brentano, F.%
 \newblock
 \APACrefYear{1874/1995}.
 \newblock
-\APACrefbtitle {Psychology from an Empirical Standpoint} {Psychology from an
-  empirical standpoint}.
+\APACrefbtitle {{Psychology from an Empirical Standpoint}} {{Psychology from an
+  Empirical Standpoint}}.
 \newblock
 \APACaddressPublisher{London}{Routledge}.
 \newblock
@@ -1109,10 +1104,10 @@ Bruni, E.%
 {\BBOQ}\APACrefatitle {Distributional Semantics in Technicolor} {Distributional
   semantics in technicolor}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the 50th Annual Meeting of the
-  Association for Computational Linguistics: Long Papers - Volume 1}
-  {Proceedings of the 50th annual meeting of the association for computational
-  linguistics: Long papers - volume 1}\ (\BPGS\ 136--145).
+\BIn{} \APACrefbtitle {{Proceedings of the 50th Annual Meeting of the
+  Association for Computational Linguistics: Long Papers - Volume 1}}
+  {{Proceedings of the 50th Annual Meeting of the Association for Computational
+  Linguistics: Long Papers - Volume 1}}\ (\BPGS\ 136--145).
 \newblock
 \begin{APACrefURL} \url{http://dl.acm.org/citation.cfm?id=2390524.2390544}
   \end{APACrefURL}
@@ -1176,9 +1171,6 @@ Bullinaria, J\BPBI A.%
 \newblock
 \APACjournalVolNumPages{Behavior Research Methods}{44}{3}{890--907}.
 \newblock
-\begin{APACrefURL} \url{http://dx.doi.org/10.3758/s13428-011-0183-8}
-  \end{APACrefURL}
-\newblock
 \begin{APACrefDOI} \doi{10.3758/s13428-011-0183-8} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
@@ -1206,7 +1198,7 @@ Burgess, C.%
   Context Space} {Modelling parsing constraints with high-dimensional context
   space}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{Language and Cognitive processes}{12}{2/3}{177--210}.
+\APACjournalVolNumPages{Language and Cognitive Processes}{12}{2/3}{177--210}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1226,8 +1218,8 @@ Carnap, R.%
 \newblock
 \APACrefYear{1947}.
 \newblock
-\APACrefbtitle {Meaning and Necessity: A Study in Semantics and Modal Logic}
-  {Meaning and necessity: A study in semantics and modal logic}.
+\APACrefbtitle {{Meaning and Necessity: A Study in Semantics and Modal Logic}}
+  {{Meaning and Necessity: A Study in Semantics and Modal Logic}}.
 \newblock
 \APACaddressPublisher{}{University of Chicago Press}.
 \PrintBackRefs{\CurrentBib}
@@ -1303,8 +1295,8 @@ Carston, R.%
 {\BBOQ}\APACrefatitle {Metaphor and the Literal/Nonliteral Distinction}
   {Metaphor and the literal/nonliteral distinction}.{\BBCQ}
 \newblock
-\BIn{} K.~Allan\ \BBA {} K\BPBI M.~Jaszczolt\ (\BEDS), \APACrefbtitle {The
-  Cambridge Handbook of Pragmatics} {The cambridge handbook of pragmatics}\
+\BIn{} K.~Allan\ \BBA {} K\BPBI M.~Jaszczolt\ (\BEDS), \APACrefbtitle {{The
+  Cambridge Handbook of Pragmatics}} {{The Cambridge Handbook of Pragmatics}}\
   (\BPGS\ 469--492).
 \newblock
 \APACaddressPublisher{}{Cambridge University Press}.
@@ -1333,9 +1325,9 @@ Casasanto, D.%
 {\BBOQ}\APACrefatitle {All Concepts Are Ad Hoc Concepts} {All concepts are ad
   hoc concepts}.{\BBCQ}
 \newblock
-\BIn{} E.~Margolis\ \BBA {} S.~Laurence\ (\BEDS), \APACrefbtitle {The
-  Conceptual Mind: New Directions in the Study of Concepts.} {The conceptual
-  mind: New directions in the study of concepts.}
+\BIn{} E.~Margolis\ \BBA {} S.~Laurence\ (\BEDS), \APACrefbtitle {{The
+  Conceptual Mind: New Directions in the Study of Concepts}.} {{The Conceptual
+  Mind: New Directions in the Study of Concepts}.}
 \newblock
 \APACaddressPublisher{Cambridge, MA}{MIT Press}.
 \PrintBackRefs{\CurrentBib}
@@ -1357,7 +1349,7 @@ Chalmers, D\BPBI J.%
 \newblock
 \APACrefYear{1996}.
 \newblock
-\APACrefbtitle {The Conscious Mind} {The conscious mind}.
+\APACrefbtitle {{The Conscious Mind}} {{The Conscious Mind}}.
 \newblock
 \APACaddressPublisher{}{Oxford University Press}.
 \PrintBackRefs{\CurrentBib}
@@ -1379,8 +1371,8 @@ Chemero, A.%
 \newblock
 \APACrefYear{2009}.
 \newblock
-\APACrefbtitle {Radical Embodied Cognitive Science} {Radical embodied cognitive
-  science}.
+\APACrefbtitle {{Radical Embodied Cognitive Science}} {{Radical Embodied
+  Cognitive Science}}.
 \newblock
 \APACaddressPublisher{Cambridge, MA}{The MIT Press}.
 \PrintBackRefs{\CurrentBib}
@@ -1455,8 +1447,8 @@ Chomsky, N.%
 \newblock
 \APACrefYear{1986}.
 \newblock
-\APACrefbtitle {Knowledge of Language: Its Nature, Origins, and Use} {Knowledge
-  of language: Its nature, origins, and use}.
+\APACrefbtitle {{Knowledge of Language: Its Nature, Origins, and Use}}
+  {{Knowledge of Language: Its Nature, Origins, and Use}}.
 \newblock
 \APACaddressPublisher{New York, NY}{Praeger}.
 \PrintBackRefs{\CurrentBib}
@@ -1504,8 +1496,8 @@ Clark, A.%
 \newblock
 \APACrefYear{1997}.
 \newblock
-\APACrefbtitle {Being There: Putting Brain, Body, and World Together Again}
-  {Being there: Putting brain, body, and world together again}.
+\APACrefbtitle {{Being There: Putting Brain, Body, and World Together Again}}
+  {{Being There: Putting Brain, Body, and World Together Again}}.
 \newblock
 \APACaddressPublisher{Cambridge, MA}{MIT Press}.
 \PrintBackRefs{\CurrentBib}
@@ -1576,9 +1568,9 @@ Clark, S.%
 {\BBOQ}\APACrefatitle {Vector Space Models of Lexical Meaning} {Vector space
   models of lexical meaning}.{\BBCQ}
 \newblock
-\BIn{} S.~Lappin\ \BBA {} C.~Fox\ (\BEDS), \APACrefbtitle {The Handbook of
-  Contemporary Semantic Theory} {The handbook of contemporary semantic theory}\
-  (\BPGS\ 493--522).
+\BIn{} S.~Lappin\ \BBA {} C.~Fox\ (\BEDS), \APACrefbtitle {{The Handbook of
+  Contemporary Semantic Theory}} {{The Handbook of Contemporary Semantic
+  Theory}}\ (\BPGS\ 493--522).
 \newblock
 \APACaddressPublisher{}{Wiley-Blackwell}.
 \newblock
@@ -1635,9 +1627,6 @@ Coeckelbergh, M.%
 \newblock
 \APACjournalVolNumPages{Philosophy {\&} Technology}{}{}{}.
 \newblock
-\begin{APACrefURL} \url{https://doi.org/10.1007/s13347-016-0231-5}
-  \end{APACrefURL}
-\newblock
 \begin{APACrefDOI} \doi{10.1007/s13347-016-0231-5} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
@@ -1663,9 +1652,6 @@ Cohen, J.%
 \newblock
 \APACjournalVolNumPages{Educational and Psychological
   Measurement}{20}{1}{37--46}.
-\newblock
-\begin{APACrefURL} \url{https://doi.org/10.1177/001316446002000104}
-  \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.1177/001316446002000104} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
@@ -1699,9 +1685,6 @@ Collobert, R.%
   Machine Learning} {Proceedings of the 25th international conference on
   machine learning}\ (\BPGS\ 160--167).
 \newblock
-\begin{APACrefURL} \url{http://doi.acm.org/10.1145/1390156.1390177}
-  \end{APACrefURL}
-\newblock
 \begin{APACrefDOI} \doi{10.1145/1390156.1390177} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
@@ -1726,9 +1709,9 @@ Colton, S.%
   computational systems} {Creativity versus the perception of creativity in
   computational systems}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the AAAI Spring Symposium on Creative
-  Intelligent Systems.} {Proceedings of the aaai spring symposium on creative
-  intelligent systems.}
+\BIn{} \APACrefbtitle {{Proceedings of the AAAI Spring Symposium on Creative
+  Intelligent Systems}.} {{Proceedings of the AAAI Spring Symposium on Creative
+  Intelligent Systems}.}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1758,9 +1741,9 @@ Colton, S.%
   Computational Creativity} {On acid drops and teardrops: Observer issues in
   computational creativity}.{\BBCQ}
 \newblock
-\BIn{} R.~Kibble\ (\BED), \APACrefbtitle {Proceedings of the 50th Anniversary
-  Convention of the AISB.} {Proceedings of the 50th anniversary convention of
-  the aisb.}
+\BIn{} R.~Kibble\ (\BED), \APACrefbtitle {{Proceedings of the 50th Anniversary
+  Convention of the AISB}.} {{Proceedings of the 50th Anniversary Convention of
+  the AISB}.}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1790,9 +1773,10 @@ Cooper, R.%
   interpretation} {A probabilistic rich type theory for semantic
   interpretation}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the EACL 2014 Workshop on Type Theory and
-  Natural Language Semantics (TTNLS)} {Proceedings of the eacl 2014 workshop on
-  type theory and natural language semantics (ttnls)}\ (\BPGS\ 72--79).
+\BIn{} \APACrefbtitle {{Proceedings of the EACL 2014 Workshop on Type Theory
+  and Natural Language Semantics (TTNLS)}} {{Proceedings of the EACL 2014
+  Workshop on Type Theory and Natural Language Semantics (TTNLS)}}\ (\BPGS\
+  72--79).
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1841,7 +1825,7 @@ Croft, W.%
 \newblock
 \APACrefYear{2004}.
 \newblock
-\APACrefbtitle {Cognitive Linguistics} {Cognitive linguistics}.
+\APACrefbtitle {{Cognitive Linguistics}} {{Cognitive Linguistics}}.
 \newblock
 \APACaddressPublisher{}{Cambridge University Press}.
 \newblock
@@ -1868,9 +1852,9 @@ Davidson, D.%
 {\BBOQ}\APACrefatitle {On the Very Idea of a Conceptual Scheme} {On the very
   idea of a conceptual scheme}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings and Addresses of the American Philosophical
-  Association} {Proceedings and addresses of the american philosophical
-  association}\ (\BVOL~47, \BPGS\ 5--20).
+\BIn{} \APACrefbtitle {{Proceedings and Addresses of the American Philosophical
+  Association}} {{Proceedings and Addresses of the American Philosophical
+  Association}}\ (\BVOL~47, \BPGS\ 5--20).
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1892,8 +1876,8 @@ Davidson, D.%
 \newblock
 {\BBOQ}\APACrefatitle {What Metaphors Mean} {What metaphors mean}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Inquiries into Truth and Interpretation} {Inquiries into
-  truth and interpretation}\ (\PrintOrdinal{2nd}\ \BEd).
+\BIn{} \APACrefbtitle {{Inquiries into Truth and Interpretation}} {{Inquiries
+  into Truth and Interpretation}}\ (\PrintOrdinal{2nd}\ \BEd).
 \newblock
 \APACaddressPublisher{Oxford}{Clarendon Press}.
 \PrintBackRefs{\CurrentBib}
@@ -1915,8 +1899,8 @@ Deacon, T\BPBI W.%
 \newblock
 \APACrefYear{2011}.
 \newblock
-\APACrefbtitle {Incomplete Nature: How Mind Emerged from Matter} {Incomplete
-  nature: How mind emerged from matter}.
+\APACrefbtitle {{Incomplete Nature: How Mind Emerged from Matter}} {{Incomplete
+  Nature: How Mind Emerged from Matter}}.
 \newblock
 \APACaddressPublisher{New York, NY}{W. W. Norton \& Company}.
 \PrintBackRefs{\CurrentBib}
@@ -1970,7 +1954,7 @@ Dennett, D\BPBI C.%
 \newblock
 \APACrefYear{1991}.
 \newblock
-\APACrefbtitle {Consciousness Explained} {Consciousness explained}.
+\APACrefbtitle {{Consciousness Explained}} {{Consciousness Explained}}.
 \newblock
 \APACaddressPublisher{London}{The Penguin Press}.
 \PrintBackRefs{\CurrentBib}
@@ -2002,9 +1986,6 @@ Derrac, J.%
 \newblock
 \APACjournalVolNumPages{Artificial Intelligence}{228}{}{66--94}.
 \newblock
-\begin{APACrefURL} \url{http://dx.doi.org/10.1016/j.artint.2015.07.002}
-  \end{APACrefURL}
-\newblock
 \begin{APACrefDOI} \doi{10.1016/j.artint.2015.07.002} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
@@ -2025,7 +2006,8 @@ de Saussure, F.%
 \newblock
 \APACrefYear{1959}.
 \newblock
-\APACrefbtitle {Course in General Linguistics} {Course in general linguistics}.
+\APACrefbtitle {{Course in General Linguistics}} {{Course in General
+  Linguistics}}.
 \newblock
 \APACaddressPublisher{New York}{The Philosophical Library}.
 \newblock
@@ -2049,8 +2031,8 @@ Descartes, R.%
 \newblock
 \APACrefYear{1641/1911}.
 \newblock
-\APACrefbtitle {The Philosophical Works of Descartes} {The philosophical works
-  of descartes}.
+\APACrefbtitle {{The Philosophical Works of Descartes}} {{The Philosophical
+  Works of Descartes}}.
 \newblock
 \APACaddressPublisher{}{Cambridge University Press}.
 \newblock
@@ -2081,10 +2063,10 @@ dos Santos, C.%
   Analysis of Short Texts} {Deep convolutional neural networks for sentiment
   analysis of short texts}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of COLING 2014, the 25th International
-  Conference on Computational Linguistics: Technical Papers} {Proceedings of
-  coling 2014, the 25th international conference on computational linguistics:
-  Technical papers}\ (\BPGS\ 69--78).
+\BIn{} \APACrefbtitle {{Proceedings of COLING 2014, the 25th International
+  Conference on Computational Linguistics: Technical Papers}} {{Proceedings of
+  COLING 2014, the 25th International Conference on Computational Linguistics:
+  Technical Papers}}\ (\BPGS\ 69--78).
 \newblock
 \APACaddressPublisher{Dublin, Ireland}{}.
 \newblock
@@ -2109,8 +2091,8 @@ Dretske, F\BPBI I.%
 \newblock
 \APACrefYear{1981}.
 \newblock
-\APACrefbtitle {Knowledge and the Flow of Information} {Knowledge and the flow
-  of information}.
+\APACrefbtitle {{Knowledge and the Flow of Information}} {{Knowledge and the
+  Flow of Information}}.
 \newblock
 \APACaddressPublisher{}{CSLI Publications}.
 \PrintBackRefs{\CurrentBib}
@@ -2137,9 +2119,6 @@ Dreyfus, H\BPBI L.%
 \newblock
 \APACjournalVolNumPages{Minds and Machines}{22}{2}{87--99}.
 \newblock
-\begin{APACrefURL} \url{http://dx.doi.org/10.1007/s11023-012-9276-0}
-  \end{APACrefURL}
-\newblock
 \begin{APACrefDOI} \doi{10.1007/s11023-012-9276-0} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
@@ -2160,8 +2139,8 @@ Dummett, M.%
 \newblock
 \APACrefYear{1981}.
 \newblock
-\APACrefbtitle {Frege: Philosophy of Language} {Frege: Philosophy of language}\
-  (\PrintOrdinal{2nd}\ \BEd).
+\APACrefbtitle {{Frege: Philosophy of Language}} {{Frege: Philosophy of
+  Language}}\ (\PrintOrdinal{2nd}\ \BEd).
 \newblock
 \APACaddressPublisher{London}{Duckworth}.
 \PrintBackRefs{\CurrentBib}
@@ -2187,17 +2166,12 @@ Dunn, J.%
   Identification Systems} {Evaluating the premises and results of four metaphor
   identification systems}.{\BBCQ}
 \newblock
-\BIn{} A.~Gelbukh\ (\BED), \APACrefbtitle {Computational Linguistics and
-  Intelligent Text Processing: 14th International Conference, CICLing 2013,
-  Samos, Greece, March 24-30, 2013, Proceedings, Part I} {Computational
-  linguistics and intelligent text processing: 14th international conference,
-  cicling 2013, samos, greece, march 24-30, 2013, proceedings, part i}\ (\BPGS\
-  471--486).
+\BIn{} A.~Gelbukh\ (\BED), \APACrefbtitle {{Computational Linguistics and
+  Intelligent Text Processing: 14th International Conference, CICLing}}
+  {{Computational Linguistics and Intelligent Text Processing: 14th
+  International Conference, CICLing}}\ (\BPGS\ 471--486).
 \newblock
 \APACaddressPublisher{}{Springer Berlin Heidelberg}.
-\newblock
-\begin{APACrefURL} \url{http://dx.doi.org/10.1007/978-3-642-37247-6\_38}
-  \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.1007/978-3-642-37247-6\_38} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
@@ -2219,7 +2193,7 @@ Eco, U.%
 \newblock
 \APACrefYear{1976}.
 \newblock
-\APACrefbtitle {A Theory of Semiotics} {A theory of semiotics}.
+\APACrefbtitle {{A Theory of Semiotics}} {{A Theory of Semiotics}}.
 \newblock
 \APACaddressPublisher{Bloomington}{Indiana University Press}.
 \PrintBackRefs{\CurrentBib}
@@ -2248,9 +2222,9 @@ Erk, K.%
   Context} {A structured vector space model for word meaning in
   context}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the Conference on Empirical Methods in
-  Natural Language Processing} {Proceedings of the conference on empirical
-  methods in natural language processing}\ (\BPGS\ 897--906).
+\BIn{} \APACrefbtitle {{Proceedings of the Conference on Empirical Methods in
+  Natural Language Processing}} {{Proceedings of the Conference on Empirical
+  Methods in Natural Language Processing}}\ (\BPGS\ 897--906).
 \newblock
 \begin{APACrefURL} \url{http://dl.acm.org/citation.cfm?id=1613715.1613831}
   \end{APACrefURL}
@@ -2279,8 +2253,8 @@ Erk, K.%
 {\BBOQ}\APACrefatitle {Exemplar-based Models for Word Meaning in Context}
   {Exemplar-based models for word meaning in context}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the ACL 2010 Conference Short Papers}
-  {Proceedings of the acl 2010 conference short papers}\ (\BPGS\ 92--97).
+\BIn{} \APACrefbtitle {{Proceedings of the ACL 2010 Conference Short Papers}}
+  {{Proceedings of the ACL 2010 Conference Short Papers}}\ (\BPGS\ 92--97).
 \newblock
 \begin{APACrefURL} \url{http://dl.acm.org/citation.cfm?id=1858842.1858859}
   \end{APACrefURL}
@@ -2307,10 +2281,10 @@ Erk, K.%
 \newblock
 \APACrefYear{2016}.
 \newblock
-\APACrefbtitle {Proceedings of the 54th Annual Meeting of the Association for
-  Computational Linguistics (Volume 1: Long Papers)} {Proceedings of the 54th
-  annual meeting of the association for computational linguistics (volume 1:
-  Long papers)}.
+\APACrefbtitle {{Proceedings of the 54th Annual Meeting of the Association for
+  Computational Linguistics (Volume 1: Long Papers)}} {{Proceedings of the 54th
+  Annual Meeting of the Association for Computational Linguistics (Volume 1:
+  Long Papers)}}.
 \newblock
 \APACaddressPublisher{Berlin, Germany}{Association for Computational
   Linguistics}.
@@ -2335,9 +2309,9 @@ Evans, V.%
 \newblock
 \APACrefYear{2009}.
 \newblock
-\APACrefbtitle {How Words Mean: Lexical Concepts, Cognitive Models, and Meaning
-  Construction} {How words mean: Lexical concepts, cognitive models, and
-  meaning construction}.
+\APACrefbtitle {{How Words Mean: Lexical Concepts, Cognitive Models, and
+  Meaning Construction}} {{How Words Mean: Lexical Concepts, Cognitive Models,
+  and Meaning Construction}}.
 \newblock
 \APACaddressPublisher{}{Oxford University Press}.
 \PrintBackRefs{\CurrentBib}
@@ -2360,9 +2334,9 @@ Everett, D\BPBI L.%
 \APACrefYearMonthDay{2005}{}{}.
 \newblock
 {\BBOQ}\APACrefatitle {Cultural Constraints on Grammar and Cognition in
-  Pirah\~{a}: Another Look at the Design Features of Human Language} {Cultural
-  constraints on grammar and cognition in pirah\~{a}: Another look at the
-  design features of human language}.{\BBCQ}
+  {P}irah\~{a}: Another Look at the Design Features of Human Language}
+  {Cultural constraints on grammar and cognition in {P}irah\~{a}: Another look
+  at the design features of human language}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Current Anthropology}{46}{4}{621--646}.
 \PrintBackRefs{\CurrentBib}
@@ -2394,9 +2368,9 @@ Faruqui, M.%
   Similarity Tasks} {Problems with evaluation of word embeddings using word
   similarity tasks}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the 1st Workshop on Evaluating Vector
-  Space Representations for NLP.} {Proceedings of the 1st workshop on
-  evaluating vector space representations for nlp.}
+\BIn{} \APACrefbtitle {{Proceedings of the 1st Workshop on Evaluating Vector
+  Space Representations for NLP}.} {{Proceedings of the 1st Workshop on
+  Evaluating Vector Space Representations for NLP}.}
 \newblock
 \begin{APACrefURL} \url{http://arxiv.org/pdf/1605.02276v1.pdf} \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
@@ -2453,9 +2427,6 @@ Fauconnier, G.%
 \newblock
 \APACjournalVolNumPages{Cognitive Science}{22}{2}{133--187}.
 \newblock
-\begin{APACrefURL} \url{http://dx.doi.org/10.1207/s15516709cog2202\_1}
-  \end{APACrefURL}
-\newblock
 \begin{APACrefDOI} \doi{10.1207/s15516709cog2202\_1} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
@@ -2476,8 +2447,8 @@ Fellbaum, C.%
 \newblock
 \APACrefYear{1998}.
 \newblock
-\APACrefbtitle {WordNet: An Electronic Lexical Database} {Wordnet: An
-  electronic lexical database}.
+\APACrefbtitle {{WordNet: An Electronic Lexical Database}} {{WordNet: An
+  Electronic Lexical Database}}.
 \newblock
 \APACaddressPublisher{}{Bradford Books}.
 \PrintBackRefs{\CurrentBib}
@@ -2511,9 +2482,6 @@ Finkelstein, L.%
 \APACjournalVolNumPages{ACM Transanction on Information
   Systems}{20}{1}{116--131}.
 \newblock
-\begin{APACrefURL} \url{http://doi.acm.org/10.1145/503104.503110}
-  \end{APACrefURL}
-\newblock
 \begin{APACrefDOI} \doi{10.1145/503104.503110} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
@@ -2537,8 +2505,8 @@ Firth, J\BPBI R.%
 {\BBOQ}\APACrefatitle {A Synopsis of Linguistic Theory, 1930-55} {A synopsis of
   linguistic theory, 1930-55}.{\BBCQ}
 \newblock
-\BIn{} F\BPBI R.~Palmer\ (\BED), \APACrefbtitle {Selected Papers of J. R. Firth
-  1952-59.} {Selected papers of j. r. firth 1952-59.}
+\BIn{} F\BPBI R.~Palmer\ (\BED), \APACrefbtitle {{Selected Papers of J. R.
+  Firth 1952-59}.} {{Selected Papers of J. R. Firth 1952-59}.}
 \newblock
 \APACaddressPublisher{}{Indiana University Press}.
 \PrintBackRefs{\CurrentBib}
@@ -2560,7 +2528,8 @@ Floridi, L.%
 \newblock
 \APACrefYear{2011}.
 \newblock
-\APACrefbtitle {The Philosophy of Information} {The philosophy of information}.
+\APACrefbtitle {{The Philosophy of Information}} {{The Philosophy of
+  Information}}.
 \newblock
 \APACaddressPublisher{}{Oxford University Press}.
 \PrintBackRefs{\CurrentBib}
@@ -2582,9 +2551,9 @@ Fodor, J\BPBI A.%
 \newblock
 \APACrefYear{2001}.
 \newblock
-\APACrefbtitle {The Mind Doesn't Work that Way: The Scope and Limits of
-  Computational Psychology} {The mind doesn't work that way: The scope and
-  limits of computational psychology}.
+\APACrefbtitle {{The Mind Doesn't Work that Way: The Scope and Limits of
+  Computational Psychology}} {{The Mind Doesn't Work that Way: The Scope and
+  Limits of Computational Psychology}}.
 \newblock
 \APACaddressPublisher{}{MIT Press}.
 \PrintBackRefs{\CurrentBib}
@@ -2606,8 +2575,8 @@ Fodor, J\BPBI A.%
 \newblock
 \APACrefYear{2008}.
 \newblock
-\APACrefbtitle {LOT 2: The Language of Thought Revised} {Lot 2: The language of
-  thought revised}.
+\APACrefbtitle {{LOT 2: The Language of Thought Revised}} {{LOT 2: The Language
+  of Thought Revised}}.
 \newblock
 \APACaddressPublisher{}{Oxford University Press}.
 \PrintBackRefs{\CurrentBib}
@@ -2659,8 +2628,8 @@ Fox, C.%
 \newblock
 \APACrefYear{2005}.
 \newblock
-\APACrefbtitle {Foundations of Intensional Semantics} {Foundations of
-  intensional semantics}.
+\APACrefbtitle {{Foundations of Intensional Semantics}} {{Foundations of
+  Intensional Semantics}}.
 \newblock
 \APACaddressPublisher{Oxford}{Blackwell Publishing}.
 \PrintBackRefs{\CurrentBib}
@@ -2685,8 +2654,8 @@ Fraser, B.%
 {\BBOQ}\APACrefatitle {Interpretation of novel metaphors} {Interpretation of
   novel metaphors}.{\BBCQ}
 \newblock
-\BIn{} A.~Ortony\ (\BED), \APACrefbtitle {Metaphor and Thought} {Metaphor and
-  thought}\ (\PrintOrdinal{2}\ \BEd, \BPGS\ 307--341).
+\BIn{} A.~Ortony\ (\BED), \APACrefbtitle {{Metaphor and Thought}} {{Metaphor
+  and Thought}}\ (\PrintOrdinal{2}\ \BEd, \BPGS\ 307--341).
 \newblock
 \APACaddressPublisher{}{Cambridge University Press}.
 \PrintBackRefs{\CurrentBib}
@@ -2713,9 +2682,6 @@ Fredkin, E.%
 \newblock
 \APACjournalVolNumPages{International Journal of Theoretical
   Physics}{42}{2}{145--145}.
-\newblock
-\begin{APACrefURL} \url{https://doi.org/10.1023/A:1024466313532}
-  \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.1023/A:1024466313532} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
@@ -2744,9 +2710,9 @@ Gabrilovich, E.%
   Explicit Semantic Analysis} {Computing semantic relatedness using
   {Wikipedia-based} explicit semantic analysis}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the 20th International Joint Conference
-  on Artifical Intelligence} {Proceedings of the 20th international joint
-  conference on artifical intelligence}\ (\BPGS\ 1606--1611).
+\BIn{} \APACrefbtitle {{Proceedings of the 20th International Joint Conference
+  on Artifical Intelligence}} {{Proceedings of the 20th International Joint
+  Conference on Artifical Intelligence}}\ (\BPGS\ 1606--1611).
 \newblock
 \begin{APACrefURL} \url{http://dl.acm.org/citation.cfm?id=1625275.1625535}
   \end{APACrefURL}
@@ -2793,8 +2759,8 @@ G{\"a}rdenfors, P.%
 \newblock
 \APACrefYear{2000}.
 \newblock
-\APACrefbtitle {Conceptual Space: The Geometry of Thought} {Conceptual space:
-  The geometry of thought}.
+\APACrefbtitle {{Conceptual Space: The Geometry of Thought}} {{Conceptual
+  Space: The Geometry of Thought}}.
 \newblock
 \APACaddressPublisher{Cambridge, MA}{The MIT Press}.
 \PrintBackRefs{\CurrentBib}
@@ -2816,8 +2782,8 @@ G{\"a}rdenfors, P.%
 \newblock
 \APACrefYear{2014}.
 \newblock
-\APACrefbtitle {The Geometry of Meaning: Semantics Based on Conceptual Spaces}
-  {The geometry of meaning: Semantics based on conceptual spaces}.
+\APACrefbtitle {{The Geometry of Meaning: Semantics Based on Conceptual
+  Spaces}} {{The Geometry of Meaning: Semantics Based on Conceptual Spaces}}.
 \newblock
 \APACaddressPublisher{}{The MIT Press}.
 \PrintBackRefs{\CurrentBib}
@@ -2874,12 +2840,9 @@ Geffet, M.%
   Entailment} {The distributional inclusion hypotheses and lexical
   entailment}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the 43rd Annual Meeting on Association
-  for Computational Linguistics} {Proceedings of the 43rd annual meeting on
-  association for computational linguistics}\ (\BPGS\ 107--114).
-\newblock
-\begin{APACrefURL} \url{https://doi.org/10.3115/1219840.1219854}
-  \end{APACrefURL}
+\BIn{} \APACrefbtitle {{Proceedings of the 43rd Annual Meeting on Association
+  for Computational Linguistics}} {{Proceedings of the 43rd Annual Meeting on
+  Association for Computational Linguistics}}\ (\BPGS\ 107--114).
 \newblock
 \begin{APACrefDOI} \doi{10.3115/1219840.1219854} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
@@ -2905,9 +2868,6 @@ Gentner, D.%
   {Structure-mapping: A theoretical framework for analogy}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Cognitive Science}{7}{2}{155--170}.
-\newblock
-\begin{APACrefURL} \url{http://dx.doi.org/10.1207/s15516709cog0702\_3}
-  \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.1207/s15516709cog0702\_3} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
@@ -2959,8 +2919,8 @@ Gibbs~Jr., R\BPBI W.%
 {\BBOQ}\APACrefatitle {Process and products in making sense of tropes} {Process
   and products in making sense of tropes}.{\BBCQ}
 \newblock
-\BIn{} A.~Ortony\ (\BED), \APACrefbtitle {Metaphor and Thought} {Metaphor and
-  thought}\ (\PrintOrdinal{2}\ \BEd, \BPG~252–276).
+\BIn{} A.~Ortony\ (\BED), \APACrefbtitle {{Metaphor and Thought}} {{Metaphor
+  and Thought}}\ (\PrintOrdinal{2}\ \BEd, \BPG~252–276).
 \newblock
 \APACaddressPublisher{}{Cambridge University Press}.
 \newblock
@@ -2984,7 +2944,7 @@ Gibbs~Jr., R\BPBI W.%
 \newblock
 \APACrefYear{1994}.
 \newblock
-\APACrefbtitle {The Poetics of Mind} {The poetics of mind}.
+\APACrefbtitle {{The Poetics of Mind}} {{The Poetics of Mind}}.
 \newblock
 \APACaddressPublisher{}{Cambridge University Press}.
 \PrintBackRefs{\CurrentBib}
@@ -3006,8 +2966,8 @@ Gibson, J\BPBI J.%
 \newblock
 \APACrefYear{1979}.
 \newblock
-\APACrefbtitle {The Ecological Approach to Visual Perception} {The ecological
-  approach to visual perception}.
+\APACrefbtitle {{The Ecological Approach to Visual Perception}} {{The
+  Ecological Approach to Visual Perception}}.
 \newblock
 \APACaddressPublisher{Boston}{Houghton Miffline}.
 \PrintBackRefs{\CurrentBib}
@@ -3036,12 +2996,9 @@ Grefenstette, E.%
   Distributional Model of Meaning} {Experimental support for a categorical
   compositional distributional model of meaning}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the Conference on Empirical Methods in
-  Natural Language Processing} {Proceedings of the conference on empirical
-  methods in natural language processing}\ (\BPGS\ 1394--1404).
-\newblock
-\APACaddressPublisher{Stroudsburg, PA, USA}{Association for Computational
-  Linguistics}.
+\BIn{} \APACrefbtitle {{Proceedings of the Conference on Empirical Methods in
+  Natural Language Processing}} {{Proceedings of the Conference on Empirical
+  Methods in Natural Language Processing}}\ (\BPGS\ 1394--1404).
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -3063,9 +3020,9 @@ Grice, H\BPBI P.%
 \newblock
 {\BBOQ}\APACrefatitle {Logic and Conversation} {Logic and conversation}.{\BBCQ}
 \newblock
-\BIn{} P.~Cole\ \BBA {} J\BPBI L.~Morgan\ (\BEDS), \APACrefbtitle {Syntax and
-  Semantics Volume 3: Speech Acts} {Syntax and semantics volume 3: Speech
-  acts}\ (\BPGS\ 41--58).
+\BIn{} P.~Cole\ \BBA {} J\BPBI L.~Morgan\ (\BEDS), \APACrefbtitle {{Syntax and
+  Semantics Volume 3: Speech Acts}} {{Syntax and Semantics Volume 3: Speech
+  Acts}}\ (\BPGS\ 41--58).
 \newblock
 \APACaddressPublisher{New York}{Academic Press}.
 \PrintBackRefs{\CurrentBib}
@@ -3097,9 +3054,9 @@ Guti{\'{e}}rrez, E\BPBI D.%
   Distributional Semantic Models} {Literal and metaphorical senses in
   compositional distributional semantic models}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the 54th Annual Meeting of the
-  Association for Computational Linguistics.} {Proceedings of the 54th annual
-  meeting of the association for computational linguistics.}
+\BIn{} \APACrefbtitle {{Proceedings of the 54th Annual Meeting of the
+  Association for Computational Linguistics}.} {{Proceedings of the 54th Annual
+  Meeting of the Association for Computational Linguistics}.}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -3129,13 +3086,10 @@ Halawi, G.%
   Constraints} {Large-scale learning of word relatedness with
   constraints}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the 18th ACM SIGKDD International
-  Conference on Knowledge Discovery and Data Mining} {Proceedings of the 18th
-  acm sigkdd international conference on knowledge discovery and data mining}\
+\BIn{} \APACrefbtitle {{Proceedings of the 18th ACM SIGKDD International
+  Conference on Knowledge Discovery and Data Mining}} {{Proceedings of the 18th
+  ACM SIGKDD International Conference on Knowledge Discovery and Data Mining}}\
   (\BPGS\ 1406--1414).
-\newblock
-\begin{APACrefURL} \url{http://doi.acm.org/10.1145/2339530.2339751}
-  \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.1145/2339530.2339751} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
@@ -3155,8 +3109,8 @@ Harris, Z.%
 \newblock
 \APACrefYearMonthDay{1954}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Distributional structure} {Distributional
-  structure}.{\BBCQ}
+{\BBOQ}\APACrefatitle {{Distributional structure}} {{Distributional
+  structure}}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Word}{10}{23}{146--162}.
 \PrintBackRefs{\CurrentBib}
@@ -3184,9 +3138,9 @@ Hassan, S.%
 {\BBOQ}\APACrefatitle {Semantic Relatedness Using Salient Semantic Analysis}
   {Semantic relatedness using salient semantic analysis}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the Twenty-Fifth AAAI Conference on
-  Artificial Intelligence} {Proceedings of the twenty-fifth aaai conference on
-  artificial intelligence}\ (\BPGS\ 884--889).
+\BIn{} \APACrefbtitle {{Proceedings of the Twenty-Fifth AAAI Conference on
+  Artificial Intelligence}} {{Proceedings of the Twenty-Fifth AAAI Conference
+  on Artificial Intelligence}}\ (\BPGS\ 884--889).
 \newblock
 \APACaddressPublisher{}{AAAI Press}.
 \PrintBackRefs{\CurrentBib}
@@ -3211,9 +3165,9 @@ Haugeland, J.%
 {\BBOQ}\APACrefatitle {Mind Embodied and Embedded} {Mind embodied and
   embedded}.{\BBCQ}
 \newblock
-\BIn{} Y\BPBI H.~Houng\ \BBA {} J.~Ho\ (\BEDS), \APACrefbtitle {Mind and
-  Cognition: 1993 International Symposium} {Mind and cognition: 1993
-  international symposium}\ (\BPGS\ 233--267).
+\BIn{} Y\BPBI H.~Houng\ \BBA {} J.~Ho\ (\BEDS), \APACrefbtitle {{Mind and
+  Cognition: 1993 International Symposium}} {{Mind and Cognition: 1993
+  International Symposium}}\ (\BPGS\ 233--267).
 \newblock
 \APACaddressPublisher{}{Academica Sinica}.
 \PrintBackRefs{\CurrentBib}
@@ -3235,7 +3189,7 @@ Hegel, G\BPBI W\BPBI F.%
 \newblock
 \APACrefYear{1816/1989}.
 \newblock
-\APACrefbtitle {Science of Logic} {Science of logic}.
+\APACrefbtitle {{Science of Logic}} {{Science of Logic}}.
 \newblock
 \APACaddressPublisher{Atlantic Highlands, NJ}{Humanities Press}.
 \newblock
@@ -3259,7 +3213,7 @@ Heidegger, M.%
 \newblock
 \APACrefYear{1926/1962}.
 \newblock
-\APACrefbtitle {Being and Time} {Being and time}.
+\APACrefbtitle {{Being and Time}} {{Being and Time}}.
 \newblock
 \APACaddressPublisher{Oxford}{Basil Blackwell}.
 \newblock
@@ -3289,9 +3243,10 @@ Herbelot, A.%
 {\BBOQ}\APACrefatitle {Measuring semantic content in distributional vectors}
   {Measuring semantic content in distributional vectors}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the 51st Annual Meeting of the
-  Association for Computational Linguistics} {Proceedings of the 51st annual
-  meeting of the association for computational linguistics}\ (\BPGS\ 440--445).
+\BIn{} \APACrefbtitle {{Proceedings of the 51st Annual Meeting of the
+  Association for Computational Linguistics}} {{Proceedings of the 51st Annual
+  Meeting of the Association for Computational Linguistics}}\ (\BPGS\
+  440--445).
 \newblock
 \begin{APACrefURL} \url{http://aclweb.org/anthology/P/P13/P13-2078.pdf}
   \end{APACrefURL}
@@ -3322,9 +3277,9 @@ Hill, F.%
   embeddings from multi-modal data: Since you probably can't see what {I}
   mean}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the 2014 Conference on Empirical Methods
-  in Natural Language Processing} {Proceedings of the 2014 conference on
-  empirical methods in natural language processing}\ (\BPGS\ 255--265).
+\BIn{} \APACrefbtitle {{Proceedings of the 2014 Conference on Empirical Methods
+  in Natural Language Processing}} {{Proceedings of the 2014 Conference on
+  Empirical Methods in Natural Language Processing}}\ (\BPGS\ 255--265).
 \newblock
 \begin{APACrefURL} \url{http://aclweb.org/anthology/D/D14/D14-1032.pdf}
   \end{APACrefURL}
@@ -3357,8 +3312,6 @@ Hill, F.%
 \newblock
 \APACjournalVolNumPages{Cognitive Science}{38}{1}{162--177}.
 \newblock
-\begin{APACrefURL} \url{http://dx.doi.org/10.1111/cogs.12076} \end{APACrefURL}
-\newblock
 \begin{APACrefDOI} \doi{10.1111/cogs.12076} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
@@ -3389,7 +3342,7 @@ Hill, F.%
 \newblock
 \APACjournalVolNumPages{Computational Linguistics}{41}{4}{665--695}.
 \newblock
-\begin{APACrefDOI} \doi{10.1162/COLI\_a\_00237} \end{APACrefDOI}
+\begin{APACrefDOI} \doi{10.1162/COLI_a_00237} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -3434,8 +3387,8 @@ Hoffmeyer, J.%
 \newblock
 \APACrefYear{1997}.
 \newblock
-\APACrefbtitle {Signs of Meaning in the Universe} {Signs of meaning in the
-  universe}.
+\APACrefbtitle {{Signs of Meaning in the Universe}} {{Signs of Meaning in the
+  Universe}}.
 \newblock
 \APACaddressPublisher{}{Indiana University Press}.
 \PrintBackRefs{\CurrentBib}
@@ -3496,8 +3449,8 @@ Hovy, D.%
 {\BBOQ}\APACrefatitle {Identifying Metaphorical Word Use with Tree Kernels}
   {Identifying metaphorical word use with tree kernels}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the First Workshop on Metaphor in NLP}
-  {Proceedings of the first workshop on metaphor in nlp}\ (\BPGS\ 52--57).
+\BIn{} \APACrefbtitle {{Proceedings of the First Workshop on Metaphor in NLP}}
+  {{Proceedings of the First Workshop on Metaphor in NLP}}\ (\BPGS\ 52--57).
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -3527,10 +3480,10 @@ Huang, E\BPBI H.%
   Multiple Word Prototypes} {Improving word representations via global context
   and multiple word prototypes}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the 50th Annual Meeting of the
-  Association for Computational Linguistics: Long Papers - Volume 1}
-  {Proceedings of the 50th annual meeting of the association for computational
-  linguistics: Long papers - volume 1}\ (\BPGS\ 873--882).
+\BIn{} \APACrefbtitle {{Proceedings of the 50th Annual Meeting of the
+  Association for Computational Linguistics}} {{Proceedings of the 50th Annual
+  Meeting of the Association for Computational Linguistics}}\ (\BPGS\
+  873--882).
 \newblock
 \begin{APACrefURL} \url{http://dl.acm.org/citation.cfm?id=2390524.2390645}
   \end{APACrefURL}
@@ -3553,8 +3506,8 @@ Hume, D.%
 \newblock
 \APACrefYearMonthDay{1738}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {A Treatise of Human Nature} {A treatise of human
-  nature}.{\BBCQ}
+{\BBOQ}\APACrefatitle {{A Treatise of Human Nature}} {{A Treatise of Human
+  Nature}}.{\BBCQ}
 \newblock
 \BIn{} D\BPBI F.~Norton\ \BBA {} M\BPBI J.~Norton\ (\BEDS), .
 \newblock
@@ -3578,12 +3531,10 @@ Husserl, E.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{1900/2001}{}{}.
+\APACrefYear{1900/2001}.
 \newblock
-{\BBOQ}\APACrefatitle {Logical Investigations, Volume 1} {Logical
-  investigations, volume 1}.{\BBCQ}
-\newblock
-\BIn{} D.~Moran\ (\BED), .
+\APACrefbtitle {{Logical Investigations, Volume 1}} {{Logical Investigations,
+  Volume 1}}\ (D.~Moran, \BED{})\ (\BNUM\ v. 1).
 \newblock
 \APACaddressPublisher{}{Routledge}.
 \newblock
@@ -3611,8 +3562,8 @@ Hutto, D\BPBI D.%
   conceptual schema}.{\BBCQ}
 \newblock
 \BIn{} P.~Pylkk\"{a}nen\ \BBA {} T.~Vad\'{e}n\ (\BEDS), \APACrefbtitle
-  {Dimensions of Conscious Experience} {Dimensions of conscious experience}\
-  (\BPGS\ 15--43).
+  {{Dimensions of Conscious Experience}} {{Dimensions of Conscious
+  Experience}}\ (\BPGS\ 15--43).
 \newblock
 \APACaddressPublisher{}{John Benjamins}.
 \newblock
@@ -3643,9 +3594,6 @@ Indurkhya, B.%
 \APACjournalVolNumPages{Journal of Experimental \& Theoretical Artificial
   Intelligence}{9}{1}{1-36}.
 \newblock
-\begin{APACrefURL} \url{http://dx.doi.org/10.1080/095281397147211}
-  \end{APACrefURL}
-\newblock
 \begin{APACrefDOI} \doi{10.1080/095281397147211} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
@@ -3670,14 +3618,11 @@ J{\"a}ger, G.%
   categories are convex sets}.{\BBCQ}
 \newblock
 \BIn{} M.~Aloni, H.~Bastiaanse, T.~de Jager\BCBL {}\ \BBA {} K.~Schulz\
-  (\BEDS), \APACrefbtitle {Logic, Language and Meaning: 17th Amsterdam
+  (\BEDS), \APACrefbtitle {{Logic, Language and Meaning: 17th Amsterdam
   Colloquium, Amsterdam, The Netherlands, December 16-18, 2009, Revised
-  Selected Papers} {Logic, language and meaning: 17th amsterdam colloquium,
-  amsterdam, the netherlands, december 16-18, 2009, revised selected papers}\
+  Selected Papers}} {{Logic, Language and Meaning: 17th Amsterdam Colloquium,
+  Amsterdam, The Netherlands, December 16-18, 2009, Revised Selected Papers}}\
   (\BPGS\ 11--20).
-\newblock
-\begin{APACrefURL} \url{http://dx.doi.org/10.1007/978-3-642-14287-1\_2}
-  \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.1007/978-3-642-14287-1\_2} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
@@ -3702,8 +3647,8 @@ James, P.%
 {\BBOQ}\APACrefatitle {Knowledge Graphs} {Knowledge graphs}.{\BBCQ}
 \newblock
 \BIn{} R\BPBI P.~van~de Riet\ \BBA {} R\BPBI A.~Meersman\ (\BEDS),
-  \APACrefbtitle {Linguistic Instruments in Knowledge Engineering.} {Linguistic
-  instruments in knowledge engineering.}
+  \APACrefbtitle {{Linguistic Instruments in Knowledge Engineering}.}
+  {{Linguistic Instruments in Knowledge Engineering}.}
 \newblock
 \APACaddressPublisher{Amsterdam}{Elsevier}.
 \PrintBackRefs{\CurrentBib}
@@ -3733,9 +3678,9 @@ Jankowiak, K.%
   Language Processing} {Event-related potentials of bilingual figurative
   language processing}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Poster presented at the 19th Conference of the European
-  Society for Cognitive Psychology.} {Poster presented at the 19th conference
-  of the european society for cognitive psychology.}
+\BIn{} \APACrefbtitle {{Poster presented at the 19th Conference of the European
+  Society for Cognitive Psychology}.} {{Poster presented at the 19th Conference
+  of the European Society for Cognitive Psychology}.}
 \newblock
 \APACaddressPublisher{Paphos, Cyprus}{}.
 \PrintBackRefs{\CurrentBib}
@@ -3783,9 +3728,9 @@ Johnson, M.%
 \newblock
 \APACrefYear{1990}.
 \newblock
-\APACrefbtitle {The Body in the Mind: The Bodily Basis of Meaning, Imagination,
-  and Reason} {The body in the mind: The bodily basis of meaning, imagination,
-  and reason}.
+\APACrefbtitle {{The Body in the Mind: The Bodily Basis of Meaning,
+  Imagination, and Reason}} {{The Body in the Mind: The Bodily Basis of
+  Meaning, Imagination, and Reason}}.
 \newblock
 \APACaddressPublisher{}{University of Chicago Press}.
 \PrintBackRefs{\CurrentBib}
@@ -3837,10 +3782,10 @@ Jurafsky, D.%
 \newblock
 \APACrefYear{2000}.
 \newblock
-\APACrefbtitle {Speech and Language Processing: An Introduction to Natural
-  Language Processing, Computational Linguistics, and Speech Recognition}
-  {Speech and language processing: An introduction to natural language
-  processing, computational linguistics, and speech recognition}\
+\APACrefbtitle {{Speech and Language Processing: An Introduction to Natural
+  Language Processing, Computational Linguistics, and Speech Recognition}}
+  {{Speech and Language Processing: An Introduction to Natural Language
+  Processing, Computational Linguistics, and Speech Recognition}}\
   (\PrintOrdinal{1st}\ \BEd).
 \newblock
 \APACaddressPublisher{Upper Saddle River, NJ, USA}{Prentice Hall PTR}.
@@ -3870,9 +3815,9 @@ Kalchbrenner, N.%
 {\BBOQ}\APACrefatitle {A Convolutional Neural Network for Modelling Sentences}
   {A convolutional neural network for modelling sentences}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the 52nd Annual Meeting of the
-  Association for Computational Linguistics.} {Proceedings of the 52nd annual
-  meeting of the association for computational linguistics.}
+\BIn{} \APACrefbtitle {{Proceedings of the 52nd Annual Meeting of the
+  Association for Computational Linguistics}.} {{Proceedings of the 52nd Annual
+  Meeting of the Association for Computational Linguistics}.}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -3892,7 +3837,7 @@ Kant, I.%
 \newblock
 \APACrefYear{1787/1996}.
 \newblock
-\APACrefbtitle {Critique of Pure Reason} {Critique of pure reason}.
+\APACrefbtitle {{Critique of Pure Reason}} {{Critique of Pure Reason}}.
 \newblock
 \APACaddressPublisher{Indianapolis, IN}{Hackett Publishing Company}.
 \newblock
@@ -3921,8 +3866,6 @@ Kaplan, D.%
 \newblock
 \APACjournalVolNumPages{Journal of Philosophical Logic}{8}{1}{81--98}.
 \newblock
-\begin{APACrefURL} \url{https://doi.org/10.1007/BF00258420} \end{APACrefURL}
-\newblock
 \begin{APACrefDOI} \doi{10.1007/BF00258420} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
@@ -3950,9 +3893,9 @@ Kartsaklis, D.%
   Sentence Vectors} {Prior disambiguation of word tensors for constructing
   sentence vectors}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the 2013 Conference on Empirical Methods
-  in Natural Language Processing} {Proceedings of the 2013 conference on
-  empirical methods in natural language processing}\ (\BPG~1590-1601).
+\BIn{} \APACrefbtitle {{Proceedings of the 2013 Conference on Empirical Methods
+  in Natural Language Processing}} {{Proceedings of the 2013 Conference on
+  Empirical Methods in Natural Language Processing}}\ (\BPG~1590-1601).
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -3979,11 +3922,10 @@ Kartsaklis, D.%
   Composition} {Distributional inclusion hypothesis for tensor-based
   composition}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {{COLING} 2016, 26th International Conference on
-  Computational Linguistics, Proceedings of the Conference: Technical Papers,
-  December 11-16, 2016, Osaka, Japan} {{COLING} 2016, 26th international
-  conference on computational linguistics, proceedings of the conference:
-  Technical papers, december 11-16, 2016, osaka, japan}\ (\BPGS\ 2849--2860).
+\BIn{} \APACrefbtitle {{COLING 2016, 26th International Conference on
+  Computational Linguistics, Proceedings of the Conference}} {{COLING 2016,
+  26th International Conference on Computational Linguistics, Proceedings of
+  the Conference}}\ (\BPGS\ 2849--2860).
 \newblock
 \begin{APACrefURL} \url{http://aclweb.org/anthology/C/C16/C16-1268.pdf}
   \end{APACrefURL}
@@ -4006,9 +3948,9 @@ Kauffman, S\BPBI A.%
 \newblock
 \APACrefYear{1995}.
 \newblock
-\APACrefbtitle {At Home in the Universe: The Search for the Laws of
-  Self-Organization and Complexity} {At home in the universe: The search for
-  the laws of self-organization and complexity}.
+\APACrefbtitle {{At Home in the Universe: The Search for the Laws of
+  Self-Organization and Complexity}} {{At Home in the Universe: The Search for
+  the Laws of Self-Organization and Complexity}}.
 \newblock
 \APACaddressPublisher{}{Oxford University Press}.
 \PrintBackRefs{\CurrentBib}
@@ -4064,10 +4006,10 @@ Kiela, D.%
   Parameters} {A systematic study of semantic vector space model
   parameters}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the 2nd Workshop on Continuous Vector
-  Space Models and their Compositionality (CVSC) @ EACL 2014} {Proceedings of
-  the 2nd workshop on continuous vector space models and their compositionality
-  (cvsc) @ eacl 2014}\ (\BPG~21-30).
+\BIn{} \APACrefbtitle {{Proceedings of the 2nd Workshop on Continuous Vector
+  Space Models and their Compositionality (CVSC) @ EACL 2014}} {{Proceedings of
+  the 2nd Workshop on Continuous Vector Space Models and their Compositionality
+  (CVSC) @ EACL 2014}}\ (\BPG~21-30).
 \newblock
 \APACaddressPublisher{Gothenburg}{}.
 \PrintBackRefs{\CurrentBib}
@@ -4097,9 +4039,9 @@ Kiela, D.%
   Relatedness} {Specializing word embeddings for similarity or
   relatedness}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the 2015 Conference on Empirical Methods
-  in Natural Language Processing} {Proceedings of the 2015 conference on
-  empirical methods in natural language processing}\ (\BPGS\ 2044--2048).
+\BIn{} \APACrefbtitle {{Proceedings of the 2015 Conference on Empirical Methods
+  in Natural Language Processing}} {{Proceedings of the 2015 Conference on
+  Empirical Methods in Natural Language Processing}}\ (\BPGS\ 2044--2048).
 \newblock
 \begin{APACrefURL} \url{http://aclweb.org/anthology/D/D15/D15-1242.pdf}
   \end{APACrefURL}
@@ -4127,8 +4069,6 @@ Kintsch, W.%
 \newblock
 \APACjournalVolNumPages{Psychonomic Bulletin {\&} Review}{7}{2}{257--266}.
 \newblock
-\begin{APACrefURL} \url{http://dx.doi.org/10.3758/BF03212981} \end{APACrefURL}
-\newblock
 \begin{APACrefDOI} \doi{10.3758/BF03212981} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
@@ -4149,8 +4089,8 @@ Koch, C.%
 \newblock
 \APACrefYear{2004}.
 \newblock
-\APACrefbtitle {The Quest for Consciousness: A Neurobiological Approach} {The
-  quest for consciousness: A neurobiological approach}.
+\APACrefbtitle {{The Quest for Consciousness: A Neurobiological Approach}}
+  {{The Quest for Consciousness: A Neurobiological Approach}}.
 \newblock
 \APACaddressPublisher{}{Roberts and Company}.
 \PrintBackRefs{\CurrentBib}
@@ -4172,7 +4112,7 @@ Koestler, A.%
 \newblock
 \APACrefYear{1964}.
 \newblock
-\APACrefbtitle {The Act of Creation} {The act of creation}.
+\APACrefbtitle {{The Act of Creation}} {{The Act of Creation}}.
 \newblock
 \APACaddressPublisher{London}{Hutchinson}.
 \PrintBackRefs{\CurrentBib}
@@ -4202,11 +4142,9 @@ Kornai, A.%
 {\BBOQ}\APACrefatitle {Competence in lexical semantics} {Competence in lexical
   semantics}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the Fourth Joint Conference on Lexical
-  and Computational Semantics, *SEM 2015, June 4-5, 2015, Denver, Colorado,
-  {USA.}} {Proceedings of the fourth joint conference on lexical and
-  computational semantics, *sem 2015, june 4-5, 2015, denver, colorado,
-  {USA.}}\ (\BPGS\ 165--175).
+\BIn{} \APACrefbtitle {{Proceedings of the Fourth Joint Conference on Lexical
+  and Computational Semantics, *SEM}} {{Proceedings of the Fourth Joint
+  Conference on Lexical and Computational Semantics, *SEM}}\ (\BPGS\ 165--175).
 \newblock
 \begin{APACrefURL} \url{http://aclweb.org/anthology/S/S15/S15-1019.pdf}
   \end{APACrefURL}
@@ -4239,9 +4177,9 @@ Kottur, S.%
   Word Embeddings Using Abstract Scenes} {{VisualWord2Vec (Vis-W2V)}: Learning
   visually grounded word embeddings using abstract scenes}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {2016 IEEE Conference on Computer Vision and Pattern
-  Recognition (CVPR)} {2016 ieee conference on computer vision and pattern
-  recognition (cvpr)}\ (\BPG~4985-4994).
+\BIn{} \APACrefbtitle {{2016 IEEE Conference on Computer Vision and Pattern
+  Recognition (CVPR)}} {{2016 IEEE Conference on Computer Vision and Pattern
+  Recognition (CVPR)}}\ (\BPG~4985-4994).
 \newblock
 \begin{APACrefDOI} \doi{10.1109/CVPR.2016.539} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
@@ -4263,8 +4201,8 @@ Lakoff, G.%
 \newblock
 \APACrefYear{1987}.
 \newblock
-\APACrefbtitle {Women, Fire, and Dangerous Things} {Women, fire, and dangerous
-  things}.
+\APACrefbtitle {{Women, Fire, and Dangerous Things}} {{Women, Fire, and
+  Dangerous Things}}.
 \newblock
 \APACaddressPublisher{}{University of Chicago Press}.
 \PrintBackRefs{\CurrentBib}
@@ -4289,7 +4227,7 @@ Lakoff, G.%
 \newblock
 \APACrefYear{1980}.
 \newblock
-\APACrefbtitle {Metaphors We Live By} {Metaphors we live by}.
+\APACrefbtitle {{Metaphors We Live By}} {{Metaphors We Live By}}.
 \newblock
 \APACaddressPublisher{}{University of Chicago Press}.
 \PrintBackRefs{\CurrentBib}
@@ -4314,7 +4252,7 @@ Lakoff, G.%
 \newblock
 \APACrefYear{2003}.
 \newblock
-\APACrefbtitle {Metaphors We Live By} {Metaphors we live by}\
+\APACrefbtitle {{Metaphors We Live By}} {{Metaphors We Live By}}\
   (\PrintOrdinal{2nd}\ \BEd).
 \newblock
 \APACaddressPublisher{}{University of Chicago Press}.
@@ -4376,9 +4314,9 @@ Landauer, T\BPBI K.%
   can passage meaning be derived without using word order? {A} comparison of
   latent semantic analysis and humans.}{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the 19th Annual Conference of the
-  Cognitive Science Society} {Proceedings of the 19th annual conference of the
-  cognitive science society}\ (\BPG~412-417).
+\BIn{} \APACrefbtitle {{Proceedings of the 19th Annual Conference of the
+  Cognitive Science Society}} {{Proceedings of the 19th Annual Conference of
+  the Cognitive Science Society}}\ (\BPG~412-417).
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -4398,8 +4336,8 @@ Langacker, R\BPBI W.%
 \newblock
 \APACrefYear{1987}.
 \newblock
-\APACrefbtitle {Foundations of cognitive grammar: Theoretical Prerequisites}
-  {Foundations of cognitive grammar: Theoretical prerequisites}.
+\APACrefbtitle {{Foundations of cognitive grammar: Theoretical Prerequisites}}
+  {{Foundations of cognitive grammar: Theoretical Prerequisites}}.
 \newblock
 \APACaddressPublisher{Stanford, CA}{Stanford University Press}.
 \PrintBackRefs{\CurrentBib}
@@ -4421,8 +4359,8 @@ Langacker, R\BPBI W.%
 \newblock
 \APACrefYear{1991}.
 \newblock
-\APACrefbtitle {Concept, Image, and Symbol: The Cognitive Basis of Grammar}
-  {Concept, image, and symbol: The cognitive basis of grammar}.
+\APACrefbtitle {{Concept, Image, and Symbol: The Cognitive Basis of Grammar}}
+  {{Concept, Image, and Symbol: The Cognitive Basis of Grammar}}.
 \newblock
 \APACaddressPublisher{Berlin}{Mouton de Gruyter}.
 \PrintBackRefs{\CurrentBib}
@@ -4452,9 +4390,6 @@ Lapata, M.%
 \newblock
 \APACjournalVolNumPages{Computational Linguistics}{29}{2}{261--315}.
 \newblock
-\begin{APACrefURL} \url{http://dx.doi.org/10.1162/089120103322145324}
-  \end{APACrefURL}
-\newblock
 \begin{APACrefDOI} \doi{10.1162/089120103322145324} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
@@ -4482,13 +4417,10 @@ Lapesa, G.%
   Predictors of Semantic Priming} {Evaluating neighbor rank and distance
   measures as predictors of semantic priming}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the Fourth Annual Workshop on Cognitive
-  Modeling and Computational Linguistics (CMCL)} {Proceedings of the fourth
-  annual workshop on cognitive modeling and computational linguistics (cmcl)}\
+\BIn{} \APACrefbtitle {{Proceedings of the Fourth Annual Workshop on Cognitive
+  Modeling and Computational Linguistics (CMCL)}} {{Proceedings of the Fourth
+  Annual Workshop on Cognitive Modeling and Computational Linguistics (CMCL)}}\
   (\BPGS\ 66--74).
-\newblock
-\APACaddressPublisher{Sofia, Bulgaria}{Association for Computational
-  Linguistics}.
 \newblock
 \begin{APACrefURL} \url{http://www.aclweb.org/anthology/W13-2608}
   \end{APACrefURL}
@@ -4577,9 +4509,6 @@ Lenat, D\BPBI B.%
 \newblock
 \APACjournalVolNumPages{Communications of the ACM}{38}{11}{33--38}.
 \newblock
-\begin{APACrefURL} \url{http://doi.acm.org/10.1145/219717.219745}
-  \end{APACrefURL}
-\newblock
 \begin{APACrefDOI} \doi{10.1145/219717.219745} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
@@ -4653,9 +4582,9 @@ Levy, O.%
   Representations} {Linguistic regularities in sparse and explicit word
   representations}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Eighteenth Conference on Computational Natural Language
-  Learning.} {Eighteenth conference on computational natural language
-  learning.}
+\BIn{} \APACrefbtitle {{Eighteenth Conference on Computational Natural Language
+  Learning}.} {{Eighteenth Conference on Computational Natural Language
+  Learning}.}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -4682,9 +4611,9 @@ Levy, O.%
   {Neural word embedding as implicit matrix factorization}.{\BBCQ}
 \newblock
 \BIn{} Z.~Ghahramani, M.~Welling, C.~Cortes, N\BPBI D.~Lawrence\BCBL {}\ \BBA
-  {} K\BPBI Q.~Weinberger\ (\BEDS), \APACrefbtitle {Advances in Neural
-  Information Processing Systems 27} {Advances in neural information processing
-  systems 27}\ (\BPGS\ 2177--2185).
+  {} K\BPBI Q.~Weinberger\ (\BEDS), \APACrefbtitle {{Advances in Neural
+  Information Processing Systems 27}} {{Advances in Neural Information
+  Processing Systems 27}}\ (\BPGS\ 2177--2185).
 \newblock
 \APACaddressPublisher{}{Curran Associates, Inc.}
 \newblock
@@ -4782,9 +4711,9 @@ Linzen, T.%
   analogies} {Issues in evaluating semantic spaces using word
   analogies}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the 1st Workshop on Evaluating
-  Vector-Space Representations for NLP} {Proceedings of the 1st workshop on
-  evaluating vector-space representations for nlp}\ (\BPGS\ 13--18).
+\BIn{} \APACrefbtitle {{Proceedings of the 1st Workshop on Evaluating
+  Vector-Space Representations for NLP}} {{Proceedings of the 1st Workshop on
+  Evaluating Vector-Space Representations for NLP}}\ (\BPGS\ 13--18).
 \newblock
 \begin{APACrefDOI} \doi{10.18653/v1/W16-2503} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
@@ -4806,8 +4735,8 @@ Locke, J.%
 \newblock
 \APACrefYearMonthDay{1689}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {An Essay Concerning Human Understanding} {An essay
-  concerning human understanding}.{\BBCQ}
+{\BBOQ}\APACrefatitle {{An Essay Concerning Human Understanding}} {{An Essay
+  Concerning Human Understanding}}.{\BBCQ}
 \newblock
 \BIn{} R\BPBI S.~Woolhouse\ (\BED), .
 \newblock
@@ -4841,11 +4770,9 @@ Luong, T.%
   Networks for Morphology} {Better word representations with recursive neural
   networks for morphology}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the Seventeenth Conference on
-  Computational Natural Language Learning, CoNLL 2013, Sofia, Bulgaria, August
-  8-9, 2013} {Proceedings of the seventeenth conference on computational
-  natural language learning, conll 2013, sofia, bulgaria, august 8-9, 2013}\
-  (\BPGS\ 104--113).
+\BIn{} \APACrefbtitle {{Proceedings of the Seventeenth Conference on
+  Computational Natural Language Learning}} {{Proceedings of the Seventeenth
+  Conference on Computational Natural Language Learning}}\ (\BPGS\ 104--113).
 \newblock
 \begin{APACrefURL} \url{http://aclweb.org/anthology/W/W13/W13-3512.pdf}
   \end{APACrefURL}
@@ -4879,8 +4806,8 @@ Ma, Y.%
 {\BBOQ}\APACrefatitle {Learning word embeddings via context grouping} {Learning
   word embeddings via context grouping}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {ACM Turing 50th Celebration Conference.} {Acm turing
-  50th celebration conference.}
+\BIn{} \APACrefbtitle {{ACM Turing 50th Celebration Conference}.} {{ACM Turing
+  50th Celebration Conference}.}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -4965,9 +4892,6 @@ Margolis, E.%
 \newblock
 \APACjournalVolNumPages{No\^{u}s}{41}{4}{561--593}.
 \newblock
-\begin{APACrefURL} \url{http://dx.doi.org/10.1111/j.1468-0068.2007.00663.x}
-  \end{APACrefURL}
-\newblock
 \begin{APACrefDOI} \doi{10.1111/j.1468-0068.2007.00663.x} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
@@ -4991,9 +4915,10 @@ Maturana, H.%
 \newblock
 \APACrefYear{1987}.
 \newblock
-\APACrefbtitle {The Tree of Knowledge} {The tree of knowledge}.
+\APACrefbtitle {{The Tree of Knowledge}, publisher = {Shambhala}} {{The Tree of
+  Knowledge}, publisher = {Shambhala}}.
 \newblock
-\APACaddressPublisher{Boston, MA}{Shambhala}.
+\APACaddressPublisher{Boston, MA}{}.
 \newblock
 \APACrefnote{Translated by Robert Paolucci}
 \PrintBackRefs{\CurrentBib}
@@ -5026,7 +4951,10 @@ McGregor, S.%
   semantics to conceptual spaces: A novel computational method for concept
   creation}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{Journal of Artificial General Intelligence}{}{}{}.
+\APACjournalVolNumPages{Journal of Artificial General
+  Intelligence}{6}{1}{55-89}.
+\newblock
+\begin{APACrefDOI} \doi{10.1515/jagi-2015-0004} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -5055,9 +4983,9 @@ McGregor, S.%
 {\BBOQ}\APACrefatitle {A Geometric Method for Detecting Semantic Coercion} {A
   geometric method for detecting semantic coercion}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of 12th International Workshop on
-  Computational Semantics.} {Proceedings of 12th international workshop on
-  computational semantics.}
+\BIn{} \APACrefbtitle {{Proceedings of 12th International Workshop on
+  Computational Semantics}.} {{Proceedings of 12th International Workshop on
+  Computational Semantics}.}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -5084,10 +5012,10 @@ McGregor, S.%
 {\BBOQ}\APACrefatitle {Words, Concepts, and the Geometry of Analogy} {Words,
   concepts, and the geometry of analogy}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the Workshop on Semantic Spaces at the
-  Intersection of NLP, Physics and Cognitive Science (SLPCS)} {Proceedings of
-  the workshop on semantic spaces at the intersection of nlp, physics and
-  cognitive science (slpcs)}\ (\BPGS\ 39--48).
+\BIn{} \APACrefbtitle {{Proceedings of the Workshop on Semantic Spaces at the
+  Intersection of NLP, Physics and Cognitive Science (SLPCS)}} {{Proceedings of
+  the Workshop on Semantic Spaces at the Intersection of NLP, Physics and
+  Cognitive Science (SLPCS)}}\ (\BPGS\ 39--48).
 \newblock
 \begin{APACrefDOI} \doi{10.4204/EPTCS.221.5} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
@@ -5117,9 +5045,9 @@ McGregor, S.%
   an Approach to Philosophy} {Computational creativity: A philosophical
   approach, and an approach to philosophy}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the Fifth International Conference on
-  Computational Creativity.} {Proceedings of the fifth international conference
-  on computational creativity.}
+\BIn{} \APACrefbtitle {{Proceedings of the Fifth International Conference on
+  Computational Creativity}.} {{Proceedings of the Fifth International
+  Conference on Computational Creativity}.}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -5151,9 +5079,9 @@ Melamud, O.%
   Distributional Similarity} {Probabilistic modeling of joint-context in
   distributional similarity}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the Eighteenth Conference on
-  Computational Natural Language Learning} {Proceedings of the eighteenth
-  conference on computational natural language learning}\ (\BPGS\ 181--190).
+\BIn{} \APACrefbtitle {{Proceedings of the Eighteenth Conference on
+  Computational Natural Language Learning}} {{Proceedings of the Eighteenth
+  Conference on Computational Natural Language Learning}}\ (\BPGS\ 181--190).
 \newblock
 \begin{APACrefURL} \url{http://aclweb.org/anthology/W/W14/W14-1619.pdf}
   \end{APACrefURL}
@@ -5184,9 +5112,9 @@ Mihalcea, R.%
   Semantic Similarity} {Corpus-based and knowledge-based measures of text
   semantic similarity}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the 21st National Conference on
-  Artificial Intelligence - Volume 1} {Proceedings of the 21st national
-  conference on artificial intelligence - volume 1}\ (\BPGS\ 775--780).
+\BIn{} \APACrefbtitle {{Proceedings of the 21st National Conference on
+  Artificial Intelligence - Volume 1}} {{Proceedings of the 21st National
+  Conference on Artificial Intelligence - Volume 1}}\ (\BPGS\ 775--780).
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -5216,8 +5144,8 @@ Mikolov, T.%
 {\BBOQ}\APACrefatitle {Efficient Estimation of Word Representations in Vector
   Space} {Efficient estimation of word representations in vector space}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of ICLR Workshop.} {Proceedings of iclr
-  workshop.}
+\BIn{} \APACrefbtitle {{Proceedings of ICLR Workshop}.} {{Proceedings of ICLR
+  Workshop}.}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -5250,9 +5178,10 @@ Mikolov, T.%
   Their Compositionality} {Distributed representations of words and phrases and
   their compositionality}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the 26th International Conference on
-  Neural Information Processing Systems} {Proceedings of the 26th international
-  conference on neural information processing systems}\ (\BPGS\ 3111--3119).
+\BIn{} \APACrefbtitle {{Proceedings of the 26th International Conference on
+  Neural Information Processing Systems}} {{Proceedings of the 26th
+  International Conference on Neural Information Processing Systems}}\ (\BPGS\
+  3111--3119).
 \newblock
 \begin{APACrefURL} \url{http://dl.acm.org/citation.cfm?id=2999792.2999959}
   \end{APACrefURL}
@@ -5285,11 +5214,11 @@ Mikolov, T.%
   Representations} {Linguistic regularities in continuous space word
   representations}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the 2013 Conference of the North American
-  Chapter of the Association for Computational Linguistics: Human Language
-  Technologies} {Proceedings of the 2013 conference of the north american
-  chapter of the association for computational linguistics: Human language
-  technologies}\ (\BPG~246-251).
+\BIn{} \APACrefbtitle {{Proceedings of the 2013 Conference of the North
+  American Chapter of the Association for Computational Linguistics: Human
+  Language Technologies}} {{Proceedings of the 2013 Conference of the North
+  American Chapter of the Association for Computational Linguistics: Human
+  Language Technologies}}\ (\BPG~246-251).
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -5317,8 +5246,8 @@ Milajevs, D.%
   Distributional Semantics} {Robust co-occurrence quantification for lexical
   distributional semantics}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the ACL 2016 Student Research Workshop}
-  {Proceedings of the acl 2016 student research workshop}\ (\BPGS\ 58--64).
+\BIn{} \APACrefbtitle {{Proceedings of the ACL 2016 Student Research Workshop}}
+  {{Proceedings of the ACL 2016 Student Research Workshop}}\ (\BPGS\ 58--64).
 \newblock
 \APACaddressPublisher{Berlin, Germany}{Association for Computational
   Linguistics}.
@@ -5403,9 +5332,9 @@ Montague, R.%
 {\BBOQ}\APACrefatitle {English as a Formal Language} {English as a formal
   language}.{\BBCQ}
 \newblock
-\BIn{} R\BPBI H.~Thompson\ (\BED), \APACrefbtitle {Formal Philosophy: selected
-  papers of Richard Montague.} {Formal philosophy: selected papers of richard
-  montague.}
+\BIn{} R\BPBI H.~Thompson\ (\BED), \APACrefbtitle {{Formal Philosophy: Selected
+  papers of Richard Montague}.} {{Formal Philosophy: Selected papers of Richard
+  Montague}.}
 \newblock
 \APACaddressPublisher{New Haven, CT}{Yale University Press}.
 \PrintBackRefs{\CurrentBib}
@@ -5427,7 +5356,7 @@ Moretti, F.%
 \newblock
 \APACrefYear{2013}.
 \newblock
-\APACrefbtitle {Distant Reading} {Distant reading}.
+\APACrefbtitle {{Distant Reading}} {{Distant Reading}}.
 \newblock
 \APACaddressPublisher{London}{Verso}.
 \PrintBackRefs{\CurrentBib}
@@ -5453,11 +5382,11 @@ Narayanan, S.%
   Metaphoric Reasoning about Events} {Moving right along: {A} computational
   model of metaphoric reasoning about events}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the Sixteenth National Conference on
+\BIn{} \APACrefbtitle {{Proceedings of the Sixteenth National Conference on
   Artificial Intelligence and Eleventh Conference on Innovative Applications of
-  Artificial Intelligence} {Proceedings of the sixteenth national conference on
-  artificial intelligence and eleventh conference on innovative applications of
-  artificial intelligence}\ (\BPGS\ 121--127).
+  Artificial Intelligence}} {{Proceedings of the Sixteenth National Conference
+  on Artificial Intelligence and Eleventh Conference on Innovative Applications
+  of Artificial Intelligence}}\ (\BPGS\ 121--127).
 \newblock
 \begin{APACrefURL} \url{http://www.aaai.org/Library/AAAI/1999/aaai99-018.php}
   \end{APACrefURL}
@@ -5485,9 +5414,6 @@ O'Brien, R\BPBI M.%
   factors}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Quality {\&} Quantity}{41}{5}{673--690}.
-\newblock
-\begin{APACrefURL} \url{http://dx.doi.org/10.1007/s11135-006-9018-6}
-  \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.1007/s11135-006-9018-6} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
@@ -5558,7 +5484,7 @@ Ortony, A.%
 \newblock
 \APACrefYear{1993}.
 \newblock
-\APACrefbtitle {Metaphor and Thought} {Metaphor and thought}\
+\APACrefbtitle {{Metaphor and Thought}} {{Metaphor and Thought}}\
   (\PrintOrdinal{2nd}\ \BEd).
 \newblock
 \APACaddressPublisher{}{Cambridge University Press}.
@@ -5610,9 +5536,9 @@ Pantel, P.%
 {\BBOQ}\APACrefatitle {Inducing Ontological Co-occurrence Vectors} {Inducing
   ontological co-occurrence vectors}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the 43rd Annual Meeting on Association
-  for Computational Linguistics} {Proceedings of the 43rd annual meeting on
-  association for computational linguistics}\ (\BPGS\ 125--132).
+\BIn{} \APACrefbtitle {{Proceedings of the 43rd Annual Meeting on Association
+  for Computational Linguistics}} {{Proceedings of the 43rd Annual Meeting on
+  Association for Computational Linguistics}}\ (\BPGS\ 125--132).
 \newblock
 \APACaddressPublisher{Stroudsburg, PA, USA}{Association for Computational
   Linguistics}.
@@ -5663,8 +5589,6 @@ Pearl, J.%
 \newblock
 \APACjournalVolNumPages{Statistics Surveys}{3}{}{96--146}.
 \newblock
-\begin{APACrefURL} \url{https://doi.org/10.1214/09-SS057} \end{APACrefURL}
-\newblock
 \begin{APACrefDOI} \doi{10.1214/09-SS057} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
@@ -5685,8 +5609,8 @@ Peirce, C\BPBI S.%
 \newblock
 \APACrefYear{1932}.
 \newblock
-\APACrefbtitle {Collected Papers of Charles Sanders Peirce} {Collected papers
-  of charles sanders peirce}.
+\APACrefbtitle {{Collected Papers of Charles Sanders Peirce}} {{Collected
+  Papers of Charles Sanders Peirce}}.
 \newblock
 \APACaddressPublisher{}{Harvard University Press}.
 \newblock
@@ -5714,12 +5638,12 @@ Pennington, J.%
 \newblock
 \APACrefYearMonthDay{2014}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {GloVe: Global Vectors for Word Representation} {Glove:
-  Global vectors for word representation}.{\BBCQ}
+{\BBOQ}\APACrefatitle {{GloVe}: Global Vectors for Word Representation}
+  {{GloVe}: Global vectors for word representation}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Conference on Empirical Methods in Natural Language
-  Processing.} {Conference on empirical methods in natural language
-  processing.}
+\BIn{} \APACrefbtitle {{Conference on Empirical Methods in Natural Language
+  Processing}.} {{Conference on Empirical Methods in Natural Language
+  Processing}.}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -5739,8 +5663,8 @@ Pierce, J\BPBI R.%
 \newblock
 \APACrefYear{1980}.
 \newblock
-\APACrefbtitle {An Introduction to Information Theory} {An introduction to
-  information theory}\ (\PrintOrdinal{2nd}\ \BEd).
+\APACrefbtitle {{An Introduction to Information Theory}} {{An Introduction to
+  Information Theory}}\ (\PrintOrdinal{2nd}\ \BEd).
 \newblock
 \APACaddressPublisher{New York}{Dover}.
 \PrintBackRefs{\CurrentBib}
@@ -5762,8 +5686,8 @@ Pinker, S.%
 \newblock
 \APACrefYear{1994}.
 \newblock
-\APACrefbtitle {The Language Instinct: How the Mind Creates Language} {The
-  language instinct: How the mind creates language}.
+\APACrefbtitle {{The Language Instinct: How the Mind Creates Language}} {{The
+  Language Instinct: How the Mind Creates Language}}.
 \newblock
 \APACaddressPublisher{}{William Morrow}.
 \PrintBackRefs{\CurrentBib}
@@ -5807,7 +5731,7 @@ Plato.%
 \newblock
 \APACrefYear{380BCE/1892}.
 \newblock
-\APACrefbtitle {The Republic} {The republic}.
+\APACrefbtitle {{The Republic}} {{The Republic}}.
 \newblock
 \APACaddressPublisher{}{Oxford University Press}.
 \newblock
@@ -5834,9 +5758,9 @@ Polajnar, T.%
 \newblock
 \APACrefYearMonthDay{2014}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Improving Distributional Semantic Vectors through
-  Context Selection and Normalisation} {Improving distributional semantic
-  vectors through context selection and normalisation}.{\BBCQ}
+{\BBOQ}\APACrefatitle {{Improving Distributional Semantic Vectors through
+  Context Selection and Normalisation}} {{Improving Distributional Semantic
+  Vectors through Context Selection and Normalisation}}.{\BBCQ}
 \newblock
 \BIn{} \APACrefbtitle {Proceedings of the 14th Conference of the European
   Chapter of the Association for Computational Linguistics} {Proceedings of the
@@ -5867,8 +5791,8 @@ Pustejovsky, J.%
 {\BBOQ}\APACrefatitle {Type Coercion and Lexical Selection} {Type coercion and
   lexical selection}.{\BBCQ}
 \newblock
-\BIn{} J.~Pustejovsky\ (\BED), \APACrefbtitle {Semantics and the Lexicon}
-  {Semantics and the lexicon}\ (\BPGS\ 73--94).
+\BIn{} J.~Pustejovsky\ (\BED), \APACrefbtitle {{Semantics and the Lexicon}}
+  {{Semantics and the Lexicon}}\ (\BPGS\ 73--94).
 \newblock
 \APACaddressPublisher{}{Kluwer Academic Publishers}.
 \newblock
@@ -5892,7 +5816,7 @@ Pustejovsky, J.%
 \newblock
 \APACrefYear{1995}.
 \newblock
-\APACrefbtitle {The Generative Lexicon} {The generative lexicon}.
+\APACrefbtitle {{The Generative Lexicon}} {{The Generative Lexicon}}.
 \newblock
 \APACaddressPublisher{Cambridge, MA}{MIT Press}.
 \PrintBackRefs{\CurrentBib}
@@ -5946,8 +5870,8 @@ Pustejovsky, J.%
 \newblock
 \APACrefYearMonthDay{2010}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {SemEval-2010 {Task} 7: Argument Selection and Coercion}
-  {Semeval-2010 {Task} 7: Argument selection and coercion}.{\BBCQ}
+{\BBOQ}\APACrefatitle {{SemEval-2010 {Task} 7: Argument Selection and
+  Coercion}} {{SemEval-2010 {Task} 7: Argument Selection and Coercion}}.{\BBCQ}
 \newblock
 \BIn{} \APACrefbtitle {Proceedings of the 5th International Workshop on
   Semantic Evaluation} {Proceedings of the 5th international workshop on
@@ -5977,12 +5901,12 @@ Putnam, H.%
 {\BBOQ}\APACrefatitle {The Meaning of ``Meaning''} {The meaning of
   ``meaning''}.{\BBCQ}
 \newblock
-\BIn{} K.~Gunderson\ (\BED), \APACrefbtitle {Language, Mind, and Knowledge}
-  {Language, mind, and knowledge}\ (\BPGS\ 131--193).
+\BIn{} K.~Gunderson\ (\BED), \APACrefbtitle {{Language, Mind, and Knowledge}}
+  {{Language, Mind, and Knowledge}}\ (\BPGS\ 131--193).
 \newblock
 \APACaddressPublisher{}{University of Minnesota Press}.
 \newblock
-\begin{APACrefURL} \url{http://mcps.umn.edu/assets/pdf/7.3\_Putnam.pdf}
+\begin{APACrefURL} \url{http://mcps.umn.edu/assets/pdf/7.3_Putnam.pdf}
   \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
@@ -6003,7 +5927,7 @@ Pynchon, T.%
 \newblock
 \APACrefYear{1973}.
 \newblock
-\APACrefbtitle {Gravity's Rainbow} {Gravity's rainbow}.
+\APACrefbtitle {{Gravity's Rainbow}} {{Gravity's Rainbow}}.
 \newblock
 \APACaddressPublisher{New York, NY}{Penguin Books}.
 \PrintBackRefs{\CurrentBib}
@@ -6030,9 +5954,6 @@ Quillian, M\BPBI R.%
   simulation program and theory of language}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Communications of the ACM}{12}{8}{459--476}.
-\newblock
-\begin{APACrefURL} \url{http://doi.acm.org/10.1145/363196.363214}
-  \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.1145/363196.363214} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
@@ -6064,12 +5985,9 @@ Radinsky, K.%
   Temporal Semantic Analysis} {A word at a time: Computing word relatedness
   using temporal semantic analysis}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the 20th International World Wide Web
-  Conference} {Proceedings of the 20th international world wide web
-  conference}\ (\BPGS\ 337--346).
-\newblock
-\begin{APACrefURL} \url{http://doi.acm.org/10.1145/1963405.1963455}
-  \end{APACrefURL}
+\BIn{} \APACrefbtitle {{Proceedings of the 20th International World Wide Web
+  Conference}} {{Proceedings of the 20th International World Wide Web
+  Conference}}\ (\BPGS\ 337--346).
 \newblock
 \begin{APACrefDOI} \doi{10.1145/1963405.1963455} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
@@ -6098,7 +6016,7 @@ Rastogi, P.%
 {\BBOQ}\APACrefatitle {Multiview LSA: Representation Learning Via Generalized
   CCA} {Multiview lsa: Representation learning via generalized cca}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of NAACL.} {Proceedings of naacl.}
+\BIn{} \APACrefbtitle {{Proceedings of NAACL}.} {{Proceedings of NAACL}.}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -6128,9 +6046,9 @@ Recski, G.%
   Networks} {Measuring semantic similarity of words using concept
   networks}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the 1st Workshop on Representation
-  Learning for NLP} {Proceedings of the 1st workshop on representation learning
-  for nlp}\ (\BPGS\ 193--200).
+\BIn{} \APACrefbtitle {{Proceedings of the 1st Workshop on Representation
+  Learning for NLP}} {{Proceedings of the 1st Workshop on Representation
+  Learning for NLP}}\ (\BPGS\ 193--200).
 \newblock
 \APACaddressPublisher{Berlin, Germany}{}.
 \PrintBackRefs{\CurrentBib}
@@ -6181,9 +6099,9 @@ Riedl, M.%
   Method to Compute Distributional Thesauri} {Scaling to large$^{3}$ data: An
   efficient and effective method to compute distributional thesauri}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the 2013 Conference on Empirical Methods
-  in Natural Language Processing} {Proceedings of the 2013 conference on
-  empirical methods in natural language processing}\ (\BPGS\ 884--890).
+\BIn{} \APACrefbtitle {{Proceedings of the 2013 Conference on Empirical Methods
+  in Natural Language Processing}} {{Proceedings of the 2013 Conference on
+  Empirical Methods in Natural Language Processing}}\ (\BPGS\ 884--890).
 \newblock
 \begin{APACrefURL} \url{http://aclweb.org/anthology/D/D13/D13-1089.pdf}
   \end{APACrefURL}
@@ -6209,10 +6127,10 @@ Rimell, L.%
 {\BBOQ}\APACrefatitle {Distributional Lexical Entailment by Topic Coherence}
   {Distributional lexical entailment by topic coherence}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the 14th Conference of the European
-  Chapter of the Association for Computational Linguistics.} {Proceedings of
-  the 14th conference of the european chapter of the association for
-  computational linguistics.}
+\BIn{} \APACrefbtitle {{Proceedings of the 14th Conference of the European
+  Chapter of the Association for Computational Linguistics}.} {{Proceedings of
+  the 14th Conference of the European Chapter of the Association for
+  Computational Linguistics}.}
 \newblock
 \APACaddressPublisher{Gothenburg}{}.
 \PrintBackRefs{\CurrentBib}
@@ -6262,8 +6180,8 @@ R\k{a}czaszek-Leonardi, J.%
   {Language as a system of replicable constraints}.{\BBCQ}
 \newblock
 \BIn{} H\BPBI H.~Pattee\ \BBA {} J.~R\k{a}czaszek-Leonardi\ (\BEDS),
-  \APACrefbtitle {Laws, Lanuage and Life} {Laws, lanuage and life}\
-  (\BPG~295-333).
+  \APACrefbtitle {{Laws, Lanuage and Life}} {{Laws, Lanuage and Life}}\ (\BPGS\
+  295--333).
 \newblock
 \APACaddressPublisher{}{Springer}.
 \PrintBackRefs{\CurrentBib}
@@ -6296,6 +6214,38 @@ R\k{a}czaszek-Leonardi, J.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+R\k{a}czaszek-Leonardi%
+, Nomikou%
+, Rohlfing%
+\BCBL {}\ \BBA {} Deacon%
+}{%
+R\k{a}czaszek-Leonardi%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2018}}%
+}]{%
+RaczasekLeonardiEA2018}
+\APACinsertmetastar {%
+RaczasekLeonardiEA2018}%
+\begin{APACrefauthors}%
+R\k{a}czaszek-Leonardi, J.%
+, Nomikou, I.%
+, Rohlfing, K\BPBI J.%
+\BCBL {}\ \BBA {} Deacon, T\BPBI W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Language Development From an Ecological Perspective:
+  Ecologically Valid Ways to Abstract Symbols} {Language development from an
+  ecological perspective: Ecologically valid ways to abstract symbols}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Ecological Psychology}{30}{1}{39-73}.
+\newblock
+\begin{APACrefDOI} \doi{10.1080/10407413.2017.1410387} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Roberts%
 \ \BBA {} Harabagiu%
 }{%
@@ -6319,9 +6269,9 @@ Roberts, K.%
   Coercion Detection} {{UTDMet}: Combining wordnet and corpus data for argument
   coercion detection}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the 5th International Workshop on
-  Semantic Evaluation} {Proceedings of the 5th international workshop on
-  semantic evaluation}\ (\BPGS\ 252--255).
+\BIn{} \APACrefbtitle {{Proceedings of the 5th International Workshop on
+  Semantic Evaluation}} {{Proceedings of the 5th International Workshop on
+  Semantic Evaluation}}\ (\BPGS\ 252--255).
 \newblock
 \begin{APACrefURL} \url{http://aclweb.org/anthology/S/S10/S10-1056.pdf}
   \end{APACrefURL}
@@ -6351,9 +6301,9 @@ Roberts, K.%
   Detection of Argument Coercions} {Unsupervised learning of selectional
   restrictions and detection of argument coercions}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the Conference on Empirical Methods in
-  Natural Language Processing} {Proceedings of the conference on empirical
-  methods in natural language processing}\ (\BPGS\ 980--990).
+\BIn{} \APACrefbtitle {{Proceedings of the Conference on Empirical Methods in
+  Natural Language Processing}} {{Proceedings of the Conference on Empirical
+  Methods in Natural Language Processing}}\ (\BPGS\ 980--990).
 \newblock
 \begin{APACrefURL} \url{http://dl.acm.org/citation.cfm?id=2145432.2145539}
   \end{APACrefURL}
@@ -6376,8 +6326,8 @@ Rorty, R.%
 \newblock
 \APACrefYear{1979}.
 \newblock
-\APACrefbtitle {Philosophy and the Mirror of Nature} {Philosophy and the mirror
-  of nature}.
+\APACrefbtitle {{Philosophy and the Mirror of Nature}} {{Philosophy and the
+  Mirror of Nature}}.
 \newblock
 \APACaddressPublisher{}{Princeton University Press}.
 \PrintBackRefs{\CurrentBib}
@@ -6399,7 +6349,7 @@ Rowlands, M.%
 \newblock
 \APACrefYear{2010}.
 \newblock
-\APACrefbtitle {The New Science of the Mind} {The new science of the mind}.
+\APACrefbtitle {{The New Science of the Mind}} {{The New Science of the Mind}}.
 \newblock
 \APACaddressPublisher{Cambridge, MA}{The MIT Press}.
 \PrintBackRefs{\CurrentBib}
@@ -6428,9 +6378,6 @@ Rubenstein, H.%
   correlates of synonymy}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Communincations of the ACM}{8}{10}{627--633}.
-\newblock
-\begin{APACrefURL} \url{http://doi.acm.org/10.1145/365628.365657}
-  \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.1145/365628.365657} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
@@ -6504,9 +6451,6 @@ Salton, G.%
   {Term-weighting approaches in automatic text retrieval}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Information Processing Management}{24}{5}{513--523}.
-\newblock
-\begin{APACrefURL} \url{http://dx.doi.org/10.1016/0306-4573(88)90021-0}
-  \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.1016/0306-4573(88)90021-0} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
@@ -6586,9 +6530,9 @@ Sch\"{u}tze, H.%
 {\BBOQ}\APACrefatitle {Context Space} {Context space}.{\BBCQ}
 \newblock
 \BIn{} R.~Goldman, P.~Norvig, E.~Charniak\BCBL {}\ \BBA {} B.~Gale\ (\BEDS),
-  \APACrefbtitle {Working Notes of the AAAI Fall Symposium on Probabilistic
-  Approaches to Natural Language} {Working notes of the aaai fall symposium on
-  probabilistic approaches to natural language}\ (\BPG~113-120).
+  \APACrefbtitle {{Working Notes of the AAAI Fall Symposium on Probabilistic
+  Approaches to Natural Language}} {{Working Notes of the AAAI Fall Symposium
+  on Probabilistic Approaches to Natural Language}}\ (\BPGS\ 113--120).
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -6610,9 +6554,9 @@ Sch\"{u}tze, H.%
 \newblock
 {\BBOQ}\APACrefatitle {Dimensions of Meaning} {Dimensions of meaning}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the 1992 ACM/IEEE conference on
-  Supercomputing} {Proceedings of the 1992 acm/ieee conference on
-  supercomputing}\ (\BPG~787-796).
+\BIn{} \APACrefbtitle {{Proceedings of the 1992 ACM/IEEE conference on
+  Supercomputing}} {{Proceedings of the 1992 ACM/IEEE conference on
+  Supercomputing}}\ (\BPG~787-796).
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -6663,9 +6607,9 @@ Schwartz, R.%
   Word Similarity Prediction} {Symmetric pattern based word embeddings for
   improved word similarity prediction}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the 19th Conference on Computational
-  Natural Language Learning} {Proceedings of the 19th conference on
-  computational natural language learning}\ (\BPGS\ 258--267).
+\BIn{} \APACrefbtitle {{Proceedings of the 19th Conference on Computational
+  Natural Language Learning}} {{Proceedings of the 19th Conference on
+  Computational Natural Language Learning}}\ (\BPGS\ 258--267).
 \newblock
 \begin{APACrefURL} \url{http://aclweb.org/anthology/K/K15/K15-1026.pdf}
   \end{APACrefURL}
@@ -6690,8 +6634,8 @@ Searle, J\BPBI R.%
 \newblock
 {\BBOQ}\APACrefatitle {Metaphor} {Metaphor}.{\BBCQ}
 \newblock
-\BIn{} A.~Ortony\ (\BED), \APACrefbtitle {Metaphor and Thought.} {Metaphor and
-  thought.}
+\BIn{} A.~Ortony\ (\BED), \APACrefbtitle {{Metaphor and Thought}.} {{Metaphor
+  and Thought}.}
 \newblock
 \APACaddressPublisher{}{Cambridge University Press}.
 \PrintBackRefs{\CurrentBib}
@@ -6736,8 +6680,8 @@ Searle, J\BPBI R.%
 \newblock
 \APACrefYear{1983}.
 \newblock
-\APACrefbtitle {Intentionality: An Essay in the Philosophy of Mind}
-  {Intentionality: An essay in the philosophy of mind}.
+\APACrefbtitle {{Intentionality: An Essay in the Philosophy of Mind}}
+  {{Intentionality: An Essay in the Philosophy of Mind}}.
 \newblock
 \APACaddressPublisher{}{Cambridge University Press}.
 \PrintBackRefs{\CurrentBib}
@@ -6759,9 +6703,9 @@ Shanahan, M.%
 \newblock
 \APACrefYear{2010}.
 \newblock
-\APACrefbtitle {Embodiment and the Inner Life: Cognition and Consciousness in
-  the Space of Possible Minds} {Embodiment and the inner life: Cognition and
-  consciousness in the space of possible minds}.
+\APACrefbtitle {{Embodiment and the Inner Life: Cognition and Consciousness in
+  the Space of Possible Minds}} {{Embodiment and the Inner Life: Cognition and
+  Consciousness in the Space of Possible Minds}}.
 \newblock
 \APACaddressPublisher{}{Oxford University Press}.
 \PrintBackRefs{\CurrentBib}
@@ -6786,8 +6730,8 @@ Shannon, C\BPBI E.%
 \newblock
 \APACrefYear{1949}.
 \newblock
-\APACrefbtitle {The Mathematical Theory of Communication} {The mathematical
-  theory of communication}.
+\APACrefbtitle {{The Mathematical Theory of Communication}} {{The Mathematical
+  Theory of Communication}}.
 \newblock
 \APACaddressPublisher{Urbana, IL}{University of Illinois Press}.
 \PrintBackRefs{\CurrentBib}
@@ -6812,9 +6756,10 @@ Shutova, E.%
 {\BBOQ}\APACrefatitle {Models of Metaphor in {NLP}} {Models of metaphor in
   {NLP}}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the 48th Annual Meeting of the
-  Association for Computational Linguistics} {Proceedings of the 48th annual
-  meeting of the association for computational linguistics}\ (\BPGS\ 688--697).
+\BIn{} \APACrefbtitle {{Proceedings of the 48th Annual Meeting of the
+  Association for Computational Linguistics}} {{Proceedings of the 48th Annual
+  Meeting of the Association for Computational Linguistics}}\ (\BPGS\
+  688--697).
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -6837,7 +6782,8 @@ Shutova, E.%
 {\BBOQ}\APACrefatitle {Metaphor Identification as Interpretation} {Metaphor
   identification as interpretation}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of *SEM 2013.} {Proceedings of *sem 2013.}
+\BIn{} \APACrefbtitle {{Proceedings of *SEM 2013}.} {{Proceedings of *SEM
+  2013}.}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -6893,9 +6839,6 @@ Shutova, E.%
 \APACjournalVolNumPages{ACM Transactions on Speech and Language
   Processing}{10}{3}{11:1--11:28}.
 \newblock
-\begin{APACrefURL} \url{http://doi.acm.org/10.1145/2483969.2483973}
-  \end{APACrefURL}
-\newblock
 \begin{APACrefDOI} \doi{10.1145/2483969.2483973} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
@@ -6945,7 +6888,7 @@ Skinner, B\BPBI F.%
 \newblock
 \APACrefYear{1957}.
 \newblock
-\APACrefbtitle {Verbal Behavior} {Verbal behavior}.
+\APACrefbtitle {{Verbal Behavior}} {{Verbal Behavior}}.
 \newblock
 \APACaddressPublisher{Acton, MA}{Copley Publishing Group}.
 \PrintBackRefs{\CurrentBib}
@@ -6973,9 +6916,9 @@ Socher, R.%
 \newblock
 \APACrefYearMonthDay{2013}{October}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Recursive Deep Models for Semantic Compositionality Over
-  a Sentiment Treebank} {Recursive deep models for semantic compositionality
-  over a sentiment treebank}.{\BBCQ}
+{\BBOQ}\APACrefatitle {{Recursive Deep Models for Semantic Compositionality
+  Over a Sentiment Treebank}} {{Recursive Deep Models for Semantic
+  Compositionality Over a Sentiment Treebank}}.{\BBCQ}
 \newblock
 \BIn{} \APACrefbtitle {Proceedings of the 2013 Conference on Empirical Methods
   in Natural Language Processing} {Proceedings of the 2013 conference on
@@ -7004,13 +6947,10 @@ Sowa, J\BPBI F.%
 \newblock
 {\BBOQ}\APACrefatitle {Semantic Networks} {Semantic networks}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Encyclopedia of Cognitive Science.} {Encyclopedia of
-  cognitive science.}
+\BIn{} \APACrefbtitle {{Encyclopedia of Cognitive Science}.} {{Encyclopedia of
+  Cognitive Science}.}
 \newblock
 \APACaddressPublisher{}{John Wiley \& Sons, Ltd}.
-\newblock
-\begin{APACrefURL} \url{http://dx.doi.org/10.1002/0470018860.s00065}
-  \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.1002/0470018860.s00065} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
@@ -7035,8 +6975,8 @@ Sperber, D.%
 \newblock
 \APACrefYear{1995}.
 \newblock
-\APACrefbtitle {Relevance: Communication and Cognition} {Relevance:
-  Communication and cognition}\ (\PrintOrdinal{2nd}\ \BEd).
+\APACrefbtitle {{Relevance: Communication and Cognition}} {{Relevance:
+  Communication and Cognition}}\ (\PrintOrdinal{2nd}\ \BEd).
 \newblock
 \APACaddressPublisher{}{Blackwell}.
 \PrintBackRefs{\CurrentBib}
@@ -7064,8 +7004,8 @@ Sperber, D.%
 {\BBOQ}\APACrefatitle {A Deflationary Account of Metaphors} {A deflationary
   account of metaphors}.{\BBCQ}
 \newblock
-\BIn{} D.~Wilson\ \BBA {} D.~Sperber\ (\BEDS), \APACrefbtitle {Meaning and
-  Relevance} {Meaning and relevance}\ (\BPGS\ 97--122).
+\BIn{} D.~Wilson\ \BBA {} D.~Sperber\ (\BEDS), \APACrefbtitle {{Meaning and
+  Relevance}} {{Meaning and Relevance}}\ (\BPGS\ 97--122).
 \newblock
 \APACaddressPublisher{}{Cambridge University Press}.
 \PrintBackRefs{\CurrentBib}
@@ -7095,9 +7035,6 @@ Spivak, D\BPBI I.%
   representation}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{PLOS ONE}{7}{1}{1--22}.
-\newblock
-\begin{APACrefURL} \url{https://doi.org/10.1371/journal.pone.0024274}
-  \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.1371/journal.pone.0024274} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
@@ -7145,9 +7082,9 @@ Sweetser, E.%
 \newblock
 \APACrefYear{1990}.
 \newblock
-\APACrefbtitle {From Etymology to Pragmatics: Metaphor and Cultural Aspects of
-  Semantic Structure} {From etymology to pragmatics: Metaphor and cultural
-  aspects of semantic structure}.
+\APACrefbtitle {{From Etymology to Pragmatics: Metaphor and Cultural Aspects of
+  Semantic Structure}} {{From Etymology to Pragmatics: Metaphor and Cultural
+  Aspects of Semantic Structure}}.
 \newblock
 \APACaddressPublisher{}{Cambridge University Press}.
 \PrintBackRefs{\CurrentBib}
@@ -7172,8 +7109,8 @@ Szabolcsi, A.%
 {\BBOQ}\APACrefatitle {Combinatory Grammar and Projection from the Lexicon}
   {Combinatory grammar and projection from the lexicon}.{\BBCQ}
 \newblock
-\BIn{} I\BPBI A.~Sag\ \BBA {} A.~Szabolcsi\ (\BEDS), \APACrefbtitle {Lexical
-  Matters.} {Lexical matters.}
+\BIn{} I\BPBI A.~Sag\ \BBA {} A.~Szabolcsi\ (\BEDS), \APACrefbtitle {{Lexical
+  Matters}.} {{Lexical Matters}.}
 \newblock
 \APACaddressPublisher{}{CSLI Publications}.
 \PrintBackRefs{\CurrentBib}
@@ -7202,9 +7139,9 @@ Thomas, M\BPBI S\BPBI C.%
   Implementation} {Metaphor as categorisation: A connectionist
   implementation}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the AISB '99 Symposium on Metaphor,
-  Artificial Intelligence, and Cognition.} {Proceedings of the aisb '99
-  symposium on metaphor, artificial intelligence, and cognition.}
+\BIn{} \APACrefbtitle {{Proceedings of the AISB '99 Symposium on Metaphor,
+  Artificial Intelligence, and Cognition}.} {{Proceedings of the AISB '99
+  Symposium on Metaphor, Artificial Intelligence, and Cognition}.}
 \newblock
 \APACaddressPublisher{University of Edinburgh}{}.
 \PrintBackRefs{\CurrentBib}
@@ -7226,7 +7163,7 @@ Thompson, E.%
 \newblock
 \APACrefYear{2007}.
 \newblock
-\APACrefbtitle {Mind in Life} {Mind in life}.
+\APACrefbtitle {{Mind in Life}} {{Mind in Life}}.
 \newblock
 \APACaddressPublisher{Cambridge, MA}{Harvard University Press}.
 \PrintBackRefs{\CurrentBib}
@@ -7279,13 +7216,10 @@ Toutanova, K.%
   Entropy Part-of-speech Tagger} {Enriching the knowledge sources used in a
   maximum entropy part-of-speech tagger}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the 2000 Joint SIGDAT Conference on
-  Empirical Methods in Natural Language Processing and Very Large Corpora}
-  {Proceedings of the 2000 joint sigdat conference on empirical methods in
-  natural language processing and very large corpora}\ (\BPGS\ 63--70).
-\newblock
-\begin{APACrefURL} \url{https://doi.org/10.3115/1117794.1117802}
-  \end{APACrefURL}
+\BIn{} \APACrefbtitle {{Proceedings of the 2000 Joint SIGDAT Conference on
+  Empirical Methods in Natural Language Processing and Very Large Corpora}}
+  {{Proceedings of the 2000 Joint SIGDAT Conference on Empirical Methods in
+  Natural Language Processing and Very Large Corpora}}\ (\BPGS\ 63--70).
 \newblock
 \begin{APACrefDOI} \doi{10.3115/1117794.1117802} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
@@ -7318,11 +7252,10 @@ Tsvetkov, Y.%
 {\BBOQ}\APACrefatitle {Metaphor Detection with Cross-Lingual Model Transfer}
   {Metaphor detection with cross-lingual model transfer}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the 52nd Annual Meeting of the
-  Association for Computational Linguistics} {Proceedings of the 52nd annual
-  meeting of the association for computational linguistics}\ (\BPGS\ 248--258).
-\newblock
-\APACaddressPublisher{}{The Association for Computer Linguistics}.
+\BIn{} \APACrefbtitle {{Proceedings of the 52nd Annual Meeting of the
+  Association for Computational Linguistics}} {{Proceedings of the 52nd Annual
+  Meeting of the Association for Computational Linguistics}}\ (\BPGS\
+  248--258).
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -7346,11 +7279,9 @@ Turney, P\BPBI D.%
   {TOEFL}} {Mining the web for synonyms: {PMI-IR} versus {LSA} on
   {TOEFL}}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the 12th European Conference on Machine
-  Learning} {Proceedings of the 12th european conference on machine learning}\
-  (\BPGS\ 491--502).
-\newblock
-\APACaddressPublisher{London, UK, UK}{Springer-Verlag}.
+\BIn{} \APACrefbtitle {{Proceedings of the 12th European Conference on Machine
+  Learning}} {{Proceedings of the 12th European Conference on Machine
+  Learning}}\ (\BPGS\ 491--502).
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -7380,9 +7311,9 @@ Turney, P\BPBI D.%
   Concrete and Abstract Context} {Literal and metaphorical sense identification
   through concrete and abstract context}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the 2011 Conference on Empirical Methods
-  in Natural Language Processing} {Proceedings of the 2011 conference on
-  empirical methods in natural language processing}\ (\BPGS\ 680--690).
+\BIn{} \APACrefbtitle {{Proceedings of the 2011 Conference on Empirical Methods
+  in Natural Language Processing}} {{Proceedings of the 2011 Conference on
+  Empirical Methods in Natural Language Processing}}\ (\BPGS\ 680--690).
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -7460,9 +7391,6 @@ Utsumi, A.%
 \newblock
 \APACjournalVolNumPages{Cognitive Science}{35}{2}{251--296}.
 \newblock
-\begin{APACrefURL} \url{http://dx.doi.org/10.1111/j.1551-6709.2010.01144.x}
-  \end{APACrefURL}
-\newblock
 \begin{APACrefDOI} \doi{10.1111/j.1551-6709.2010.01144.x} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
@@ -7515,9 +7443,10 @@ van~der {Velde}, F.%
 {\BBOQ}\APACrefatitle {A Semantic Map for Evaluating Creativity} {A semantic
   map for evaluating creativity}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the Sixth International Conference on
-  Computational Creativity (ICCC 2015)} {Proceedings of the sixth international
-  conference on computational creativity (iccc 2015)}\ (\BPGS\ 94--101).
+\BIn{} \APACrefbtitle {{Proceedings of the Sixth International Conference on
+  Computational Creativity (ICCC 2015)}} {{Proceedings of the Sixth
+  International Conference on Computational Creativity (ICCC 2015)}}\ (\BPGS\
+  94--101).
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -7565,9 +7494,9 @@ Veale, T.%
   bad-ass blends: {A} robust computational model of conceptual
   blending}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the Third International Conference on
-  Computational Creativity} {Proceedings of the third international conference
-  on computational creativity}\ (\BPGS\ 1--8).
+\BIn{} \APACrefbtitle {{Proceedings of the Third International Conference on
+  Computational Creativity}} {{Proceedings of the Third International
+  Conference on Computational Creativity}}\ (\BPGS\ 1--8).
 \newblock
 \begin{APACrefURL}
   \url{http://computationalcreativity.net/iccc2012/wp-content/uploads/2012/05/001-Veale.pdf}
@@ -7589,17 +7518,14 @@ Veale, T.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{2016}{June}{}.
+\APACrefYearMonthDay{2016}{}{}.
 \newblock
 {\BBOQ}\APACrefatitle {Round Up The Usual Suspects: Knowledge-Based Metaphor
   Generation} {Round up the usual suspects: Knowledge-based metaphor
   generation}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the Fourth Workshop on Metaphor in NLP}
-  {Proceedings of the fourth workshop on metaphor in nlp}\ (\BPGS\ 34--41).
-\newblock
-\APACaddressPublisher{San Diego, California}{Association for Computational
-  Linguistics}.
+\BIn{} \APACrefbtitle {{Proceedings of the Fourth Workshop on Metaphor in NLP}}
+  {{Proceedings of the Fourth Workshop on Metaphor in NLP}}\ (\BPGS\ 34--41).
 \newblock
 \begin{APACrefURL} \url{http://www.aclweb.org/anthology/W16-1105}
   \end{APACrefURL}
@@ -7630,7 +7556,7 @@ Veale, T.%
   generating apt metaphors: A web-driven, case-based approach to figurative
   language}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{AAAI}{}{}{1471-1476}.
+\APACjournalVolNumPages{AAAI}{}{}{1471--1476}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -7658,9 +7584,6 @@ Veale, T.%
   spatially founded meaning representation for metaphor comprehension}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Computational Intelligence}{8}{3}{494--519}.
-\newblock
-\begin{APACrefURL} \url{http://dx.doi.org/10.1111/j.1467-8640.1992.tb00377.x}
-  \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.1111/j.1467-8640.1992.tb00377.x} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
@@ -7690,14 +7613,11 @@ Veale, T.%
   {Twitter: The best of bot worlds for automated wit}.{\BBCQ}
 \newblock
 \BIn{} N.~Streitz\ \BBA {} P.~Markopoulos\ (\BEDS), \APACrefbtitle
-  {Distributed, Ambient, and Pervasive Interactions: Third International
-  Conference, DAPI} {Distributed, ambient, and pervasive interactions: Third
-  international conference, dapi}\ (\BPGS\ 689--699).
+  {{Distributed, Ambient, and Pervasive Interactions: Third International
+  Conference, DAPI}} {{Distributed, Ambient, and Pervasive Interactions: Third
+  International Conference, DAPI}}\ (\BPGS\ 689--699).
 \newblock
 \APACaddressPublisher{}{Springer International Publishing}.
-\newblock
-\begin{APACrefURL} \url{http://dx.doi.org/10.1007/978-3-319-20804-6\_63}
-  \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.1007/978-3-319-20804-6\_63} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
@@ -7747,8 +7667,8 @@ von Uexk\"{u}ll, J.%
   men: A picture book of invisible worlds}.{\BBCQ}
 \newblock
 \BIn{} C\BPBI H.~Schiller\ (\BED{} \BAnd{} \BTRANS), \APACrefbtitle
-  {Instinctive Behavior: The Development of a Modern Concept} {Instinctive
-  behavior: The development of a modern concept}\ (\BPGS\ 5--80).
+  {{Instinctive Behavior: The Development of a Modern Concept}} {{Instinctive
+  Behavior: The Development of a Modern Concept}}\ (\BPGS\ 5--80).
 \newblock
 \APACaddressPublisher{New York City, NY}{International Universities Press,
   Inc.}
@@ -7778,7 +7698,7 @@ Whitehead, A\BPBI N.%
 \newblock
 \APACrefYear{1927}.
 \newblock
-\APACrefbtitle {Principia Mathematica} {Principia mathematica}.
+\APACrefbtitle {{Principia Mathematica}} {{Principia Mathematica}}.
 \newblock
 \APACaddressPublisher{}{Cambridge University Press}.
 \PrintBackRefs{\CurrentBib}
@@ -7831,13 +7751,9 @@ Widdows, D.%
   Word-meanings and Document Retrieval} {Orthogonal negation in vector spaces
   for modelling word-meanings and document retrieval}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the 41st Annual Meeting on Association
-  for Computational Linguistics - Volume 1} {Proceedings of the 41st annual
-  meeting on association for computational linguistics - volume 1}\ (\BPGS\
-  136--143).
-\newblock
-\begin{APACrefURL} \url{http://dx.doi.org/10.3115/1075096.1075114}
-  \end{APACrefURL}
+\BIn{} \APACrefbtitle {{Proceedings of the 41st Annual Meeting on Association
+  for Computational Linguistics}} {{Proceedings of the 41st Annual Meeting on
+  Association for Computational Linguistics}}\ (\BPGS\ 136--143).
 \newblock
 \begin{APACrefDOI} \doi{10.3115/1075096.1075114} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
@@ -7859,7 +7775,7 @@ Widdows, D.%
 \newblock
 \APACrefYear{2004}.
 \newblock
-\APACrefbtitle {Geometry and Meaning} {Geometry and meaning}.
+\APACrefbtitle {{Geometry and Meaning}} {{Geometry and Meaning}}.
 \newblock
 \APACaddressPublisher{Stanford, CA}{CSLI Publications}.
 \PrintBackRefs{\CurrentBib}
@@ -7954,8 +7870,8 @@ Wille, R.%
   hierarchies of concepts.} {Restructuring lattice theory: an approach based on
   hierarchies of concepts.}{\BBCQ}
 \newblock
-\BIn{} I.~Rival\ (\BED), \APACrefbtitle {Ordered Sets} {Ordered sets}\ (\BPGS\
-  445--470).
+\BIn{} I.~Rival\ (\BED), \APACrefbtitle {{Ordered Sets}} {{Ordered Sets}}\
+  (\BPGS\ 445--470).
 \newblock
 \APACaddressPublisher{Dordrecht/Boston}{Reidel}.
 \PrintBackRefs{\CurrentBib}
@@ -7981,9 +7897,9 @@ Wille, R.%
   Concepts and Concept Hierarchies} {Formal concept analysis as mathematical
   theory of concepts and concept hierarchies}.{\BBCQ}
 \newblock
-\BIn{} (\BPGS\ 1--33).
+\APACjournalVolNumPages{Formal Concept Analysis}{}{}{1--33}.
 \newblock
-\begin{APACrefURL} \url{http://dx.doi.org/10.1007/11528784\_1} \end{APACrefURL}
+\begin{APACrefURL} \url{http://dx.doi.org/10.1007/11528784_1} \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -8003,8 +7919,8 @@ Wittgenstein, L.%
 \newblock
 \APACrefYear{1953/1967}.
 \newblock
-\APACrefbtitle {Philosophical Investigations} {Philosophical investigations}\
-  (\PrintOrdinal{3rd}\ \BEd).
+\APACrefbtitle {{Philosophical Investigations}} {{Philosophical
+  Investigations}}\ (\PrintOrdinal{3rd}\ \BEd).
 \newblock
 \APACaddressPublisher{Oxford}{Basil Blackwell}.
 \newblock
@@ -8031,11 +7947,11 @@ Yang, D.%
 \newblock
 \APACrefYearMonthDay{2006}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Verb similarity on the taxonomy of wordnet} {Verb
-  similarity on the taxonomy of wordnet}.{\BBCQ}
+{\BBOQ}\APACrefatitle {Verb similarity on the taxonomy of {W}ord{N}et} {Verb
+  similarity on the taxonomy of {W}ord{N}et}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {3rd International WordNet Conference} {3rd international
-  wordnet conference}\ (\BPGS\ 121--128).
+\BIn{} \APACrefbtitle {{3rd International WordNet Conference}} {{3rd
+  International WordNet Conference}}\ (\BPGS\ 121--128).
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -8066,10 +7982,9 @@ Znidarsic, M.%
   creativity infrastructure for online software composition: {A} conceptual
   blending use case}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the Seventh International Conference on
-  Computational Creativity, UPMC, Paris, France, June 27 - July 1, 2016.}
-  {Proceedings of the seventh international conference on computational
-  creativity, upmc, paris, france, june 27 - july 1, 2016.}\ (\BPGS\ 371--379).
+\BIn{} \APACrefbtitle {{Proceedings of the Seventh International Conference on
+  Computational Creativity}} {{Proceedings of the Seventh International
+  Conference on Computational Creativity}}\ (\BPGS\ 371--379).
 \newblock
 \begin{APACrefURL}
   \url{http://www.computationalcreativity.net/iccc2016/wp-content/uploads/2016/01/Computational-Creativity-Infrastructure-for-Online-Software-Composition.pdf}
