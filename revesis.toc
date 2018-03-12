@@ -27,14 +27,14 @@
 \contentsline {section}{\numberline {3.4}Interpretable Geometry}{46}
 \contentsline {chapter}{\numberline {4}Context Sensitive Distributional Semantics}{51}
 \contentsline {section}{\numberline {4.1}Establishing and Analysing a Large Scale Corpus}{52}
-\contentsline {section}{\numberline {4.2}Selecting Dimensions from a Sparse Co-Occurrence Matrix}{56}
+\contentsline {section}{\numberline {4.2}Selecting Dimensions from a Sparse Matrix}{56}
 \contentsline {section}{\numberline {4.3}Exploring the Geometry of a Context Specific Subspace}{62}
 \contentsline {subsection}{\numberline {4.3.1}Two Measures for Probing a Subspace}{64}
 \contentsline {subsection}{\numberline {4.3.2}Replete Geometric Analysis}{68}
 \contentsline {section}{\numberline {4.4}A Mathematical Justification for Geometric Analysis}{73}
 \contentsline {section}{\numberline {4.5}Comparing to Alternative Approaches}{75}
 \contentsline {subsection}{\numberline {4.5.1}Static Interpretations of the Base Space}{76}
-\contentsline {subsection}{\numberline {4.5.2}A Model Trained Using a Neural Network}{77}
+\contentsline {subsection}{\numberline {4.5.2}A Model Trained Using a Neural Network}{78}
 \contentsline {section}{\numberline {4.6}A Proof of Concept}{79}
 \contentsline {subsection}{\numberline {4.6.1}Experimental Set-Up}{81}
 \contentsline {subsection}{\numberline {4.6.2}Results and Analysis}{82}
